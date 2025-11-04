@@ -1,3 +1,5 @@
+'use client';
+
 import { useState } from 'react';
 import Link from 'next/link';
 import { Product } from '@/types/product';
@@ -82,7 +84,7 @@ export default function ProductCard({ product, className = '', viewMode = 'grid'
   if (viewMode === 'list') {
     return (
       <div className={`flex flex-col sm:flex-row bg-white border border-gray-200 rounded-lg overflow-hidden shadow-sm hover:shadow-card-hover transition-shadow duration-200 ${className}`}>
-        <div className="w-full sm:w-48 h-48 bg-gray-100 flex-shrink-0">
+        <div className="w-full sm:w-48 h-48 bg-gray-100 flex-shrink-0 overflow-hidden flex items-center justify-center">
           <ImageWithFallback
             src={imageUrl}
             alt={productName}
@@ -109,8 +111,8 @@ export default function ProductCard({ product, className = '', viewMode = 'grid'
               </span>
             )}
             {product.dimensions_mm_list?.[0] && (
-              <p className="mt-2 text-sm text-gray-600">
-                <span className="font-medium">Size:</span> {product.dimensions_mm_list[0]}mm
+              <p className="mt-2 text-sm text-gray-900">
+                <span className="font-medium text-gray-900">Size:</span> <span className="text-gray-900">{product.dimensions_mm_list[0]}mm</span>
               </p>
             )}
           </div>
@@ -128,7 +130,7 @@ export default function ProductCard({ product, className = '', viewMode = 'grid'
   // Grid view (default)
   return (
     <div className={`group relative bg-white border border-gray-200 rounded-lg overflow-hidden shadow-card hover:shadow-card-hover transition-all duration-200 ${className}`}>
-      <div className="w-full h-48 bg-gray-100 p-4">
+      <div className="w-full h-48 bg-gray-100 p-4 overflow-hidden flex items-center justify-center">
         <ImageWithFallback
           src={imageUrl}
           alt={productName}
@@ -225,8 +227,8 @@ export default function ProductCard({ product, className = '', viewMode = 'grid'
           )}
           {Array.isArray(product.dimensions_mm_list) && product.dimensions_mm_list.length > 0 && (
             <div className="flex items-center">
-              <span className="text-gray-500 mr-1">Sizes:</span>
-              <span>
+              <span className="text-gray-900 mr-1">Sizes:</span>
+              <span className="text-gray-900">
                 {product.dimensions_mm_list.slice(0, 3).join('mm, ')}mm
                 {product.dimensions_mm_list.length > 3 ? '...' : ''}
               </span>

@@ -2,9 +2,8 @@
 
 'use client';
 
-import { useState, useEffect, useMemo, useRef } from 'react';
-import { Search, X, ChevronDown, ChevronUp, Filter, Search as SearchIcon } from 'lucide-react';
-import { useDebounce } from 'use-debounce';
+import { useState, useEffect, useMemo } from 'react';
+import { X, ChevronDown, ChevronUp, Filter } from 'lucide-react';
 
 interface Product {
   sku: string;
@@ -125,11 +124,6 @@ export default function ProductFilters({
   onSearch = () => {},
   className = ''
 }: ProductFiltersProps) {
-  const [searchQuery, setSearchQuery] = useState('');
-  const [debouncedSearchQuery] = useDebounce(searchQuery, 200);
-  const [searchSuggestions, setSearchSuggestions] = useState<SearchSuggestion[]>([]);
-  const [showSuggestions, setShowSuggestions] = useState(false);
-  const searchRef = useRef<HTMLDivElement>(null);
   const [isCategoryOpen, setIsCategoryOpen] = useState(false);
   const [activeFilters, setActiveFilters] = useState<Record<string, string[]>>({});
   const [availableFilters, setAvailableFilters] = useState<Record<string, FilterOption[]>>({});
@@ -265,10 +259,6 @@ export default function ProductFilters({
       if (!target.closest('.category-dropdown')) {
         setIsCategoryOpen(false);
       }
-      
-      if (searchRef.current && !searchRef.current.contains(target)) {
-        setShowSuggestions(false);
-      }
     };
 
     document.addEventListener('mousedown', handleClickOutside);
@@ -277,63 +267,7 @@ export default function ProductFilters({
     };
   }, []);
 
-  // Generate search suggestions
-  useEffect(() => {
-    if (!debouncedSearchQuery.trim()) {
-      setSearchSuggestions([]);
-      return;
-    }
-
-    const query = debouncedSearchQuery.toLowerCase();
-    const suggestions: SearchSuggestion[] = [];
-
-    // Add product name matches
-    products.forEach(product => {
-      if (product.description?.toLowerCase().includes(query)) {
-        suggestions.push({
-          type: 'product',
-          value: product.sku,
-          label: product.description.split('\n')[0] || 'Product'
-        });
-      }
-    });
-
-    // Add category matches
-    const categories = new Set(products.map(p => p.product_category).filter(Boolean));
-    categories.forEach(category => {
-      if (category && category.toLowerCase().includes(query)) {
-        suggestions.push({
-          type: 'category',
-          value: category,
-          label: category
-        });
-      }
-    });
-
-    // Add SKU matches
-    products.forEach(product => {
-      if (product.sku?.toLowerCase().includes(query)) {
-        suggestions.push({
-          type: 'sku',
-          value: product.sku,
-          label: `SKU: ${product.sku}`
-        });
-      }
-    });
-
-    // Limit to 5 suggestions and remove duplicates
-    const uniqueSuggestions = Array.from(
-      new Map(suggestions.map(s => [s.value + s.type, s])).values()
-    ).slice(0, 5);
-
-    setSearchSuggestions(uniqueSuggestions);
-  }, [debouncedSearchQuery, products]);
-
-  const handleSuggestionClick = (suggestion: SearchSuggestion) => {
-    setSearchQuery(suggestion.label);
-    setShowSuggestions(false);
-    onSearch(suggestion.label);
-  };
+  // (search UI removed)
 
   // Extract unique categories from products
   const categories = useMemo(() => {
@@ -400,104 +334,6 @@ export default function ProductFilters({
 
   return (
     <div className={`space-y-4 ${className}`}>
-      {/* Search with suggestions */}
-      <div className="relative" ref={searchRef}>
-        <div className="relative">
-          <SearchIcon className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-gray-400" />
-          <input
-            type="text"
-            placeholder="Search products, categories, SKUs..."
-            value={searchQuery}
-            onChange={(e) => {
-              setSearchQuery(e.target.value);
-              setShowSuggestions(true);
-              if (!e.target.value.trim()) {
-                onSearch('');
-              }
-            }}
-            onFocus={() => setShowSuggestions(true)}
-            onKeyDown={(e) => {
-              if (e.key === 'Enter' && searchQuery.trim()) {
-                onSearch(searchQuery);
-                setShowSuggestions(false);
-              }
-            }}
-            className="w-full pl-10 pr-4 py-2.5 bg-gray-800 border border-gray-700 rounded-md focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:border-transparent text-gray-100 placeholder-gray-400 text-sm transition duration-200"
-          />
-          {searchQuery && (
-            <button
-              type="button"
-              onClick={() => {
-                setSearchQuery('');
-                onSearch('');
-                setSearchSuggestions([]);
-              }}
-              className="absolute right-2 top-1/2 -translate-y-1/2 text-gray-400 hover:text-gray-200 transition-colors"
-            >
-              <X className="h-4 w-4" />
-            </button>
-          )}
-        </div>
-
-        {/* Search Suggestions */}
-        {showSuggestions && searchSuggestions.length > 0 && (
-          <div className="absolute z-10 mt-1 w-full bg-gray-800 border border-gray-700 rounded-md shadow-lg overflow-hidden">
-            <div className="py-1">
-              {searchSuggestions.map((suggestion) => (
-                <button
-                  key={`${suggestion.type}-${suggestion.value}`}
-                  type="button"
-                  onClick={() => handleSuggestionClick(suggestion)}
-                  className="w-full text-left px-4 py-2 text-sm text-gray-200 hover:bg-gray-700 flex items-center gap-2"
-                >
-                  {suggestion.type === 'product' && (
-                    <SearchIcon className="h-4 w-4 text-yellow-400 flex-shrink-0" />
-                  )}
-                  {suggestion.type === 'category' && (
-                    <svg className="h-4 w-4 text-blue-400 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" />
-                    </svg>
-                  )}
-                  {suggestion.type === 'sku' && (
-                    <svg className="h-4 w-4 text-green-400 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2" />
-                    </svg>
-                  )}
-                  <span className="truncate">{suggestion.label}</span>
-                </button>
-              ))}
-            </div>
-          </div>
-        )}
-
-        {/* Search Legend */}
-        <div className="mt-2 flex flex-wrap items-center gap-x-4 gap-y-1 text-xs text-gray-400">
-          <span className="font-medium">Search for:</span>
-          <div className="flex items-center gap-1">
-            <SearchIcon className="h-3 w-3 text-yellow-400" />
-            <span>Product names</span>
-          </div>
-          <div className="flex items-center gap-1">
-            <svg className="h-3 w-3 text-blue-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" />
-            </svg>
-            <span>Categories</span>
-          </div>
-          <div className="flex items-center gap-1">
-            <svg className="h-3 w-3 text-green-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2" />
-            </svg>
-            <span>SKUs</span>
-          </div>
-          <div className="flex items-center gap-1">
-            <svg className="h-3 w-3 text-purple-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z" />
-            </svg>
-            <span>PDF Documents</span>
-          </div>
-        </div>
-      </div>
-
       {/* Active filters */}
       {Object.keys(activeFilters).some(key => activeFilters[key].length > 0) && (
         <div className="space-y-2 bg-gray-800 p-3 rounded-lg">

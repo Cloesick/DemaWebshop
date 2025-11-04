@@ -1,26 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-  
-  // Disable turbopack (the new experimental bundler)
-  experimental: {
-    // Disable turbopack
-    turbopack: false,
-    // Enable better image optimization
-    optimizeCss: true,
-  },
-
-  // Handle WebSocket connections for HMR
-  webpack: (config, { isServer, dev }) => {
-    if (dev && !isServer) {
-      config.watchOptions = {
-        ...config.watchOptions,
-        poll: 1000,
-        ignored: ['node_modules/**', '.git/**'],
-      }
-    }
-    return config
-  },
+  // Opt in to Turbopack by providing an empty config (required when no webpack config is present)
+  turbopack: {},
 
   // Handle images from external sources
   images: {

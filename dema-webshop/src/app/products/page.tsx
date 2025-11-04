@@ -1,487 +1,285 @@
 'use client';
 
-import { useState, useEffect, useCallback, useMemo } from 'react';
-import { useSearchParams, useRouter, usePathname } from 'next/navigation';
-import { Product, ProductFilters } from '@/types/product';
-import { Button } from '@/components/ui/button';
-import { Input } from '@/components/ui/input';
-import { Card, CardContent, CardFooter, CardHeader, CardTitle } from '@/components/ui/card';
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
-import { Skeleton } from '@/components/ui/skeleton';
-import { Badge } from '@/components/ui/badge';
-import { Search, Filter, X } from 'lucide-react';
+import { useMemo, useState, useCallback, useEffect, useRef } from 'react';
+import { useRouter } from 'next/navigation';
+import Navbar from '@/components/layout/Navbar';
+import ProductFilters from '@/components/products/ProductFilters';
+import ProductList from '@/components/products/ProductList';
+import ProductCard from '@/components/products/ProductCard';
+import type { Product } from '@/types/product';
 
-// Default filters
-const DEFAULT_FILTERS: ProductFilters = {
-  category: undefined,
-  searchTerm: undefined,
-  minPrice: undefined,
-  maxPrice: undefined,
-  minPower: undefined,
-  maxPower: undefined,
-  minPressure: undefined,
-  maxPressure: undefined,
-  limit: 24,
-  skip: 0,
-  sortBy: 'name',
-  sortOrder: 'asc',
-} as const;
+// Static sample products (no API)
+const SAMPLE_PRODUCTS: Product[] = [
+  {
+    sku: 'DEMO-1001',
+    name: 'Aluminium Air Pipe 20mm',
+    description: 'Lightweight aluminium air piping – 20mm diameter for industrial compressed air.',
+    product_category: 'Air Piping',
+    pdf_source: '/documents/specs/air-pipe-20mm.pdf',
+    source_pages: [1, 2],
+    pressure_max_bar: 16,
+    pressure_min_bar: 6,
+    dimensions_mm_list: [20, 25, 32],
+    length_mm: 3000,
+    weight_kg: 1.2,
+  },
+  {
+    sku: 'DEMO-2002',
+    name: 'Compressed Air Filter 1/2"',
+    description: 'High-efficiency compressed air filter for moisture and particle removal.',
+    product_category: 'Filters',
+    pdf_source: '/documents/specs/air-filter-half-inch.pdf',
+    source_pages: [3],
+    pressure_max_bar: 12,
+    dimensions_mm_list: [10, 20],
+    weight_kg: 0.8,
+  },
+  {
+    sku: 'DEMO-3003',
+    name: 'Rotary Screw Compressor 7.5kW',
+    description: 'Reliable 7.5kW rotary screw compressor, ideal for workshops and SMEs.',
+    product_category: 'Compressors',
+    pdf_source: '/documents/specs/rotary-screw-7_5kw.pdf',
+    source_pages: [4, 5],
+    pressure_max_bar: 10,
+    power_kw: 7.5,
+    voltage_v: 400,
+    flow_l_min: 980,
+    weight_kg: 180,
+  },
+];
 
-const ProductsPage = () => {
+export default function ProductsPage() {
   const router = useRouter();
-  const pathname = usePathname();
-  const searchParams = useSearchParams();
-  
-  // State for products and loading
-  const [products, setProducts] = useState<Product[]>([]);
-  const [isLoading, setIsLoading] = useState(true);
-  const [error, setError] = useState<string | null>(null);
-  const [totalProducts, setTotalProducts] = useState(0);
-  const [hasMore, setHasMore] = useState(false);
-  
-  // Initialize filters state
-  const [filters, setFilters] = useState<ProductFilters>(() => {
-    const params = new URLSearchParams(searchParams.toString());
-    
-    return {
-      ...DEFAULT_FILTERS,
-      category: params.get('category') || undefined,
-      searchTerm: params.get('searchTerm') || undefined,
-      minPrice: params.get('minPrice') ? Number(params.get('minPrice')) : undefined,
-      maxPrice: params.get('maxPrice') ? Number(params.get('maxPrice')) : undefined,
-      minPower: params.get('minPower') ? Number(params.get('minPower')) : undefined,
-      maxPower: params.get('maxPower') ? Number(params.get('maxPower')) : undefined,
-      minPressure: params.get('minPressure') ? Number(params.get('minPressure')) : undefined,
-      maxPressure: params.get('maxPressure') ? Number(params.get('maxPressure')) : undefined,
-      limit: params.get('limit') ? Number(params.get('limit')) : DEFAULT_FILTERS.limit,
-      skip: params.get('skip') ? Number(params.get('skip')) : DEFAULT_FILTERS.skip,
-      sortBy: (params.get('sortBy') as keyof Product) || DEFAULT_FILTERS.sortBy,
-      sortOrder: (params.get('sortOrder') as 'asc' | 'desc') || DEFAULT_FILTERS.sortOrder,
-    };
-  });
-      sortOrder: (params.get('sortOrder') as 'asc' | 'desc') || DEFAULT_FILTERS.sortOrder,
-    };
-  });
-  
-  // Update URL when filters change
-  const updateURL = useCallback((newFilters: Partial<ProductFilters>) => {
-    const params = new URLSearchParams();
-    
-    // Set all filter values
-    Object.entries({ ...DEFAULT_FILTERS, ...filters, ...newFilters }).forEach(([key, value]) => {
-      if (value !== undefined && value !== null && value !== '') {
-        params.set(key, String(value));
-      }
+  const [activeCategory, setActiveCategory] = useState<string | undefined>(undefined);
+  const [searchTerm, setSearchTerm] = useState<string>('');
+  const [suggestions, setSuggestions] = useState<{ type: 'product' | 'category' | 'sku'; value: string; label: string }[]>([]);
+  const [showSuggestions, setShowSuggestions] = useState(false);
+  const searchRef = useRef<HTMLDivElement>(null);
+
+  const filtered = useMemo(() => {
+    const term = searchTerm.trim().toLowerCase();
+    return SAMPLE_PRODUCTS.filter((p) => {
+      const matchesCategory = activeCategory ? p.product_category === activeCategory : true;
+      const matchesSearch = term
+        ? [p.sku, (p as any).name, p.description, p.product_category]
+            .filter(Boolean)
+            .some((v) => String(v).toLowerCase().includes(term))
+        : true;
+      return matchesCategory && matchesSearch;
     });
-    
-    // Remove default values to keep URL clean
-    Object.entries(DEFAULT_FILTERS).forEach(([key, defaultValue]) => {
-      if (params.get(key) === String(defaultValue)) {
-        params.delete(key);
-      }
-    });
-    
-    // Update URL without causing a full page reload
-    router.push(`${pathname}?${params.toString()}`, { scroll: false });
-  }, [filters, pathname, router]);
-  
-  // Handle filter changes
-  const handleFilterChange = useCallback((newFilters: Partial<ProductFilters>) => {
-    setFilters(prev => {
-      const updatedFilters = {
-        ...prev,
-        ...newFilters,
-        skip: 0, // Reset to first page when filters change
-      };
-      updateURL(updatedFilters);
-      return updatedFilters;
-    });
-  }, [updateURL]);
-  
-  // Handle search
-  const handleSearch = useCallback((searchTerm: string) => {
-    handleFilterChange({ searchTerm: searchTerm || undefined });
-  }, [handleFilterChange]);
-  
-  // Handle sort change
-  const handleSortChange = useCallback((value: string) => {
-    const [sortBy, sortOrder] = value.split('_');
-    if (sortBy && (sortOrder === 'asc' || sortOrder === 'desc')) {
-      handleFilterChange({
-        sortBy: sortBy as keyof Product,
-        sortOrder: sortOrder as 'asc' | 'desc',
-        skip: 0, // Reset to first page when sorting changes
-      });
-    }
-  }, [handleFilterChange]);
-  
-  // Handle load more
-  const handleLoadMore = useCallback(() => {
-    const newSkip = (filters.skip || 0) + (filters.limit || 24);
-    handleFilterChange({ skip: newSkip });
-  }, [filters.skip, filters.limit, handleFilterChange]);
-  
-  // Update filters when URL changes
+  }, [activeCategory, searchTerm]);
+
+  const handleFilterChange = useCallback((filters: Record<string, string[]>) => {
+    setActiveCategory(filters.category?.[0]);
+  }, []);
+
+  // Build suggestions locally (debounced ~150ms)
   useEffect(() => {
-    const params = new URLSearchParams(searchParams.toString());
-    const newFilters: Partial<ProductFilters> = {};
-    
-    // Only update filters that have changed
-    (Object.keys(filters) as Array<keyof ProductFilters>).forEach(key => {
-      const paramValue = params.get(key);
-      
-      if (paramValue === null) {
-        if (filters[key] !== undefined) {
-          newFilters[key] = undefined;
-        }
-      } else {
-        const currentValue = filters[key];
-        let parsedValue: any = paramValue;
-        
-        // Parse numbers
-        if ([
-          'minPrice', 'maxPrice', 'minPower', 'maxPower', 
-          'minPressure', 'maxPressure', 'limit', 'skip'
-        ].includes(key)) {
-          parsedValue = paramValue ? Number(paramValue) : undefined;
-        }
-        
-        // Only update if value has changed
-        if (currentValue !== parsedValue) {
-          newFilters[key] = parsedValue;
-        }
-      }
-    });
-    
-    if (Object.keys(newFilters).length > 0) {
-      setFilters(prev => ({
-        ...prev,
-        ...newFilters,
-      }));
+    const q = searchTerm.trim().toLowerCase();
+    if (!q || q.length < 2) {
+      setSuggestions([]);
+      return;
     }
-  }, [searchParams, filters]);
-  
-  // Fetch products with current filters
-  const fetchProducts = useCallback(async () => {
-    try {
-      setIsLoading(true);
-      setError(null);
-      
-      // Convert filters to URLSearchParams
-      const params = new URLSearchParams();
-      
-      // Only include defined, non-null, and non-empty string values
-      (Object.entries(filters) as [keyof ProductFilters, any][]).forEach(([key, value]) => {
-        if (value !== undefined && value !== null && value !== '') {
-          params.set(key, String(value));
+    const t = setTimeout(() => {
+      const sugg: { type: 'product' | 'category' | 'sku'; value: string; label: string }[] = [];
+      // products by description/name
+      SAMPLE_PRODUCTS.forEach(p => {
+        const title = ((p as any).name || p.sku || 'Product') as string;
+        const desc = p.description || '';
+        if (title.toLowerCase().includes(q) || desc.toLowerCase().includes(q)) {
+          sugg.push({ type: 'product', value: p.sku, label: title });
         }
       });
-      
-      // Add cache-busting parameter to prevent stale data
-      params.set('_t', Date.now().toString());
-      
-      console.log('Fetching products with params:', Object.fromEntries(params.entries()));
-      
-      const response = await fetch(`/api/products?${params.toString()}`, {
-        cache: 'no-store',
-        headers: {
-          'Cache-Control': 'no-cache, no-store, must-revalidate',
-          'Pragma': 'no-cache',
-          'Expires': '0'
+      // categories
+      const categories = Array.from(new Set(SAMPLE_PRODUCTS.map(p => p.product_category).filter(Boolean))) as string[];
+      categories.forEach(cat => {
+        if (cat && cat.toLowerCase().includes(q)) {
+          sugg.push({ type: 'category', value: cat, label: cat });
         }
       });
-      
-      if (!response.ok) {
-        const errorText = await response.text();
-        console.error('API Error:', {
-          status: response.status,
-          statusText: response.statusText,
-          error: errorText
-        });
-        throw new Error(`HTTP error! status: ${response.status} - ${response.statusText}`);
-      }
-      
-      const data = await response.json();
-      console.log('Received products data:', { 
-        count: data.products?.length || 0, 
-        total: data.total,
-        hasMore: data.hasMore,
-        filters: data.filters
+      // skus
+      SAMPLE_PRODUCTS.forEach(p => {
+        if (p.sku.toLowerCase().includes(q)) {
+          sugg.push({ type: 'sku', value: p.sku, label: `SKU: ${p.sku}` });
+        }
       });
-      
-      // If we're loading more, append to existing products
-      if (filters.skip && filters.skip > 0) {
-        setProducts(prev => {
-          const newProducts = [...prev, ...(data.products || [])];
-          console.log(`Appended ${data.products?.length || 0} products, total: ${newProducts.length}`);
-          return newProducts;
-        });
-      } else {
-        console.log(`Loaded ${data.products?.length || 0} products`);
-        setProducts(data.products || []);
+      // de-duplicate by type+value and limit
+      const unique: typeof sugg = [];
+      const seen = new Set<string>();
+      for (const s of sugg) {
+        const key = `${s.type}:${s.value.toLowerCase()}`;
+        if (!seen.has(key)) {
+          unique.push(s);
+          seen.add(key);
+        }
+        if (unique.length >= 10) break;
       }
-      
-      setTotalProducts(data.total || 0);
-      setHasMore(data.hasMore || false);
-      
-    } catch (err) {
-      console.error('Error fetching products:', err);
-      setError(err instanceof Error ? err.message : 'Failed to load products');
-      setProducts([]);
-      setTotalProducts(0);
-      setHasMore(false);
-    } finally {
-      setIsLoading(false);
-    }
-  }, [filters]);
-  
-  // Update URL when filters change
-  const updateURL = useCallback((newFilters: Partial<ProductFilters>) => {
-    const params = new URLSearchParams(searchParams.toString());
-    
-    // Update or remove params based on new filters
-    Object.entries(newFilters).forEach(([key, value]) => {
-      if (value === undefined || value === null || value === '') {
-        params.delete(key);
-      } else {
-        params.set(key, String(value));
-      }
-    });
-    
-    // Reset pagination when filters change
-    if (newFilters.category || newFilters.searchTerm || newFilters.minPrice || 
-        newFilters.maxPrice || newFilters.minPower || newFilters.maxPower || 
-        newFilters.minPressure || newFilters.maxPressure) {
-      params.delete('skip');
-    }
-    
-    // Update URL without causing a full page reload
-    router.push(`${pathname}?${params.toString()}`, { scroll: false });
-  }, [pathname, router, searchParams]);
-  
-  // Handle filter changes
-  const handleFilterChange = useCallback((newFilters: Partial<ProductFilters>) => {
-    setFilters((prev: ProductFilters) => ({
-      ...prev,
-      ...newFilters,
-      skip: 0 // Reset to first page when filters change
-    }));
-    
-    updateURL(newFilters);
-  }, [updateURL]);
-  
-  // Handle search
-  const handleSearch = useCallback((searchTerm: string) => {
-    handleFilterChange({ searchTerm });
-  }, [handleFilterChange]);
-  
-  // Handle sort change
-  const handleSortChange = useCallback((value: string) => {
-    const [sortBy, sortOrder] = value.split('_');
-    if (sortBy && (sortOrder === 'asc' || sortOrder === 'desc')) {
-      handleFilterChange({ 
-        sortBy, 
-        sortOrder,
-        skip: 0 // Reset to first page when sorting changes
-      });
-    }
-  }, [handleFilterChange]);
-  
-  // Handle pagination
-  const handleLoadMore = useCallback(() => {
-    if (isLoading || !hasMore) return;
-    
-    const newSkip = (filters.skip || 0) + (filters.limit || 24);
-    updateURL({ skip: newSkip });
-  }, [filters.skip, filters.limit, hasMore, isLoading, updateURL]);
-  
-  // Initial data fetch and when filters change
+      setSuggestions(unique);
+    }, 150);
+    return () => clearTimeout(t);
+  }, [searchTerm]);
+
+  // Outside click to close suggestions
   useEffect(() => {
-    fetchProducts();
-  }, [fetchProducts]);
-  
+    const onDown = (e: MouseEvent) => {
+      if (searchRef.current && !searchRef.current.contains(e.target as Node)) {
+        setShowSuggestions(false);
+      }
+    };
+    document.addEventListener('mousedown', onDown);
+    return () => document.removeEventListener('mousedown', onDown);
+  }, []);
+
   return (
-    <div className="container mx-auto px-4 py-8">
-      <h1 className="text-3xl font-bold mb-8">Our Products</h1>
-      
-      {/* Search and filter bar */}
-      <div className="mb-8 flex flex-col md:flex-row gap-4">
-        <div className="relative flex-1">
-          <Search className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-gray-400" />
-          <div className="relative w-full">
-            <Search className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-muted-foreground" />
-            <div className="relative w-full">
-              <Search className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-muted-foreground" />
-              <Input
-                type="text"
-                placeholder="Search products..."
-                className="w-full pl-9"
-                value={filters.searchTerm || ''}
-                onChange={(e) => handleSearch(e.target.value)}
-              />
-            </div>
-          </div>
-        </div>
-        
-        <Select 
-          value={`${filters.sortBy}_${filters.sortOrder}`}
-          onValueChange={handleSortChange}
-        >
-          <SelectTrigger className="w-[180px]">
-            <SelectValue placeholder="Sort by" />
-          </SelectTrigger>
-          <SelectContent>
-            <SelectItem value="name_asc">Name (A-Z)</SelectItem>
-            <SelectItem value="name_desc">Name (Z-A)</SelectItem>
-            <SelectItem value="price_asc">Price (Low to High)</SelectItem>
-            <SelectItem value="price_desc">Price (High to Low)</SelectItem>
-          </SelectContent>
-        </Select>
-        
-        <Button 
-          onClick={() => updateURL({})}
-        >
-          <X className="h-4 w-4 mr-2" />
-          Clear filters
-        </Button>
-      </div>
-      
-      <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
-        {/* Filters sidebar */}
-        <div className="md:col-span-1">
-          <div className="bg-white p-4 rounded-lg shadow">
-            <h3 className="font-medium mb-4">Filters</h3>
-            {/* Category filter */}
-            <div className="mb-4">
-              <label className="block text-sm font-medium mb-2">Category</label>
-              <Select 
-                value={filters.category || 'all'}
-                onValueChange={(value) => handleFilterChange({ category: value === 'all' ? undefined : value })}
-              >
-                <SelectTrigger>
-                  <SelectValue placeholder="Select category" />
-                </SelectTrigger>
-                <SelectContent>
-                  <SelectItem value="all">All Categories</SelectItem>
-                  {Array.from(new Set(products.map(p => p.product_category)))
-                    .filter(Boolean)
-                    .map(category => (
-                      <SelectItem key={category} value={category}>
-                        {category}
-                      </SelectItem>
-                    ))}
-                </SelectContent>
-              </Select>
-            </div>
-            {/* Price range */}
-            <div className="mb-4">
-              <label className="block text-sm font-medium mb-2">Price Range</label>
-              <div className="grid gap-1">
-                <Input
-                  type="number"
-                  placeholder="Min"
-                  value={filters.minPrice || ''}
-                  onChange={(e) => handleFilterChange({ 
-                    minPrice: e.target.value ? Number(e.target.value) : undefined 
-                  })}
-                />
-              </div>
-              <div className="grid gap-1">
-                <Input
-                  type="number"
-                  placeholder="Max"
-                  value={filters.maxPrice || ''}
-                  onChange={(e) => handleFilterChange({ 
-                    maxPrice: e.target.value ? Number(e.target.value) : undefined 
-                  })}
-                />
-              </div>
-            </div>
-          </div>
-        </div>
-        
-        {/* Product list */}
-        <div className="md:col-span-3">
-          {isLoading && products.length === 0 ? (
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-              {Array.from({ length: 6 }).map((_, i) => (
-                <div key={i} className="space-y-3">
-                  <Skeleton className="h-48 w-full rounded-lg" />
-                  <Skeleton className="h-6 w-3/4 rounded" />
-                  <Skeleton className="h-4 w-1/2 rounded" />
-                </div>
-              ))}
-            </div>
-          ) : error ? (
-            <div className="text-center py-12">
-              <p className="text-red-500 mb-4">{error}</p>
-              <Button 
-                onClick={fetchProducts}
-              >
-                Retry
-              </Button>
-            </div>
-          ) : products.length === 0 ? (
-            <div className="text-center py-12">
-              <p className="text-gray-500 mb-4">No products found. Try adjusting your filters.</p>
-              <Button 
-                variant="outline"
-                onClick={() => updateURL({})}
-              >
-                Clear all filters
-              </Button>
-            </div>
-          ) : (
-            <>
-              <div className="mb-4 text-sm text-gray-500">
-                Showing {products.length} of {totalProducts} products
-              </div>
-              
-              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-                {products.map((product) => (
-                  <div 
-                    key={product.sku} 
-                    className="border rounded-lg overflow-hidden hover:shadow-md transition-shadow cursor-pointer"
-                    onClick={() => router.push(`/products/${product.sku}`)}
+    <div className="min-h-screen flex flex-col">
+      <Navbar />
+      <main className="container mx-auto px-4 py-8 flex-1">
+        <h1 className="text-3xl font-bold mb-6">Products</h1>
+
+        {/* Container-width search input with local suggestions */}
+        <div className="mb-6 relative" ref={searchRef}>
+          <input
+            placeholder="Search products, categories, SKUs..."
+            className="w-full pl-10 pr-9 py-2.5 bg-gray-800 border border-gray-700 rounded-md focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:border-transparent text-gray-100 placeholder-gray-400 text-sm transition duration-200"
+            type="text"
+            value={searchTerm}
+            onChange={(e) => {
+              setSearchTerm(e.target.value);
+              setShowSuggestions(true);
+            }}
+            onFocus={() => setShowSuggestions(true)}
+          />
+          {/* Magnifier icon */}
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="2"
+            className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-gray-400"
+          >
+            <circle cx="11" cy="11" r="8" />
+            <line x1="21" y1="21" x2="16.65" y2="16.65" />
+          </svg>
+          {/* Clear button */}
+          {searchTerm && (
+            <button
+              type="button"
+              className="absolute right-2 top-1/2 -translate-y-1/2 text-gray-400 hover:text-gray-200"
+              onClick={() => {
+                setSearchTerm('');
+                setSuggestions([]);
+                setShowSuggestions(false);
+              }}
+              aria-label="Clear search"
+            >
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="h-4 w-4">
+                <line x1="18" y1="6" x2="6" y2="18" />
+                <line x1="6" y1="6" x2="18" y2="18" />
+              </svg>
+            </button>
+          )}
+          {/* Suggestions dropdown */}
+          {showSuggestions && searchTerm.trim().length >= 2 && suggestions.length > 0 && (
+            <div className="absolute z-10 mt-1 w-full bg-gray-800 border border-gray-700 rounded-md shadow-lg overflow-hidden">
+              <div className="py-1">
+                {suggestions.map((s) => (
+                  <button
+                    key={`${s.type}-${s.value}`}
+                    type="button"
+                    onClick={() => {
+                      if (s.type === 'category') {
+                        setActiveCategory(s.value);
+                      } else {
+                        // navigate to product detail page for product or SKU
+                        router.push(`/products/${s.value}`);
+                      }
+                      setShowSuggestions(false);
+                    }}
+                    className="w-full text-left px-4 py-2 text-sm text-gray-200 hover:bg-gray-700 flex items-center gap-2"
                   >
-                    <div className="aspect-square bg-gray-100 flex items-center justify-center">
-                      {product.imageUrl ? (
-                        <img 
-                          src={product.imageUrl} 
-                          alt={product.name} 
-                          className="w-full h-full object-cover"
-                        />
-                      ) : (
-                        <div className="text-gray-400">No image</div>
-                      )}
-                    </div>
-                    <div className="p-4">
-                      <h3 className="font-medium">{product.name}</h3>
-                      <p className="text-sm text-gray-500">{product.product_category}</p>
-                      {product.price !== undefined && (
-                        <p className="mt-2 font-semibold">
-                          ${product.price.toFixed(2)}
-                        </p>
-                      )}
-                    </div>
-                  </div>
+                    {s.type === 'product' && (
+                      <svg className="h-4 w-4 text-yellow-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                        <circle cx="12" cy="12" r="9" />
+                      </svg>
+                    )}
+                    {s.type === 'category' && (
+                      <svg className="h-4 w-4 text-blue-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                        <rect x="4" y="4" width="16" height="16" rx="2" />
+                      </svg>
+                    )}
+                    {s.type === 'sku' && (
+                      <svg className="h-4 w-4 text-green-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                        <path d="M4 7h16M4 12h10M4 17h7" />
+                      </svg>
+                    )}
+                    <span className="truncate">{s.label}</span>
+                  </button>
                 ))}
               </div>
-              
-              {hasMore && (
-                <div className="mt-8 text-center">
-                  <Button 
-                    onClick={handleLoadMore}
-                    disabled={isLoading}
-                  >
-                    {isLoading ? 'Loading...' : 'Load More'}
-                  </Button>
-                </div>
-              )}
-            </>
+            </div>
           )}
         </div>
-      </div>
+
+        {/* Search Legend */}
+        <div className="mt-2 flex flex-wrap items-center gap-x-4 gap-y-1 text-xs text-black">
+          <span className="font-medium">Search for:</span>
+          <div className="flex items-center gap-1">
+            <svg className="h-3 w-3 text-yellow-500" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+              <circle cx="11" cy="11" r="8" />
+              <line x1="21" y1="21" x2="16.65" y2="16.65" />
+            </svg>
+            <span>Product names</span>
+          </div>
+          <div className="flex items-center gap-1">
+            <svg className="h-3 w-3 text-blue-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" />
+            </svg>
+            <span>Categories</span>
+          </div>
+          <div className="flex items-center gap-1">
+            <svg className="h-3 w-3 text-green-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2" />
+            </svg>
+            <span>SKUs</span>
+          </div>
+          <div className="flex items-center gap-1">
+            <svg className="h-3 w-3 text-purple-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z" />
+            </svg>
+            <span>PDF Documents</span>
+          </div>
+        </div>
+
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+          {/* Filters (UI-only; mapped to local state) */}
+          <aside className="md:col-span-1">
+            <ProductFilters
+              products={SAMPLE_PRODUCTS}
+              onFilterChange={handleFilterChange}
+              onSearch={(q) => setSearchTerm(q)}
+            />
+          </aside>
+
+          {/* List */}
+          <section className="md:col-span-3">
+            <div className="mb-4 text-sm text-gray-600">
+              Showing {filtered.length} of {SAMPLE_PRODUCTS.length} products
+            </div>
+            <ProductList
+              products={filtered}
+              loading={false}
+              hasMore={false}
+              renderProduct={(product) => (
+                <div className="p-2">
+                  <ProductCard product={product} />
+                </div>
+              )}
+            />
+          </section>
+        </div>
+      </main>
     </div>
-  )
+  );
 }

@@ -14,6 +14,7 @@ interface ProductListProps {
   renderProduct?: (product: Product) => React.ReactNode;
   className?: string;
   itemClassName?: string;
+  layout?: 'grid' | 'list';
 }
 
 export function ProductList({
@@ -24,6 +25,7 @@ export function ProductList({
   renderProduct,
   className = '',
   itemClassName = '',
+  layout = 'grid',
 }: ProductListProps) {
   const parentRef = useRef<HTMLDivElement>(null);
   const [initialLoad, setInitialLoad] = useState(true);
@@ -34,11 +36,11 @@ export function ProductList({
     triggerOnce: false,
   });
 
-  // Set up virtualization
+  // Set up virtualization for list layout only
   const rowVirtualizer = useVirtualizer({
-    count: products.length,
+    count: layout === 'list' ? products.length : 0,
     getScrollElement: () => parentRef.current,
-    estimateSize: useCallback(() => 400, []), // Estimated height of each item
+    estimateSize: useCallback(() => 400, []),
     overscan: 5,
   });
 
@@ -53,13 +55,13 @@ export function ProductList({
   // Default product renderer
   const defaultRenderProduct = (product: Product) => (
     <div key={product.sku} className={`p-4 border rounded-lg ${itemClassName}`}>
-      <div className="aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-lg bg-gray-100">
+      <div className="w-full overflow-hidden rounded-lg bg-gray-100">
         <ImageWithFallback
-          src={product.imageUrl}
+          src={product.imageUrl || ''}
           alt={product.description?.split('\n')[0] || 'Product'}
-          width={300}
-          height={300}
-          className="h-full w-full object-cover object-center"
+          width={600}
+          height={450}
+          className="w-full h-auto object-contain"
           fallbackText={product.product_category}
         />
       </div>
@@ -81,35 +83,39 @@ export function ProductList({
 
   return (
     <div className={`space-y-4 ${className}`}>
-      <div
-        ref={parentRef}
-        className="relative w-full overflow-auto"
-        style={{ height: '70vh' }}
-      >
-        <div
-          className="relative w-full"
-          style={{
-            height: `${rowVirtualizer.getTotalSize()}px`,
-          }}
-        >
-          {rowVirtualizer.getVirtualItems().map((virtualRow) => {
-            const product = products[virtualRow.index];
-            return (
-              <div
-                key={virtualRow.key}
-                ref={rowVirtualizer.measureElement}
-                data-index={virtualRow.index}
-                className="absolute top-0 left-0 w-full"
-                style={{
-                  transform: `translateY(${virtualRow.start}px)`,
-                }}
-              >
-                {renderer(product)}
-              </div>
-            );
-          })}
+      {layout === 'grid' ? (
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          {products.map((p) => (
+            <div key={p.sku}>{renderer(p)}</div>
+          ))}
         </div>
-      </div>
+      ) : (
+        <div
+          ref={parentRef}
+          className="relative w-full overflow-auto"
+          style={{ height: '70vh' }}
+        >
+          <div
+            className="relative w-full"
+            style={{ height: `${rowVirtualizer.getTotalSize()}px` }}
+          >
+            {rowVirtualizer.getVirtualItems().map((virtualRow) => {
+              const product = products[virtualRow.index];
+              return (
+                <div
+                  key={virtualRow.key}
+                  ref={rowVirtualizer.measureElement}
+                  data-index={virtualRow.index}
+                  className="absolute top-0 left-0 w-full"
+                  style={{ transform: `translateY(${virtualRow.start}px)` }}
+                >
+                  {renderer(product)}
+                </div>
+              );
+            })}
+          </div>
+        </div>
+      )}
 
       {loading && (
         <div className="flex justify-center py-4">
