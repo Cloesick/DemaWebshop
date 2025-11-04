@@ -1,9 +1,8 @@
 'use client';
 
-import { notFound, useParams } from 'next/navigation';
+import { useParams } from 'next/navigation';
 import { useEffect, useState } from 'react';
 import Image from 'next/image';
-import { getProductBySku } from '@/lib/products';
 import { formatCurrency } from '@/lib/utils';
 import { Button } from '@/components/ui/button';
 import { useCartStore } from '@/store/cartStore';
@@ -31,9 +30,13 @@ export default function ProductPage() {
     const fetchProduct = async () => {
       try {
         setLoading(true);
-        const productData = await getProductBySku(sku);
+        const res = await fetch(`/api/products?sku=${encodeURIComponent(String(sku))}&limit=1`);
+        if (!res.ok) throw new Error(`API ${res.status}`);
+        const data = await res.json();
+        const productData: Product | undefined = data?.products?.[0];
         if (!productData) {
-          notFound();
+          setError('Product not found');
+          setProduct(null);
           return;
         }
         setProduct(productData);

@@ -33,6 +33,7 @@ function parseQueryParams(params: URLSearchParams): ProductFilters {
     pdf_source: getParam('pdf_source') || getParam('pdf'),
     pdf: getParam('pdf'),
     searchTerm: getParam('searchTerm') || getParam('q'),
+    sku: getParam('sku'),
     
     // Price range
     minPrice: getParam('minPrice', 'number'),
@@ -84,6 +85,11 @@ function filterProducts(products: Product[], filters: ProductFilters): Product[]
   }
 
   return products.filter(product => {
+    // Exact SKU match short-circuit
+    if (filters.sku && product.sku !== filters.sku) {
+      return false;
+    }
+    
     // Filter by category (exact match)
     const categoryFilter = filters.product_category || filters.category;
     if (categoryFilter && product.product_category !== categoryFilter) {

@@ -54,6 +54,7 @@ export interface ProductFilters {
   pdf_source?: string;
   pdf?: string; // alias for pdf_source
   searchTerm?: string;
+  sku?: string;
   
   // Price range
   minPrice?: number;
