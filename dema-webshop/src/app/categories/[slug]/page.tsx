@@ -1,11 +1,11 @@
 'use client';
 
-import { useState } from 'react';
 import Navbar from '@/components/layout/Navbar';
 import ProductFilters from '@/components/products/ProductFilters';
 import ProductList from '@/components/products/ProductList';
 import ProductCard from '@/components/products/ProductCard';
 import type { Product } from '@/types/product';
+import { useLocale } from '@/contexts/LocaleContext';
 
 // Localized verbatim copy extracted/summarized from demashop.be (EN; NL/FR fallback to EN for now)
 type LocalizedCopy = {
@@ -170,7 +170,7 @@ interface PageProps {
 
 export default function CategoryPage({ params }: PageProps) {
   const slug = (params?.slug ?? '').toString();
-  const [locale, setLocale] = useState<'en'|'nl'|'fr'>('en');
+  const { locale, t } = useLocale();
   const title = slug ? slug.replace(/-/g, ' ') : 'Category';
   const copy = CATEGORY_CONTENT[slug]?.[locale] || CATEGORY_CONTENT[slug]?.en;
 
@@ -277,7 +277,7 @@ export default function CategoryPage({ params }: PageProps) {
           </div>
           <a href="/categories" className="inline-flex items-center gap-2 text-gray-700 hover:text-gray-900">
             <svg className="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M15 18l-6-6 6-6"/></svg>
-            Back to categories
+            {t('breadcrumbs.back_to_categories')}
           </a>
         </nav>
         {/* Hero */}
@@ -287,22 +287,12 @@ export default function CategoryPage({ params }: PageProps) {
               <Icon />
               {copy?.title || title}
             </h1>
-            {/* Locale tabs */}
-            <div className="flex items-center gap-2">
-              {(['en','nl','fr'] as const).map((l) => (
-                <button
-                  key={l}
-                  onClick={() => setLocale(l)}
-                  className={`px-3 py-1 text-sm rounded-md border ${locale===l ? 'bg-yellow-500 text-white border-yellow-500' : 'bg-white text-gray-700 border-gray-300 hover:bg-gray-50'}`}
-                >{l.toUpperCase()}</button>
-              ))}
-            </div>
           </div>
           {copy?.downloadHref && (
             <div className="mt-3">
               <a href={copy.downloadHref} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 text-sm text-yellow-700 hover:text-yellow-800">
                 <svg className="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M12 5v14M5 12h14"/></svg>
-                {copy.downloadLabel || 'Download catalog'}
+                {copy.downloadLabel || t('categories.download_catalog')}
               </a>
             </div>
           )}

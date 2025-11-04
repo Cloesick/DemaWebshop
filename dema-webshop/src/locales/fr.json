@@ -1,0 +1,15 @@
+{
+  "topbar.customer_service": "Service client",
+  "topbar.phone": "+32 2 123 45 67",
+  "topbar.email": "info@demashop.be",
+  "account": "Mon compte",
+  "contact": "Contact",
+  "nav.home": "Accueil",
+  "nav.products": "Produits",
+  "nav.categories": "Catégories",
+  "nav.about": "À propos",
+  "search.placeholder": "Rechercher des produits...",
+  "cart": "Panier",
+  "breadcrumbs.back_to_categories": "Retour aux catégories",
+  "categories.download_catalog": "Télécharger le catalogue"
+}

@@ -1,0 +1,15 @@
+{
+  "topbar.customer_service": "Klantendienst",
+  "topbar.phone": "+32 2 123 45 67",
+  "topbar.email": "info@demashop.be",
+  "account": "Mijn account",
+  "contact": "Contact",
+  "nav.home": "Home",
+  "nav.products": "Producten",
+  "nav.categories": "Categorieën",
+  "nav.about": "Over ons",
+  "search.placeholder": "Zoek producten...",
+  "cart": "Winkelwagen",
+  "breadcrumbs.back_to_categories": "Terug naar categorieën",
+  "categories.download_catalog": "Catalogus downloaden"
+}

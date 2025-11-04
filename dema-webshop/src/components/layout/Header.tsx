@@ -2,9 +2,10 @@
 
 import Link from 'next/link';
 import { FiSearch, FiShoppingCart, FiUser, FiMapPin, FiMenu } from 'react-icons/fi';
-import { useState, useEffect } from 'react';
+import { useLocale } from '@/contexts/LocaleContext';
 
 export default function Header() {
+  const { t, locale, setLocale } = useLocale();
   return (
     <header className="bg-white shadow-sm sticky top-0 z-50">
       {/* Top Bar */}
@@ -12,18 +13,27 @@ export default function Header() {
         <div className="container mx-auto px-4 flex justify-between items-center">
           <div className="flex items-center space-x-4">
             <a href="tel:+3221234567" className="hover:text-yellow-400 transition-colors">
-              Customer Service: +32 2 123 45 67
+              {t('topbar.customer_service')}: {t('topbar.phone')}
             </a>
             <span>|</span>
             <a href="mailto:info@demashop.be" className="hover:text-yellow-400 transition-colors">
-              info@demashop.be
+              {t('topbar.email')}
             </a>
           </div>
           <div className="flex items-center space-x-4">
             <Link href="/account" className="hover:text-yellow-400 flex items-center">
-              <FiUser className="mr-1" /> My Account
+              <FiUser className="mr-1" /> {t('account')}
             </Link>
-            <Link href="/contact" className="hover:text-yellow-400">Contact</Link>
+            <Link href="/contact" className="hover:text-yellow-400">{t('contact')}</Link>
+            <div className="hidden sm:flex items-center space-x-1">
+              {(['en','nl','fr'] as const).map(l => (
+                <button
+                  key={l}
+                  onClick={() => setLocale(l)}
+                  className={`px-2 py-0.5 text-xs rounded border ${locale===l ? 'bg-yellow-500 text-white border-yellow-500' : 'bg-transparent text-white border-white/30 hover:bg-white/10'}`}
+                >{l.toUpperCase()}</button>
+              ))}
+            </div>
           </div>
         </div>
       </div>
@@ -60,7 +70,7 @@ export default function Header() {
             <div className="relative">
               <input
                 type="text"
-                placeholder="Search products..."
+                placeholder={t('search.placeholder')}
                 className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
               />
               <button className="absolute right-0 top-0 h-full px-4 bg-blue-600 text-white rounded-r-md hover:bg-blue-700">
@@ -78,7 +88,7 @@ export default function Header() {
                   0
                 </span>
               </div>
-              <span className="ml-1 hidden md:inline">Cart</span>
+              <span className="ml-1 hidden md:inline">{t('cart')}</span>
             </Link>
             <button className="md:hidden text-gray-700">
               <FiMenu className="h-6 w-6" />
@@ -89,11 +99,11 @@ export default function Header() {
         {/* Navigation */}
         <nav className="hidden md:flex justify-center mt-4">
           <ul className="flex space-x-8">
-            <li><Link href="/" className="text-gray-700 hover:text-blue-600 font-medium">Home</Link></li>
-            <li><Link href="/products" className="text-gray-700 hover:text-blue-600 font-medium">Products</Link></li>
-            <li><Link href="/categories" className="text-gray-700 hover:text-blue-600 font-medium">Categories</Link></li>
-            <li><Link href="/about" className="text-gray-700 hover:text-blue-600 font-medium">About Us</Link></li>
-            <li><Link href="/contact" className="text-gray-700 hover:text-blue-600 font-medium">Contact</Link></li>
+            <li><Link href="/" className="text-gray-700 hover:text-blue-600 font-medium">{t('nav.home')}</Link></li>
+            <li><Link href="/products" className="text-gray-700 hover:text-blue-600 font-medium">{t('nav.products')}</Link></li>
+            <li><Link href="/categories" className="text-gray-700 hover:text-blue-600 font-medium">{t('nav.categories')}</Link></li>
+            <li><Link href="/about" className="text-gray-700 hover:text-blue-600 font-medium">{t('nav.about')}</Link></li>
+            <li><Link href="/contact" className="text-gray-700 hover:text-blue-600 font-medium">{t('contact')}</Link></li>
           </ul>
         </nav>
       </div>

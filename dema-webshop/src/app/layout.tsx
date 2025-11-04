@@ -5,6 +5,7 @@ import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';
 import { CookieConsentProvider } from '@/contexts/CookieConsentContext';
 import CookieConsentWrapper from '@/components/layout/CookieConsentWrapper';
+import { LocaleProvider } from '@/contexts/LocaleContext';
 
 export const metadata: Metadata = {
   title: 'DemaShop - Professional Industrial Equipment',
@@ -44,12 +45,14 @@ export default function RootLayout({
       </head>
       <body className={`${inter.variable} font-sans bg-white text-gray-900 flex flex-col min-h-screen`}>
         <CookieConsentProvider>
-          <Header />
-          <main className="flex-grow">
-            {children}
-          </main>
-          <Footer />
-          <CookieConsentWrapper />
+          <LocaleProvider>
+            <Header />
+            <main className="flex-grow">
+              {children}
+            </main>
+            <Footer />
+            <CookieConsentWrapper />
+          </LocaleProvider>
         </CookieConsentProvider>
       </body>
     </html>
