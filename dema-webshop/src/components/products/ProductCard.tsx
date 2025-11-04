@@ -40,7 +40,10 @@ const formatPropertyName = (key: string): string => {
 };
 
 export default function ProductCard({ product, className = '', viewMode = 'grid' }: ProductCardProps) {
-  const { addToCart } = useCartStore();
+  const addToCart = useCartStore(s => s.addToCart);
+  const toggleCart = useCartStore(s => s.toggleCart);
+  const itemsCount = useCartStore(s => s.items.length);
+  const isOpen = useCartStore(s => s.isOpen);
   const [selectedDimensions, setSelectedDimensions] = useState<number | null>(
     product.dimensions_mm_list?.[0] || null
   );
@@ -120,7 +123,17 @@ export default function ProductCard({ product, className = '', viewMode = 'grid'
           </div>
           <div className="mt-4 flex items-center justify-between">
             <p className="text-lg font-bold text-primary">{price}</p>
-            <Button className="bg-primary hover:bg-primary-dark text-white" onClick={() => addToCart(product)}>
+            <Button
+              className="bg-primary hover:bg-primary-dark text-white"
+              onClick={() => {
+                const wasEmpty = itemsCount === 0;
+                const wasClosed = !isOpen;
+                addToCart(product);
+                if (wasEmpty && wasClosed) {
+                  toggleCart();
+                }
+              }}
+            >
               Add to Cart
             </Button>
           </div>
@@ -266,7 +279,12 @@ export default function ProductCard({ product, className = '', viewMode = 'grid'
             type="button"
             className="btn-primary w-full flex items-center justify-center px-4 py-2 text-sm font-medium"
             onClick={() => {
+              const wasEmpty = itemsCount === 0;
+              const wasClosed = !isOpen;
               addToCart(product);
+              if (wasEmpty && wasClosed) {
+                toggleCart();
+              }
             }}
           >
             Add to Cart

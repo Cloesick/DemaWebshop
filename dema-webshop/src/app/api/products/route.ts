@@ -28,6 +28,10 @@ function parseQueryParams(params: URLSearchParams): ProductFilters {
   return {
     // Category and search
     category: getParam('category'),
+    product_category: getParam('product_category') || getParam('category'),
+    product_type: getParam('product_type'),
+    pdf_source: getParam('pdf_source') || getParam('pdf'),
+    pdf: getParam('pdf'),
     searchTerm: getParam('searchTerm') || getParam('q'),
     
     // Price range
@@ -35,10 +39,26 @@ function parseQueryParams(params: URLSearchParams): ProductFilters {
     maxPrice: getParam('maxPrice', 'number'),
     
     // Technical filters
+    power_kw: getParam('power_kw', 'number'),
     minPower: getParam('minPower', 'number'),
     maxPower: getParam('maxPower', 'number'),
+    voltage_v: getParam('voltage_v', 'number'),
+    spanning_v: getParam('spanning_v', 'number'),
     minPressure: getParam('minPressure', 'number'),
     maxPressure: getParam('maxPressure', 'number'),
+    pressure_max_bar: getParam('pressure_max_bar', 'number'),
+    pressure_min_bar: getParam('pressure_min_bar', 'number'),
+    flow_l_min_list: getParam('flow_l_min_list', 'number'),
+    rpm: getParam('rpm', 'number'),
+    size_inch: getParam('size_inch'),
+    connection_types: getParam('connection_types'),
+    aansluiting: getParam('aansluiting'),
+    length_m: getParam('length_m', 'number'),
+    materials: getParam('materials'),
+    weight_kg: getParam('weight_kg', 'number'),
+    volume_l: getParam('volume_l', 'number'),
+    vlotter: getParam('vlotter', 'boolean'),
+    debiet_m3_h: getParam('debiet_m3_h', 'number'),
     
     // Pagination
     limit: Math.min(100, Math.max(1, getParam('limit', 'number') || 24)),
@@ -65,7 +85,19 @@ function filterProducts(products: Product[], filters: ProductFilters): Product[]
 
   return products.filter(product => {
     // Filter by category (exact match)
-    if (filters.category && product.product_category !== filters.category) {
+    const categoryFilter = filters.product_category || filters.category;
+    if (categoryFilter && product.product_category !== categoryFilter) {
+      return false;
+    }
+
+    // Filter by product type (exact match if present in data)
+    if (filters.product_type && product['product_type'] !== filters.product_type) {
+      return false;
+    }
+
+    // Filter by PDF source
+    const pdfFilter = filters.pdf_source || filters.pdf;
+    if (pdfFilter && product.pdf_source !== pdfFilter) {
       return false;
     }
     
@@ -80,6 +112,9 @@ function filterProducts(products: Product[], filters: ProductFilters): Product[]
     
     // Filter by power range (kW)
     const productPower = product.power_kw || 0;
+    if (filters.power_kw !== undefined && productPower !== filters.power_kw) {
+      return false;
+    }
     if (filters.minPower !== undefined && productPower < filters.minPower) {
       return false;
     }
@@ -90,11 +125,93 @@ function filterProducts(products: Product[], filters: ProductFilters): Product[]
     // Filter by pressure range (bar)
     const maxPressure = product.pressure_max_bar || 0;
     const minPressure = product.pressure_min_bar || 0;
+    if (filters.pressure_max_bar !== undefined && maxPressure !== filters.pressure_max_bar) {
+      return false;
+    }
+    if (filters.pressure_min_bar !== undefined && minPressure !== filters.pressure_min_bar) {
+      return false;
+    }
     
     if (filters.minPressure !== undefined && maxPressure < filters.minPressure) {
       return false;
     }
     if (filters.maxPressure !== undefined && minPressure > filters.maxPressure) {
+      return false;
+    }
+
+    // Filter by voltage (support voltage_v and spanning_v alias)
+    const productVoltage = product.voltage_v ?? product['spanning_v'];
+    const voltageFilter = filters.voltage_v ?? filters.spanning_v;
+    if (voltageFilter !== undefined && productVoltage !== voltageFilter) {
+      return false;
+    }
+
+    // Flow list contains value
+    if (filters.flow_l_min_list !== undefined) {
+      const list = product.flow_l_min_list || [];
+      if (!Array.isArray(list) || !list.includes(filters.flow_l_min_list)) {
+        return false;
+      }
+    }
+
+    // RPM
+    if (filters.rpm !== undefined && product['rpm'] !== filters.rpm) {
+      return false;
+    }
+
+    // Size in inch (string or number equality)
+    if (filters.size_inch !== undefined) {
+      const prodVal = product['size_inch'];
+      if (
+        prodVal === undefined ||
+        String(prodVal).toLowerCase() !== String(filters.size_inch).toLowerCase()
+      ) {
+        return false;
+      }
+    }
+
+    // Connection type includes
+    if (filters.connection_types || filters.aansluiting) {
+      const arr = product.connection_types || product['connection_types'] || [];
+      const filterVal = String(filters.connection_types ?? filters.aansluiting);
+      if (!Array.isArray(arr) || !arr.map(String).includes(filterVal)) {
+        return false;
+      }
+    }
+
+    // Length meters
+    if (filters.length_m !== undefined && product['length_m'] !== filters.length_m) {
+      return false;
+    }
+
+    // Materials includes string
+    if (filters.materials) {
+      const mats = product['materials'];
+      if (!Array.isArray(mats) || !mats.map((m: any) => String(m).toLowerCase()).includes(String(filters.materials).toLowerCase())) {
+        return false;
+      }
+    }
+
+    // Weight
+    if (filters.weight_kg !== undefined && product.weight_kg !== filters.weight_kg) {
+      return false;
+    }
+
+    // Volume
+    if (filters.volume_l !== undefined && product['volume_l'] !== filters.volume_l) {
+      return false;
+    }
+
+    // Vlotter boolean
+    if (filters.vlotter !== undefined) {
+      const pv = product['vlotter'];
+      if (Boolean(pv) !== Boolean(filters.vlotter)) {
+        return false;
+      }
+    }
+
+    // Debiet m3/h
+    if (filters.debiet_m3_h !== undefined && product['debiet_m3_h'] !== filters.debiet_m3_h) {
       return false;
     }
     

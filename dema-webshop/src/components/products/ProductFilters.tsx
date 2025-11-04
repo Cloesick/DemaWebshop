@@ -22,10 +22,20 @@ interface Product {
   power_kw?: number;
   weight_kg?: number;
   voltage_v?: number;
+  spanning_v?: number;
   connection_types?: string[];
   noise_level_db?: number;
   airflow_l_min?: number;
   tank_capacity_l?: number;
+  // Extra fields potentially present in dataset
+  product_type?: string;
+  flow_l_min_list?: number[];
+  rpm?: number;
+  size_inch?: number | string;
+  length_m?: number;
+  materials?: string[];
+  volume_l?: number;
+  vlotter?: boolean;
 }
 
 interface FilterOption {
@@ -139,7 +149,21 @@ export default function ProductFilters({
       voltage: new Set(),
       connection: new Set(),
       size: new Set(),
-      weight: new Set()
+      weight: new Set(),
+      product_type: new Set(),
+      pdf_source: new Set(),
+      pressure_max_bar: new Set(),
+      power_kw: new Set(),
+      voltage_v: new Set(),
+      flow_l_min_list: new Set(),
+      rpm: new Set(),
+      size_inch: new Set(),
+      connection_types: new Set(),
+      length_m: new Set(),
+      materials: new Set(),
+      weight_kg: new Set(),
+      volume_l: new Set(),
+      vlotter: new Set(),
     };
 
     products.forEach(product => {
@@ -167,6 +191,21 @@ export default function ProductFilters({
       if (product.weight_kg) {
         filters.weight.add(`${product.weight_kg} kg`);
       }
+
+      if (product.product_type) filters.product_type.add(product.product_type);
+      if (product.pdf_source) filters.pdf_source.add(product.pdf_source);
+      if (typeof product.pressure_max_bar === 'number') filters.pressure_max_bar.add(String(product.pressure_max_bar));
+      if (typeof product.power_kw === 'number') filters.power_kw.add(String(product.power_kw));
+      if (typeof product.voltage_v === 'number') filters.voltage_v.add(String(product.voltage_v));
+      product.flow_l_min_list?.forEach(v => { if (typeof v === 'number') filters.flow_l_min_list.add(String(v)); });
+      if (typeof product.rpm === 'number') filters.rpm.add(String(product.rpm));
+      if (product.size_inch !== undefined && product.size_inch !== null) filters.size_inch.add(String(product.size_inch));
+      product.connection_types?.forEach(v => { if (v) filters.connection_types.add(String(v)); });
+      if (typeof product.length_m === 'number') filters.length_m.add(String(product.length_m));
+      product.materials?.forEach(m => { if (m) filters.materials.add(String(m)); });
+      if (typeof product.weight_kg === 'number') filters.weight_kg.add(String(product.weight_kg));
+      if (typeof product.volume_l === 'number') filters.volume_l.add(String(product.volume_l));
+      if (typeof product.vlotter === 'boolean') filters.vlotter.add(String(product.vlotter));
     });
 
     // Convert sets to filter options with counts
@@ -195,6 +234,35 @@ export default function ProductFilters({
               return p.dimensions_mm_list?.includes(Number(value.replace('mm', '')));
             case 'weight':
               return p.weight_kg === Number(value.replace(' kg', ''));
+            // New fields counts
+            case 'product_type':
+              return (p as any).product_type === value;
+            case 'pdf_source':
+              return (p as any).pdf_source === value;
+            case 'pressure_max_bar':
+              return (p as any).pressure_max_bar === Number(value);
+            case 'power_kw':
+              return (p as any).power_kw === Number(value);
+            case 'voltage_v':
+              return (p as any).voltage_v === Number(value);
+            case 'flow_l_min_list':
+              return Array.isArray((p as any).flow_l_min_list) && (p as any).flow_l_min_list.includes(Number(value));
+            case 'rpm':
+              return (p as any).rpm === Number(value);
+            case 'size_inch':
+              return String((p as any).size_inch).toLowerCase() === String(value).toLowerCase();
+            case 'connection_types':
+              return Array.isArray((p as any).connection_types) && (p as any).connection_types.map(String).includes(String(value));
+            case 'length_m':
+              return (p as any).length_m === Number(value);
+            case 'materials':
+              return Array.isArray((p as any).materials) && (p as any).materials.map((m: any) => String(m).toLowerCase()).includes(String(value).toLowerCase());
+            case 'weight_kg':
+              return (p as any).weight_kg === Number(value);
+            case 'volume_l':
+              return (p as any).volume_l === Number(value);
+            case 'vlotter':
+              return Boolean((p as any).vlotter) === (value === 'true');
             default:
               return false;
           }
@@ -304,24 +372,10 @@ export default function ProductFilters({
     });
   }, [availableFilters.size]);
 
-  // Get unique PDFs
-  const pdfOptions = useMemo(() => {
-    const pdfs = new Set<string>();
-    const pdfCounts: Record<string, number> = {};
-    
-    products.forEach(product => {
-      if (product.pdf_source) {
-        pdfs.add(product.pdf_source);
-        pdfCounts[product.pdf_source] = (pdfCounts[product.pdf_source] || 0) + 1;
-      }
-    });
-    
-    return Array.from(pdfs).map(pdf => ({
-      value: pdf,
-      label: pdf.split('/').pop() || 'PDF Document',
-      count: pdfCounts[pdf] || 0
-    }));
-  }, [products]);
+  // Helper to title-case property names for labels
+  const titleFor = (key: string) => key
+    .replace(/_/g, ' ')
+    .replace(/\b\w/g, (m) => m.toUpperCase());
 
   const handleFilterChange = (type: string, value: string) => {
     const newFilters = { ...activeFilters };
@@ -405,24 +459,45 @@ export default function ProductFilters({
           </FilterSection>
         )}
 
-        {/* PDF filter */}
-        {pdfOptions.length > 0 && (
+        {/* PDF source filter (uses availableFilters) */}
+        {availableFilters.pdf_source && availableFilters.pdf_source.length > 0 && (
           <FilterSection title={t('filters.documents')}>
             <select
-              id="pdf-filter"
-              value={activeFilters.pdf?.[0] || ''}
-              onChange={(e) => handleFilterChange('pdf', e.target.value)}
+              id="pdf-source-filter"
+              value={activeFilters.pdf_source?.[0] || ''}
+              onChange={(e) => handleFilterChange('pdf_source', e.target.value)}
               className="w-full rounded-md bg-gray-800 border border-gray-700 text-gray-100 text-sm p-2 focus:ring-2 focus:ring-yellow-500 focus:border-transparent transition duration-200"
             >
               <option value="">{t('filters.all_documents')}</option>
-              {pdfOptions.map(({ value, label, count }) => (
+              {availableFilters.pdf_source.map(({ value, count }) => (
                 <option key={value} value={value} className="bg-gray-800">
-                  {(label || t('filters.pdf_document'))} ({count})
+                  {(value.split('/').pop() || 'PDF Document')} ({count})
                 </option>
               ))}
             </select>
           </FilterSection>
         )}
+
+        {/* Generic added filters */}
+        {['product_type','pressure_max_bar','power_kw','voltage_v','flow_l_min_list','rpm','size_inch','connection_types','length_m','materials','weight_kg','volume_l','vlotter']
+          .filter((key) => availableFilters[key as keyof typeof availableFilters]?.length)
+          .map((key) => (
+            <FilterSection key={key} title={titleFor(key)}>
+              <select
+                id={`${key}-filter`}
+                value={activeFilters[key]?.[0] || ''}
+                onChange={(e) => handleFilterChange(key, e.target.value)}
+                className="w-full rounded-md bg-gray-800 border border-gray-700 text-gray-100 text-sm p-2 focus:ring-2 focus:ring-yellow-500 focus:border-transparent transition duration-200"
+              >
+                <option value="">All</option>
+                {availableFilters[key]?.map(({ value, count }) => (
+                  <option key={value} value={value} className="bg-gray-800">
+                    {String(value)} ({count})
+                  </option>
+                ))}
+              </select>
+            </FilterSection>
+          ))}
       </div>
     </div>
   );

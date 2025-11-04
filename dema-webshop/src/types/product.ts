@@ -15,8 +15,18 @@ export interface Product {
   power_kw?: number;
   power_hp?: number;
   voltage_v?: number;
+  spanning_v?: number;
   flow_l_min?: number;
   flow_l_min_list?: number[];
+  debiet_m3_h?: number;
+  rpm?: number;
+  size_inch?: number | string;
+  connection_types?: string[];
+  aansluiting?: string | string[];
+  length_m?: number;
+  materials?: string[];
+  volume_l?: number;
+  vlotter?: boolean;
   
   // Dimensions and weight
   dimensions_mm_list?: number[];
@@ -38,7 +48,11 @@ export interface Product {
 
 export interface ProductFilters {
   // Category and search
-  category?: string;
+  category?: string; // alias of product_category
+  product_category?: string;
+  product_type?: string;
+  pdf_source?: string;
+  pdf?: string; // alias for pdf_source
   searchTerm?: string;
   
   // Price range
@@ -46,10 +60,26 @@ export interface ProductFilters {
   maxPrice?: number;
   
   // Technical filters
+  power_kw?: number;
   minPower?: number;
   maxPower?: number;
+  voltage_v?: number;
+  spanning_v?: number; // alias of voltage_v
   minPressure?: number;
   maxPressure?: number;
+  pressure_max_bar?: number;
+  pressure_min_bar?: number;
+  flow_l_min_list?: number; // match if included in list
+  debiet_m3_h?: number;
+  rpm?: number;
+  size_inch?: number | string;
+  connection_types?: string;
+  aansluiting?: string; // alias for connection_types
+  length_m?: number;
+  materials?: string;
+  weight_kg?: number;
+  volume_l?: number;
+  vlotter?: boolean;
   
   // Pagination
   limit?: number;

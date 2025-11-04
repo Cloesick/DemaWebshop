@@ -7,6 +7,7 @@ import { CookieConsentProvider } from '@/contexts/CookieConsentContext';
 import CookieConsentWrapper from '@/components/layout/CookieConsentWrapper';
 import { LocaleProvider } from '@/contexts/LocaleContext';
 import { cookies } from 'next/headers';
+import Cart from '@/components/cart/Cart';
 
 export async function generateMetadata(): Promise<Metadata> {
   const cookieStore = await cookies();
@@ -58,6 +59,7 @@ export default async function RootLayout({
             </main>
             <Footer />
             <CookieConsentWrapper />
+            <Cart />
           </LocaleProvider>
         </CookieConsentProvider>
       </body>

@@ -11,7 +11,8 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   const [isMounted, setIsMounted] = useState(false);
   const pathname = usePathname();
-  const { toggleCart, itemCount } = useCartStore();
+  const toggleCart = useCartStore(s => s.toggleCart);
+  const count = useCartStore(s => s.items.reduce((t, i) => t + i.quantity, 0));
   const { t } = useLocale();
 
   const navigation = [
@@ -61,9 +62,9 @@ export default function Navbar() {
               >
                 <span className="sr-only">{t('cart')}</span>
                 <ShoppingCartIcon className="h-6 w-6" aria-hidden="true" />
-                {itemCount() > 0 && (
+                {count > 0 && (
                   <span className="absolute -top-1 -right-1 bg-blue-600 text-white text-xs font-bold rounded-full h-5 w-5 flex items-center justify-center">
-                    {itemCount()}
+                    {count}
                   </span>
                 )}
               </button>
@@ -118,11 +119,11 @@ export default function Navbar() {
                 }}
                 className="flex-shrink-0 p-1 rounded-full text-gray-400 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 relative"
               >
-                <span className="sr-only">View cart</span>
+                <span className="sr-only">{t('cart')}</span>
                 <ShoppingCartIcon className="h-6 w-6" aria-hidden="true" />
-                {itemCount() > 0 && (
+                {count > 0 && (
                   <span className="absolute -top-1 -right-1 bg-blue-600 text-white text-xs font-bold rounded-full h-5 w-5 flex items-center justify-center">
-                    {itemCount()}
+                    {count}
                   </span>
                 )}
               </button>
