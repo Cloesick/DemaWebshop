@@ -26,8 +26,10 @@ function firstSentence(text?: string, maxLen = 140): string {
 
 function placeholderFor(category: string, title: string): string {
   const safe = (s: string) => s.replace(/[^a-z0-9]+/gi, '-');
-  const svg = `<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300"><rect width="400" height="300" fill="#f3f4f6"/><text x="50%" y="50%" font-family="sans-serif" font-size="16" text-anchor="middle" fill="#9ca3af" dy=".3em">${(title||category||'Product')}</text></svg>`;
-  return `data:image/svg+xml;base64,${btoa(svg)}`;
+  const text = (title || category || 'Product');
+  const svg = `<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300"><rect width="400" height="300" fill="#f3f4f6"/><text x="50%" y="50%" font-family="sans-serif" font-size="16" text-anchor="middle" fill="#9ca3af" dy=".3em">${text}</text></svg>`;
+  // Use UTF-8 data URL to avoid btoa Unicode issues
+  return `data:image/svg+xml;utf8,${encodeURIComponent(svg)}`;
 }
 
 function fmtNumber(n?: number, unit?: string) {
