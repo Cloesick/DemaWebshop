@@ -3,6 +3,7 @@
 'use client';
 
 import { useState, useEffect, useMemo } from 'react';
+import { useLocale } from '@/contexts/LocaleContext';
 import { X, ChevronDown, ChevronUp, Filter } from 'lucide-react';
 
 interface Product {
@@ -124,6 +125,7 @@ export default function ProductFilters({
   onSearch = () => {},
   className = ''
 }: ProductFiltersProps) {
+  const { t } = useLocale();
   const [isCategoryOpen, setIsCategoryOpen] = useState(false);
   const [activeFilters, setActiveFilters] = useState<Record<string, string[]>>({});
   const [availableFilters, setAvailableFilters] = useState<Record<string, FilterOption[]>>({});
@@ -340,13 +342,13 @@ export default function ProductFilters({
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-2">
               <Filter className="h-4 w-4 text-yellow-500" />
-              <h3 className="text-sm font-medium text-gray-200">Active Filters</h3>
+              <h3 className="text-sm font-medium text-gray-200">{t('filters.active')}</h3>
             </div>
             <button
               onClick={clearAllFilters}
               className="text-xs text-yellow-400 hover:text-yellow-300 hover:underline"
             >
-              Clear all
+              {t('filters.clear_all')}
             </button>
           </div>
           <div className="flex flex-wrap gap-2 mt-2">
@@ -368,14 +370,14 @@ export default function ProductFilters({
       {/* Filter Sections */}
       <div className="space-y-4">
         {/* Category filter */}
-        <FilterSection title="Categories">
+        <FilterSection title={t('filters.categories')}>
           <select
             id="category-filter"
             value={activeFilters.category?.[0] || ''}
             onChange={(e) => handleFilterChange('category', e.target.value)}
             className="w-full rounded-md bg-gray-800 border border-gray-700 text-gray-100 text-sm p-2 focus:ring-2 focus:ring-yellow-500 focus:border-transparent transition duration-200"
           >
-            <option value="">All Categories</option>
+            <option value="">{t('filters.all_categories')}</option>
             {availableFilters.category?.map(({ value, label, count }) => (
               <option key={value} value={value} className="bg-gray-800">
                 {label} ({count})
@@ -386,14 +388,14 @@ export default function ProductFilters({
 
         {/* Size filter */}
         {sortedSizes.length > 0 && (
-          <FilterSection title="Sizes">
+          <FilterSection title={t('filters.sizes')}>
             <select
               id="size-filter"
               value={activeFilters.size?.[0] || ''}
               onChange={(e) => handleFilterChange('size', e.target.value)}
               className="w-full rounded-md bg-gray-800 border border-gray-700 text-gray-100 text-sm p-2 focus:ring-2 focus:ring-yellow-500 focus:border-transparent transition duration-200"
             >
-              <option value="">All Sizes</option>
+              <option value="">{t('filters.all_sizes')}</option>
               {sortedSizes.map(({ value, label, count }) => (
                 <option key={value} value={value} className="bg-gray-800">
                   {label} ({count})
@@ -405,17 +407,17 @@ export default function ProductFilters({
 
         {/* PDF filter */}
         {pdfOptions.length > 0 && (
-          <FilterSection title="Documents">
+          <FilterSection title={t('filters.documents')}>
             <select
               id="pdf-filter"
               value={activeFilters.pdf?.[0] || ''}
               onChange={(e) => handleFilterChange('pdf', e.target.value)}
               className="w-full rounded-md bg-gray-800 border border-gray-700 text-gray-100 text-sm p-2 focus:ring-2 focus:ring-yellow-500 focus:border-transparent transition duration-200"
             >
-              <option value="">All Documents</option>
+              <option value="">{t('filters.all_documents')}</option>
               {pdfOptions.map(({ value, label, count }) => (
                 <option key={value} value={value} className="bg-gray-800">
-                  {label} ({count})
+                  {(label || t('filters.pdf_document'))} ({count})
                 </option>
               ))}
             </select>

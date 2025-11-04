@@ -11,5 +11,19 @@
   "search.placeholder": "Zoek producten...",
   "cart": "Winkelwagen",
   "breadcrumbs.back_to_categories": "Terug naar categorieën",
-  "categories.download_catalog": "Catalogus downloaden"
+  "categories.download_catalog": "Catalogus downloaden",
+  "footer.privacy": "Privacy",
+  "footer.terms": "Voorwaarden",
+  "footer.rights": "Alle rechten voorbehouden.",
+  "filters.active": "Actieve filters",
+  "filters.clear_all": "Alles wissen",
+  "filters.categories": "Categorieën",
+  "filters.all_categories": "Alle categorieën",
+  "filters.sizes": "Maten",
+  "filters.all_sizes": "Alle maten",
+  "filters.documents": "Documenten",
+  "filters.all_documents": "Alle documenten",
+  "filters.pdf_document": "PDF-document",
+  "metadata.title": "DemaShop - Professionele industriële uitrusting",
+  "metadata.description": "Uw betrouwbare partner voor industriële uitrusting en gereedschap. Hoogwaardige producten met deskundige ondersteuning."
 }

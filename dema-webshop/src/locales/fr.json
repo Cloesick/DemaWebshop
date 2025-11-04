@@ -11,5 +11,19 @@
   "search.placeholder": "Rechercher des produits...",
   "cart": "Panier",
   "breadcrumbs.back_to_categories": "Retour aux catégories",
-  "categories.download_catalog": "Télécharger le catalogue"
+  "categories.download_catalog": "Télécharger le catalogue",
+  "footer.privacy": "Confidentialité",
+  "footer.terms": "Conditions",
+  "footer.rights": "Tous droits réservés.",
+  "filters.active": "Filtres actifs",
+  "filters.clear_all": "Tout effacer",
+  "filters.categories": "Catégories",
+  "filters.all_categories": "Toutes les catégories",
+  "filters.sizes": "Tailles",
+  "filters.all_sizes": "Toutes les tailles",
+  "filters.documents": "Documents",
+  "filters.all_documents": "Tous les documents",
+  "filters.pdf_document": "Document PDF",
+  "metadata.title": "DemaShop - Équipements industriels professionnels",
+  "metadata.description": "Votre partenaire de confiance pour les équipements industriels et les outils. Produits de haute qualité avec support expert."
 }

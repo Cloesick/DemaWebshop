@@ -1,15 +1,18 @@
+"use client";
+
 import Link from 'next/link';
 import { FaFacebook, FaTwitter, FaLinkedin, FaYoutube } from 'react-icons/fa';
+import { useLocale } from '@/contexts/LocaleContext';
 
 const navigation = {
   main: [
-    { name: 'Home', href: '/' },
-    { name: 'Products', href: '/products' },
-    { name: 'Categories', href: '/categories' },
-    { name: 'About', href: '/about' },
-    { name: 'Contact', href: '/contact' },
-    { name: 'Privacy', href: '/privacy' },
-    { name: 'Terms', href: '/terms' },
+    { key: 'nav.home', href: '/' },
+    { key: 'nav.products', href: '/products' },
+    { key: 'nav.categories', href: '/categories' },
+    { key: 'nav.about', href: '/about' },
+    { key: 'contact', href: '/contact' },
+    { key: 'footer.privacy', href: '/privacy' },
+    { key: 'footer.terms', href: '/terms' },
   ],
   social: [
     {
@@ -36,17 +39,18 @@ const navigation = {
 };
 
 const Footer = () => {
+  const { t } = useLocale();
   return (
     <footer className="bg-white mt-auto">
       <div className="max-w-7xl mx-auto py-12 px-4 overflow-hidden sm:px-6 lg:px-8">
         <nav className="-mx-5 -my-2 flex flex-wrap justify-center" aria-label="Footer">
           {navigation.main.map((item) => (
-            <div key={item.name} className="px-5 py-2">
+            <div key={item.key} className="px-5 py-2">
               <Link
                 href={item.href}
                 className="text-base text-gray-500 hover:text-gray-900"
               >
-                {item.name}
+                {t(item.key)}
               </Link>
             </div>
           ))}
@@ -66,7 +70,7 @@ const Footer = () => {
           ))}
         </div>
         <p className="mt-8 text-center text-base text-gray-400">
-          &copy; {new Date().getFullYear()} DemaShop. All rights reserved.
+          &copy; {new Date().getFullYear()} DemaShop. {t('footer.rights')}
         </p>
       </div>
     </footer>

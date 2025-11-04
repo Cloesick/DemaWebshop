@@ -6,36 +6,42 @@ import Footer from '@/components/layout/Footer';
 import { CookieConsentProvider } from '@/contexts/CookieConsentContext';
 import CookieConsentWrapper from '@/components/layout/CookieConsentWrapper';
 import { LocaleProvider } from '@/contexts/LocaleContext';
+import { cookies } from 'next/headers';
 
-export const metadata: Metadata = {
-  title: 'DemaShop - Professional Industrial Equipment',
-  description: 'Your trusted partner for industrial equipment and tools. High-quality products with expert support.',
-  metadataBase: new URL('https://www.demashop.be'),
-  alternates: {
-    canonical: '/',
-  },
-  icons: {
-    icon: [
-      { url: '/assets/front/favicon/dema/favicon.png' },
-    ],
-  },
-  other: {
-    'theme-color': '#00adef',
-  },
-};
+export async function generateMetadata(): Promise<Metadata> {
+  const cookieStore = await cookies();
+  const initialLocale = (cookieStore.get('locale')?.value as 'en'|'nl'|'fr') ?? 'en';
+  // Import locale files on server to avoid using client provider
+  const locales = {
+    en: await import('@/locales/en.json').then(m => m.default),
+    nl: await import('@/locales/nl.json').then(m => m.default),
+    fr: await import('@/locales/fr.json').then(m => m.default),
+  } as const;
+  const dict = (locales as any)[initialLocale] || locales.en;
+  return {
+    title: dict['metadata.title'] || 'DemaShop',
+    description: dict['metadata.description'] || '',
+    metadataBase: new URL('https://www.demashop.be'),
+    alternates: { canonical: '/' },
+    icons: { icon: [{ url: '/assets/front/favicon/dema/favicon.png' }] },
+    other: { 'theme-color': '#00adef' },
+  };
+}
 
 const inter = Inter({ 
   subsets: ['latin'],
   variable: '--font-inter',
 });
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
 }: {
   children: React.ReactNode;
 }) {
+  const cookieStore = await cookies();
+  const initialLocale = (cookieStore.get('locale')?.value as 'en'|'nl'|'fr') ?? 'en';
   return (
-    <html lang="en" className="h-full">
+    <html lang={initialLocale} className="h-full">
       <head>
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
