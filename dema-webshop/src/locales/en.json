@@ -46,6 +46,7 @@
   "products.count": "Showing {shown} of {total} products",
   "products.empty": "No products match your filters.",
   "products.view_details": "View details",
+  "products.back_to_results": "Back to results",
   "search.placeholder.extended": "Search products, categories, SKUs...",
   "search.clear": "Clear search",
   "search.legend.title": "Search for:",

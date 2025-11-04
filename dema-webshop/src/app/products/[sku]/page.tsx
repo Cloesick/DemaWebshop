@@ -3,15 +3,18 @@
 import { notFound, useParams } from 'next/navigation';
 import { useEffect, useState } from 'react';
 import Image from 'next/image';
-import { getProductBySku, getProducts } from '@/lib/products';
+import { getProductBySku } from '@/lib/products';
 import { formatCurrency } from '@/lib/utils';
 import { Button } from '@/components/ui/button';
 import { useCartStore } from '@/store/cartStore';
 import { Product } from '@/types/product';
+import Link from 'next/link';
+import { useLocale } from '@/contexts/LocaleContext';
 
 // This is a client component that will be hydrated on the client
 export default function ProductPage() {
   const params = useParams();
+  const { t } = useLocale();
   const [product, setProduct] = useState<Product | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
@@ -78,9 +81,9 @@ export default function ProductPage() {
   const placeholderColor = getPlaceholderColor(product.sku || categoryForImage);
   const placeholderImage = `data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='800' height='600' viewBox='0 0 800 600'%3E%3Crect width='800' height='600' fill='${encodeURIComponent(placeholderColor)}'/%3E%3Ctext x='50%25' y='50%25' font-family='Arial' font-size='24' text-anchor='middle' dominant-baseline='middle' fill='%23666'%3E${encodeURIComponent(categoryForImage)}%3C/text%3E%3C/svg%3E`;
   
-  const price = product.dimensions_mm_list?.[0] 
-    ? formatCurrency(product.dimensions_mm_list[0] * 0.5) 
-    : formatCurrency(99.99);
+  const priceNumber = product.dimensions_mm_list?.[0]
+    ? product.dimensions_mm_list[0] * 0.5
+    : 99.99;
   
   // Client component for cart functionality
   function AddToCart({ product }: { product: Product }) {
@@ -99,6 +102,29 @@ export default function ProductPage() {
   return (
     <div className="bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        {/* Back to results */}
+        <div className="mb-3">
+          <Link href="/products" className="text-sm text-primary hover:underline">
+            ← {t('products.back_to_results')}
+          </Link>
+        </div>
+
+        {/* Breadcrumbs */}
+        <nav className="text-xs text-gray-500 mb-4" aria-label="Breadcrumb">
+          <ol className="list-none p-0 inline-flex gap-1">
+            <li>
+              <Link href="/" className="hover:underline">{t('nav.home')}</Link>
+              <span className="mx-1">/</span>
+            </li>
+            <li>
+              <Link href="/products" className="hover:underline">{t('nav.products')}</Link>
+              <span className="mx-1">/</span>
+            </li>
+            <li aria-current="page" className="text-gray-700 font-medium truncate max-w-[50ch]">
+              {product.description.split(' ').slice(0, 3).join(' ') || product.sku}
+            </li>
+          </ol>
+        </nav>
         <div className="lg:grid lg:grid-cols-2 lg:gap-8">
           {/* Product Image */}
           <div className="mb-8 lg:mb-0">
@@ -125,7 +151,7 @@ export default function ProductPage() {
             
             <div className="mt-4">
               <h2 className="text-2xl font-bold text-gray-900">
-                {formatCurrency(price)}
+                {formatCurrency(priceNumber)}
               </h2>
               <p className="text-green-600 text-sm mt-1">In Stock</p>
             </div>
@@ -183,19 +209,11 @@ export default function ProductPage() {
               </svg>
               <span>Free shipping on orders over €100</span>
             </div>
-            
             <div className="mt-2 flex items-center text-sm text-gray-500">
               <svg className="flex-shrink-0 mr-2 h-5 w-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
                 <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z" clipRule="evenodd" />
               </svg>
               <span>Delivery within 2-3 business days</span>
-              
-              <div className="mt-2 flex items-center text-sm text-gray-500">
-                <svg className="flex-shrink-0 mr-2 h-5 w-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-                  <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z" clipRule="evenodd" />
-                </svg>
-                <span>Delivery within 2-3 business days</span>
-              </div>
             </div>
           </div>
         </div>

@@ -1,6 +1,7 @@
 'use client';
 
 import { useState } from 'react';
+import { useRouter } from 'next/navigation';
 import Link from 'next/link';
 import { Product } from '@/types/product';
 import { formatCurrency } from '@/lib/utils';
@@ -41,6 +42,7 @@ const formatPropertyName = (key: string): string => {
 };
 
 export default function ProductCard({ product, className = '', viewMode = 'grid' }: ProductCardProps) {
+  const router = useRouter();
   const addToCart = useCartStore(s => s.addToCart);
   const toggleCart = useCartStore(s => s.toggleCart);
   const itemsCount = useCartStore(s => s.items.length);
@@ -88,9 +90,26 @@ export default function ProductCard({ product, className = '', viewMode = 'grid'
   
   const hasDimensions = product.dimensions_mm_list && product.dimensions_mm_list.length > 0;
 
+  const navigateToDetail = () => {
+    router.push(`/products/${product.sku}`);
+  };
+
+  const onKeyNavigate: React.KeyboardEventHandler<HTMLDivElement> = (e) => {
+    if (e.key === 'Enter' || e.key === ' ') {
+      e.preventDefault();
+      navigateToDetail();
+    }
+  };
+
   if (viewMode === 'list') {
     return (
-      <div className={`flex flex-col sm:flex-row bg-white border border-gray-200 rounded-lg overflow-hidden shadow-sm hover:shadow-card-hover transition-shadow duration-200 ${className}`}>
+      <div
+        className={`flex flex-col sm:flex-row bg-white border border-gray-200 rounded-lg overflow-hidden shadow-sm hover:shadow-card-hover transition-shadow duration-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-primary/60 focus-visible:ring-offset-2 focus-visible:ring-offset-white ${className}`}
+        role="link"
+        tabIndex={0}
+        onClick={navigateToDetail}
+        onKeyDown={onKeyNavigate}
+      >
         <div className="w-full sm:w-48 h-48 bg-gray-100 flex-shrink-0 overflow-hidden flex items-center justify-center">
           <ImageWithFallback
             src={imageUrl}
@@ -104,7 +123,7 @@ export default function ProductCard({ product, className = '', viewMode = 'grid'
         <div className="flex-1 p-4 flex flex-col">
           <div className="flex-1">
             <h3 className="text-lg font-semibold text-gray-900">
-              <Link href={`/products/${product.sku}`} className="hover:underline" aria-label={`${productName} - ${t('products.view_details')}`}>
+              <Link href={`/products/${product.sku}`} className="hover:underline focus:outline-none focus-visible:ring-2 focus-visible:ring-primary/60 rounded" aria-label={`${productName} - ${t('products.view_details')}`}>
                 {productName}
               </Link>
             </h3>
@@ -125,12 +144,13 @@ export default function ProductCard({ product, className = '', viewMode = 'grid'
           </div>
           <div className="mt-4 flex items-center justify-between gap-2">
             <p className="text-lg font-bold text-primary">{price}</p>
-            <Link href={`/products/${product.sku}`} className="text-sm text-primary hover:underline" aria-label={t('products.view_details')}>
+            <Link href={`/products/${product.sku}`} className="text-sm text-primary hover:underline focus:outline-none focus-visible:ring-2 focus-visible:ring-primary/60 rounded" aria-label={t('products.view_details')} onClick={(e) => e.stopPropagation()}>
               {t('products.view_details')}
             </Link>
             <Button
               className="bg-primary hover:bg-primary-dark text-white"
-              onClick={() => {
+              onClick={(e) => {
+                e.stopPropagation();
                 const wasEmpty = itemsCount === 0;
                 const wasClosed = !isOpen;
                 addToCart(product);
@@ -149,7 +169,13 @@ export default function ProductCard({ product, className = '', viewMode = 'grid'
   
   // Grid view (default)
   return (
-    <div className={`group relative bg-white border border-gray-200 rounded-lg overflow-hidden shadow-card hover:shadow-card-hover transition-all duration-200 ${className}`}>
+    <div
+      className={`group relative bg-white border border-gray-200 rounded-lg overflow-hidden shadow-card hover:shadow-card-hover transition-all duration-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-primary/60 focus-visible:ring-offset-2 focus-visible:ring-offset-white ${className}`}
+      role="link"
+      tabIndex={0}
+      onClick={navigateToDetail}
+      onKeyDown={onKeyNavigate}
+    >
       <div className="w-full h-48 bg-gray-100 p-4 overflow-hidden flex items-center justify-center">
         <ImageWithFallback
           src={imageUrl}
@@ -163,7 +189,7 @@ export default function ProductCard({ product, className = '', viewMode = 'grid'
         <div className="flex flex-col h-full">
           <div className="flex-1">
             <h3 className="text-base font-bold text-gray-900 mb-1 break-words">
-              <Link href={`/products/${product.sku}`} className="hover:text-primary transition-colors">
+              <Link href={`/products/${product.sku}`} className="hover:text-primary transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-primary/60 rounded" onClick={(e) => e.stopPropagation()}>
                 {productName}
               </Link>
             </h3>
@@ -229,7 +255,7 @@ export default function ProductCard({ product, className = '', viewMode = 'grid'
           </div>
           <div className="mt-3 flex items-center justify-between">
             <p className="text-lg font-bold text-primary">{price}</p>
-            <button className="p-2 text-primary hover:bg-primary/10 rounded-full transition-colors">
+            <button className="p-2 text-primary hover:bg-primary/10 rounded-full transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-primary/60" onClick={(e) => e.stopPropagation()}>
               <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
                 <path d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z" />
               </svg>
@@ -282,15 +308,17 @@ export default function ProductCard({ product, className = '', viewMode = 'grid'
         <div className="mt-4 space-y-2">
           <Link
             href={`/products/${product.sku}`}
-            className="w-full inline-flex items-center justify-center px-4 py-2 text-sm font-medium text-primary hover:underline"
+            className="w-full inline-flex items-center justify-center px-4 py-2 text-sm font-medium text-primary hover:underline focus:outline-none focus-visible:ring-2 focus-visible:ring-primary/60 rounded"
             aria-label={t('products.view_details')}
+            onClick={(e) => e.stopPropagation()}
           >
             {t('products.view_details')}
           </Link>
           <button
             type="button"
-            className="btn-primary w-full flex items-center justify-center px-4 py-2 text-sm font-medium"
-            onClick={() => {
+            className="btn-primary w-full flex items-center justify-center px-4 py-2 text-sm font-medium focus:outline-none focus-visible:ring-2 focus-visible:ring-primary/60"
+            onClick={(e) => {
+              e.stopPropagation();
               const wasEmpty = itemsCount === 0;
               const wasClosed = !isOpen;
               addToCart(product);
