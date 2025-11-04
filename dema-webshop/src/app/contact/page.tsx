@@ -33,7 +33,8 @@ export default function ContactPage() {
     register,
     handleSubmit,
     formState: { errors },
-    reset
+    reset,
+    watch
   } = useForm<FormData>();
 
   const onSubmit: SubmitHandler<FormData> = async (data) => {
@@ -93,6 +94,12 @@ export default function ContactPage() {
     
     return () => clearInterval(timer);
   }, []);
+
+  // Show VAT field when company has at least 1 character
+  const companyValue = watch('company');
+  useEffect(() => {
+    setShowVatField(!!companyValue && companyValue.trim().length >= 1);
+  }, [companyValue]);
 
   return (
     <div className="min-h-screen bg-gray-50 py-12 px-4 sm:px-6 lg:px-8">
@@ -280,6 +287,28 @@ export default function ContactPage() {
                     />
                   </div>
                 </div>
+
+                {/* VAT Number (shown when company is filled) */}
+                {showVatField && (
+                  <div>
+                    <label htmlFor="vatNumber" className="block text-sm font-medium text-gray-700">
+                      VAT Number
+                    </label>
+                    <div className="mt-1 relative rounded-md shadow-sm">
+                      <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
+                        <FiBriefcase className="h-5 w-5 text-gray-400 opacity-0" />
+                      </div>
+                      <input
+                        type="text"
+                        id="vatNumber"
+                        className="focus:ring-blue-500 focus:border-blue-500 block w-full pl-10 sm:text-sm border-gray-300 rounded-md"
+                        placeholder="e.g., BE0123.456.789"
+                        spellCheck={false}
+                        {...register('vatNumber')}
+                      />
+                    </div>
+                  </div>
+                )}
 
                 {/* Message */}
                 <div className="sm:col-span-2">
