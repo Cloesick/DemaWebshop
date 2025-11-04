@@ -181,7 +181,11 @@ export default function ContactPage() {
                     <input
                       type="text"
                       id="firstName"
-                      {...register('firstName', { required: 'First name is required' })}
+                      maxLength={50}
+                      {...register('firstName', {
+                        required: 'First name is required',
+                        maxLength: { value: 50, message: 'Max 50 characters' },
+                      })}
                       className="focus:ring-blue-500 focus:border-blue-500 block w-full pl-10 sm:text-sm border-gray-300 rounded-md py-3 border"
                       placeholder="John"
                     />
@@ -203,7 +207,11 @@ export default function ContactPage() {
                     <input
                       type="text"
                       id="lastName"
-                      {...register('lastName', { required: 'Last name is required' })}
+                      maxLength={50}
+                      {...register('lastName', {
+                        required: 'Last name is required',
+                        maxLength: { value: 50, message: 'Max 50 characters' },
+                      })}
                       className="focus:ring-blue-500 focus:border-blue-500 block w-full pl-10 sm:text-sm border-gray-300 rounded-md py-3 border"
                       placeholder="Doe"
                     />
@@ -231,7 +239,9 @@ export default function ContactPage() {
                           value: /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i,
                           message: 'Invalid email address',
                         },
+                        maxLength: { value: 254, message: 'Max 254 characters' },
                       })}
+                      maxLength={254}
                       className="focus:ring-blue-500 focus:border-blue-500 block w-full pl-10 sm:text-sm border-gray-300 rounded-md py-3 border"
                       placeholder="you@example.com"
                     />
@@ -254,11 +264,13 @@ export default function ContactPage() {
                       type="tel"
                       id="phone"
                       {...register('phone', {
+                        maxLength: { value: 25, message: 'Max 25 characters' },
                         pattern: {
                           value: /^(\+32|0)[1-9](\s?\d{2}){3,4}$/,
                           message: 'Please enter a valid Belgian phone number (e.g., +32 4xx 12 34 56 or 04xx 12 34 56)'
                         }
                       })}
+                      maxLength={25}
                       className="focus:ring-blue-500 focus:border-blue-500 block w-full pl-10 sm:text-sm border-gray-300 rounded-md py-3 border"
                       placeholder="+32 4xx 12 34 56"
                     />
@@ -280,6 +292,7 @@ export default function ContactPage() {
                     <input
                       type="text"
                       id="company"
+                      maxLength={100}
                       className="focus:ring-blue-500 focus:border-blue-500 block w-full pl-10 sm:text-sm border-gray-300 rounded-md"
                       placeholder="Your company name (if applicable)"
                       spellCheck={false}
@@ -301,6 +314,7 @@ export default function ContactPage() {
                       <input
                         type="text"
                         id="vatNumber"
+                        maxLength={20}
                         className="focus:ring-blue-500 focus:border-blue-500 block w-full pl-10 sm:text-sm border-gray-300 rounded-md"
                         placeholder="e.g., BE0123.456.789"
                         spellCheck={false}
@@ -319,6 +333,7 @@ export default function ContactPage() {
                     <textarea
                       id="message"
                       rows={4}
+                      maxLength={2000}
                       className="shadow-sm focus:ring-blue-500 focus:border-blue-500 block w-full sm:text-sm border border-gray-300 rounded-md"
                       placeholder="Tell us about your project or inquiry..."
                       spellCheck={false}
@@ -328,6 +343,7 @@ export default function ContactPage() {
                           value: 10,
                           message: 'Message must be at least 10 characters long',
                         },
+                        maxLength: { value: 2000, message: 'Max 2000 characters' },
                       })}
                     />
                   </div>
