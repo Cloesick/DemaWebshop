@@ -2,7 +2,6 @@
 
 import { useMemo, useState, useCallback, useEffect, useRef } from 'react';
 import { useRouter } from 'next/navigation';
-import Navbar from '@/components/layout/Navbar';
 import ProductFilters from '@/components/products/ProductFilters';
 import ProductList from '@/components/products/ProductList';
 import ProductCard from '@/components/products/ProductCard';
@@ -23,6 +22,9 @@ export default function ProductsPage() {
   const [suggestions, setSuggestions] = useState<{ type: 'product' | 'category' | 'sku'; value: string; label: string }[]>([]);
   const [showSuggestions, setShowSuggestions] = useState(false);
   const searchRef = useRef<HTMLDivElement>(null);
+  const [layout, setLayout] = useState<'grid' | 'list'>('grid');
+  const [sortKey, setSortKey] = useState<'name' | 'price'>('name');
+  const [sortOrder, setSortOrder] = useState<'asc' | 'desc'>('asc');
 
   // Build filtered count text from products array
   const filtered = products;
@@ -63,6 +65,8 @@ export default function ProductsPage() {
         });
         const term = searchTerm.trim();
         if (term) params.set('q', term);
+        params.set('sortBy', sortKey);
+        params.set('sortOrder', sortOrder);
         const res = await fetch(`/api/products?${params.toString()}`);
         const data = await res.json();
         if (!cancelled) {
@@ -77,7 +81,7 @@ export default function ProductsPage() {
     };
     fetchFiltered();
     return () => { cancelled = true; };
-  }, [filters, searchTerm]);
+  }, [filters, searchTerm, sortKey, sortOrder]);
 
   // Build suggestions locally (debounced ~150ms)
   useEffect(() => {
@@ -138,7 +142,6 @@ export default function ProductsPage() {
 
   return (
     <div className="min-h-screen flex flex-col">
-      <Navbar />
       <main className="container mx-auto px-4 py-8 flex-1">
         <h1 className="text-3xl font-bold mb-6">{t('products.title')}</h1>
 
@@ -226,7 +229,29 @@ export default function ProductsPage() {
             </div>
           )}
         </div>
-        
+        {/* Search Legend */}
+        <div className="mt-2 flex flex-wrap items-center gap-x-4 gap-y-1 text-xs text-black">
+          <span className="font-medium">{t('search.legend.title')}</span>
+          <div className="flex items-center gap-1">
+            <svg className="h-3 w-3 text-yellow-500" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+              <circle cx="11" cy="11" r="8" />
+              <line x1="21" y1="21" x2="16.65" y2="16.65" />
+            </svg>
+            <span>{t('search.legend.products')}</span>
+          </div>
+          <div className="flex items-center gap-1">
+            <svg className="h-3 w-3 text-blue-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" />
+            </svg>
+            <span>{t('search.legend.categories')}</span>
+          </div>
+          <div className="flex items-center gap-1">
+            <svg className="h-3 w-3 text-green-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2" />
+            </svg>
+            <span>{t('search.legend.skus')}</span>
+          </div>
+        </div>
 
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Filters (UI-only; mapped to local state) */}
@@ -240,6 +265,42 @@ export default function ProductsPage() {
 
           {/* List */}
           <section className="md:col-span-3">
+            {/* Toolbar: sorting + layout toggle */}
+            <div className="mb-4 flex flex-col sm:flex-row gap-3 sm:items-center sm:justify-between">
+              <div className="flex items-center gap-2">
+                <label className="text-sm text-gray-600">Sort:</label>
+                <select
+                  className="text-sm bg-gray-800 border border-gray-700 rounded px-2 py-1 text-gray-100"
+                  value={`${sortKey}:${sortOrder}`}
+                  onChange={(e) => {
+                    const [k, o] = e.target.value.split(':') as ['name' | 'price', 'asc' | 'desc'];
+                    setSortKey(k);
+                    setSortOrder(o);
+                  }}
+                >
+                  <option value="name:asc">A–Z</option>
+                  <option value="name:desc">Z–A</option>
+                  <option value="price:asc">Price: Low → High</option>
+                  <option value="price:desc">Price: High → Low</option>
+                </select>
+              </div>
+              <div className="flex items-center gap-2">
+                <button
+                  type="button"
+                  className={`px-2 py-1 text-sm rounded ${layout === 'grid' ? 'bg-yellow-500 text-black' : 'bg-gray-800 text-gray-200 border border-gray-700'}`}
+                  onClick={() => setLayout('grid')}
+                >
+                  Grid
+                </button>
+                <button
+                  type="button"
+                  className={`px-2 py-1 text-sm rounded ${layout === 'list' ? 'bg-yellow-500 text-black' : 'bg-gray-800 text-gray-200 border border-gray-700'}`}
+                  onClick={() => setLayout('list')}
+                >
+                  List
+                </button>
+              </div>
+            </div>
             <div className="mb-4 text-sm text-gray-600">
               {t('products.count',).replace('{shown}', String(filtered.length)).replace('{total}', String(allProducts.length || filtered.length))}
             </div>
@@ -252,9 +313,10 @@ export default function ProductsPage() {
                 products={filtered}
                 loading={loading}
                 hasMore={false}
+                layout={layout}
                 renderProduct={(product) => (
                   <div className="p-2">
-                    <ProductCard product={product} />
+                    <ProductCard product={product} viewMode={layout === 'list' ? 'list' : 'grid'} />
                   </div>
                 )}
               />
