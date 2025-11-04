@@ -31,6 +31,12 @@
   A high-performance, accessible, and scalable e-commerce platform built with Next.js 14, TypeScript, and Tailwind CSS. Designed specifically for industrial equipment sales with advanced product discovery, real-time search, and a seamless shopping experience.
 </div>
 
+## ✨ What's new
+
+- **Rich category pages**: Localized hero, breadcrumbs + back-to-categories, category icons, verbatim copy, and catalog download links.
+- **Improved products search**: Full-width search with debounced local suggestions, clear button, focus behavior, and a helpful legend.
+- **Responsive product grid/cards**: Image-adaptive cards in a responsive grid; no overlap between images and text; clearer size info.
+
 ## 🌟 Why DemaWebshop?
 
 DemaWebshop is more than just an e-commerce platform - it's a comprehensive solution designed specifically for the industrial equipment sector. With a focus on performance, accessibility, and user experience, we've built a platform that makes it easy for businesses to showcase their products and for customers to find exactly what they need.
@@ -1054,6 +1060,14 @@ dema-webshop/
 2. Import the repository to Vercel
 3. Set up environment variables in the Vercel dashboard
 4. Deploy!
+
+### Vercel + Next 16 (Turbopack) notes
+
+- This project targets Next 16 and Turbopack by default. Our `next.config.js` includes `turbopack: {}` (empty config) which satisfies Next 16 expectations.
+- If your CI build shows a message about Turbopack vs Webpack, you can explicitly select the bundler in build/run commands:
+  - Turbopack: `next dev --turbopack` / `next build --turbopack` (if supported)
+  - Webpack: `next dev --webpack` / `next build --webpack`
+- Avoid deprecated `experimental.turbopack` keys. Use top-level `turbopack: {}` instead.
 
 ### Docker
 
