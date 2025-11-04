@@ -3,21 +3,23 @@
 import Link from 'next/link';
 import { FiSearch, FiShoppingCart, FiUser, FiMapPin, FiMenu } from 'react-icons/fi';
 import { useLocale } from '@/contexts/LocaleContext';
+import { CONTACT } from '@/config/contact';
 
 export default function Header() {
   const { t, locale, setLocale } = useLocale();
+  const contact = CONTACT[locale];
   return (
     <header className="bg-white shadow-sm sticky top-0 z-50">
       {/* Top Bar */}
       <div className="bg-gray-900 text-white text-sm py-1">
         <div className="container mx-auto px-4 flex justify-between items-center">
           <div className="flex items-center space-x-4">
-            <a href="tel:+3221234567" className="hover:text-yellow-400 transition-colors">
-              {t('topbar.customer_service')}: {t('topbar.phone')}
+            <a href={`tel:${contact.phone.replace(/\s+/g,'')}`} className="hover:text-yellow-400 transition-colors">
+              {t('topbar.customer_service')}: {contact.phone}
             </a>
             <span>|</span>
-            <a href="mailto:info@demashop.be" className="hover:text-yellow-400 transition-colors">
-              {t('topbar.email')}
+            <a href={`mailto:${contact.email}`} className="hover:text-yellow-400 transition-colors">
+              {contact.email}
             </a>
           </div>
           <div className="flex items-center space-x-4">

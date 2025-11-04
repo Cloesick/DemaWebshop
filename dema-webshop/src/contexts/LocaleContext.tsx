@@ -51,8 +51,18 @@ export function LocaleProvider({ children }: { children: React.ReactNode }) {
 
   const messages = useMemo(() => MESSAGES[locale] ?? MESSAGES.en, [locale]);
 
+  const warnedKeysRef = React.useRef<Set<string>>(new Set());
+
   const t = useCallback((key: string) => {
-    return messages[key] ?? key;
+    const val = messages[key];
+    if (val === undefined) {
+      if (!warnedKeysRef.current.has(key)) {
+        console.warn(`[i18n] Missing translation for key: ${key}`);
+        warnedKeysRef.current.add(key);
+      }
+      return key;
+    }
+    return val;
   }, [messages]);
 
   // Keep <html lang> in sync on the client during SPA navigation

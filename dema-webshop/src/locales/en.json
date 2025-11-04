@@ -28,6 +28,7 @@
   "metadata.description": "Your trusted partner for industrial equipment and tools. High-quality products with expert support.",
   "products.title": "Products",
   "products.count": "Showing {shown} of {total} products",
+  "products.empty": "No products match your filters.",
   "search.placeholder.extended": "Search products, categories, SKUs...",
   "search.clear": "Clear search",
   "search.legend.title": "Search for:",
@@ -35,4 +36,6 @@
   "search.legend.categories": "Categories",
   "search.legend.skus": "SKUs",
   "search.legend.pdfs": "PDF Documents"
+  ,
+  "categories.empty": "No items found in this category."
 }

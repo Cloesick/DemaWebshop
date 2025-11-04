@@ -269,16 +269,22 @@ export default function ProductsPage() {
             <div className="mb-4 text-sm text-gray-600">
               {t('products.count',).replace('{shown}', String(filtered.length)).replace('{total}', String(SAMPLE_PRODUCTS.length))}
             </div>
-            <ProductList
-              products={filtered}
-              loading={false}
-              hasMore={false}
-              renderProduct={(product) => (
-                <div className="p-2">
-                  <ProductCard product={product} />
-                </div>
-              )}
-            />
+            {filtered.length === 0 ? (
+              <div className="text-sm text-gray-600 bg-gray-50 border border-gray-200 rounded-md p-6">
+                {t('products.empty')}
+              </div>
+            ) : (
+              <ProductList
+                products={filtered}
+                loading={false}
+                hasMore={false}
+                renderProduct={(product) => (
+                  <div className="p-2">
+                    <ProductCard product={product} />
+                  </div>
+                )}
+              />
+            )}
           </section>
         </div>
       </main>

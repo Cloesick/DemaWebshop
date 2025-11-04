@@ -327,13 +327,19 @@ export default function CategoryPage({ params }: PageProps) {
             />
           </aside>
           <section className="md:col-span-3">
-            <ProductList
-              products={products}
-              renderProduct={(p) => <ProductCard product={p} viewMode="grid" />}
-              className=""
-              itemClassName=""
-              layout="grid"
-            />
+            {products.length === 0 ? (
+              <div className="text-sm text-gray-600 bg-gray-50 border border-gray-200 rounded-md p-6">
+                {t('categories.empty')}
+              </div>
+            ) : (
+              <ProductList
+                products={products}
+                renderProduct={(p) => <ProductCard product={p} viewMode="grid" />}
+                className=""
+                itemClassName=""
+                layout="grid"
+              />
+            )}
           </section>
         </div>
       </main>
