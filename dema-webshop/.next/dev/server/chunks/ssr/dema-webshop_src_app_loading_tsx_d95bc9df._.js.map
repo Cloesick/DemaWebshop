@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/nicol/Projects/DemaWebshop/dema-webshop/src/app/loading.tsx"],"sourcesContent":["export default function Loading() { return <div>Loading...</div> }\r\n"],"names":[],"mappings":";;;;;;AAAe,SAAS;IAAY,qBAAO,iQAAC;kBAAI;;;;;;AAAiB","debugId":null}}]
+}
