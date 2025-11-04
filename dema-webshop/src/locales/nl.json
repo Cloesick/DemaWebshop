@@ -25,5 +25,14 @@
   "filters.all_documents": "Alle documenten",
   "filters.pdf_document": "PDF-document",
   "metadata.title": "DemaShop - Professionele industriële uitrusting",
-  "metadata.description": "Uw betrouwbare partner voor industriële uitrusting en gereedschap. Hoogwaardige producten met deskundige ondersteuning."
+  "metadata.description": "Uw betrouwbare partner voor industriële uitrusting en gereedschap. Hoogwaardige producten met deskundige ondersteuning.",
+  "products.title": "Producten",
+  "products.count": "Toont {shown} van {total} producten",
+  "search.placeholder.extended": "Zoek producten, categorieën, SKU's...",
+  "search.clear": "Zoekopdracht wissen",
+  "search.legend.title": "Zoeken naar:",
+  "search.legend.products": "Productnamen",
+  "search.legend.categories": "Categorieën",
+  "search.legend.skus": "SKU's",
+  "search.legend.pdfs": "PDF-documenten"
 }

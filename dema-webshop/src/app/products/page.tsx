@@ -7,6 +7,7 @@ import ProductFilters from '@/components/products/ProductFilters';
 import ProductList from '@/components/products/ProductList';
 import ProductCard from '@/components/products/ProductCard';
 import type { Product } from '@/types/product';
+import { useLocale } from '@/contexts/LocaleContext';
 
 // Static sample products (no API)
 const SAMPLE_PRODUCTS: Product[] = [
@@ -51,6 +52,7 @@ const SAMPLE_PRODUCTS: Product[] = [
 
 export default function ProductsPage() {
   const router = useRouter();
+  const { t } = useLocale();
   const [activeCategory, setActiveCategory] = useState<string | undefined>(undefined);
   const [searchTerm, setSearchTerm] = useState<string>('');
   const [suggestions, setSuggestions] = useState<{ type: 'product' | 'category' | 'sku'; value: string; label: string }[]>([]);
@@ -135,12 +137,12 @@ export default function ProductsPage() {
     <div className="min-h-screen flex flex-col">
       <Navbar />
       <main className="container mx-auto px-4 py-8 flex-1">
-        <h1 className="text-3xl font-bold mb-6">Products</h1>
+        <h1 className="text-3xl font-bold mb-6">{t('products.title')}</h1>
 
         {/* Container-width search input with local suggestions */}
         <div className="mb-6 relative" ref={searchRef}>
           <input
-            placeholder="Search products, categories, SKUs..."
+            placeholder={t('search.placeholder.extended')}
             className="w-full pl-10 pr-9 py-2.5 bg-gray-800 border border-gray-700 rounded-md focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:border-transparent text-gray-100 placeholder-gray-400 text-sm transition duration-200"
             type="text"
             value={searchTerm}
@@ -172,7 +174,7 @@ export default function ProductsPage() {
                 setSuggestions([]);
                 setShowSuggestions(false);
               }}
-              aria-label="Clear search"
+              aria-label={t('search.clear')}
             >
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="h-4 w-4">
                 <line x1="18" y1="6" x2="6" y2="18" />
@@ -224,31 +226,31 @@ export default function ProductsPage() {
 
         {/* Search Legend */}
         <div className="mt-2 flex flex-wrap items-center gap-x-4 gap-y-1 text-xs text-black">
-          <span className="font-medium">Search for:</span>
+          <span className="font-medium">{t('search.legend.title')}</span>
           <div className="flex items-center gap-1">
             <svg className="h-3 w-3 text-yellow-500" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
               <circle cx="11" cy="11" r="8" />
               <line x1="21" y1="21" x2="16.65" y2="16.65" />
             </svg>
-            <span>Product names</span>
+            <span>{t('search.legend.products')}</span>
           </div>
           <div className="flex items-center gap-1">
             <svg className="h-3 w-3 text-blue-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" />
             </svg>
-            <span>Categories</span>
+            <span>{t('search.legend.categories')}</span>
           </div>
           <div className="flex items-center gap-1">
             <svg className="h-3 w-3 text-green-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2" />
             </svg>
-            <span>SKUs</span>
+            <span>{t('search.legend.skus')}</span>
           </div>
           <div className="flex items-center gap-1">
             <svg className="h-3 w-3 text-purple-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z" />
             </svg>
-            <span>PDF Documents</span>
+            <span>{t('search.legend.pdfs')}</span>
           </div>
         </div>
 
@@ -265,7 +267,7 @@ export default function ProductsPage() {
           {/* List */}
           <section className="md:col-span-3">
             <div className="mb-4 text-sm text-gray-600">
-              Showing {filtered.length} of {SAMPLE_PRODUCTS.length} products
+              {t('products.count',).replace('{shown}', String(filtered.length)).replace('{total}', String(SAMPLE_PRODUCTS.length))}
             </div>
             <ProductList
               products={filtered}

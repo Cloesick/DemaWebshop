@@ -25,5 +25,14 @@
   "filters.all_documents": "Tous les documents",
   "filters.pdf_document": "Document PDF",
   "metadata.title": "DemaShop - Équipements industriels professionnels",
-  "metadata.description": "Votre partenaire de confiance pour les équipements industriels et les outils. Produits de haute qualité avec support expert."
+  "metadata.description": "Votre partenaire de confiance pour les équipements industriels et les outils. Produits de haute qualité avec support expert.",
+  "products.title": "Produits",
+  "products.count": "Affichage de {shown} sur {total} produits",
+  "search.placeholder.extended": "Rechercher des produits, catégories, SKU...",
+  "search.clear": "Effacer la recherche",
+  "search.legend.title": "Rechercher:",
+  "search.legend.products": "Noms de produits",
+  "search.legend.categories": "Catégories",
+  "search.legend.skus": "SKU",
+  "search.legend.pdfs": "Documents PDF"
 }

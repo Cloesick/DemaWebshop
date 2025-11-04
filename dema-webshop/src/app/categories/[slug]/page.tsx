@@ -269,9 +269,9 @@ export default function CategoryPage({ params }: PageProps) {
         {/* Breadcrumbs and back link */}
         <nav className="mb-4 text-sm text-gray-600 flex items-center justify-between">
           <div className="flex items-center gap-2">
-            <a href="/" className="hover:text-gray-900">Home</a>
+            <a href="/" className="hover:text-gray-900">{t('nav.home')}</a>
             <span>/</span>
-            <a href="/categories" className="hover:text-gray-900">Categories</a>
+            <a href="/categories" className="hover:text-gray-900">{t('nav.categories')}</a>
             <span>/</span>
             <span className="text-gray-900 font-medium">{copy?.title || title}</span>
           </div>

@@ -55,6 +55,13 @@ export function LocaleProvider({ children }: { children: React.ReactNode }) {
     return messages[key] ?? key;
   }, [messages]);
 
+  // Keep <html lang> in sync on the client during SPA navigation
+  useEffect(() => {
+    if (typeof document !== 'undefined') {
+      document.documentElement.lang = locale;
+    }
+  }, [locale]);
+
   const value = useMemo(() => ({ locale, setLocale, t }), [locale, setLocale, t]);
 
   return <LocaleContext.Provider value={value}>{children}</LocaleContext.Provider>;
