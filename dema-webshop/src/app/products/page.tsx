@@ -226,36 +226,7 @@ export default function ProductsPage() {
             </div>
           )}
         </div>
-
-        {/* Search Legend */}
-        <div className="mt-2 flex flex-wrap items-center gap-x-4 gap-y-1 text-xs text-black">
-          <span className="font-medium">{t('search.legend.title')}</span>
-          <div className="flex items-center gap-1">
-            <svg className="h-3 w-3 text-yellow-500" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-              <circle cx="11" cy="11" r="8" />
-              <line x1="21" y1="21" x2="16.65" y2="16.65" />
-            </svg>
-            <span>{t('search.legend.products')}</span>
-          </div>
-          <div className="flex items-center gap-1">
-            <svg className="h-3 w-3 text-blue-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" />
-            </svg>
-            <span>{t('search.legend.categories')}</span>
-          </div>
-          <div className="flex items-center gap-1">
-            <svg className="h-3 w-3 text-green-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2" />
-            </svg>
-            <span>{t('search.legend.skus')}</span>
-          </div>
-          <div className="flex items-center gap-1">
-            <svg className="h-3 w-3 text-purple-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z" />
-            </svg>
-            <span>{t('search.legend.pdfs')}</span>
-          </div>
-        </div>
+        
 
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Filters (UI-only; mapped to local state) */}
