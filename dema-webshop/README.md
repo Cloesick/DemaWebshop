@@ -217,6 +217,27 @@ DemaWebshop is more than just an e-commerce platform - it's a comprehensive solu
 
 ## 🚀 Getting Started
 
+### Development Quickstart (Windows)
+
+```bash
+# Install deps
+npm install
+
+# Start dev server on port 3000
+npm run dev
+
+# If you see a Turbopack/webpack config message, you can force one:
+# Use Turbopack (default in Next 16)
+npx next dev --turbopack -p 3000
+
+# Or use Webpack (fallback)
+npx next dev --webpack -p 3000
+```
+
+Notes:
+- Dev server runs at http://localhost:3000
+- next.config.js is configured for Turbopack via an empty `turbopack: {}`
+
 ### Prerequisites
 
 - Node.js 18.0.0 or later (LTS recommended)
@@ -372,6 +393,18 @@ NEXT_PUBLIC_ENABLE_ANALYTICS=false
    ```
 
    The application will be available at [http://localhost:3000](http://localhost:3000)
+
+## 🧩 Troubleshooting (Windows)
+
+- Port already in use (3000)
+  - `npx kill-port 3000`
+  - Or: `Get-NetTCPConnection -LocalPort 3000 -State Listen | ForEach-Object { Stop-Process -Id $_.OwningProcess -Force }`
+
+- Turbopack vs Webpack error
+  - Use Turbopack: `npx next dev --turbopack -p 3000`
+  - Use Webpack: `npx next dev --webpack -p 3000`
+  - Ensure next.config.js has no deprecated `experimental.turbopack` key; we use top-level `turbopack: {}`.
+
 
 ## 🏗️ Project Architecture
 
