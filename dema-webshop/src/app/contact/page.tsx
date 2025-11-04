@@ -157,6 +157,9 @@ export default function ContactPage() {
 
         <div className="bg-white shadow overflow-hidden sm:rounded-lg">
           <div className="px-4 py-5 sm:p-6">
+            <p className="mb-4 text-sm text-gray-500">
+              Fields marked with <span className="text-red-500">*</span> are required.
+            </p>
             <form onSubmit={handleSubmit(onSubmit)} className="space-y-6">
               <div className="grid grid-cols-1 gap-y-6 gap-x-4 sm:grid-cols-2">
                 {/* First Name */}
