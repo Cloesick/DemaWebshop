@@ -9,72 +9,75 @@ import ProductCard from '@/components/products/ProductCard';
 import type { Product } from '@/types/product';
 import { useLocale } from '@/contexts/LocaleContext';
 
-// Static sample products (no API)
-const SAMPLE_PRODUCTS: Product[] = [
-  {
-    sku: 'DEMO-1001',
-    name: 'Aluminium Air Pipe 20mm',
-    description: 'Lightweight aluminium air piping – 20mm diameter for industrial compressed air.',
-    product_category: 'Air Piping',
-    pdf_source: '/documents/specs/air-pipe-20mm.pdf',
-    source_pages: [1, 2],
-    pressure_max_bar: 16,
-    pressure_min_bar: 6,
-    dimensions_mm_list: [20, 25, 32],
-    length_mm: 3000,
-    weight_kg: 1.2,
-  },
-  {
-    sku: 'DEMO-2002',
-    name: 'Compressed Air Filter 1/2"',
-    description: 'High-efficiency compressed air filter for moisture and particle removal.',
-    product_category: 'Filters',
-    pdf_source: '/documents/specs/air-filter-half-inch.pdf',
-    source_pages: [3],
-    pressure_max_bar: 12,
-    dimensions_mm_list: [10, 20],
-    weight_kg: 0.8,
-  },
-  {
-    sku: 'DEMO-3003',
-    name: 'Rotary Screw Compressor 7.5kW',
-    description: 'Reliable 7.5kW rotary screw compressor, ideal for workshops and SMEs.',
-    product_category: 'Compressors',
-    pdf_source: '/documents/specs/rotary-screw-7_5kw.pdf',
-    source_pages: [4, 5],
-    pressure_max_bar: 10,
-    power_kw: 7.5,
-    voltage_v: 400,
-    flow_l_min: 980,
-    weight_kg: 180,
-  },
-];
+// API-driven products list
 
 export default function ProductsPage() {
   const router = useRouter();
   const { t } = useLocale();
   const [activeCategory, setActiveCategory] = useState<string | undefined>(undefined);
   const [searchTerm, setSearchTerm] = useState<string>('');
+  const [filters, setFilters] = useState<Record<string, string[]>>({});
+  const [allProducts, setAllProducts] = useState<Product[]>([]);
+  const [products, setProducts] = useState<Product[]>([]);
+  const [loading, setLoading] = useState<boolean>(false);
   const [suggestions, setSuggestions] = useState<{ type: 'product' | 'category' | 'sku'; value: string; label: string }[]>([]);
   const [showSuggestions, setShowSuggestions] = useState(false);
   const searchRef = useRef<HTMLDivElement>(null);
 
-  const filtered = useMemo(() => {
-    const term = searchTerm.trim().toLowerCase();
-    return SAMPLE_PRODUCTS.filter((p) => {
-      const matchesCategory = activeCategory ? p.product_category === activeCategory : true;
-      const matchesSearch = term
-        ? [p.sku, (p as any).name, p.description, p.product_category]
-            .filter(Boolean)
-            .some((v) => String(v).toLowerCase().includes(term))
-        : true;
-      return matchesCategory && matchesSearch;
-    });
-  }, [activeCategory, searchTerm]);
+  // Build filtered count text from products array
+  const filtered = products;
 
-  const handleFilterChange = useCallback((filters: Record<string, string[]>) => {
-    setActiveCategory(filters.category?.[0]);
+  const handleFilterChange = useCallback((next: Record<string, string[]>) => {
+    setFilters(next);
+    setActiveCategory(next.category?.[0]);
   }, []);
+
+  // Fetch all products once for filter options
+  useEffect(() => {
+    let cancelled = false;
+    const fetchAll = async () => {
+      try {
+        const res = await fetch('/api/products?limit=1000');
+        const data = await res.json();
+        if (!cancelled && data?.products) {
+          setAllProducts(data.products as Product[]);
+        }
+      } catch (e) {
+        console.error('Failed to load products:', e);
+      }
+    };
+    fetchAll();
+    return () => { cancelled = true; };
+  }, []);
+
+  // Fetch filtered products when filters/search change
+  useEffect(() => {
+    let cancelled = false;
+    const fetchFiltered = async () => {
+      setLoading(true);
+      try {
+        const params = new URLSearchParams();
+        // Map single-select filters
+        Object.entries(filters).forEach(([k, v]) => {
+          if (v && v[0]) params.set(k, v[0]);
+        });
+        const term = searchTerm.trim();
+        if (term) params.set('q', term);
+        const res = await fetch(`/api/products?${params.toString()}`);
+        const data = await res.json();
+        if (!cancelled) {
+          setProducts(data?.products || []);
+        }
+      } catch (e) {
+        console.error('Failed to load filtered products:', e);
+        if (!cancelled) setProducts([]);
+      } finally {
+        if (!cancelled) setLoading(false);
+      }
+    };
+    fetchFiltered();
+    return () => { cancelled = true; };
+  }, [filters, searchTerm]);
 
   // Build suggestions locally (debounced ~150ms)
   useEffect(() => {
@@ -86,7 +89,7 @@ export default function ProductsPage() {
     const t = setTimeout(() => {
       const sugg: { type: 'product' | 'category' | 'sku'; value: string; label: string }[] = [];
       // products by description/name
-      SAMPLE_PRODUCTS.forEach(p => {
+      allProducts.forEach((p: Product) => {
         const title = ((p as any).name || p.sku || 'Product') as string;
         const desc = p.description || '';
         if (title.toLowerCase().includes(q) || desc.toLowerCase().includes(q)) {
@@ -94,14 +97,14 @@ export default function ProductsPage() {
         }
       });
       // categories
-      const categories = Array.from(new Set(SAMPLE_PRODUCTS.map(p => p.product_category).filter(Boolean))) as string[];
+      const categories = Array.from(new Set(allProducts.map((p: Product) => p.product_category).filter(Boolean))) as string[];
       categories.forEach(cat => {
         if (cat && cat.toLowerCase().includes(q)) {
           sugg.push({ type: 'category', value: cat, label: cat });
         }
       });
       // skus
-      SAMPLE_PRODUCTS.forEach(p => {
+      allProducts.forEach((p: Product) => {
         if (p.sku.toLowerCase().includes(q)) {
           sugg.push({ type: 'sku', value: p.sku, label: `SKU: ${p.sku}` });
         }
@@ -258,7 +261,7 @@ export default function ProductsPage() {
           {/* Filters (UI-only; mapped to local state) */}
           <aside className="md:col-span-1">
             <ProductFilters
-              products={SAMPLE_PRODUCTS}
+              products={allProducts}
               onFilterChange={handleFilterChange}
               onSearch={(q) => setSearchTerm(q)}
             />
@@ -267,7 +270,7 @@ export default function ProductsPage() {
           {/* List */}
           <section className="md:col-span-3">
             <div className="mb-4 text-sm text-gray-600">
-              {t('products.count',).replace('{shown}', String(filtered.length)).replace('{total}', String(SAMPLE_PRODUCTS.length))}
+              {t('products.count',).replace('{shown}', String(filtered.length)).replace('{total}', String(allProducts.length || filtered.length))}
             </div>
             {filtered.length === 0 ? (
               <div className="text-sm text-gray-600 bg-gray-50 border border-gray-200 rounded-md p-6">
@@ -276,7 +279,7 @@ export default function ProductsPage() {
             ) : (
               <ProductList
                 products={filtered}
-                loading={false}
+                loading={loading}
                 hasMore={false}
                 renderProduct={(product) => (
                   <div className="p-2">

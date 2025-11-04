@@ -372,10 +372,12 @@ export default function ProductFilters({
     });
   }, [availableFilters.size]);
 
-  // Helper to title-case property names for labels
-  const titleFor = (key: string) => key
-    .replace(/_/g, ' ')
-    .replace(/\b\w/g, (m) => m.toUpperCase());
+  // Helper: localized title or fallback to title-case
+  const titleFor = (key: string) => {
+    const localized = t(`filters.${key}` as any);
+    if (localized !== `filters.${key}`) return localized;
+    return key.replace(/_/g, ' ').replace(/\b\w/g, (m) => m.toUpperCase());
+  };
 
   const handleFilterChange = (type: string, value: string) => {
     const newFilters = { ...activeFilters };
@@ -489,7 +491,7 @@ export default function ProductFilters({
                 onChange={(e) => handleFilterChange(key, e.target.value)}
                 className="w-full rounded-md bg-gray-800 border border-gray-700 text-gray-100 text-sm p-2 focus:ring-2 focus:ring-yellow-500 focus:border-transparent transition duration-200"
               >
-                <option value="">All</option>
+                <option value="">{t('filters.all_generic')}</option>
                 {availableFilters[key]?.map(({ value, count }) => (
                   <option key={value} value={value} className="bg-gray-800">
                     {String(value)} ({count})
