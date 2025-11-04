@@ -18,32 +18,49 @@ export async function getProducts(_filters?: ProductFilters): Promise<Product[]>
         console.error('Expected an array of products but got:', typeof data);
         productsCache = [];
       } else {
+        const firstSentence = (text?: string, maxLen = 200) => {
+          if (!text) return '';
+          const s = String(text).split(/\.|\n|\r/)[0].trim();
+          return s.length > maxLen ? s.slice(0, maxLen - 1) + '…' : s;
+        };
+
+        const toNum = (v: any): number | undefined => {
+          const n = typeof v === 'string' ? parseFloat(v.replace(',', '.')) : v;
+          return typeof n === 'number' && !Number.isNaN(n) ? n : undefined;
+        };
+
+        const toNumArray = (arr: any): number[] | undefined => {
+          if (!Array.isArray(arr)) return undefined;
+          const out = arr.map(toNum).filter((n): n is number => typeof n === 'number');
+          return out.length ? out : undefined;
+        };
+
         productsCache = productsArray.map((item: any, index: number): Product => ({
           sku: item.sku || item.product_id || `product-${index}`,
-          name: item.name || 'Unnamed Product',
-          description: item.description || '',
+          name: item.name || (item.description ? firstSentence(item.description, 60) : 'Unnamed Product'),
+          description: String(item.description || ''),
           product_category: item.product_category || 'Uncategorized',
           pdf_source: item.pdf_source || '',
           source_pages: Array.isArray(item.source_pages) ? item.source_pages : [],
 
-          // Optional/technical fields
-          price: typeof item.price === 'number' ? item.price : undefined,
-          imageUrl: typeof item.imageUrl === 'string' ? item.imageUrl : undefined,
+          // Optional/technical fields (coerced)
+          price: toNum(item.price),
+          imageUrl: typeof item.imageUrl === 'string' ? item.imageUrl : (typeof item.image === 'string' ? item.image : undefined),
           inStock: item.inStock !== false,
-          rating: typeof item.rating === 'number' ? item.rating : undefined,
-          reviewCount: typeof item.reviewCount === 'number' ? item.reviewCount : undefined,
-          pressure_max_bar: typeof item.pressure_max_bar === 'number' ? item.pressure_max_bar : undefined,
-          pressure_min_bar: typeof item.pressure_min_bar === 'number' ? item.pressure_min_bar : undefined,
-          power_kw: typeof item.power_kw === 'number' ? item.power_kw : undefined,
-          power_hp: typeof item.power_hp === 'number' ? item.power_hp : undefined,
-          voltage_v: typeof item.voltage_v === 'number' ? item.voltage_v : undefined,
-          flow_l_min: typeof item.flow_l_min === 'number' ? item.flow_l_min : undefined,
-          flow_l_min_list: Array.isArray(item.flow_l_min_list) ? item.flow_l_min_list : undefined,
-          dimensions_mm_list: Array.isArray(item.dimensions_mm_list) ? item.dimensions_mm_list : undefined,
-          length_mm: typeof item.length_mm === 'number' ? item.length_mm : undefined,
-          width_mm: typeof item.width_mm === 'number' ? item.width_mm : undefined,
-          height_mm: typeof item.height_mm === 'number' ? item.height_mm : undefined,
-          weight_kg: typeof item.weight_kg === 'number' ? item.weight_kg : undefined,
+          rating: toNum(item.rating),
+          reviewCount: toNum(item.reviewCount),
+          pressure_max_bar: toNum(item.pressure_max_bar),
+          pressure_min_bar: toNum(item.pressure_min_bar),
+          power_kw: toNum(item.power_kw),
+          power_hp: toNum(item.power_hp),
+          voltage_v: toNum(item.voltage_v),
+          flow_l_min: toNum(item.flow_l_min),
+          flow_l_min_list: toNumArray(item.flow_l_min_list),
+          dimensions_mm_list: toNumArray(item.dimensions_mm_list),
+          length_mm: toNum(item.length_mm),
+          width_mm: toNum(item.width_mm),
+          height_mm: toNum(item.height_mm),
+          weight_kg: toNum(item.weight_kg),
 
           // Preserve any extra fields
           ...item,

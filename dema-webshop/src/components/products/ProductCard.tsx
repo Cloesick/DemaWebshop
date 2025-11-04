@@ -20,6 +20,7 @@ import {
 import { Button } from '@/components/ui/button';
 import { useCartStore } from '@/store/cartStore';
 import { useLocale } from '@/contexts/LocaleContext';
+import { formatProductForCard } from '@/lib/formatProductForCard';
 
 interface ProductCardProps {
   product: Product;
@@ -48,45 +49,17 @@ export default function ProductCard({ product, className = '', viewMode = 'grid'
   const itemsCount = useCartStore(s => s.items.length);
   const isOpen = useCartStore(s => s.isOpen);
   const { t } = useLocale();
+  const vm = formatProductForCard(product);
   const [selectedDimensions, setSelectedDimensions] = useState<number | null>(
     product.dimensions_mm_list?.[0] || null
   );
   
-  // Use the product name from the product data
-  const productName = (product as any).name || product.sku || 'Product';
-  // Use the first part of the description as subtitle
-  const description = product.description?.split('\n')[0] || '';
-  
-  const categoryForImage = product.product_category?.replace(/[^a-z0-9]+/gi, '-').toLowerCase() || 'product';
-  
-  // Use the image property from product or fallback to a placeholder
-  const imageUrl = (product as any).image || `data:image/svg+xml;base64,${btoa(
-    `<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" preserveAspectRatio="none">
-      <rect width="400" height="300" fill="#f3f4f6"/>
-      <text x="50%" y="50%" font-family="sans-serif" font-size="16" text-anchor="middle" fill="#9ca3af" dy=".3em">${productName}</text>
-    </svg>`
-  )}`;
+  const productName = vm.title;
+  const description = vm.subtitle;
+  const imageUrl = vm.image;
   
   // Format price based on selected dimensions or other logic
-  const price = selectedDimensions 
-    ? formatCurrency(selectedDimensions * 0.5)
-    : formatCurrency(99.99);
-  
-  // Filter out empty or non-relevant properties for display
-  const displayProperties = Object.entries(product).filter(([key, value]: [string, string | number]) => {
-    // Skip these internal or already displayed properties
-    const skipKeys = [
-      'sku', 'pdf_source', 'source_pages', 'product_category', 
-      'description', 'image', 'imageUrl', 'dimensions_mm_list'
-    ];
-    
-    return !skipKeys.includes(key) && 
-           value !== undefined && 
-           value !== null && 
-           value !== '' &&
-           !Array.isArray(value) &&
-           typeof value !== 'object';
-  });
+  const price = vm.priceLabel;
   
   const hasDimensions = product.dimensions_mm_list && product.dimensions_mm_list.length > 0;
 
@@ -131,9 +104,9 @@ export default function ProductCard({ product, className = '', viewMode = 'grid'
               <p className="mt-1 text-sm text-gray-700 line-clamp-2">{description}</p>
             )}
             <p className="text-xs text-gray-500">SKU: {product.sku}</p>
-            {product.product_category && (
+            {vm.badges?.[0] && (
               <span className="inline-block mt-2 px-2.5 py-0.5 rounded-full text-xs font-medium bg-primary/10 text-primary">
-                {product.product_category}
+                {vm.badges[0]}
               </span>
             )}
             {product.dimensions_mm_list?.[0] && (
@@ -188,7 +161,7 @@ export default function ProductCard({ product, className = '', viewMode = 'grid'
       <div className="p-4">
         <div className="flex flex-col h-full">
           <div className="flex-1">
-            <h3 className="text-base font-bold text-gray-900 mb-1 break-words">
+            <h3 className="text.base font-bold text-gray-900 mb-1 break-words">
               <Link href={`/products/${product.sku}`} className="hover:text-primary transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-primary/60 rounded" onClick={(e) => e.stopPropagation()}>
                 {productName}
               </Link>
@@ -197,13 +170,13 @@ export default function ProductCard({ product, className = '', viewMode = 'grid'
               <p className="text-sm text-gray-600 mb-1 line-clamp-2 h-10">{description}</p>
             )}
             <p className="text-xs text-gray-500 mb-2">SKU: {product.sku}</p>
-            {product.product_category && (
-              <div className="mb-2">
-                <span className="inline-block px-2.5 py-0.5 rounded-full text-xs font-medium bg-primary/10 text-primary">
-                  {product.product_category}
-                </span>
+            {vm.badges?.length ? (
+              <div className="mb-2 flex flex-wrap gap-1">
+                {vm.badges.slice(0,2).map((b) => (
+                  <span key={b} className="inline-block px-2.5 py-0.5 rounded-full text-xs font-medium bg-primary/10 text-primary">{b}</span>
+                ))}
               </div>
-            )}
+            ) : null}
             
             {/* Dimensions picker for grid view */}
             {hasDimensions && (
@@ -226,31 +199,14 @@ export default function ProductCard({ product, className = '', viewMode = 'grid'
               </div>
             )}
             
-            {/* Dynamic properties for grid view */}
+            {/* Curated specs for grid view */}
             <div className="mt-2 space-y-1">
-              {displayProperties.slice(0, 3).map(([key, value]: [string, string | number]) => (
-                <div key={key} className="flex justify-between text-sm">
-                  <span className="text-gray-600">{formatPropertyName(key)}:</span>
-                  <span className="font-medium text-gray-900">
-                    {typeof value === 'number' 
-                      ? key.includes('bar') 
-                        ? `${value} bar`
-                        : key.includes('kg')
-                          ? `${value} kg`
-                          : key.includes('mm')
-                            ? `${value} mm`
-                            : key.includes('kw')
-                              ? `${value} kW`
-                              : key.includes('hp')
-                                ? `${value} HP`
-                                : value
-                      : value}
-                  </span>
+              {vm.specs.slice(0,3).map(spec => (
+                <div key={spec.label} className="flex justify-between text-sm">
+                  <span className="text-gray-600">{spec.label}:</span>
+                  <span className="font-medium text-gray-900">{spec.value}</span>
                 </div>
               ))}
-              {displayProperties.length > 3 && (
-                <div className="text-xs text-gray-500 text-right">+{displayProperties.length - 3} more</div>
-              )}
             </div>
           </div>
           <div className="mt-3 flex items-center justify-between">
@@ -265,12 +221,12 @@ export default function ProductCard({ product, className = '', viewMode = 'grid'
         
         {/* Product specs */}
         <div className="mt-4 grid grid-cols-2 gap-2 text-sm">
-          {product.pressure_max_bar && (
-            <div className="flex items-center">
-              <span className="text-gray-500 mr-1">Pressure:</span>
-              <span>{product.pressure_max_bar} bar</span>
+          {vm.specs.map(s => (
+            <div key={s.label} className="flex items-center justify-between">
+              <span className="text-gray-500 mr-1">{s.label}:</span>
+              <span>{s.value}</span>
             </div>
-          )}
+          ))}
           {Array.isArray(product.dimensions_mm_list) && product.dimensions_mm_list.length > 0 && (
             <div className="flex items-center">
               <span className="text-gray-900 mr-1">Sizes:</span>
@@ -278,24 +234,6 @@ export default function ProductCard({ product, className = '', viewMode = 'grid'
                 {product.dimensions_mm_list.slice(0, 3).join('mm, ')}mm
                 {product.dimensions_mm_list.length > 3 ? '...' : ''}
               </span>
-            </div>
-          )}
-          {product.length_mm && (
-            <div className="flex items-center">
-              <span className="text-gray-500 mr-1">Length:</span>
-              <span>{product.length_mm}mm</span>
-            </div>
-          )}
-          {product.weight_kg && (
-            <div className="flex items-center">
-              <span className="text-gray-500 mr-1">Weight:</span>
-              <span>{product.weight_kg}kg</span>
-            </div>
-          )}
-          {product.power_kw && (
-            <div className="flex items-center">
-              <span className="text-gray-500 mr-1">Power:</span>
-              <span>{product.power_kw} kW</span>
             </div>
           )}
           {product.source_pages?.length > 0 && (
