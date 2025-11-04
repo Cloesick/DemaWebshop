@@ -18,6 +18,7 @@ import {
 } from '@/components/ui/select';
 import { Button } from '@/components/ui/button';
 import { useCartStore } from '@/store/cartStore';
+import { useLocale } from '@/contexts/LocaleContext';
 
 interface ProductCardProps {
   product: Product;
@@ -44,6 +45,7 @@ export default function ProductCard({ product, className = '', viewMode = 'grid'
   const toggleCart = useCartStore(s => s.toggleCart);
   const itemsCount = useCartStore(s => s.items.length);
   const isOpen = useCartStore(s => s.isOpen);
+  const { t } = useLocale();
   const [selectedDimensions, setSelectedDimensions] = useState<number | null>(
     product.dimensions_mm_list?.[0] || null
   );
@@ -101,13 +103,13 @@ export default function ProductCard({ product, className = '', viewMode = 'grid'
         </div>
         <div className="flex-1 p-4 flex flex-col">
           <div className="flex-1">
-            <h3 className="text-lg font-bold text-gray-900 hover:text-primary transition-colors break-words">
-              <Link href={`/products/${product.sku}`} className="hover:underline">
+            <h3 className="text-lg font-semibold text-gray-900">
+              <Link href={`/products/${product.sku}`} className="hover:underline" aria-label={`${productName} - ${t('products.view_details')}`}>
                 {productName}
               </Link>
             </h3>
             {description && (
-              <p className="mt-1 text-sm text-gray-600">{description}</p>
+              <p className="mt-1 text-sm text-gray-700 line-clamp-2">{description}</p>
             )}
             <p className="text-xs text-gray-500">SKU: {product.sku}</p>
             {product.product_category && (
@@ -121,8 +123,11 @@ export default function ProductCard({ product, className = '', viewMode = 'grid'
               </p>
             )}
           </div>
-          <div className="mt-4 flex items-center justify-between">
+          <div className="mt-4 flex items-center justify-between gap-2">
             <p className="text-lg font-bold text-primary">{price}</p>
+            <Link href={`/products/${product.sku}`} className="text-sm text-primary hover:underline" aria-label={t('products.view_details')}>
+              {t('products.view_details')}
+            </Link>
             <Button
               className="bg-primary hover:bg-primary-dark text-white"
               onClick={() => {
@@ -274,7 +279,14 @@ export default function ProductCard({ product, className = '', viewMode = 'grid'
           )}
         </div>
         
-        <div className="mt-4">
+        <div className="mt-4 space-y-2">
+          <Link
+            href={`/products/${product.sku}`}
+            className="w-full inline-flex items-center justify-center px-4 py-2 text-sm font-medium text-primary hover:underline"
+            aria-label={t('products.view_details')}
+          >
+            {t('products.view_details')}
+          </Link>
           <button
             type="button"
             className="btn-primary w-full flex items-center justify-center px-4 py-2 text-sm font-medium"

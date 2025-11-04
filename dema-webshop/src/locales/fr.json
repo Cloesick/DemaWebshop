@@ -44,6 +44,7 @@
   "metadata.description": "Votre partenaire de confiance pour les équipements industriels et les outils. Produits de haute qualité avec support expert.",
   "products.title": "Produits",
   "products.count": "Affichage de {shown} sur {total} produits",
+  "products.view_details": "Voir les détails",
   "search.placeholder.extended": "Rechercher des produits, catégories, SKU...",
   "search.clear": "Effacer la recherche",
   "search.legend.title": "Rechercher:",
