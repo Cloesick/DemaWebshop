@@ -5,6 +5,7 @@ import { useRouter } from 'next/navigation';
 import ProductFilters from '@/components/products/ProductFilters';
 import ProductList from '@/components/products/ProductList';
 import ProductCard from '@/components/products/ProductCard';
+import DynamicConfigurator from '@/components/products/DynamicConfigurator';
 import type { Product } from '@/types/product';
 import { useLocale } from '@/contexts/LocaleContext';
 import { useCookieConsent } from '@/contexts/CookieConsentContext';
@@ -295,6 +296,9 @@ export default function ProductsPage() {
               onFilterChange={handleFilterChange}
               onSearch={(q) => setSearchTerm(q)}
             />
+            <div className="mt-6">
+              <DynamicConfigurator products={allProducts} activeCategory={activeCategory} />
+            </div>
           </aside>
 
           {/* List */}
