@@ -101,11 +101,36 @@ export default function ProductPage() {
   return (
     <div className="bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-        {/* Back to results */}
-        <div className="mb-4">
-          <Link href="/products" className="text-sm text-primary hover:underline">
-            ← {t('products.back_to_results')}
-          </Link>
+        {/* Breadcrumbs + Back link */}
+        <div className="mb-4 space-y-2">
+          <nav className="text-xs text-gray-500" aria-label="Breadcrumb">
+            <ol className="list-none p-0 inline-flex gap-1 items-center">
+              <li>
+                <Link href="/" className="hover:underline">{t('nav.home')}</Link>
+                <span className="mx-1">/</span>
+              </li>
+              <li>
+                <Link href="/products" className="hover:underline">{t('nav.products')}</Link>
+                <span className="mx-1">/</span>
+              </li>
+              {product.product_category && (
+                <li>
+                  <Link href={`/products?category=${encodeURIComponent(product.product_category)}`} className="hover:underline">
+                    {product.product_category}
+                  </Link>
+                  <span className="mx-1">/</span>
+                </li>
+              )}
+              <li aria-current="page" className="text-gray-700 font-medium truncate max-w-[50ch]">
+                {product.description?.split(' ')[0] || product.sku}
+              </li>
+            </ol>
+          </nav>
+          <div>
+            <Link href="/products" className="text-sm text-primary hover:underline">
+              ← {t('products.back_to_results')}
+            </Link>
+          </div>
         </div>
 
         {/* Structured product details */}

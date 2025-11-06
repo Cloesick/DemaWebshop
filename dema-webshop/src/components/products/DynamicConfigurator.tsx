@@ -120,7 +120,7 @@ export default function DynamicConfigurator({
 
   // For each attribute, compute available options given prior selections (cascading)
   const optionsByKey = useMemo(() => {
-    const map: Record<string, string[]> = {};
+    const map: Record<string, { value: string; count: number }[]> = {};
     for (const key of attributeKeys) {
       // Build a subset filtered by all previous keys in order
       const idx = attributeKeys.indexOf(key);
@@ -133,12 +133,18 @@ export default function DynamicConfigurator({
           return String(val) === String(sel);
         });
       });
-      const set = new Set<string>();
+      const counter = new Map<string, number>();
       for (const p of subset) {
         const val = (p as any)[key] ?? (p as any)[key.toLowerCase()];
-        if (val !== undefined && val !== null) set.add(String(val));
+        if (val !== undefined && val !== null) {
+          const s = String(val);
+          counter.set(s, (counter.get(s) || 0) + 1);
+        }
       }
-      map[key] = Array.from(set).sort((a, b) => a.localeCompare(b, undefined, { numeric: true }));
+      const arr = Array.from(counter.entries())
+        .map(([value, count]) => ({ value, count }))
+        .sort((a, b) => a.value.localeCompare(b.value, undefined, { numeric: true }));
+      map[key] = arr;
     }
     return map;
   }, [attributeKeys, pool, selection]);
@@ -217,8 +223,8 @@ export default function DynamicConfigurator({
           >
             <option value="">All</option>
             {optionsByKey[key]?.map((opt) => (
-              <option key={opt} value={opt}>
-                {opt}
+              <option key={opt.value} value={opt.value}>
+                {opt.value} ({opt.count})
               </option>
             ))}
           </select>
