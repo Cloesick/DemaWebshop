@@ -1,11 +1,12 @@
 'use client';
 
 import { useParams } from 'next/navigation';
-import { useEffect, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import { Product } from '@/types/product';
 import Link from 'next/link';
 import { useLocale } from '@/contexts/LocaleContext';
 import ProductDetailsCard from '@/components/products/ProductDetailsCard';
+import DynamicConfigurator from '@/components/products/DynamicConfigurator';
 
 // This is a client component that will be hydrated on the client
 export default function ProductPage() {
@@ -14,6 +15,7 @@ export default function ProductPage() {
   const [product, setProduct] = useState<Product | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
+  const [categoryProducts, setCategoryProducts] = useState<Product[] | null>(null);
 
   useEffect(() => {
     const sku = Array.isArray(params.sku) ? params.sku[0] : params.sku;
@@ -37,6 +39,18 @@ export default function ProductPage() {
           return;
         }
         setProduct(productData);
+        // Fetch products in same category for configurator
+        if (productData.product_category) {
+          const catRes = await fetch(`/api/products?product_category=${encodeURIComponent(productData.product_category)}&limit=250`);
+          if (catRes.ok) {
+            const catData = await catRes.json();
+            setCategoryProducts(catData?.products || []);
+          } else {
+            setCategoryProducts([]);
+          }
+        } else {
+          setCategoryProducts([]);
+        }
       } catch (err) {
         console.error('Error fetching product:', err);
         setError('Failed to load product');
@@ -47,6 +61,23 @@ export default function ProductPage() {
 
     fetchProduct();
   }, [params.sku]);
+
+  // Build initial selection for configurator from current product's scalar attributes
+  const initialSelection = useMemo(() => {
+    if (!product) return undefined;
+    const sel: Record<string, string> = {};
+    for (const [k, v] of Object.entries(product)) {
+      if (v === null || v === undefined) continue;
+      if (Array.isArray(v)) continue;
+      if (typeof v === 'object') continue;
+      // Avoid core meta fields
+      if ([
+        'sku','name','description','product_category','pdf_source','source_pages','price','inStock','rating','reviewCount'
+      ].includes(k)) continue;
+      sel[k] = String(v);
+    }
+    return sel;
+  }, [product]);
 
   if (loading) {
     return (
@@ -79,6 +110,18 @@ export default function ProductPage() {
 
         {/* Structured product details */}
         <ProductDetailsCard product={product} />
+
+        {/* Configure similar */}
+        {categoryProducts && categoryProducts.length > 0 && (
+          <div className="mt-8">
+            <h2 className="text-lg font-semibold text-gray-900 mb-3">Configure similar</h2>
+            <DynamicConfigurator
+              products={categoryProducts}
+              activeCategory={product.product_category}
+              initialSelection={initialSelection}
+            />
+          </div>
+        )}
       </div>
     </div>
   );

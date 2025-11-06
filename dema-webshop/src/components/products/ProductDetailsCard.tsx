@@ -207,7 +207,7 @@ export default function ProductDetailsCard({ product, className = '' }: ProductD
                       <div>
                         <h4 className="text-sm font-medium text-gray-500 mb-1">Connection Types</h4>
                         <div className="mt-1">
-                          {renderList(product.connection_types, 'conn')}
+                          {renderList(product.connection_types!, 'conn')}
                         </div>
                       </div>
                     )}
@@ -244,7 +244,7 @@ export default function ProductDetailsCard({ product, className = '' }: ProductD
                       <div>
                         <h4 className="text-sm font-medium text-gray-500 mb-1">Available Sizes</h4>
                         <div className="mt-1">
-                          {renderList(product.dimensions_mm_list, 'size', ' mm')}
+                          {renderList(product.dimensions_mm_list!, 'size', ' mm')}
                         </div>
                       </div>
                     )}
@@ -288,7 +288,7 @@ export default function ProductDetailsCard({ product, className = '' }: ProductD
               </div>
             )}
             
-            {/* Full Description */}
+            {/* Full Description with parsed properties (■) */}
             {product.description && (
               <div className="mt-8 bg-white border border-gray-200 rounded-lg overflow-hidden">
                 <div className="px-6 py-4 bg-gray-50 border-b border-gray-200">
@@ -296,9 +296,33 @@ export default function ProductDetailsCard({ product, className = '' }: ProductD
                 </div>
                 <div className="p-6">
                   <div className="prose max-w-none text-gray-700">
-                    {product.description.split('\n').map((paragraph, i) => (
-                      <p key={i} className="mb-4">{paragraph}</p>
-                    ))}
+                    {(() => {
+                      const desc = product.description || '';
+                      const idx = desc.indexOf('■');
+                      if (idx === -1) {
+                        return desc.split('\n').map((paragraph, i) => (
+                          <p key={i} className="mb-4">{paragraph}</p>
+                        ));
+                      }
+                      const intro = desc.slice(0, idx).trim();
+                      const properties = desc
+                        .slice(idx)
+                        .split('■')
+                        .map((s) => s.trim())
+                        .filter(Boolean);
+                      return (
+                        <>
+                          {intro && <p className="mb-4">{intro}</p>}
+                          <div className="space-y-2">
+                            {properties.map((prop, i) => (
+                              <div key={i} className="text-sm leading-6 text-gray-800">
+                                {prop}
+                              </div>
+                            ))}
+                          </div>
+                        </>
+                      );
+                    })()}
                   </div>
                 </div>
               </div>

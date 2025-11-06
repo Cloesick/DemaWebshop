@@ -50,9 +50,11 @@ type Selection = Record<string, string>;
 export default function DynamicConfigurator({
   products,
   activeCategory,
+  initialSelection,
 }: {
   products: Product[];
   activeCategory?: string;
+  initialSelection?: Record<string, string>;
 }) {
   const router = useRouter();
   const [selection, setSelection] = useState<Selection>({});
@@ -148,6 +150,41 @@ export default function DynamicConfigurator({
   useEffect(() => {
     setSelection({});
   }, [activeCategory]);
+
+  // Apply initialSelection when available, trimming to known attributes and cascading order
+  useEffect(() => {
+    if (!initialSelection) return;
+    const next: Selection = {};
+    for (const key of attributeKeys) {
+      const v = initialSelection[key] ?? initialSelection[key.toLowerCase()];
+      if (v == null || v === '') continue;
+      // Respect cascading: only set value if available in current options chain
+      const idx = attributeKeys.indexOf(key);
+      const priorKeys = attributeKeys.slice(0, idx);
+      const subset = pool.filter((p) => {
+        return priorKeys.every((pk) => {
+          const sel = next[pk];
+          if (!sel) return true;
+          const val = (p as any)[pk] ?? (p as any)[pk.toLowerCase()];
+          return String(val) === String(sel);
+        });
+      });
+      const set = new Set<string>();
+      for (const p of subset) {
+        const val = (p as any)[key] ?? (p as any)[key.toLowerCase()];
+        if (val !== undefined && val !== null) set.add(String(val));
+      }
+      if (set.has(String(v))) {
+        next[key] = String(v);
+      } else {
+        // stop if the proposed value is not consistent with prior selections
+        break;
+      }
+    }
+    if (Object.keys(next).length) setSelection(next);
+    // only run when attributeKeys/pool or initialSelection changes
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [JSON.stringify(initialSelection), pool, attributeKeys.join('|')]);
 
   if (!activeCategory || pool.length === 0 || attributeKeys.length === 0) {
     return null;
