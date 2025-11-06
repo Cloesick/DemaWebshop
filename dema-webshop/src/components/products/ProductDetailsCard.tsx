@@ -27,7 +27,7 @@ const renderList = (items: any[], key: string, unit: string = '') => (
 );
 
 export default function ProductDetailsCard({ product, className = '' }: ProductDetailsCardProps) {
-  const title = product.description?.split('\n')[0] || 'Product';
+  const title = [product.product_category, product.sku].filter(Boolean).join(' — ') || 'Product';
   
   // Generate a placeholder color based on product SKU or category
   const getPlaceholderColor = (str: string) => {
@@ -74,9 +74,6 @@ export default function ProductDetailsCard({ product, className = '' }: ProductD
               <div className="mt-1 inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-blue-100 text-blue-800">
                 {product.product_category}
               </div>
-            )}
-            {product.sku && (
-              <p className="mt-2 text-sm text-gray-500">SKU: {product.sku}</p>
             )}
           </div>
           <div className="flex flex-col items-end">
