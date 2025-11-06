@@ -5,12 +5,14 @@ import { FiSearch, FiShoppingCart, FiUser, FiMapPin, FiMenu } from 'react-icons/
 import { useLocale } from '@/contexts/LocaleContext';
 import { CONTACT } from '@/config/contact';
 import { useCartStore } from '@/store/cartStore';
+import { useCookieConsent } from '@/contexts/CookieConsentContext';
 
 export default function Header() {
   const { t, locale, setLocale } = useLocale();
   const contact = CONTACT[locale];
   const toggleCart = useCartStore(s => s.toggleCart);
   const count = useCartStore(s => s.items.reduce((t, i) => t + i.quantity, 0));
+  const { openConsent } = useCookieConsent();
   return (
     <header className="bg-white shadow-sm sticky top-0 z-50">
       {/* Top Bar */}
@@ -30,6 +32,13 @@ export default function Header() {
               <FiUser className="mr-1" /> {t('account')}
             </Link>
             <Link href="/contact" className="hover:text-yellow-400">{t('contact')}</Link>
+            <button
+              onClick={openConsent}
+              className="hover:text-yellow-400 underline decoration-dotted"
+              aria-label="Manage Cookies"
+            >
+              Manage Cookies
+            </button>
             <div className="hidden sm:flex items-center space-x-1">
               {(['en','nl','fr'] as const).map(l => (
                 <button

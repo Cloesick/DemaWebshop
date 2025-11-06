@@ -12,9 +12,16 @@ type CookieConsentProps = {
     marketing: boolean;
     preferences: boolean;
   }) => void;
+  initialConsent?: {
+    necessary: boolean;
+    analytics: boolean;
+    marketing: boolean;
+    preferences: boolean;
+  };
+  alwaysOpen?: boolean;
 };
 
-export default function CookieConsent({ onAccept }: CookieConsentProps) {
+export default function CookieConsent({ onAccept, initialConsent, alwaysOpen }: CookieConsentProps) {
   const [showBanner, setShowBanner] = useState(false);
   const [showSettings, setShowSettings] = useState(false);
   const [consent, setConsent] = useState({
@@ -25,12 +32,40 @@ export default function CookieConsent({ onAccept }: CookieConsentProps) {
   });
 
   useEffect(() => {
-    // Check if user has already given consent
-    const savedConsent = localStorage.getItem(COOKIE_CONSENT_KEY);
+    // If explicitly requested, open with provided initialConsent
+    if (alwaysOpen) {
+      if (initialConsent) setConsent(prev => ({ ...prev, ...initialConsent }));
+      setShowBanner(true);
+      return;
+    }
+    // Otherwise only show when no consent exists this session
+    const savedConsent = sessionStorage.getItem(COOKIE_CONSENT_KEY);
     if (!savedConsent) {
       setShowBanner(true);
+    } else if (!initialConsent) {
+      // preload toggles from saved session when user opens settings later
+      try {
+        const parsed = JSON.parse(savedConsent);
+        setConsent(prev => ({ ...prev, ...parsed }));
+      } catch {}
     }
   }, []);
+
+  // While banner is shown, lock page scroll to make it fully blocking
+  useEffect(() => {
+    const html = document.documentElement;
+    const body = document.body;
+    if (showBanner) {
+      const prevHtmlOverflow = html.style.overflow;
+      const prevBodyOverflow = body.style.overflow;
+      html.style.overflow = 'hidden';
+      body.style.overflow = 'hidden';
+      return () => {
+        html.style.overflow = prevHtmlOverflow;
+        body.style.overflow = prevBodyOverflow;
+      };
+    }
+  }, [showBanner]);
 
   const handleAcceptAll = () => {
     const allAccepted = {
@@ -40,9 +75,11 @@ export default function CookieConsent({ onAccept }: CookieConsentProps) {
       preferences: true,
     };
     setConsent(allAccepted);
-    localStorage.setItem(COOKIE_CONSENT_KEY, JSON.stringify(allAccepted));
+    sessionStorage.setItem(COOKIE_CONSENT_KEY, JSON.stringify(allAccepted));
     onAccept(allAccepted);
-    setShowBanner(false);
+    // Show settings to reflect that all are enabled
+    setShowSettings(true);
+    setShowBanner(true);
   };
 
   const handleRejectAll = () => {
@@ -53,13 +90,15 @@ export default function CookieConsent({ onAccept }: CookieConsentProps) {
       preferences: false,
     };
     setConsent(rejected);
-    localStorage.setItem(COOKIE_CONSENT_KEY, JSON.stringify(rejected));
+    sessionStorage.setItem(COOKIE_CONSENT_KEY, JSON.stringify(rejected));
     onAccept(rejected);
-    setShowBanner(false);
+    // Show settings to reflect that all are disabled (except necessary)
+    setShowSettings(true);
+    setShowBanner(true);
   };
 
   const handleSavePreferences = () => {
-    localStorage.setItem(COOKIE_CONSENT_KEY, JSON.stringify(consent));
+    sessionStorage.setItem(COOKIE_CONSENT_KEY, JSON.stringify(consent));
     onAccept(consent);
     setShowBanner(false);
   };
@@ -74,10 +113,15 @@ export default function CookieConsent({ onAccept }: CookieConsentProps) {
   if (!showBanner) return null;
 
   return (
-    <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 p-4">
-      <div className="bg-white rounded-lg shadow-xl max-w-2xl w-full max-h-[90vh] overflow-y-auto">
+    <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-[1000] p-4" aria-hidden={false}>
+      <div
+        className="bg-white rounded-lg shadow-xl max-w-2xl w-full max-h-[90vh] overflow-y-auto"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="cookie-consent-title"
+      >
         <div className="p-6">
-          <h2 className="text-2xl font-bold text-gray-900 mb-4">Cookie Preferences</h2>
+          <h2 id="cookie-consent-title" className="text-2xl font-bold text-gray-900 mb-4">Cookie Preferences</h2>
           
           <p className="text-gray-600 mb-6">
             We use cookies to enhance your experience on our website. Some cookies are necessary for the website to function properly, while others help us improve the site and understand how you interact with it. Please review your preferences below.
@@ -103,7 +147,7 @@ export default function CookieConsent({ onAccept }: CookieConsentProps) {
                     />
                     <label 
                       htmlFor="necessary" 
-                      className="toggle-label block overflow-hidden h-6 rounded-full bg-gray-300 cursor-pointer"
+                      className={`toggle-label block overflow-hidden h-6 rounded-full cursor-pointer ${consent.necessary ? 'bg-primary' : 'bg-gray-300'}`}
                     ></label>
                   </div>
                 </div>
@@ -183,10 +227,10 @@ export default function CookieConsent({ onAccept }: CookieConsentProps) {
                   Save Preferences
                 </button>
                 <button
-                  onClick={() => setShowSettings(false)}
+                  onClick={() => { setShowSettings(false); setShowBanner(false); }}
                   className="px-6 py-2 border border-gray-300 rounded-md hover:bg-gray-50 transition-colors"
                 >
-                  Back
+                  Close
                 </button>
               </div>
             </div>

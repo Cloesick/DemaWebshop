@@ -732,6 +732,38 @@ npm update
 - **Authentication**: Secure session management with NextAuth.js
 - **Database**: Parameterized queries with Prisma
 
+## 🧁 GDPR & Consent
+
+- **Cookie categories**
+  - Necessary
+  - Preferences
+  - Analytics
+  - Marketing
+
+- **Where consent logic lives**
+  - `src/contexts/CookieConsentContext.tsx` — Holds consent state and persistence under the `cookie-consent` key (localStorage)
+  - `src/components/layout/CookieConsentWrapper.tsx` — Mounts the consent modal on every page via `app/layout.tsx`
+
+- **Client behavior**
+  - No recommendations fetch unless `analytics` or `marketing` consent is granted
+  - `preferredCategory` in localStorage is read and used only if `preferences` consent is granted
+
+- **Reset consent**
+  - Clear the `cookie-consent` key from localStorage (e.g., in DevTools console):
+    ```js
+    localStorage.removeItem('cookie-consent')
+    ```
+  - Reload the page to see the consent modal again
+
+### 🧪 Testing consent flows locally
+
+1. Open a new private window to ensure a clean state.
+2. Visit the home page — the consent modal should appear.
+3. Click “Reject All” — verify no request to `/api/recommendations` is made and highlights show non-personalized content.
+4. Click “Customize” → enable “Preferences” only — set a category on `/products?category=...`, go back home — highlights reorder but still no server fetch.
+5. Enable “Analytics” or “Marketing” — reload home — verify a request is made to `/api/recommendations` and highlights may show “For you”.
+6. Clear consent with `localStorage.removeItem('cookie-consent')` and reload to repeat.
+
 ## 📈 Monitoring & Analytics
 
 - **Error Tracking**: Sentry integration
@@ -918,6 +950,38 @@ dema-webshop/
 ```
 
 ## 📚 API Reference
+
+### Recommendations
+
+#### Get Recommendations
+- **Endpoint**: `GET /api/recommendations`
+- **Description**: Consent-gated recommendations. Client only calls this when the user granted `analytics` or `marketing` consent. Without consent, the UI uses non-personalized defaults.
+- **Query Parameters**:
+  - `limit` (number, optional) — Max items to return. Default: 4. Max: 12
+  - `category` (string, optional) — Filter pool by category
+  - `preferredCategory` (string, optional) — If present and `preferences` consent is given, results are biased toward this category
+  - `personalized` (boolean, optional) — Client hint; when `true` and `preferredCategory` exists, results are biased
+- **Response**:
+  ```json
+  {
+    "items": [
+      {
+        "sku": "COMP-123",
+        "name": "Pro Air Compressor X200",
+        "description": "Bestseller for workshops...",
+        "imageUrl": "/images/compressors.jpg",
+        "product_category": "Compressors",
+        "price": 999.0,
+        "rating": 4.7,
+        "inStock": true
+      }
+    ],
+    "personalized": true
+  }
+  ```
+- **Notes**:
+  - No personal identifiers are sent; personalization is driven by category preference when consent allows.
+  - Fallback to non-personalized popular products when consent is not granted.
 
 ### Authentication
 

@@ -7,12 +7,14 @@ import ProductList from '@/components/products/ProductList';
 import ProductCard from '@/components/products/ProductCard';
 import type { Product } from '@/types/product';
 import { useLocale } from '@/contexts/LocaleContext';
+import { useCookieConsent } from '@/contexts/CookieConsentContext';
 
 // API-driven products list
 
 export default function ProductsPage() {
   const router = useRouter();
   const { t } = useLocale();
+  const { consent } = useCookieConsent();
   const [activeCategory, setActiveCategory] = useState<string | undefined>(undefined);
   const [searchTerm, setSearchTerm] = useState<string>('');
   const [filters, setFilters] = useState<Record<string, string[]>>({});
@@ -32,7 +34,14 @@ export default function ProductsPage() {
   const handleFilterChange = useCallback((next: Record<string, string[]>) => {
     setFilters(next);
     setActiveCategory(next.category?.[0]);
-  }, []);
+    try {
+      if (consent?.preferences && next.category?.[0]) {
+        localStorage.setItem('preferredCategory', next.category[0]);
+      }
+    } catch (_) {
+      // ignore storage errors
+    }
+  }, [consent?.preferences]);
 
   // Fetch all products once for filter options
   useEffect(() => {
@@ -50,6 +59,25 @@ export default function ProductsPage() {
     };
     fetchAll();
     return () => { cancelled = true; };
+  }, []);
+
+  // Initialize category from URL (e.g., /products?category=Compressors)
+  useEffect(() => {
+    try {
+      const params = new URLSearchParams(window.location.search);
+      const cat = params.get('category') || params.get('product_category');
+      if (cat) {
+        setFilters(prev => ({ ...prev, category: [cat] }));
+        setActiveCategory(cat);
+        if (consent?.preferences) {
+          localStorage.setItem('preferredCategory', cat);
+        }
+      }
+    } catch (_) {
+      // ignore
+    }
+    // run only once on mount
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   // Fetch filtered products when filters/search change
@@ -250,6 +278,12 @@ export default function ProductsPage() {
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2" />
             </svg>
             <span>{t('search.legend.skus')}</span>
+          </div>
+          <div className="flex items-center gap-1">
+            <svg className="h-3 w-3 text-purple-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z" />
+            </svg>
+            <span>{t('search.legend.pdfs')}</span>
           </div>
         </div>
 

@@ -1,7 +1,9 @@
 'use client';
 
 import Link from 'next/link';
+import { useEffect, useState } from 'react';
 import { FiArrowRight, FiTruck, FiShield, FiHeadphones } from 'react-icons/fi';
+import { useCookieConsent } from '@/contexts/CookieConsentContext';
 
 // Placeholder image component to handle loading states
 const PlaceholderImage = ({ src, alt, className }: { src: string; alt: string; className?: string }) => {
@@ -28,30 +30,35 @@ const Feature = ({ icon: Icon, title, children }: { icon: any, title: string, ch
   </div>
 );
 
-const categories = [
+// Default highlights (can be tailored if preference cookies are allowed)
+const defaultHighlights = [
   {
-    name: 'Compressors',
-    description: 'High-quality air compressors for all your needs',
+    name: 'Pro Air Compressor X200',
+    description: 'Bestseller for workshops needing reliable continuous duty',
     image: '/images/compressors.jpg',
-    count: '50+ products',
+    tag: 'Bestseller',
+    category: 'Compressors',
   },
   {
-    name: 'Pneumatic Tools',
-    description: 'Powerful tools for professional use',
+    name: 'Titan Pneumatic Impact Wrench',
+    description: 'High torque with low vibration for daily professional use',
     image: '/images/tools.jpg',
-    count: '120+ products',
+    tag: 'Pro pick',
+    category: 'Pneumatic Tools',
   },
   {
-    name: 'Air Treatment',
-    description: 'Filters, regulators, and lubricators',
+    name: 'UltraClean FRL System',
+    description: 'Keep your air lines pristine with premium filtration',
     image: '/images/air-treatment.jpg',
-    count: '75+ products',
+    tag: 'New',
+    category: 'Air Treatment',
   },
   {
-    name: 'Hoses & Fittings',
-    description: 'Durable hoses and fittings for any application',
+    name: 'Flexi-Hose Kit 10m',
+    description: 'Durable, kink-resistant hose with quick-connect fittings',
     image: '/images/hoses.jpg',
-    count: '200+ products',
+    tag: 'Staff pick',
+    category: 'Hoses & Fittings',
   },
 ];
 
@@ -74,6 +81,73 @@ const features = [
 ];
 
 export default function Home() {
+  const { consent } = useCookieConsent();
+  const [highlights, setHighlights] = useState(defaultHighlights);
+  const [personalized, setPersonalized] = useState(false);
+
+  // Simple personalization: if preference cookies are allowed and a preferredCategory exists,
+  // prioritize items from that category
+  useEffect(() => {
+    try {
+      if (consent?.preferences) {
+        const preferredCategory = localStorage.getItem('preferredCategory');
+        if (preferredCategory) {
+          const prioritized = [
+            ...defaultHighlights.filter(h => h.category === preferredCategory),
+            ...defaultHighlights.filter(h => h.category !== preferredCategory),
+          ];
+          setHighlights(prioritized);
+          setPersonalized(true);
+          return;
+        }
+      }
+    } catch (_) {
+      // ignore personalization if localStorage is unavailable
+    }
+    setHighlights(defaultHighlights);
+    setPersonalized(false);
+  }, [consent?.preferences]);
+
+  // Server recommendations when analytics or marketing consent is granted
+  useEffect(() => {
+    let cancelled = false;
+    const run = async () => {
+      if (!(consent?.analytics || consent?.marketing)) {
+        return;
+      }
+      try {
+        let preferredCategory = '';
+        try {
+          if (consent?.preferences) {
+            preferredCategory = localStorage.getItem('preferredCategory') || '';
+          }
+        } catch (_) {}
+        const params = new URLSearchParams();
+        params.set('limit', '4');
+        if (preferredCategory) params.set('preferredCategory', preferredCategory);
+        params.set('personalized', preferredCategory ? 'true' : 'false');
+        const res = await fetch(`/api/recommendations?${params.toString()}`, { cache: 'no-store' });
+        if (!res.ok) return;
+        const data = await res.json();
+        if (cancelled) return;
+        if (Array.isArray(data.items) && data.items.length) {
+          const mapped = data.items.map((it: any) => ({
+            name: it.name || it.sku,
+            description: it.description || '',
+            image: it.imageUrl || '/images/placeholder.jpg',
+            tag: data.personalized ? 'For you' : 'Popular',
+            category: it.product_category || 'Products',
+          }));
+          setHighlights(mapped);
+          setPersonalized(Boolean(data.personalized));
+        }
+      } catch (_) {
+        // silently ignore and keep defaults
+      }
+    };
+    run();
+    return () => { cancelled = true; };
+  }, [consent?.analytics, consent?.marketing, consent?.preferences]);
   return (
     <div className="bg-white">
       {/* Hero Section */}
@@ -94,7 +168,7 @@ export default function Home() {
               <div className="mt-10 sm:flex sm:justify-center lg:justify-start">
                 <div className="rounded-md shadow">
                   <Link
-                    href="/all-products"
+                    href="/products"
                     className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-blue-700 bg-yellow-400 hover:bg-yellow-500 md:py-4 md:text-lg md:px-10"
                   >
                     Shop Now
@@ -139,47 +213,51 @@ export default function Home() {
         </div>
       </div>
 
-      {/* Categories */}
+      {/* Product Highlights */}
       <div className="bg-gray-50 py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
-            <h2 className="text-3xl font-extrabold text-gray-900 sm:text-4xl">
-              Shop by Category
-            </h2>
+            <h2 className="text-3xl font-extrabold text-gray-900 sm:text-4xl">Product Highlights</h2>
             <p className="mt-4 max-w-2xl text-xl text-gray-500 mx-auto">
-              Browse our wide range of industrial products
+              {personalized ? 'Recommended for you' : 'Popular picks across our catalog'}
             </p>
           </div>
 
           <div className="mt-10 grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-4">
-            {categories.map((category) => (
-              <div key={category.name} className="group relative">
+            {highlights.map((item) => (
+              <div key={item.name} className="group relative">
                 <div className="w-full min-h-80 bg-white aspect-w-1 aspect-h-1 rounded-md overflow-hidden group-hover:opacity-75 h-64">
-                  <PlaceholderImage 
-                    src={category.image} 
-                    alt={category.name}
+                  <PlaceholderImage
+                    src={item.image}
+                    alt={item.name}
                     className="w-full h-full object-cover object-center"
                   />
                 </div>
-                <div className="mt-4 flex justify-between">
-                  <div>
-                    <h3 className="text-lg font-medium text-gray-900">
-                      <Link href={`/all-products?category=${encodeURIComponent(category.name)}`}>
-                        <span aria-hidden="true" className="absolute inset-0" />
-                        {category.name}
-                      </Link>
-                    </h3>
-                    <p className="mt-1 text-sm text-gray-500">{category.count}</p>
+                <div className="mt-4">
+                  <div className="flex items-center justify-between">
+                    <h3 className="text-lg font-medium text-gray-900">{item.name}</h3>
+                    <span className="inline-flex items-center px-2 py-1 rounded text-xs font-medium bg-blue-100 text-blue-800">
+                      {item.tag}
+                    </span>
+                  </div>
+                  <p className="mt-1 text-sm text-gray-500">{item.description}</p>
+                  <div className="mt-3">
+                    <Link
+                      href={`/products?category=${encodeURIComponent(item.category)}`}
+                      className="inline-flex items-center text-sm font-medium text-blue-700 hover:text-blue-800"
+                    >
+                      View in {item.category}
+                      <FiArrowRight className="ml-1 h-4 w-4" />
+                    </Link>
                   </div>
                 </div>
-                <p className="mt-2 text-sm text-gray-600">{category.description}</p>
               </div>
             ))}
           </div>
 
           <div className="mt-12 text-center">
             <Link
-              href="/all-products"
+              href="/products"
               className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-blue-600 hover:bg-blue-700"
             >
               View All Products
@@ -200,7 +278,7 @@ export default function Home() {
             Discover our wide range of industrial tools and equipment for professionals.
           </p>
           <Link
-            href="/all-products"
+            href="/products"
             className="mt-8 w-full inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-blue-600 bg-white hover:bg-blue-50 sm:w-auto"
           >
             Shop Now

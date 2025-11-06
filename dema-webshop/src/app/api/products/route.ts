@@ -251,21 +251,33 @@ function filterProducts(products: Product[], filters: ProductFilters): Product[]
 // Helper function to sort products
 function sortProducts(products: Product[], sortBy: string, sortOrder: 'asc' | 'desc'): Product[] {
   return [...products].sort((a, b) => {
-    let valueA = a[sortBy as keyof Product];
-    let valueB = b[sortBy as keyof Product];
-    
-    // Handle undefined/null values
-    if (valueA === undefined || valueA === null) valueA = '';
-    if (valueB === undefined || valueB === null) valueB = '';
-    
-    // Convert to string for comparison if needed
+    let valueA = a[sortBy as keyof Product] as any;
+    let valueB = b[sortBy as keyof Product] as any;
+
+    // Handle undefined/null values by pushing them last in asc, first in desc
+    const aUndef = valueA === undefined || valueA === null;
+    const bUndef = valueB === undefined || valueB === null;
+    if (aUndef && bUndef) return 0;
+    if (aUndef) return sortOrder === 'asc' ? 1 : -1;
+    if (bUndef) return sortOrder === 'asc' ? -1 : 1;
+
+    // Numeric compare if both are numbers
+    if (typeof valueA === 'number' && typeof valueB === 'number') {
+      return sortOrder === 'asc' ? valueA - valueB : valueB - valueA;
+    }
+
+    // Try to parse numeric strings
+    const numA = Number(valueA);
+    const numB = Number(valueB);
+    const bothNumeric = !isNaN(numA) && !isNaN(numB);
+    if (bothNumeric) {
+      return sortOrder === 'asc' ? numA - numB : numB - numA;
+    }
+
+    // Fallback: string compare (case-insensitive)
     const strA = String(valueA).toLowerCase();
     const strB = String(valueB).toLowerCase();
-    
-    // Compare based on sort order
-    return sortOrder === 'asc' 
-      ? strA.localeCompare(strB) 
-      : strB.localeCompare(strA);
+    return sortOrder === 'asc' ? strA.localeCompare(strB) : strB.localeCompare(strA);
   });
 }
 

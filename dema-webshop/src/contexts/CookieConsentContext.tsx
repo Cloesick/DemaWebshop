@@ -13,6 +13,10 @@ type CookieConsentContextType = {
   consent: CookieConsent;
   updateConsent: (newConsent: Partial<CookieConsent>) => void;
   isConsentGiven: boolean;
+  resetConsent: () => void;
+  forceOpen: boolean;
+  openConsent: () => void;
+  closeConsent: () => void;
 };
 
 const COOKIE_CONSENT_KEY = 'cookie-consent';
@@ -30,10 +34,11 @@ export function CookieConsentProvider({ children }: { children: ReactNode }) {
   const [consent, setConsent] = useState<CookieConsent>(defaultConsent);
   const [isConsentGiven, setIsConsentGiven] = useState(false);
   const [isLoading, setIsLoading] = useState(true);
+  const [forceOpen, setForceOpen] = useState(false);
 
   // Load saved consent from localStorage on component mount
   useEffect(() => {
-    const savedConsent = localStorage.getItem(COOKIE_CONSENT_KEY);
+    const savedConsent = sessionStorage.getItem(COOKIE_CONSENT_KEY);
     if (savedConsent) {
       try {
         const parsedConsent = JSON.parse(savedConsent);
@@ -49,7 +54,7 @@ export function CookieConsentProvider({ children }: { children: ReactNode }) {
   const updateConsent = (newConsent: Partial<CookieConsent>) => {
     const updatedConsent = { ...consent, ...newConsent };
     setConsent(updatedConsent);
-    localStorage.setItem(COOKIE_CONSENT_KEY, JSON.stringify(updatedConsent));
+    sessionStorage.setItem(COOKIE_CONSENT_KEY, JSON.stringify(updatedConsent));
     
     // If this is the first time setting consent
     if (!isConsentGiven) {
@@ -68,6 +73,17 @@ export function CookieConsentProvider({ children }: { children: ReactNode }) {
     }
   };
 
+  const resetConsent = () => {
+    try {
+      sessionStorage.removeItem(COOKIE_CONSENT_KEY);
+    } catch (_) {}
+    setConsent(defaultConsent);
+    setIsConsentGiven(false);
+  };
+
+  const openConsent = () => setForceOpen(true);
+  const closeConsent = () => setForceOpen(false);
+
   // Don't render children until we've loaded the consent state
   if (isLoading) {
     return (
@@ -78,7 +94,7 @@ export function CookieConsentProvider({ children }: { children: ReactNode }) {
   }
 
   return (
-    <CookieConsentContext.Provider value={{ consent, updateConsent, isConsentGiven }}>
+    <CookieConsentContext.Provider value={{ consent, updateConsent, isConsentGiven, resetConsent, forceOpen, openConsent, closeConsent }}>
       {children}
     </CookieConsentContext.Provider>
   );

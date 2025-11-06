@@ -10,14 +10,20 @@ const CookieConsent = dynamic(
 );
 
 export default function CookieConsentWrapper() {
-  const { isConsentGiven, updateConsent } = useCookieConsent();
-  
-  // Don't show the banner if consent has already been given
-  if (isConsentGiven) {
+  const { isConsentGiven, updateConsent, consent, forceOpen, closeConsent } = useCookieConsent();
+
+  if (isConsentGiven && !forceOpen) {
     return null;
   }
 
   return (
-    <CookieConsent onAccept={updateConsent} />
+    <CookieConsent
+      onAccept={(c) => {
+        updateConsent(c);
+        if (forceOpen) closeConsent();
+      }}
+      initialConsent={consent}
+      alwaysOpen={forceOpen}
+    />
   );
 }
