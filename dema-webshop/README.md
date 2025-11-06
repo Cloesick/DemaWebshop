@@ -741,17 +741,20 @@ npm update
   - Marketing
 
 - **Where consent logic lives**
-  - `src/contexts/CookieConsentContext.tsx` — Holds consent state and persistence under the `cookie-consent` key (localStorage)
+  - `src/contexts/CookieConsentContext.tsx` — Holds consent state and per-session persistence under the `cookie-consent` key (sessionStorage)
   - `src/components/layout/CookieConsentWrapper.tsx` — Mounts the consent modal on every page via `app/layout.tsx`
 
 - **Client behavior**
+  - Blocking modal: user cannot interact until confirming cookies on the first page of a new session
+  - “Manage Cookies” button in the Header is always available and opens the modal with current preferences
   - No recommendations fetch unless `analytics` or `marketing` consent is granted
-  - `preferredCategory` in localStorage is read and used only if `preferences` consent is granted
+  - `preferredCategory` is only used if `preferences` consent is granted
+  - After “Accept All” / “Reject All”, the modal shows the Settings view with toggles reflecting the chosen state (Necessary is always ON and disabled)
 
 - **Reset consent**
-  - Clear the `cookie-consent` key from localStorage (e.g., in DevTools console):
+  - Clear the `cookie-consent` key from sessionStorage (e.g., in DevTools console):
     ```js
-    localStorage.removeItem('cookie-consent')
+    sessionStorage.removeItem('cookie-consent')
     ```
   - Reload the page to see the consent modal again
 
@@ -762,7 +765,7 @@ npm update
 3. Click “Reject All” — verify no request to `/api/recommendations` is made and highlights show non-personalized content.
 4. Click “Customize” → enable “Preferences” only — set a category on `/products?category=...`, go back home — highlights reorder but still no server fetch.
 5. Enable “Analytics” or “Marketing” — reload home — verify a request is made to `/api/recommendations` and highlights may show “For you”.
-6. Clear consent with `localStorage.removeItem('cookie-consent')` and reload to repeat.
+6. Clear consent with `sessionStorage.removeItem('cookie-consent')` and reload to repeat.
 
 ## 📈 Monitoring & Analytics
 
