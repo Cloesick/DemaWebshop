@@ -6,6 +6,7 @@ import ProductList from '@/components/products/ProductList';
 import ProductCard from '@/components/products/ProductCard';
 import type { Product } from '@/types/product';
 import { useLocale } from '@/contexts/LocaleContext';
+import { useEffect, useState } from 'react';
 
 // Localized verbatim copy extracted/summarized from demashop.be (EN; NL/FR fallback to EN for now)
 type LocalizedCopy = {
@@ -174,6 +175,30 @@ export default function CategoryPage({ params }: PageProps) {
   const title = slug ? slug.replace(/-/g, ' ') : 'Category';
   const copy = CATEGORY_CONTENT[slug]?.[locale] || CATEGORY_CONTENT[slug]?.en;
 
+  const [pdfs, setPdfs] = useState<{ name: string; href: string }[]>([]);
+  const [loadingPdfs, setLoadingPdfs] = useState<boolean>(true);
+  const [pdfError, setPdfError] = useState<string | null>(null);
+
+  useEffect(() => {
+    let cancelled = false;
+    const load = async () => {
+      try {
+        setLoadingPdfs(true);
+        setPdfError(null);
+        const res = await fetch(`/api/pdf-catalog/${encodeURIComponent(slug)}`);
+        if (!res.ok) throw new Error(`HTTP ${res.status}`);
+        const data = await res.json();
+        if (!cancelled) setPdfs(Array.isArray(data?.pdfs) ? data.pdfs : []);
+      } catch (e: any) {
+        if (!cancelled) setPdfError('Failed to load documents');
+      } finally {
+        if (!cancelled) setLoadingPdfs(false);
+      }
+    };
+    if (slug) load();
+    return () => { cancelled = true; };
+  }, [slug]);
+
   const Icon = (() => {
     switch (slug) {
       case 'pumps-accessories':
@@ -300,6 +325,28 @@ export default function CategoryPage({ params }: PageProps) {
 
         {/* Divider */}
         <div className="h-px bg-gray-200 mb-6" />
+
+        {/* Documents discovered from folder */}
+        <section className="mb-8">
+          <h2 className="text-xl font-semibold mb-3">Documents</h2>
+          {loadingPdfs ? (
+            <div className="text-sm text-gray-600">Loading documents…</div>
+          ) : pdfError ? (
+            <div className="text-sm text-red-600">{pdfError}</div>
+          ) : pdfs.length === 0 ? (
+            <div className="text-sm text-gray-600">No documents found for this category.</div>
+          ) : (
+            <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2">
+              {pdfs.map((p) => (
+                <li key={p.href} className="">
+                  <a href={p.href} target="_blank" rel="noopener noreferrer" className="block rounded border border-gray-200 bg-white p-3 text-sm text-blue-700 hover:underline truncate">
+                    {p.name}
+                  </a>
+                </li>
+              ))}
+            </ul>
+          )}
+        </section>
 
         {copy && (
           <section className="mb-8 space-y-3">

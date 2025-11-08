@@ -9,6 +9,7 @@ import { useCartStore } from '@/store/cartStore';
 import { Product } from '@/types/product';
 import Link from 'next/link';
 import { useLocale } from '@/contexts/LocaleContext';
+import ProductCard from '@/components/products/ProductCard';
 
 // This is a client component that will be hydrated on the client
 export default function ProductPage() {
@@ -17,6 +18,8 @@ export default function ProductPage() {
   const [product, setProduct] = useState<Product | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
+  const [recs, setRecs] = useState<Product[]>([]);
+  const [recsLoading, setRecsLoading] = useState(false);
 
   useEffect(() => {
     const sku = Array.isArray(params.sku) ? params.sku[0] : params.sku;
@@ -50,6 +53,74 @@ export default function ProductPage() {
 
     fetchProduct();
   }, [params.sku]);
+
+  useEffect(() => {
+    const sku = Array.isArray(params.sku) ? params.sku[0] : params.sku;
+    if (!sku) return;
+    setRecsLoading(true);
+    const fetchBySku = async () => {
+      try {
+        const r = await fetch(`/api/recommendations?sku=${encodeURIComponent(String(sku))}&limit=4`, { cache: 'no-store' });
+        if (!r.ok) throw new Error(`REC ${r.status}`);
+        const data = await r.json();
+        const items = Array.isArray(data?.items) ? data.items : [];
+        if (items.length > 0) {
+          setRecs(items);
+          return;
+        }
+        // Fallback by category if available
+        if (product?.product_category) {
+          const r2 = await fetch(`/api/recommendations?category=${encodeURIComponent(product.product_category)}&limit=4`, { cache: 'no-store' });
+          if (r2.ok) {
+            const d2 = await r2.json();
+            const catItems = Array.isArray(d2?.items) ? d2.items : [];
+            if (catItems.length > 0) {
+              setRecs(catItems);
+              return;
+            }
+          }
+        }
+        // Final fallback: top-rated/in-stock products
+        const r3 = await fetch(`/api/products?limit=4`, { cache: 'no-store' });
+        if (r3.ok) {
+          const d3 = await r3.json();
+          const p3 = Array.isArray(d3?.products) ? d3.products : [];
+          setRecs(p3);
+          return;
+        }
+        setRecs([]);
+      } catch {
+        // Fallback on error
+        if (product?.product_category) {
+          fetch(`/api/recommendations?category=${encodeURIComponent(product.product_category)}&limit=4`, { cache: 'no-store' })
+            .then(async r2 => {
+              if (!r2.ok) throw new Error('REC fallback');
+              const d2 = await r2.json();
+              const catItems = Array.isArray(d2?.items) ? d2.items : [];
+              if (catItems.length > 0) {
+                setRecs(catItems);
+                return;
+              }
+              // Final fallback
+              return fetch(`/api/products?limit=4`, { cache: 'no-store' })
+                .then(async r3 => {
+                  if (!r3.ok) throw new Error('REC final');
+                  const d3 = await r3.json();
+                  const p3 = Array.isArray(d3?.products) ? d3.products : [];
+                  setRecs(p3);
+                });
+            })
+            .catch(() => setRecs([]))
+            .finally(() => setRecsLoading(false));
+          return;
+        }
+        setRecs([]);
+      } finally {
+        setRecsLoading(false);
+      }
+    };
+    fetchBySku();
+  }, [params.sku, product?.product_category]);
 
   if (loading) {
     return (
@@ -187,10 +258,34 @@ export default function ProductPage() {
                     <dd>{product.power_kw} kW</dd>
                   </>
                 )}
+                {product.voltage_v && (
+                  <>
+                    <dt className="font-medium">Voltage</dt>
+                    <dd>{product.voltage_v} V</dd>
+                  </>
+                )}
+                {product.flow_l_min && (
+                  <>
+                    <dt className="font-medium">Flow</dt>
+                    <dd>{product.flow_l_min} L/min</dd>
+                  </>
+                )}
+                {product.absk_codes && product.absk_codes.length > 0 && (
+                  <>
+                    <dt className="font-medium">ABSK Codes</dt>
+                    <dd className="break-words">{product.absk_codes.join(', ')}</dd>
+                  </>
+                )}
                 {product.weight_kg && (
                   <>
                     <dt className="font-medium">Weight</dt>
                     <dd>{product.weight_kg} kg</dd>
+                  </>
+                )}
+                {Array.isArray(product.materials) && product.materials.length > 0 && (
+                  <>
+                    <dt className="font-medium">Materials</dt>
+                    <dd>{product.materials.join(', ')}</dd>
                   </>
                 )}
                 {product.dimensions_mm_list && product.dimensions_mm_list.length > 0 && (
@@ -200,6 +295,46 @@ export default function ProductPage() {
                   </>
                 )}
               </dl>
+            </div>
+            
+            <div className="mt-6" id="pdf">
+              <h3 className="text-sm font-medium text-gray-900">Product Details</h3>
+              <div className="mt-2 space-y-3">
+                {product.pdf_source && (
+                  <div>
+                    <p className="text-sm text-gray-500">Pdf Source</p>
+                    <a
+                      href={`${product.pdf_source}`}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-sm text-blue-600 hover:underline inline-flex items-center gap-1.5"
+                    >
+                      <span>{(() => { try { const u = new URL(product.pdf_source); return decodeURIComponent(u.pathname.split('/').pop() || 'PDF'); } catch { const p = product.pdf_source.split('?')[0]; return decodeURIComponent((p.split('/').pop() || 'PDF')); } })()}</span>
+                      <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                      </svg>
+                    </a>
+                  </div>
+                )}
+                {product.pdf_source && product.source_pages && product.source_pages.length > 0 && (
+                  <div>
+                    <p className="text-sm text-gray-500">Pdf Source Page</p>
+                    <div className="mt-1 flex flex-wrap gap-2">
+                      {product.source_pages.map((p) => (
+                        <a
+                          key={`page-${p}`}
+                          href={`${product.pdf_source}#page=${p}`}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="px-2.5 py-1 bg-gray-100 rounded-md text-xs font-medium text-gray-700 hover:underline"
+                        >
+                          Page {p}
+                        </a>
+                      ))}
+                    </div>
+                  </div>
+                )}
+              </div>
             </div>
             
             <div className="mt-8">
@@ -224,18 +359,38 @@ export default function ProductPage() {
         {/* Related Products */}
         <div className="mt-16">
           <h2 className="text-2xl font-bold text-gray-900 mb-6">You may also like</h2>
-          <div className="grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-4">
-            {/* Placeholder for related products */}
-            {Array(4).fill(0).map((_, i) => (
-              <div key={i} className="group relative animate-pulse">
-                <div className="w-full min-h-80 bg-gray-200 rounded-md overflow-hidden"></div>
-                <div className="mt-4 flex justify-between">
-                  <div className="h-4 bg-gray-200 rounded w-3/4"></div>
-                  <div className="h-4 bg-gray-200 rounded w-1/4"></div>
+          {recsLoading && (
+            <div className="grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-4">
+              {Array(4).fill(0).map((_, i) => (
+                <div key={i} className="group relative animate-pulse">
+                  <div className="w-full min-h-80 bg-gray-200 rounded-md overflow-hidden"></div>
+                  <div className="mt-4 flex justify-between">
+                    <div className="h-4 bg-gray-200 rounded w-3/4"></div>
+                    <div className="h-4 bg-gray-200 rounded w-1/4"></div>
+                  </div>
                 </div>
-              </div>
-            ))}
-          </div>
+              ))}
+            </div>
+          )}
+          {!recsLoading && (
+            <div className="grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-4">
+              {recs.length > 0 ? (
+                recs.map((rp) => (
+                  <ProductCard key={rp.sku} product={rp} viewMode="grid" />
+                ))
+              ) : (
+                Array(4).fill(0).map((_, i) => (
+                  <div key={i} className="group relative animate-pulse">
+                    <div className="w-full min-h-80 bg-gray-200 rounded-md overflow-hidden"></div>
+                    <div className="mt-4 flex justify-between">
+                      <div className="h-4 bg-gray-200 rounded w-3/4"></div>
+                      <div className="h-4 bg-gray-200 rounded w-1/4"></div>
+                    </div>
+                  </div>
+                ))
+              )}
+            </div>
+          )}
         </div>
       </div>
     </div>

@@ -8,6 +8,9 @@ export interface Product {
   // PDF and documentation
   pdf_source: string;
   source_pages: number[];
+  absk_codes?: string[];
+  product_type?: string;
+  matched_skus?: string[];
   
   // Technical specifications
   pressure_max_bar?: number;

@@ -1,42 +1,34 @@
-import Link from 'next/link';
-import Navbar from '@/components/layout/Navbar';
+import { getPdfCategories, getPdfsByCategory, getSubcategoriesForMain } from '@/lib/pdfCatalog';
+import CategoryTile from '@/components/categories/CategoryTile';
 
-const CATEGORIES = [
-  { slug: 'pumps-accessories', label: 'Pumps & Accessories' },
-  { slug: 'plastic-piping', label: 'Plastic Piping' },
-  { slug: 'metal-piping', label: 'Metal Piping' },
-  { slug: 'industrial-hoses-and-couplings', label: 'Industrial Hoses & Couplings' },
-  { slug: 'transmission', label: 'Transmission' },
-  { slug: 'valves-and-fittings', label: 'Valves & Fittings' },
-  { slug: 'measurement-control', label: 'Measurement & Control' },
-  { slug: 'irrigation', label: 'Irrigation' },
-  { slug: 'fasteners', label: 'Fasteners' },
-  { slug: 'power-tools', label: 'Power Tools' },
-  { slug: 'tools', label: 'Tools' },
-];
+export default async function CategoriesPage() {
+  const pdfCategories = await getPdfCategories();
+  const tiles = await Promise.all(
+    pdfCategories.map(async ({ slug, label, count }) => {
+      const pdfs = await getPdfsByCategory(slug);
+      const subcategories = getSubcategoriesForMain(slug);
+      return { slug, label, count, pdfs, subcategories };
+    })
+  );
 
-export default function CategoriesPage() {
   return (
     <div className="min-h-screen flex flex-col">
-      <Navbar />
       <main className="container mx-auto px-4 py-8 flex-1">
         <h1 className="text-3xl font-bold mb-6">Categories</h1>
-        <p className="text-sm text-gray-500 mb-6">Choose a category to view products. All category pages use the same layout and content template.</p>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-          {CATEGORIES.map(({ slug, label }) => (
-            <Link
-              key={slug}
-              href={`/categories/${slug}`}
-              className="block rounded-md border border-gray-200 bg-white p-4 hover:shadow-card-hover transition-shadow"
-            >
-              <div className="flex items-center justify-between">
-                <span className="font-medium text-gray-900">{label}</span>
-                <span className="text-yellow-600">View</span>
-              </div>
-              <p className="mt-1 text-xs text-gray-500 break-words">/categories/{slug}</p>
-            </Link>
-          ))}
-        </div>
+        <p className="text-sm text-gray-500 mb-6">
+          Categories detected from documents folder. Each tile links to its category page and shows how many PDFs are inside.
+        </p>
+        {pdfCategories.length === 0 ? (
+          <div className="text-sm text-gray-600">
+            No PDFs found under <code className="px-1 py-0.5 rounded bg-gray-100">public/documents/Product_pdfs</code>.
+          </div>
+        ) : (
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+            {tiles.map(({ slug, label, count, pdfs, subcategories }) => (
+              <CategoryTile key={slug} slug={slug} label={label} count={count} pdfs={pdfs} subcategories={subcategories} />
+            ))}
+          </div>
+        )}
       </main>
     </div>
   );

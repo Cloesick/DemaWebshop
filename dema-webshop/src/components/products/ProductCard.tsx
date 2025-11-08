@@ -60,8 +60,22 @@ export default function ProductCard({ product, className = '', viewMode = 'grid'
   
   // Format price based on selected dimensions or other logic
   const price = vm.priceLabel;
+  // Derive PDF file name from URL
+  const pdfName = product.pdf_source ? (() => {
+    try {
+      const u = new URL(product.pdf_source);
+      const name = decodeURIComponent(u.pathname.split('/').pop() || 'PDF');
+      return name || 'PDF';
+    } catch {
+      const path = product.pdf_source.split('?')[0];
+      const name = decodeURIComponent((path.split('/').pop() || 'PDF'));
+      return name || 'PDF';
+    }
+  })() : null;
   
   const hasDimensions = product.dimensions_mm_list && product.dimensions_mm_list.length > 0;
+  // Use unique dimensions to avoid duplicate keys/options
+  const uniqueDimensions = Array.from(new Set(product.dimensions_mm_list || []));
 
   const navigateToDetail = () => {
     router.push(`/products/${product.sku}`);
@@ -113,6 +127,41 @@ export default function ProductCard({ product, className = '', viewMode = 'grid'
               <p className="mt-2 text-sm text-gray-900">
                 <span className="font-medium text-gray-900">Size:</span> <span className="text-gray-900">{product.dimensions_mm_list[0]}mm</span>
               </p>
+            )}
+            {/* PDF link and source pages (list view) */}
+            {(product.pdf_source || (product.source_pages && product.source_pages.length > 0)) && (
+              <div className="mt-3 space-y-1">
+                {product.pdf_source && (
+                  <a
+                    href={`${product.pdf_source}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    onClick={(e) => e.stopPropagation()}
+                    className="inline-flex items-center gap-1.5 text-sm text-blue-600 hover:underline"
+                  >
+                    <span>{pdfName}</span>
+                    <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                    </svg>
+                  </a>
+                )}
+                {product.pdf_source && product.source_pages && product.source_pages.length > 0 && (
+                  <div className="flex flex-wrap gap-1.5">
+                    {product.source_pages.map((p) => (
+                      <a
+                        key={`list-page-${p}`}
+                        href={`${product.pdf_source}#page=${p}`}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        onClick={(e) => e.stopPropagation()}
+                        className="px-2.5 py-1 bg-gray-100 rounded-md text-xs font-medium text-gray-700 hover:underline"
+                      >
+                        Page {p}
+                      </a>
+                    ))}
+                  </div>
+                )}
+              </div>
             )}
           </div>
           <div className="mt-4 flex items-center justify-between gap-2">
@@ -189,8 +238,8 @@ export default function ProductCard({ product, className = '', viewMode = 'grid'
                     <SelectValue placeholder="Select size" />
                   </SelectTrigger>
                   <SelectContent>
-                    {product.dimensions_mm_list?.map((dimension) => (
-                      <SelectItem key={dimension} value={dimension.toString()}>
+                    {uniqueDimensions.map((dimension, index) => (
+                      <SelectItem key={`${product.sku}-${dimension}-${index}`} value={`${dimension}`}>
                         {dimension}mm
                       </SelectItem>
                     ))}
@@ -236,9 +285,37 @@ export default function ProductCard({ product, className = '', viewMode = 'grid'
               </span>
             </div>
           )}
-          {product.source_pages?.length > 0 && (
-            <div className="col-span-2 text-xs text-gray-400 mt-2">
-              Source: Page {product.source_pages.join(', ')}
+          {/* PDF link and source pages (grid view) */}
+          {(product.pdf_source && product.source_pages && product.source_pages.length > 0) && (
+            <div className="col-span-2 mt-2 flex flex-col gap-1">
+              <a
+                href={`${product.pdf_source}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                onClick={(e) => e.stopPropagation()}
+                className="inline-flex items-center gap-1.5 text-xs text-blue-600 hover:underline"
+              >
+                <span>{pdfName}</span>
+                <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                </svg>
+              </a>
+              {product.source_pages && product.source_pages.length > 0 && (
+                <div className="flex flex-wrap gap-1.5">
+                  {product.source_pages.map((p) => (
+                    <a
+                      key={`grid-page-${p}`}
+                      href={`${product.pdf_source}#page=${p}`}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      onClick={(e) => e.stopPropagation()}
+                      className="px-2.5 py-1 bg-gray-100 rounded-md text-xs font-medium text-gray-700 hover:underline"
+                    >
+                      Page {p}
+                    </a>
+                  ))}
+                </div>
+              )}
             </div>
           )}
         </div>

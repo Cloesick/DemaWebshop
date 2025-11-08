@@ -90,9 +90,10 @@ function filterProducts(products: Product[], filters: ProductFilters): Product[]
       return false;
     }
     
-    // Filter by category (exact match)
+    // Filter by category (case-insensitive, trimmed)
     const categoryFilter = filters.product_category || filters.category;
-    if (categoryFilter && product.product_category !== categoryFilter) {
+    const norm = (s: any) => (s === undefined || s === null) ? '' : String(s).trim().toLowerCase();
+    if (categoryFilter && norm(product.product_category) !== norm(categoryFilter)) {
       return false;
     }
 

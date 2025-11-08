@@ -4,6 +4,7 @@ export interface Product {
   source_pages: number[];
   product_category: string;
   description: string;
+  absk_codes?: string[];
   pressure_min_bar?: number;
   pressure_max_bar?: number;
   dimensions_mm_list?: number[];
@@ -23,6 +24,158 @@ export interface Product {
   rating?: number;
   reviewCount?: number;
 }
+
+// Extract structured specs from a free-text description using robust regexes.
+// Only fields present in this file's Product interface are returned.
+const extractSpecsFromDescription = (description: string): Partial<Product> => {
+  const out: Partial<Product> = {};
+  const desc = description ?? '';
+
+  // Helpers
+  const toNum = (s?: string) => {
+    if (!s) return undefined;
+    const n = parseFloat(s.replace(',', '.'));
+    return Number.isFinite(n) ? n : undefined;
+  };
+
+  // Patterns
+  const num = '(\\d+(?:[.,]\\d+)?)';
+  const rangeSep = '(?:\\s*(?:–|-|to)\\s*)';
+
+  // Pressure (bar)
+  const pressureRangeRe = new RegExp(`${num}${rangeSep}${num}\\s*bar\\b`, 'i');
+  const pressureSingleRe = new RegExp(`${num}\\s*bar\\b`, 'i');
+  const mPr = desc.match(pressureRangeRe);
+  if (mPr) {
+    const a = toNum(mPr[1]);
+    const b = toNum(mPr[2]);
+    if (a !== undefined) out.pressure_min_bar = a;
+    if (b !== undefined) out.pressure_max_bar = b;
+  } else {
+    const mPs = desc.match(pressureSingleRe);
+    if (mPs) {
+      const v = toNum(mPs[1]);
+      if (v !== undefined) out.pressure_max_bar = v;
+    }
+  }
+
+  // Power (kW, HP)
+  const kwRe = new RegExp(`${num}\\s*kW\\b`, 'i');
+  const hpRe = new RegExp(`${num}\\s*HP\\b`, 'i');
+  const mKw = desc.match(kwRe);
+  if (mKw) out.power_kw = toNum(mKw[1]);
+  const mHp = desc.match(hpRe);
+  if (!mKw && mHp) out.power_hp = toNum(mHp[1]);
+
+  // Voltage (V)
+  const voltRe = /(\d{2,4})\s*V\b/i;
+  const mV = desc.match(voltRe);
+  if (mV) out.voltage_v = toNum(mV[1]);
+
+  // PN rating -> treat as nominal pressure in bar (e.g., PN10 => 10 bar, PN7,5 => 7.5 bar)
+  {
+    const pnRe = /\bPN\s*([0-9]+(?:[.,][0-9]+)?)\b/gi;
+    let m: RegExpExecArray | null;
+    const pnVals: number[] = [];
+    while ((m = pnRe.exec(desc)) !== null) {
+      const v = toNum(m[1]);
+      if (typeof v === 'number') pnVals.push(v);
+    }
+    if (pnVals.length) {
+      const maxPN = Math.max(...pnVals);
+      if (out.pressure_max_bar === undefined || (typeof out.pressure_max_bar === 'number' && maxPN > out.pressure_max_bar)) {
+        out.pressure_max_bar = maxPN;
+      }
+      const minPN = Math.min(...pnVals);
+      if (out.pressure_min_bar === undefined) out.pressure_min_bar = minPN;
+    }
+  }
+
+  // ABSK pattern extraction: ^(ABSK\d+) (\d+ mm) (\d+ bar) (ABSK\d+) (\d+ mm) (\d+ bar)
+  // Also support single entries anywhere in text
+  const extraDims: number[] = [];
+  const barsFromAbsk: number[] = [];
+  const abskCodes: string[] = [];
+  {
+    const pairRe = /(?:^|\n)\s*(ABSK\d+)\s+(\d+)\s*mm\s+(\d+)\s*bar\s+(ABSK\d+)\s+(\d+)\s*mm\s+(\d+)\s*bar/gi;
+    let m: RegExpExecArray | null;
+    while ((m = pairRe.exec(desc)) !== null) {
+      if (m[1]) abskCodes.push(m[1]);
+      if (m[4]) abskCodes.push(m[4]);
+      const d1 = toNum(m[2]);
+      const b1 = toNum(m[3]);
+      const d2 = toNum(m[5]);
+      const b2 = toNum(m[6]);
+      if (typeof d1 === 'number') extraDims.push(d1);
+      if (typeof d2 === 'number') extraDims.push(d2);
+      if (typeof b1 === 'number') barsFromAbsk.push(b1);
+      if (typeof b2 === 'number') barsFromAbsk.push(b2);
+    }
+    const singleRe = /(ABSK\d+)\s+(\d+)\s*mm\s+(\d+)\s*bar/gi;
+    while ((m = singleRe.exec(desc)) !== null) {
+      if (m[1]) abskCodes.push(m[1]);
+      const d = toNum(m[2]);
+      const b = toNum(m[3]);
+      if (typeof d === 'number') extraDims.push(d);
+      if (typeof b === 'number') barsFromAbsk.push(b);
+    }
+    if (barsFromAbsk.length) {
+      const minB = Math.min(...barsFromAbsk);
+      const maxB = Math.max(...barsFromAbsk);
+      if (out.pressure_min_bar === undefined) out.pressure_min_bar = minB;
+      if (out.pressure_max_bar === undefined) out.pressure_max_bar = maxB;
+    }
+    if (abskCodes.length && !('absk_codes' in out)) {
+      const uniqueCodes = Array.from(new Set(abskCodes));
+      (out as any).absk_codes = uniqueCodes;
+    }
+  }
+
+  // Dimensions L×W×H in mm
+  const lwhRe = new RegExp(`${num}\\s*mm\\s*[x×]\\s*${num}\\s*mm(?:\\s*[x×]\\s*${num}\\s*mm)?`, 'i');
+  const mLwh = desc.match(lwhRe);
+  if (mLwh) {
+    const a = toNum(mLwh[1]);
+    const b = toNum(mLwh[2]);
+    const c = toNum(mLwh[3]);
+    if (a !== undefined) out.length_mm = a;
+    if (b !== undefined) out.width_mm = b;
+    if (c !== undefined) out.height_mm = c;
+  }
+
+  // Dimensions list (collect all ... mm)
+  const mmAll: number[] = [];
+  {
+    const mmRe = new RegExp(`${num}\\s*mm\\b`, 'gi');
+    let m: RegExpExecArray | null;
+    while ((m = mmRe.exec(desc)) !== null) {
+      const v = toNum(m[1]);
+      if (typeof v === 'number') mmAll.push(v);
+    }
+  }
+  // Merge ABSK-derived dimensions
+  for (const d of extraDims) mmAll.push(d);
+  if (mmAll.length && !out.dimensions_mm_list) {
+    // Deduplicate and sort ascending
+    const unique = Array.from(new Set(mmAll));
+    unique.sort((a, b) => a - b);
+    out.dimensions_mm_list = unique;
+  }
+
+  // Flow list (L/min) collect common values
+  const lminAll: number[] = [];
+  {
+    const lminRe = new RegExp(`${num}\\s*(?:L\\/?min|l\\/?min)\\b`, 'gi');
+    let m: RegExpExecArray | null;
+    while ((m = lminRe.exec(desc)) !== null) {
+      const v = toNum(m[1]);
+      if (typeof v === 'number') lminAll.push(v);
+    }
+  }
+  if (lminAll.length) out.flow_l_min_list = Array.from(new Set(lminAll));
+
+  return out;
+};
 
 export const normalizeProduct = (product: any): Product => {
   // Return a minimal valid product if input is invalid
@@ -44,24 +197,67 @@ export const normalizeProduct = (product: any): Product => {
   }
   
   try {
-    // Handle missing or invalid description
     const description = product.description || 'No description available';
-    
-    // Extract the first line of description as the product name
-    const firstLine = description.split('\n')[0] || 'Unnamed Product';
-    const name = firstLine.length > 50 
-      ? `${firstLine.substring(0, 47)}...` 
-      : firstLine;
 
-    // Generate a short description (first 150 chars of description)
-    const shortDescription = description.length > 150
-      ? `${description.substring(0, 147)}...`
-      : description;
+    let derivedName: string | undefined;
+    let derivedRemainder: string | undefined;
+    const needsHogedruk =
+      typeof product.product_category === 'string' && /hogedrukreiniger/i.test(product.product_category || '')
+      || /hogedrukreiniger|hogedrukreinigers?/i.test(description);
+    if (needsHogedruk) {
+      const re = /^([A-Za-zÀ-ÿ][A-Za-zÀ-ÿ\s./|~-]+?)\s+([^\s].*)$/;
+      const m = description.match(re);
+      if (m) {
+        derivedName = m[1].trim();
+        derivedRemainder = m[2].trim();
+      }
+    }
+
+    const baseLine = description.split('\n')[0] || 'Unnamed Product';
+    const computedNameSource = derivedName || baseLine;
+    const name = computedNameSource.length > 50
+      ? `${computedNameSource.substring(0, 47)}...`
+      : computedNameSource;
+
+    const rawShort = derivedRemainder || description;
+    const shortDescription = rawShort.length > 150
+      ? `${rawShort.substring(0, 147)}...`
+      : rawShort;
 
     // Generate a placeholder price based on SKU and category
     const sku = product.sku || 'unknown';
-    const category = product.product_category || 'unknown';
+    let category = product.product_category || '';
+
+    // Try to infer category from uppercase heading line in description if missing
+    if (!category) {
+      const lines = description.split(/\r?\n/).map((s: string) => s.trim()).filter(Boolean) as string[];
+      const upperLine = lines.find((l: string) => l.length >= 5 && l.length <= 90 && l === l.toUpperCase());
+      if (upperLine) category = upperLine;
+    }
+    if (!category) category = 'unknown';
     const price = generatePrice(sku, category);
+
+    // Parse description into structured fields (do not override explicit input fields)
+    const parsed = extractSpecsFromDescription(description);
+
+    // Collect matched SKUs from description (does not override main sku)
+    const matchedSkus: string[] = (() => {
+      const acc = new Set<string>();
+      const patterns: RegExp[] = [
+        /(ABSK|ABST|ABSM|ABSVM|ABSP|ABSI|ABSRI|ABSBK|ABSV|ABSW|ABSON)[0-9A-Z]+/g,
+        /\bDB[0-9]{5}\b/g,
+        /\bHDBU[HR][0-9A-Z]+\b/g,
+        /\b[0-9]{10}\b/g,
+      ];
+      for (const re of patterns) {
+        let m: RegExpExecArray | null;
+        while ((m = re.exec(description)) !== null) {
+          acc.add(m[0]);
+        }
+      }
+      const list = Array.from(acc);
+      return list.length ? list : [];
+    })();
 
     return {
       sku,
@@ -69,16 +265,74 @@ export const normalizeProduct = (product: any): Product => {
       source_pages: Array.isArray(product.source_pages) ? product.source_pages : [],
       product_category: category,
       description: description,
+      ...(matchedSkus.length ? { matched_skus: matchedSkus } : {}),
+      ...(Array.isArray(product.absk_codes) && { absk_codes: product.absk_codes }),
+      ...(
+        !Array.isArray(product.absk_codes) && Array.isArray((parsed as any).absk_codes)
+          ? { absk_codes: (parsed as any).absk_codes as string[] }
+          : {}
+      ),
+      // Prefer explicit fields from input, else parsed values
       ...(product.pressure_min_bar !== undefined && { pressure_min_bar: Number(product.pressure_min_bar) }),
       ...(product.pressure_max_bar !== undefined && { pressure_max_bar: Number(product.pressure_max_bar) }),
+      ...(
+        product.pressure_min_bar === undefined && parsed.pressure_min_bar !== undefined
+          ? { pressure_min_bar: parsed.pressure_min_bar }
+          : {}
+      ),
+      ...(
+        product.pressure_max_bar === undefined && parsed.pressure_max_bar !== undefined
+          ? { pressure_max_bar: parsed.pressure_max_bar }
+          : {}
+      ),
       ...(product.dimensions_mm_list && { dimensions_mm_list: product.dimensions_mm_list }),
+      ...(
+        !product.dimensions_mm_list && parsed.dimensions_mm_list
+          ? { dimensions_mm_list: parsed.dimensions_mm_list }
+          : {}
+      ),
       ...(product.length_mm !== undefined && { length_mm: Number(product.length_mm) }),
       ...(product.width_mm !== undefined && { width_mm: Number(product.width_mm) }),
       ...(product.height_mm !== undefined && { height_mm: Number(product.height_mm) }),
+      ...(
+        product.length_mm === undefined && parsed.length_mm !== undefined
+          ? { length_mm: parsed.length_mm }
+          : {}
+      ),
+      ...(
+        product.width_mm === undefined && parsed.width_mm !== undefined
+          ? { width_mm: parsed.width_mm }
+          : {}
+      ),
+      ...(
+        product.height_mm === undefined && parsed.height_mm !== undefined
+          ? { height_mm: parsed.height_mm }
+          : {}
+      ),
       ...(product.power_hp !== undefined && { power_hp: Number(product.power_hp) }),
       ...(product.power_kw !== undefined && { power_kw: Number(product.power_kw) }),
+      ...(
+        product.power_kw === undefined && parsed.power_kw !== undefined
+          ? { power_kw: parsed.power_kw }
+          : {}
+      ),
+      ...(
+        product.power_kw === undefined && product.power_hp === undefined && parsed.power_hp !== undefined
+          ? { power_hp: parsed.power_hp }
+          : {}
+      ),
       ...(product.voltage_v !== undefined && { voltage_v: Number(product.voltage_v) }),
+      ...(
+        product.voltage_v === undefined && parsed.voltage_v !== undefined
+          ? { voltage_v: parsed.voltage_v }
+          : {}
+      ),
       ...(product.flow_l_min_list && { flow_l_min_list: product.flow_l_min_list }),
+      ...(
+        !product.flow_l_min_list && parsed.flow_l_min_list
+          ? { flow_l_min_list: parsed.flow_l_min_list }
+          : {}
+      ),
       name,
       shortDescription,
       price,
@@ -139,8 +393,9 @@ const getImageUrl = (product?: Product | null): string => {
   }
   
   // If the product has an image URL, use it
-  if ('image' in product && product.image) {
-    return product.image;
+  const possibleImage: unknown = (product as any)?.image;
+  if (typeof possibleImage === 'string' && possibleImage.length > 0) {
+    return possibleImage;
   }
   
   try {

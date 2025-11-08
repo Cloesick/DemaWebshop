@@ -113,7 +113,7 @@ export default function ProductDetailsCard({ product, className = '' }: ProductD
               <div className="space-y-3">
                 {product.pdf_source && (
                   <div>
-                    <p className="text-sm text-gray-500">Document</p>
+                    <p className="text-sm text-gray-500">Pdf Source</p>
                     <a 
                       href={product.pdf_source} 
                       target="_blank" 
@@ -128,11 +128,21 @@ export default function ProductDetailsCard({ product, className = '' }: ProductD
                   </div>
                 )}
                 
-                {product.source_pages?.length > 0 && (
+                {product.pdf_source && product.source_pages?.length > 0 && (
                   <div>
-                    <p className="text-sm text-gray-500">Source Pages</p>
-                    <div className="mt-1">
-                      {renderList(product.source_pages, 'page')}
+                    <p className="text-sm text-gray-500">Pdf Source Page</p>
+                    <div className="mt-1 flex flex-wrap gap-1.5">
+                      {product.source_pages.map((p) => (
+                        <a
+                          key={`page-${p}`}
+                          href={`${product.pdf_source}#page=${p}`}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="px-2.5 py-1 bg-gray-100 rounded-md text-xs font-medium text-gray-700 hover:underline"
+                        >
+                          Page {p}
+                        </a>
+                      ))}
                     </div>
                   </div>
                 )}
@@ -207,7 +217,7 @@ export default function ProductDetailsCard({ product, className = '' }: ProductD
                       <div>
                         <h4 className="text-sm font-medium text-gray-500 mb-1">Connection Types</h4>
                         <div className="mt-1">
-                          {renderList(product.connection_types, 'conn')}
+                          {renderList(product.connection_types || [], 'conn')}
                         </div>
                       </div>
                     )}
@@ -244,7 +254,7 @@ export default function ProductDetailsCard({ product, className = '' }: ProductD
                       <div>
                         <h4 className="text-sm font-medium text-gray-500 mb-1">Available Sizes</h4>
                         <div className="mt-1">
-                          {renderList(product.dimensions_mm_list, 'size', ' mm')}
+                          {renderList(product.dimensions_mm_list || [], 'size', ' mm')}
                         </div>
                       </div>
                     )}
