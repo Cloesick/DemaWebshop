@@ -11,6 +11,7 @@ import Link from 'next/link';
 import { useLocale } from '@/contexts/LocaleContext';
 import ProductCard from '@/components/products/ProductCard';
 import { getSkuImagePath } from '@/lib/skuImageMap';
+import { formatProductForCard } from '@/lib/formatProductForCard';
 
 // This is a client component that will be hydrated on the client
 export default function ProductPage() {
@@ -358,8 +359,8 @@ export default function ProductPage() {
       return <div className="w-full h-64 flex items-center justify-center text-sm text-gray-600">{error}</div>;
     }
     return (
-      <div className="w-full flex items-center justify-center bg-white">
-        <canvas id="product-pdf-canvas" ref={canvasRef} className="w-full h-auto" aria-label="Product image from PDF" />
+      <div className="w-full h-full flex items-center justify-center bg-white">
+        <canvas id="product-pdf-canvas" ref={canvasRef} className="h-full w-auto max-w-full" aria-label="Product image from PDF" />
         {!rendered && (
           <div className="absolute inset-0 flex items-center justify-center">
             <div className="animate-spin rounded-full h-8 w-8 border-t-2 border-b-2 border-blue-500"></div>
@@ -447,7 +448,7 @@ export default function ProductPage() {
               <span className="mx-1">/</span>
             </li>
             <li aria-current="page" className="text-gray-700 font-medium truncate max-w-[50ch]">
-              {product.description.split(' ').slice(0, 3).join(' ') || product.sku}
+              {formatProductForCard(product).title}
             </li>
           </ol>
         </nav>
@@ -455,7 +456,7 @@ export default function ProductPage() {
           {/* Product Image */}
           <div className="mb-8 lg:mb-0">
             <div className="bg-gray-100 rounded-lg overflow-hidden">
-              <div className="relative w-full h-full flex items-center justify-center bg-gray-100 p-2">
+              <div className="relative w-full h-[420px] sm:h-[480px] lg:h-[560px] flex items-center justify-center bg-gray-100 p-2">
                 {(editMode || !!displayCropNorm) && displayPdfUrl ? (
                   <div className="relative">
                     <PdfPageImage
@@ -473,8 +474,8 @@ export default function ProductPage() {
                     )}
                   </div>
                 ) : skuImage ? (
-                  <div className="relative w-full h-full flex items-center justify-center">
-                    <Image src={skuImage} alt={product.description || product.sku} width={800} height={600} className="w-full h-auto object-contain" />
+                  <div className="relative w-full h-full">
+                    <Image src={skuImage} alt={product.description || product.sku} fill sizes="(min-width: 1024px) 50vw, 100vw" className="object-cover" />
                   </div>
                 ) : displayPdfUrl ? (
                   <div className="relative">
@@ -622,7 +623,7 @@ export default function ProductPage() {
           {/* Product Info */}
           <div className="lg:pl-8">
             <h1 className="text-3xl font-bold text-gray-900 mb-2">
-              {product.description.split(' ').slice(0, 3).join(' ')}
+              {formatProductForCard(product).title}
             </h1>
             <p className="text-gray-500 text-sm mb-4">SKU: {product.sku}</p>
             
@@ -633,12 +634,7 @@ export default function ProductPage() {
               <p className="text-green-600 text-sm mt-1">In Stock</p>
             </div>
             
-            <div className="mt-6">
-              <h3 className="text-sm font-medium text-gray-900">Description</h3>
-              <div className="mt-2 text-gray-700">
-                <p>{product.description}</p>
-              </div>
-            </div>
+            {/* Description removed by request */}
             
             <div className="mt-6">
               <h3 className="text-sm font-medium text-gray-900">Specifications</h3>

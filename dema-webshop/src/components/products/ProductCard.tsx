@@ -128,9 +128,7 @@ export default function ProductCard({ product, className = '', viewMode = 'grid'
                 {productName}
               </Link>
             </h3>
-            {description && (
-              <p className="mt-1 text-sm text-gray-700 line-clamp-2">{description}</p>
-            )}
+            {/* Description removed by request */}
             <p className="text-xs text-gray-500">SKU: {product.sku}</p>
             {vm.badges?.[0] && (
               <span className="inline-block mt-2 px-2.5 py-0.5 rounded-full text-xs font-medium bg-primary/10 text-primary">
@@ -229,9 +227,7 @@ export default function ProductCard({ product, className = '', viewMode = 'grid'
                 {productName}
               </Link>
             </h3>
-            {description && (
-              <p className="text-sm text-gray-600 mb-1 line-clamp-2 h-10">{description}</p>
-            )}
+            {/* Description removed by request */}
             <p className="text-xs text-gray-500 mb-2">SKU: {product.sku}</p>
             {vm.badges?.length ? (
               <div className="mb-2 flex flex-wrap gap-1">

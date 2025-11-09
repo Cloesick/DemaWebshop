@@ -37,9 +37,26 @@ function fmtNumber(n?: number, unit?: string) {
   return unit ? `${n} ${unit}` : String(n);
 }
 
+function deriveType(p: Product): string {
+  const cat = (p.product_category || '').toLowerCase();
+  if (cat) return cat.replace(/[^a-z0-9]+/g, ' ').trim();
+  const d = (p.description || '').toLowerCase();
+  const keywords: Array<[RegExp, string]> = [
+    [/hogedruk|pressure\s*washer|drukreiniger|kränzle|kranzle/, 'pressurewasher'],
+    [/schroef|screw\s*driver|schroevendraaier/, 'screwdriver'],
+    [/compressor|luchtcompressor/, 'compressor'],
+    [/pomp|pump/, 'pump'],
+    [/slang|hose/, 'hose'],
+    [/koppeling|fitting|connector/, 'fitting'],
+  ];
+  for (const [rx, name] of keywords) { if (rx.test(d)) return name; }
+  return 'product';
+}
+
 export function formatProductForCard(p: Product): ProductCardVM {
-  const title = (p as any).name || p.sku || 'Product';
-  const subtitle = firstSentence(p.description);
+  const type = deriveType(p);
+  const title = `${type} ${p.sku || ''}`.trim();
+  const subtitle = '';
   const image = (p as any).image || p.imageUrl || placeholderFor(p.product_category || 'product', title);
 
   // Price: prefer numeric; else "Price on request"
