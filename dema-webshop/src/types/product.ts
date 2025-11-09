@@ -19,8 +19,12 @@ export interface Product {
   power_hp?: number;
   voltage_v?: number;
   spanning_v?: number;
+  frequency_hz?: number;
+  current_a?: number;
+  phase_count?: number;
   flow_l_min?: number;
   flow_l_min_list?: number[];
+  flow_l_h?: number;
   debiet_m3_h?: number;
   rpm?: number;
   size_inch?: number | string;
@@ -30,6 +34,12 @@ export interface Product {
   materials?: string[];
   volume_l?: number;
   vlotter?: boolean;
+  overpressure_bar?: number;
+  overpressure_mpa?: number;
+  power_input_kw?: number;
+  power_output_kw?: number;
+  cable_length_m?: number;
+  features?: string[];
   
   // Dimensions and weight
   dimensions_mm_list?: number[];

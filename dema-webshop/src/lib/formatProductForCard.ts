@@ -58,11 +58,50 @@ export function formatProductForCard(p: Product): ProductCardVM {
     const val = [min, max].filter(v => typeof v === 'number').join('–');
     if (val) specs.push({ label: 'Pressure', value: `${val} bar` });
   }
-  // Power
-  if (typeof p.power_kw === 'number') specs.push({ label: 'Power', value: fmtNumber(p.power_kw, 'kW')! });
-  else if (typeof p.power_hp === 'number') specs.push({ label: 'Power', value: fmtNumber(p.power_hp, 'HP')! });
-  // Voltage
-  if (typeof p.voltage_v === 'number') specs.push({ label: 'Voltage', value: fmtNumber(p.voltage_v, 'V')! });
+  if (typeof (p as any).overpressure_bar === 'number' || typeof (p as any).overpressure_mpa === 'number') {
+    const bar = (p as any).overpressure_bar;
+    const mpa = (p as any).overpressure_mpa;
+    const val = [bar ? `${bar} bar` : undefined, mpa ? `${mpa} MPa` : undefined].filter(Boolean).join(' ');
+    if (val) specs.push({ label: 'Overpressure', value: val });
+  }
+  if (typeof p.flow_l_min === 'number' || typeof (p as any).flow_l_h === 'number') {
+    const parts = [
+      typeof p.flow_l_min === 'number' ? `${p.flow_l_min} L/min` : undefined,
+      typeof (p as any).flow_l_h === 'number' ? `${(p as any).flow_l_h} L/h` : undefined,
+    ].filter(Boolean).join(' • ');
+    if (parts) specs.push({ label: 'Flow', value: parts });
+  } else if (Array.isArray(p.flow_l_min_list) && p.flow_l_min_list.length) {
+    specs.push({ label: 'Flow', value: `${p.flow_l_min_list[0]} L/min` });
+  } else if (typeof p.debiet_m3_h === 'number') {
+    specs.push({ label: 'Flow', value: `${p.debiet_m3_h} m³/h` });
+  }
+  if (typeof p.power_input_kw === 'number' || typeof p.power_output_kw === 'number') {
+    const pin = typeof p.power_input_kw === 'number' ? p.power_input_kw : undefined;
+    const pout = typeof p.power_output_kw === 'number' ? p.power_output_kw : undefined;
+    const val = [pin, pout].filter(v => typeof v === 'number').join(' / ');
+    if (val) specs.push({ label: 'Power In/Out', value: `${val} kW` });
+  } else if (typeof p.power_kw === 'number') {
+    specs.push({ label: 'Power', value: fmtNumber(p.power_kw, 'kW')! });
+  } else if (typeof p.power_hp === 'number') {
+    specs.push({ label: 'Power', value: fmtNumber(p.power_hp, 'HP')! });
+  }
+  if (typeof p.voltage_v === 'number' || typeof p.frequency_hz === 'number' || typeof p.current_a === 'number') {
+    const v = typeof p.voltage_v === 'number' ? `${p.voltage_v}V` : undefined;
+    const ph = typeof p.phase_count === 'number' ? `~${p.phase_count}` : undefined;
+    const hz = typeof p.frequency_hz === 'number' ? `${p.frequency_hz}Hz` : undefined;
+    const a = typeof p.current_a === 'number' ? `${p.current_a}A` : undefined;
+    const val = [v, ph, hz, a].filter(Boolean).join(' ');
+    if (val) specs.push({ label: 'Electrical', value: val });
+  }
+  if (typeof p.rpm === 'number') specs.push({ label: 'RPM', value: String(p.rpm) });
+  if (typeof p.cable_length_m === 'number') specs.push({ label: 'Cable', value: fmtNumber(p.cable_length_m, 'm')! });
+  if (typeof p.length_mm === 'number' || typeof p.width_mm === 'number' || typeof p.height_mm === 'number') {
+    const L = typeof p.length_mm === 'number' ? p.length_mm : undefined;
+    const W = typeof p.width_mm === 'number' ? p.width_mm : undefined;
+    const H = typeof p.height_mm === 'number' ? p.height_mm : undefined;
+    const parts = [L, W, H].filter(v => typeof v === 'number').join('×');
+    if (parts) specs.push({ label: 'Dimensions', value: `${parts} mm` });
+  }
   // Sizes
   if (Array.isArray(p.dimensions_mm_list) && p.dimensions_mm_list.length) {
     const shown = p.dimensions_mm_list.slice(0, 3).join(', ');
@@ -70,14 +109,6 @@ export function formatProductForCard(p: Product): ProductCardVM {
   }
   // Weight
   if (typeof p.weight_kg === 'number') specs.push({ label: 'Weight', value: fmtNumber(p.weight_kg, 'kg')! });
-  // Flow
-  if (Array.isArray(p.flow_l_min_list) && p.flow_l_min_list.length) {
-    specs.push({ label: 'Flow', value: `${p.flow_l_min_list[0]} L/min` });
-  } else if (typeof p.flow_l_min === 'number') {
-    specs.push({ label: 'Flow', value: `${p.flow_l_min} L/min` });
-  } else if (typeof p.debiet_m3_h === 'number') {
-    specs.push({ label: 'Flow', value: `${p.debiet_m3_h} m³/h` });
-  }
 
   const pdfHref = p.pdf_source ? p.pdf_source : undefined;
   const pdfLabel = pdfHref ? 'Datasheet' : undefined;
@@ -88,7 +119,7 @@ export function formatProductForCard(p: Product): ProductCardVM {
     image,
     priceLabel,
     badges,
-    specs: specs.slice(0, 5),
+    specs: specs.slice(0, 7),
     pdfHref,
     pdfLabel,
     categoryLabel: p.product_category,

@@ -48,16 +48,31 @@ export default function ProductDetailsCard({ product, className = '' }: ProductD
     ? formatCurrency(product.dimensions_mm_list[0] * 0.5)
     : formatCurrency(99.99);
 
-  // Check if there are any specifications to show
+  // Check if there are any specifications to show (including structured parsed fields)
   const hasSpecifications = [
-    product.pressure_min_bar !== undefined,
-    product.power_hp || product.power_kw,
+    product.pressure_min_bar,
+    product.pressure_max_bar,
+    (product as any).overpressure_bar,
+    (product as any).overpressure_mpa,
+    product.power_hp,
+    product.power_kw,
+    (product as any).power_input_kw,
+    (product as any).power_output_kw,
     product.voltage_v,
     product.frequency_hz,
+    (product as any).phase_count,
+    (product as any).current_a,
+    product.flow_l_min,
+    (product as any).flow_l_h,
+    product.debiet_m3_h,
     product.connection_types?.length,
     product.dimensions_mm_list?.length,
-    product.length_mm || product.width_mm || product.height_mm,
+    product.length_mm,
+    product.width_mm,
+    product.height_mm,
     product.weight_kg,
+    (product as any).rpm,
+    (product as any).cable_length_m,
     product.noise_level_db,
     product.airflow_l_min,
     product.tank_capacity_l
@@ -192,7 +207,7 @@ export default function ProductDetailsCard({ product, className = '' }: ProductD
                     )}
                     
                     {/* Voltage & Frequency */}
-                    {(product.voltage_v || product.frequency_hz) && (
+                    {(product.voltage_v || product.frequency_hz || (product as any).phase_count || (product as any).current_a) && (
                       <div className="space-y-2">
                         <h4 className="text-sm font-medium text-gray-500">Electrical</h4>
                         <div className="flex flex-wrap gap-4">
@@ -208,7 +223,44 @@ export default function ProductDetailsCard({ product, className = '' }: ProductD
                               <span className="text-gray-500">Hz</span>
                             </div>
                           )}
+                          {(product as any).phase_count && (
+                            <div>
+                              <span className="text-gray-900 font-medium">{(product as any).phase_count} </span>
+                              <span className="text-gray-500">~</span>
+                            </div>
+                          )}
+                          {(product as any).current_a && (
+                            <div>
+                              <span className="text-gray-900 font-medium">{(product as any).current_a} </span>
+                              <span className="text-gray-500">A</span>
+                            </div>
+                          )}
                         </div>
+                      </div>
+                    )}
+
+                    {/* Flow */}
+                    {(product.flow_l_min || (product as any).flow_l_h || product.debiet_m3_h) && (
+                      <div className="space-y-1">
+                        <h4 className="text-sm font-medium text-gray-500">Flow</h4>
+                        <p className="text-gray-900">
+                          {typeof product.flow_l_min === 'number' ? `${product.flow_l_min} L/min` : ''}
+                          {product.flow_l_min && (product as any).flow_l_h ? ' • ' : ''}
+                          {typeof (product as any).flow_l_h === 'number' ? `${(product as any).flow_l_h} L/h` : ''}
+                          {!product.flow_l_min && !(product as any).flow_l_h && typeof product.debiet_m3_h === 'number' ? `${product.debiet_m3_h} m³/h` : ''}
+                        </p>
+                      </div>
+                    )}
+
+                    {/* Overpressure */}
+                    {((product as any).overpressure_bar || (product as any).overpressure_mpa) && (
+                      <div className="space-y-1">
+                        <h4 className="text-sm font-medium text-gray-500">Overpressure</h4>
+                        <p className="text-gray-900">
+                          {typeof (product as any).overpressure_bar === 'number' ? `${(product as any).overpressure_bar} bar` : ''}
+                          {(product as any).overpressure_bar && (product as any).overpressure_mpa ? ' • ' : ''}
+                          {typeof (product as any).overpressure_mpa === 'number' ? `${(product as any).overpressure_mpa} MPa` : ''}
+                        </p>
                       </div>
                     )}
                     
@@ -267,6 +319,18 @@ export default function ProductDetailsCard({ product, className = '' }: ProductD
                           <div>
                             <p className="text-xs text-gray-500">Weight</p>
                             <p className="text-gray-900">{product.weight_kg} kg</p>
+                          </div>
+                        )}
+                        {(product as any).rpm && (
+                          <div>
+                            <p className="text-xs text-gray-500">Motor Speed</p>
+                            <p className="text-gray-900">{(product as any).rpm} rpm</p>
+                          </div>
+                        )}
+                        {(product as any).cable_length_m && (
+                          <div>
+                            <p className="text-xs text-gray-500">Cable Length</p>
+                            <p className="text-gray-900">{(product as any).cable_length_m} m</p>
                           </div>
                         )}
                         {product.noise_level_db && (

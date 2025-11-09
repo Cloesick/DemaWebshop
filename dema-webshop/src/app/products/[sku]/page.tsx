@@ -246,10 +246,23 @@ export default function ProductPage() {
                     <dd>{product.product_category}</dd>
                   </>
                 )}
-                {product.pressure_max_bar && (
+                {(product.pressure_min_bar || product.pressure_max_bar) && (
                   <>
-                    <dt className="font-medium">Max Pressure</dt>
-                    <dd>{product.pressure_max_bar} bar</dd>
+                    <dt className="font-medium">Pressure</dt>
+                    <dd>
+                      {product.pressure_min_bar ? `${product.pressure_min_bar}–` : ''}
+                      {product.pressure_max_bar ? `${product.pressure_max_bar}` : ''} bar
+                    </dd>
+                  </>
+                )}
+                {((product as any).overpressure_bar || (product as any).overpressure_mpa) && (
+                  <>
+                    <dt className="font-medium">Overpressure</dt>
+                    <dd>
+                      {typeof (product as any).overpressure_bar === 'number' ? `${(product as any).overpressure_bar} bar` : ''}
+                      {(product as any).overpressure_bar && (product as any).overpressure_mpa ? ' • ' : ''}
+                      {typeof (product as any).overpressure_mpa === 'number' ? `${(product as any).overpressure_mpa} MPa` : ''}
+                    </dd>
                   </>
                 )}
                 {product.power_kw && (
@@ -258,16 +271,42 @@ export default function ProductPage() {
                     <dd>{product.power_kw} kW</dd>
                   </>
                 )}
+                {((product as any).power_input_kw || (product as any).power_output_kw) && (
+                  <>
+                    <dt className="font-medium">Power In/Out</dt>
+                    <dd>
+                      {typeof (product as any).power_input_kw === 'number' ? `${(product as any).power_input_kw}` : ''}
+                      {(product as any).power_input_kw && (product as any).power_output_kw ? ' / ' : ''}
+                      {typeof (product as any).power_output_kw === 'number' ? `${(product as any).power_output_kw}` : ''} kW
+                    </dd>
+                  </>
+                )}
                 {product.voltage_v && (
                   <>
                     <dt className="font-medium">Voltage</dt>
                     <dd>{product.voltage_v} V</dd>
                   </>
                 )}
-                {product.flow_l_min && (
+                {(product.frequency_hz || (product as any).phase_count || (product as any).current_a) && (
+                  <>
+                    <dt className="font-medium">Electrical</dt>
+                    <dd>
+                      {product.voltage_v ? `${product.voltage_v}V ` : ''}
+                      {(product as any).phase_count ? `~${(product as any).phase_count} ` : ''}
+                      {product.frequency_hz ? `${product.frequency_hz}Hz ` : ''}
+                      {(product as any).current_a ? `${(product as any).current_a}A` : ''}
+                    </dd>
+                  </>
+                )}
+                {(product.flow_l_min || (product as any).flow_l_h || product.debiet_m3_h) && (
                   <>
                     <dt className="font-medium">Flow</dt>
-                    <dd>{product.flow_l_min} L/min</dd>
+                    <dd>
+                      {typeof product.flow_l_min === 'number' ? `${product.flow_l_min} L/min` : ''}
+                      {product.flow_l_min && (product as any).flow_l_h ? ' • ' : ''}
+                      {typeof (product as any).flow_l_h === 'number' ? `${(product as any).flow_l_h} L/h` : ''}
+                      {!product.flow_l_min && !(product as any).flow_l_h && typeof product.debiet_m3_h === 'number' ? `${product.debiet_m3_h} m³/h` : ''}
+                    </dd>
                   </>
                 )}
                 {product.absk_codes && product.absk_codes.length > 0 && (
@@ -286,6 +325,30 @@ export default function ProductPage() {
                   <>
                     <dt className="font-medium">Materials</dt>
                     <dd>{product.materials.join(', ')}</dd>
+                  </>
+                )}
+                {(product.length_mm || product.width_mm || product.height_mm) && (
+                  <>
+                    <dt className="font-medium">Dimensions</dt>
+                    <dd>
+                      {product.length_mm ? `${product.length_mm}` : ''}
+                      {(product.length_mm && product.width_mm) ? '×' : ''}
+                      {product.width_mm ? `${product.width_mm}` : ''}
+                      {(product.width_mm && product.height_mm) ? '×' : ''}
+                      {product.height_mm ? `${product.height_mm}` : ''} mm
+                    </dd>
+                  </>
+                )}
+                {(product as any).rpm && (
+                  <>
+                    <dt className="font-medium">Motor Speed</dt>
+                    <dd>{(product as any).rpm} rpm</dd>
+                  </>
+                )}
+                {(product as any).cable_length_m && (
+                  <>
+                    <dt className="font-medium">Cable Length</dt>
+                    <dd>{(product as any).cable_length_m} m</dd>
                   </>
                 )}
                 {product.dimensions_mm_list && product.dimensions_mm_list.length > 0 && (
@@ -341,6 +404,21 @@ export default function ProductPage() {
               <AddToCart product={product} />
             </div>
             
+            {(Array.isArray((product as any).features) && (product as any).features.length > 0) && (
+              <div className="mt-6 bg-white border border-gray-200 rounded-lg overflow-hidden">
+                <div className="px-6 py-4 bg-gray-50 border-b border-gray-200">
+                  <h2 className="text-lg font-semibold text-gray-900">Features</h2>
+                </div>
+                <div className="p-6">
+                  <ul className="list-disc list-inside space-y-1 text-gray-700">
+                    {(product as any).features.slice(0, 12).map((f: string, i: number) => (
+                      <li key={`pfeat-${i}`}>{f}</li>
+                    ))}
+                  </ul>
+                </div>
+              </div>
+            )}
+
             <div className="mt-4 flex items-center text-sm text-gray-500">
               <svg className="flex-shrink-0 mr-2 h-5 w-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
                 <path fillRule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clipRule="evenodd" />
