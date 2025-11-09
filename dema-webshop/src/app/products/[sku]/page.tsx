@@ -1,7 +1,7 @@
 'use client';
 
-import { useParams } from 'next/navigation';
-import { useEffect, useState } from 'react';
+import { useParams, useSearchParams } from 'next/navigation';
+import { useEffect, useRef, useState } from 'react';
 import Image from 'next/image';
 import { formatCurrency } from '@/lib/utils';
 import { Button } from '@/components/ui/button';
@@ -20,6 +20,23 @@ export default function ProductPage() {
   const [error, setError] = useState<string | null>(null);
   const [recs, setRecs] = useState<Product[]>([]);
   const [recsLoading, setRecsLoading] = useState(false);
+  const [displayPdfUrl, setDisplayPdfUrl] = useState<string | null>(null);
+  const [displayPageNumber, setDisplayPageNumber] = useState<number>(1);
+  const [displayCropNorm, setDisplayCropNorm] = useState<{ x: number; y: number; width: number; height: number } | null>(null);
+  const [canvasSize, setCanvasSize] = useState<{ w: number; h: number } | null>(null);
+  const searchParams = useSearchParams();
+  const editMode = searchParams?.get('editImage') === '1';
+  const [pendingCrop, setPendingCrop] = useState<{ x: number; y: number; width: number; height: number } | null>(null);
+  const [saving, setSaving] = useState(false);
+
+  // Normalize incoming pdf_source values to a usable URL
+  function makePdfUrl(src?: string | null): string | null {
+    if (!src) return null;
+    if (src.startsWith('http://') || src.startsWith('https://')) return src;
+    if (src.startsWith('/')) return src; // already absolute within site
+    // assume bare filename within public/documents/Product_pdfs
+    return `/documents/Product_pdfs/${src}`;
+  }
 
   useEffect(() => {
     const sku = Array.isArray(params.sku) ? params.sku[0] : params.sku;
@@ -53,6 +70,92 @@ export default function ProductPage() {
 
     fetchProduct();
   }, [params.sku]);
+
+  // Resolve which PDF and page to display as the image.
+  // If the product has its own pdf_source, use it. Otherwise, try matched_skus (shared image scenario).
+  useEffect(() => {
+    async function resolvePdf() {
+      if (!product) {
+        setDisplayPdfUrl(null);
+        setDisplayPageNumber(1);
+        return;
+      }
+      const hasOwnPdf = !!product.pdf_source && Array.isArray(product.source_pages) && product.source_pages.length > 0;
+      if (hasOwnPdf) {
+        setDisplayPdfUrl(makePdfUrl(product.pdf_source));
+        let pageNum = (product as any).image_page || product.source_pages[0] || 1;
+        let crop = (product as any).image_crop_norm || null;
+        // Load overrides for this SKU, if present
+        try {
+          const sku = product.sku;
+          const ovRes = await fetch(`/api/product-image-overrides?sku=${encodeURIComponent(sku)}`, { cache: 'no-store' });
+          if (ovRes.ok) {
+            const ovData = await ovRes.json();
+            const o = ovData?.[sku];
+            if (o) {
+              if (typeof o.image_page === 'number') pageNum = o.image_page;
+              if (o.image_crop_norm) crop = o.image_crop_norm;
+            }
+          }
+        } catch {}
+        setDisplayPageNumber(pageNum);
+        setDisplayCropNorm(crop);
+        return;
+      }
+      // fallback via matched_skus
+      const ms = Array.isArray((product as any).matched_skus) ? (product as any).matched_skus as string[] : [];
+      if (ms.length === 0) {
+        setDisplayPdfUrl(null);
+        setDisplayPageNumber(1);
+        return;
+      }
+      // Try first matching SKU that has a pdf and page
+      for (const msku of ms) {
+        try {
+          const r = await fetch(`/api/products?sku=${encodeURIComponent(msku)}&limit=1`, { cache: 'force-cache' });
+          if (!r.ok) continue;
+          const d = await r.json();
+          const mp: Product | undefined = d?.products?.[0];
+          if (mp && mp.pdf_source && Array.isArray(mp.source_pages) && mp.source_pages.length > 0) {
+            setDisplayPdfUrl(makePdfUrl(mp.pdf_source));
+            let pageNum = (mp as any).image_page || mp.source_pages[0] || 1;
+            let crop = (mp as any).image_crop_norm || null;
+            // Try override for current SKU first, then matched SKU
+            try {
+              const sku = product.sku;
+              const ovRes1 = await fetch(`/api/product-image-overrides?sku=${encodeURIComponent(sku)}`, { cache: 'no-store' });
+              if (ovRes1.ok) {
+                const j = await ovRes1.json();
+                const o = j?.[sku];
+                if (o) {
+                  if (typeof o.image_page === 'number') pageNum = o.image_page;
+                  if (o.image_crop_norm) crop = o.image_crop_norm;
+                }
+              }
+              const ovRes2 = await fetch(`/api/product-image-overrides?sku=${encodeURIComponent(msku)}`, { cache: 'no-store' });
+              if (ovRes2.ok) {
+                const j2 = await ovRes2.json();
+                const o2 = j2?.[msku];
+                if (o2) {
+                  if (typeof o2.image_page === 'number') pageNum = o2.image_page;
+                  if (o2.image_crop_norm) crop = o2.image_crop_norm;
+                }
+              }
+            } catch {}
+            setDisplayPageNumber(pageNum);
+            setDisplayCropNorm(crop);
+            return;
+          }
+        } catch {
+          // ignore and continue
+        }
+      }
+      setDisplayPdfUrl(null);
+      setDisplayPageNumber(1);
+      setDisplayCropNorm(null);
+    }
+    resolvePdf();
+  }, [product]);
 
   useEffect(() => {
     const sku = Array.isArray(params.sku) ? params.sku[0] : params.sku;
@@ -169,7 +272,95 @@ export default function ProductPage() {
         className="mt-4 w-full bg-blue-600 hover:bg-blue-700"
       >
         Add to Cart
-      </Button>
+
+  const handleMouseUp = () => {
+    if (!editMode) return;
+    setEditMode(false);
+  };
+
+  const handleSave = async () => {
+    if (!pendingCrop || !product) return;
+    try {
+      setSaving(true);
+      const sku = product.sku;
+      const res = await fetch('/api/product-image-overrides', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ sku, image_page: pageNumber, image_crop_norm: pendingCrop })
+      });
+      if (res.ok) {
+        setPendingCrop(null);
+      async function load() {
+        try {
+          // Dynamically import pdf.js (build) only in the browser to avoid SSR issues
+          // @ts-ignore - path types may not resolve, runtime import is valid
+          const pdfjsLib = await import('pdfjs-dist/build/pdf');
+          const pdfjs: any = (pdfjsLib as any).default ?? pdfjsLib;
+          // Point worker to a CDN to avoid bundler/asset pipeline issues in Next.js
+          // IMPORTANT: the worker must match the installed pdfjs API version to avoid UnknownErrorException
+          // @ts-ignore - runtime property exists
+          pdfjs.GlobalWorkerOptions.workerSrc = 'https://unpkg.com/pdfjs-dist@5.4.394/build/pdf.worker.min.mjs';
+
+          const loadingTask = pdfjs.getDocument(pdfUrl);
+          const pdf = await loadingTask.promise;
+          const page = await pdf.getPage(pageNumber);
+          const scale = 1.5;
+          const viewport = page.getViewport({ scale });
+          const canvas = canvasRef.current;
+          if (!canvas || cancelled) return;
+          const ctx = canvas.getContext('2d');
+          if (!ctx) return;
+
+          // Render full page to an offscreen canvas first
+          const off = document.createElement('canvas');
+          off.width = viewport.width;
+          off.height = viewport.height;
+          const offCtx = off.getContext('2d');
+          if (!offCtx) return;
+          await page.render({ canvasContext: offCtx, viewport }).promise;
+
+          // Compute crop in pixels if provided, otherwise use full page
+          const hasCrop = !!cropNorm && cropNorm.width > 0 && cropNorm.height > 0;
+          const sx = hasCrop ? Math.max(0, Math.min(off.width, Math.round(off.width * (cropNorm!.x || 0)))) : 0;
+          const sy = hasCrop ? Math.max(0, Math.min(off.height, Math.round(off.height * (cropNorm!.y || 0)))) : 0;
+          const sw = hasCrop ? Math.max(1, Math.min(off.width - sx, Math.round(off.width * (cropNorm!.width || 1)))) : off.width;
+          const sh = hasCrop ? Math.max(1, Math.min(off.height - sy, Math.round(off.height * (cropNorm!.height || 1)))) : off.height;
+
+          // Draw cropped region to visible canvas
+          canvas.width = sw;
+          canvas.height = sh;
+          ctx.drawImage(off, sx, sy, sw, sh, 0, 0, sw, sh);
+          if (onRendered) onRendered(off.width, off.height);
+          if (!cancelled) setRendered(true);
+        } catch (e) {
+          // Surface minimal info in console for debugging
+          // eslint-disable-next-line no-console
+          console.error('PDF render error', e);
+          if (!cancelled) setError('Failed to render PDF page');
+        }
+      }
+      load();
+      return () => {
+        cancelled = true;
+      };
+    }, [pdfUrl, pageNumber, cropNorm?.x, cropNorm?.y, cropNorm?.width, cropNorm?.height]);
+
+    if (error) {
+      return (
+        <div className="w-full h-64 flex items-center justify-center text-sm text-gray-600">
+          {error}
+        </div>
+      );
+    }
+    return (
+      <div className="w-full flex items-center justify-center bg-white">
+        <canvas ref={canvasRef} className="max-w-full h-auto" aria-label="Product image from PDF" />
+        {!rendered && (
+          <div className="absolute inset-0 flex items-center justify-center">
+            <div className="animate-spin rounded-full h-8 w-8 border-t-2 border-b-2 border-blue-500"></div>
+          </div>
+        )}
+      </div>
     );
   }
 
@@ -203,17 +394,67 @@ export default function ProductPage() {
           {/* Product Image */}
           <div className="mb-8 lg:mb-0">
             <div className="bg-gray-100 rounded-lg overflow-hidden">
-              <div className="w-full h-full flex items-center justify-center bg-gray-100 p-8">
-                <div className="text-center">
-                  <div className="text-lg font-medium text-gray-700 mb-2">
-                    {product.product_category || 'Product'}
+              <div className="relative w-full h-full flex items-center justify-center bg-gray-100 p-2">
+                {displayPdfUrl ? (
+                  <div className="relative">
+                    <PdfPageImage
+                      pdfUrl={displayPdfUrl}
+                      pageNumber={displayPageNumber}
+                      cropNorm={editMode ? undefined : (displayCropNorm || undefined)}
+                      onRendered={(w, h) => setCanvasSize({ w, h })}
+                    />
+                    {editMode && canvasSize && (
+                      <CropOverlay
+                        canvasSize={canvasSize}
+                        initial={displayCropNorm || pendingCrop || undefined}
+                        onChange={(c) => setPendingCrop(c)}
+                      />
+                    )}
                   </div>
-                  <div className="text-sm text-gray-500">
-                    SKU: {product.sku}
+                ) : (
+                  <div className="text-center py-12">
+                    <div className="text-lg font-medium text-gray-700 mb-2">
+                      {product.product_category || 'Product'}
+                    </div>
+                    <div className="text-sm text-gray-500">SKU: {product.sku}</div>
                   </div>
-                </div>
+                )}
               </div>
             </div>
+            {editMode && displayPdfUrl && (
+              <div className="mt-3 flex items-center gap-2">
+                <button
+                  className="px-3 py-1.5 rounded bg-blue-600 text-white disabled:opacity-50"
+                  disabled={saving || !pendingCrop}
+                  onClick={async () => {
+                    if (!pendingCrop || !product) return;
+                    try {
+                      setSaving(true);
+                      const sku = product.sku;
+                      const res = await fetch('/api/product-image-overrides', {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify({ sku, image_page: displayPageNumber, image_crop_norm: pendingCrop })
+                      });
+                      if (res.ok) {
+                        setDisplayCropNorm(pendingCrop);
+                        setPendingCrop(null);
+                      }
+                    } finally {
+                      setSaving(false);
+                    }
+                  }}
+                >
+                  {saving ? 'Saving…' : 'Save Crop'}
+                </button>
+                <button
+                  className="px-3 py-1.5 rounded bg-gray-200 text-gray-800"
+                  onClick={() => setPendingCrop(null)}
+                >
+                  Reset
+                </button>
+              </div>
+            )}
           </div>
           
           {/* Product Info */}

@@ -8,6 +8,8 @@ export interface Product {
   // PDF and documentation
   pdf_source: string;
   source_pages: number[];
+  image_page?: number;
+  image_crop_norm?: { x: number; y: number; width: number; height: number };
   absk_codes?: string[];
   product_type?: string;
   matched_skus?: string[];
