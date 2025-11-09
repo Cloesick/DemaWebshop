@@ -359,7 +359,7 @@ export default function ProductPage() {
     }
     return (
       <div className="w-full flex items-center justify-center bg-white">
-        <canvas ref={canvasRef} className="max-w-full h-auto" aria-label="Product image from PDF" />
+        <canvas id="product-pdf-canvas" ref={canvasRef} className="w-full h-auto" aria-label="Product image from PDF" />
         {!rendered && (
           <div className="absolute inset-0 flex items-center justify-center">
             <div className="animate-spin rounded-full h-8 w-8 border-t-2 border-b-2 border-blue-500"></div>
@@ -456,7 +456,23 @@ export default function ProductPage() {
           <div className="mb-8 lg:mb-0">
             <div className="bg-gray-100 rounded-lg overflow-hidden">
               <div className="relative w-full h-full flex items-center justify-center bg-gray-100 p-2">
-                {skuImage ? (
+                {(editMode || !!displayCropNorm) && displayPdfUrl ? (
+                  <div className="relative">
+                    <PdfPageImage
+                      pdfUrl={displayPdfUrl}
+                      pageNumber={displayPageNumber}
+                      cropNorm={editMode ? undefined : (displayCropNorm || undefined)}
+                      onRendered={(w, h) => setCanvasSize({ w, h })}
+                    />
+                    {editMode && canvasSize && (
+                      <CropOverlay
+                        canvasSize={canvasSize}
+                        initial={displayCropNorm || pendingCrop || undefined}
+                        onChange={(c) => setPendingCrop(c)}
+                      />
+                    )}
+                  </div>
+                ) : skuImage ? (
                   <div className="relative w-full h-full flex items-center justify-center">
                     <Image src={skuImage} alt={product.description || product.sku} width={800} height={600} className="w-full h-auto object-contain" />
                   </div>
@@ -511,6 +527,87 @@ export default function ProductPage() {
                   }}
                 >
                   {saving ? 'Saving…' : 'Save Crop'}
+                </button>
+                <button
+                  className="px-3 py-1.5 rounded bg-emerald-600 text-white disabled:opacity-50"
+                  disabled={saving}
+                  onClick={async () => {
+                    // Auto-detect main object using OpenCV.js
+                    async function loadCV() {
+                      if ((window as any).cv && (window as any).cv.Mat) return (window as any).cv;
+                      await new Promise<void>((resolve, reject) => {
+                        const s = document.createElement('script');
+                        s.src = 'https://docs.opencv.org/4.x/opencv.js';
+                        s.async = true;
+                        s.onload = () => {
+                          const cv = (window as any).cv;
+                          if (!cv) { reject(new Error('cv not loaded')); return; }
+                          if (cv['onRuntimeInitialized']) {
+                            cv['onRuntimeInitialized'] = () => resolve();
+                          } else {
+                            resolve();
+                          }
+                        };
+                        s.onerror = () => reject(new Error('Failed to load OpenCV.js'));
+                        document.head.appendChild(s);
+                      });
+                      return (window as any).cv;
+                    }
+
+                    try {
+                      const cv = await loadCV();
+                      const canvas = document.getElementById('product-pdf-canvas') as HTMLCanvasElement | null;
+                      if (!canvas) return;
+                      // Read image into OpenCV
+                      const src = cv.imread(canvas);
+                      const gray = new cv.Mat();
+                      const blur = new cv.Mat();
+                      const edges = new cv.Mat();
+                      const dil = new cv.Mat();
+                      try {
+                        cv.cvtColor(src, gray, cv.COLOR_RGBA2GRAY, 0);
+                        cv.GaussianBlur(gray, blur, new cv.Size(5,5), 0, 0, cv.BORDER_DEFAULT);
+                        cv.Canny(blur, edges, 50, 150, 3, false);
+                        const kernel = cv.getStructuringElement(cv.MORPH_RECT, new cv.Size(5,5));
+                        cv.dilate(edges, dil, kernel);
+                        const contours = new cv.MatVector();
+                        const hierarchy = new cv.Mat();
+                        cv.findContours(dil, contours, hierarchy, cv.RETR_EXTERNAL, cv.CHAIN_APPROX_SIMPLE);
+                        let maxArea = 0; let bestRect: {x:number;y:number;width:number;height:number}|null = null;
+                        for (let i = 0; i < contours.size(); i++) {
+                          const c = contours.get(i);
+                          const rect = cv.boundingRect(c);
+                          const area = rect.width * rect.height;
+                          // Heuristics: ignore tiny or nearly full-page rectangles
+                          if (area < (canvas.width * canvas.height) * 0.01) continue;
+                          if (area > (canvas.width * canvas.height) * 0.95) continue;
+                          // Prefer more square-ish or portrait rectangles typical of product photos
+                          const aspect = rect.width / Math.max(1, rect.height);
+                          const aspectScore = Math.min(aspect, 1/aspect); // closer to 1 is better
+                          const score = area * (0.5 + 0.5 * aspectScore);
+                          if (score > maxArea) { maxArea = score; bestRect = rect; }
+                        }
+                        contours.delete();
+                        hierarchy.delete();
+                        if (bestRect) {
+                          const x = Math.max(0, bestRect.x - Math.round(bestRect.width * 0.03));
+                          const y = Math.max(0, bestRect.y - Math.round(bestRect.height * 0.03));
+                          const w = Math.min(canvas.width - x, Math.round(bestRect.width * 1.06));
+                          const h = Math.min(canvas.height - y, Math.round(bestRect.height * 1.06));
+                          const crop = { x: x / canvas.width, y: y / canvas.height, width: w / canvas.width, height: h / canvas.height };
+                          setPendingCrop(crop);
+                          setDisplayCropNorm(crop);
+                        }
+                      } finally {
+                        src.delete(); gray.delete(); blur.delete(); edges.delete(); dil.delete();
+                      }
+                    } catch (e) {
+                      // eslint-disable-next-line no-console
+                      console.error('Auto-detect failed', e);
+                    }
+                  }}
+                >
+                  Auto Detect
                 </button>
                 <button
                   className="px-3 py-1.5 rounded bg-gray-200 text-gray-800"

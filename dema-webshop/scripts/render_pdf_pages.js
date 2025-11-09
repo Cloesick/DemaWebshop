@@ -6,6 +6,7 @@ const DATA_JSON = path.resolve(__dirname, '..', 'public', 'data', 'Product_pdfs_
 const PDF_DIR = path.resolve(__dirname, '..', 'public', 'documents', 'Product_pdfs');
 const OUT_DIR = path.resolve(__dirname, '..', 'public', 'images', 'pdf_pages');
 const MAP_OUT = path.resolve(__dirname, '..', 'public', 'data', 'Product_images.json');
+const RENDER_HTML = path.resolve(__dirname, '..', 'public', 'pdf_render.html');
 
 function ensureDir(p) {
   fs.mkdirSync(p, { recursive: true });
@@ -35,12 +36,28 @@ function fileUrl(p) {
 function sleep(ms){ return new Promise(r=>setTimeout(r, ms)); }
 
 async function renderOne(page, pdfAbsPath, pageNum, outPng) {
-  const url = fileUrl(pdfAbsPath) + `#page=${pageNum}`;
+  const htmlUrl = fileUrl(RENDER_HTML);
   await page.setViewport({ width: 1400, height: 2000, deviceScaleFactor: 2 });
-  await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 120000 });
-  // Give the PDF viewer a moment to render
-  await sleep(1500);
-  await page.screenshot({ path: outPng, fullPage: true });
+  await page.goto(htmlUrl, { waitUntil: 'domcontentloaded', timeout: 120000 });
+  const b64 = fs.readFileSync(pdfAbsPath).toString('base64');
+  await page.evaluate(({ b64, pageNum }) => {
+    // @ts-ignore
+    window.__renderFromConfig && window.__renderFromConfig({ pdfBase64: b64, pageNumber: pageNum });
+  }, { b64, pageNum });
+  await page.waitForFunction(() => window.__RENDER_DONE__ === true || typeof window.__RENDER_ERROR__ === 'string', { timeout: 120000 });
+  const err = await page.evaluate(() => window.__RENDER_ERROR__ || '');
+  if (err) throw new Error('Render failed: ' + err);
+  // Try automatic detection and prepare cropped canvas
+  const detected = await page.evaluate(async () => {
+    if (typeof window.__detectAndPrepareCrop === 'function') {
+      try { return await window.__detectAndPrepareCrop(); } catch { return false; }
+    }
+    return false;
+  });
+  const sel = detected ? '#crop-canvas' : '#pdf-canvas';
+  const canvas = await page.$(sel);
+  if (!canvas) throw new Error('Canvas not found after render: ' + sel);
+  await canvas.screenshot({ path: outPng });
 }
 
 async function main() {
@@ -59,7 +76,7 @@ async function main() {
     const out = path.join(OUT_DIR, `${base}_${pg}.png`);
     try {
       if (!fs.existsSync(pdfAbs)) { results.push({ pdf, page: pg, ok: false, note: 'pdf missing' }); continue; }
-      if (fs.existsSync(out)) { results.push({ pdf, page: pg, ok: true, cached: true, out }); continue; }
+      // Always re-render to ensure correct page and fully rendered output
       await renderOne(page, pdfAbs, pg, out);
       results.push({ pdf, page: pg, ok: true, out });
     } catch (e) {

@@ -1,5 +1,5 @@
-let cache: { [sku: string]: { image_path: string } } | null = null;
-let loading: Promise<typeof cache> | null = null;
+let cache: any = null;
+let loading: Promise<any> | null = null;
 
 export async function getSkuImagePath(sku: string): Promise<string | null> {
   if (!sku) return null;
@@ -9,7 +9,7 @@ export async function getSkuImagePath(sku: string): Promise<string | null> {
     return path ? normalizeWebPath(path) : null;
   }
   if (!loading) {
-    loading = fetch('/data/Product_images.json', { cache: 'force-cache' })
+    loading = fetch('/data/Product_images.json', { cache: 'no-store' })
       .then(async (r) => {
         if (!r.ok) throw new Error('Failed to load Product_images.json');
         return r.json();
@@ -19,7 +19,7 @@ export async function getSkuImagePath(sku: string): Promise<string | null> {
         return cache;
       })
       .catch(() => {
-        cache = {} as any;
+        cache = null as any;
         return cache;
       });
   }

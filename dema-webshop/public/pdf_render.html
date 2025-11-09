@@ -1,0 +1,132 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>PDF Renderer</title>
+    <style>
+      html, body { margin: 0; padding: 0; background: #fff; }
+      #wrap { display: flex; align-items: center; justify-content: center; padding: 0; }
+      #pdf-canvas { display: block; background: #fff; }
+    </style>
+  </head>
+  <body>
+    <div id="wrap">
+      <canvas id="pdf-canvas" aria-label="Rendered PDF page"></canvas>
+      <canvas id="crop-canvas" aria-label="Cropped product" style="display:none"></canvas>
+    </div>
+    <!-- Use pdf.js from CDN to avoid bundling complexities -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+    <!-- OpenCV.js for auto-detecting main object -->
+    <script src="https://docs.opencv.org/4.x/opencv.js"></script>
+    <script>
+      // Configure worker from CDN as well
+      if (window['pdfjsLib']) {
+        pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js';
+      }
+
+      function base64ToUint8Array(base64) {
+        const raw = atob(base64);
+        const arr = new Uint8Array(raw.length);
+        for (let i = 0; i < raw.length; i++) arr[i] = raw.charCodeAt(i);
+        return arr;
+      }
+
+      async function renderPdfBytes(bytesBase64, pageNumber) {
+        try {
+          window.__RENDER_DONE__ = false;
+          const data = base64ToUint8Array(bytesBase64);
+          const loadingTask = pdfjsLib.getDocument({ data });
+          const pdf = await loadingTask.promise;
+          const pn = Math.max(1, Math.min(pdf.numPages, Number(pageNumber) || 1));
+          const page = await pdf.getPage(pn);
+          const viewport = page.getViewport({ scale: 3.0 });
+          const canvas = document.getElementById('pdf-canvas');
+          const ctx = canvas.getContext('2d');
+          canvas.width = Math.ceil(viewport.width);
+          canvas.height = Math.ceil(viewport.height);
+          await page.render({ canvasContext: ctx, viewport, background: 'white' }).promise;
+          window.__RENDER_DONE__ = true;
+          window.__RENDER_ERROR__ = '';
+        } catch (e) {
+          window.__RENDER_ERROR__ = String(e && e.message ? e.message : e);
+          window.__RENDER_DONE__ = false;
+        }
+      }
+
+      // Puppeteer will call this function
+      window.__renderFromConfig = function(cfg) {
+        if (!cfg || !cfg.pdfBase64) { window.__RENDER_ERROR__ = 'Missing data'; return; }
+        renderPdfBytes(cfg.pdfBase64, cfg.pageNumber || 1);
+      };
+
+      function waitForCV() {
+        return new Promise((resolve) => {
+          if (window.cv && window.cv.Mat) return resolve(true);
+          const check = () => { if (window.cv && window.cv.Mat) resolve(true); else setTimeout(check, 50); };
+          check();
+        });
+      }
+
+      // Detect main object on pdf-canvas and draw crop to crop-canvas
+      window.__detectAndPrepareCrop = async function() {
+        try {
+          await waitForCV();
+          const cv = window.cv;
+          const canvas = document.getElementById('pdf-canvas');
+          const cropCanvas = document.getElementById('crop-canvas');
+          if (!canvas || !cropCanvas) return false;
+          const src = cv.imread(canvas);
+          const gray = new cv.Mat();
+          const blur = new cv.Mat();
+          const edges = new cv.Mat();
+          const dil = new cv.Mat();
+          let bestRect = null;
+          try {
+            cv.cvtColor(src, gray, cv.COLOR_RGBA2GRAY, 0);
+            cv.GaussianBlur(gray, blur, new cv.Size(5,5), 0, 0, cv.BORDER_DEFAULT);
+            cv.Canny(blur, edges, 50, 150, 3, false);
+            const kernel = cv.getStructuringElement(cv.MORPH_RECT, new cv.Size(5,5));
+            cv.dilate(edges, dil, kernel);
+            const contours = new cv.MatVector();
+            const hierarchy = new cv.Mat();
+            cv.findContours(dil, contours, hierarchy, cv.RETR_EXTERNAL, cv.CHAIN_APPROX_SIMPLE);
+            let bestScore = 0;
+            for (let i = 0; i < contours.size(); i++) {
+              const c = contours.get(i);
+              const rect = cv.boundingRect(c);
+              const area = rect.width * rect.height;
+              if (area < (canvas.width * canvas.height) * 0.01) continue;
+              if (area > (canvas.width * canvas.height) * 0.95) continue;
+              const aspect = rect.width / Math.max(1, rect.height);
+              const aspectScore = Math.min(aspect, 1/aspect);
+              const score = area * (0.5 + 0.5 * aspectScore);
+              if (score > bestScore) { bestScore = score; bestRect = rect; }
+            }
+            contours.delete();
+            hierarchy.delete();
+          } finally {
+            src.delete(); gray.delete(); blur.delete(); edges.delete(); dil.delete();
+          }
+          if (!bestRect) return false;
+          const padX = Math.round(bestRect.width * 0.03);
+          const padY = Math.round(bestRect.height * 0.03);
+          const x = Math.max(0, bestRect.x - padX);
+          const y = Math.max(0, bestRect.y - padY);
+          const w = Math.min(canvas.width - x, bestRect.width + padX * 2);
+          const h = Math.min(canvas.height - y, bestRect.height + padY * 2);
+          cropCanvas.width = w; cropCanvas.height = h;
+          const ctx2 = cropCanvas.getContext('2d');
+          ctx2.clearRect(0,0,w,h);
+          ctx2.drawImage(canvas, x, y, w, h, 0, 0, w, h);
+          cropCanvas.style.display = 'block';
+          window.__CROP_BOX__ = { x, y, w, h };
+          return true;
+        } catch(e) {
+          window.__RENDER_ERROR__ = 'detect: ' + (e && e.message ? e.message : String(e));
+          return false;
+        }
+      }
+    </script>
+  </body>
+  </html>
