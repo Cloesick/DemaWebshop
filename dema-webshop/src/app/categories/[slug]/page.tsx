@@ -7,6 +7,7 @@ import ProductCard from '@/components/products/ProductCard';
 import type { Product } from '@/types/product';
 import { useLocale } from '@/contexts/LocaleContext';
 import { useEffect, useState } from 'react';
+import { useParams } from 'next/navigation';
 
 // Localized verbatim copy extracted/summarized from demashop.be (EN; NL/FR fallback to EN for now)
 type LocalizedCopy = {
@@ -165,12 +166,9 @@ const SAMPLE_PRODUCTS: Product[] = [
   },
 ];
 
-interface PageProps {
-  params: { slug: string };
-}
-
-export default function CategoryPage({ params }: PageProps) {
-  const slug = (params?.slug ?? '').toString();
+export default function CategoryPage() {
+  const params = useParams();
+  const slug = (Array.isArray((params as any).slug) ? (params as any).slug[0] : (params as any).slug || '').toString();
   const { locale, t } = useLocale();
   const title = slug ? slug.replace(/-/g, ' ') : 'Category';
   const copy = CATEGORY_CONTENT[slug]?.[locale] || CATEGORY_CONTENT[slug]?.en;

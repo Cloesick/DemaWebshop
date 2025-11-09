@@ -10,6 +10,7 @@ import { Product } from '@/types/product';
 import Link from 'next/link';
 import { useLocale } from '@/contexts/LocaleContext';
 import ProductCard from '@/components/products/ProductCard';
+import { getSkuImagePath } from '@/lib/skuImageMap';
 
 // This is a client component that will be hydrated on the client
 export default function ProductPage() {
@@ -24,6 +25,7 @@ export default function ProductPage() {
   const [displayPageNumber, setDisplayPageNumber] = useState<number>(1);
   const [displayCropNorm, setDisplayCropNorm] = useState<{ x: number; y: number; width: number; height: number } | null>(null);
   const [canvasSize, setCanvasSize] = useState<{ w: number; h: number } | null>(null);
+  const [skuImage, setSkuImage] = useState<string | null>(null);
   const searchParams = useSearchParams();
   const editMode = searchParams?.get('editImage') === '1';
   const [pendingCrop, setPendingCrop] = useState<{ x: number; y: number; width: number; height: number } | null>(null);
@@ -78,8 +80,14 @@ export default function ProductPage() {
       if (!product) {
         setDisplayPdfUrl(null);
         setDisplayPageNumber(1);
+        setSkuImage(null);
         return;
       }
+      // Try pre-rendered SKU image first
+      try {
+        const p = await getSkuImagePath(product.sku);
+        setSkuImage(p);
+      } catch { setSkuImage(null); }
       const hasOwnPdf = !!product.pdf_source && Array.isArray(product.source_pages) && product.source_pages.length > 0;
       if (hasOwnPdf) {
         setDisplayPdfUrl(makePdfUrl(product.pdf_source));
@@ -107,7 +115,21 @@ export default function ProductPage() {
       if (ms.length === 0) {
         setDisplayPdfUrl(null);
         setDisplayPageNumber(1);
+        setDisplayCropNorm(null);
         return;
+      }
+      // Try first matching SKU that has a pre-rendered PNG image
+      for (const msku of ms) {
+        try {
+          const image = await getSkuImagePath(msku);
+          if (image) {
+            setSkuImage(image);
+            setDisplayPdfUrl(null);
+            setDisplayPageNumber(1);
+            setDisplayCropNorm(null);
+            return;
+          }
+        } catch {}
       }
       // Try first matching SKU that has a pdf and page
       for (const msku of ms) {
@@ -272,85 +294,68 @@ export default function ProductPage() {
         className="mt-4 w-full bg-blue-600 hover:bg-blue-700"
       >
         Add to Cart
+      </Button>
+    );
+  }
 
-  const handleMouseUp = () => {
-    if (!editMode) return;
-    setEditMode(false);
-  };
+  // Render a PDF page to canvas with optional normalized crop and report full canvas size
+  function PdfPageImage({ pdfUrl, pageNumber, cropNorm, onRendered }: { pdfUrl: string; pageNumber: number; cropNorm?: { x: number; y: number; width: number; height: number }; onRendered?: (w: number, h: number) => void }) {
+    const canvasRef = useRef<HTMLCanvasElement | null>(null);
+    const [error, setError] = useState<string | null>(null);
+    const [rendered, setRendered] = useState(false);
 
-  const handleSave = async () => {
-    if (!pendingCrop || !product) return;
-    try {
-      setSaving(true);
-      const sku = product.sku;
-      const res = await fetch('/api/product-image-overrides', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ sku, image_page: pageNumber, image_crop_norm: pendingCrop })
-      });
-      if (res.ok) {
-        setPendingCrop(null);
+    useEffect(() => {
+      let cancelled = false;
       async function load() {
         try {
-          // Dynamically import pdf.js (build) only in the browser to avoid SSR issues
-          // @ts-ignore - path types may not resolve, runtime import is valid
+          // @ts-ignore dynamic import path valid at runtime
           const pdfjsLib = await import('pdfjs-dist/build/pdf');
           const pdfjs: any = (pdfjsLib as any).default ?? pdfjsLib;
-          // Point worker to a CDN to avoid bundler/asset pipeline issues in Next.js
-          // IMPORTANT: the worker must match the installed pdfjs API version to avoid UnknownErrorException
-          // @ts-ignore - runtime property exists
-          pdfjs.GlobalWorkerOptions.workerSrc = 'https://unpkg.com/pdfjs-dist@5.4.394/build/pdf.worker.min.mjs';
+          // Worker must match API version
+          // @ts-ignore runtime property exists
+          pdfjs.GlobalWorkerOptions.workerSrc = '/pdfjs/pdf.worker.min.mjs';
 
-          const loadingTask = pdfjs.getDocument(pdfUrl);
+          const loadingTask = pdfjs.getDocument({
+            url: pdfUrl,
+            wasmUrl: '/pdfjs/'
+          });
           const pdf = await loadingTask.promise;
           const page = await pdf.getPage(pageNumber);
-          const scale = 1.5;
+          const scale = 1.0;
           const viewport = page.getViewport({ scale });
           const canvas = canvasRef.current;
           if (!canvas || cancelled) return;
           const ctx = canvas.getContext('2d');
           if (!ctx) return;
 
-          // Render full page to an offscreen canvas first
-          const off = document.createElement('canvas');
-          off.width = viewport.width;
-          off.height = viewport.height;
-          const offCtx = off.getContext('2d');
-          if (!offCtx) return;
-          await page.render({ canvasContext: offCtx, viewport }).promise;
-
-          // Compute crop in pixels if provided, otherwise use full page
+          // Render only the cropped region directly to the canvas to reduce memory usage
+          const pageW = Math.ceil(viewport.width);
+          const pageH = Math.ceil(viewport.height);
           const hasCrop = !!cropNorm && cropNorm.width > 0 && cropNorm.height > 0;
-          const sx = hasCrop ? Math.max(0, Math.min(off.width, Math.round(off.width * (cropNorm!.x || 0)))) : 0;
-          const sy = hasCrop ? Math.max(0, Math.min(off.height, Math.round(off.height * (cropNorm!.y || 0)))) : 0;
-          const sw = hasCrop ? Math.max(1, Math.min(off.width - sx, Math.round(off.width * (cropNorm!.width || 1)))) : off.width;
-          const sh = hasCrop ? Math.max(1, Math.min(off.height - sy, Math.round(off.height * (cropNorm!.height || 1)))) : off.height;
+          const sx = hasCrop ? Math.max(0, Math.min(pageW, Math.round(pageW * (cropNorm!.x || 0)))) : 0;
+          const sy = hasCrop ? Math.max(0, Math.min(pageH, Math.round(pageH * (cropNorm!.y || 0)))) : 0;
+          const sw = hasCrop ? Math.max(1, Math.min(pageW - sx, Math.round(pageW * (cropNorm!.width || 1)))) : pageW;
+          const sh = hasCrop ? Math.max(1, Math.min(pageH - sy, Math.round(pageH * (cropNorm!.height || 1)))) : pageH;
 
-          // Draw cropped region to visible canvas
           canvas.width = sw;
           canvas.height = sh;
-          ctx.drawImage(off, sx, sy, sw, sh, 0, 0, sw, sh);
-          if (onRendered) onRendered(off.width, off.height);
+          // Translate the render so the crop area is drawn into (0,0) of the target canvas
+          const transform: number[] = [1, 0, 0, 1, -sx, -sy];
+          await page.render({ canvasContext: ctx, viewport, transform, background: 'white' }).promise;
+          if (onRendered) onRendered(pageW, pageH);
           if (!cancelled) setRendered(true);
         } catch (e) {
-          // Surface minimal info in console for debugging
           // eslint-disable-next-line no-console
           console.error('PDF render error', e);
           if (!cancelled) setError('Failed to render PDF page');
         }
       }
       load();
-      return () => {
-        cancelled = true;
-      };
+      return () => { cancelled = true; };
     }, [pdfUrl, pageNumber, cropNorm?.x, cropNorm?.y, cropNorm?.width, cropNorm?.height]);
 
     if (error) {
-      return (
-        <div className="w-full h-64 flex items-center justify-center text-sm text-gray-600">
-          {error}
-        </div>
-      );
+      return <div className="w-full h-64 flex items-center justify-center text-sm text-gray-600">{error}</div>;
     }
     return (
       <div className="w-full flex items-center justify-center bg-white">
@@ -363,6 +368,62 @@ export default function ProductPage() {
       </div>
     );
   }
+
+  // Simple crop overlay to capture normalized crop rectangle in edit mode
+  function CropOverlay({ canvasSize, initial, onChange }: { canvasSize: { w: number; h: number }; initial?: { x: number; y: number; width: number; height: number } | null; onChange: (c: { x: number; y: number; width: number; height: number } | null) => void }) {
+    const containerRef = useRef<HTMLDivElement | null>(null);
+    const [dragging, setDragging] = useState(false);
+    const [start, setStart] = useState<{ x: number; y: number } | null>(null);
+    const [crop, setCrop] = useState<{ x: number; y: number; width: number; height: number } | null>(initial || null);
+
+    useEffect(() => { setCrop(initial || null); }, [initial?.x, initial?.y, initial?.width, initial?.height]);
+
+    function normRect(a: number, b: number, c: number, d: number) {
+      const x = Math.max(0, Math.min(a, c));
+      const y = Math.max(0, Math.min(b, d));
+      const w = Math.abs(c - a);
+      const h = Math.abs(d - b);
+      return { x, y, w, h };
+    }
+
+    const onMouseDown = (e: React.MouseEvent) => {
+      const box = containerRef.current?.getBoundingClientRect();
+      if (!box) return;
+      const px = e.clientX - box.left;
+      const py = e.clientY - box.top;
+      setDragging(true);
+      setStart({ x: px, y: py });
+    };
+    const onMouseMove = (e: React.MouseEvent) => {
+      if (!dragging || !start) return;
+      const box = containerRef.current?.getBoundingClientRect();
+      if (!box) return;
+      const px = e.clientX - box.left;
+      const py = e.clientY - box.top;
+      const r = normRect(start.x, start.y, px, py);
+      const n = { x: r.x / canvasSize.w, y: r.y / canvasSize.h, width: r.w / canvasSize.w, height: r.h / canvasSize.h };
+      setCrop(n);
+      onChange(n);
+    };
+    const onMouseUp = () => { setDragging(false); setStart(null); };
+
+    const styleRect: React.CSSProperties | undefined = crop
+      ? { position: 'absolute', left: `${(crop.x) * 100}%`, top: `${(crop.y) * 100}%`, width: `${(crop.width) * 100}%`, height: `${(crop.height) * 100}%`, border: '2px solid #2563eb', background: 'rgba(37,99,235,0.1)', pointerEvents: 'none' }
+      : undefined;
+
+    return (
+      <div
+        ref={containerRef}
+        className="absolute inset-0 cursor-crosshair"
+        onMouseDown={onMouseDown}
+        onMouseMove={onMouseMove}
+        onMouseUp={onMouseUp}
+      >
+        {crop && <div style={styleRect} />}
+      </div>
+    );
+  }
+
 
   return (
     <div className="bg-white">
@@ -395,7 +456,11 @@ export default function ProductPage() {
           <div className="mb-8 lg:mb-0">
             <div className="bg-gray-100 rounded-lg overflow-hidden">
               <div className="relative w-full h-full flex items-center justify-center bg-gray-100 p-2">
-                {displayPdfUrl ? (
+                {skuImage ? (
+                  <div className="relative w-full h-full flex items-center justify-center">
+                    <Image src={skuImage} alt={product.description || product.sku} width={800} height={600} className="w-full h-auto object-contain" />
+                  </div>
+                ) : displayPdfUrl ? (
                   <div className="relative">
                     <PdfPageImage
                       pdfUrl={displayPdfUrl}

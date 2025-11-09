@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { useRouter } from 'next/navigation';
 import Link from 'next/link';
 import { Product } from '@/types/product';
@@ -21,6 +21,7 @@ import { Button } from '@/components/ui/button';
 import { useCartStore } from '@/store/cartStore';
 import { useLocale } from '@/contexts/LocaleContext';
 import { formatProductForCard } from '@/lib/formatProductForCard';
+import { getSkuImagePath } from '@/lib/skuImageMap';
 
 interface ProductCardProps {
   product: Product;
@@ -53,10 +54,23 @@ export default function ProductCard({ product, className = '', viewMode = 'grid'
   const [selectedDimensions, setSelectedDimensions] = useState<number | null>(
     product.dimensions_mm_list?.[0] || null
   );
+  const [skuImage, setSkuImage] = useState<string | null>(null);
+  useEffect(() => {
+    let mounted = true;
+    (async () => {
+      try {
+        const p = await getSkuImagePath(product.sku);
+        if (mounted) setSkuImage(p);
+      } catch {
+        if (mounted) setSkuImage(null);
+      }
+    })();
+    return () => { mounted = false; };
+  }, [product.sku]);
   
   const productName = vm.title;
   const description = vm.subtitle;
-  const imageUrl = vm.image;
+  const imageUrl = skuImage || vm.image;
   
   // Format price based on selected dimensions or other logic
   const price = vm.priceLabel;
