@@ -31,6 +31,79 @@
   A high-performance, accessible, and scalable e-commerce platform built with Next.js 14, TypeScript, and Tailwind CSS. Designed specifically for industrial equipment sales with advanced product discovery, real-time search, and a seamless shopping experience.
 </div>
 
+## 📌 Project Status (Nov 2025)
+
+- **Framework/runtime**: Next.js 16 (App Router), React 19, TypeScript, Tailwind CSS
+- **Images**: Next Image set to `unoptimized: true` (no server-side image optimization)
+- **API routes**: Contact endpoint at `src/app/api/contact/route.ts` using `resend`
+- **Database**: `@prisma/client` present but no `schema.prisma` in repo; DB not wired-in yet
+- **Auth/Payments**: `next-auth` and Stripe deps present, not hooked up in code paths
+
+## 🌐 Hosting Guidance
+
+- **Vercel (recommended)**: First-class Next.js support. Add env vars and deploy.
+- **Netlify**: Supported via Next.js Runtime. Add `@netlify/plugin-nextjs` and a minimal `netlify.toml`.
+  - Node 18+, build with `npm run build`
+  - Set env vars (see below)
+  - Current app is mostly static UI + lightweight API → UX should not suffer
+
+### ⏱️ Netlify performance notes
+
+- Netlify Functions can have cold starts. Keep API handlers light and fast; avoid heavy Node deps.
+- Default function timeouts are relatively short. Keep work under a few seconds; offload long tasks.
+- Prefer static/ISR pages and (if needed) Edge runtime for latency-critical endpoints.
+
+## 🔧 Required Environment Variables
+
+- `RESEND_API_KEY` — required for contact form emails
+- `NEXTAUTH_URL`, `NEXTAUTH_SECRET` — only if enabling NextAuth
+- `STRIPE_SECRET_KEY`, `NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY` — only if enabling Stripe
+
+## ▶️ Next Steps
+
+- Decide host: Vercel (zero-config) or Netlify (add plugin + `netlify.toml`).
+- If keeping Netlify, add:
+  - `@netlify/plugin-nextjs`
+  - `netlify.toml` with Node 18 and `command = "npm run build"`
+- If enabling DB/Auth/Stripe, add schema/config and env vars accordingly.
+
+## 🌍 Netlify setup (demashop.be)
+
+1. **Connect repository**
+   - In Netlify: Add new site → Import from Git → Select this repo
+   - Netlify reads `netlify.toml` in the repo root which points `base = "dema-webshop"`
+   - Build command: `npm run build`
+   - Publish directory: `.next`
+
+2. **Environment variables** (Site settings → Environment variables)
+   - `RESEND_API_KEY` (required for contact form)
+   - Optional (only if enabling features):
+     - `NEXTAUTH_URL`, `NEXTAUTH_SECRET`
+     - `STRIPE_SECRET_KEY`, `NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY`
+   - Redeploy after adding/updating variables
+
+3. **Plugin/runtime**
+   - `@netlify/plugin-nextjs` is enabled via `netlify.toml` (no extra install needed)
+   - Node runtime set to 18 in `netlify.toml`
+
+4. **Domain configuration** (Site settings → Domain management)
+   - Add custom domain: `demashop.be` and `www.demashop.be`
+   - If using Netlify DNS: change your domain registrar’s nameservers to Netlify’s and let Netlify manage A/AAAA/CNAME records
+   - If keeping external DNS: create records per Netlify’s instructions in the UI
+     - `www` → CNAME to your `*.netlify.app` domain
+     - Apex `demashop.be` → ALIAS/ANAME to `*.netlify.app` (or the A/AAAA records provided by Netlify if ALIAS is not supported)
+   - Enable HTTPS and auto‑renewing certificates (Let’s Encrypt) for both apex and www
+   - Canonicalization: we prefer apex → www redirects handled via `netlify.toml`
+
+5. **Caching and headers**
+   - Static assets under `/_next/static/*` and `/images/*` are cached aggressively (immutable) via `netlify.toml`
+
+6. **Post‑deploy checks**
+   - Home page renders and navigation works
+   - `POST /api/contact` succeeds (valid `RESEND_API_KEY`)
+   - `www.demashop.be` → redirects to `demashop.be`
+   - HTTPS enforced
+
 ## 🌟 Why DemaWebshop?
 
 DemaWebshop is more than just an e-commerce platform - it's a comprehensive solution designed specifically for the industrial equipment sector. With a focus on performance, accessibility, and user experience, we've built a platform that makes it easy for businesses to showcase their products and for customers to find exactly what they need.
