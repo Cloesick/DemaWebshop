@@ -100,7 +100,7 @@ export default function ProductPage() {
       try {
         const p = await getSkuImagePath(product.sku);
         setSkuImage(p);
-      } catch { setSkuImage(null); }
+      } catch (e) { setSkuImage(null); }
       const hasOwnPdf = !!product.pdf_source && Array.isArray(product.source_pages) && product.source_pages.length > 0;
       if (hasOwnPdf) {
         setDisplayPdfUrl(makePdfUrl(product.pdf_source));
@@ -118,7 +118,7 @@ export default function ProductPage() {
               if (o.image_crop_norm) crop = o.image_crop_norm;
             }
           }
-        } catch {}
+        } catch (e) {}
         setDisplayPageNumber(pageNum);
         setDisplayCropNorm(crop);
         return;
@@ -142,7 +142,7 @@ export default function ProductPage() {
             setDisplayCropNorm(null);
             return;
           }
-        } catch {}
+        } catch (e) {}
       }
       // Try first matching SKU that has a pdf and page
       for (const msku of ms) {
@@ -176,12 +176,12 @@ export default function ProductPage() {
                   if (o2.image_crop_norm) crop = o2.image_crop_norm;
                 }
               }
-            } catch {}
+            } catch (e) {}
             setDisplayPageNumber(pageNum);
             setDisplayCropNorm(crop);
             return;
           }
-        } catch {
+        } catch (e) {
           // ignore and continue
         }
       }
@@ -514,6 +514,7 @@ export default function ProductPage() {
                   </div>
                 )}
             </div>
+            </div>
             {editMode && displayPdfUrl && (
               <div className="mt-3 flex items-center gap-2">
                 <button
@@ -791,7 +792,8 @@ export default function ProductPage() {
                       rel="noopener noreferrer"
                       className="text-sm text-blue-600 hover:underline inline-flex items-center gap-1.5"
                     >
-                      <span>{(() => { try { const u = new URL(product.pdf_source); return decodeURIComponent(u.pathname.split('/').pop() || 'PDF'); } catch { const p = product.pdf_source.split('?')[0]; return decodeURIComponent((p.split('/').pop() || 'PDF')); } })()}</span>
+                      <span>{(() => { try { const u = new URL(product.pdf_source); return decodeURIComponent(u.pathname.split('/').pop() || 'PDF'); } catch (e) { const p = product.pdf_source.split('?')[0]; return decodeURIComponent((p.split('/').pop() || 'PDF')); } })()}</span>
+                      
                       <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
                       </svg>
