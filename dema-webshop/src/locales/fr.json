@@ -193,4 +193,9 @@
   "product.image.auto_detect": "Détection automatique",
   "product.image.reset": "Réinitialiser",
   "product.saving": "Enregistrement…"
+,
+  "product.features": "Caractéristiques",
+  "product.related": "Vous pourriez aussi aimer",
+  "product.shipping.free_over_100": "Livraison gratuite dès 100 € d'achat",
+  "product.delivery.2_3_days": "Livraison sous 2 à 3 jours ouvrables"
 }

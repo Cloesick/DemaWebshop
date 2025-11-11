@@ -259,7 +259,11 @@
   "product.airflow": "Airflow",
   "product.tank_capacity": "Tank Capacity",
   "product.no_specs": "No technical specifications available for this product.",
-  "product.description": "Product Description"
+  "product.description": "Product Description",
+  "product.features": "Features",
+  "product.related": "You may also like",
+  "product.shipping.free_over_100": "Free shipping on orders over €100",
+  "product.delivery.2_3_days": "Delivery within 2-3 business days"
 }
 
 

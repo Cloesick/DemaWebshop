@@ -780,11 +780,11 @@ export default function ProductPage() {
             </div>
             
             <div className="mt-6" id="pdf">
-              <h3 className="text-sm font-medium text-gray-900">Product Details</h3>
+              <h3 className="text-sm font-medium text-gray-900">{t('product.details')}</h3>
               <div className="mt-2 space-y-3">
                 {product.pdf_source && (
                   <div>
-                    <p className="text-sm text-gray-500">Pdf Source</p>
+                    <p className="text-sm text-gray-500">{t('product.pdf_source')}</p>
                     <a
                       href={`${product.pdf_source}`}
                       target="_blank"
@@ -800,7 +800,7 @@ export default function ProductPage() {
                 )}
                 {product.pdf_source && product.source_pages && product.source_pages.length > 0 && (
                   <div>
-                    <p className="text-sm text-gray-500">Pdf Source Page</p>
+                    <p className="text-sm text-gray-500">{t('product.pdf_page')}</p>
                     <div className="mt-1 flex flex-wrap gap-2">
                       {product.source_pages.map((p) => (
                         <a
@@ -810,7 +810,7 @@ export default function ProductPage() {
                           rel="noopener noreferrer"
                           className="px-2.5 py-1 bg-gray-100 rounded-md text-xs font-medium text-gray-700 hover:underline"
                         >
-                          Page {p}
+                          {t('product.page')} {p}
                         </a>
                       ))}
                     </div>
@@ -826,7 +826,7 @@ export default function ProductPage() {
             {(Array.isArray((product as any).features) && (product as any).features.length > 0) && (
               <div className="mt-6 bg-white border border-gray-200 rounded-lg overflow-hidden">
                 <div className="px-6 py-4 bg-gray-50 border-b border-gray-200">
-                  <h2 className="text-lg font-semibold text-gray-900">Features</h2>
+                  <h2 className="text-lg font-semibold text-gray-900">{t('product.features')}</h2>
                 </div>
                 <div className="p-6">
                   <ul className="list-disc list-inside space-y-1 text-gray-700">
@@ -842,20 +842,20 @@ export default function ProductPage() {
               <svg className="flex-shrink-0 mr-2 h-5 w-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
                 <path fillRule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clipRule="evenodd" />
               </svg>
-              <span>Free shipping on orders over €100</span>
+              <span>{t('product.shipping.free_over_100')}</span>
             </div>
             <div className="mt-2 flex items-center text-sm text-gray-500">
               <svg className="flex-shrink-0 mr-2 h-5 w-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
                 <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z" clipRule="evenodd" />
               </svg>
-              <span>Delivery within 2-3 business days</span>
+              <span>{t('product.delivery.2_3_days')}</span>
             </div>
           </div>
         </div>
         
         {/* Related Products */}
         <div className="mt-16">
-          <h2 className="text-2xl font-bold text-gray-900 mb-6">You may also like</h2>
+          <h2 className="text-2xl font-bold text-gray-900 mb-6">{t('product.related')}</h2>
           {recsLoading && (
             <div className="grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-4">
               {Array(4).fill(0).map((_, i) => (
