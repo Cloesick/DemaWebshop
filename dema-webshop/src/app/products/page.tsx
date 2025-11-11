@@ -302,7 +302,7 @@ export default function ProductsPage() {
             {/* Toolbar: sorting + layout toggle */}
             <div className="mb-4 flex flex-col sm:flex-row gap-3 sm:items-center sm:justify-between">
               <div className="flex items-center gap-2">
-                <label className="text-sm text-gray-600">Sort:</label>
+                <label className="text-sm text-gray-600">{t('products.sort.label')}</label>
                 <select
                   className="text-sm bg-gray-800 border border-gray-700 rounded px-2 py-1 text-gray-100"
                   value={`${sortKey}:${sortOrder}`}
@@ -312,10 +312,10 @@ export default function ProductsPage() {
                     setSortOrder(o);
                   }}
                 >
-                  <option value="name:asc">A–Z</option>
-                  <option value="name:desc">Z–A</option>
-                  <option value="price:asc">Price: Low → High</option>
-                  <option value="price:desc">Price: High → Low</option>
+                  <option value="name:asc">{t('products.sort.name_asc')}</option>
+                  <option value="name:desc">{t('products.sort.name_desc')}</option>
+                  <option value="price:asc">{t('products.sort.price_asc')}</option>
+                  <option value="price:desc">{t('products.sort.price_desc')}</option>
                 </select>
               </div>
               <div className="flex items-center gap-2">
@@ -324,14 +324,14 @@ export default function ProductsPage() {
                   className={`px-2 py-1 text-sm rounded ${layout === 'grid' ? 'bg-yellow-500 text-black' : 'bg-gray-800 text-gray-200 border border-gray-700'}`}
                   onClick={() => setLayout('grid')}
                 >
-                  Grid
+                  {t('products.view.grid')}
                 </button>
                 <button
                   type="button"
                   className={`px-2 py-1 text-sm rounded ${layout === 'list' ? 'bg-yellow-500 text-black' : 'bg-gray-800 text-gray-200 border border-gray-700'}`}
                   onClick={() => setLayout('list')}
                 >
-                  List
+                  {t('products.view.list')}
                 </button>
               </div>
             </div>

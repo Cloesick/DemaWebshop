@@ -845,6 +845,39 @@ npm update
 - **Uptime Monitoring**: UptimeRobot or similar service
 - **Analytics**: Google Analytics 4 or Plausible
 
+## 🌍 Internationalization (i18n) Coverage
+
+- Localized (en/nl/fr):
+  - Home page (`src/app/page.tsx`): hero, features, highlights, CTA
+  - Contact page (`src/app/contact/page.tsx`): all labels/placeholders, validation, phone auth messages, info cards
+  - Products listing (`src/app/products/page.tsx`): title, search legend, empty state, sorting labels/options, grid/list toggle, count text
+  - Product filters (`src/components/products/ProductFilters.tsx`): filter titles, generic labels
+  - Navbar (`src/components/layout/Navbar.tsx`): nav items, cart/account sr-only labels
+  - Cart drawer (`src/components/cart/Cart.tsx`): empty state, buttons, subtotal, notes
+  - Cookie consent (`src/components/layout/CookieConsent.tsx`): modal titles, categories, buttons, notice
+
+- Locale files updated:
+  - `src/locales/en.json`, `src/locales/nl.json`, `src/locales/fr.json`
+
+- Remaining candidates to localize (hardcoded strings still present):
+  - Product detail UI labels in `src/components/products/ProductDetailsCard.tsx`
+    - Headers like "Product Details", "Technical Specifications", sections like "Pressure Range", "Power", "Electrical", "Flow", "Dimensions (mm)", etc.
+    - Buttons "Request Quote", "Add to Cart"
+    - Empty-state: "No technical specifications available for this product."
+    - PDF link texts: "View Product PDF", "Page"
+  - Product detail page `src/app/products/[sku]/page.tsx`
+    - Error states: "Error", "Product not found", "Failed to load product"
+    - Stock label: "In Stock"
+    - Section headers: "Description", "Specifications", spec labels like "Category", "Pressure", "Overpressure"
+    - Buttons in edit mode: "Saving…", "Save Crop", "Auto Detect", "Reset"
+  - Layout and utility components minor strings (e.g., mobile menu sr-only in Navbar already mostly covered)
+  - Other routes (about, checkout, account) contain varying amounts of placeholder or demo text; audit recommended.
+
+- Next steps:
+  - Add translation keys for ProductDetailsCard and products/[sku] page labels and replace hardcoded strings
+  - Audit about/checkout/account pages and localize remaining text
+  - Centralize any repeated labels under `common.*`
+
 ## 🔄 CI/CD
 
 GitHub Actions workflow example (`.github/workflows/deploy.yml`):
