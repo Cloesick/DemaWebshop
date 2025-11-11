@@ -183,5 +183,14 @@
   "checkout.billing.different_toggle": "Utiliser des informations de facturation différentes (pour une autre personne/société)",
   "checkout.billing.name": "Nom de facturation",
   "checkout.billing.company": "Société",
-  "checkout.billing.vat": "Numéro de TVA"
+  "checkout.billing.vat": "Numéro de TVA",
+
+  "product.in_stock": "En stock",
+  "product.error.title": "Erreur",
+  "product.error.not_found": "Produit introuvable",
+  "product.error.load_failed": "Échec du chargement du produit",
+  "product.image.save_crop": "Enregistrer la découpe",
+  "product.image.auto_detect": "Détection automatique",
+  "product.image.reset": "Réinitialiser",
+  "product.saving": "Enregistrement…"
 }
