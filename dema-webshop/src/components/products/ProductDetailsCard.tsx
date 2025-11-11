@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import { Product } from '@/types/product';
 import { formatCurrency } from '@/lib/utils';
+import { useLocale } from '@/contexts/LocaleContext';
 
 interface ProductDetailsCardProps {
   product: Product;
@@ -11,7 +12,7 @@ const renderSpecificationSection = (title: string, content: React.ReactNode, cla
   <div className={className}>
     <h3 className="text-sm font-medium text-gray-500 mb-1">{title}</h3>
     <div className="text-sm text-gray-900">
-      {content || 'N/A'}
+      {content}
     </div>
   </div>
 );
@@ -27,6 +28,7 @@ const renderList = (items: any[], key: string, unit: string = '') => (
 );
 
 export default function ProductDetailsCard({ product, className = '' }: ProductDetailsCardProps) {
+  const { t } = useLocale();
   const title = product.description?.split('\n')[0] || 'Product';
   
   // Generate a placeholder color based on product SKU or category
@@ -91,17 +93,17 @@ export default function ProductDetailsCard({ product, className = '' }: ProductD
               </div>
             )}
             {product.sku && (
-              <p className="mt-2 text-sm text-gray-500">SKU: {product.sku}</p>
+              <p className="mt-2 text-sm text-gray-500">{t('product.sku')}: {product.sku}</p>
             )}
           </div>
           <div className="flex flex-col items-end">
             <span className="text-3xl font-bold text-primary">{price}</span>
             <div className="mt-3 flex gap-3">
               <button className="px-6 py-2.5 bg-primary hover:bg-primary-dark text-white font-medium rounded-lg transition-colors shadow-sm">
-                Request Quote
+                {t('product.request_quote')}
               </button>
               <button className="px-6 py-2.5 bg-white border border-gray-300 hover:bg-gray-50 text-gray-700 font-medium rounded-lg transition-colors shadow-sm">
-                Add to Cart
+                {t('product.add_to_cart')}
               </button>
             </div>
           </div>
@@ -124,18 +126,18 @@ export default function ProductDetailsCard({ product, className = '' }: ProductD
             </div>
             
             <div className="space-y-4 p-4 bg-gray-50 rounded-lg">
-              <h3 className="font-medium text-gray-900">Product Details</h3>
+              <h3 className="font-medium text-gray-900">{t('product.details')}</h3>
               <div className="space-y-3">
                 {product.pdf_source && (
                   <div>
-                    <p className="text-sm text-gray-500">Pdf Source</p>
+                    <p className="text-sm text-gray-500">{t('product.pdf_source')}</p>
                     <a 
                       href={product.pdf_source} 
                       target="_blank" 
                       rel="noopener noreferrer"
                       className="text-sm text-blue-600 hover:underline flex items-center gap-1.5"
                     >
-                      <span>View Product PDF</span>
+                      <span>{t('product.view_pdf')}</span>
                       <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
                       </svg>
@@ -145,7 +147,7 @@ export default function ProductDetailsCard({ product, className = '' }: ProductD
                 
                 {product.pdf_source && product.source_pages?.length > 0 && (
                   <div>
-                    <p className="text-sm text-gray-500">Pdf Source Page</p>
+                    <p className="text-sm text-gray-500">{t('product.pdf_page')}</p>
                     <div className="mt-1 flex flex-wrap gap-1.5">
                       {product.source_pages.map((p) => (
                         <a
@@ -155,7 +157,7 @@ export default function ProductDetailsCard({ product, className = '' }: ProductD
                           rel="noopener noreferrer"
                           className="px-2.5 py-1 bg-gray-100 rounded-md text-xs font-medium text-gray-700 hover:underline"
                         >
-                          Page {p}
+                          {t('product.page')} {p}
                         </a>
                       ))}
                     </div>
@@ -170,7 +172,7 @@ export default function ProductDetailsCard({ product, className = '' }: ProductD
             {hasSpecifications ? (
               <div className="bg-white border border-gray-200 rounded-lg overflow-hidden">
                 <div className="px-6 py-4 bg-gray-50 border-b border-gray-200">
-                  <h2 className="text-lg font-semibold text-gray-900">Technical Specifications</h2>
+                  <h2 className="text-lg font-semibold text-gray-900">{t('product.technical_specs')}</h2>
                 </div>
                 
                 <div className="p-6">
@@ -178,7 +180,7 @@ export default function ProductDetailsCard({ product, className = '' }: ProductD
                     {/* Pressure Range */}
                     {product.pressure_min_bar !== undefined && product.pressure_max_bar !== undefined && (
                       <div className="space-y-1">
-                        <h4 className="text-sm font-medium text-gray-500">Pressure Range</h4>
+                        <h4 className="text-sm font-medium text-gray-500">{t('product.pressure_range')}</h4>
                         <p className="text-gray-900">
                           {product.pressure_min_bar} - {product.pressure_max_bar} bar
                         </p>
@@ -188,7 +190,7 @@ export default function ProductDetailsCard({ product, className = '' }: ProductD
                     {/* Power */}
                     {(product.power_hp || product.power_kw) && (
                       <div className="space-y-2">
-                        <h4 className="text-sm font-medium text-gray-500">Power</h4>
+                        <h4 className="text-sm font-medium text-gray-500">{t('product.power')}</h4>
                         <div className="flex flex-wrap gap-4">
                           {product.power_hp && (
                             <div>
@@ -209,7 +211,7 @@ export default function ProductDetailsCard({ product, className = '' }: ProductD
                     {/* Voltage & Frequency */}
                     {(product.voltage_v || product.frequency_hz || (product as any).phase_count || (product as any).current_a) && (
                       <div className="space-y-2">
-                        <h4 className="text-sm font-medium text-gray-500">Electrical</h4>
+                        <h4 className="text-sm font-medium text-gray-500">{t('product.electrical')}</h4>
                         <div className="flex flex-wrap gap-4">
                           {product.voltage_v && (
                             <div>
@@ -242,7 +244,7 @@ export default function ProductDetailsCard({ product, className = '' }: ProductD
                     {/* Flow */}
                     {(product.flow_l_min || (product as any).flow_l_h || product.debiet_m3_h) && (
                       <div className="space-y-1">
-                        <h4 className="text-sm font-medium text-gray-500">Flow</h4>
+                        <h4 className="text-sm font-medium text-gray-500">{t('product.flow')}</h4>
                         <p className="text-gray-900">
                           {typeof product.flow_l_min === 'number' ? `${product.flow_l_min} L/min` : ''}
                           {product.flow_l_min && (product as any).flow_l_h ? ' • ' : ''}
@@ -255,7 +257,7 @@ export default function ProductDetailsCard({ product, className = '' }: ProductD
                     {/* Overpressure */}
                     {((product as any).overpressure_bar || (product as any).overpressure_mpa) && (
                       <div className="space-y-1">
-                        <h4 className="text-sm font-medium text-gray-500">Overpressure</h4>
+                        <h4 className="text-sm font-medium text-gray-500">{t('product.overpressure')}</h4>
                         <p className="text-gray-900">
                           {typeof (product as any).overpressure_bar === 'number' ? `${(product as any).overpressure_bar} bar` : ''}
                           {(product as any).overpressure_bar && (product as any).overpressure_mpa ? ' • ' : ''}
@@ -265,9 +267,9 @@ export default function ProductDetailsCard({ product, className = '' }: ProductD
                     )}
                     
                     {/* Connection Types */}
-                    {product.connection_types?.length > 0 && (
+                    {Array.isArray(product.connection_types) && product.connection_types.length > 0 && (
                       <div>
-                        <h4 className="text-sm font-medium text-gray-500 mb-1">Connection Types</h4>
+                        <h4 className="text-sm font-medium text-gray-500 mb-1">{t('product.connection_types')}</h4>
                         <div className="mt-1">
                           {renderList(product.connection_types || [], 'conn')}
                         </div>
@@ -277,23 +279,23 @@ export default function ProductDetailsCard({ product, className = '' }: ProductD
                     {/* Dimensions */}
                     {(product.length_mm || product.width_mm || product.height_mm) && (
                       <div className="space-y-2">
-                        <h4 className="text-sm font-medium text-gray-500">Dimensions (mm)</h4>
+                        <h4 className="text-sm font-medium text-gray-500">{t('product.dimensions_mm')}</h4>
                         <div className="grid grid-cols-3 gap-4">
                           {product.length_mm && (
                             <div>
-                              <p className="text-xs text-gray-500">Length</p>
+                              <p className="text-xs text-gray-500">{t('product.length')}</p>
                               <p className="text-gray-900">{product.length_mm} mm</p>
                             </div>
                           )}
                           {product.width_mm && (
                             <div>
-                              <p className="text-xs text-gray-500">Width</p>
+                              <p className="text-xs text-gray-500">{t('product.width')}</p>
                               <p className="text-gray-900">{product.width_mm} mm</p>
                             </div>
                           )}
                           {product.height_mm && (
                             <div>
-                              <p className="text-xs text-gray-500">Height</p>
+                              <p className="text-xs text-gray-500">{t('product.height')}</p>
                               <p className="text-gray-900">{product.height_mm} mm</p>
                             </div>
                           )}
@@ -302,9 +304,9 @@ export default function ProductDetailsCard({ product, className = '' }: ProductD
                     )}
                     
                     {/* Available Sizes */}
-                    {product.dimensions_mm_list?.length > 0 && (
+                    {Array.isArray(product.dimensions_mm_list) && product.dimensions_mm_list.length > 0 && (
                       <div>
-                        <h4 className="text-sm font-medium text-gray-500 mb-1">Available Sizes</h4>
+                        <h4 className="text-sm font-medium text-gray-500 mb-1">{t('product.available_sizes')}</h4>
                         <div className="mt-1">
                           {renderList(product.dimensions_mm_list || [], 'size', ' mm')}
                         </div>
@@ -313,41 +315,41 @@ export default function ProductDetailsCard({ product, className = '' }: ProductD
                     
                     {/* Additional Specifications */}
                     <div className="space-y-4 col-span-full pt-4 border-t border-gray-200">
-                      <h4 className="text-sm font-medium text-gray-500">Additional Specifications</h4>
+                      <h4 className="text-sm font-medium text-gray-500">{t('product.additional_specs')}</h4>
                       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
                         {product.weight_kg && (
                           <div>
-                            <p className="text-xs text-gray-500">Weight</p>
+                            <p className="text-xs text-gray-500">{t('product.weight')}</p>
                             <p className="text-gray-900">{product.weight_kg} kg</p>
                           </div>
                         )}
                         {(product as any).rpm && (
                           <div>
-                            <p className="text-xs text-gray-500">Motor Speed</p>
+                            <p className="text-xs text-gray-500">{t('product.motor_speed')}</p>
                             <p className="text-gray-900">{(product as any).rpm} rpm</p>
                           </div>
                         )}
                         {(product as any).cable_length_m && (
                           <div>
-                            <p className="text-xs text-gray-500">Cable Length</p>
+                            <p className="text-xs text-gray-500">{t('product.cable_length')}</p>
                             <p className="text-gray-900">{(product as any).cable_length_m} m</p>
                           </div>
                         )}
                         {product.noise_level_db && (
                           <div>
-                            <p className="text-xs text-gray-500">Noise Level</p>
+                            <p className="text-xs text-gray-500">{t('product.noise_level')}</p>
                             <p className="text-gray-900">{product.noise_level_db} dB</p>
                           </div>
                         )}
                         {product.airflow_l_min && (
                           <div>
-                            <p className="text-xs text-gray-500">Airflow</p>
+                            <p className="text-xs text-gray-500">{t('product.airflow')}</p>
                             <p className="text-gray-900">{product.airflow_l_min} L/min</p>
                           </div>
                         )}
                         {product.tank_capacity_l && (
                           <div>
-                            <p className="text-xs text-gray-500">Tank Capacity</p>
+                            <p className="text-xs text-gray-500">{t('product.tank_capacity')}</p>
                             <p className="text-gray-900">{product.tank_capacity_l} L</p>
                           </div>
                         )}
@@ -358,7 +360,7 @@ export default function ProductDetailsCard({ product, className = '' }: ProductD
               </div>
             ) : (
               <div className="text-center py-8 text-gray-500">
-                No technical specifications available for this product.
+                {t('product.no_specs')}
               </div>
             )}
             
@@ -366,7 +368,7 @@ export default function ProductDetailsCard({ product, className = '' }: ProductD
             {product.description && (
               <div className="mt-8 bg-white border border-gray-200 rounded-lg overflow-hidden">
                 <div className="px-6 py-4 bg-gray-50 border-b border-gray-200">
-                  <h2 className="text-lg font-semibold text-gray-900">Product Description</h2>
+                  <h2 className="text-lg font-semibold text-gray-900">{t('product.description')}</h2>
                 </div>
                 <div className="p-6">
                   <div className="prose max-w-none text-gray-700">
