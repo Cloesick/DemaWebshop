@@ -4,6 +4,7 @@ import { useState, useEffect, useRef } from 'react';
 import { useForm, SubmitHandler } from 'react-hook-form';
 import { getFirebaseAuth, RecaptchaVerifier, signInWithPhoneNumber, ConfirmationResult } from '@/lib/firebaseClient';
 import { FiSend, FiUser, FiMail, FiPhone, FiBriefcase, FiCalendar, FiDollarSign, FiAlertCircle, FiMapPin } from 'react-icons/fi';
+import { useLocale } from '@/contexts/LocaleContext';
 
 type FormData = {
   firstName: string;
@@ -25,6 +26,7 @@ type FormData = {
 };
 
 export default function ContactPage() {
+  const { t } = useLocale();
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [showVatField, setShowVatField] = useState(false);
   const [submitStatus, setSubmitStatus] = useState<{ success: boolean; message: string } | null>(null);
@@ -59,12 +61,12 @@ export default function ContactPage() {
     try {
       if (data.phone && !phoneVerified) {
         setIsSubmitting(false);
-        setSubmitStatus({ success: false, message: 'Please verify your phone number before submitting.' });
+        setSubmitStatus({ success: false, message: t('contact.errors.verify_phone_first') });
         return;
       }
       if (addressQuery && !addressValidated) {
         setIsSubmitting(false);
-        setSubmitStatus({ success: false, message: 'Please select a valid address from suggestions.' });
+        setSubmitStatus({ success: false, message: t('contact.errors.select_valid_address') });
         return;
       }
       let token = recaptchaToken;
@@ -100,7 +102,7 @@ export default function ContactPage() {
         if (response.ok) {
           setSubmitStatus({
             success: true,
-            message: 'Thank you for your message! We\'ll get back to you soon.'
+            message: t('contact.success.submit')
           });
           reset();
         } else {
@@ -109,13 +111,13 @@ export default function ContactPage() {
       } catch (error) {
         setSubmitStatus({
           success: false,
-          message: 'There was an error submitting your form. Please try again.'
+          message: t('contact.errors.submit_failed')
         });
       }
     } catch (error) {
       setSubmitStatus({
         success: false,
-        message: 'There was an error submitting your form. Please try again.'
+        message: t('contact.errors.submit_failed')
       });
     } finally {
       setIsSubmitting(false);
@@ -124,26 +126,20 @@ export default function ContactPage() {
 
   // Update time on client side only
   useEffect(() => {
-    // Set initial time
     const updateTime = () => {
-      const brusselsTime = new Date().toLocaleString('en-US', { 
+      const brusselsTime = new Date().toLocaleString('en-US', {
         timeZone: 'Europe/Brussels',
         year: 'numeric',
         month: 'long',
         day: 'numeric',
         hour: '2-digit',
         minute: '2-digit',
-        second: '2-digit'
+        second: '2-digit',
       });
       setCurrentTime(brusselsTime);
     };
-    
-    // Update immediately
     updateTime();
-    
-    // Then update every minute
     const timer = setInterval(updateTime, 60000);
-    
     return () => clearInterval(timer);
   }, []);
 
@@ -153,6 +149,7 @@ export default function ContactPage() {
     setShowVatField(!!companyValue && companyValue.trim().length >= 1);
   }, [companyValue]);
 
+  // Load reCAPTCHA v3 script
   useEffect(() => {
     try {
       const siteKey = process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY;
@@ -168,6 +165,7 @@ export default function ContactPage() {
     } catch {}
   }, []);
 
+  // Load Google Maps Places script
   useEffect(() => {
     const key = process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY;
     if (!key || typeof window === 'undefined') return;
@@ -189,15 +187,19 @@ export default function ContactPage() {
     document.head.appendChild(s);
   }, []);
 
+  // Update address suggestions as user types
   useEffect(() => {
     if (!placesReady) return;
     if (!addressQuery) { setAddressSuggestions([]); setAddressValidated(null); return; }
     try {
       const svc = new (window as any).google.maps.places.AutocompleteService();
-      svc.getPlacePredictions({ input: addressQuery, sessionToken: placesSessionToken, types: ['address'], componentRestrictions: { country: ['be', 'nl', 'fr'] } }, (preds: any[]) => {
-        const list = Array.isArray(preds) ? preds.map(p => ({ description: p.description, place_id: p.place_id })) : [];
-        setAddressSuggestions(list);
-      });
+      svc.getPlacePredictions(
+        { input: addressQuery, sessionToken: placesSessionToken, types: ['address'], componentRestrictions: { country: ['be', 'nl', 'fr'] } },
+        (preds: any[]) => {
+          const list = Array.isArray(preds) ? preds.map(p => ({ description: p.description, place_id: p.place_id })) : [];
+          setAddressSuggestions(list);
+        }
+      );
     } catch {}
   }, [addressQuery, placesReady]);
 
@@ -230,16 +232,16 @@ export default function ContactPage() {
   const sendPhoneCode = async () => {
     try {
       const phoneVal = (document.getElementById('phone') as HTMLInputElement | null)?.value || '';
-      if (!phoneVal) { setSubmitStatus({ success: false, message: 'Enter a phone number first.' }); return; }
+      if (!phoneVal) { setSubmitStatus({ success: false, message: t('contact.phone.enter_first') }); return; }
       setPhoneVerifySending(true);
       setSubmitStatus(null);
       const verifier = ensureFirebaseRecaptcha();
       const auth = getFirebaseAuth();
       const result = await signInWithPhoneNumber(auth, phoneVal, verifier);
       confirmationRef.current = result;
-      setSubmitStatus({ success: true, message: 'Verification code sent via SMS.' });
+      setSubmitStatus({ success: true, message: t('contact.phone.code_sent') });
     } catch (e) {
-      setSubmitStatus({ success: false, message: 'Failed to send verification code.' });
+      setSubmitStatus({ success: false, message: t('contact.phone.send_failed') });
     } finally {
       setPhoneVerifySending(false);
     }
@@ -247,16 +249,16 @@ export default function ContactPage() {
 
   const checkPhoneCode = async () => {
     try {
-      if (!confirmationRef.current || !phoneCodeInput) { setSubmitStatus({ success: false, message: 'Enter the code received via SMS.' }); return; }
+      if (!confirmationRef.current || !phoneCodeInput) { setSubmitStatus({ success: false, message: t('contact.phone.enter_code') }); return; }
       const cred = await confirmationRef.current.confirm(phoneCodeInput);
-      const t = await cred.user.getIdToken();
-      setFirebaseIdToken(t);
+      const tkn = await cred.user.getIdToken();
+      setFirebaseIdToken(tkn);
       setPhoneVerified(true);
-      setSubmitStatus({ success: true, message: 'Phone number verified.' });
+      setSubmitStatus({ success: true, message: t('contact.phone.verified') });
     } catch {
       setPhoneVerified(false);
       setFirebaseIdToken(null);
-      setSubmitStatus({ success: false, message: 'Invalid verification code.' });
+      setSubmitStatus({ success: false, message: t('contact.phone.invalid_code') });
     }
   };
 
@@ -265,16 +267,16 @@ export default function ContactPage() {
       <div className="max-w-4xl mx-auto">
         <div className="text-center mb-8">
           <h1 className="text-3xl font-extrabold text-gray-900 sm:text-4xl">
-            Contact DEMA
+            {t('contact.title')}
           </h1>
           <p className="mt-3 text-xl text-gray-500">
-            We're here to help and answer any questions you might have.
+            {t('contact.subtitle')}
             <br />
             <span className="text-sm text-gray-400">
-              Current time in Brussels: {currentTime}
+              {t('contact.current_time')} {currentTime}
             </span>
           </p>
-          
+
           <div className="mt-6 grid grid-cols-1 gap-4 sm:grid-cols-3 text-center">
             <div className="bg-white p-4 rounded-lg shadow">
               <FiPhone className="mx-auto h-6 w-6 text-blue-600" />
@@ -288,9 +290,9 @@ export default function ContactPage() {
             </div>
             <div className="bg-white p-4 rounded-lg shadow">
               <FiMapPin className="mx-auto h-6 w-6 text-blue-600" />
-              <a 
-                href="https://www.google.com/maps/place/Ovenstraat+11+8800+Roeselare" 
-                target="_blank" 
+              <a
+                href="https://www.google.com/maps/place/Ovenstraat+11+8800+Roeselare"
+                target="_blank"
                 rel="noopener noreferrer"
                 className="mt-2 text-sm font-medium text-blue-600 hover:text-blue-800"
               >
@@ -324,14 +326,13 @@ export default function ContactPage() {
         <div className="bg-white shadow overflow-hidden sm:rounded-lg">
           <div className="px-4 py-5 sm:p-6">
             <p className="mb-4 text-sm text-gray-500">
-              Fields marked with <span className="text-red-500">*</span> are required.
+              {t('contact.required_note')} <span className="text-red-500">*</span>
             </p>
             <form onSubmit={handleSubmit(onSubmit)} className="space-y-6">
               <div className="grid grid-cols-1 gap-y-6 gap-x-4 sm:grid-cols-2">
-                {/* First Name */}
                 <div>
                   <label htmlFor="firstName" className="block text-sm font-medium text-gray-700">
-                    First Name <span className="text-red-500">*</span>
+                    {t('contact.first_name')} <span className="text-red-500">*</span>
                   </label>
                   <div className="mt-1 relative rounded-md shadow-sm">
                     <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
@@ -342,11 +343,11 @@ export default function ContactPage() {
                       id="firstName"
                       maxLength={50}
                       {...register('firstName', {
-                        required: 'First name is required',
-                        maxLength: { value: 50, message: 'Max 50 characters' },
+                        required: t('contact.validation.first_name_required'),
+                        maxLength: { value: 50, message: t('contact.validation.max_50') },
                       })}
                       className="focus:ring-blue-500 focus:border-blue-500 block w-full pl-10 sm:text-sm border-gray-300 rounded-md py-3 border"
-                      placeholder="John"
+                      placeholder={t('contact.placeholders.first_name')}
                     />
                   </div>
                   {errors.firstName && (
@@ -354,10 +355,9 @@ export default function ContactPage() {
                   )}
                 </div>
 
-                {/* Last Name */}
                 <div>
                   <label htmlFor="lastName" className="block text-sm font-medium text-gray-700">
-                    Last Name <span className="text-red-500">*</span>
+                    {t('contact.last_name')} <span className="text-red-500">*</span>
                   </label>
                   <div className="mt-1 relative rounded-md shadow-sm">
                     <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
@@ -368,11 +368,11 @@ export default function ContactPage() {
                       id="lastName"
                       maxLength={50}
                       {...register('lastName', {
-                        required: 'Last name is required',
-                        maxLength: { value: 50, message: 'Max 50 characters' },
+                        required: t('contact.validation.last_name_required'),
+                        maxLength: { value: 50, message: t('contact.validation.max_50') },
                       })}
                       className="focus:ring-blue-500 focus:border-blue-500 block w-full pl-10 sm:text-sm border-gray-300 rounded-md py-3 border"
-                      placeholder="Doe"
+                      placeholder={t('contact.placeholders.last_name')}
                     />
                   </div>
                   {errors.lastName && (
@@ -380,10 +380,9 @@ export default function ContactPage() {
                   )}
                 </div>
 
-                {/* Email */}
                 <div className="sm:col-span-2">
                   <label htmlFor="email" className="block text-sm font-medium text-gray-700">
-                    Email Address <span className="text-red-500">*</span>
+                    {t('contact.email')} <span className="text-red-500">*</span>
                   </label>
                   <div className="mt-1 relative rounded-md shadow-sm">
                     <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
@@ -393,16 +392,16 @@ export default function ContactPage() {
                       type="email"
                       id="email"
                       {...register('email', {
-                        required: 'Email is required',
+                        required: t('contact.validation.email_required'),
                         pattern: {
                           value: /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i,
-                          message: 'Invalid email address',
+                          message: t('contact.validation.email_invalid'),
                         },
-                        maxLength: { value: 254, message: 'Max 254 characters' },
+                        maxLength: { value: 254, message: t('contact.validation.max_254') },
                       })}
                       maxLength={254}
                       className="focus:ring-blue-500 focus:border-blue-500 block w-full pl-10 sm:text-sm border-gray-300 rounded-md py-3 border"
-                      placeholder="you@example.com"
+                      placeholder={t('contact.placeholders.email')}
                     />
                   </div>
                   {errors.email && (
@@ -412,7 +411,7 @@ export default function ContactPage() {
 
                 <div>
                   <label htmlFor="phone" className="block text-sm font-medium text-gray-700">
-                    Phone Number
+                    {t('contact.phone.label')}
                   </label>
                   <div className="mt-1 relative rounded-md shadow-sm">
                     <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
@@ -422,31 +421,31 @@ export default function ContactPage() {
                       type="tel"
                       id="phone"
                       {...register('phone', {
-                        maxLength: { value: 25, message: 'Max 25 characters' },
+                        maxLength: { value: 25, message: t('contact.validation.max_25') },
                         pattern: {
-                          value: /^(\+32|0)[1-9](\s?\d{2}){3,4}$/,
-                          message: 'Please enter a valid Belgian phone number (e.g., +32 4xx 12 34 56 or 04xx 12 34 56)'
+                          value: /(\+32|0)[1-9](\s?\d{2}){3,4}$/,
+                          message: t('contact.validation.phone_be')
                         }
                       })}
                       maxLength={25}
                       className="focus:ring-blue-500 focus:border-blue-500 block w-full pl-10 sm:text-sm border-gray-300 rounded-md py-3 border"
-                      placeholder="+32 4xx 12 34 56"
+                      placeholder={t('contact.placeholders.phone')}
                     />
                   </div>
                   {errors.phone && (
                     <p className="mt-2 text-sm text-red-600">{errors.phone.message}</p>
                   )}
                   <div className="mt-2 flex gap-2">
-                    <button type="button" onClick={sendPhoneCode} disabled={phoneVerifySending} className="px-3 py-2 rounded bg-blue-600 text-white disabled:opacity-50">{phoneVerifySending ? 'Sending…' : 'Send code'}</button>
-                    <input type="text" value={phoneCodeInput} onChange={(e) => setPhoneCodeInput(e.target.value)} maxLength={8} className="border rounded px-2 py-2 text-sm" placeholder="Code" />
-                    <button type="button" onClick={checkPhoneCode} className="px-3 py-2 rounded bg-emerald-600 text-white">Verify</button>
-                    {phoneVerified && <span className="text-sm text-emerald-600">Verified</span>}
+                    <button type="button" onClick={sendPhoneCode} disabled={phoneVerifySending} className="px-3 py-2 rounded bg-blue-600 text-white disabled:opacity-50">{phoneVerifySending ? t('contact.phone.sending') : t('contact.phone.send_code')}</button>
+                    <input type="text" value={phoneCodeInput} onChange={(e) => setPhoneCodeInput(e.target.value)} maxLength={8} className="border rounded px-2 py-2 text-sm" placeholder={t('contact.phone.code_placeholder')} />
+                    <button type="button" onClick={checkPhoneCode} className="px-3 py-2 rounded bg-emerald-600 text-white">{t('contact.phone.verify')}</button>
+                    {phoneVerified && <span className="text-sm text-emerald-600">{t('contact.phone.verified_short')}</span>}
                   </div>
                 </div>
 
                 <div className="sm:col-span-2">
                   <label htmlFor="address" className="block text-sm font-medium text-gray-700">
-                    Address
+                    {t('contact.address')}
                   </label>
                   <div className="mt-1 relative">
                     <input
@@ -456,7 +455,7 @@ export default function ContactPage() {
                       onChange={(e) => { setAddressQuery(e.target.value); setAddressValidated(null); }}
                       autoComplete="off"
                       className="focus:ring-blue-500 focus:border-blue-500 block w-full sm:text-sm border-gray-300 rounded-md py-3 border"
-                      placeholder="Start typing your address"
+                      placeholder={t('contact.placeholders.address')}
                     />
                     {addressSuggestions.length > 0 && (
                       <ul className="absolute z-10 mt-1 w-full bg-white border border-gray-200 rounded-md shadow max-h-60 overflow-auto">
@@ -473,10 +472,9 @@ export default function ContactPage() {
                   </div>
                 </div>
 
-                {/* Company */}
                 <div>
                   <label htmlFor="company" className="block text-sm font-medium text-gray-700">
-                    Company Name
+                    {t('contact.company')}
                   </label>
                   <div className="mt-1 relative rounded-md shadow-sm">
                     <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
@@ -487,18 +485,17 @@ export default function ContactPage() {
                       id="company"
                       maxLength={100}
                       className="focus:ring-blue-500 focus:border-blue-500 block w-full pl-10 sm:text-sm border-gray-300 rounded-md"
-                      placeholder="Your company name (if applicable)"
+                      placeholder={t('contact.placeholders.company')}
                       spellCheck={false}
                       {...register('company')}
                     />
                   </div>
                 </div>
 
-                {/* VAT Number (shown when company is filled) */}
                 {showVatField && (
                   <div>
                     <label htmlFor="vatNumber" className="block text-sm font-medium text-gray-700">
-                      VAT Number
+                      {t('contact.vat')}
                     </label>
                     <div className="mt-1 relative rounded-md shadow-sm">
                       <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
@@ -509,7 +506,7 @@ export default function ContactPage() {
                         id="vatNumber"
                         maxLength={20}
                         className="focus:ring-blue-500 focus:border-blue-500 block w-full pl-10 sm:text-sm border-gray-300 rounded-md"
-                        placeholder="e.g., BE0123.456.789"
+                        placeholder={t('contact.placeholders.vat')}
                         spellCheck={false}
                         {...register('vatNumber')}
                       />
@@ -517,10 +514,9 @@ export default function ContactPage() {
                   </div>
                 )}
 
-                {/* Message */}
                 <div className="sm:col-span-2">
                   <label htmlFor="message" className="block text-sm font-medium text-gray-700">
-                    Message <span className="text-red-500">*</span>
+                    {t('contact.message')} <span className="text-red-500">*</span>
                   </label>
                   <div className="mt-1 relative rounded-md shadow-sm">
                     <textarea
@@ -528,15 +524,15 @@ export default function ContactPage() {
                       rows={4}
                       maxLength={2000}
                       className="shadow-sm focus:ring-blue-500 focus:border-blue-500 block w-full sm:text-sm border border-gray-300 rounded-md"
-                      placeholder="Tell us about your project or inquiry..."
+                      placeholder={t('contact.placeholders.message')}
                       spellCheck={false}
                       {...register('message', {
-                        required: 'Please enter your message',
+                        required: t('contact.validation.message_required'),
                         minLength: {
                           value: 10,
-                          message: 'Message must be at least 10 characters long',
+                          message: t('contact.validation.message_min_10'),
                         },
-                        maxLength: { value: 2000, message: 'Max 2000 characters' },
+                        maxLength: { value: 2000, message: t('contact.validation.max_2000') },
                       })}
                     />
                   </div>
@@ -545,7 +541,6 @@ export default function ContactPage() {
                   )}
                 </div>
 
-                {/* Privacy Policy & Terms */}
                 <div className="sm:col-span-2 space-y-4">
                   <div className="flex items-start">
                     <div className="flex items-center h-5">
@@ -553,16 +548,16 @@ export default function ContactPage() {
                         id="privacyPolicy"
                         type="checkbox"
                         {...register('privacyPolicy', {
-                          required: 'You must accept the privacy policy',
+                          required: t('contact.validation.accept_privacy'),
                         })}
                         className="focus:ring-blue-500 h-4 w-4 text-blue-600 border-gray-300 rounded"
                       />
                     </div>
                     <div className="ml-3 text-sm">
                       <label htmlFor="privacyPolicy" className="font-medium text-gray-700">
-                        I agree to the{' '}
+                        {t('contact.privacy.agree_prefix')}{' '}
                         <a href="/privacy-policy" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-500">
-                          Privacy Policy
+                          {t('contact.privacy.link')}
                         </a>
                         . <span className="text-red-500">*</span>
                       </label>
@@ -578,16 +573,16 @@ export default function ContactPage() {
                         id="termsAndConditions"
                         type="checkbox"
                         {...register('termsAndConditions', {
-                          required: 'You must accept the terms and conditions',
+                          required: t('contact.validation.accept_terms'),
                         })}
                         className="focus:ring-blue-500 h-4 w-4 text-blue-600 border-gray-300 rounded"
                       />
                     </div>
                     <div className="ml-3 text-sm">
                       <label htmlFor="termsAndConditions" className="font-medium text-gray-700">
-                        I agree to the{' '}
+                        {t('contact.terms.agree_prefix')}{' '}
                         <a href="/terms" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-500">
-                          Terms and Conditions
+                          {t('contact.terms.link')}
                         </a>
                         . <span className="text-red-500">*</span>
                       </label>
@@ -596,7 +591,6 @@ export default function ContactPage() {
                       )}
                     </div>
                   </div>
-
                 </div>
               </div>
 
@@ -609,11 +603,11 @@ export default function ContactPage() {
                   }`}
                 >
                   {isSubmitting ? (
-                    'Sending...'
+                    t('contact.sending')
                   ) : (
                     <>
                       <FiSend className="-ml-1 mr-2 h-5 w-5" />
-                      Send Message
+                      {t('contact.send_message')}
                     </>
                   )}
                 </button>
@@ -629,8 +623,8 @@ export default function ContactPage() {
                 <FiMail className="h-6 w-6 text-blue-600" />
               </div>
               <div className="ml-4">
-                <h3 className="text-lg font-medium text-gray-900">Email Us</h3>
-                <p className="mt-1 text-sm text-gray-500">We'll respond within 24 hours</p>
+                <h3 className="text-lg font-medium text-gray-900">{t('contact.info.email_us')}</h3>
+                <p className="mt-1 text-sm text-gray-500">{t('contact.info.respond_24h')}</p>
                 <p className="mt-1 text-sm font-medium text-blue-600">sales@demashop.com</p>
               </div>
             </div>
@@ -642,8 +636,8 @@ export default function ContactPage() {
                 <FiPhone className="h-6 w-6 text-blue-600" />
               </div>
               <div className="ml-4">
-                <h3 className="text-lg font-medium text-gray-900">Call Us</h3>
-                <p className="mt-1 text-sm text-gray-500">Mon-Fri from 8am to 5pm</p>
+                <h3 className="text-lg font-medium text-gray-900">{t('contact.info.call_us')}</h3>
+                <p className="mt-1 text-sm text-gray-500">{t('contact.info.hours')}</p>
                 <p className="mt-1 text-sm font-medium text-blue-600">+1 (555) 123-4567</p>
               </div>
             </div>
@@ -655,9 +649,9 @@ export default function ContactPage() {
                 <FiBriefcase className="h-6 w-6 text-blue-600" />
               </div>
               <div className="ml-4">
-                <h3 className="text-lg font-medium text-gray-900">Visit Us</h3>
-                <p className="mt-1 text-sm text-gray-500">123 Industrial Way</p>
-                <p className="text-sm text-gray-500">San Francisco, CA 94107</p>
+                <h3 className="text-lg font-medium text-gray-900">{t('contact.info.visit_us')}</h3>
+                <p className="mt-1 text-sm text-gray-500">{t('contact.info.address_line1')}</p>
+                <p className="text-sm text-gray-500">{t('contact.info.address_line2')}</p>
               </div>
             </div>
           </div>
