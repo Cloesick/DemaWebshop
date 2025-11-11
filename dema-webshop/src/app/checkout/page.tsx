@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { useMemo, useState } from 'react';
 import Link from 'next/link';
 import { FiArrowLeft, FiCheckCircle } from 'react-icons/fi';
 import { useLocale } from '@/contexts/LocaleContext';
@@ -38,13 +38,27 @@ export default function CheckoutPage() {
     country: 'Belgium',
     phone: '',
     saveInfo: true,
-    paymentMethod: 'credit-card',
+    paymentMethod: 'bank-transfer',
     cardNumber: '',
     cardExpiry: '',
     cardCvc: '',
     cardName: '',
     terms: false,
   });
+
+  const [useDifferentBilling, setUseDifferentBilling] = useState<boolean>(false);
+  const orderRef = useMemo(() => {
+    const d = new Date();
+    const y = d.getFullYear();
+    const m = String(d.getMonth() + 1).padStart(2, '0');
+    const day = String(d.getDate()).padStart(2, '0');
+    const rnd = Math.floor(Math.random() * 9000) + 1000;
+    return `DEMA-${y}${m}${day}-${rnd}`;
+  }, []);
+  const BANK_NAME = process.env.NEXT_PUBLIC_BANK_NAME || '';
+  const BANK_ACCOUNT_NAME = process.env.NEXT_PUBLIC_BANK_ACCOUNT_NAME || '';
+  const BANK_IBAN = process.env.NEXT_PUBLIC_BANK_IBAN || '';
+  const BANK_BIC = process.env.NEXT_PUBLIC_BANK_BIC || '';
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement | HTMLTextAreaElement>) => {
     const { name, value, type } = e.target as HTMLInputElement;
@@ -525,6 +539,17 @@ export default function CheckoutPage() {
                   </div>
                   <h2 className="mt-4 text-2xl font-extrabold text-gray-900">{t('checkout.confirmed.title')}</h2>
                   <p className="mt-2 text-gray-600">{t('checkout.confirmed.subtitle')}</p>
+                  <div className="mt-4 max-w-lg mx-auto text-left bg-gray-50 border border-gray-200 rounded-lg p-4">
+                    <h3 className="font-medium text-gray-900 mb-2">{t('checkout.bank.transfer_title')}</h3>
+                    <ul className="text-sm text-gray-700 list-disc ml-5 space-y-1">
+                      {BANK_ACCOUNT_NAME ? <li>{t('checkout.bank.account_name')}: <span className="font-medium">{BANK_ACCOUNT_NAME}</span></li> : null}
+                      {BANK_NAME ? <li>{t('checkout.bank.bank_name')}: <span className="font-medium">{BANK_NAME}</span></li> : null}
+                      {BANK_IBAN ? <li>{t('checkout.bank.iban')}: <span className="font-medium">{BANK_IBAN}</span></li> : null}
+                      {BANK_BIC ? <li>{t('checkout.bank.bic')}: <span className="font-medium">{BANK_BIC}</span></li> : null}
+                      <li>{t('checkout.bank.reference')}: <span className="font-medium">{orderRef}</span></li>
+                    </ul>
+                    <p className="mt-3 text-sm text-gray-600">{t('checkout.bank.note')}</p>
+                  </div>
                   <div className="mt-8">
                     <Link
                       href="/products"

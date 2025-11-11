@@ -59,6 +59,22 @@
 - `NEXTAUTH_URL`, `NEXTAUTH_SECRET` — only if enabling NextAuth
 - `STRIPE_SECRET_KEY`, `NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY` — only if enabling Stripe
 
+### Bank transfer (for checkout)
+
+Add these public env vars to display bank details at checkout confirmation and payment steps. Only these are required to enable end-to-end checkout with bank transfer.
+
+```
+NEXT_PUBLIC_BANK_NAME="Your Bank Name"
+NEXT_PUBLIC_BANK_ACCOUNT_NAME="Your Account Name"
+NEXT_PUBLIC_BANK_IBAN="BE00 0000 0000 0000"
+NEXT_PUBLIC_BANK_BIC="ABCDEFGH"
+```
+
+Behavior:
+- Checkout flow is two steps (Information → Payment), payment method is bank transfer.
+- Visitors see cart → checkout → payment method (bank transfer only) → confirmation with bank instructions and order reference.
+- Logged-in users can confirm use of account details; otherwise toggle to enter different billing details.
+
 ## ▶️ Next Steps
 
 - Decide host: Vercel (zero-config) or Netlify (add plugin + `netlify.toml`).

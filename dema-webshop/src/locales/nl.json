@@ -179,4 +179,17 @@
   "cart.subtotal": "Subtotaal",
   "cart.shipping_taxes_note": "Verzendkosten en btw berekend bij het afrekenen.",
   "cart.or": "of"
+,
+  "checkout.bank.transfer_title": "Bankoverschrijving gegevens",
+  "checkout.bank.instructions": "Gelieve het ordertotaal over te schrijven naar onderstaande rekening:",
+  "checkout.bank.account_name": "Rekeninghouder",
+  "checkout.bank.bank_name": "Bank",
+  "checkout.bank.iban": "IBAN",
+  "checkout.bank.bic": "BIC",
+  "checkout.bank.reference": "Betalingsreferentie",
+  "checkout.bank.note": "Gebruik bovenstaande referentie om de verwerking te versnellen. Je bestelling wordt voorbereid zodra de betaling ontvangen is.",
+  "checkout.billing.different_toggle": "Andere facturatiegegevens gebruiken (voor andere persoon/bedrijf)",
+  "checkout.billing.name": "Naam facturatie",
+  "checkout.billing.company": "Bedrijf",
+  "checkout.billing.vat": "BTW-nummer"
 }
