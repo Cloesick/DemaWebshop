@@ -1,9 +1,10 @@
 'use client';
 
-import { useMemo, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import Link from 'next/link';
 import { FiArrowLeft, FiCheckCircle } from 'react-icons/fi';
 import { useLocale } from '@/contexts/LocaleContext';
+import { useCartStore } from '@/store/cartStore';
 
 type FormData = {
   email: string;
@@ -25,7 +26,7 @@ type FormData = {
 };
 
 export default function CheckoutPage() {
-  const { t } = useLocale();
+  const { t, locale } = useLocale();
   const [step, setStep] = useState<number>(1);
   const [formData, setFormData] = useState<FormData>({
     email: '',
@@ -47,6 +48,7 @@ export default function CheckoutPage() {
   });
 
   const [useDifferentBilling, setUseDifferentBilling] = useState<boolean>(false);
+  const [useAccountDetails, setUseAccountDetails] = useState<boolean>(false);
   const orderRef = useMemo(() => {
     const d = new Date();
     const y = d.getFullYear();
@@ -70,17 +72,76 @@ export default function CheckoutPage() {
     }));
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
+  // Autofill from stored account profile if present
+  useEffect(() => {
+    try {
+      const raw = localStorage.getItem('account-profile');
+      if (raw) {
+        const prof = JSON.parse(raw);
+        setFormData(prev => ({
+          ...prev,
+          email: prof.email || prev.email,
+          firstName: prof.firstName || prev.firstName,
+          lastName: prof.lastName || prev.lastName,
+          address: prof.address || prev.address,
+          city: prof.city || prev.city,
+          postalCode: prof.postalCode || prev.postalCode,
+          country: prof.country || prev.country,
+          phone: prof.phone || prev.phone,
+        }));
+        setUseAccountDetails(true);
+      }
+    } catch {}
+  }, []);
+
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    // Process the order here
-    setStep(3); // Move to success step
+    // Compute totals and send email confirmation
+    try {
+      const items = cartItems.map((it) => ({
+        sku: it.sku,
+        name: it.description?.split(' ').slice(0, 3).join(' ') || it.sku,
+        quantity: it.quantity,
+        price: Number((it.sku?.length || 1) * 10)
+      }));
+      const subtotalCalc = items.reduce((s, it) => s + it.price * it.quantity, 0);
+      const shippingCalc = 0;
+      const taxCalc = subtotalCalc * 0.21;
+      const totalCalc = subtotalCalc + shippingCalc + taxCalc;
+      await fetch('/api/orders/confirm', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          orderRef,
+          items,
+          totals: { subtotal: subtotalCalc, shipping: shippingCalc, tax: taxCalc, total: totalCalc },
+          customer: {
+            email: formData.email,
+            firstName: formData.firstName,
+            lastName: formData.lastName,
+            phone: formData.phone,
+          },
+          billing: useDifferentBilling ? {
+            name: (document.getElementById('billingName') as HTMLInputElement | null)?.value || '',
+            company: (document.getElementById('billingCompany') as HTMLInputElement | null)?.value || '',
+            vat: (document.getElementById('billingVat') as HTMLInputElement | null)?.value || '',
+          } : null,
+          locale,
+          bank: {
+            accountName: BANK_ACCOUNT_NAME,
+            bankName: BANK_NAME,
+            iban: BANK_IBAN,
+            bic: BANK_BIC,
+          }
+        })
+      });
+    } catch {}
+    setStep(3);
   };
 
-  // Sample cart data
-  const cartItems = [
-    { id: '1', name: 'Sample Product', price: 99.99, quantity: 1 },
-  ];
-  const subtotal: number = cartItems.reduce((sum, item) => sum + item.price * item.quantity, 0);
+  // Cart data from store
+  const cartItems = useCartStore(s => s.items);
+  const subtotal: number = cartItems.reduce((sum: number, item: any) => sum + ((item.sku?.length || 1) * 10) * item.quantity, 0);
   const shipping: number = 0;
   const tax: number = subtotal * 0.21;
   const total: number = subtotal + shipping + tax;
@@ -300,7 +361,7 @@ export default function CheckoutPage() {
                             <p className="mt-1 text-sm text-gray-500">{t('checkout.qty')} {item.quantity}</p>
                           </div>
                           <p className="mt-2 text-sm font-medium text-gray-900">
-                            €{(item.price * item.quantity).toFixed(2)}
+                            €{(((item?.sku?.length || 1) * 10) * item.quantity).toFixed(2)}
                           </p>
                         </div>
                       </li>
@@ -503,7 +564,7 @@ export default function CheckoutPage() {
                                 <p className="mt-1 text-sm text-gray-500">{t('checkout.qty')} {item.quantity}</p>
                               </div>
                               <p className="mt-2 text-sm font-medium text-gray-900">
-                                €{(item.price * item.quantity).toFixed(2)}
+                                €{(((item?.sku?.length || 1) * 10) * item.quantity).toFixed(2)}
                               </p>
                             </div>
                           </li>

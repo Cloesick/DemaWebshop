@@ -951,6 +951,85 @@ jobs:
 - **Changelog**: `CHANGELOG.md`
 - **Contributing Guidelines**: `CONTRIBUTING.md`
 
+## 🧭 Configuration TODOs (keep this updated)
+
+- [x] Bank transfer checkout flow (Information → Payment → Confirmation)
+  - How to set up
+    - Add env:
+      - `NEXT_PUBLIC_BANK_NAME`
+      - `NEXT_PUBLIC_BANK_ACCOUNT_NAME`
+      - `NEXT_PUBLIC_BANK_IBAN`
+      - `NEXT_PUBLIC_BANK_BIC`
+    - Restart dev server after changes
+  - How to test
+    - Add products to cart → go to `/checkout`
+    - Complete Information → Payment shows bank transfer details and order reference
+    - Submit to see Confirmation with same bank details
+
+- [x] Order confirmation emails via Resend on checkout
+  - How to set up
+    - Env: `RESEND_API_KEY`
+    - Optional: `ORDER_NOTIFY_EMAILS` (comma-separated; defaults to `sales@demashop.com,nicolas.cloet@gmail.com`)
+    - API: `POST /api/orders/confirm` (used by checkout submit)
+  - How to test
+    - Fill checkout and submit → email sent to customer and BCC to notify list
+    - Or send manual request:
+      ```http
+      POST /api/orders/confirm
+      Content-Type: application/json
+
+      {
+        "orderRef":"DEMA-TEST-1234",
+        "items":[{"sku":"SKU1","name":"Item","quantity":1,"price":10}],
+        "totals":{"subtotal":10,"shipping":0,"tax":2.1,"total":12.1},
+        "customer":{"email":"you@example.com"},
+        "bank":{"accountName":"...","bankName":"...","iban":"...","bic":"..."}
+      }
+      ```
+
+- [ ] NextAuth session-driven checkout auto-fill
+  - How to set up
+    - Integrate NextAuth, expose session user profile fields (email, name, address, phone)
+    - In `checkout/page.tsx`, read from session and prefill form
+  - How to test
+    - Sign in → open checkout → fields are prefilled; toggle billing details if ordering for someone else
+
+- [ ] Localized order confirmation emails (per locale template)
+  - How to set up
+    - Create per-locale HTML/text templates and select by `locale` in `/api/orders/confirm`
+  - How to test
+    - Switch site language and place an order → email language matches selection
+
+- [ ] Product image override API auth
+  - How to set up
+    - Protect `POST /api/product-image-overrides` behind admin/auth guard
+  - How to test
+    - Attempt override as non-admin → denied
+    - As admin → can save override
+
+- [ ] Full i18n sweep of About/Account pages
+  - How to test
+    - Switch languages and verify all visible strings are translated
+
+- [ ] API error messages i18n for orders/contact
+  - How to set up
+    - Return localized error messages in API responses based on request locale
+  - How to test
+    - Trigger known errors (missing fields, invalid inputs) and verify localized responses
+
+- [ ] Optional Stripe enablement (future card payments)
+  - How to set up
+    - Env: `STRIPE_SECRET_KEY`, `NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY`
+    - Add Stripe PaymentIntent flow and UI toggle between Bank Transfer / Card
+  - How to test
+    - Use Stripe test keys and cards; ensure orders and emails reflect card payments
+
+When any configuration is added or changed, update this section with:
+- What was added
+- Required env vars
+- How to test locally
+- Any caveats
+
 ## 🤝 Contributing
 
 1. Fork the repository
