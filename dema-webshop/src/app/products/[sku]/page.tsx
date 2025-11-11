@@ -272,8 +272,8 @@ export default function ProductPage() {
     return (
       <div className="min-h-screen flex items-center justify-center">
         <div className="text-center">
-          <h1 className="text-2xl font-bold text-red-600">Error</h1>
-          <p className="mt-2">{error || 'Product not found'}</p>
+          <h1 className="text-2xl font-bold text-red-600">{t('product.error.title')}</h1>
+          <p className="mt-2">{error || t('product.error.not_found')}</p>
         </div>
       </div>
     );
@@ -306,7 +306,7 @@ export default function ProductPage() {
         onClick={() => addToCart(product)}
         className="mt-4 w-full bg-blue-600 hover:bg-blue-700"
       >
-        Add to Cart
+        {t('product.add_to_cart')}
       </Button>
     );
   }
@@ -368,7 +368,7 @@ export default function ProductPage() {
     }, [pdfUrl, pageNumber, cropNorm?.x, cropNorm?.y, cropNorm?.width, cropNorm?.height]);
 
     if (error) {
-      return <div className="w-full h-64 flex items-center justify-center text-sm text-gray-600">{error}</div>;
+      return <div className="w-full h-64 flex items-center justify-center text-sm text-gray-600">{t('product.error.load_failed')}</div>;
     }
     return (
       <div className="w-full h-full flex items-center justify-center bg-white">
@@ -508,12 +508,11 @@ export default function ProductPage() {
                 ) : (
                   <div className="text-center py-12">
                     <div className="text-lg font-medium text-gray-700 mb-2">
-                      {product.product_category || 'Product'}
+                      {product.product_category || t('products.title')}
                     </div>
-                    <div className="text-sm text-gray-500">SKU: {product.sku}</div>
+                    <div className="text-sm text-gray-500">{t('product.sku')}: {product.sku}</div>
                   </div>
                 )}
-              </div>
             </div>
             {editMode && displayPdfUrl && (
               <div className="mt-3 flex items-center gap-2">
@@ -539,7 +538,7 @@ export default function ProductPage() {
                     }
                   }}
                 >
-                  {saving ? 'Saving…' : 'Save Crop'}
+                  {saving ? t('product.saving') : t('product.image.save_crop')}
                 </button>
                 <button
                   className="px-3 py-1.5 rounded bg-emerald-600 text-white disabled:opacity-50"
@@ -620,13 +619,13 @@ export default function ProductPage() {
                     }
                   }}
                 >
-                  Auto Detect
+                  {t('product.image.auto_detect')}
                 </button>
                 <button
                   className="px-3 py-1.5 rounded bg-gray-200 text-gray-800"
                   onClick={() => setPendingCrop(null)}
                 >
-                  Reset
+                  {t('product.image.reset')}
                 </button>
               </div>
             )}
@@ -637,35 +636,38 @@ export default function ProductPage() {
             <h1 className="text-3xl font-bold text-gray-900 mb-2">
               {formatProductForCard(product).title}
             </h1>
-            <p className="text-gray-500 text-sm mb-4">SKU: {product.sku}</p>
+            <p className="text-gray-500 text-sm mb-4">{t('product.sku')}: {product.sku}</p>
             
             <div className="mt-4">
               <h2 className="text-2xl font-bold text-gray-900">
                 {formatCurrency(priceNumber)}
               </h2>
-              <p className="text-green-600 text-sm mt-1">In Stock</p>
+              <p className="text-green-600 text-sm mt-1">{t('product.in_stock')}</p>
             </div>
             
-            {/* Description removed by request */}
-            {localizedDescription && (
+            {product.description && (
               <div className="mt-6">
-                <h3 className="text-sm font-medium text-gray-900">Description</h3>
-                <div className="prose prose-sm max-w-none text-gray-800" dangerouslySetInnerHTML={{ __html: localizedDescription }} />
+                <h3 className="text-sm font-medium text-gray-900">{t('product.description')}</h3>
+                <div className="prose prose-sm max-w-none text-gray-800">
+                  {product.description.split('\n').map((paragraph, i) => (
+                    <p key={i} className="mb-3">{paragraph}</p>
+                  ))}
+                </div>
               </div>
             )}
             
             <div className="mt-6">
-              <h3 className="text-sm font-medium text-gray-900">Specifications</h3>
+              <h3 className="text-sm font-medium text-gray-900">{t('product.technical_specs')}</h3>
               <dl className="mt-2 grid grid-cols-2 gap-2 text-sm text-gray-700">
                 {product.product_category && (
                   <>
-                    <dt className="font-medium">Category</dt>
+                    <dt className="font-medium">{t('filters.categories')}</dt>
                     <dd>{product.product_category}</dd>
                   </>
                 )}
                 {(product.pressure_min_bar || product.pressure_max_bar) && (
                   <>
-                    <dt className="font-medium">Pressure</dt>
+                    <dt className="font-medium">{t('product.pressure_range')}</dt>
                     <dd>
                       {product.pressure_min_bar ? `${product.pressure_min_bar}–` : ''}
                       {product.pressure_max_bar ? `${product.pressure_max_bar}` : ''} bar
@@ -674,7 +676,7 @@ export default function ProductPage() {
                 )}
                 {((product as any).overpressure_bar || (product as any).overpressure_mpa) && (
                   <>
-                    <dt className="font-medium">Overpressure</dt>
+                    <dt className="font-medium">{t('product.overpressure')}</dt>
                     <dd>
                       {typeof (product as any).overpressure_bar === 'number' ? `${(product as any).overpressure_bar} bar` : ''}
                       {(product as any).overpressure_bar && (product as any).overpressure_mpa ? ' • ' : ''}
@@ -684,7 +686,7 @@ export default function ProductPage() {
                 )}
                 {product.power_kw && (
                   <>
-                    <dt className="font-medium">Power</dt>
+                    <dt className="font-medium">{t('product.power')}</dt>
                     <dd>{product.power_kw} kW</dd>
                   </>
                 )}
