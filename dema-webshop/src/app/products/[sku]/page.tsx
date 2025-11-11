@@ -16,7 +16,7 @@ import { formatProductForCard } from '@/lib/formatProductForCard';
 // This is a client component that will be hydrated on the client
 export default function ProductPage() {
   const params = useParams();
-  const { t } = useLocale();
+  const { t, locale } = useLocale();
   const [product, setProduct] = useState<Product | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
@@ -39,6 +39,18 @@ export default function ProductPage() {
     if (src.startsWith('/')) return src; // already absolute within site
     // assume bare filename within public/documents/Product_pdfs
     return `/documents/Product_pdfs/${src}`;
+  }
+
+  function translateKnownPhrases(html: string, loc: string): string {
+    if (!html) return html;
+    const pattern = /<li>\s*VOOR\s+PARTICULIERE\s+GEBRUIKERS\s+HOGEDRUKREINIGER[\s\S]*?<\/li>/i;
+    const replacements: Record<string, string> = {
+      en: '<li>FOR PRIVATE USERS HIGH-PRESSURE CLEANER | COLD WATER | PRIVATE USERS K 1050 series COMFORTABLE HOSE REEL (TST) space-saving storage of the high-pressure hose - with foldable handle MODEL K 1050 P K 1050 TS K 1050 TST Item no. 49501 495051 495101 STORAGE SYSTEM TECHNICAL DATA practical storage of Model portable with hose holder with hose reel high-pressure gun and spray lances Working pressure bar | MPa 130 | 13 130 | 13 130 | 13 Flow rate l/min | l/h 7.5 | 450 7.5 | 450 7.5 | 450 PORTABLE VERSION Permissible overpressure bar | MPa 160 | 16 160 | 16 160 | 16 Motor speed rpm 2800 2800 2800 Connection V | ~ | Hz | A 230 | 1 | 50 | 9.6 230 | 1 | 50 | 9.6 230 | 1 | 50 | 9.6 Power input | output kW 2.2 | 1.65 2.2 | 1.65 2.2 | 1.65 Power cable m 5 5 5 Dimensions L | W | H mm 390 | 290 | 370 340 | 350 | 860 340 | 350 | 860 OFF-ROAD CHASSIS robust chassis for easy transport and high stability EQUIPMENT High-pressure hose m | Item no. 8 (DN6) | 410541 8 (DN6) | 410541 12 (DN6) | 49116 Gun with safety lock Model | Item no. M2001 | 12475 M2001 | 12475 M2001 | 12475 Lance with flat jet Nozzle | Item no.</li>',
+      nl: '<li>VOOR PARTICULIERE GEBRUIKERS HOGEDRUKREINIGER | KOUDWATER | PARTICULIERE GEBRUIKERS K 1050-serie COMFORTABELE SLANGHASPEL (TST) plaatsbesparende opslag van de hogedrukslang - met inklapbare hendel MODEL K 1050 P K 1050 TS K 1050 TST Art.-nr. 49501 495051 495101 OPBERGSYSTEEM TECHNISCHE GEGEVENS praktische opslag van Model draagbaar met slangopname met slanghaspel hogedrukpistool en spuitlansen Werkdruk bar | MPa 130 | 13 130 | 13 130 | 13 Doorloopcapaciteit l/min | l/h 7.5 | 450 7.5 | 450 7.5 | 450 DRAAGBARE VERSIE Toegelaten overdruk bar | MPa 160 | 16 160 | 16 160 | 16 Motortoerental tpm 2800 2800 2800 Aansluiting V | ~ | Hz | A 230 | 1 | 50 | 9.6 230 | 1 | 50 | 9.6 230 | 1 | 50 | 9.6 Vermogenopname | afgifte kW 2.2 | 1.65 2.2 | 1.65 2.2 | 1.65 Aansluitkabel m 5 5 5 Afmetingen L | B | H mm 390 | 290 | 370 340 | 350 | 860 340 | 350 | 860 OFF-ROAD CHASSIS Gewicht kg 21 23 26 robuust chassis voor eenvoudig transport en hoge stabiliteit UITRUSTING Hogedrukslang m | Art.-nr. 8 (DN6) | 410541 8 (DN6) | 410541 12 (DN6) | 49116 Pistool met uitschakelbeveiliging Model | Art.-nr. M2001 | 12475 M2001 | 12475 M2001 | 12475 Lans met vlakstraal Nozzel | Art.-nr.</li>',
+      fr: '<li>POUR UTILISATEURS PRIVÉS NETTOYEUR HAUTE PRESSION | EAU FROIDE | UTILISATEURS PRIVÉS SÉRIE K 1050 ENROULEUR DE TUYAU CONFORT (TST) rangement peu encombrant du tuyau haute pression - avec poignée rabattable MODÈLE K 1050 P K 1050 TS K 1050 TST Réf. 49501 495051 495101 SYSTÈME DE RANGEMENT DONNÉES TECHNIQUES rangement pratique du pistolet haute pression et des lances Modèle portable avec support de tuyau avec enrouleur de tuyau Pression de service bar | MPa 130 | 13 130 | 13 130 | 13 Débit l/min | l/h 7.5 | 450 7.5 | 450 7.5 | 450 VERSION PORTABLE Surpression admissible bar | MPa 160 | 16 160 | 16 160 | 16 Vitesse du moteur tr/min 2800 2800 2800 Raccordement V | ~ | Hz | A 230 | 1 | 50 | 9.6 230 | 1 | 50 | 9.6 230 | 1 | 50 | 9.6 Puissance absorbée | restituée kW 2.2 | 1.65 2.2 | 1.65 2.2 | 1.65 Câble d’alimentation m 5 5 5 Dimensions L | l | H mm 390 | 290 | 370 340 | 350 | 860 340 | 350 | 860 CHÂSSIS TOUT-TERRAIN châssis robuste pour un transport aisé et une grande stabilité ÉQUIPEMENT Tuyau haute pression m | Réf. 8 (DN6) | 410541 8 (DN6) | 410541 12 (DN6) | 49116 Pistolet avec sécurité Modèle | Réf. M2001 | 12475 M2001 | 12475 M2001 | 12475 Lance à jet plat Buse | Réf.</li>',
+    };
+    const repl = replacements[loc as keyof typeof replacements] || replacements.en;
+    return html.replace(pattern, repl);
   }
 
   useEffect(() => {
@@ -635,6 +647,12 @@ export default function ProductPage() {
             </div>
             
             {/* Description removed by request */}
+            {localizedDescription && (
+              <div className="mt-6">
+                <h3 className="text-sm font-medium text-gray-900">Description</h3>
+                <div className="prose prose-sm max-w-none text-gray-800" dangerouslySetInnerHTML={{ __html: localizedDescription }} />
+              </div>
+            )}
             
             <div className="mt-6">
               <h3 className="text-sm font-medium text-gray-900">Specifications</h3>

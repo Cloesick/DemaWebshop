@@ -51,5 +51,32 @@
   "search.legend.products": "Noms de produits",
   "search.legend.categories": "Catégories",
   "search.legend.skus": "SKU",
-  "search.legend.pdfs": "Documents PDF"
+  "search.legend.pdfs": "Documents PDF",
+
+  "common.shop_now": "Acheter maintenant",
+  "common.learn_more": "En savoir plus",
+
+  "home.hero.title_line1": "Outils Industriels",
+  "home.hero.title_line2": "Pour les Professionnels",
+  "home.hero.subtitle": "Des outils et équipements industriels de haute qualité pour les professionnels exigeant performance et fiabilité.",
+
+  "home.features.heading": "Pourquoi nous choisir",
+  "home.features.title": "Le meilleur fournisseur d'outils industriels",
+  "home.features.subtitle": "Nous fournissons des outils et équipements industriels de haute qualité avec un service client exceptionnel.",
+  "home.features.free_shipping.title": "Livraison gratuite",
+  "home.features.free_shipping.desc": "Pour les commandes de plus de 50 €",
+  "home.features.warranty.title": "Garantie de 2 ans",
+  "home.features.warranty.desc": "Sur tous nos produits",
+  "home.features.support.title": "Support 24/7",
+  "home.features.support.desc": "Support dédié",
+
+  "home.highlights.heading": "Mises en avant produits",
+  "home.highlights.recommended": "Recommandé pour vous",
+  "home.highlights.popular": "Articles populaires de notre catalogue",
+  "home.highlights.view_in": "Voir dans",
+  "home.highlights.view_all": "Voir tous les produits",
+
+  "home.cta.title_line1": "Prêt à commencer ?",
+  "home.cta.title_line2": "Parcourez notre catalogue dès aujourd'hui.",
+  "home.cta.subtitle": "Découvrez notre large gamme d'outils et d'équipements industriels pour les professionnels."
 }

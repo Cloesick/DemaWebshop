@@ -53,7 +53,33 @@
   "search.legend.products": "Product names",
   "search.legend.categories": "Categories",
   "search.legend.skus": "SKUs",
-  "search.legend.pdfs": "PDF Documents"
-  ,
-  "categories.empty": "No items found in this category."
+  "search.legend.pdfs": "PDF Documents",
+  "categories.empty": "No items found in this category.",
+
+  "common.shop_now": "Shop Now",
+  "common.learn_more": "Learn More",
+
+  "home.hero.title_line1": "Industrial Tools",
+  "home.hero.title_line2": "For Professionals",
+  "home.hero.subtitle": "High-quality industrial tools and equipment for professionals who demand the best performance and reliability.",
+
+  "home.features.heading": "Why Choose Us",
+  "home.features.title": "The Best Industrial Tools Provider",
+  "home.features.subtitle": "We provide high-quality industrial tools and equipment with exceptional customer service.",
+  "home.features.free_shipping.title": "Free Shipping",
+  "home.features.free_shipping.desc": "On orders over €50",
+  "home.features.warranty.title": "2-Year Warranty",
+  "home.features.warranty.desc": "On all our products",
+  "home.features.support.title": "24/7 Support",
+  "home.features.support.desc": "Dedicated support",
+
+  "home.highlights.heading": "Product Highlights",
+  "home.highlights.recommended": "Recommended for you",
+  "home.highlights.popular": "Popular picks across our catalog",
+  "home.highlights.view_in": "View in",
+  "home.highlights.view_all": "View All Products",
+
+  "home.cta.title_line1": "Ready to get started?",
+  "home.cta.title_line2": "Browse our catalog today.",
+  "home.cta.subtitle": "Discover our wide range of industrial tools and equipment for professionals."
 }

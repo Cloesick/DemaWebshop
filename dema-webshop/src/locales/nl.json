@@ -52,5 +52,32 @@
   "search.legend.products": "Productnamen",
   "search.legend.categories": "Categorieën",
   "search.legend.skus": "SKU's",
-  "search.legend.pdfs": "PDF-documenten"
+  "search.legend.pdfs": "PDF-documenten",
+
+  "common.shop_now": "Nu winkelen",
+  "common.learn_more": "Meer info",
+
+  "home.hero.title_line1": "Industriële Gereedschappen",
+  "home.hero.title_line2": "Voor Professionals",
+  "home.hero.subtitle": "Hoogwaardige industriële gereedschappen en apparatuur voor professionals die topprestaties en betrouwbaarheid eisen.",
+
+  "home.features.heading": "Waarom voor ons kiezen",
+  "home.features.title": "De beste leverancier van industriële gereedschappen",
+  "home.features.subtitle": "Wij leveren hoogwaardige industriële gereedschappen en apparatuur met uitstekende klantenservice.",
+  "home.features.free_shipping.title": "Gratis verzending",
+  "home.features.free_shipping.desc": "Op bestellingen boven €50",
+  "home.features.warranty.title": "2 jaar garantie",
+  "home.features.warranty.desc": "Op al onze producten",
+  "home.features.support.title": "24/7 ondersteuning",
+  "home.features.support.desc": "Toegewijde support",
+
+  "home.highlights.heading": "Product hoogtepunten",
+  "home.highlights.recommended": "Aanbevolen voor jou",
+  "home.highlights.popular": "Populaire keuzes in ons assortiment",
+  "home.highlights.view_in": "Bekijk in",
+  "home.highlights.view_all": "Alle producten bekijken",
+
+  "home.cta.title_line1": "Klaar om te starten?",
+  "home.cta.title_line2": "Blader vandaag door onze catalogus.",
+  "home.cta.subtitle": "Ontdek ons brede gamma industriële gereedschappen en apparatuur voor professionals."
 }

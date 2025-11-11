@@ -1,0 +1,49 @@
+### VS Code REST Client test file for /api/contact
+### Install extension: humao.rest-client
+### Fill the variables below before running.
+
+@base = http://localhost:3000
+@recaptchaToken = REPLACE_WITH_RECAPTCHA_V3_TOKEN
+@firebaseIdToken = REPLACE_WITH_FIREBASE_ID_TOKEN
+
+### Happy path: full form with verified phone
+POST {{base}}/api/contact
+Content-Type: application/json
+
+{
+  "name": "Test Lead",
+  "email": "lead@example.com",
+  "phone": "+32470123456",
+  "address": "Avenue Louise 1, 1050 Bruxelles, Belgium",
+  "company": "Test Company",
+  "inquiryType": "General Inquiry",
+  "budget": "1000-5000",
+  "timeline": "1-3 months",
+  "heardAbout": "Google",
+  "message": "I would like to know more about your products.",
+  "recaptchaToken": "{{recaptchaToken}}",
+  "firebaseIdToken": "{{firebaseIdToken}}"
+}
+
+### Minimal form without phone (no Firebase token required)
+POST {{base}}/api/contact
+Content-Type: application/json
+
+{
+  "name": "No Phone Lead",
+  "email": "lead2@example.com",
+  "address": "Rue de la Loi 16, 1000 Bruxelles, Belgium",
+  "inquiryType": "Support",
+  "message": "Contact without phone.",
+  "recaptchaToken": "{{recaptchaToken}}"
+}
+
+### Negative: missing reCAPTCHA token
+POST {{base}}/api/contact
+Content-Type: application/json
+
+{
+  "name": "Bad Lead",
+  "email": "lead3@example.com",
+  "message": "This should fail due to missing recaptcha"
+}
