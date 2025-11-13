@@ -2,9 +2,17 @@
 
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
+import { useLocale } from '@/contexts/LocaleContext';
 
 export default function CategoryTile({ slug, label, count, pdfs, subcategories }: { slug: string; label: string; count: number; pdfs?: { name: string; href: string }[]; subcategories?: { slug: string; label: string }[] }) {
   const router = useRouter();
+  const { t } = useLocale();
+
+  const localizedLabel = (() => {
+    const key = `categories.labels.${slug}`;
+    const translated = t(key as any);
+    return translated !== key ? translated : label;
+  })();
 
   return (
     <div
@@ -27,10 +35,10 @@ export default function CategoryTile({ slug, label, count, pdfs, subcategories }
         e.preventDefault();
         router.push(`/categories/${slug}`);
       }}
-      title="Left click: Products • Right click: Documents"
+      title={`${t('categories.hints.left_products')} • ${t('categories.hints.right_documents')}`}
     >
       <div className="flex items-center justify-between">
-        <span className="font-medium text-gray-900">{label}</span>
+        <span className="font-medium text-gray-900">{localizedLabel}</span>
         <span className="inline-flex items-center justify-center text-xs font-medium px-2 py-0.5 rounded-full bg-primary/10 text-primary">
           {count}
         </span>
@@ -44,7 +52,11 @@ export default function CategoryTile({ slug, label, count, pdfs, subcategories }
               onClick={(e) => e.stopPropagation()}
               className="text-[12px] px-2 py-0.5 rounded-full bg-gray-100 text-gray-700 hover:bg-gray-200"
             >
-              {s.label}
+              {(() => {
+                const skey = `categories.labels.${s.slug}`;
+                const tr = t(skey as any);
+                return tr !== skey ? tr : s.label;
+              })()}
             </Link>
           ))}
         </div>
@@ -61,12 +73,12 @@ export default function CategoryTile({ slug, label, count, pdfs, subcategories }
             router.push(`/products?category=${encodeURIComponent(label)}`);
           }}
         >
-          View Products
+          {t('categories.view_products')}
         </button>
       </div>
       {Array.isArray(pdfs) && pdfs.length > 0 && (
         <div className="mt-3">
-          <p className="text-xs text-gray-500 mb-1">Documents</p>
+          <p className="text-xs text-gray-500 mb-1">{t('categories.documents')}</p>
           <ul className="space-y-1">
             {pdfs.slice(0, 3).map((pdf) => (
               <li key={pdf.href}>

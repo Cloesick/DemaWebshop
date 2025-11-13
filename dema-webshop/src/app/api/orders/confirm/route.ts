@@ -20,7 +20,7 @@ export async function POST(req: NextRequest) {
       return NextResponse.json({ error: 'Missing RESEND_API_KEY' }, { status: 500 });
     }
 
-    const notifyRaw = process.env.ORDER_NOTIFY_EMAILS || 'sales@demashop.com,nicolas.cloet@gmail.com';
+    const notifyRaw = process.env.ORDER_NOTIFY_EMAILS || 'info@demashop.be,nicolas.cloet@gmail.com';
     const notifyList = notifyRaw.split(',').map(s => s.trim()).filter(Boolean);
 
     const toCustomer = String(customer?.email || '').trim();

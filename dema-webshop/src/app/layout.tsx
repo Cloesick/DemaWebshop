@@ -3,11 +3,12 @@ import { Inter } from 'next/font/google';
 import './globals.css';
 import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';
-import { CookieConsentProvider } from '@/contexts/CookieConsentContext';
-import CookieConsentWrapper from '@/components/layout/CookieConsentWrapper';
-import { LocaleProvider } from '@/contexts/LocaleContext';
-import { cookies } from 'next/headers';
 import Cart from '@/components/cart/Cart';
+import { CookieConsentProvider } from '@/contexts/CookieConsentContext';
+import { LocaleProvider } from '@/contexts/LocaleContext';
+import CookieConsentWrapper from '@/components/layout/CookieConsent';
+import { cookies } from 'next/headers';
+import { Providers } from './providers';
 
 export async function generateMetadata(): Promise<Metadata> {
   const cookieStore = await cookies();
@@ -42,7 +43,7 @@ export default async function RootLayout({
   const cookieStore = await cookies();
   const initialLocale = (cookieStore.get('locale')?.value as 'en'|'nl'|'fr') ?? 'en';
   return (
-    <html lang={initialLocale} className="h-full">
+    <html lang={initialLocale} className="h-full light" suppressHydrationWarning>
       <head>
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -51,17 +52,19 @@ export default async function RootLayout({
         <meta name="google-site-verification" content="" />
       </head>
       <body className={`${inter.variable} font-sans bg-white text-gray-900 flex flex-col min-h-screen`}>
-        <CookieConsentProvider>
-          <LocaleProvider>
-            <Header />
-            <main className="flex-grow">
-              {children}
-            </main>
-            <Footer />
-            <CookieConsentWrapper />
-            <Cart />
-          </LocaleProvider>
-        </CookieConsentProvider>
+        <Providers>
+          <CookieConsentProvider>
+            <LocaleProvider>
+              <Header />
+              <main className="flex-grow">
+                {children}
+              </main>
+              <Footer />
+              <CookieConsentWrapper />
+              <Cart />
+            </LocaleProvider>
+          </CookieConsentProvider>
+        </Providers>
       </body>
     </html>
   );

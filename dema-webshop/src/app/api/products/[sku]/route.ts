@@ -1,6 +1,8 @@
 import { NextResponse } from 'next/server';
 import path from 'path';
 import { promises as fs } from 'fs';
+import { auth } from '@/auth';
+import { promises as fsp } from 'fs';
 
 interface Product {
   sku: string;
@@ -11,6 +13,47 @@ interface Product {
   weight_kg?: number;
   image_url?: string;
   [key: string]: any;
+}
+
+export async function DELETE(
+  request: Request,
+  { params }: { params: { sku: string } }
+) {
+  try {
+    const session = await auth();
+    const role = (session?.user as any)?.role;
+    if (role !== 'admin') {
+      return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
+    }
+
+    const { sku } = params;
+    const jsonDirectory = path.join(process.cwd(), 'public', 'data');
+    const filePath = path.join(jsonDirectory, 'Product_pdfs_analysis_v2.json');
+    const fileContents = await fs.readFile(filePath, 'utf8');
+    const products: Product[] = JSON.parse(fileContents);
+
+    const before = products.length;
+    const updated = products.filter((p) => p.sku !== sku);
+
+    if (updated.length === before) {
+      return NextResponse.json({ error: 'Product not found' }, { status: 404 });
+    }
+
+    await fs.writeFile(filePath, JSON.stringify(updated, null, 2), 'utf8');
+    try {
+      const logDir = path.join(process.cwd(), 'public', 'data');
+      await fsp.mkdir(logDir, { recursive: true });
+      const line = JSON.stringify({ ts: new Date().toISOString(), action: 'product_delete', by: (session?.user as any)?.aliasEmail || session?.user?.email, sku }) + '\n';
+      await fsp.appendFile(path.join(logDir, 'admin_activity.log'), line, 'utf8');
+    } catch {}
+    return NextResponse.json({ ok: true, deleted: sku });
+  } catch (error) {
+    console.error('Error deleting product:', error);
+    return NextResponse.json(
+      { error: 'Failed to delete product' },
+      { status: 500 }
+    );
+  }
 }
 
 export async function GET(

@@ -60,6 +60,22 @@ export default function ProductSearchBar() {
     
     if (value.length >= 2) {
       fetchSuggestions(value);
+      // Track search if user has opted-in to marketing in profile
+      try {
+        const marketing = typeof window !== 'undefined' && localStorage.getItem('profile:marketing') === 'true';
+        if (marketing) {
+          let clientId = localStorage.getItem('client:id') || '';
+          if (!clientId) {
+            clientId = (crypto as any)?.randomUUID ? (crypto as any).randomUUID() : String(Math.random());
+            localStorage.setItem('client:id', clientId);
+          }
+          fetch('/api/marketing/search', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ clientId, query: value, profileMarketing: true })
+          }).catch(() => void 0);
+        }
+      } catch (_) {}
     } else {
       setSuggestions([]);
     }

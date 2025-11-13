@@ -284,8 +284,8 @@ export default function ContactPage() {
             </div>
             <div className="bg-white p-4 rounded-lg shadow">
               <FiMail className="mx-auto h-6 w-6 text-blue-600" />
-              <a href="mailto:sales@demashop.be" className="mt-2 text-sm font-medium text-blue-600 hover:text-blue-800">
-                sales@demashop.be
+              <a href="mailto:info@demashop.be" className="mt-2 text-sm font-medium text-blue-600 hover:text-blue-800">
+                info@demashop.be
               </a>
             </div>
             <div className="bg-white p-4 rounded-lg shadow">
@@ -625,7 +625,7 @@ export default function ContactPage() {
               <div className="ml-4">
                 <h3 className="text-lg font-medium text-gray-900">{t('contact.info.email_us')}</h3>
                 <p className="mt-1 text-sm text-gray-500">{t('contact.info.respond_24h')}</p>
-                <p className="mt-1 text-sm font-medium text-blue-600">sales@demashop.com</p>
+                <p className="mt-1 text-sm font-medium text-blue-600">info@demashop.be</p>
               </div>
             </div>
           </div>

@@ -1,13 +1,15 @@
 import { NextResponse } from 'next/server';
 import { getProducts } from '@/lib/products';
-import type { Product, ProductFilters, ProductApiResponse } from '@/types/product';
+import type { Product, ProductFilters } from '@/types/product';
+import { auth } from '@/auth';
+import fs from 'fs/promises';
+import path from 'path';
 
 // Helper function to parse query parameters with type safety
 function parseQueryParams(params: URLSearchParams): ProductFilters {
   const getParam = <T>(key: string, type: 'string' | 'number' | 'boolean' = 'string', defaultValue?: T): T | undefined => {
     const value = params.get(key);
     if (value === null) return defaultValue;
-    
     try {
       switch (type) {
         case 'number': {
@@ -71,7 +73,6 @@ function parseQueryParams(params: URLSearchParams): ProductFilters {
   };
 }
 
-// Helper function to check if a string contains a search term (case-insensitive)
 function matchesSearch(text: string | undefined, searchTerm: string): boolean {
   if (!text) return false;
   return text.toLowerCase().includes(searchTerm.toLowerCase());
@@ -282,6 +283,21 @@ function sortProducts(products: Product[], sortBy: string, sortOrder: 'asc' | 'd
   });
 }
 
+export async function writeProductsFile(products: Product[]) {
+  const filePath = path.resolve(process.cwd(), 'public', 'data', 'Product_pdfs_analysis_v2.json');
+  await fs.mkdir(path.dirname(filePath), { recursive: true });
+  await fs.writeFile(filePath, JSON.stringify(products, null, 2), 'utf-8');
+}
+
+async function logAdminActivity(entry: Record<string, any>) {
+  try {
+    const logDir = path.resolve(process.cwd(), 'public', 'data');
+    await fs.mkdir(logDir, { recursive: true });
+    const line = JSON.stringify({ ts: new Date().toISOString(), ...entry }) + '\n';
+    await fs.appendFile(path.join(logDir, 'admin_activity.log'), line, 'utf-8');
+  } catch {}
+}
+
 export async function GET(request: Request) {
   try {
     const { searchParams } = new URL(request.url);
@@ -311,18 +327,16 @@ export async function GET(request: Request) {
     
     const paginatedProducts = sortedProducts.slice(skip, skip + limit);
     
-    // Prepare the response
-    const response: ProductApiResponse = {
+    // Prepare and return the response
+    return NextResponse.json({
       products: paginatedProducts,
       total,
       page,
       limit,
       totalPages,
       hasMore: skip + limit < total,
-      filters
-    };
-    
-    return NextResponse.json(response);
+      filters,
+    });
     
   } catch (error) {
     console.error('Error in /api/products:', error);
@@ -343,17 +357,89 @@ export async function GET(request: Request) {
 
 export async function POST(request: Request) {
   try {
-    const product = await request.json();
-    // In a real app, you would save the product to a database here
-    return NextResponse.json(product, { status: 201 });
+    const session = await auth();
+    const role = (session?.user as any)?.role;
+    if (role !== 'admin') {
+      return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
+    }
+
+    const bodyText = await request.text();
+    const body = bodyText ? JSON.parse(bodyText) : {};
+
+    let incoming: any[] = [];
+    if (Array.isArray(body)) incoming = body;
+    else if (Array.isArray(body?.products)) incoming = body.products;
+    else if (body && typeof body === 'object') incoming = [body];
+
+    if (!incoming.length) {
+      return NextResponse.json({ error: 'No products provided' }, { status: 400 });
+    }
+
+    const sanitize = (v: any, max = 500) => {
+      if (v === undefined || v === null) return undefined;
+      const s = String(v).trim();
+      return s.slice(0, max);
+    };
+
+    const normalized: any[] = [];
+    for (const item of incoming) {
+      if (!item || typeof item !== 'object') continue;
+      const sku = sanitize(item.sku, 120);
+      const name = sanitize(item.name, 200);
+      const product_category = sanitize(item.product_category, 120);
+      if (!sku || !name || !product_category) {
+        return NextResponse.json({ error: 'Invalid product: requires sku, name, product_category' }, { status: 400 });
+      }
+      const out: any = { ...item, sku, name, product_category };
+      if (typeof item.description !== 'undefined') out.description = sanitize(item.description, 5000);
+      if (typeof item.pdf_source !== 'undefined') out.pdf_source = sanitize(item.pdf_source, 1000);
+      if (typeof item.price !== 'undefined') {
+        const p = typeof item.price === 'string' ? parseFloat(item.price.replace(',', '.')) : Number(item.price);
+        if (!Number.isNaN(p) && Number.isFinite(p)) out.price = p;
+        else delete out.price;
+      }
+      normalized.push(out);
+    }
+
+    const existing = await getProducts();
+    const bySku = new Map(existing.map(p => [p.sku, p] as const));
+
+    for (const item of normalized) {
+      const sku = String(item.sku || '').trim();
+      if (!sku) continue;
+      const next: Product = {
+        ...(bySku.get(sku) || {} as Product),
+        ...item,
+        sku,
+      } as Product;
+      bySku.set(sku, next);
+    }
+
+    const updated = Array.from(bySku.values());
+
+    try {
+      const dataDir = path.resolve(process.cwd(), 'public', 'data');
+      const backupsDir = path.join(dataDir, 'backups');
+      await fs.mkdir(backupsDir, { recursive: true });
+      const currentPath = path.join(dataDir, 'Product_pdfs_analysis_v2.json');
+      const backupPath = path.join(backupsDir, `products-${new Date().toISOString().replace(/[:]/g,'-')}.json`);
+      try {
+        const current = await fs.readFile(currentPath, 'utf-8');
+        await fs.writeFile(backupPath, current, 'utf-8');
+      } catch {}
+    } catch {}
+
+    await writeProductsFile(updated);
+
+    await logAdminActivity({
+      action: 'products_post',
+      by: (session?.user as any)?.aliasEmail || session?.user?.email,
+      count: normalized.length,
+    });
+
+    return NextResponse.json({ ok: true, count: normalized.length });
   } catch (error) {
-    console.error('Error creating product:', error);
-    return NextResponse.json(
-      { 
-        error: 'Failed to create product', 
-        details: error instanceof Error ? error.message : 'Unknown error' 
-      },
-      { status: 500 }
-    );
+    console.error('Error writing products:', error);
+    return NextResponse.json({ error: 'Failed to write products' }, { status: 500 });
   }
 }

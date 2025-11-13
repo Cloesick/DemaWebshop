@@ -43,6 +43,36 @@ const formatPropertyName = (key: string): string => {
     .trim();
 };
 
+// Translate known spec labels to i18n keys
+const translateSpecLabel = (label: string, t: (k: string, vars?: any) => string): string => {
+  switch (label) {
+    case 'Pressure':
+      return t('product.pressure_range');
+    case 'Overpressure':
+      return t('product.overpressure');
+    case 'Flow':
+      return t('product.flow');
+    case 'Power In/Out':
+      return t('product.power_in_out');
+    case 'Power':
+      return t('product.power');
+    case 'Electrical':
+      return t('product.electrical');
+    case 'RPM':
+      return t('product.rpm');
+    case 'Cable':
+      return t('product.cable');
+    case 'Dimensions':
+      return t('product.dimensions_mm');
+    case 'Weight':
+      return t('product.weight');
+    case 'Sizes':
+      return t('product.available_sizes');
+    default:
+      return label;
+  }
+};
+
 export default function ProductCard({ product, className = '', viewMode = 'grid' }: ProductCardProps) {
   const router = useRouter();
   const addToCart = useCartStore(s => s.addToCart);
@@ -73,7 +103,7 @@ export default function ProductCard({ product, className = '', viewMode = 'grid'
   const imageUrl = skuImage || vm.image;
   
   // Format price based on selected dimensions or other logic
-  const price = vm.priceLabel;
+  const price = vm.priceLabel === 'Price on request' ? t('product.request_quote') : vm.priceLabel;
   // Derive PDF file name from URL
   const pdfName = product.pdf_source ? (() => {
     try {
@@ -129,15 +159,15 @@ export default function ProductCard({ product, className = '', viewMode = 'grid'
               </Link>
             </h3>
             {/* Description removed by request */}
-            <p className="text-xs text-gray-500">SKU: {product.sku}</p>
+            <p className="text-xs text-gray-500">{t('product.sku')}: {product.sku}</p>
             {vm.badges?.[0] && (
               <span className="inline-block mt-2 px-2.5 py-0.5 rounded-full text-xs font-medium bg-primary/10 text-primary">
-                {vm.badges[0]}
+                {vm.badges[0] === 'In Stock' ? t('product.in_stock') : vm.badges[0]}
               </span>
             )}
             {product.dimensions_mm_list?.[0] && (
               <p className="mt-2 text-sm text-gray-900">
-                <span className="font-medium text-gray-900">Size:</span> <span className="text-gray-900">{product.dimensions_mm_list[0]}mm</span>
+                <span className="font-medium text-gray-900">{t('product.available_sizes')}:</span> <span className="text-gray-900">{product.dimensions_mm_list[0]}mm</span>
               </p>
             )}
             {/* PDF link and source pages (list view) */}
@@ -168,7 +198,7 @@ export default function ProductCard({ product, className = '', viewMode = 'grid'
                         onClick={(e) => e.stopPropagation()}
                         className="px-2.5 py-1 bg-gray-100 rounded-md text-xs font-medium text-gray-700 hover:underline"
                       >
-                        Page {p}
+                        {t('product.page')} {p}
                       </a>
                     ))}
                   </div>
@@ -193,7 +223,7 @@ export default function ProductCard({ product, className = '', viewMode = 'grid'
                 }
               }}
             >
-              Add to Cart
+              {t('product.add_to_cart')}
             </Button>
           </div>
         </div>
@@ -228,11 +258,11 @@ export default function ProductCard({ product, className = '', viewMode = 'grid'
               </Link>
             </h3>
             {/* Description removed by request */}
-            <p className="text-xs text-gray-500 mb-2">SKU: {product.sku}</p>
+            <p className="text-xs text-gray-500 mb-2">{t('product.sku')}: {product.sku}</p>
             {vm.badges?.length ? (
               <div className="mb-2 flex flex-wrap gap-1">
                 {vm.badges.slice(0,2).map((b) => (
-                  <span key={b} className="inline-block px-2.5 py-0.5 rounded-full text-xs font-medium bg-primary/10 text-primary">{b}</span>
+                  <span key={b} className="inline-block px-2.5 py-0.5 rounded-full text-xs font-medium bg-primary/10 text-primary">{b === 'In Stock' ? t('product.in_stock') : b}</span>
                 ))}
               </div>
             ) : null}
@@ -245,7 +275,7 @@ export default function ProductCard({ product, className = '', viewMode = 'grid'
                   onValueChange={(value) => setSelectedDimensions(Number(value))}
                 >
                   <SelectTrigger className="w-full">
-                    <SelectValue placeholder="Select size" />
+                    <SelectValue placeholder={t('product.select_size')} />
                   </SelectTrigger>
                   <SelectContent>
                     {uniqueDimensions.map((dimension, index) => (
@@ -262,7 +292,7 @@ export default function ProductCard({ product, className = '', viewMode = 'grid'
             <div className="mt-2 space-y-1">
               {vm.specs.slice(0,3).map(spec => (
                 <div key={spec.label} className="flex justify-between text-sm">
-                  <span className="text-gray-600">{spec.label}:</span>
+                  <span className="text-gray-600">{translateSpecLabel(spec.label, t)}:</span>
                   <span className="font-medium text-gray-900">{spec.value}</span>
                 </div>
               ))}
@@ -282,13 +312,13 @@ export default function ProductCard({ product, className = '', viewMode = 'grid'
         <div className="mt-4 grid grid-cols-2 gap-2 text-sm">
           {vm.specs.map(s => (
             <div key={s.label} className="flex items-center justify-between">
-              <span className="text-gray-500 mr-1">{s.label}:</span>
+              <span className="text-gray-500 mr-1">{translateSpecLabel(s.label, t)}:</span>
               <span>{s.value}</span>
             </div>
           ))}
           {Array.isArray(product.dimensions_mm_list) && product.dimensions_mm_list.length > 0 && (
             <div className="flex items-center">
-              <span className="text-gray-900 mr-1">Sizes:</span>
+              <span className="text-gray-900 mr-1">{t('product.available_sizes')}:</span>
               <span className="text-gray-900">
                 {product.dimensions_mm_list.slice(0, 3).join('mm, ')}mm
                 {product.dimensions_mm_list.length > 3 ? '...' : ''}
@@ -321,7 +351,7 @@ export default function ProductCard({ product, className = '', viewMode = 'grid'
                       onClick={(e) => e.stopPropagation()}
                       className="px-2.5 py-1 bg-gray-100 rounded-md text-xs font-medium text-gray-700 hover:underline"
                     >
-                      Page {p}
+                      {t('product.page')} {p}
                     </a>
                   ))}
                 </div>
@@ -352,7 +382,7 @@ export default function ProductCard({ product, className = '', viewMode = 'grid'
               }
             }}
           >
-            Add to Cart
+            {t('product.add_to_cart')}
           </button>
         </div>
       </div>

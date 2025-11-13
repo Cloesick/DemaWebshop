@@ -1,26 +1,35 @@
-import { getPdfCategories, getPdfsByCategory, getSubcategoriesForMain } from '@/lib/pdfCatalog';
+"use client";
+import { useEffect, useState } from 'react';
 import CategoryTile from '@/components/categories/CategoryTile';
+import { useLocale } from '@/contexts/LocaleContext';
 
-export default async function CategoriesPage() {
-  const pdfCategories = await getPdfCategories();
-  const tiles = await Promise.all(
-    pdfCategories.map(async ({ slug, label, count }) => {
-      const pdfs = await getPdfsByCategory(slug);
-      const subcategories = getSubcategoriesForMain(slug);
-      return { slug, label, count, pdfs, subcategories };
-    })
-  );
+export default function CategoriesPage() {
+  const { t } = useLocale();
+  const [tiles, setTiles] = useState<Array<{ slug: string; label: string; count: number; pdfs?: { name: string; href: string }[]; subcategories?: { slug: string; label: string }[] }>>([]);
+
+  useEffect(() => {
+    (async () => {
+      try {
+        const res = await fetch('/api/pdf-catalog');
+        if (!res.ok) throw new Error('Failed to load categories');
+        const data = await res.json();
+        if (Array.isArray(data?.categories)) setTiles(data.categories);
+      } catch {
+        setTiles([]);
+      }
+    })();
+  }, []);
 
   return (
     <div className="min-h-screen flex flex-col">
       <main className="container mx-auto px-4 py-8 flex-1">
-        <h1 className="text-3xl font-bold mb-6">Categories</h1>
+        <h1 className="text-3xl font-bold mb-6">{t('nav.categories')}</h1>
         <p className="text-sm text-gray-500 mb-6">
-          Categories detected from documents folder. Each tile links to its category page and shows how many PDFs are inside.
+          {t('categories.intro')}
         </p>
-        {pdfCategories.length === 0 ? (
+        {tiles.length === 0 ? (
           <div className="text-sm text-gray-600">
-            No PDFs found under <code className="px-1 py-0.5 rounded bg-gray-100">public/documents/Product_pdfs</code>.
+            {t('categories.empty')}
           </div>
         ) : (
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">

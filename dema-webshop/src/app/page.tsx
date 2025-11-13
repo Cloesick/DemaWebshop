@@ -1,13 +1,15 @@
 'use client';
 
 import Link from 'next/link';
-import { useEffect, useState } from 'react';
-import { FiArrowRight, FiTruck, FiShield, FiHeadphones } from 'react-icons/fi';
-import { useCookieConsent } from '@/contexts/CookieConsentContext';
+import { useState, useEffect } from 'react';
+import { FiArrowRight, FiHeadphones, FiShield, FiTruck } from 'react-icons/fi';
 import { useLocale } from '@/contexts/LocaleContext';
+import { useCookieConsent } from '@/contexts/CookieConsentContext';
+import ProductCard from '@/components/products/ProductCard';
+import type { Product } from '@/types/product';
 
 // Placeholder image component to handle loading states
-const PlaceholderImage = ({ src, alt, className }: { src: string; alt: string; className?: string }) => {
+const InlinePlaceholderImage = ({ src, alt, className }: { src: string; alt: string; className?: string }) => {
   return (
     <div className={`relative bg-gray-100 overflow-hidden ${className || ''}`}>
       <div className="absolute inset-0 bg-gradient-to-br from-blue-50 to-blue-100"></div>
@@ -74,6 +76,7 @@ export default function Home() {
   const { t } = useLocale();
   const [highlights, setHighlights] = useState(defaultHighlights);
   const [personalized, setPersonalized] = useState(false);
+  const [highlightProducts, setHighlightProducts] = useState<Product[]>([]);
 
   // Simple personalization: if preference cookies are allowed and a preferredCategory exists,
   // prioritize items from that category
@@ -102,6 +105,39 @@ export default function Home() {
   useEffect(() => {
     let cancelled = false;
     const run = async () => {
+      // Prefer profile-based marketing personalization if user opted in
+      let usedMarketingSuggestions = false;
+      try {
+        const profileMarketing = typeof window !== 'undefined' && localStorage.getItem('profile:marketing') === 'true';
+        if (profileMarketing) {
+          const clientId = (() => {
+            try {
+              let id: string = localStorage.getItem('client:id') || '';
+              if (!id) {
+                id = (crypto as any)?.randomUUID ? (crypto as any).randomUUID() : String(Math.random());
+                localStorage.setItem('client:id', id);
+              }
+              return id;
+            } catch (_) {
+              return '';
+            }
+          })();
+          if (clientId) {
+            const r = await fetch(`/api/marketing/suggestions?clientId=${encodeURIComponent(clientId)}&limit=4`, { cache: 'no-store' });
+            if (r.ok) {
+              const data = await r.json();
+              if (!cancelled && Array.isArray(data.items)) {
+                setHighlightProducts(data.items as Product[]);
+                setPersonalized(Boolean(data.personalized));
+                usedMarketingSuggestions = true;
+              }
+            }
+          }
+        }
+      } catch (_) {}
+
+      if (usedMarketingSuggestions) return;
+
       if (!(consent?.analytics || consent?.marketing)) {
         return;
       }
@@ -121,22 +157,15 @@ export default function Home() {
         const data = await res.json();
         if (cancelled) return;
         if (Array.isArray(data.items) && data.items.length) {
-          const mapped = data.items.map((it: any) => ({
-            name: it.name || it.sku,
-            description: it.description || '',
-            image: it.imageUrl || '/images/placeholder.jpg',
-            tag: data.personalized ? 'For you' : 'Popular',
-            category: it.product_category || 'Products',
-          }));
-          setHighlights(mapped);
+          setHighlightProducts(data.items as Product[]);
           setPersonalized(Boolean(data.personalized));
         }
       } catch (_) {
-        // silently ignore and keep defaults
+        // ignore
       }
     };
     run();
-    return () => { cancelled = true; };
+    return () => { cancelled = false; };
   }, [consent?.analytics, consent?.marketing, consent?.preferences]);
   return (
     <div className="bg-white">
@@ -217,36 +246,36 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="mt-10 grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-4">
-            {highlights.map((item) => (
-              <div key={item.name} className="group relative">
-                <div className="w-full min-h-80 bg-white aspect-w-1 aspect-h-1 rounded-md overflow-hidden group-hover:opacity-75 h-64">
-                  <PlaceholderImage
-                    src={item.image}
-                    alt={item.name}
-                    className="w-full h-full object-cover object-center"
-                  />
-                </div>
-                <div className="mt-4">
-                  <div className="flex items-center justify-between">
-                    <h3 className="text-lg font-medium text-gray-900">{item.name}</h3>
-                    <span className="inline-flex items-center px-2 py-1 rounded text-xs font-medium bg-blue-100 text-blue-800">
-                      {item.tag}
-                    </span>
-                  </div>
-                  <p className="mt-1 text-sm text-gray-500">{item.description}</p>
-                  <div className="mt-3">
-                    <Link
-                      href={`/products?category=${encodeURIComponent(item.category)}`}
-                      className="inline-flex items-center text-sm font-medium text-blue-700 hover:text-blue-800"
-                    >
-                      {t('home.highlights.view_in')} {item.category}
-                      <FiArrowRight className="ml-1 h-4 w-4" />
-                    </Link>
-                  </div>
-                </div>
+          <div className="mt-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            {(highlightProducts.length ? highlightProducts : []).slice(0,4).map((p) => (
+              <div key={p.sku} className="p-2">
+                <ProductCard product={p} viewMode="grid" />
               </div>
             ))}
+            {highlightProducts.length === 0 && (
+              <div className="sm:col-span-2 lg:col-span-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                {highlights.map((item) => (
+                  <div key={item.name} className="group relative bg-white border border-gray-200 rounded-lg overflow-hidden shadow-card hover:shadow-card-hover transition-all duration-200">
+                    <div className="w-full h-48 bg-gray-100 p-4 overflow-hidden flex items-center justify-center">
+                      <InlinePlaceholderImage src={item.image} alt={item.name} className="w-full h-full object-contain" />
+                    </div>
+                    <div className="p-4">
+                      <div className="flex items-center justify-between">
+                        <h3 className="text-base font-bold text-gray-900 mb-1 break-words">{item.name}</h3>
+                        <span className="inline-flex items-center px-2 py-1 rounded text-xs font-medium bg-blue-100 text-blue-800">{item.tag}</span>
+                      </div>
+                      <p className="mt-1 text-sm text-gray-500">{item.description}</p>
+                      <div className="mt-3">
+                        <Link href={`/products?category=${encodeURIComponent(item.category)}`} className="inline-flex items-center text-sm font-medium text-blue-700 hover:text-blue-800">
+                          {t('home.highlights.view_in')} {item.category}
+                          <FiArrowRight className="ml-1 h-4 w-4" />
+                        </Link>
+                      </div>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            )}
           </div>
 
           <div className="mt-12 text-center">

@@ -1,6 +1,7 @@
 'use client';
 
 import { useState } from 'react';
+import { useSession, signIn, signOut } from 'next-auth/react';
 import { FiUser, FiShoppingBag, FiSettings, FiLogOut, FiChevronRight } from 'react-icons/fi';
 import Link from 'next/link';
 
@@ -32,7 +33,105 @@ type UserData = {
   orders: Order[];
 };
 
+function SingleProductForm({ onSaved }: { onSaved: (msg: string) => void }) {
+  const [sku, setSku] = useState('');
+  const [name, setName] = useState('');
+  const [productCategory, setProductCategory] = useState('');
+  const [description, setDescription] = useState('');
+  const [price, setPrice] = useState<string>('');
+  const [pdfSource, setPdfSource] = useState('');
+  const [submitting, setSubmitting] = useState(false);
+  const [loadingExisting, setLoadingExisting] = useState(false);
+
+  const submit = async (e: React.FormEvent) => {
+    e.preventDefault();
+    if (!sku.trim() || !name.trim() || !productCategory.trim()) {
+      onSaved('Please fill required fields: SKU, Name, Category');
+      return;
+    }
+    try {
+      setSubmitting(true);
+      const body: any = {
+        sku: sku.trim(),
+        name: name.trim(),
+        product_category: productCategory.trim(),
+        description,
+      };
+      const priceNum = parseFloat(price.replace(',', '.'));
+      if (!Number.isNaN(priceNum)) body.price = priceNum;
+      if (pdfSource) body.pdf_source = pdfSource.trim();
+      const res = await fetch('/api/products', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(body),
+      });
+      const data = await res.json();
+      if (!res.ok) throw new Error(data?.error || 'Failed');
+      onSaved('Product saved');
+      setSku('');
+      setName('');
+      setProductCategory('');
+      setDescription('');
+      setPrice('');
+      setPdfSource('');
+    } catch (err: any) {
+      onSaved(err.message || 'Error');
+    } finally {
+      setSubmitting(false);
+    }
+  };
+
+  return (
+    <form onSubmit={submit} className="space-y-3">
+      <div className="flex gap-2">
+        <input value={sku} onChange={(e)=>setSku(e.target.value)} placeholder="SKU*" className="flex-1 border rounded p-2" />
+        <button
+          type="button"
+          disabled={!sku || loadingExisting}
+          onClick={async () => {
+            try {
+              setLoadingExisting(true);
+              const res = await fetch(`/api/products?sku=${encodeURIComponent(sku)}`);
+              const data = await res.json();
+              const found = Array.isArray(data?.products) ? data.products[0] : undefined;
+              if (!found) {
+                onSaved('No product found for this SKU');
+              } else {
+                setName(found.name || '');
+                setProductCategory(found.product_category || '');
+                setDescription(found.description || '');
+                setPrice(typeof found.price === 'number' ? String(found.price) : (found.price || ''));
+                setPdfSource(found.pdf_source || '');
+                onSaved('Loaded existing product');
+              }
+            } catch (e: any) {
+              onSaved(e.message || 'Failed to load product');
+            } finally {
+              setLoadingExisting(false);
+            }
+          }}
+          className="px-3 py-2 bg-gray-100 hover:bg-gray-200 rounded text-sm"
+        >
+          {loadingExisting ? 'Loading...' : 'Load'}
+        </button>
+      </div>
+      <input value={name} onChange={(e)=>setName(e.target.value)} placeholder="Name*" className="w-full border rounded p-2" />
+      <input value={productCategory} onChange={(e)=>setProductCategory(e.target.value)} placeholder="Product Category*" className="w-full border rounded p-2" />
+      <textarea value={description} onChange={(e)=>setDescription(e.target.value)} placeholder="Description" className="w-full border rounded p-2 h-24" />
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+        <input value={price} onChange={(e)=>setPrice(e.target.value)} placeholder="Price (optional)" className="w-full border rounded p-2" />
+        <input value={pdfSource} onChange={(e)=>setPdfSource(e.target.value)} placeholder="PDF Source URL/path (optional)" className="w-full border rounded p-2" />
+      </div>
+      <button type="submit" disabled={submitting} className="inline-flex items-center px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 disabled:opacity-50">
+        {submitting ? 'Saving...' : 'Confirm'}
+      </button>
+    </form>
+  );
+}
+
 export default function AccountPage() {
+  const { data: session, status } = useSession();
+  const userRole = (session?.user as any)?.role as string | undefined;
   // Mock user data - in a real app, this would come from an API
   const [userData, setUserData] = useState<UserData>({
     name: 'John Doe',
@@ -68,7 +167,15 @@ export default function AccountPage() {
     ],
   });
 
-  const [activeTab, setActiveTab] = useState<'overview' | 'orders' | 'settings'>('overview');
+  const [activeTab, setActiveTab] = useState<'overview' | 'orders' | 'settings' | 'admin'>('overview');
+
+  const [newProductJson, setNewProductJson] = useState<string>('');
+  const [bulkJson, setBulkJson] = useState<string>('');
+  const [deleteSku, setDeleteSku] = useState<string>('');
+  const [uploading, setUploading] = useState<boolean>(false);
+  const [message, setMessage] = useState<string>('');
+  const [adminLogs, setAdminLogs] = useState<any[]>([]);
+  const [logsLoading, setLogsLoading] = useState<boolean>(false);
 
   const handlePreferenceChange = (key: keyof UserData['preferences'], value: any) => {
     setUserData(prev => ({
@@ -78,6 +185,15 @@ export default function AccountPage() {
         [key]: value,
       },
     }));
+    try {
+      if (key === 'marketing') {
+        if (value) {
+          localStorage.setItem('profile:marketing', 'true');
+        } else {
+          localStorage.setItem('profile:marketing', 'false');
+        }
+      }
+    } catch (_) {}
   };
 
   return (
@@ -91,8 +207,13 @@ export default function AccountPage() {
                 <FiUser className="h-8 w-8" />
               </div>
               <div>
-                <h1 className="text-2xl font-bold">Welcome, {userData.name}</h1>
-                <p className="text-blue-100">{userData.email}</p>
+                <h1 className="text-2xl font-bold">Welcome, {session?.user?.name || userData.name}</h1>
+                <p className="text-blue-100">{session?.user?.email || userData.email}</p>
+                {userRole && (
+                  <span className="inline-block mt-2 text-xs uppercase tracking-wide bg-white/20 px-2 py-1 rounded">
+                    Role: {userRole}
+                  </span>
+                )}
               </div>
             </div>
           </div>
@@ -139,11 +260,36 @@ export default function AccountPage() {
                   <FiSettings className="mr-3 h-5 w-5" />
                   Account Settings
                 </button>
+                {userRole === 'admin' && (
+                  <button
+                    onClick={() => setActiveTab('admin')}
+                    className={`w-full flex items-center px-4 py-3 text-sm font-medium rounded-md ${
+                      activeTab === 'admin' 
+                        ? 'bg-blue-50 text-blue-700' 
+                        : 'text-gray-700 hover:bg-gray-100'
+                    }`}
+                  >
+                    Admin
+                  </button>
+                )}
                 <div className="border-t border-gray-200 my-2"></div>
-                <button className="w-full flex items-center px-4 py-3 text-sm font-medium text-gray-700 hover:bg-gray-100 rounded-md">
-                  <FiLogOut className="mr-3 h-5 w-5" />
-                  Sign Out
-                </button>
+                {status !== 'authenticated' ? (
+                  <button
+                    onClick={() => signIn('google', { callbackUrl: '/account' })}
+                    className="w-full flex items-center px-4 py-3 text-sm font-medium text-gray-700 hover:bg-gray-100 rounded-md"
+                  >
+                    <FiLogOut className="mr-3 h-5 w-5" />
+                    Sign In
+                  </button>
+                ) : (
+                  <button
+                    onClick={() => signOut({ callbackUrl: '/' })}
+                    className="w-full flex items-center px-4 py-3 text-sm font-medium text-gray-700 hover:bg-gray-100 rounded-md"
+                  >
+                    <FiLogOut className="mr-3 h-5 w-5" />
+                    Sign Out
+                  </button>
+                )}
               </nav>
             </div>
 
@@ -384,6 +530,122 @@ export default function AccountPage() {
                               Delete Account
                             </button>
                           </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              )}
+
+              {activeTab === 'admin' && userRole === 'admin' && (
+                <div>
+                  <h2 className="text-lg font-medium text-gray-900 mb-6">Admin</h2>
+                  <div className="bg-white shadow-sm rounded-lg overflow-hidden">
+                    <div className="p-6 space-y-6">
+                      {message && (
+                        <div className="text-sm text-green-700">{message}</div>
+                      )}
+                      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <div className="space-y-3">
+                          <h3 className="text-base font-medium text-gray-900">Add/Update Single Product</h3>
+                          <SingleProductForm onSaved={(msg) => setMessage(msg)} />
+                        </div>
+                        <div className="space-y-3">
+                          <h3 className="text-base font-medium text-gray-900">Bulk Add/Update (Array JSON)</h3>
+                          <textarea
+                            value={bulkJson}
+                            onChange={(e) => setBulkJson(e.target.value)}
+                            className="w-full border rounded p-2 h-40"
+                            placeholder='[{"sku":"A"},{"sku":"B"}] or {"products":[...]}'
+                          />
+                          <button
+                            onClick={async () => {
+                              try {
+                                setMessage('');
+                                const res = await fetch('/api/products', {
+                                  method: 'POST',
+                                  headers: { 'Content-Type': 'application/json' },
+                                  body: bulkJson,
+                                });
+                                const data = await res.json();
+                                if (!res.ok) throw new Error(data?.error || 'Failed');
+                                setMessage('Bulk saved');
+                                setBulkJson('');
+                              } catch (e: any) {
+                                setMessage(e.message || 'Error');
+                              }
+                            }}
+                            className="inline-flex items-center px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700"
+                          >
+                            Confirm
+                          </button>
+                        </div>
+                      </div>
+                      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <div className="space-y-3">
+                          <h3 className="text-base font-medium text-gray-900">Delete Product by SKU</h3>
+                          <input
+                            value={deleteSku}
+                            onChange={(e) => setDeleteSku(e.target.value)}
+                            className="w-full border rounded p-2"
+                            placeholder="SKU"
+                          />
+                          <button
+                            onClick={async () => {
+                              try {
+                                setMessage('');
+                                if (!deleteSku) throw new Error('SKU required');
+                                const res = await fetch(`/api/products/${encodeURIComponent(deleteSku)}`, {
+                                  method: 'DELETE',
+                                });
+                                const data = await res.json();
+                                if (!res.ok) throw new Error(data?.error || 'Failed');
+                                setMessage('Deleted');
+                                setDeleteSku('');
+                              } catch (e: any) {
+                                setMessage(e.message || 'Error');
+                              }
+                            }}
+                            className="inline-flex items-center px-4 py-2 bg-red-600 text-white rounded hover:bg-red-700"
+                          >
+                            Delete
+                          </button>
+                        </div>
+                        <div className="space-y-3">
+                          <h3 className="text-base font-medium text-gray-900">Upload PDF (goes to categories)</h3>
+                          <form
+                            onSubmit={async (e) => {
+                              e.preventDefault();
+                              try {
+                                setUploading(true);
+                                setMessage('');
+                                const input = (e.currentTarget.elements.namedItem('file') as HTMLInputElement);
+                                if (!input?.files || !input.files[0]) throw new Error('File required');
+                                const fd = new FormData();
+                                fd.set('file', input.files[0]);
+                                fd.set('filename', input.files[0].name);
+                                const res = await fetch('/api/upload', { method: 'POST', body: fd });
+                                const data = await res.json();
+                                if (!res.ok) throw new Error(data?.error || 'Failed');
+                                setMessage(`Uploaded: ${data.path}`);
+                                input.value = '';
+                              } catch (e: any) {
+                                setMessage(e.message || 'Error');
+                              } finally {
+                                setUploading(false);
+                              }
+                            }}
+                            className="space-y-3"
+                          >
+                            <input name="file" type="file" accept="application/pdf" className="w-full" />
+                            <button
+                              type="submit"
+                              disabled={uploading}
+                              className="inline-flex items-center px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 disabled:opacity-50"
+                            >
+                              {uploading ? 'Uploading...' : 'Upload'}
+                            </button>
+                          </form>
                         </div>
                       </div>
                     </div>

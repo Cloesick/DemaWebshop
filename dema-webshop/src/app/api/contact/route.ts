@@ -118,7 +118,7 @@ export async function POST(request: Request) {
 
     // 2. Send confirmation email to the user
     await resend.emails.send({
-      from: 'DemaShop <noreply@demashop.com>',
+      from: 'DemaShop <noreply@demashop.be>',
       to: formData.email,
       subject: 'Thank you for contacting DemaShop!',
       text: `Hi ${formData.name},\n\nThank you for reaching out to DemaShop. We've received your message and our team will get back to you within 24-48 hours.\n\nHere's a summary of your inquiry:\n- Name: ${formData.name}\n- Email: ${formData.email}\n- Phone: ${formData.phone || 'Not provided'}\n- Company: ${formData.company || 'Not provided'}\n- Inquiry Type: ${formData.inquiryType || 'Not specified'}\n- Budget: ${formData.budget || 'Not specified'}\n- Timeline: ${formData.timeline || 'Not specified'}\n\nYour Message:\n${formData.message}\n\nBest regards,\nThe DemaShop Team`,
@@ -126,8 +126,8 @@ export async function POST(request: Request) {
 
     // 3. Send notification to your sales team and Nicolas
     await resend.emails.send({
-      from: 'DemaShop Contact Form <noreply@demashop.com>',
-      to: ['sales@demashop.com', 'nicolas.cloet@gmail.com'],
+      from: 'DemaShop Contact Form <noreply@demashop.be>',
+      to: ['info@demashop.be', 'nicolas.cloet@gmail.com'],
       subject: `New Contact Form Submission: ${formData.inquiryType || 'General Inquiry'}`,
       text: `New contact form submission from ${formData.name} (${formData.email}):\n\n` +
         `Name: ${formData.name}\n` +
