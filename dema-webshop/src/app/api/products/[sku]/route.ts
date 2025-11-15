@@ -28,7 +28,7 @@ export async function DELETE(
 
     const { sku } = params;
     const jsonDirectory = path.join(process.cwd(), 'public', 'data');
-    const filePath = path.join(jsonDirectory, 'Product_pdfs_analysis_v2.json');
+    const filePath = path.join(jsonDirectory, 'products_for_shop.json');
     const fileContents = await fs.readFile(filePath, 'utf8');
     const products: Product[] = JSON.parse(fileContents);
 
@@ -65,7 +65,7 @@ export async function GET(
     
     // Read the JSON file
     const jsonDirectory = path.join(process.cwd(), 'public', 'data');
-    const fileContents = await fs.readFile(jsonDirectory + '/Product_pdfs_analysis_v2.json', 'utf8');
+    const fileContents = await fs.readFile(jsonDirectory + '/products_for_shop.json', 'utf8');
     const products: Product[] = JSON.parse(fileContents);
     
     // Find the product by SKU

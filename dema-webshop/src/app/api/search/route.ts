@@ -20,7 +20,7 @@ export async function GET(request: Request) {
   try {
     // Read the JSON file
     const jsonDirectory = path.join(process.cwd(), 'public', 'data');
-    const fileContents = await fs.readFile(jsonDirectory + '/Product_pdfs_analysis_v2.json', 'utf8');
+    const fileContents = await fs.readFile(jsonDirectory + '/products_for_shop.json', 'utf8');
     const products: Product[] = JSON.parse(fileContents);
 
     // Simple search function that matches query against multiple fields

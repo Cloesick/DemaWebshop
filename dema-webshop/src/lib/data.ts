@@ -7,7 +7,7 @@ export async function loadProducts(): Promise<Product[]> {
   if (!_products) {
     try {
       // Use dynamic import for JSON files
-      const productData = await import('@/public/data/Product_pdfs_analysis_v2.json');
+      const productData = await import('@/public/data/products_for_shop.json');
       _products = productData.default || [];
     } catch (error) {
       console.error('Error loading products:', error);

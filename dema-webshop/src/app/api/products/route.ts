@@ -284,7 +284,7 @@ function sortProducts(products: Product[], sortBy: string, sortOrder: 'asc' | 'd
 }
 
 export async function writeProductsFile(products: Product[]) {
-  const filePath = path.resolve(process.cwd(), 'public', 'data', 'Product_pdfs_analysis_v2.json');
+  const filePath = path.resolve(process.cwd(), 'public', 'data', 'products_for_shop.json');
   await fs.mkdir(path.dirname(filePath), { recursive: true });
   await fs.writeFile(filePath, JSON.stringify(products, null, 2), 'utf-8');
 }

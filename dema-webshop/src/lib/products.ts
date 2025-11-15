@@ -9,7 +9,7 @@ let productsCacheMtimeMs: number | null = null;
 // Load products from the JSON file (server-side) and cache in memory
 export async function getProducts(_filters?: ProductFilters): Promise<Product[]> {
   try {
-    const filePath = path.resolve(process.cwd(), 'public', 'data', 'Product_pdfs_analysis_v2.json');
+    const filePath = path.resolve(process.cwd(), 'public', 'data', 'products_for_shop.json');
     // Invalidate cache in development or when the file changes
     const stat = await fs.stat(filePath);
     const mtimeMs = stat.mtimeMs;
@@ -171,6 +171,26 @@ export async function getProducts(_filters?: ProductFilters): Promise<Product[]>
 
         productsCache = productsArray.map((item: any, index: number): Product => {
           const description: string = String(item.description || '');
+
+          // Extract webshop-specific fields from products_for_shop.json
+          const category: string = item.product_category || item.category || item.catalog || 'Uncategorized';
+
+          // Map source information from webshop feed to PDF source/pages
+          const sourceObj = item.source || {};
+          const pdfSources: string[] = Array.isArray(sourceObj.pdf_sources) ? sourceObj.pdf_sources : [];
+          const sourcePages: number[] = Array.isArray(sourceObj.pages) ? sourceObj.pages : [];
+
+          // Prefer the first pdf source if present
+          const rawPdfSource: string = pdfSources[0] || item.pdf_source || '';
+
+          // Derive a simple image URL from media array if available
+          let imageFromMedia: string | undefined;
+          if (Array.isArray(item.media) && item.media.length > 0) {
+            const mainMedia = item.media.find((m: any) => m && m.role === 'main') || item.media[0];
+            if (mainMedia && typeof mainMedia.url === 'string') {
+              imageFromMedia = mainMedia.url;
+            }
+          }
           const parsed = parseFromDescription(description);
 
           const base: Product = {
@@ -181,15 +201,21 @@ export async function getProducts(_filters?: ProductFilters): Promise<Product[]>
             sku: item.sku || item.product_id || `product-${index}`,
             name: item.name || (description ? firstSentence(description, 60) : 'Unnamed Product'),
             description,
-            product_category: item.product_category || 'Uncategorized',
+            product_category: category,
 
             // Normalized links/arrays
-            pdf_source: resolvePdfSource(item.pdf_source || ''),
-            source_pages: Array.isArray(item.source_pages) ? item.source_pages : [],
+            pdf_source: resolvePdfSource(rawPdfSource || ''),
+            source_pages: sourcePages,
 
             // Optional/technical fields (coerced)
-            price: toNum(item.price),
-            imageUrl: typeof item.imageUrl === 'string' ? item.imageUrl : (typeof item.image === 'string' ? item.image : undefined),
+            // products_for_shop.json has price as an object { amount, currency, ... }
+            price: toNum(item.price?.amount ?? item.price),
+            imageUrl:
+              typeof item.imageUrl === 'string'
+                ? item.imageUrl
+                : typeof item.image === 'string'
+                  ? item.image
+                  : imageFromMedia,
             inStock: item.inStock !== false,
             rating: toNum(item.rating),
             reviewCount: toNum(item.reviewCount),

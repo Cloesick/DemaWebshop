@@ -6,7 +6,7 @@ import Footer from '@/components/layout/Footer';
 import Cart from '@/components/cart/Cart';
 import { CookieConsentProvider } from '@/contexts/CookieConsentContext';
 import { LocaleProvider } from '@/contexts/LocaleContext';
-import CookieConsentWrapper from '@/components/layout/CookieConsent';
+import CookieConsentWrapper from '@/components/layout/CookieConsentWrapper';
 import { cookies } from 'next/headers';
 import { Providers } from './providers';
 

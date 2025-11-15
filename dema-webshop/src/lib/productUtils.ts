@@ -392,10 +392,25 @@ const getImageUrl = (product?: Product | null): string => {
     return defaultPlaceholder;
   }
   
-  // If the product has an image URL, use it
+  // If the product has an explicit image URL, prefer it
   const possibleImage: unknown = (product as any)?.image;
   if (typeof possibleImage === 'string' && possibleImage.length > 0) {
     return possibleImage;
+  }
+
+  // Fallback to imageUrl (used by normalized products) if available
+  const imageUrl: unknown = (product as any)?.imageUrl;
+  if (typeof imageUrl === 'string' && imageUrl.length > 0) {
+    return imageUrl;
+  }
+
+  // Fallback to media array from products_for_shop.json
+  const media = (product as any)?.media;
+  if (Array.isArray(media) && media.length > 0) {
+    const mainMedia = media.find((m: any) => m && m.role === 'main') || media[0];
+    if (mainMedia && typeof mainMedia.url === 'string' && mainMedia.url.length > 0) {
+      return mainMedia.url;
+    }
   }
   
   try {
