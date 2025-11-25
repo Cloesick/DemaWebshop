@@ -4,6 +4,7 @@ export interface Product {
   name: string;
   description: string;
   product_category: string;
+  media?: { url: string; role?: string }[];
   
   // PDF and documentation
   pdf_source: string;

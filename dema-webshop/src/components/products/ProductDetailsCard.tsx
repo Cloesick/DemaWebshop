@@ -29,7 +29,11 @@ const renderList = (items: any[], key: string, unit: string = '') => (
 
 export default function ProductDetailsCard({ product, className = '' }: ProductDetailsCardProps) {
   const { t } = useLocale();
-  const title = product.description?.split('\n')[0] || 'Product';
+  const baseTitle = product.description?.split('\n')[0] || 'Product';
+  const skuText = product.sku || '';
+  const title = skuText && baseTitle && !baseTitle.toLowerCase().includes(skuText.toLowerCase())
+    ? `${baseTitle} ${skuText}`
+    : (baseTitle || skuText);
   
   // Generate a placeholder color based on product SKU or category
   const getPlaceholderColor = (str: string) => {
@@ -43,7 +47,10 @@ export default function ProductDetailsCard({ product, className = '' }: ProductD
 
   const categoryForImage = product.product_category?.replace(/[^a-z0-9]+/gi, '-').toLowerCase() || 'product';
   const placeholderColor = getPlaceholderColor(product.sku || categoryForImage);
-  const imageUrl = `data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='800' height='600' viewBox='0 0 800 600'%3E%3Crect width='800' height='600' fill='${encodeURIComponent(placeholderColor)}'/%3E%3Ctext x='50%25' y='50%25' font-family='Arial' font-size='24' text-anchor='middle' dominant-baseline='middle' fill='%23666'%3E${encodeURIComponent(categoryForImage)}%3C/text%3E%3C/svg%3E`;
+  const placeholderImageUrl = `data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='800' height='600' viewBox='0 0 800 600'%3E%3Crect width='800' height='600' fill='${encodeURIComponent(placeholderColor)}'/%3E%3Ctext x='50%25' y='50%25' font-family='Arial' font-size='24' text-anchor='middle' dominant-baseline='middle' fill='%23666'%3E${encodeURIComponent(categoryForImage)}%3C/text%3E%3C/svg%3E`;
+  const imageUrl = product.sku 
+    ? `/product-images/${product.sku}.png`
+    : placeholderImageUrl;
   
   // Calculate price based on dimensions or use a default
   const price = product.dimensions_mm_list?.[0] 
@@ -122,6 +129,12 @@ export default function ProductDetailsCard({ product, className = '' }: ProductD
                 height={300}
                 className="w-full h-full object-contain"
                 priority
+                onError={(e) => {
+                  const target = e.target as HTMLImageElement;
+                  if (target && target.src !== placeholderImageUrl) {
+                    target.src = placeholderImageUrl;
+                  }
+                }}
               />
             </div>
             
@@ -135,7 +148,7 @@ export default function ProductDetailsCard({ product, className = '' }: ProductD
                       href={product.pdf_source} 
                       target="_blank" 
                       rel="noopener noreferrer"
-                      className="text-sm text-blue-600 hover:underline flex items-center gap-1.5"
+                      className="inline-flex items-center gap-1.5 text-xs text-blue-600 hover:underline rounded"
                     >
                       <span>{t('product.view_pdf')}</span>
                       <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -152,10 +165,10 @@ export default function ProductDetailsCard({ product, className = '' }: ProductD
                       {product.source_pages.map((p) => (
                         <a
                           key={`page-${p}`}
-                          href={`${product.pdf_source}#page=${p}`}
+                          href={`${product.pdf_source}#page=${p}&search=${encodeURIComponent(product.sku)}`}
                           target="_blank"
                           rel="noopener noreferrer"
-                          className="px-2.5 py-1 bg-gray-100 rounded-md text-xs font-medium text-gray-700 hover:underline"
+                          className="inline-flex items-center gap-1.5 text-xs text-blue-600 hover:underline rounded"
                         >
                           {t('product.page')} {p}
                         </a>

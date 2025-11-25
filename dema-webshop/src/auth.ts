@@ -1,8 +1,7 @@
-import NextAuth from 'next-auth';
-import type { NextAuthConfig } from 'next-auth';
+import type { NextAuthOptions } from 'next-auth';
 import Google from 'next-auth/providers/google';
 
-export const authConfig = {
+export const authOptions: NextAuthOptions = {
   providers: [
     // Google OAuth; requires GOOGLE_CLIENT_ID and GOOGLE_CLIENT_SECRET in env
     Google,
@@ -40,6 +39,4 @@ export const authConfig = {
       return token;
     },
   },
-} satisfies NextAuthConfig;
-
-export const { handlers, auth, signIn, signOut } = NextAuth(authConfig);
+};

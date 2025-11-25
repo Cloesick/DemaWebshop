@@ -30,8 +30,28 @@ export async function getSkuImagePath(sku: string): Promise<string | null> {
 }
 
 function normalizeWebPath(p: string): string {
-  // The mapping may use paths like "public/images/pdf_pages/..."; strip public and ensure leading slash
+  // The mapping may use absolute OS paths like
+  //   "C:\\...\\public\\images\\pdf_pages\\foo.png"
+  // or relative ones like
+  //   "public/images/pdf_pages/foo.png" or "images/pdf_pages/foo.png".
+  // Convert these into clean web paths rooted at "/".
   const cleaned = p.replace(/\\/g, '/');
-  const noPublic = cleaned.replace(/^\/?public\//, '/');
-  return noPublic.startsWith('/') ? noPublic : `/${noPublic}`;
+
+  // If we can find a /public/ segment, strip everything up to and including it
+  const marker = '/public/';
+  const idx = cleaned.toLowerCase().lastIndexOf(marker);
+  let webPath = cleaned;
+  if (idx !== -1) {
+    webPath = cleaned.slice(idx + marker.length);
+  }
+
+  // Strip any leading "public/" if present
+  webPath = webPath.replace(/^public\//i, '');
+
+  // Ensure leading slash
+  if (!webPath.startsWith('/')) {
+    webPath = '/' + webPath;
+  }
+
+  return webPath;
 }

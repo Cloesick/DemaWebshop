@@ -323,6 +323,43 @@ npx next dev --turbopack -p 3000
 npx next dev --webpack -p 3000
 ```
 
+### Product Images (SKU-based)
+
+This project can automatically generate product images for the webshop based on source images from the PDF analyzer project.
+
+- **Source folder (local only):**
+  - `C:/Users/prova/Documents/Projects/PDF_Analyzer/images_experiment`
+- **Destination in this app:**
+  - `public/product-images/<SKU>.png`
+
+File naming convention in the source folder:
+
+- Example: `PISTO_PISTON_COMPRESSORS_Blue_Series_Pro_36826+36827+36828_IMG.png`
+- The part between the last `_` and `_IMG` contains one or more SKUs separated by `+`.
+- The sync script will create:
+  - `public/product-images/36826.png`
+  - `public/product-images/36827.png`
+  - `public/product-images/36828.png`
+
+The product detail pages then load images by SKU:
+
+- Primary path: `/product-images/<sku>.png`
+- If the file is missing or fails to load, a generated SVG placeholder is shown instead.
+
+To (re)generate the SKU images after updating the source images, run:
+
+```bash
+npm run sync-images
+```
+
+#### Performance & size considerations
+
+- The current `images_experiment` tree is roughly **70 MB** in total.
+- This is **not** a problem for a webshop:
+  - Only a **few images per page** are actually requested by browsers.
+  - Latency and bandwidth usage are driven by **per-image size** and the **number of images rendered per page**, not by the total size of all images on disk.
+- As long as individual images are kept in a reasonable range (hundreds of KB) and you avoid loading dozens of full-size images at once, this SKU-based pipeline remains performant.
+
 Notes:
 - Dev server runs at http://localhost:3000
 - next.config.js is configured for Turbopack via an empty `turbopack: {}`
@@ -625,6 +662,9 @@ npm run start
 
 # Run linter
 npm run lint
+
+# Sync product images from PDF_Analyzer/images_experiment into public/product-images
+npm run sync-images
 
 # Run type checking
 npm run type-check

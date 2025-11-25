@@ -53,31 +53,37 @@ export function ProductList({
   }, [inView, hasMore, loading, onLoadMore, initialLoad]);
 
   // Default product renderer
-  const defaultRenderProduct = (product: Product) => (
-    <div key={product.sku} className={`p-4 border rounded-lg ${itemClassName}`}>
-      <div className="w-full overflow-hidden rounded-lg bg-gray-100">
-        <ImageWithFallback
-          src={product.imageUrl || ''}
-          alt={product.description?.split('\n')[0] || 'Product'}
-          width={600}
-          height={450}
-          className="w-full h-auto object-contain"
-          fallbackText={product.product_category}
-        />
+  const defaultRenderProduct = (product: Product) => {
+    const primaryMediaUrl = product.media && product.media.length > 0 ? product.media[0]?.url : undefined;
+    const imageUrl = primaryMediaUrl || product.imageUrl || '';
+    const title = product.description?.split('\n')[0] || product.sku;
+
+    return (
+      <div key={product.sku} className={`p-4 border rounded-lg ${itemClassName}`}>
+        <div className="w-full overflow-hidden rounded-lg bg-gray-100">
+          <ImageWithFallback
+            src={imageUrl}
+            alt={title}
+            width={600}
+            height={450}
+            className="w-full h-auto object-contain"
+            fallbackText={product.product_category}
+          />
+        </div>
+        <div className="mt-4">
+          <h3 className="text-sm font-medium text-gray-900 line-clamp-2">
+            {title}
+          </h3>
+          <p className="mt-1 text-sm text-gray-500">{product.sku}</p>
+          <p className="mt-1 text-sm font-medium text-gray-900">
+            {product.dimensions_mm_list?.[0] 
+              ? `€${(product.dimensions_mm_list[0] * 0.5).toFixed(2)}`
+              : 'Price on request'}
+          </p>
+        </div>
       </div>
-      <div className="mt-4">
-        <h3 className="text-sm font-medium text-gray-900 line-clamp-2">
-          {product.description?.split('\n')[0]}
-        </h3>
-        <p className="mt-1 text-sm text-gray-500">{product.sku}</p>
-        <p className="mt-1 text-sm font-medium text-gray-900">
-          {product.dimensions_mm_list?.[0] 
-            ? `€${(product.dimensions_mm_list[0] * 0.5).toFixed(2)}`
-            : 'Price on request'}
-        </p>
-      </div>
-    </div>
-  );
+    );
+  };
 
   const renderer = renderProduct || defaultRenderProduct;
 

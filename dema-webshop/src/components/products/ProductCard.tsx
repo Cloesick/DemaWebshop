@@ -98,9 +98,14 @@ export default function ProductCard({ product, className = '', viewMode = 'grid'
     return () => { mounted = false; };
   }, [product.sku]);
   
-  const productName = vm.title;
+  const baseTitle = vm.title;
+  const skuText = product.sku || '';
+  const productName = skuText && baseTitle && !baseTitle.toLowerCase().includes(skuText.toLowerCase())
+    ? `${baseTitle} ${skuText}`
+    : (baseTitle || skuText);
   const description = vm.subtitle;
-  const imageUrl = skuImage || vm.image;
+  const primaryMediaUrl = product.media && product.media.length > 0 ? product.media[0]?.url : undefined;
+  const imageUrl = primaryMediaUrl || skuImage || vm.image;
   
   // Format price based on selected dimensions or other logic
   const price = vm.priceLabel === 'Price on request' ? t('product.request_quote') : vm.priceLabel;
@@ -179,7 +184,7 @@ export default function ProductCard({ product, className = '', viewMode = 'grid'
                     target="_blank"
                     rel="noopener noreferrer"
                     onClick={(e) => e.stopPropagation()}
-                    className="inline-flex items-center gap-1.5 text-sm text-blue-600 hover:underline"
+                    className="inline-flex items-center gap-1.5 text-xs text-blue-600 hover:underline rounded"
                   >
                     <span>{pdfName}</span>
                     <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -192,11 +197,11 @@ export default function ProductCard({ product, className = '', viewMode = 'grid'
                     {product.source_pages.map((p) => (
                       <a
                         key={`list-page-${p}`}
-                        href={`${product.pdf_source}#page=${p}`}
+                        href={`${product.pdf_source}#page=${p}&search=${encodeURIComponent(product.sku)}`}
                         target="_blank"
                         rel="noopener noreferrer"
                         onClick={(e) => e.stopPropagation()}
-                        className="px-2.5 py-1 bg-gray-100 rounded-md text-xs font-medium text-gray-700 hover:underline"
+                        className="inline-flex items-center gap-1.5 text-xs text-blue-600 hover:underline rounded"
                       >
                         {t('product.page')} {p}
                       </a>
@@ -333,7 +338,7 @@ export default function ProductCard({ product, className = '', viewMode = 'grid'
                 target="_blank"
                 rel="noopener noreferrer"
                 onClick={(e) => e.stopPropagation()}
-                className="inline-flex items-center gap-1.5 text-xs text-blue-600 hover:underline"
+                className="inline-flex items-center gap-1.5 text-xs text-blue-600 hover:underline rounded"
               >
                 <span>{pdfName}</span>
                 <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -345,11 +350,11 @@ export default function ProductCard({ product, className = '', viewMode = 'grid'
                   {product.source_pages.map((p) => (
                     <a
                       key={`grid-page-${p}`}
-                      href={`${product.pdf_source}#page=${p}`}
+                      href={`${product.pdf_source}#page=${p}&search=${encodeURIComponent(product.sku)}`}
                       target="_blank"
                       rel="noopener noreferrer"
                       onClick={(e) => e.stopPropagation()}
-                      className="px-2.5 py-1 bg-gray-100 rounded-md text-xs font-medium text-gray-700 hover:underline"
+                      className="inline-flex items-center gap-1.5 text-xs text-blue-600 hover:underline rounded"
                     >
                       {t('product.page')} {p}
                     </a>

@@ -6,7 +6,8 @@
     "dev": "set NEXT_TURBOPACK=0 && next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "sync-images": "node scripts/sync-images.js"
   },
   "dependencies": {
     "@auth/core": "^0.34.3",

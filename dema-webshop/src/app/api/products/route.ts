@@ -1,7 +1,8 @@
 import { NextResponse } from 'next/server';
 import { getProducts } from '@/lib/products';
 import type { Product, ProductFilters } from '@/types/product';
-import { auth } from '@/auth';
+import { getServerSession } from 'next-auth';
+import { authOptions } from '@/auth';
 import fs from 'fs/promises';
 import path from 'path';
 
@@ -357,7 +358,7 @@ export async function GET(request: Request) {
 
 export async function POST(request: Request) {
   try {
-    const session = await auth();
+    const session = await getServerSession(authOptions);
     const role = (session?.user as any)?.role;
     if (role !== 'admin') {
       return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });

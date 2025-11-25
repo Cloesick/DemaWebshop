@@ -10,7 +10,6 @@ import { Product } from '@/types/product';
 import Link from 'next/link';
 import { useLocale } from '@/contexts/LocaleContext';
 import ProductCard from '@/components/products/ProductCard';
-import { getSkuImagePath } from '@/lib/skuImageMap';
 import { formatProductForCard } from '@/lib/formatProductForCard';
 
 // This is a client component that will be hydrated on the client
@@ -22,11 +21,7 @@ export default function ProductPage() {
   const [error, setError] = useState<string | null>(null);
   const [recs, setRecs] = useState<Product[]>([]);
   const [recsLoading, setRecsLoading] = useState(false);
-  const [displayPdfUrl, setDisplayPdfUrl] = useState<string | null>(null);
-  const [displayPageNumber, setDisplayPageNumber] = useState<number>(1);
-  const [displayCropNorm, setDisplayCropNorm] = useState<{ x: number; y: number; width: number; height: number } | null>(null);
-  const [canvasSize, setCanvasSize] = useState<{ w: number; h: number } | null>(null);
-  const [skuImage, setSkuImage] = useState<string | null>(null);
+  const [activeImageIndex, setActiveImageIndex] = useState(0);
   const searchParams = useSearchParams();
   const editMode = searchParams?.get('editImage') === '1';
   const [pendingCrop, setPendingCrop] = useState<{ x: number; y: number; width: number; height: number } | null>(null);
@@ -86,111 +81,10 @@ export default function ProductPage() {
     fetchProduct();
   }, [params.sku]);
 
-  // Resolve which PDF and page to display as the image.
-  // If the product has its own pdf_source, use it. Otherwise, try matched_skus (shared image scenario).
+  // Reset active image when product changes
   useEffect(() => {
-    async function resolvePdf() {
-      if (!product) {
-        setDisplayPdfUrl(null);
-        setDisplayPageNumber(1);
-        setSkuImage(null);
-        return;
-      }
-      // Try pre-rendered SKU image first
-      try {
-        const p = await getSkuImagePath(product.sku);
-        setSkuImage(p);
-      } catch (e) { setSkuImage(null); }
-      const hasOwnPdf = !!product.pdf_source && Array.isArray(product.source_pages) && product.source_pages.length > 0;
-      if (hasOwnPdf) {
-        setDisplayPdfUrl(makePdfUrl(product.pdf_source));
-        let pageNum = (product as any).image_page || product.source_pages[0] || 1;
-        let crop = (product as any).image_crop_norm || null;
-        // Load overrides for this SKU, if present
-        try {
-          const sku = product.sku;
-          const ovRes = await fetch(`/api/product-image-overrides?sku=${encodeURIComponent(sku)}`, { cache: 'no-store' });
-          if (ovRes.ok) {
-            const ovData = await ovRes.json();
-            const o = ovData?.[sku];
-            if (o) {
-              if (typeof o.image_page === 'number') pageNum = o.image_page;
-              if (o.image_crop_norm) crop = o.image_crop_norm;
-            }
-          }
-        } catch (e) {}
-        setDisplayPageNumber(pageNum);
-        setDisplayCropNorm(crop);
-        return;
-      }
-      // fallback via matched_skus
-      const ms = Array.isArray((product as any).matched_skus) ? (product as any).matched_skus as string[] : [];
-      if (ms.length === 0) {
-        setDisplayPdfUrl(null);
-        setDisplayPageNumber(1);
-        setDisplayCropNorm(null);
-        return;
-      }
-      // Try first matching SKU that has a pre-rendered PNG image
-      for (const msku of ms) {
-        try {
-          const image = await getSkuImagePath(msku);
-          if (image) {
-            setSkuImage(image);
-            setDisplayPdfUrl(null);
-            setDisplayPageNumber(1);
-            setDisplayCropNorm(null);
-            return;
-          }
-        } catch (e) {}
-      }
-      // Try first matching SKU that has a pdf and page
-      for (const msku of ms) {
-        try {
-          const r = await fetch(`/api/products?sku=${encodeURIComponent(msku)}&limit=1`, { cache: 'force-cache' });
-          if (!r.ok) continue;
-          const d = await r.json();
-          const mp: Product | undefined = d?.products?.[0];
-          if (mp && mp.pdf_source && Array.isArray(mp.source_pages) && mp.source_pages.length > 0) {
-            setDisplayPdfUrl(makePdfUrl(mp.pdf_source));
-            let pageNum = (mp as any).image_page || mp.source_pages[0] || 1;
-            let crop = (mp as any).image_crop_norm || null;
-            // Try override for current SKU first, then matched SKU
-            try {
-              const sku = product.sku;
-              const ovRes1 = await fetch(`/api/product-image-overrides?sku=${encodeURIComponent(sku)}`, { cache: 'no-store' });
-              if (ovRes1.ok) {
-                const j = await ovRes1.json();
-                const o = j?.[sku];
-                if (o) {
-                  if (typeof o.image_page === 'number') pageNum = o.image_page;
-                  if (o.image_crop_norm) crop = o.image_crop_norm;
-                }
-              }
-              const ovRes2 = await fetch(`/api/product-image-overrides?sku=${encodeURIComponent(msku)}`, { cache: 'no-store' });
-              if (ovRes2.ok) {
-                const j2 = await ovRes2.json();
-                const o2 = j2?.[msku];
-                if (o2) {
-                  if (typeof o2.image_page === 'number') pageNum = o2.image_page;
-                  if (o2.image_crop_norm) crop = o2.image_crop_norm;
-                }
-              }
-            } catch (e) {}
-            setDisplayPageNumber(pageNum);
-            setDisplayCropNorm(crop);
-            return;
-          }
-        } catch (e) {
-          // ignore and continue
-        }
-      }
-      setDisplayPdfUrl(null);
-      setDisplayPageNumber(1);
-      setDisplayCropNorm(null);
-    }
-    resolvePdf();
-  }, [product]);
+    setActiveImageIndex(0);
+  }, [product?.sku]);
 
   useEffect(() => {
     const sku = Array.isArray(params.sku) ? params.sku[0] : params.sku;
@@ -291,7 +185,10 @@ export default function ProductPage() {
 
   const categoryForImage = product.product_category?.replace(/[^a-z0-9]+/gi, '-').toLowerCase() || 'product';
   const placeholderColor = getPlaceholderColor(product.sku || categoryForImage);
-  const placeholderImage = `data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='800' height='600' viewBox='0 0 800 600'%3E%3Crect width='800' height='600' fill='${encodeURIComponent(placeholderColor)}'/%3E%3Ctext x='50%25' y='50%25' font-family='Arial' font-size='24' text-anchor='middle' dominant-baseline='middle' fill='%23666'%3E${encodeURIComponent(categoryForImage)}%3C/text%3E%3C/svg%3E`;
+  const placeholderImageUrl = `data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='800' height='600' viewBox='0 0 800 600'%3E%3Crect width='800' height='600' fill='${encodeURIComponent(placeholderColor)}'/%3E%3Ctext x='50%25' y='50%25' font-family='Arial' font-size='24' text-anchor='middle' dominant-baseline='middle' fill='%23666'%3E${encodeURIComponent(categoryForImage)}%3C/text%3E%3C/svg%3E`;
+  const imageUrl = product.sku
+    ? `/product-images/${product.sku}.png`
+    : placeholderImageUrl;
   
   const priceNumber = product.dimensions_mm_list?.[0]
     ? product.dimensions_mm_list[0] * 0.5
@@ -311,78 +208,7 @@ export default function ProductPage() {
     );
   }
 
-  // Render a PDF page to canvas with optional normalized crop and report full canvas size
-  function PdfPageImage({ pdfUrl, pageNumber, cropNorm, onRendered }: { pdfUrl: string; pageNumber: number; cropNorm?: { x: number; y: number; width: number; height: number }; onRendered?: (w: number, h: number) => void }) {
-    const canvasRef = useRef<HTMLCanvasElement | null>(null);
-    const [error, setError] = useState<string | null>(null);
-    const [rendered, setRendered] = useState(false);
-
-    useEffect(() => {
-      let cancelled = false;
-      async function load() {
-        try {
-          // @ts-ignore dynamic import path valid at runtime
-          const pdfjsLib = await import('pdfjs-dist/build/pdf');
-          const pdfjs: any = (pdfjsLib as any).default ?? pdfjsLib;
-          // Worker must match API version
-          // @ts-ignore runtime property exists
-          pdfjs.GlobalWorkerOptions.workerSrc = '/pdfjs/pdf.worker.min.mjs';
-
-          const loadingTask = pdfjs.getDocument({
-            url: pdfUrl,
-            wasmUrl: '/pdfjs/'
-          });
-          const pdf = await loadingTask.promise;
-          const page = await pdf.getPage(pageNumber);
-          const scale = 1.0;
-          const viewport = page.getViewport({ scale });
-          const canvas = canvasRef.current;
-          if (!canvas || cancelled) return;
-          const ctx = canvas.getContext('2d');
-          if (!ctx) return;
-
-          // Render only the cropped region directly to the canvas to reduce memory usage
-          const pageW = Math.ceil(viewport.width);
-          const pageH = Math.ceil(viewport.height);
-          const hasCrop = !!cropNorm && cropNorm.width > 0 && cropNorm.height > 0;
-          const sx = hasCrop ? Math.max(0, Math.min(pageW, Math.round(pageW * (cropNorm!.x || 0)))) : 0;
-          const sy = hasCrop ? Math.max(0, Math.min(pageH, Math.round(pageH * (cropNorm!.y || 0)))) : 0;
-          const sw = hasCrop ? Math.max(1, Math.min(pageW - sx, Math.round(pageW * (cropNorm!.width || 1)))) : pageW;
-          const sh = hasCrop ? Math.max(1, Math.min(pageH - sy, Math.round(pageH * (cropNorm!.height || 1)))) : pageH;
-
-          canvas.width = sw;
-          canvas.height = sh;
-          // Translate the render so the crop area is drawn into (0,0) of the target canvas
-          const transform: number[] = [1, 0, 0, 1, -sx, -sy];
-          await page.render({ canvasContext: ctx, viewport, transform, background: 'white' }).promise;
-          if (onRendered) onRendered(pageW, pageH);
-          if (!cancelled) setRendered(true);
-        } catch (e) {
-          // eslint-disable-next-line no-console
-          console.error('PDF render error', e);
-          if (!cancelled) setError('Failed to render PDF page');
-        }
-      }
-      load();
-      return () => { cancelled = true; };
-    }, [pdfUrl, pageNumber, cropNorm?.x, cropNorm?.y, cropNorm?.width, cropNorm?.height]);
-
-    if (error) {
-      return <div className="w-full h-64 flex items-center justify-center text-sm text-gray-600">{t('product.error.load_failed')}</div>;
-    }
-    return (
-      <div className="w-full h-full flex items-center justify-center bg-white">
-        <canvas id="product-pdf-canvas" ref={canvasRef} className="h-full w-auto max-w-full" aria-label="Product image from PDF" />
-        {!rendered && (
-          <div className="absolute inset-0 flex items-center justify-center">
-            <div className="animate-spin rounded-full h-8 w-8 border-t-2 border-b-2 border-blue-500"></div>
-          </div>
-        )}
-      </div>
-    );
-  }
-
-  // Simple crop overlay to capture normalized crop rectangle in edit mode
+  // Simple crop overlay (kept for future use, currently not active)
   function CropOverlay({ canvasSize, initial, onChange }: { canvasSize: { w: number; h: number }; initial?: { x: number; y: number; width: number; height: number } | null; onChange: (c: { x: number; y: number; width: number; height: number } | null) => void }) {
     const containerRef = useRef<HTMLDivElement | null>(null);
     const [dragging, setDragging] = useState(false);
@@ -465,177 +291,72 @@ export default function ProductPage() {
           </ol>
         </nav>
         <div className="lg:grid lg:grid-cols-2 lg:gap-8">
-          {/* Product Image */}
+          {/* Product Image: use media array from products_for_shop.json */}
           <div className="mb-8 lg:mb-0">
             <div className="bg-gray-100 rounded-lg overflow-hidden">
-              <div className="relative w-full h-[420px] sm:h-[480px] lg:h-[560px] flex items-center justify-center bg-gray-100 p-2">
-                {(editMode || !!displayCropNorm) && displayPdfUrl ? (
-                  <div className="relative">
-                    <PdfPageImage
-                      pdfUrl={displayPdfUrl}
-                      pageNumber={displayPageNumber}
-                      cropNorm={editMode ? undefined : (displayCropNorm || undefined)}
-                      onRendered={(w, h) => setCanvasSize({ w, h })}
+              <div className="relative w-full h-[420px] sm:h-[480px] lg:h-[560px] flex flex-col bg-gray-100 p-2">
+                <div className="relative flex-1 flex items-center justify-center">
+                  {Array.isArray(product.media) && product.media.length > 0 ? (
+                    <Image
+                      src={product.media[activeImageIndex]?.url || product.media[0].url}
+                      alt={product.description || product.sku}
+                      fill
+                      sizes="(min-width: 1024px) 50vw, 100vw"
+                      className="object-contain"
                     />
-                    {editMode && canvasSize && (
-                      <CropOverlay
-                        canvasSize={canvasSize}
-                        initial={displayCropNorm || pendingCrop || undefined}
-                        onChange={(c) => setPendingCrop(c)}
-                      />
-                    )}
-                  </div>
-                ) : skuImage ? (
-                  <div className="relative w-full h-full">
-                    <Image src={skuImage} alt={product.description || product.sku} fill sizes="(min-width: 1024px) 50vw, 100vw" className="object-cover" />
-                  </div>
-                ) : displayPdfUrl ? (
-                  <div className="relative">
-                    <PdfPageImage
-                      pdfUrl={displayPdfUrl}
-                      pageNumber={displayPageNumber}
-                      cropNorm={editMode ? undefined : (displayCropNorm || undefined)}
-                      onRendered={(w, h) => setCanvasSize({ w, h })}
+                  ) : (
+                    <Image
+                      src={imageUrl}
+                      alt={product.description || product.sku}
+                      fill
+                      sizes="(min-width: 1024px) 50vw, 100vw"
+                      className="object-contain"
+                      onError={(e) => {
+                        const target = e.target as HTMLImageElement;
+                        if (target && target.src !== placeholderImageUrl) {
+                          target.src = placeholderImageUrl;
+                        }
+                      }}
                     />
-                    {editMode && canvasSize && (
-                      <CropOverlay
-                        canvasSize={canvasSize}
-                        initial={displayCropNorm || pendingCrop || undefined}
-                        onChange={(c) => setPendingCrop(c)}
-                      />
-                    )}
-                  </div>
-                ) : (
-                  <div className="text-center py-12">
-                    <div className="text-lg font-medium text-gray-700 mb-2">
-                      {product.product_category || t('products.title')}
-                    </div>
-                    <div className="text-sm text-gray-500">{t('product.sku')}: {product.sku}</div>
+                  )}
+                </div>
+
+                {/* Thumbnail strip when multiple media images exist */}
+                {Array.isArray(product.media) && product.media.length > 1 && (
+                  <div className="mt-3 flex gap-2 overflow-x-auto pb-1">
+                    {product.media.map((m, idx) => (
+                      <button
+                        key={`${product.sku}-thumb-${idx}`}
+                        type="button"
+                        onClick={() => setActiveImageIndex(idx)}
+                        className={`relative h-16 w-20 flex-shrink-0 border rounded-md overflow-hidden ${idx === activeImageIndex ? 'border-primary ring-2 ring-primary/60' : 'border-gray-300'}`}
+                      >
+                        <Image
+                          src={m.url}
+                          alt={`${product.sku} thumbnail ${idx + 1}`}
+                          fill
+                          sizes="80px"
+                          className="object-contain bg-white"
+                        />
+                      </button>
+                    ))}
                   </div>
                 )}
-            </div>
-            </div>
-            {editMode && displayPdfUrl && (
-              <div className="mt-3 flex items-center gap-2">
-                <button
-                  className="px-3 py-1.5 rounded bg-blue-600 text-white disabled:opacity-50"
-                  disabled={saving || !pendingCrop}
-                  onClick={async () => {
-                    if (!pendingCrop || !product) return;
-                    try {
-                      setSaving(true);
-                      const sku = product.sku;
-                      const res = await fetch('/api/product-image-overrides', {
-                        method: 'POST',
-                        headers: { 'Content-Type': 'application/json' },
-                        body: JSON.stringify({ sku, image_page: displayPageNumber, image_crop_norm: pendingCrop })
-                      });
-                      if (res.ok) {
-                        setDisplayCropNorm(pendingCrop);
-                        setPendingCrop(null);
-                      }
-                    } finally {
-                      setSaving(false);
-                    }
-                  }}
-                >
-                  {saving ? t('product.saving') : t('product.image.save_crop')}
-                </button>
-                <button
-                  className="px-3 py-1.5 rounded bg-emerald-600 text-white disabled:opacity-50"
-                  disabled={saving}
-                  onClick={async () => {
-                    // Auto-detect main object using OpenCV.js
-                    async function loadCV() {
-                      if ((window as any).cv && (window as any).cv.Mat) return (window as any).cv;
-                      await new Promise<void>((resolve, reject) => {
-                        const s = document.createElement('script');
-                        s.src = 'https://docs.opencv.org/4.x/opencv.js';
-                        s.async = true;
-                        s.onload = () => {
-                          const cv = (window as any).cv;
-                          if (!cv) { reject(new Error('cv not loaded')); return; }
-                          if (cv['onRuntimeInitialized']) {
-                            cv['onRuntimeInitialized'] = () => resolve();
-                          } else {
-                            resolve();
-                          }
-                        };
-                        s.onerror = () => reject(new Error('Failed to load OpenCV.js'));
-                        document.head.appendChild(s);
-                      });
-                      return (window as any).cv;
-                    }
-
-                    try {
-                      const cv = await loadCV();
-                      const canvas = document.getElementById('product-pdf-canvas') as HTMLCanvasElement | null;
-                      if (!canvas) return;
-                      // Read image into OpenCV
-                      const src = cv.imread(canvas);
-                      const gray = new cv.Mat();
-                      const blur = new cv.Mat();
-                      const edges = new cv.Mat();
-                      const dil = new cv.Mat();
-                      try {
-                        cv.cvtColor(src, gray, cv.COLOR_RGBA2GRAY, 0);
-                        cv.GaussianBlur(gray, blur, new cv.Size(5,5), 0, 0, cv.BORDER_DEFAULT);
-                        cv.Canny(blur, edges, 50, 150, 3, false);
-                        const kernel = cv.getStructuringElement(cv.MORPH_RECT, new cv.Size(5,5));
-                        cv.dilate(edges, dil, kernel);
-                        const contours = new cv.MatVector();
-                        const hierarchy = new cv.Mat();
-                        cv.findContours(dil, contours, hierarchy, cv.RETR_EXTERNAL, cv.CHAIN_APPROX_SIMPLE);
-                        let maxArea = 0; let bestRect: {x:number;y:number;width:number;height:number}|null = null;
-                        for (let i = 0; i < contours.size(); i++) {
-                          const c = contours.get(i);
-                          const rect = cv.boundingRect(c);
-                          const area = rect.width * rect.height;
-                          // Heuristics: ignore tiny or nearly full-page rectangles
-                          if (area < (canvas.width * canvas.height) * 0.01) continue;
-                          if (area > (canvas.width * canvas.height) * 0.95) continue;
-                          // Prefer more square-ish or portrait rectangles typical of product photos
-                          const aspect = rect.width / Math.max(1, rect.height);
-                          const aspectScore = Math.min(aspect, 1/aspect); // closer to 1 is better
-                          const score = area * (0.5 + 0.5 * aspectScore);
-                          if (score > maxArea) { maxArea = score; bestRect = rect; }
-                        }
-                        contours.delete();
-                        hierarchy.delete();
-                        if (bestRect) {
-                          const x = Math.max(0, bestRect.x - Math.round(bestRect.width * 0.03));
-                          const y = Math.max(0, bestRect.y - Math.round(bestRect.height * 0.03));
-                          const w = Math.min(canvas.width - x, Math.round(bestRect.width * 1.06));
-                          const h = Math.min(canvas.height - y, Math.round(bestRect.height * 1.06));
-                          const crop = { x: x / canvas.width, y: y / canvas.height, width: w / canvas.width, height: h / canvas.height };
-                          setPendingCrop(crop);
-                          setDisplayCropNorm(crop);
-                        }
-                      } finally {
-                        src.delete(); gray.delete(); blur.delete(); edges.delete(); dil.delete();
-                      }
-                    } catch (e) {
-                      // eslint-disable-next-line no-console
-                      console.error('Auto-detect failed', e);
-                    }
-                  }}
-                >
-                  {t('product.image.auto_detect')}
-                </button>
-                <button
-                  className="px-3 py-1.5 rounded bg-gray-200 text-gray-800"
-                  onClick={() => setPendingCrop(null)}
-                >
-                  {t('product.image.reset')}
-                </button>
               </div>
-            )}
+            </div>
           </div>
           
           {/* Product Info */}
           <div className="lg:pl-8">
             <h1 className="text-3xl font-bold text-gray-900 mb-2">
-              {formatProductForCard(product).title}
+              {(() => {
+                const baseTitle = formatProductForCard(product).title;
+                const skuText = product.sku || '';
+                if (skuText && baseTitle && !baseTitle.toLowerCase().includes(skuText.toLowerCase())) {
+                  return `${baseTitle} ${skuText}`;
+                }
+                return baseTitle || skuText;
+              })()}
             </h1>
             <p className="text-gray-500 text-sm mb-4">{t('product.sku')}: {product.sku}</p>
             
@@ -790,7 +511,7 @@ export default function ProductPage() {
                       href={`${product.pdf_source}`}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="text-sm text-blue-600 hover:underline inline-flex items-center gap-1.5"
+                      className="inline-flex items-center gap-1.5 text-xs text-blue-600 hover:underline rounded"
                     >
                       <span>{(() => { try { const u = new URL(product.pdf_source); return decodeURIComponent(u.pathname.split('/').pop() || 'PDF'); } catch (e) { const p = product.pdf_source.split('?')[0]; return decodeURIComponent((p.split('/').pop() || 'PDF')); } })()}</span>
                       
@@ -807,10 +528,10 @@ export default function ProductPage() {
                       {product.source_pages.map((p) => (
                         <a
                           key={`page-${p}`}
-                          href={`${product.pdf_source}#page=${p}`}
+                          href={`${product.pdf_source}#page=${p}&search=${encodeURIComponent(product.sku)}`}
                           target="_blank"
                           rel="noopener noreferrer"
-                          className="px-2.5 py-1 bg-gray-100 rounded-md text-xs font-medium text-gray-700 hover:underline"
+                          className="inline-flex items-center gap-1.5 text-xs text-blue-600 hover:underline rounded"
                         >
                           {t('product.page')} {p}
                         </a>

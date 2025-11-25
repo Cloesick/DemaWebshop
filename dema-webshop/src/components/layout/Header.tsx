@@ -79,19 +79,7 @@ export default function Header() {
             </Link>
           </div>
 
-          {/* Search Bar */}
-          <div className="w-full md:w-1/3 mb-4 md:mb-0">
-            <div className="relative">
-              <input
-                type="text"
-                placeholder={t('search.placeholder')}
-                className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-              />
-              <button className="absolute right-0 top-0 h-full px-4 bg-blue-600 text-white rounded-r-md hover:bg-blue-700">
-                <FiSearch className="h-5 w-5" />
-              </button>
-            </div>
-          </div>
+          {/* Search Bar removed as requested */}
 
           {/* Cart & Contact */}
           <div className="flex items-center space-x-4">

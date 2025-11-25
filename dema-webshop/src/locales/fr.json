@@ -184,9 +184,9 @@
   "checkout.billing.name": "Nom de facturation",
   "checkout.billing.company": "Société",
   "checkout.billing.vat": "Numéro de TVA",
-
   "product.in_stock": "En stock",
   "product.sku": "SKU",
+  "product.details": "Détails du produit",
   "product.request_quote": "Demander un devis",
   "product.add_to_cart": "Ajouter au panier",
   "product.pdf_source": "Source PDF",

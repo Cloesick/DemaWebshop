@@ -63,7 +63,6 @@ export function formatProductForCard(p: Product): ProductCardVM {
   const priceLabel = typeof p.price === 'number' ? formatCurrency(p.price) : 'Price on request';
 
   const badges: string[] = [];
-  if (p.product_category) badges.push(p.product_category);
   if (p.inStock) badges.push('In Stock');
   if ((p as any).product_type) badges.push(String((p as any).product_type));
 
