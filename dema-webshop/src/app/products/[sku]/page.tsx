@@ -186,9 +186,8 @@ export default function ProductPage() {
   const categoryForImage = product.product_category?.replace(/[^a-z0-9]+/gi, '-').toLowerCase() || 'product';
   const placeholderColor = getPlaceholderColor(product.sku || categoryForImage);
   const placeholderImageUrl = `data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='800' height='600' viewBox='0 0 800 600'%3E%3Crect width='800' height='600' fill='${encodeURIComponent(placeholderColor)}'/%3E%3Ctext x='50%25' y='50%25' font-family='Arial' font-size='24' text-anchor='middle' dominant-baseline='middle' fill='%23666'%3E${encodeURIComponent(categoryForImage)}%3C/text%3E%3C/svg%3E`;
-  const imageUrl = product.sku
-    ? `/product-images/${product.sku}.png`
-    : placeholderImageUrl;
+  const legacySkuImageUrl = product.sku ? `/product-images/${product.sku}.png` : undefined;
+  const imageUrl = product.imageUrl || legacySkuImageUrl || placeholderImageUrl;
   
   const priceNumber = product.dimensions_mm_list?.[0]
     ? product.dimensions_mm_list[0] * 0.5
@@ -291,57 +290,27 @@ export default function ProductPage() {
           </ol>
         </nav>
         <div className="lg:grid lg:grid-cols-2 lg:gap-8">
-          {/* Product Image: use media array from products_for_shop.json */}
+          {/* Product Image: use server-resolved imageUrl (SKU/PDF/page) or placeholder */}
           <div className="mb-8 lg:mb-0">
             <div className="bg-gray-100 rounded-lg overflow-hidden">
               <div className="relative w-full h-[420px] sm:h-[480px] lg:h-[560px] flex flex-col bg-gray-100 p-2">
                 <div className="relative flex-1 flex items-center justify-center">
-                  {Array.isArray(product.media) && product.media.length > 0 ? (
-                    <Image
-                      src={product.media[activeImageIndex]?.url || product.media[0].url}
-                      alt={product.description || product.sku}
-                      fill
-                      sizes="(min-width: 1024px) 50vw, 100vw"
-                      className="object-contain"
-                    />
-                  ) : (
-                    <Image
-                      src={imageUrl}
-                      alt={product.description || product.sku}
-                      fill
-                      sizes="(min-width: 1024px) 50vw, 100vw"
-                      className="object-contain"
-                      onError={(e) => {
-                        const target = e.target as HTMLImageElement;
-                        if (target && target.src !== placeholderImageUrl) {
-                          target.src = placeholderImageUrl;
-                        }
-                      }}
-                    />
-                  )}
+                  <Image
+                    src={imageUrl}
+                    alt={product.description || product.sku}
+                    fill
+                    sizes="(min-width: 1024px) 50vw, 100vw"
+                    className="object-contain"
+                    onError={(e) => {
+                      const target = e.target as HTMLImageElement;
+                      if (target && target.src !== placeholderImageUrl) {
+                        target.src = placeholderImageUrl;
+                      }
+                    }}
+                  />
                 </div>
 
-                {/* Thumbnail strip when multiple media images exist */}
-                {Array.isArray(product.media) && product.media.length > 1 && (
-                  <div className="mt-3 flex gap-2 overflow-x-auto pb-1">
-                    {product.media.map((m, idx) => (
-                      <button
-                        key={`${product.sku}-thumb-${idx}`}
-                        type="button"
-                        onClick={() => setActiveImageIndex(idx)}
-                        className={`relative h-16 w-20 flex-shrink-0 border rounded-md overflow-hidden ${idx === activeImageIndex ? 'border-primary ring-2 ring-primary/60' : 'border-gray-300'}`}
-                      >
-                        <Image
-                          src={m.url}
-                          alt={`${product.sku} thumbnail ${idx + 1}`}
-                          fill
-                          sizes="80px"
-                          className="object-contain bg-white"
-                        />
-                      </button>
-                    ))}
-                  </div>
-                )}
+                {/* Thumbnail strip intentionally disabled while locking to server-resolved imageUrl */}
               </div>
             </div>
           </div>

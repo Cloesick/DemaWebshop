@@ -54,8 +54,9 @@ export function ProductList({
 
   // Default product renderer
   const defaultRenderProduct = (product: Product) => {
+    // Images are already extracted as webp from PDFs - use media array or imageUrl
     const primaryMediaUrl = product.media && product.media.length > 0 ? product.media[0]?.url : undefined;
-    const imageUrl = primaryMediaUrl || product.imageUrl || '';
+    const imageUrl = product.imageUrl || primaryMediaUrl || product.image_paths?.[0] || '';
     const title = product.description?.split('\n')[0] || product.sku;
 
     return (
@@ -91,8 +92,8 @@ export function ProductList({
     <div className={`space-y-4 ${className}`}>
       {layout === 'grid' ? (
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-          {products.map((p) => (
-            <div key={p.sku}>{renderer(p)}</div>
+          {products.map((p, idx) => (
+            <div key={`${p.sku}-${idx}`}>{renderer(p)}</div>
           ))}
         </div>
       ) : (
@@ -109,11 +110,13 @@ export function ProductList({
               const product = products[virtualRow.index];
               return (
                 <div
-                  key={virtualRow.key}
-                  ref={rowVirtualizer.measureElement}
+                  key={`${product.sku}-${virtualRow.index}`}
                   data-index={virtualRow.index}
-                  className="absolute top-0 left-0 w-full"
-                  style={{ transform: `translateY(${virtualRow.start}px)` }}
+                  ref={rowVirtualizer.measureElement}
+                  className="absolute top-0 left-0 w-full p-2"
+                  style={{
+                    transform: `translateY(${virtualRow.start}px)`,
+                  }}
                 >
                   {renderer(product)}
                 </div>

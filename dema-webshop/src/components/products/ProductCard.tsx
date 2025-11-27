@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import { useRouter } from 'next/navigation';
 import Link from 'next/link';
 import { Product } from '@/types/product';
@@ -21,7 +21,6 @@ import { Button } from '@/components/ui/button';
 import { useCartStore } from '@/store/cartStore';
 import { useLocale } from '@/contexts/LocaleContext';
 import { formatProductForCard } from '@/lib/formatProductForCard';
-import { getSkuImagePath } from '@/lib/skuImageMap';
 
 interface ProductCardProps {
   product: Product;
@@ -84,43 +83,30 @@ export default function ProductCard({ product, className = '', viewMode = 'grid'
   const [selectedDimensions, setSelectedDimensions] = useState<number | null>(
     product.dimensions_mm_list?.[0] || null
   );
-  const [skuImage, setSkuImage] = useState<string | null>(null);
-  useEffect(() => {
-    let mounted = true;
-    (async () => {
-      try {
-        const p = await getSkuImagePath(product.sku);
-        if (mounted) setSkuImage(p);
-      } catch {
-        if (mounted) setSkuImage(null);
-      }
-    })();
-    return () => { mounted = false; };
-  }, [product.sku]);
   
-  const baseTitle = vm.title;
-  const skuText = product.sku || '';
-  const productName = skuText && baseTitle && !baseTitle.toLowerCase().includes(skuText.toLowerCase())
-    ? `${baseTitle} ${skuText}`
-    : (baseTitle || skuText);
+  // Product title: SKU + product type/name
+  const productType = product.name || vm.title || '';
+  const productName = product.sku + (productType ? ` - ${productType}` : '');
+  const categoryDisplay = product.category || product.product_category || '';
   const description = vm.subtitle;
-  const primaryMediaUrl = product.media && product.media.length > 0 ? product.media[0]?.url : undefined;
-  const imageUrl = primaryMediaUrl || skuImage || vm.image;
+  // Resolution order for images:
+  // 1) product.imageUrl from server-side PDF extraction (already includes full path)
+  // 2) product.media with 'main' role (webp images from PDF extraction)
+  // 3) product.image_paths first item
+  // 4) vm.image (placeholder)
+  const imageUrl = product.imageUrl || 
+                   product.media?.find(m => m.role === 'main')?.url ||
+                   product.image_paths?.[0] ||
+                   vm.image;
   
-  // Format price based on selected dimensions or other logic
-  const price = vm.priceLabel === 'Price on request' ? t('product.request_quote') : vm.priceLabel;
-  // Derive PDF file name from URL
-  const pdfName = product.pdf_source ? (() => {
-    try {
-      const u = new URL(product.pdf_source);
-      const name = decodeURIComponent(u.pathname.split('/').pop() || 'PDF');
-      return name || 'PDF';
-    } catch {
-      const path = product.pdf_source.split('?')[0];
-      const name = decodeURIComponent((path.split('/').pop() || 'PDF'));
-      return name || 'PDF';
-    }
-  })() : null;
+  // Format price based on priceMode or selected dimensions
+  const isRequestQuote = product.priceMode === 'request_quote' || vm.priceLabel === 'Price on request';
+  const price = vm.priceLabel;
+  const showPrice = !isRequestQuote && price !== 'Price on request';
+  
+  // Determine stock status
+  const stockStatus = product.stock?.status || (product.inStock ? 'in_stock' : 'unknown');
+  const showInStockBadge = stockStatus === 'in_stock';
   
   const hasDimensions = product.dimensions_mm_list && product.dimensions_mm_list.length > 0;
   // Use unique dimensions to avoid duplicate keys/options
@@ -146,68 +132,45 @@ export default function ProductCard({ product, className = '', viewMode = 'grid'
         onClick={navigateToDetail}
         onKeyDown={onKeyNavigate}
       >
-        <div className="w-full sm:w-48 h-48 bg-gray-100 flex-shrink-0 overflow-hidden flex items-center justify-center">
+        <div className="w-full sm:w-56 h-56 sm:h-full flex-shrink-0 overflow-hidden bg-white flex items-center justify-center">
           <ImageWithFallback
             src={imageUrl}
             alt={productName}
-            width={192}
-            height={192}
-            className="w-full h-full object-contain p-4"
-            fallbackText={product.product_category}
+            width={400}
+            height={400}
+            className="w-full h-full object-contain"
+            fallbackText={categoryDisplay}
           />
         </div>
         <div className="flex-1 p-4 flex flex-col">
           <div className="flex-1">
             <h3 className="text-lg font-semibold text-gray-900">
-              <Link href={`/products/${product.sku}`} className="hover:underline focus:outline-none focus-visible:ring-2 focus-visible:ring-primary/60 rounded" aria-label={`${productName} - ${t('products.view_details')}`}>
+              <Link href={`/products/${product.sku}`} className="hover:text-primary" onClick={(e) => e.stopPropagation()}>
                 {productName}
               </Link>
             </h3>
-            {/* Description removed by request */}
-            <p className="text-xs text-gray-500">{t('product.sku')}: {product.sku}</p>
-            {vm.badges?.[0] && (
+            {categoryDisplay && (
+              <p className="mt-1 text-sm text-gray-600 font-medium">{categoryDisplay}</p>
+            )}
+            {(vm.badges?.[0] || showInStockBadge) && (
               <span className="inline-block mt-2 px-2.5 py-0.5 rounded-full text-xs font-medium bg-primary/10 text-primary">
-                {vm.badges[0] === 'In Stock' ? t('product.in_stock') : vm.badges[0]}
+                {showInStockBadge ? t('product.in_stock') : (vm.badges?.[0] === 'In Stock' ? t('product.in_stock') : vm.badges?.[0])}
               </span>
             )}
-            {product.dimensions_mm_list?.[0] && (
-              <p className="mt-2 text-sm text-gray-900">
-                <span className="font-medium text-gray-900">{t('product.available_sizes')}:</span> <span className="text-gray-900">{product.dimensions_mm_list[0]}mm</span>
-              </p>
-            )}
-            {/* PDF link and source pages (list view) */}
-            {(product.pdf_source || (product.source_pages && product.source_pages.length > 0)) && (
-              <div className="mt-3 space-y-1">
-                {product.pdf_source && (
-                  <a
-                    href={`${product.pdf_source}`}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    onClick={(e) => e.stopPropagation()}
-                    className="inline-flex items-center gap-1.5 text-xs text-blue-600 hover:underline rounded"
-                  >
-                    <span>{pdfName}</span>
-                    <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
-                    </svg>
-                  </a>
-                )}
-                {product.pdf_source && product.source_pages && product.source_pages.length > 0 && (
-                  <div className="flex flex-wrap gap-1.5">
-                    {product.source_pages.map((p) => (
-                      <a
-                        key={`list-page-${p}`}
-                        href={`${product.pdf_source}#page=${p}&search=${encodeURIComponent(product.sku)}`}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        onClick={(e) => e.stopPropagation()}
-                        className="inline-flex items-center gap-1.5 text-xs text-blue-600 hover:underline rounded"
-                      >
-                        {t('product.page')} {p}
-                      </a>
-                    ))}
-                  </div>
-                )}
+            {(product.pdf_source || product.source?.pdf_sources?.[0]) && (
+              <div className="mt-2">
+                <a
+                  href={product.pdf_source || product.source?.pdf_sources?.[0]}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  onClick={(e) => e.stopPropagation()}
+                  className="inline-flex items-center text-xs text-blue-600 hover:underline"
+                >
+                  <svg className="w-3.5 h-3.5 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z" />
+                  </svg>
+                  {t('product.view_pdf')}
+                </a>
               </div>
             )}
           </div>
@@ -220,15 +183,20 @@ export default function ProductCard({ product, className = '', viewMode = 'grid'
               className="bg-primary hover:bg-primary-dark text-white"
               onClick={(e) => {
                 e.stopPropagation();
-                const wasEmpty = itemsCount === 0;
-                const wasClosed = !isOpen;
-                addToCart(product);
-                if (wasEmpty && wasClosed) {
-                  toggleCart();
+                if (isRequestQuote) {
+                  // Navigate to contact/quote page
+                  router.push(`/contact?product=${product.sku}`);
+                } else {
+                  const wasEmpty = itemsCount === 0;
+                  const wasClosed = !isOpen;
+                  addToCart(product);
+                  if (wasEmpty && wasClosed) {
+                    toggleCart();
+                  }
                 }
               }}
             >
-              {t('product.add_to_cart')}
+              {isRequestQuote ? t('product.request_quote') : t('product.add_to_cart')}
             </Button>
           </div>
         </div>
@@ -245,28 +213,50 @@ export default function ProductCard({ product, className = '', viewMode = 'grid'
       onClick={navigateToDetail}
       onKeyDown={onKeyNavigate}
     >
-      <div className="w-full h-48 bg-gray-100 p-4 overflow-hidden flex items-center justify-center">
+      <div className="w-full h-56 bg-white overflow-hidden flex items-center justify-center">
         <ImageWithFallback
           src={imageUrl}
           alt={productName}
-          width={300}
-          height={200}
-          className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-200"
+          width={400}
+          height={400}
+          className="w-full h-full object-contain p-2"
+          fallbackText={product.product_category}
         />
       </div>
       <div className="p-4">
         <div className="flex flex-col h-full">
           <div className="flex-1">
-            <h3 className="text.base font-bold text-gray-900 mb-1 break-words">
-              <Link href={`/products/${product.sku}`} className="hover:text-primary transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-primary/60 rounded" onClick={(e) => e.stopPropagation()}>
+            <h3 className="text-base font-bold text-gray-900 mb-1 break-words">
+              <Link href={`/products/${product.sku}`} className="hover:text-primary" onClick={(e) => e.stopPropagation()}>
                 {productName}
               </Link>
             </h3>
-            {/* Description removed by request */}
-            <p className="text-xs text-gray-500 mb-2">{t('product.sku')}: {product.sku}</p>
-            {vm.badges?.length ? (
+            {categoryDisplay && (
+              <p className="text-xs text-gray-600 font-medium mb-2">{categoryDisplay}</p>
+            )}
+            
+            {(product.pdf_source || product.source?.pdf_sources?.[0]) && (
+              <div className="mb-2">
+                <a
+                  href={product.pdf_source || product.source?.pdf_sources?.[0]}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  onClick={(e) => e.stopPropagation()}
+                  className="inline-flex items-center text-xs text-blue-600 hover:underline"
+                >
+                  <svg className="w-3.5 h-3.5 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z" />
+                  </svg>
+                  {t('product.view_pdf')}
+                </a>
+              </div>
+            )}
+            {(vm.badges?.length || showInStockBadge) ? (
               <div className="mb-2 flex flex-wrap gap-1">
-                {vm.badges.slice(0,2).map((b) => (
+                {showInStockBadge && !vm.badges?.some(b => b === 'In Stock') && (
+                  <span className="inline-block px-2.5 py-0.5 rounded-full text-xs font-medium bg-primary/10 text-primary">{t('product.in_stock')}</span>
+                )}
+                {vm.badges?.slice(0,2).map((b) => (
                   <span key={b} className="inline-block px-2.5 py-0.5 rounded-full text-xs font-medium bg-primary/10 text-primary">{b === 'In Stock' ? t('product.in_stock') : b}</span>
                 ))}
               </div>
@@ -330,39 +320,6 @@ export default function ProductCard({ product, className = '', viewMode = 'grid'
               </span>
             </div>
           )}
-          {/* PDF link and source pages (grid view) */}
-          {(product.pdf_source && product.source_pages && product.source_pages.length > 0) && (
-            <div className="col-span-2 mt-2 flex flex-col gap-1">
-              <a
-                href={`${product.pdf_source}`}
-                target="_blank"
-                rel="noopener noreferrer"
-                onClick={(e) => e.stopPropagation()}
-                className="inline-flex items-center gap-1.5 text-xs text-blue-600 hover:underline rounded"
-              >
-                <span>{pdfName}</span>
-                <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
-                </svg>
-              </a>
-              {product.source_pages && product.source_pages.length > 0 && (
-                <div className="flex flex-wrap gap-1.5">
-                  {product.source_pages.map((p) => (
-                    <a
-                      key={`grid-page-${p}`}
-                      href={`${product.pdf_source}#page=${p}&search=${encodeURIComponent(product.sku)}`}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      onClick={(e) => e.stopPropagation()}
-                      className="inline-flex items-center gap-1.5 text-xs text-blue-600 hover:underline rounded"
-                    >
-                      {t('product.page')} {p}
-                    </a>
-                  ))}
-                </div>
-              )}
-            </div>
-          )}
         </div>
         
         <div className="mt-4 space-y-2">
@@ -379,15 +336,19 @@ export default function ProductCard({ product, className = '', viewMode = 'grid'
             className="btn-primary w-full flex items-center justify-center px-4 py-2 text-sm font-medium focus:outline-none focus-visible:ring-2 focus-visible:ring-primary/60"
             onClick={(e) => {
               e.stopPropagation();
-              const wasEmpty = itemsCount === 0;
-              const wasClosed = !isOpen;
-              addToCart(product);
-              if (wasEmpty && wasClosed) {
-                toggleCart();
+              if (isRequestQuote) {
+                router.push(`/contact?product=${product.sku}`);
+              } else {
+                const wasEmpty = itemsCount === 0;
+                const wasClosed = !isOpen;
+                addToCart(product);
+                if (wasEmpty && wasClosed) {
+                  toggleCart();
+                }
               }
             }}
           >
-            {t('product.add_to_cart')}
+            {isRequestQuote ? t('product.request_quote') : t('product.add_to_cart')}
           </button>
         </div>
       </div>

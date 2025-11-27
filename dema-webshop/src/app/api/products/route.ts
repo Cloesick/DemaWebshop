@@ -64,6 +64,9 @@ function parseQueryParams(params: URLSearchParams): ProductFilters {
     vlotter: getParam('vlotter', 'boolean'),
     debiet_m3_h: getParam('debiet_m3_h', 'number'),
     
+    // Image filter
+    hasImages: getParam('hasImages', 'boolean'),
+    
     // Pagination
     limit: Math.min(100, Math.max(1, getParam('limit', 'number') || 24)),
     skip: Math.max(0, getParam('skip', 'number') || 0),
@@ -222,6 +225,16 @@ function filterProducts(products: Product[], filters: ProductFilters): Product[]
     // Debiet m3/h
     if (filters.debiet_m3_h !== undefined && product['debiet_m3_h'] !== filters.debiet_m3_h) {
       return false;
+    }
+    
+    // Filter by image availability
+    if (filters.hasImages === true) {
+      const hasMedia = product.media && Array.isArray(product.media) && product.media.length > 0;
+      const hasImagePaths = product.image_paths && Array.isArray(product.image_paths) && product.image_paths.length > 0;
+      
+      if (!hasMedia && !hasImagePaths) {
+        return false;
+      }
     }
     
     // Search in multiple fields (case-insensitive)

@@ -29,11 +29,10 @@ const renderList = (items: any[], key: string, unit: string = '') => (
 
 export default function ProductDetailsCard({ product, className = '' }: ProductDetailsCardProps) {
   const { t } = useLocale();
-  const baseTitle = product.description?.split('\n')[0] || 'Product';
-  const skuText = product.sku || '';
-  const title = skuText && baseTitle && !baseTitle.toLowerCase().includes(skuText.toLowerCase())
-    ? `${baseTitle} ${skuText}`
-    : (baseTitle || skuText);
+  // Product title: SKU + product type/name
+  const productType = product.name || product.description?.split('\n')[0] || '';
+  const title = product.sku + (productType ? ` - ${productType}` : '');
+  const categoryDisplay = product.category || product.product_category || '';
   
   // Generate a placeholder color based on product SKU or category
   const getPlaceholderColor = (str: string) => {
@@ -45,17 +44,32 @@ export default function ProductDetailsCard({ product, className = '' }: ProductD
     return `hsl(${hue}, 70%, 90%)`;
   };
 
-  const categoryForImage = product.product_category?.replace(/[^a-z0-9]+/gi, '-').toLowerCase() || 'product';
+  const categoryForImage = (product.category || product.product_category)?.replace(/[^a-z0-9]+/gi, '-').toLowerCase() || 'product';
   const placeholderColor = getPlaceholderColor(product.sku || categoryForImage);
   const placeholderImageUrl = `data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='800' height='600' viewBox='0 0 800 600'%3E%3Crect width='800' height='600' fill='${encodeURIComponent(placeholderColor)}'/%3E%3Ctext x='50%25' y='50%25' font-family='Arial' font-size='24' text-anchor='middle' dominant-baseline='middle' fill='%23666'%3E${encodeURIComponent(categoryForImage)}%3C/text%3E%3C/svg%3E`;
-  const imageUrl = product.sku 
-    ? `/product-images/${product.sku}.png`
-    : placeholderImageUrl;
+  // Resolution order for images:
+  // 1) product.imageUrl from server-side resolution
+  // 2) product.media with 'main' role
+  // 3) product.image_paths first item
+  // 4) legacy sku-based path
+  // 5) placeholder
+  const legacySkuImage = product.sku ? `/product-images/${product.sku}.png` : undefined;
+  const imageUrl = product.imageUrl || 
+                   product.media?.find(m => m.role === 'main')?.url ||
+                   product.image_paths?.[0] ||
+                   legacySkuImage || 
+                   placeholderImageUrl;
   
-  // Calculate price based on dimensions or use a default
-  const price = product.dimensions_mm_list?.[0] 
-    ? formatCurrency(product.dimensions_mm_list[0] * 0.5)
-    : formatCurrency(99.99);
+  // Determine price display based on priceMode and price value
+  const isRequestQuote = product.priceMode === 'request_quote';
+  const hasPrice = product.price !== null && product.price !== undefined;
+  const price = isRequestQuote || !hasPrice
+    ? t('product.request_quote')
+    : formatCurrency(product.price!);
+  
+  // Determine stock status
+  const stockStatus = product.stock?.status || (product.inStock ? 'in_stock' : 'unknown');
+  const isInStock = stockStatus === 'in_stock';
 
   // Check if there are any specifications to show (including structured parsed fields)
   const hasSpecifications = [
@@ -93,24 +107,56 @@ export default function ProductDetailsCard({ product, className = '' }: ProductD
       <div className="px-6 py-5 border-b border-gray-200 bg-gray-50">
         <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
           <div>
-            <h1 className="text-2xl md:text-3xl font-bold text-gray-900">{title}</h1>
-            {product.product_category && (
-              <div className="mt-1 inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-blue-100 text-blue-800">
-                {product.product_category}
-              </div>
+            <h1 className="text-2xl md:text-3xl font-bold text-gray-900">
+              <a href={`/products/${product.sku}`} className="hover:text-primary">
+                {title}
+              </a>
+            </h1>
+            {categoryDisplay && (
+              <p className="mt-2 text-base text-gray-700 font-medium">{categoryDisplay}</p>
             )}
-            {product.sku && (
-              <p className="mt-2 text-sm text-gray-500">{t('product.sku')}: {product.sku}</p>
+            {(product.pdf_source || product.source?.pdf_sources?.[0]) && (
+              <div className="mt-3">
+                <a
+                  href={product.pdf_source || product.source?.pdf_sources?.[0]}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center text-sm text-blue-600 hover:underline"
+                >
+                  <svg className="w-4 h-4 mr-1.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z" />
+                  </svg>
+                  {t('product.view_pdf')}
+                </a>
+              </div>
             )}
           </div>
           <div className="flex flex-col items-end">
             <span className="text-3xl font-bold text-primary">{price}</span>
+            {isInStock && (
+              <span className="mt-2 inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-green-100 text-green-800">
+                <span className="w-2 h-2 rounded-full bg-green-500 mr-1.5"></span>
+                {t('product.in_stock')}
+              </span>
+            )}
+            {stockStatus === 'out_of_stock' && (
+              <span className="mt-2 inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-red-100 text-red-800">
+                <span className="w-2 h-2 rounded-full bg-red-500 mr-1.5"></span>
+                {t('product.out_of_stock')}
+              </span>
+            )}
             <div className="mt-3 flex gap-3">
-              <button className="px-6 py-2.5 bg-primary hover:bg-primary-dark text-white font-medium rounded-lg transition-colors shadow-sm">
-                {t('product.request_quote')}
-              </button>
+              {isRequestQuote || !hasPrice ? (
+                <button className="px-6 py-2.5 bg-primary hover:bg-primary-dark text-white font-medium rounded-lg transition-colors shadow-sm">
+                  {t('product.request_quote')}
+                </button>
+              ) : (
+                <button className="px-6 py-2.5 bg-primary hover:bg-primary-dark text-white font-medium rounded-lg transition-colors shadow-sm">
+                  {t('product.add_to_cart')}
+                </button>
+              )}
               <button className="px-6 py-2.5 bg-white border border-gray-300 hover:bg-gray-50 text-gray-700 font-medium rounded-lg transition-colors shadow-sm">
-                {t('product.add_to_cart')}
+                {t('product.contact_us')}
               </button>
             </div>
           </div>
@@ -141,11 +187,11 @@ export default function ProductDetailsCard({ product, className = '' }: ProductD
             <div className="space-y-4 p-4 bg-gray-50 rounded-lg">
               <h3 className="font-medium text-gray-900">{t('product.details')}</h3>
               <div className="space-y-3">
-                {product.pdf_source && (
+                {(product.pdf_source || product.source?.pdf_sources?.[0]) && (
                   <div>
                     <p className="text-sm text-gray-500">{t('product.pdf_source')}</p>
                     <a 
-                      href={product.pdf_source} 
+                      href={product.pdf_source || product.source?.pdf_sources?.[0]} 
                       target="_blank" 
                       rel="noopener noreferrer"
                       className="inline-flex items-center gap-1.5 text-xs text-blue-600 hover:underline rounded"
@@ -158,14 +204,14 @@ export default function ProductDetailsCard({ product, className = '' }: ProductD
                   </div>
                 )}
                 
-                {product.pdf_source && product.source_pages?.length > 0 && (
+                {((product.source_pages?.length ?? 0) > 0 || (product.source?.pages?.length ?? 0) > 0) && (
                   <div>
                     <p className="text-sm text-gray-500">{t('product.pdf_page')}</p>
                     <div className="mt-1 flex flex-wrap gap-1.5">
-                      {product.source_pages.map((p) => (
+                      {(product.source_pages || product.source?.pages || []).map((p) => (
                         <a
                           key={`page-${p}`}
-                          href={`${product.pdf_source}#page=${p}&search=${encodeURIComponent(product.sku)}`}
+                          href={`${product.pdf_source || product.source?.pdf_sources?.[0]}#page=${p}&search=${encodeURIComponent(product.sku)}`}
                           target="_blank"
                           rel="noopener noreferrer"
                           className="inline-flex items-center gap-1.5 text-xs text-blue-600 hover:underline rounded"

@@ -76,14 +76,15 @@ const FilterChip = ({
     onClick={onClick}
     className={`inline-flex items-center gap-2 px-3 py-1.5 rounded-full text-sm font-medium transition-all duration-200 ${
       isActive 
-        ? 'bg-yellow-500 text-gray-900 hover:bg-yellow-400' 
-        : 'bg-gray-800 text-gray-200 hover:bg-gray-700 hover:text-white'
+        ? 'text-white hover:opacity-90' 
+        : 'bg-gray-200 text-gray-800 hover:bg-gray-300'
     } ${className}`}
+    style={isActive ? { backgroundColor: '#00ADEF' } : {}}
   >
     <span className="truncate">{label}</span>
     {count !== undefined && (
       <span className={`text-xs px-1.5 py-0.5 rounded-full ${
-        isActive ? 'bg-black/10' : 'bg-white/10'
+        isActive ? 'bg-white/20' : 'bg-gray-300'
       }`}>
         {count}
       </span>
@@ -103,21 +104,21 @@ const FilterSection = ({
   isOpen?: boolean;
   className?: string;
 }) => {
-  const [isOpen, setIsOpen] = useState(isOpenProp);
+  const [isOpen, setIsOpen] = useState(isOpenProp !== undefined ? isOpenProp : true);
   
   return (
-    <div className={`border-b border-gray-700 pb-4 ${className}`}>
+    <div className={`border-b border-gray-200 pb-4 ${className}`}>
       <button 
         onClick={() => setIsOpen(!isOpen)}
         className="w-full flex justify-between items-center py-2 text-left focus:outline-none"
       >
-        <h3 className="text-sm font-semibold text-gray-200 uppercase tracking-wider">
+        <h3 className="text-sm font-semibold text-gray-900 uppercase tracking-wider">
           {title}
         </h3>
         {isOpen ? (
-          <ChevronUp className="h-4 w-4 text-gray-400" />
+          <ChevronUp className="h-4 w-4 text-gray-600" />
         ) : (
-          <ChevronDown className="h-4 w-4 text-gray-400" />
+          <ChevronDown className="h-4 w-4 text-gray-600" />
         )}
       </button>
       {isOpen && (
@@ -167,8 +168,12 @@ export default function ProductFilters({
     };
 
     products.forEach(product => {
-      if (product.product_category) {
-        filters.category.add(product.product_category);
+      // Extract category from various possible fields
+      const category = (product as any).category || 
+                      (product as any).catalog || 
+                      product.product_category;
+      if (category) {
+        filters.category.add(category);
       }
       
       if (product.pressure_min_bar && product.pressure_max_bar) {
@@ -218,7 +223,10 @@ export default function ProductFilters({
         label: value,
         count: products.filter(p => {
           switch (type) {
-            case 'category': return p.product_category === value;
+            case 'category': {
+              const productCategory = (p as any).category || (p as any).catalog || p.product_category;
+              return productCategory === value;
+            }
             case 'pressure': 
               const [min, max] = value.split('-').map(Number);
               return p.pressure_min_bar === min && p.pressure_max_bar === max;
@@ -343,8 +351,9 @@ export default function ProductFilters({
   const categories = useMemo(() => {
     const categorySet = new Set<string>();
     products.forEach(product => {
-      if (product.product_category) {
-        categorySet.add(product.product_category);
+      const category = (product as any).category || (product as any).catalog || product.product_category;
+      if (category) {
+        categorySet.add(category);
       }
     });
     return Array.from(categorySet).sort();
@@ -394,15 +403,16 @@ export default function ProductFilters({
     <div className={`space-y-4 ${className}`}>
       {/* Active filters */}
       {Object.keys(activeFilters).some(key => activeFilters[key].length > 0) && (
-        <div className="space-y-2 bg-gray-800 p-3 rounded-lg">
+        <div className="space-y-2 bg-blue-50 p-3 rounded-lg border border-blue-200">
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-2">
-              <Filter className="h-4 w-4 text-yellow-500" />
-              <h3 className="text-sm font-medium text-gray-200">{t('filters.active')}</h3>
+              <Filter className="h-4 w-4" style={{ color: '#00ADEF' }} />
+              <h3 className="text-sm font-medium text-gray-900">{t('filters.active')}</h3>
             </div>
             <button
               onClick={clearAllFilters}
-              className="text-xs text-yellow-400 hover:text-yellow-300 hover:underline"
+              className="text-xs hover:underline"
+              style={{ color: '#00ADEF' }}
             >
               {t('filters.clear_all')}
             </button>
@@ -423,37 +433,104 @@ export default function ProductFilters({
         </div>
       )}
 
-      {/* Filter Sections */}
+      {/* Filter Sections - Vertically Aligned */}
       <div className="space-y-4">
-        {/* Category filter */}
-        <FilterSection title={t('filters.categories')}>
-          <select
-            id="category-filter"
-            value={activeFilters.category?.[0] || ''}
-            onChange={(e) => handleFilterChange('category', e.target.value)}
-            className="w-full rounded-md bg-gray-800 border border-gray-700 text-gray-100 text-sm p-2 focus:ring-2 focus:ring-yellow-500 focus:border-transparent transition duration-200"
-          >
-            <option value="">{t('filters.all_categories')}</option>
-            {availableFilters.category?.map(({ value, label, count }) => (
-              <option key={value} value={value} className="bg-gray-800">
-                {label} ({count})
-              </option>
-            ))}
-          </select>
-        </FilterSection>
+        {/* Debug info */}
+        {Object.keys(availableFilters).length === 0 && (
+          <div className="p-4 bg-yellow-50 border border-yellow-200 rounded-lg">
+            <p className="text-sm text-yellow-800">⚠️ No filters available</p>
+            <p className="text-xs text-yellow-600 mt-1">Received {products.length} products</p>
+          </div>
+        )}
 
-        {/* Size filter */}
-        {sortedSizes.length > 0 && (
-          <FilterSection title={t('filters.sizes')}>
+        {/* 1. PDF source filter - TOP PRIORITY */}
+        {(availableFilters.pdf_source?.length > 0) && (
+          <FilterSection title="Catalog / PDF Document">
+            <select
+              id="pdf-source-filter"
+              value={activeFilters.pdf_source?.[0] || ''}
+              onChange={(e) => handleFilterChange('pdf_source', e.target.value)}
+              className="w-full rounded-md bg-white border border-gray-300 text-gray-900 text-sm p-2 focus:ring-2 focus:border-transparent transition duration-200"
+            >
+              <option value="">All Catalogs</option>
+              {availableFilters.pdf_source.map(({ value, count }) => (
+                <option key={value} value={value}>
+                  {value.replace('.pdf', '')} ({count})
+                </option>
+              ))}
+            </select>
+          </FilterSection>
+        )}
+
+        {/* 2. Power filter */}
+        {(availableFilters.power_kw?.length > 0) && (
+          <FilterSection title="Power (kW)">
+            <select
+              id="power-filter"
+              value={activeFilters.power_kw?.[0] || ''}
+              onChange={(e) => handleFilterChange('power_kw', e.target.value)}
+              className="w-full rounded-md bg-white border border-gray-300 text-gray-900 text-sm p-2 focus:ring-2 focus:border-transparent transition duration-200"
+            >
+              <option value="">All Power Ratings</option>
+              {availableFilters.power_kw.map(({ value, count }) => (
+                <option key={value} value={value}>
+                  {value} ({count})
+                </option>
+              ))}
+            </select>
+          </FilterSection>
+        )}
+
+        {/* 3. Pressure filter */}
+        {(availableFilters.pressure_max_bar?.length > 0) && (
+          <FilterSection title="Pressure (bar)">
+            <select
+              id="pressure-filter"
+              value={activeFilters.pressure_max_bar?.[0] || ''}
+              onChange={(e) => handleFilterChange('pressure_max_bar', e.target.value)}
+              className="w-full rounded-md bg-white border border-gray-300 text-gray-900 text-sm p-2 focus:ring-2 focus:border-transparent transition duration-200"
+            >
+              <option value="">All Pressures</option>
+              {availableFilters.pressure_max_bar.map(({ value, count }) => (
+                <option key={value} value={value}>
+                  {value} ({count})
+                </option>
+              ))}
+            </select>
+          </FilterSection>
+        )}
+
+        {/* 4. Voltage filter */}
+        {(availableFilters.voltage_v?.length > 0) && (
+          <FilterSection title="Voltage (V)">
+            <select
+              id="voltage-filter"
+              value={activeFilters.voltage_v?.[0] || ''}
+              onChange={(e) => handleFilterChange('voltage_v', e.target.value)}
+              className="w-full rounded-md bg-white border border-gray-300 text-gray-900 text-sm p-2 focus:ring-2 focus:border-transparent transition duration-200"
+            >
+              <option value="">All Voltages</option>
+              {availableFilters.voltage_v.map(({ value, count }) => (
+                <option key={value} value={value}>
+                  {value} ({count})
+                </option>
+              ))}
+            </select>
+          </FilterSection>
+        )}
+
+        {/* 5. Size filter */}
+        {(sortedSizes.length > 0) && (
+          <FilterSection title="Size / Dimensions">
             <select
               id="size-filter"
               value={activeFilters.size?.[0] || ''}
               onChange={(e) => handleFilterChange('size', e.target.value)}
-              className="w-full rounded-md bg-gray-800 border border-gray-700 text-gray-100 text-sm p-2 focus:ring-2 focus:ring-yellow-500 focus:border-transparent transition duration-200"
+              className="w-full rounded-md bg-white border border-gray-300 text-gray-900 text-sm p-2 focus:ring-2 focus:border-transparent transition duration-200"
             >
-              <option value="">{t('filters.all_sizes')}</option>
+              <option value="">All Sizes</option>
               {sortedSizes.map(({ value, label, count }) => (
-                <option key={value} value={value} className="bg-gray-800">
+                <option key={value} value={value}>
                   {label} ({count})
                 </option>
               ))}
@@ -461,45 +538,43 @@ export default function ProductFilters({
           </FilterSection>
         )}
 
-        {/* PDF source filter (uses availableFilters) */}
-        {availableFilters.pdf_source && availableFilters.pdf_source.length > 0 && (
-          <FilterSection title={t('filters.documents')}>
+        {/* 6. Weight filter */}
+        {(availableFilters.weight_kg?.length > 0) && (
+          <FilterSection title="Weight (kg)">
             <select
-              id="pdf-source-filter"
-              value={activeFilters.pdf_source?.[0] || ''}
-              onChange={(e) => handleFilterChange('pdf_source', e.target.value)}
-              className="w-full rounded-md bg-gray-800 border border-gray-700 text-gray-100 text-sm p-2 focus:ring-2 focus:ring-yellow-500 focus:border-transparent transition duration-200"
+              id="weight-filter"
+              value={activeFilters.weight_kg?.[0] || ''}
+              onChange={(e) => handleFilterChange('weight_kg', e.target.value)}
+              className="w-full rounded-md bg-white border border-gray-300 text-gray-900 text-sm p-2 focus:ring-2 focus:border-transparent transition duration-200"
             >
-              <option value="">{t('filters.all_documents')}</option>
-              {availableFilters.pdf_source.map(({ value, count }) => (
-                <option key={value} value={value} className="bg-gray-800">
-                  {(value.split('/').pop() || 'PDF Document')} ({count})
+              <option value="">All Weights</option>
+              {availableFilters.weight_kg.map(({ value, count }) => (
+                <option key={value} value={value}>
+                  {value} ({count})
                 </option>
               ))}
             </select>
           </FilterSection>
         )}
 
-        {/* Generic added filters */}
-        {['product_type','pressure_max_bar','power_kw','voltage_v','flow_l_min_list','rpm','size_inch','connection_types','length_m','materials','weight_kg','volume_l','vlotter']
-          .filter((key) => availableFilters[key as keyof typeof availableFilters]?.length)
-          .map((key) => (
-            <FilterSection key={key} title={titleFor(key)}>
-              <select
-                id={`${key}-filter`}
-                value={activeFilters[key]?.[0] || ''}
-                onChange={(e) => handleFilterChange(key, e.target.value)}
-                className="w-full rounded-md bg-gray-800 border border-gray-700 text-gray-100 text-sm p-2 focus:ring-2 focus:ring-yellow-500 focus:border-transparent transition duration-200"
-              >
-                <option value="">{t('filters.all_generic')}</option>
-                {availableFilters[key]?.map(({ value, count }) => (
-                  <option key={value} value={value} className="bg-gray-800">
-                    {String(value)} ({count})
-                  </option>
-                ))}
-              </select>
-            </FilterSection>
-          ))}
+        {/* 7. Connection types filter */}
+        {(availableFilters.connection_types?.length > 0) && (
+          <FilterSection title="Connection Type">
+            <select
+              id="connection-filter"
+              value={activeFilters.connection_types?.[0] || ''}
+              onChange={(e) => handleFilterChange('connection_types', e.target.value)}
+              className="w-full rounded-md bg-white border border-gray-300 text-gray-900 text-sm p-2 focus:ring-2 focus:border-transparent transition duration-200"
+            >
+              <option value="">All Connection Types</option>
+              {availableFilters.connection_types.map(({ value, count }) => (
+                <option key={value} value={value}>
+                  {value} ({count})
+                </option>
+              ))}
+            </select>
+          </FilterSection>
+        )}
       </div>
     </div>
   );

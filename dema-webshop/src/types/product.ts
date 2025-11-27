@@ -1,14 +1,46 @@
 export interface Product {
   // Core product identification
+  id?: string;
   sku: string;
-  name: string;
-  description: string;
-  product_category: string;
-  media?: { url: string; role?: string }[];
+  name?: string;
+  brand?: string | null;
+  catalog?: string;
+  category?: string;
+  description?: string | null;
+  product_category?: string;
+  attributes?: Record<string, any>;
+  specs?: Array<{ label: string; value: string }>;
+  media?: Array<{
+    url: string;
+    role: 'main' | 'thumbnail' | 'gallery';
+    type: 'image' | 'video';
+    format?: string;
+  }>;
+  image_paths?: string[];
+  
+  // Pricing and stock
+  price?: number | null;
+  priceMode?: 'request_quote' | 'fixed' | 'call_for_price';
+  stock?: {
+    status: 'in_stock' | 'out_of_stock' | 'unknown';
+    quantity?: number | null;
+  };
+  inStock?: boolean | null;
+  
+  // SEO
+  seo?: {
+    slug: string;
+    meta_title?: string;
+    meta_description?: string;
+  };
   
   // PDF and documentation
-  pdf_source: string;
-  source_pages: number[];
+  pdf_source?: string;
+  source_pages?: number[];
+  source?: {
+    pdf_sources?: string[];
+    pages?: number[];
+  };
   image_page?: number;
   image_crop_norm?: { x: number; y: number; width: number; height: number };
   absk_codes?: string[];
@@ -43,6 +75,9 @@ export interface Product {
   power_output_kw?: number;
   cable_length_m?: number;
   features?: string[];
+  noise_level_db?: number;
+  airflow_l_min?: number;
+  tank_capacity_l?: number;
   
   // Dimensions and weight
   dimensions_mm_list?: number[];
@@ -52,9 +87,7 @@ export interface Product {
   weight_kg?: number;
   
   // Product details
-  price?: number;
   imageUrl?: string;
-  inStock?: boolean;
   rating?: number;
   reviewCount?: number;
   
@@ -97,6 +130,9 @@ export interface ProductFilters {
   weight_kg?: number;
   volume_l?: number;
   vlotter?: boolean;
+  
+  // Image filter
+  hasImages?: boolean;
   
   // Pagination
   limit?: number;
