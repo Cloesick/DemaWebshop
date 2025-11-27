@@ -4,8 +4,10 @@ import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { Bars3Icon, XMarkIcon, ShoppingCartIcon, UserIcon } from '@heroicons/react/24/outline';
+import { FileText } from 'lucide-react';
 import { useCartStore } from '@/store/cartStore';
 import { useLocale } from '@/contexts/LocaleContext';
+import { useQuote } from '@/contexts/QuoteContext';
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -13,6 +15,7 @@ export default function Navbar() {
   const pathname = usePathname();
   const toggleCart = useCartStore(s => s.toggleCart);
   const count = useCartStore(s => s.items.reduce((t, i) => t + i.quantity, 0));
+  const { quoteItems, toggleQuote } = useQuote();
   const { t } = useLocale();
 
   const navigation = [
@@ -54,7 +57,24 @@ export default function Navbar() {
                 ))}
               </div>
             </div>
-            <div className="hidden sm:ml-6 sm:flex sm:items-center">
+            <div className="hidden sm:ml-6 sm:flex sm:items-center gap-3">
+              {/* Request Quote Button */}
+              <button
+                type="button"
+                onClick={toggleQuote}
+                className="p-1 rounded-full text-orange-500 hover:text-orange-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-orange-500 relative"
+                title="Request Quote"
+              >
+                <span className="sr-only">Request Quote</span>
+                <FileText className="h-6 w-6" aria-hidden="true" />
+                {quoteItems.length > 0 && (
+                  <span className="absolute -top-1 -right-1 bg-orange-500 text-white text-xs font-bold rounded-full h-5 w-5 flex items-center justify-center">
+                    {quoteItems.length}
+                  </span>
+                )}
+              </button>
+
+              {/* Shopping Cart Button */}
               <button
                 type="button"
                 onClick={toggleCart}
@@ -68,9 +88,11 @@ export default function Navbar() {
                   </span>
                 )}
               </button>
+
+              {/* User Account Link */}
               <Link
                 href="/auth/signin"
-                className="ml-3 p-1 rounded-full text-gray-400 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
+                className="p-1 rounded-full text-gray-400 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
               >
                 <span className="sr-only">{t('account')}</span>
                 <UserIcon className="h-6 w-6" aria-hidden="true" />

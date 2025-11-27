@@ -1,7 +1,7 @@
 'use client';
 
-import { useState, useEffect, useMemo } from 'react';
-import { ChevronUp, ChevronDown } from 'lucide-react';
+import { useState, useEffect, useMemo, useRef } from 'react';
+import { ChevronUp, ChevronDown, Search, X } from 'lucide-react';
 
 interface Product {
   sku: string;
@@ -74,6 +74,10 @@ export default function SimpleProductFilters({
 }: ProductFiltersProps) {
   const [activeFilters, setActiveFilters] = useState<Record<string, string[]>>({});
   const [availableFilters, setAvailableFilters] = useState<Record<string, FilterOption[]>>({});
+  const [searchQuery, setSearchQuery] = useState('');
+  const [searchSuggestions, setSearchSuggestions] = useState<Array<{type: string, value: string, product: Product}>>([]);
+  const [showSuggestions, setShowSuggestions] = useState(false);
+  const searchRef = useRef<HTMLDivElement>(null);
 
   // Extract all possible filters from products
   useEffect(() => {
@@ -183,8 +187,185 @@ export default function SimpleProductFilters({
     onFilterChange(newFilters);
   };
 
+  // Search suggestions logic
+  useEffect(() => {
+    if (searchQuery.length >= 2) {
+      const query = searchQuery.toLowerCase();
+      const suggestions: Array<{type: string, value: string, product: Product}> = [];
+      const seen = new Set<string>();
+
+      products.forEach(product => {
+        // Search in SKU
+        if (product.sku && product.sku.toLowerCase().includes(query)) {
+          const key = `sku-${product.sku}`;
+          if (!seen.has(key) && suggestions.length < 10) {
+            suggestions.push({ type: 'SKU', value: product.sku, product });
+            seen.add(key);
+          }
+        }
+        // Search in name
+        if (product.name && product.name.toLowerCase().includes(query)) {
+          const key = `name-${product.name}`;
+          if (!seen.has(key) && suggestions.length < 10) {
+            suggestions.push({ type: 'Name', value: product.name, product });
+            seen.add(key);
+          }
+        }
+        // Search in catalog PDF
+        if (product.pdf_source && product.pdf_source.toLowerCase().includes(query)) {
+          const key = `pdf-${product.pdf_source}`;
+          if (!seen.has(key) && suggestions.length < 10) {
+            suggestions.push({ type: 'Catalog PDF', value: product.pdf_source, product });
+            seen.add(key);
+          }
+        }
+        // Search in page number
+        if (product.page_in_pdf && String(product.page_in_pdf).includes(query)) {
+          const key = `page-${product.sku}-${product.page_in_pdf}`;
+          if (!seen.has(key) && suggestions.length < 10) {
+            suggestions.push({ type: 'PDF Page', value: `Page ${product.page_in_pdf} in ${product.pdf_source}`, product });
+            seen.add(key);
+          }
+        }
+      });
+
+      setSearchSuggestions(suggestions);
+      setShowSuggestions(suggestions.length > 0);
+    } else {
+      setSearchSuggestions([]);
+      setShowSuggestions(false);
+    }
+  }, [searchQuery, products]);
+
+  // Click outside to close suggestions
+  useEffect(() => {
+    const handleClickOutside = (event: MouseEvent) => {
+      if (searchRef.current && !searchRef.current.contains(event.target as Node)) {
+        setShowSuggestions(false);
+      }
+    };
+    document.addEventListener('mousedown', handleClickOutside);
+    return () => document.removeEventListener('mousedown', handleClickOutside);
+  }, []);
+
+  const handleSearchChange = (value: string) => {
+    setSearchQuery(value);
+    onSearch(value);
+  };
+
+  const handleSuggestionClick = (suggestion: {type: string, value: string, product: Product}) => {
+    setSearchQuery(suggestion.value);
+    onSearch(suggestion.value);
+    setShowSuggestions(false);
+  };
+
+  const resetFilters = () => {
+    setActiveFilters({});
+    setSearchQuery('');
+    onFilterChange({});
+    onSearch('');
+  };
+
+  const hasActiveFilters = Object.keys(activeFilters).length > 0 || searchQuery.length > 0;
+
   return (
     <div className={`space-y-4 ${className}`}>
+      {/* Search Bar with Legend */}
+      <div className="bg-white rounded-lg border-2 border-gray-200 p-4 mb-6" style={{ borderColor: '#00ADEF' }}>
+        <div className="space-y-3">
+          {/* Search Legend */}
+          <div className="flex items-center gap-2 text-xs text-gray-600 flex-wrap">
+            <Search className="h-4 w-4" style={{ color: '#00ADEF' }} />
+            <span className="font-medium">Search by:</span>
+            <span className="px-2 py-1 bg-gray-100 rounded">SKU</span>
+            <span className="px-2 py-1 bg-gray-100 rounded">Product Name</span>
+            <span className="px-2 py-1 bg-gray-100 rounded">Catalog PDF</span>
+            <span className="px-2 py-1 bg-gray-100 rounded">PDF Page</span>
+          </div>
+
+          {/* Search Input */}
+          <div ref={searchRef} className="relative">
+            <div className="relative">
+              <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 h-5 w-5 text-gray-400" />
+              <input
+                type="text"
+                value={searchQuery}
+                onChange={(e) => handleSearchChange(e.target.value)}
+                onFocus={() => searchQuery.length >= 2 && setShowSuggestions(true)}
+                placeholder="Start typing to search products... (min. 2 characters)"
+                className="w-full pl-10 pr-10 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:border-transparent text-base"
+                style={{ '--tw-ring-color': '#00ADEF' } as React.CSSProperties}
+              />
+              {searchQuery && (
+                <button
+                  onClick={() => handleSearchChange('')}
+                  className="absolute right-3 top-1/2 transform -translate-y-1/2 text-gray-400 hover:text-gray-600"
+                >
+                  <X className="h-5 w-5" />
+                </button>
+              )}
+            </div>
+
+            {/* Search Suggestions Dropdown */}
+            {showSuggestions && searchSuggestions.length > 0 && (
+              <div className="absolute z-50 w-full mt-1 bg-white border border-gray-200 rounded-lg shadow-lg max-h-96 overflow-y-auto">
+                {searchSuggestions.map((suggestion, idx) => (
+                  <button
+                    key={idx}
+                    onClick={() => handleSuggestionClick(suggestion)}
+                    className="w-full px-4 py-3 text-left hover:bg-gray-50 border-b border-gray-100 last:border-b-0 transition-colors"
+                  >
+                    <div className="flex items-start gap-3">
+                      <span 
+                        className="px-2 py-1 text-xs font-medium rounded text-white flex-shrink-0"
+                        style={{ backgroundColor: '#00ADEF' }}
+                      >
+                        {suggestion.type}
+                      </span>
+                      <div className="flex-1 min-w-0">
+                        <div className="text-sm font-medium text-gray-900 truncate">
+                          {suggestion.value}
+                        </div>
+                        {suggestion.product.name && suggestion.type !== 'Name' && (
+                          <div className="text-xs text-gray-500 truncate mt-1">
+                            {suggestion.product.name}
+                          </div>
+                        )}
+                      </div>
+                    </div>
+                  </button>
+                ))}
+              </div>
+            )}
+          </div>
+
+          {/* Reset Filters Button */}
+          {hasActiveFilters && (
+            <button
+              onClick={resetFilters}
+              className="w-full py-2 px-4 border-2 rounded-lg font-medium text-sm transition-colors flex items-center justify-center gap-2"
+              style={{ 
+                borderColor: '#00ADEF',
+                color: '#00ADEF',
+                backgroundColor: 'white'
+              }}
+              onMouseEnter={(e) => {
+                e.currentTarget.style.backgroundColor = '#00ADEF';
+                e.currentTarget.style.color = 'white';
+              }}
+              onMouseLeave={(e) => {
+                e.currentTarget.style.backgroundColor = 'white';
+                e.currentTarget.style.color = '#00ADEF';
+              }}
+            >
+              <X className="h-4 w-4" />
+              Reset All Filters
+            </button>
+          )}
+        </div>
+      </div>
+
+      {/* Filter Sections */}
       {/* 1. PDF source filter */}
       <FilterSection title="Catalog / PDF Document">
         {(availableFilters.pdf_source?.length > 0) ? (

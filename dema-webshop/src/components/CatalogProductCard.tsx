@@ -2,6 +2,7 @@
 
 import Link from 'next/link';
 import { useState } from 'react';
+import { useQuote } from '@/contexts/QuoteContext';
 
 interface CatalogProductCardProps {
   product: any;
@@ -15,6 +16,7 @@ export default function CatalogProductCard({
   className = '' 
 }: CatalogProductCardProps) {
   const [imageError, setImageError] = useState(false);
+  const { addToQuote } = useQuote();
 
   // Get image URL from various possible sources
   const imageUrl = product.imageUrl || 
@@ -68,6 +70,107 @@ export default function CatalogProductCard({
             </p>
           )}
 
+          {/* Technical Specifications */}
+          {(product.power_kw || product.voltage_v || product.pressure_max_bar || product.weight_kg || product.flow_l_min || product.diameter_mm || product.length_m || product.material || product.width_mm || product.min_temp_c || product.bearing_type || product.bearing_housing) && (
+            <div className="mb-3 flex flex-wrap gap-2">
+              {product.power_kw && (
+                <span className="inline-flex items-center px-2 py-1 rounded text-xs font-medium bg-yellow-50 text-yellow-800 border border-yellow-200">
+                  ⚡ {product.power_kw} kW
+                </span>
+              )}
+              {product.voltage_v && (
+                <span className="inline-flex items-center px-2 py-1 rounded text-xs font-medium bg-purple-50 text-purple-800 border border-purple-200">
+                  🔌 {product.voltage_v} V
+                </span>
+              )}
+              {product.pressure_max_bar && (
+                <span className="inline-flex items-center px-2 py-1 rounded text-xs font-medium bg-blue-50 text-blue-800 border border-blue-200">
+                  🔧 {product.pressure_max_bar} bar
+                </span>
+              )}
+              {product.weight_kg && (
+                <span className="inline-flex items-center px-2 py-1 rounded text-xs font-medium bg-gray-50 text-gray-800 border border-gray-200">
+                  ⚖️ {product.weight_kg} kg
+                </span>
+              )}
+              {product.flow_l_min && (
+                <span className="inline-flex items-center px-2 py-1 rounded text-xs font-medium bg-cyan-50 text-cyan-800 border border-cyan-200">
+                  💨 {product.flow_l_min} L/min
+                </span>
+              )}
+              {product.diameter_mm && (
+                <span className="inline-flex items-center px-2 py-1 rounded text-xs font-medium bg-green-50 text-green-800 border border-green-200">
+                  📏 {product.diameter_mm} mm ø
+                </span>
+              )}
+              {product.inner_diameter_mm && (
+                <span className="inline-flex items-center px-2 py-1 rounded text-xs font-medium bg-blue-50 text-blue-800 border border-blue-200">
+                  ⊙ {product.inner_diameter_mm} mm (inner ø)
+                </span>
+              )}
+              {product.outer_diameter_mm && (
+                <span className="inline-flex items-center px-2 py-1 rounded text-xs font-medium bg-green-50 text-green-800 border border-green-200">
+                  ◯ {product.outer_diameter_mm} mm (outer ø)
+                </span>
+              )}
+              {product.length_m && (
+                <span className="inline-flex items-center px-2 py-1 rounded text-xs font-medium bg-teal-50 text-teal-800 border border-teal-200">
+                  📐 {product.length_m} m
+                </span>
+              )}
+              {product.material && (
+                <span className="inline-flex items-center px-2 py-1 rounded text-xs font-medium bg-amber-50 text-amber-800 border border-amber-200">
+                  🔬 {product.material}
+                </span>
+              )}
+              {product.width_mm && (
+                <span className="inline-flex items-center px-2 py-1 rounded text-xs font-medium bg-lime-50 text-lime-800 border border-lime-200">
+                  ↔️ {product.width_mm} mm wide
+                </span>
+              )}
+              {product.thread_size && (
+                <span className="inline-flex items-center px-2 py-1 rounded text-xs font-medium bg-rose-50 text-rose-800 border border-rose-200">
+                  🔩 {product.thread_size}
+                </span>
+              )}
+              {product.volume_l && (
+                <span className="inline-flex items-center px-2 py-1 rounded text-xs font-medium bg-indigo-50 text-indigo-800 border border-indigo-200">
+                  🗜️ {product.volume_l} L
+                </span>
+              )}
+              {product.rpm && (
+                <span className="inline-flex items-center px-2 py-1 rounded text-xs font-medium bg-orange-50 text-orange-800 border border-orange-200">
+                  🔄 {product.rpm} RPM
+                </span>
+              )}
+              {product.min_temp_c && product.max_temp_c && (
+                <span className="inline-flex items-center px-2 py-1 rounded text-xs font-medium bg-sky-50 text-sky-800 border border-sky-200">
+                  🌡️ {product.min_temp_c}°C to {product.max_temp_c}°C
+                </span>
+              )}
+              {product.bearing_type && (
+                <span className="inline-flex items-center px-2 py-1 rounded text-xs font-medium bg-violet-50 text-violet-800 border border-violet-200">
+                  🏷️ {product.bearing_type}
+                </span>
+              )}
+              {product.bearing_housing && (
+                <span className="inline-flex items-center px-2 py-1 rounded text-xs font-medium bg-pink-50 text-pink-800 border border-pink-200">
+                  🏠 {product.bearing_housing}
+                </span>
+              )}
+              {product.pillow_block_bearing && (
+                <span className="inline-flex items-center px-2 py-1 rounded text-xs font-medium bg-fuchsia-50 text-fuchsia-800 border border-fuchsia-200">
+                  🔩 {product.pillow_block_bearing}
+                </span>
+              )}
+              {product.application && (
+                <span className="inline-flex items-center px-2 py-1 rounded text-xs font-medium bg-emerald-50 text-emerald-800 border border-emerald-200">
+                  🔧 {product.application}
+                </span>
+              )}
+            </div>
+          )}
+
           <div className="mt-auto flex items-center justify-between">
             <div className="flex items-center gap-2">
               {product.images?.length > 1 && (
@@ -83,7 +186,21 @@ export default function CatalogProductCard({
             </div>
             
             {isRequestQuote ? (
-              <span className="text-sm font-semibold text-blue-700">Request Quote</span>
+              <button
+                onClick={(e) => {
+                  e.preventDefault();
+                  e.stopPropagation();
+                  addToQuote({
+                    sku: product.sku,
+                    name: productName,
+                    imageUrl,
+                    category
+                  });
+                }}
+                className="px-3 py-1.5 bg-orange-500 hover:bg-orange-600 text-white text-sm font-semibold rounded transition"
+              >
+                Request Quote
+              </button>
             ) : product.price ? (
               <span className="text-lg font-bold text-gray-900">€{product.price.toFixed(2)}</span>
             ) : null}
@@ -108,7 +225,7 @@ export default function CatalogProductCard({
                 Full catalog
               </button>
               
-              {/* Link to specific page with SKU */}
+              {/* Link to specific page with SKU highlighted */}
               {product.source_pages && product.source_pages.length > 0 && (
                 <button
                   type="button"
@@ -116,14 +233,15 @@ export default function CatalogProductCard({
                     e.preventDefault();
                     e.stopPropagation();
                     const page = product.source_pages[0];
-                    window.open(`/documents/${product.pdf_source}#page=${page}`, '_blank', 'noopener,noreferrer');
+                    const viewerUrl = `/pdf-viewer?file=${encodeURIComponent(product.pdf_source)}&page=${page}&sku=${encodeURIComponent(product.sku)}`;
+                    window.open(viewerUrl, '_blank', 'noopener,noreferrer');
                   }}
-                  className="text-xs text-green-600 hover:underline inline-flex items-center cursor-pointer bg-transparent border-0 p-0"
+                  className="text-xs text-red-600 hover:underline inline-flex items-center cursor-pointer bg-transparent border-0 p-0"
                 >
                   <svg className="w-3 h-3 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
                   </svg>
-                  Page {product.source_pages[0]}
+                  🔴 Page {product.source_pages[0]} (SKU highlighted)
                 </button>
               )}
             </div>
@@ -176,6 +294,92 @@ export default function CatalogProductCard({
           </p>
         )}
 
+        {/* Technical Specifications */}
+        {(product.power_kw || product.voltage_v || product.pressure_max_bar || product.weight_kg || product.flow_l_min || product.diameter_mm || product.length_m || product.material || product.width_mm || product.min_temp_c || product.bearing_type) && (
+          <div className="mb-2 flex flex-wrap gap-1.5">
+            {product.power_kw && (
+              <span className="inline-flex items-center px-1.5 py-0.5 rounded text-xs font-medium bg-yellow-50 text-yellow-800 border border-yellow-200">
+                ⚡ {product.power_kw} kW
+              </span>
+            )}
+            {product.voltage_v && (
+              <span className="inline-flex items-center px-1.5 py-0.5 rounded text-xs font-medium bg-purple-50 text-purple-800 border border-purple-200">
+                🔌 {product.voltage_v} V
+              </span>
+            )}
+            {product.pressure_max_bar && (
+              <span className="inline-flex items-center px-1.5 py-0.5 rounded text-xs font-medium bg-blue-50 text-blue-800 border border-blue-200">
+                🔧 {product.pressure_max_bar} bar
+              </span>
+            )}
+            {product.weight_kg && (
+              <span className="inline-flex items-center px-1.5 py-0.5 rounded text-xs font-medium bg-gray-50 text-gray-800 border border-gray-200">
+                ⚖️ {product.weight_kg} kg
+              </span>
+            )}
+            {product.flow_l_min && (
+              <span className="inline-flex items-center px-1.5 py-0.5 rounded text-xs font-medium bg-cyan-50 text-cyan-800 border border-cyan-200">
+                💨 {product.flow_l_min} L/min
+              </span>
+            )}
+            {product.outer_diameter_mm && (
+              <span className="inline-flex items-center px-1.5 py-0.5 rounded text-xs font-medium bg-green-50 text-green-800 border border-green-200">
+                ◯ {product.outer_diameter_mm} mm
+              </span>
+            )}
+            {product.inner_diameter_mm && (
+              <span className="inline-flex items-center px-1.5 py-0.5 rounded text-xs font-medium bg-blue-50 text-blue-800 border border-blue-200">
+                ⊙ {product.inner_diameter_mm} mm
+              </span>
+            )}
+            {product.length_m && (
+              <span className="inline-flex items-center px-1.5 py-0.5 rounded text-xs font-medium bg-teal-50 text-teal-800 border border-teal-200">
+                📐 {product.length_m} m
+              </span>
+            )}
+            {product.material && (
+              <span className="inline-flex items-center px-1.5 py-0.5 rounded text-xs font-medium bg-amber-50 text-amber-800 border border-amber-200">
+                🔬 {product.material}
+              </span>
+            )}
+            {product.width_mm && (
+              <span className="inline-flex items-center px-1.5 py-0.5 rounded text-xs font-medium bg-lime-50 text-lime-800 border border-lime-200">
+                ↔️ {product.width_mm} mm
+              </span>
+            )}
+            {product.thread_size && (
+              <span className="inline-flex items-center px-1.5 py-0.5 rounded text-xs font-medium bg-rose-50 text-rose-800 border border-rose-200">
+                🔩 {product.thread_size}
+              </span>
+            )}
+            {product.volume_l && (
+              <span className="inline-flex items-center px-1.5 py-0.5 rounded text-xs font-medium bg-indigo-50 text-indigo-800 border border-indigo-200">
+                🗜️ {product.volume_l} L
+              </span>
+            )}
+            {product.rpm && (
+              <span className="inline-flex items-center px-1.5 py-0.5 rounded text-xs font-medium bg-orange-50 text-orange-800 border border-orange-200">
+                🔄 {product.rpm} RPM
+              </span>
+            )}
+            {product.min_temp_c && product.max_temp_c && (
+              <span className="inline-flex items-center px-1.5 py-0.5 rounded text-xs font-medium bg-sky-50 text-sky-800 border border-sky-200">
+                🌡️ {product.min_temp_c}°-{product.max_temp_c}°C
+              </span>
+            )}
+            {product.bearing_type && (
+              <span className="inline-flex items-center px-1.5 py-0.5 rounded text-xs font-medium bg-violet-50 text-violet-800 border border-violet-200">
+                🏷️ {product.bearing_type}
+              </span>
+            )}
+            {product.bearing_housing && (
+              <span className="inline-flex items-center px-1.5 py-0.5 rounded text-xs font-medium bg-pink-50 text-pink-800 border border-pink-200">
+                🏠 {product.bearing_housing}
+              </span>
+            )}
+          </div>
+        )}
+
         {/* Metadata */}
         <div className="mt-auto pt-3 border-t border-gray-100">
           <div className="flex items-center justify-between mb-2">
@@ -187,16 +391,32 @@ export default function CatalogProductCard({
           </div>
 
           {/* Price or Request Quote */}
-          <div className="flex items-center justify-between">
-            {isRequestQuote ? (
-              <span className="text-sm font-semibold" style={{ color: '#00ADEF' }}>Request Quote</span>
-            ) : product.price ? (
-              <span className="text-xl font-bold text-gray-900">€{product.price.toFixed(2)}</span>
-            ) : (
-              <span className="text-sm text-gray-500">Price on request</span>
-            )}
+          <div className="flex items-center justify-between gap-2">
+            <div className="flex-1">
+              {isRequestQuote ? (
+                <button
+                  onClick={(e) => {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    addToQuote({
+                      sku: product.sku,
+                      name: productName,
+                      imageUrl,
+                      category
+                    });
+                  }}
+                  className="w-full px-3 py-1.5 bg-orange-500 hover:bg-orange-600 text-white text-xs font-semibold rounded transition"
+                >
+                  Request Quote
+                </button>
+              ) : product.price ? (
+                <span className="text-lg font-bold text-gray-900">€{product.price.toFixed(2)}</span>
+              ) : (
+                <span className="text-sm text-gray-500">Price on request</span>
+              )}
+            </div>
             
-            <button className="px-3 py-1.5 text-white text-sm font-medium rounded transition" style={{ backgroundColor: '#00ADEF' }} onMouseEnter={(e) => e.currentTarget.style.backgroundColor = '#0099D6'} onMouseLeave={(e) => e.currentTarget.style.backgroundColor = '#00ADEF'}>
+            <button className="px-3 py-1.5 text-white text-xs font-medium rounded transition" style={{ backgroundColor: '#00ADEF' }} onMouseEnter={(e) => e.currentTarget.style.backgroundColor = '#0099D6'} onMouseLeave={(e) => e.currentTarget.style.backgroundColor = '#00ADEF'}>
               View
             </button>
           </div>
@@ -221,7 +441,7 @@ export default function CatalogProductCard({
               View full catalog
             </button>
             
-            {/* Link to specific page with SKU */}
+            {/* Link to specific page with SKU highlighted */}
             {product.source_pages && product.source_pages.length > 0 && (
               <button
                 type="button"
@@ -229,14 +449,15 @@ export default function CatalogProductCard({
                   e.preventDefault();
                   e.stopPropagation();
                   const page = product.source_pages[0];
-                  window.open(`/documents/${product.pdf_source}#page=${page}`, '_blank', 'noopener,noreferrer');
+                  const viewerUrl = `/pdf-viewer?file=${encodeURIComponent(product.pdf_source)}&page=${page}&sku=${encodeURIComponent(product.sku)}`;
+                  window.open(viewerUrl, '_blank', 'noopener,noreferrer');
                 }}
-                className="text-xs text-green-600 hover:underline inline-flex items-center cursor-pointer bg-transparent border-0 p-0 w-full"
+                className="text-xs text-red-600 hover:underline inline-flex items-center cursor-pointer bg-transparent border-0 p-0 w-full"
               >
                 <svg className="w-3 h-3 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
                 </svg>
-                View SKU on page {product.source_pages[0]}
+                🔴 View SKU on page {product.source_pages[0]} (highlighted)
               </button>
             )}
           </div>

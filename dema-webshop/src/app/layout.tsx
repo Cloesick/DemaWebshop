@@ -4,8 +4,10 @@ import './globals.css';
 import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';
 import Cart from '@/components/cart/Cart';
+import QuoteList from '@/components/QuoteListSimplified';
 import { CookieConsentProvider } from '@/contexts/CookieConsentContext';
 import { LocaleProvider } from '@/contexts/LocaleContext';
+import { QuoteProvider } from '@/contexts/QuoteContext';
 import CookieConsentWrapper from '@/components/layout/CookieConsentWrapper';
 import { cookies } from 'next/headers';
 import { Providers } from './providers';
@@ -55,13 +57,16 @@ export default async function RootLayout({
         <Providers>
           <CookieConsentProvider>
             <LocaleProvider>
-              <Header />
-              <main className="flex-grow">
-                {children}
-              </main>
-              <Footer />
-              <CookieConsentWrapper />
-              <Cart />
+              <QuoteProvider>
+                <Header />
+                <main className="flex-grow">
+                  {children}
+                </main>
+                <Footer />
+                <CookieConsentWrapper />
+                <Cart />
+                <QuoteList />
+              </QuoteProvider>
             </LocaleProvider>
           </CookieConsentProvider>
         </Providers>
