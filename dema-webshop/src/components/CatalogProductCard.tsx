@@ -3,6 +3,7 @@
 import Link from 'next/link';
 import { useState } from 'react';
 import { useQuote } from '@/contexts/QuoteContext';
+import { useProductTranslation } from '@/hooks/useProductTranslation';
 import UniversalSpecifications from './UniversalSpecifications';
 
 interface CatalogProductCardProps {
@@ -19,27 +20,41 @@ export default function CatalogProductCard({
   const [imageError, setImageError] = useState(false);
   const [justAdded, setJustAdded] = useState(false);
   const { addToQuote } = useQuote();
+  const { productName: getProductName, categoryName, uiText } = useProductTranslation();
 
   // Get image URL from various possible sources
   const imageUrl = product.imageUrl || 
                    product.media?.find((m: any) => m.role === 'main')?.url ||
                    product.image_paths?.[0];
 
-  // Product name/title
-  const productName = product.name || `${product.sku}`;
+  // Product name/title - with multi-language support
+  const productName = getProductName(product);
   const category = product.catalog || product.category || product.product_category || '';
+  const translatedCategory = category ? categoryName(category) : '';
+  
+  // Check if Makita product
+  const isMakita = product.brand === 'Makita' || product.catalog === 'makita' || category.toLowerCase().includes('makita');
   
   // Check if request quote
   const isRequestQuote = product.priceMode === 'request_quote' || !product.price;
 
   if (viewMode === 'list') {
     return (
-      <div className={`flex flex-col sm:flex-row bg-white border border-gray-200 rounded-lg overflow-hidden shadow-sm hover:shadow-lg transition-all duration-200 ${className}`}>
+      <div className={`flex flex-col sm:flex-row bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-lg transition-all duration-200 ${
+        isMakita ? 'border-2 border-teal-500 ring-2 ring-teal-100' : 'border border-gray-200'
+      } ${className}`}>
         {/* Image */}
         <Link 
           href={`/catalog/${product.seo?.slug || product.sku.toLowerCase()}`}
-          className="w-full sm:w-56 h-56 sm:h-full flex-shrink-0 bg-white flex items-center justify-center p-4"
+          className={`w-full sm:w-56 h-56 sm:h-full flex-shrink-0 flex items-center justify-center p-4 relative ${
+            isMakita ? 'bg-gradient-to-br from-teal-50 to-teal-100' : 'bg-white'
+          }`}
         >
+          {isMakita && (
+            <div className="absolute top-2 left-2 bg-teal-600 text-white px-2 py-1 rounded-md text-xs font-bold z-10">
+              MAKITA
+            </div>
+          )}
           {imageUrl && !imageError ? (
             <img
               src={imageUrl}
@@ -67,8 +82,8 @@ export default function CatalogProductCard({
             </h3>
           </Link>
           
-          {category && (
-            <p className="text-sm text-gray-600 mb-2">📁 {category}</p>
+          {translatedCategory && (
+            <p className="text-sm text-gray-600 mb-2">📁 {translatedCategory}</p>
           )}
           
           {product.description && (
@@ -180,12 +195,26 @@ export default function CatalogProductCard({
 
   // Grid view (default)
   return (
-    <div className={`group bg-white border border-gray-200 rounded-lg overflow-hidden shadow-sm hover:shadow-lg transition-all duration-200 flex flex-col ${className}`}>
+    <div className={`group bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-lg transition-all duration-200 flex flex-col ${
+      isMakita ? 'border-2 border-teal-500 ring-2 ring-teal-100' : 'border border-gray-200'
+    } ${className}`}>
       {/* Image */}
       <div className="relative">
+        {isMakita && (
+          <div className="absolute top-2 right-2 bg-teal-600 text-white px-3 py-1 rounded-full text-xs font-bold z-10 shadow-lg">
+            🔋 MAKITA
+          </div>
+        )}
+        {isMakita && (
+          <div className="absolute top-2 left-2 bg-yellow-400 text-gray-900 px-2 py-1 rounded-md text-xs font-bold z-10 shadow-md">
+            NEW
+          </div>
+        )}
         <Link 
           href={`/catalog/${product.seo?.slug || product.sku.toLowerCase()}`}
-          className="w-full h-64 bg-white flex items-center justify-center p-4 block"
+          className={`w-full h-64 flex items-center justify-center p-4 block ${
+            isMakita ? 'bg-gradient-to-br from-teal-50 to-teal-100' : 'bg-white'
+          }`}
         >
           {imageUrl && !imageError ? (
             <img

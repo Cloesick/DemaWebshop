@@ -10,6 +10,7 @@ import { Product } from '@/types/product';
 import Link from 'next/link';
 import { useLocale } from '@/contexts/LocaleContext';
 import ProductCard from '@/components/products/ProductCard';
+import ProductSpecsWithIcons from '@/components/products/ProductSpecsWithIcons';
 import { formatProductForCard } from '@/lib/formatProductForCard';
 
 // This is a client component that will be hydrated on the client
@@ -348,8 +349,14 @@ export default function ProductPage() {
             )}
             
             <div className="mt-6">
-              <h3 className="text-sm font-medium text-gray-900">{t('product.technical_specs')}</h3>
-              <dl className="mt-2 grid grid-cols-2 gap-2 text-sm text-gray-700">
+              {/* Use ProductSpecsWithIcons for Makita products with specs */}
+              {(product.brand === 'Makita' || product.catalog?.toLowerCase().includes('makita')) && 
+               product.specs && product.specs.length > 0 ? (
+                <ProductSpecsWithIcons product={product as any} />
+              ) : (
+                <>
+                  <h3 className="text-sm font-medium text-gray-900">{t('product.technical_specs')}</h3>
+                  <dl className="mt-2 grid grid-cols-2 gap-2 text-sm text-gray-700">
                 {product.product_category && (
                   <>
                     <dt className="font-medium">{t('filters.categories')}</dt>
@@ -468,6 +475,8 @@ export default function ProductPage() {
                   </>
                 )}
               </dl>
+                </>
+              )}
             </div>
             
             <div className="mt-6" id="pdf">

@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import CatalogProductCard from '@/components/CatalogProductCard';
+import ProductCardEnhanced from '@/components/products/ProductCardEnhanced';
 import SimpleProductFilters from '@/components/products/SimpleProductFilters';
 import Link from 'next/link';
 
@@ -133,6 +134,38 @@ export default function ProductsPage() {
         </div>
       </div>
 
+      {/* Makita Featured Banner */}
+      <div className="bg-gradient-to-r from-teal-600 via-teal-500 to-teal-600 py-4">
+        <div className="container mx-auto px-4">
+          <div className="flex flex-col md:flex-row items-center justify-between gap-4">
+            <div className="flex items-center gap-4">
+              <div className="text-4xl">🔋</div>
+              <div>
+                <h2 className="text-white font-bold text-xl flex items-center gap-2">
+                  <span>Makita XGT Battery Products</span>
+                  <span className="bg-yellow-400 text-gray-900 px-2 py-0.5 rounded text-xs font-bold">NEW</span>
+                </h2>
+                <p className="text-teal-50 text-sm">19 professional 40V MAX batteries, chargers & accessories now available</p>
+              </div>
+            </div>
+            <div className="flex gap-3">
+              <a
+                href="/makita"
+                className="px-6 py-2 bg-white text-teal-600 font-semibold rounded-lg hover:bg-gray-100 transition shadow-lg"
+              >
+                Explore Makita →
+              </a>
+              <button
+                onClick={() => setSelectedCatalog('makita')}
+                className="px-6 py-2 bg-teal-700 text-white font-semibold rounded-lg hover:bg-teal-800 transition border-2 border-white/30"
+              >
+                Filter Makita
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
       {/* Search & Filter */}
       <div className="bg-white border-b sticky top-0 z-10 shadow-sm">
         <div className="container mx-auto px-4 py-4">
@@ -183,6 +216,35 @@ export default function ProductsPage() {
 
       {/* Main Content with Filters */}
       <div className="container mx-auto px-4 py-8">
+        {/* Active Makita Filter Indicator */}
+        {selectedCatalog === 'makita' && (
+          <div className="mb-6 bg-gradient-to-r from-teal-50 to-teal-100 border-2 border-teal-500 rounded-lg p-4">
+            <div className="flex items-center justify-between">
+              <div className="flex items-center gap-3">
+                <div className="text-3xl">🔋</div>
+                <div>
+                  <h3 className="font-bold text-teal-900 text-lg">Viewing Makita XGT Products</h3>
+                  <p className="text-teal-700 text-sm">Showing {products.length} professional battery products</p>
+                </div>
+              </div>
+              <div className="flex gap-2">
+                <a
+                  href="/makita"
+                  className="px-4 py-2 bg-teal-600 text-white text-sm font-semibold rounded-lg hover:bg-teal-700 transition"
+                >
+                  Visit Makita Page
+                </a>
+                <button
+                  onClick={() => setSelectedCatalog('')}
+                  className="px-4 py-2 bg-gray-200 text-gray-700 text-sm font-semibold rounded-lg hover:bg-gray-300 transition"
+                >
+                  Clear Filter
+                </button>
+              </div>
+            </div>
+          </div>
+        )}
+        
         <div className="flex flex-col lg:flex-row gap-8">
           {/* Collapsible Sidebar with filters */}
           {showFilters && (
@@ -219,9 +281,19 @@ export default function ProductsPage() {
             ) : (
               <>
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-                  {products.map((product: any) => (
-                    <CatalogProductCard key={product.id} product={product} viewMode="grid" />
-                  ))}
+                  {products.map((product: any) => {
+                    // Use ProductCardEnhanced for Makita products with specs
+                    const isMakita = product.brand === 'Makita' || 
+                                     product.catalog?.toLowerCase().includes('makita') ||
+                                     product.pdf_source?.toLowerCase().includes('makita');
+                    const hasSpecs = product.specs && product.specs.length > 0;
+                    
+                    if (isMakita && hasSpecs) {
+                      return <ProductCardEnhanced key={product.id} product={product} layout="grid" />;
+                    }
+                    
+                    return <CatalogProductCard key={product.id} product={product} viewMode="grid" />;
+                  })}
                 </div>
 
             {/* Pagination */}

@@ -23,6 +23,11 @@ export default function PDFViewerWithHighlight({
   const [scale, setScale] = useState(1.5);
   const [highlights, setHighlights] = useState<any[]>([]);
 
+  // Sync page prop with currentPage state
+  useEffect(() => {
+    setCurrentPage(page);
+  }, [page]);
+
   useEffect(() => {
     // Load PDF.js dynamically
     const loadPdf = async () => {

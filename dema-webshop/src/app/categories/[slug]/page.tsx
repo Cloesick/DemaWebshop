@@ -366,7 +366,7 @@ export default function CategoryPage() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <aside className="md:col-span-1">
             <ProductFilters
-              products={SAMPLE_PRODUCTS}
+              products={SAMPLE_PRODUCTS as any}
               onFilterChange={() => {}}
               onSearch={() => {}}
             />

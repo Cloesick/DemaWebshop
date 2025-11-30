@@ -1,8 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-  // Opt in to Turbopack by providing an empty config (required when no webpack config is present)
-  turbopack: {},
+  // Opt in to Turbopack with proper root configuration
+  turbopack: {
+    root: __dirname,
+  },
 
   // Handle images from external sources
   images: {

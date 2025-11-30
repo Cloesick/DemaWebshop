@@ -1,23 +1,63 @@
 import type { NextAuthOptions } from 'next-auth';
 import Google from 'next-auth/providers/google';
+import Credentials from 'next-auth/providers/credentials';
 
 export const authOptions: NextAuthOptions = {
   providers: [
+    // Credentials provider for email/password login
+    Credentials({
+      name: 'credentials',
+      credentials: {
+        email: { label: "Email", type: "email" },
+        password: { label: "Password", type: "password" }
+      },
+      async authorize(credentials) {
+        // This is a simple example - replace with your actual authentication logic
+        // For development, we'll accept any email/password combination
+        // In production, you should verify against a database
+        
+        if (!credentials?.email || !credentials?.password) {
+          return null;
+        }
+
+        // Example: Accept any valid email for testing
+        // TODO: Replace with real database authentication
+        const email = credentials.email.toLowerCase();
+        
+        // Check if admin (demashop.be domain or specific gmail)
+        const isDemashopDomain = email.endsWith('@demashop.be');
+        const isAliasAdmin = email === 'nicolas.cloet@gmail.com';
+        const role = (isDemashopDomain || isAliasAdmin) ? 'admin' : 'user';
+        const aliasEmail = isAliasAdmin ? 'nicolas@demashop.be' : email;
+
+        // For testing, accept any email with password length > 0
+        // In production, verify password hash from database
+        if (credentials.password.length > 0) {
+          return {
+            id: email,
+            email: email,
+            name: email.split('@')[0],
+            role: role,
+            aliasEmail: aliasEmail,
+          };
+        }
+
+        return null;
+      }
+    }),
+    
     // Google OAuth; requires GOOGLE_CLIENT_ID and GOOGLE_CLIENT_SECRET in env
-    Google,
+    Google({
+      clientId: process.env.GOOGLE_CLIENT_ID || '',
+      clientSecret: process.env.GOOGLE_CLIENT_SECRET || '',
+    }),
   ],
   pages: {
     signIn: '/login', // Custom login page
   },
   callbacks: {
-    authorized({ auth, request: { nextUrl } }) {
-      const isLoggedIn = !!auth?.user;
-      const isOnDashboard = nextUrl.pathname.startsWith('/dashboard');
-      if (isOnDashboard) {
-        return isLoggedIn; // Redirect unauthenticated users to login
-      }
-      return true;
-    },
+    // Note: 'authorized' callback removed - not compatible with current Next Auth version
+    // Use middleware for route protection instead
     async session({ session, token }) {
       // propagate role to session
       if (session.user) {

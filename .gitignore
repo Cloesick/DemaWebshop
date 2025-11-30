@@ -37,3 +37,7 @@ yarn-error.log*
 *.njsproj
 *.sln
 *.sw?
+
+# Experimental/temporary folders
+images_experiment/
+**/catalog_products_backup*.json

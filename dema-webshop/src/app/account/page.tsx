@@ -2,8 +2,11 @@
 
 import { useState } from 'react';
 import { useSession, signIn, signOut } from 'next-auth/react';
-import { FiUser, FiShoppingBag, FiSettings, FiLogOut, FiChevronRight } from 'react-icons/fi';
+import { FiUser, FiShoppingBag, FiSettings, FiLogOut, FiChevronRight, FiFileText } from 'react-icons/fi';
 import Link from 'next/link';
+import { useQuote } from '@/contexts/QuoteContext';
+import ChangePasswordModal from '@/components/account/ChangePasswordModal';
+import DeleteAccountModal from '@/components/account/DeleteAccountModal';
 
 type Order = {
   id: string;
@@ -167,7 +170,8 @@ export default function AccountPage() {
     ],
   });
 
-  const [activeTab, setActiveTab] = useState<'overview' | 'orders' | 'settings' | 'admin'>('overview');
+  const [activeTab, setActiveTab] = useState<'overview' | 'orders' | 'quotes' | 'settings' | 'admin'>('overview');
+  const { quoteItems, removeFromQuote, clearQuote } = useQuote();
 
   const [newProductJson, setNewProductJson] = useState<string>('');
   const [bulkJson, setBulkJson] = useState<string>('');
@@ -176,6 +180,10 @@ export default function AccountPage() {
   const [message, setMessage] = useState<string>('');
   const [adminLogs, setAdminLogs] = useState<any[]>([]);
   const [logsLoading, setLogsLoading] = useState<boolean>(false);
+  
+  // Modal states
+  const [isChangePasswordModalOpen, setIsChangePasswordModalOpen] = useState(false);
+  const [isDeleteAccountModalOpen, setIsDeleteAccountModalOpen] = useState(false);
 
   const handlePreferenceChange = (key: keyof UserData['preferences'], value: any) => {
     setUserData(prev => ({
@@ -246,6 +254,22 @@ export default function AccountPage() {
                   {userData.orders.length > 0 && (
                     <span className="ml-auto bg-gray-200 text-gray-700 text-xs font-semibold px-2 py-0.5 rounded-full">
                       {userData.orders.length}
+                    </span>
+                  )}
+                </button>
+                <button
+                  onClick={() => setActiveTab('quotes')}
+                  className={`w-full flex items-center px-4 py-3 text-sm font-medium rounded-md ${
+                    activeTab === 'quotes' 
+                      ? 'bg-blue-50 text-blue-700' 
+                      : 'text-gray-700 hover:bg-gray-100'
+                  }`}
+                >
+                  <FiFileText className="mr-3 h-5 w-5" />
+                  My Quotes
+                  {quoteItems.length > 0 && (
+                    <span className="ml-auto bg-gray-200 text-gray-700 text-xs font-semibold px-2 py-0.5 rounded-full">
+                      {quoteItems.length}
                     </span>
                   )}
                 </button>
@@ -431,6 +455,149 @@ export default function AccountPage() {
                 </div>
               )}
 
+              {activeTab === 'quotes' && (
+                <div>
+                  <div className="flex justify-between items-center mb-6">
+                    <h2 className="text-lg font-medium text-gray-900">My Quotes</h2>
+                    {quoteItems.length > 0 && (
+                      <button
+                        onClick={clearQuote}
+                        className="text-sm text-red-600 hover:text-red-800"
+                      >
+                        Clear All Quotes
+                      </button>
+                    )}
+                  </div>
+                  <div className="bg-white shadow-sm rounded-lg overflow-hidden">
+                    {quoteItems.length > 0 ? (
+                      <div className="divide-y divide-gray-200">
+                        {quoteItems.map((item) => (
+                          <div key={item.sku} className="p-6">
+                            <div className="flex items-start space-x-4">
+                              {(item as any).image && (
+                                <div className="flex-shrink-0 w-24 h-24 bg-gray-100 rounded-md overflow-hidden">
+                                  <img
+                                    src={(item as any).image}
+                                    alt={item.name}
+                                    className="w-full h-full object-contain"
+                                  />
+                                </div>
+                              )}
+                              <div className="flex-1 min-w-0">
+                                <div className="flex justify-between">
+                                  <div>
+                                    <h3 className="text-base font-semibold text-gray-900">
+                                      {item.name}
+                                    </h3>
+                                    <p className="mt-1 text-sm text-gray-500">
+                                      SKU: {item.sku}
+                                    </p>
+                                    {item.category && (
+                                      <p className="mt-1 text-sm text-gray-500">
+                                        Category: {item.category}
+                                      </p>
+                                    )}
+                                  </div>
+                                  <div className="text-right">
+                                    <p className="text-lg font-medium text-gray-900">
+                                      Quantity: {item.quantity}
+                                    </p>
+                                  </div>
+                                </div>
+                                
+                                {(item as any).specifications && (item as any).specifications.length > 0 && (
+                                  <div className="mt-4">
+                                    <h4 className="text-sm font-medium text-gray-700 mb-2">Specifications:</h4>
+                                    <div className="grid grid-cols-2 gap-2">
+                                      {(item as any).specifications.slice(0, 4).map((spec: any, idx: number) => (
+                                        <div key={idx} className="text-sm">
+                                          <span className="text-gray-500">{spec.key}:</span>{' '}
+                                          <span className="text-gray-900">{spec.value}</span>
+                                        </div>
+                                      ))}
+                                    </div>
+                                  </div>
+                                )}
+
+                                <div className="mt-4 flex items-center space-x-4">
+                                  <button
+                                    onClick={() => removeFromQuote(item.sku)}
+                                    className="text-sm text-red-600 hover:text-red-800 font-medium"
+                                  >
+                                    Remove
+                                  </button>
+                                  <Link
+                                    href={`/catalog/${item.sku.toLowerCase()}`}
+                                    className="text-sm text-blue-600 hover:text-blue-800 font-medium"
+                                  >
+                                    View Product
+                                  </Link>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        ))}
+
+                        <div className="bg-gray-50 px-6 py-4">
+                          <div className="flex justify-between items-center">
+                            <div>
+                              <p className="text-sm text-gray-600">
+                                Total Items: <span className="font-semibold text-gray-900">{quoteItems.reduce((sum, item) => sum + item.quantity, 0)}</span>
+                              </p>
+                              <p className="text-sm text-gray-600 mt-1">
+                                Unique Products: <span className="font-semibold text-gray-900">{quoteItems.length}</span>
+                              </p>
+                            </div>
+                            <div className="flex space-x-3">
+                              <Link
+                                href="/contact?subject=quote"
+                                className="inline-flex items-center px-4 py-2 border border-gray-300 shadow-sm text-sm font-medium rounded-md text-gray-700 bg-white hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
+                              >
+                                Request Quote
+                              </Link>
+                              <button
+                                onClick={() => {
+                                  const quoteData = quoteItems.map(item => ({
+                                    sku: item.sku,
+                                    name: item.name,
+                                    quantity: item.quantity,
+                                    category: item.category,
+                                  }));
+                                  const blob = new Blob([JSON.stringify(quoteData, null, 2)], { type: 'application/json' });
+                                  const url = URL.createObjectURL(blob);
+                                  const a = document.createElement('a');
+                                  a.href = url;
+                                  a.download = `quote-${new Date().toISOString().split('T')[0]}.json`;
+                                  a.click();
+                                  URL.revokeObjectURL(url);
+                                }}
+                                className="inline-flex items-center px-4 py-2 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
+                              >
+                                Export Quote
+                              </button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    ) : (
+                      <div className="p-12 text-center">
+                        <FiFileText className="mx-auto h-12 w-12 text-gray-400" />
+                        <h3 className="mt-2 text-sm font-medium text-gray-900">No quotes</h3>
+                        <p className="mt-1 text-sm text-gray-500">You haven't added any products to your quote list yet.</p>
+                        <div className="mt-6">
+                          <Link
+                            href="/products"
+                            className="inline-flex items-center px-4 py-2 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
+                          >
+                            Browse Products
+                          </Link>
+                        </div>
+                      </div>
+                    )}
+                  </div>
+                </div>
+              )}
+
               {activeTab === 'settings' && (
                 <div>
                   <h2 className="text-lg font-medium text-gray-900 mb-6">Account Settings</h2>
@@ -523,10 +690,16 @@ export default function AccountPage() {
                         <div className="border-t border-gray-200 pt-6">
                           <h3 className="text-base font-medium text-gray-900 mb-4">Account Actions</h3>
                           <div className="space-y-4">
-                            <button className="w-full sm:w-auto inline-flex justify-center py-2 px-4 border border-gray-300 shadow-sm text-sm font-medium rounded-md text-gray-700 bg-white hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500">
+                            <button 
+                              onClick={() => setIsChangePasswordModalOpen(true)}
+                              className="w-full sm:w-auto inline-flex justify-center py-2 px-4 border border-gray-300 shadow-sm text-sm font-medium rounded-md text-gray-700 bg-white hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
+                            >
                               Change Password
                             </button>
-                            <button className="ml-0 sm:ml-3 w-full sm:w-auto inline-flex justify-center py-2 px-4 border border-red-300 shadow-sm text-sm font-medium rounded-md text-red-700 bg-white hover:bg-red-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500">
+                            <button 
+                              onClick={() => setIsDeleteAccountModalOpen(true)}
+                              className="ml-0 sm:ml-3 w-full sm:w-auto inline-flex justify-center py-2 px-4 border border-red-300 shadow-sm text-sm font-medium rounded-md text-red-700 bg-white hover:bg-red-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500"
+                            >
                               Delete Account
                             </button>
                           </div>
@@ -656,6 +829,16 @@ export default function AccountPage() {
           </div>
         </div>
       </div>
+      
+      {/* Modals */}
+      <ChangePasswordModal
+        isOpen={isChangePasswordModalOpen}
+        onClose={() => setIsChangePasswordModalOpen(false)}
+      />
+      <DeleteAccountModal
+        isOpen={isDeleteAccountModalOpen}
+        onClose={() => setIsDeleteAccountModalOpen(false)}
+      />
     </div>
   );
 }

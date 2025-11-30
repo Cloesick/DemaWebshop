@@ -18,7 +18,7 @@ interface Product {
 
 export async function DELETE(
   request: Request,
-  { params }: { params: { sku: string } }
+  { params }: { params: Promise<{ sku: string }> }
 ) {
   try {
     const session = await getServerSession(authOptions);
@@ -27,7 +27,7 @@ export async function DELETE(
       return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
     }
 
-    const { sku } = params;
+    const { sku } = await params;
     const jsonDirectory = path.join(process.cwd(), 'public', 'data');
     const filePath = path.join(jsonDirectory, 'products_for_shop.json');
     const fileContents = await fs.readFile(filePath, 'utf8');
@@ -59,10 +59,10 @@ export async function DELETE(
 
 export async function GET(
   request: Request,
-  { params }: { params: { sku: string } }
+  { params }: { params: Promise<{ sku: string }> }
 ) {
   try {
-    const { sku } = params;
+    const { sku } = await params;
     
     // Read the JSON file
     const jsonDirectory = path.join(process.cwd(), 'public', 'data');

@@ -1,11 +1,12 @@
 'use client';
 
 import Link from 'next/link';
-import { FiSearch, FiShoppingCart, FiUser, FiMapPin, FiMenu } from 'react-icons/fi';
+import { FiSearch, FiShoppingCart, FiUser, FiMapPin, FiMenu, FiFileText } from 'react-icons/fi';
 import { useLocale } from '@/contexts/LocaleContext';
 import { CONTACT } from '@/config/contact';
 import { useCartStore } from '@/store/cartStore';
 import { useCookieConsent } from '@/contexts/CookieConsentContext';
+import { useQuote } from '@/contexts/QuoteContext';
 
 export default function Header() {
   const { t, locale, setLocale } = useLocale();
@@ -13,6 +14,8 @@ export default function Header() {
   const toggleCart = useCartStore(s => s.toggleCart);
   const count = useCartStore(s => s.items.reduce((t, i) => t + i.quantity, 0));
   const { openConsent } = useCookieConsent();
+  const { quoteItems, toggleQuote } = useQuote();
+  const quoteCount = quoteItems.reduce((total, item) => total + item.quantity, 0);
   return (
     <header className="bg-white shadow-sm sticky top-0 z-50">
       {/* Top Bar */}
@@ -81,8 +84,24 @@ export default function Header() {
 
           {/* Search Bar removed as requested */}
 
-          {/* Cart & Contact */}
+          {/* Request Quote & Cart & Contact */}
           <div className="flex items-center space-x-4">
+            {/* Request Quote Button */}
+            <button 
+              onClick={toggleQuote} 
+              className="flex items-center text-gray-700 hover:text-orange-600 relative transition-colors"
+              title="Request Quote"
+            >
+              <FiFileText className="h-6 w-6" />
+              {quoteCount > 0 && (
+                <span className="absolute -top-2 -right-2 bg-orange-500 text-white text-xs rounded-full h-5 w-5 flex items-center justify-center font-semibold">
+                  {quoteCount}
+                </span>
+              )}
+              <span className="ml-1 hidden md:inline">Quote</span>
+            </button>
+            
+            {/* Cart Button */}
             <button onClick={toggleCart} className="flex items-center text-gray-700 hover:text-blue-600 relative">
               <FiShoppingCart className="h-6 w-6" />
               {count > 0 && (

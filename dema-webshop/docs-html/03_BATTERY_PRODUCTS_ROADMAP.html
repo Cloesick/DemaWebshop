@@ -1,0 +1,809 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Battery Products Roadmap</title>
+    <style>
+        @media print {
+            @page {
+                margin: 2cm;
+                size: A4;
+            }
+            body {
+                font-size: 11pt;
+            }
+        }
+        
+        body {
+            font-family: Georgia, 'Times New Roman', serif;
+            font-size: 12pt;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            background: white;
+        }
+        
+        h1 {
+            font-size: 28pt;
+            border-bottom: 4px solid #667eea;
+            padding-bottom: 10px;
+            margin: 30px 0 20px 0;
+            color: #1a1a1a;
+            page-break-after: avoid;
+        }
+        
+        h2 {
+            font-size: 20pt;
+            margin-top: 25px;
+            margin-bottom: 15px;
+            color: #2d3748;
+            page-break-after: avoid;
+        }
+        
+        h3 {
+            font-size: 16pt;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            color: #4a5568;
+            page-break-after: avoid;
+        }
+        
+        h4 {
+            font-size: 14pt;
+            margin-top: 15px;
+            margin-bottom: 8px;
+            color: #718096;
+        }
+        
+        p {
+            margin-bottom: 12px;
+            orphans: 3;
+            widows: 3;
+        }
+        
+        code {
+            background: #f7fafc;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-family: 'Courier New', 'Consolas', monospace;
+            font-size: 10pt;
+            border: 1px solid #e2e8f0;
+        }
+        
+        pre {
+            background: #f7fafc;
+            padding: 15px;
+            border-left: 4px solid #667eea;
+            border-radius: 4px;
+            overflow-x: auto;
+            font-size: 10pt;
+            line-height: 1.4;
+            margin: 15px 0;
+            page-break-inside: avoid;
+        }
+        
+        pre code {
+            background: none;
+            border: none;
+            padding: 0;
+        }
+        
+        ul, ol {
+            margin: 10px 0 15px 25px;
+            padding-left: 20px;
+        }
+        
+        li {
+            margin-bottom: 6px;
+        }
+        
+        blockquote {
+            border-left: 4px solid #cbd5e0;
+            padding-left: 20px;
+            margin: 15px 0;
+            color: #4a5568;
+            font-style: italic;
+        }
+        
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin: 20px 0;
+            page-break-inside: avoid;
+            font-size: 11pt;
+        }
+        
+        th {
+            background: #667eea;
+            color: white;
+            padding: 12px;
+            text-align: left;
+            font-weight: bold;
+        }
+        
+        td {
+            padding: 10px 12px;
+            border-bottom: 1px solid #e2e8f0;
+        }
+        
+        tr:nth-child(even) {
+            background: #f7fafc;
+        }
+        
+        a {
+            color: #667eea;
+            text-decoration: none;
+        }
+        
+        a:hover {
+            text-decoration: underline;
+        }
+        
+        strong {
+            font-weight: bold;
+            color: #1a1a1a;
+        }
+        
+        em {
+            font-style: italic;
+        }
+        
+        hr {
+            border: none;
+            border-top: 2px solid #e2e8f0;
+            margin: 30px 0;
+        }
+        
+        .title-page {
+            text-align: center;
+            margin: 100px 0 60px 0;
+            page-break-after: always;
+        }
+        
+        .title-page h1 {
+            font-size: 36pt;
+            border: none;
+            margin-bottom: 20px;
+        }
+        
+        .subtitle {
+            font-size: 16pt;
+            color: #718096;
+            margin: 20px 0 10px 0;
+        }
+        
+        .date {
+            font-size: 14pt;
+            color: #a0aec0;
+        }
+        
+        .checkbox {
+            margin-right: 8px;
+        }
+        
+        .note {
+            background: #ebf8ff;
+            border-left: 4px solid #4299e1;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 4px;
+        }
+        
+        .warning {
+            background: #fffaf0;
+            border-left: 4px solid #ed8936;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 4px;
+        }
+        
+        .success {
+            background: #f0fff4;
+            border-left: 4px solid #48bb78;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 4px;
+        }
+        
+        @media print {
+            .no-print {
+                display: none;
+            }
+            
+            a[href]:after {
+                content: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="title-page">
+        <h1>Battery Products Roadmap</h1>
+        <p class="subtitle">Makita Battery Products - Implementation Guide</p>
+        <p class="date">November 30, 2025</p>
+    </div>
+    
+    <div class="no-print" style="background: #ebf8ff; padding: 20px; border-radius: 8px; margin-bottom: 30px;">
+        <h3 style="margin-top: 0;">📄 How to Save as PDF:</h3>
+        <ol>
+            <li>Press <strong>Ctrl + P</strong> (or Cmd + P on Mac)</li>
+            <li>Select "Save as PDF" as destination</li>
+            <li>Click "Save"</li>
+        </ol>
+        <p style="margin-bottom: 0;"><em>This message won't appear in the PDF</em></p>
+    </div>
+    
+    <h1>🗺️ Makita Battery Products - Complete Roadmap</h1>
+
+<h2>✅ Phase 1: COMPLETED</h2>
+<ul><li>✅ Data integration (19 products in database)</li>
+<li>✅ React components (JSX + TypeScript)</li>
+<li>✅ Dynamic loading (API + hooks)</li>
+<li>✅ Basic UI with categories</li>
+<li>✅ Price display (Ex/Incl BTW)</li>
+<li>✅ Documentation</li>
+
+<hr>
+
+<h2>🎯 Phase 2: Product Images & Media (NEXT)</h2>
+
+<strong>Priority:</strong> HIGH  
+<strong>Estimated Time:</strong> 2-4 hours  
+<strong>Status:</strong> 📋 READY TO START
+
+<h3>Tasks</h3>
+<li><strong>Add Product Images</strong></li>
+   <input type="checkbox" class="checkbox"> Create <code>/public/product-images/makita-batteries/</code> folder
+   <input type="checkbox" class="checkbox"> Download/add battery images (BL4020, BL4025, etc.)
+   <input type="checkbox" class="checkbox"> Create image processing script
+   <input type="checkbox" class="checkbox"> Update product data with image paths
+   <input type="checkbox" class="checkbox"> Add fallback placeholder images
+
+<li><strong>Image Optimization</strong></li>
+   <input type="checkbox" class="checkbox"> Convert to WebP format
+   <input type="checkbox" class="checkbox"> Generate thumbnails (150x150, 300x300, 600x600)
+   <input type="checkbox" class="checkbox"> Add lazy loading
+   <input type="checkbox" class="checkbox"> Implement image zoom on hover
+
+<li><strong>Gallery Feature</strong></li>
+   <input type="checkbox" class="checkbox"> Multiple images per product
+   <input type="checkbox" class="checkbox"> Image carousel component
+   <input type="checkbox" class="checkbox"> Lightbox for full-size view
+
+<strong>Files to Create:</strong>
+<li><code>scripts/add_battery_images.py</code></li>
+<li><code>scripts/optimize_battery_images.py</code></li>
+<li><code>components/ProductImage.jsx</code></li>
+<li><code>components/ImageGallery.jsx</code></li>
+<li><code>public/product-images/makita-batteries/placeholder.webp</code></li>
+
+<strong>Expected Outcome:</strong> Each battery product has high-quality images with zoom functionality
+
+<hr>
+
+<h2>🛒 Phase 3: Shopping Cart Integration</h2>
+
+<strong>Priority:</strong> HIGH  
+<strong>Estimated Time:</strong> 3-5 hours  
+<strong>Status:</strong> 📋 PLANNED
+
+<h3>Tasks</h3>
+<li><strong>Cart Context/State</strong></li>
+   <input type="checkbox" class="checkbox"> Create cart context provider
+   <input type="checkbox" class="checkbox"> Add to cart functionality
+   <input type="checkbox" class="checkbox"> Update quantity
+   <input type="checkbox" class="checkbox"> Remove from cart
+   <input type="checkbox" class="checkbox"> Persist cart (localStorage)
+
+<li><strong>Cart UI Components</strong></li>
+   <input type="checkbox" class="checkbox"> Mini cart dropdown
+   <input type="checkbox" class="checkbox"> Cart page
+   <input type="checkbox" class="checkbox"> Cart item component
+   <input type="checkbox" class="checkbox"> Cart totals (subtotal, VAT, total)
+
+<li><strong>Cart Logic</strong></li>
+   <input type="checkbox" class="checkbox"> Stock validation
+   <input type="checkbox" class="checkbox"> Price calculation with VAT
+   <input type="checkbox" class="checkbox"> Discount codes support
+   <input type="checkbox" class="checkbox"> Minimum order quantity
+
+<strong>Files to Create:</strong>
+<li><code>contexts/CartContext.jsx</code></li>
+<li><code>hooks/useCart.js</code></li>
+<li><code>components/Cart/MiniCart.jsx</code></li>
+<li><code>components/Cart/CartItem.jsx</code></li>
+<li><code>app/cart/page.jsx</code></li>
+<li><code>utils/cartHelpers.js</code></li>
+
+<strong>Expected Outcome:</strong> Fully functional shopping cart with localStorage persistence
+
+<hr>
+
+<h2>🔍 Phase 4: Search & Advanced Filtering</h2>
+
+<strong>Priority:</strong> MEDIUM  
+<strong>Estimated Time:</strong> 2-3 hours  
+<strong>Status:</strong> 📋 PLANNED
+
+<h3>Tasks</h3>
+<li><strong>Search Functionality</strong></li>
+   <input type="checkbox" class="checkbox"> Search by SKU, name, specs
+   <input type="checkbox" class="checkbox"> Real-time search results
+   <input type="checkbox" class="checkbox"> Search suggestions
+   <input type="checkbox" class="checkbox"> Highlight matching terms
+
+<li><strong>Advanced Filters</strong></li>
+   <input type="checkbox" class="checkbox"> Filter by voltage (40Vmax, etc.)
+   <input type="checkbox" class="checkbox"> Filter by capacity range (2.0-8.0 Ah)
+   <input type="checkbox" class="checkbox"> Filter by price range
+   <input type="checkbox" class="checkbox"> Filter by weight
+   <input type="checkbox" class="checkbox"> Multi-select filters
+
+<li><strong>Sort Options</strong></li>
+   <input type="checkbox" class="checkbox"> Sort by price (low/high)
+   <input type="checkbox" class="checkbox"> Sort by capacity
+   <input type="checkbox" class="checkbox"> Sort by popularity
+   <input type="checkbox" class="checkbox"> Sort by name
+
+<strong>Files to Create:</strong>
+<li><code>components/Search/SearchBar.jsx</code></li>
+<li><code>components/Search/SearchResults.jsx</code></li>
+<li><code>components/Filters/FilterPanel.jsx</code></li>
+<li><code>components/Filters/PriceRangeFilter.jsx</code></li>
+<li><code>hooks/useSearch.js</code></li>
+<li><code>hooks/useFilters.js</code></li>
+
+<strong>Expected Outcome:</strong> Users can easily find specific products with powerful search and filters
+
+<hr>
+
+<h2>📄 Phase 5: Product Detail Pages</h2>
+
+<strong>Priority:</strong> MEDIUM  
+<strong>Estimated Time:</strong> 3-4 hours  
+<strong>Status:</strong> 📋 PLANNED
+
+<h3>Tasks</h3>
+<li><strong>Detail Page Layout</strong></li>
+   <input type="checkbox" class="checkbox"> Product image gallery
+   <input type="checkbox" class="checkbox"> Specifications table
+   <input type="checkbox" class="checkbox"> Price display with VAT
+   <input type="checkbox" class="checkbox"> Add to cart section
+   <input type="checkbox" class="checkbox"> Stock status
+   <input type="checkbox" class="checkbox"> Related products
+
+<li><strong>Enhanced Information</strong></li>
+   <input type="checkbox" class="checkbox"> Technical specifications
+   <input type="checkbox" class="checkbox"> Compatibility information
+   <input type="checkbox" class="checkbox"> User reviews/ratings
+   <input type="checkbox" class="checkbox"> Q&A section
+   <input type="checkbox" class="checkbox"> Downloads (manuals, datasheets)
+
+<li><strong>Dynamic Routing</strong></li>
+   <input type="checkbox" class="checkbox"> <code>/batteries/[sku]</code> route
+   <input type="checkbox" class="checkbox"> SEO-friendly URLs
+   <input type="checkbox" class="checkbox"> Breadcrumbs
+   <input type="checkbox" class="checkbox"> Share buttons
+
+<strong>Files to Create:</strong>
+<li><code>app/batteries/[sku]/page.jsx</code></li>
+<li><code>components/ProductDetail/ProductHero.jsx</code></li>
+<li><code>components/ProductDetail/SpecsTable.jsx</code></li>
+<li><code>components/ProductDetail/RelatedProducts.jsx</code></li>
+<li><code>components/ProductDetail/Reviews.jsx</code></li>
+
+<strong>Expected Outcome:</strong> Detailed product pages with all information customers need
+
+<hr>
+
+<h2>⚖️ Phase 6: Product Comparison Tool</h2>
+
+<strong>Priority:</strong> LOW  
+<strong>Estimated Time:</strong> 2-3 hours  
+<strong>Status:</strong> 📋 PLANNED
+
+<h3>Tasks</h3>
+<li><strong>Comparison Feature</strong></li>
+   <input type="checkbox" class="checkbox"> Select products to compare (max 4)
+   <input type="checkbox" class="checkbox"> Side-by-side comparison table
+   <input type="checkbox" class="checkbox"> Highlight differences
+   <input type="checkbox" class="checkbox"> Compare prices, specs, features
+
+<li><strong>Comparison UI</strong></li>
+   <input type="checkbox" class="checkbox"> Comparison bar (sticky)
+   <input type="checkbox" class="checkbox"> Comparison page
+   <input type="checkbox" class="checkbox"> Export comparison (PDF/image)
+
+<strong>Files to Create:</strong>
+<li><code>components/Comparison/CompareBar.jsx</code></li>
+<li><code>app/batteries/compare/page.jsx</code></li>
+<li><code>hooks/useComparison.js</code></li>
+<li><code>contexts/ComparisonContext.jsx</code></li>
+
+<strong>Expected Outcome:</strong> Users can compare batteries side-by-side to make informed decisions
+
+<hr>
+
+<h2>📊 Phase 7: Stock & Inventory Management</h2>
+
+<strong>Priority:</strong> MEDIUM  
+<strong>Estimated Time:</strong> 2-3 hours  
+<strong>Status:</strong> 📋 PLANNED
+
+<h3>Tasks</h3>
+<li><strong>Stock System</strong></li>
+   <input type="checkbox" class="checkbox"> Real-time stock levels
+   <input type="checkbox" class="checkbox"> Low stock warnings
+   <input type="checkbox" class="checkbox"> Out of stock handling
+   <input type="checkbox" class="checkbox"> Pre-order functionality
+
+<li><strong>Stock Updates</strong></li>
+   <input type="checkbox" class="checkbox"> API endpoint for stock updates
+   <input type="checkbox" class="checkbox"> Automatic stock sync
+   <input type="checkbox" class="checkbox"> Stock reservation on add to cart
+
+<strong>Files to Create:</strong>
+<li><code>app/api/batteries/stock/route.js</code></li>
+<li><code>scripts/sync_battery_stock.py</code></li>
+<li><code>utils/stockManager.js</code></li>
+
+<strong>Expected Outcome:</strong> Accurate stock tracking and availability display
+
+<hr>
+
+<h2>🔐 Phase 8: User Accounts & Order History</h2>
+
+<strong>Priority:</strong> MEDIUM  
+<strong>Estimated Time:</strong> 4-6 hours  
+<strong>Status:</strong> 📋 PLANNED
+
+<h3>Tasks</h3>
+<li><strong>User Authentication</strong></li>
+   <input type="checkbox" class="checkbox"> Login/Register
+   <input type="checkbox" class="checkbox"> Profile management
+   <input type="checkbox" class="checkbox"> Address book
+
+<li><strong>Order System</strong></li>
+   <input type="checkbox" class="checkbox"> Place order
+   <input type="checkbox" class="checkbox"> Order confirmation
+   <input type="checkbox" class="checkbox"> Order history
+   <input type="checkbox" class="checkbox"> Order tracking
+
+<strong>Files to Create:</strong>
+<li><code>app/api/auth/route.js</code></li>
+<li><code>app/api/orders/route.js</code></li>
+<li><code>app/account/orders/page.jsx</code></li>
+<li><code>components/Auth/LoginForm.jsx</code></li>
+
+<strong>Expected Outcome:</strong> Users can create accounts and track their battery orders
+
+<hr>
+
+<h2>💳 Phase 9: Checkout Process</h2>
+
+<strong>Priority:</strong> HIGH  
+<strong>Estimated Time:</strong> 4-6 hours  
+<strong>Status:</strong> 📋 PLANNED
+
+<h3>Tasks</h3>
+<li><strong>Checkout Flow</strong></li>
+   <input type="checkbox" class="checkbox"> Shipping information
+   <input type="checkbox" class="checkbox"> Billing information
+   <input type="checkbox" class="checkbox"> Payment method selection
+   <input type="checkbox" class="checkbox"> Order summary
+   <input type="checkbox" class="checkbox"> Order confirmation
+
+<li><strong>Payment Integration</strong></li>
+   <input type="checkbox" class="checkbox"> Payment gateway (Stripe/Mollie)
+   <input type="checkbox" class="checkbox"> Invoice generation
+   <input type="checkbox" class="checkbox"> Email notifications
+
+<strong>Files to Create:</strong>
+<li><code>app/checkout/page.jsx</code></li>
+<li><code>app/api/checkout/route.js</code></li>
+<li><code>components/Checkout/ShippingForm.jsx</code></li>
+<li><code>components/Checkout/PaymentForm.jsx</code></li>
+<li><code>utils/invoiceGenerator.js</code></li>
+
+<strong>Expected Outcome:</strong> Complete checkout experience with payment processing
+
+<hr>
+
+<h2>📈 Phase 10: Analytics & Tracking</h2>
+
+<strong>Priority:</strong> LOW  
+<strong>Estimated Time:</strong> 2-3 hours  
+<strong>Status:</strong> 📋 PLANNED
+
+<h3>Tasks</h3>
+<li><strong>Analytics Integration</strong></li>
+   <input type="checkbox" class="checkbox"> Google Analytics
+   <input type="checkbox" class="checkbox"> Product view tracking
+   <input type="checkbox" class="checkbox"> Add to cart tracking
+   <input type="checkbox" class="checkbox"> Purchase tracking
+
+<li><strong>Internal Analytics</strong></li>
+   <input type="checkbox" class="checkbox"> Popular products
+   <input type="checkbox" class="checkbox"> Search analytics
+   <input type="checkbox" class="checkbox"> Conversion rates
+
+<strong>Files to Create:</strong>
+<li><code>lib/analytics.js</code></li>
+<li><code>components/Analytics/GoogleAnalytics.jsx</code></li>
+<li><code>app/api/analytics/route.js</code></li>
+
+<strong>Expected Outcome:</strong> Track user behavior and optimize product listings
+
+<hr>
+
+<h2>🎨 Phase 11: UI/UX Enhancements</h2>
+
+<strong>Priority:</strong> MEDIUM  
+<strong>Estimated Time:</strong> 3-4 hours  
+<strong>Status:</strong> 📋 PLANNED
+
+<h3>Tasks</h3>
+<li><strong>Responsive Design</strong></li>
+   <input type="checkbox" class="checkbox"> Mobile optimization
+   <input type="checkbox" class="checkbox"> Tablet layout
+   <input type="checkbox" class="checkbox"> Touch gestures
+
+<li><strong>Animations</strong></li>
+   <input type="checkbox" class="checkbox"> Smooth transitions
+   <input type="checkbox" class="checkbox"> Loading animations
+   <input type="checkbox" class="checkbox"> Micro-interactions
+
+<li><strong>Accessibility</strong></li>
+   <input type="checkbox" class="checkbox"> Keyboard navigation
+   <input type="checkbox" class="checkbox"> Screen reader support
+   <input type="checkbox" class="checkbox"> ARIA labels
+   <input type="checkbox" class="checkbox"> Color contrast
+
+<strong>Files to Create:</strong>
+<li><code>styles/animations.css</code></li>
+<li><code>components/ui/Skeleton.jsx</code></li>
+<li><code>components/ui/Toast.jsx</code></li>
+<li><code>hooks/useKeyboard.js</code></li>
+
+<strong>Expected Outcome:</strong> Polished, accessible, mobile-friendly interface
+
+<hr>
+
+<h2>🧪 Phase 12: Testing & Quality Assurance</h2>
+
+<strong>Priority:</strong> HIGH  
+<strong>Estimated Time:</strong> 4-6 hours  
+<strong>Status:</strong> 📋 PLANNED
+
+<h3>Tasks</h3>
+<li><strong>Unit Tests</strong></li>
+   <input type="checkbox" class="checkbox"> Component tests (Jest/React Testing Library)
+   <input type="checkbox" class="checkbox"> Hook tests
+   <input type="checkbox" class="checkbox"> Utility function tests
+
+<li><strong>Integration Tests</strong></li>
+   <input type="checkbox" class="checkbox"> API endpoint tests
+   <input type="checkbox" class="checkbox"> Cart flow tests
+   <input type="checkbox" class="checkbox"> Checkout flow tests
+
+<li><strong>E2E Tests</strong></li>
+   <input type="checkbox" class="checkbox"> Playwright/Cypress tests
+   <input type="checkbox" class="checkbox"> User journey tests
+
+<strong>Files to Create:</strong>
+<li><code>__tests__/components/BatteryCard.test.jsx</code></li>
+<li><code>__tests__/hooks/useBatteryProducts.test.js</code></li>
+<li><code>__tests__/api/batteries.test.js</code></li>
+<li><code>e2e/battery-purchase.spec.js</code></li>
+
+<strong>Expected Outcome:</strong> High test coverage ensuring reliability
+
+<hr>
+
+<h2>🚀 Phase 13: Performance Optimization</h2>
+
+<strong>Priority:</strong> MEDIUM  
+<strong>Estimated Time:</strong> 2-3 hours  
+<strong>Status:</strong> 📋 PLANNED
+
+<h3>Tasks</h3>
+<li><strong>Performance Improvements</strong></li>
+   <input type="checkbox" class="checkbox"> Code splitting
+   <input type="checkbox" class="checkbox"> Lazy loading
+   <input type="checkbox" class="checkbox"> Image optimization
+   <input type="checkbox" class="checkbox"> Caching strategy
+
+<li><strong>API Optimization</strong></li>
+   <input type="checkbox" class="checkbox"> Response caching
+   <input type="checkbox" class="checkbox"> Pagination
+   <input type="checkbox" class="checkbox"> Database indexing
+
+<strong>Files to Create:</strong>
+<li><code>lib/cache.js</code></li>
+<li><code>middleware/caching.js</code></li>
+<li><code>scripts/analyze_bundle.js</code></li>
+
+<strong>Expected Outcome:</strong> Fast loading times and smooth interactions
+
+<hr>
+
+<h2>🌐 Phase 14: SEO & Marketing</h2>
+
+<strong>Priority:</strong> MEDIUM  
+<strong>Estimated Time:</strong> 3-4 hours  
+<strong>Status:</strong> 📋 PLANNED
+
+<h3>Tasks</h3>
+<li><strong>SEO Optimization</strong></li>
+   <input type="checkbox" class="checkbox"> Meta tags for each product
+   <input type="checkbox" class="checkbox"> Structured data (Schema.org)
+   <input type="checkbox" class="checkbox"> Sitemap generation
+   <input type="checkbox" class="checkbox"> Robots.txt
+   <input type="checkbox" class="checkbox"> Open Graph tags
+
+<li><strong>Marketing Features</strong></li>
+   <input type="checkbox" class="checkbox"> Promotional banners
+   <input type="checkbox" class="checkbox"> Discount codes
+   <input type="checkbox" class="checkbox"> Newsletter signup
+   <input type="checkbox" class="checkbox"> Product recommendations
+
+<strong>Files to Create:</strong>
+<li><code>components/SEO/ProductSchema.jsx</code></li>
+<li><code>scripts/generate_sitemap.py</code></li>
+<li><code>components/Marketing/PromoBar.jsx</code></li>
+<li><code>app/api/newsletter/route.js</code></li>
+
+<strong>Expected Outcome:</strong> Better search engine visibility and marketing tools
+
+<hr>
+
+<h2>📱 Phase 15: Mobile App (Optional)</h2>
+
+<strong>Priority:</strong> LOW  
+<strong>Estimated Time:</strong> 20-40 hours  
+<strong>Status:</strong> 📋 FUTURE
+
+<h3>Tasks</h3>
+<li><strong>React Native App</strong></li>
+   <input type="checkbox" class="checkbox"> Product browsing
+   <input type="checkbox" class="checkbox"> Cart functionality
+   <input type="checkbox" class="checkbox"> Order placement
+
+<strong>Expected Outcome:</strong> Native mobile app for battery products
+
+<hr>
+
+<h2>📊 Priority Matrix</h2>
+
+<h3>Immediate (Next 1-2 weeks)</h3>
+<li><strong>Product Images</strong> (Phase 2)</li>
+<li><strong>Shopping Cart</strong> (Phase 3)</li>
+<li><strong>Product Details</strong> (Phase 5)</li>
+<li><strong>Checkout</strong> (Phase 9)</li>
+
+<h3>Short-term (2-4 weeks)</h3>
+<li><strong>Search & Filters</strong> (Phase 4)</li>
+<li><strong>Stock Management</strong> (Phase 7)</li>
+<li><strong>Testing</strong> (Phase 12)</li>
+<li><strong>UI/UX</strong> (Phase 11)</li>
+
+<h3>Medium-term (1-2 months)</h3>
+<li><strong>User Accounts</strong> (Phase 8)</li>
+<li><strong>Comparison Tool</strong> (Phase 6)</li>
+<li><strong>Performance</strong> (Phase 13)</li>
+<li><strong>SEO</strong> (Phase 14)</li>
+
+<h3>Long-term (2+ months)</h3>
+<li><strong>Analytics</strong> (Phase 10)</li>
+<li><strong>Mobile App</strong> (Phase 15)</li>
+
+<hr>
+
+<h2>🎯 Recommended Next Steps</h2>
+
+<h3>Step 1: Add Product Images (Start Here!)</h3>
+<strong>Why:</strong> Visual appeal is crucial for battery products  
+<strong>Impact:</strong> HIGH  
+<strong>Effort:</strong> MEDIUM
+
+<h3>Step 2: Implement Shopping Cart</h3>
+<strong>Why:</strong> Core e-commerce functionality  
+<strong>Impact:</strong> HIGH  
+<strong>Effort:</strong> MEDIUM
+
+<h3>Step 3: Create Product Detail Pages</h3>
+<strong>Why:</strong> Provide detailed product information  
+<strong>Impact:</strong> HIGH  
+<strong>Effort:</strong> MEDIUM
+
+<h3>Step 4: Build Checkout Flow</h3>
+<strong>Why:</strong> Complete the purchase journey  
+<strong>Impact:</strong> HIGH  
+<strong>Effort:</strong> HIGH
+
+<hr>
+
+<h2>📋 Success Metrics</h2>
+
+<h3>Phase 2 (Images)</h3>
+<li>✅ All 19 products have images</li>
+<li>✅ Image load time < 1 second</li>
+<li>✅ Zoom functionality works</li>
+
+<h3>Phase 3 (Cart)</h3>
+<li>✅ Add to cart success rate > 95%</li>
+<li>✅ Cart persists across sessions</li>
+<li>✅ VAT calculation accurate</li>
+
+<h3>Phase 5 (Details)</h3>
+<li>✅ Bounce rate on detail pages < 40%</li>
+<li>✅ Time on page > 2 minutes</li>
+<li>✅ SEO score > 90</li>
+
+<h3>Phase 9 (Checkout)</h3>
+<li>✅ Checkout completion rate > 70%</li>
+<li>✅ Average checkout time < 3 minutes</li>
+<li>✅ Payment success rate > 98%</li>
+
+<hr>
+
+<h2>🛠️ Development Setup Needed</h2>
+
+<h3>Tools to Install</h3>
+<li>[ ] Image optimization tools (Sharp, ImageMagick)</li>
+<li>[ ] Testing framework (Jest, React Testing Library)</li>
+<li>[ ] E2E testing (Playwright)</li>
+<li>[ ] Payment SDK (Stripe/Mollie)</li>
+
+<h3>External Services</h3>
+<li>[ ] Image CDN (Cloudinary/Imgix)</li>
+<li>[ ] Payment gateway account</li>
+<li>[ ] Email service (SendGrid/Mailgun)</li>
+<li>[ ] Analytics (Google Analytics/Plausible)</li>
+
+<hr>
+
+<h2>📚 Documentation to Maintain</h2>
+
+<li>[ ] API documentation (Swagger/OpenAPI)</li>
+<li>[ ] Component storybook</li>
+<li>[ ] Database schema</li>
+<li>[ ] Deployment guide</li>
+<li>[ ] User manual</li>
+
+<hr>
+
+<h2>🎯 Definition of Done</h2>
+
+Each phase is considered complete when:
+<li>✅ All tasks checked off</li>
+<li>✅ Code reviewed</li>
+<li>✅ Tests written and passing</li>
+<li>✅ Documentation updated</li>
+<li>✅ Deployed to staging</li>
+<li>✅ User acceptance testing passed</li>
+<li>✅ Deployed to production</li></ul>
+
+<hr>
+
+<h2>🚀 Quick Start Guide</h2>
+
+<li><strong>Review this roadmap</strong></li>
+<li><strong>Choose next phase</strong> (Recommended: Phase 2 - Images)</li>
+<li><strong>Check prepared files</strong> in respective folders</li>
+<li><strong>Follow phase guide</strong> in <code>PHASE_X_GUIDE.md</code></li>
+<li><strong>Test thoroughly</strong></li>
+<li><strong>Deploy and monitor</strong></li>
+
+<hr>
+
+<strong>Total Estimated Time:</strong> 60-90 hours for complete implementation  
+<strong>Phases:</strong> 15 phases  
+<strong>Current Status:</strong> Phase 1 Complete ✅  
+<strong>Next Phase:</strong> Phase 2 - Product Images 🎯
+
+</body>
+</html>

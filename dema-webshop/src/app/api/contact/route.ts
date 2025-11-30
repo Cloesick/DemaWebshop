@@ -3,10 +3,13 @@ import { Resend } from 'resend';
 import dns from 'dns/promises';
 import { getAdminAuth } from '@/lib/firebaseAdmin';
 
-// Initialize Resend with your API key
-const resend = new Resend(process.env.RESEND_API_KEY);
+// Make this route dynamic (not statically generated at build time)
+export const dynamic = 'force-dynamic';
 
 export async function POST(request: Request) {
+  // Initialize Resend at runtime (not during build)
+  const resend = new Resend(process.env.RESEND_API_KEY || '');
+  
   try {
     const formData = await request.json();
 

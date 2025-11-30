@@ -255,6 +255,65 @@ export default function Home() {
         </div>
       </div>
 
+      {/* Makita Featured Section */}
+      <div className="bg-gradient-to-br from-teal-50 to-blue-50 py-16">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="bg-gradient-to-r from-teal-600 to-teal-700 rounded-2xl overflow-hidden shadow-2xl">
+            <div className="grid md:grid-cols-2 gap-0">
+              {/* Content */}
+              <div className="p-12 flex flex-col justify-center">
+                <div className="inline-block bg-white/20 backdrop-blur-sm px-4 py-2 rounded-full text-white font-semibold mb-4 w-fit">
+                  ⚡ New Addition
+                </div>
+                <h2 className="text-4xl font-bold text-white mb-4">
+                  Makita XGT Battery Products
+                </h2>
+                <p className="text-xl text-white/90 mb-6">
+                  Professional 40V MAX batteries, chargers, and accessories. 
+                  19 products now available with detailed specifications.
+                </p>
+                <div className="flex flex-wrap gap-4">
+                  <Link 
+                    href="/makita"
+                    className="px-6 py-3 bg-white text-teal-600 font-semibold rounded-lg hover:bg-gray-100 transition shadow-lg inline-flex items-center gap-2"
+                  >
+                    <span>Explore Makita</span>
+                    <FiArrowRight />
+                  </Link>
+                  <Link 
+                    href="/products?catalog=makita"
+                    className="px-6 py-3 bg-white/10 backdrop-blur-sm text-white font-semibold rounded-lg hover:bg-white/20 transition border-2 border-white/30"
+                  >
+                    View in Catalog
+                  </Link>
+                </div>
+              </div>
+
+              {/* Image Grid */}
+              <div className="relative h-full min-h-[400px]">
+                <div className="absolute inset-0 grid grid-cols-2 grid-rows-2 gap-2 p-4">
+                  <div className="bg-white/10 backdrop-blur-sm rounded-lg flex items-center justify-center">
+                    <div className="text-6xl">🔋</div>
+                  </div>
+                  <div className="bg-white/10 backdrop-blur-sm rounded-lg flex items-center justify-center">
+                    <div className="text-6xl">⚡</div>
+                  </div>
+                  <div className="bg-white/10 backdrop-blur-sm rounded-lg flex items-center justify-center">
+                    <div className="text-6xl">🔌</div>
+                  </div>
+                  <div className="bg-white/10 backdrop-blur-sm rounded-lg flex items-center justify-center bg-yellow-400/80">
+                    <div className="text-center">
+                      <div className="text-2xl font-bold text-gray-900">19</div>
+                      <div className="text-sm font-semibold text-gray-700">Products</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
       {/* Catalog Products Section */}
       {catalogProducts.length > 0 && (
         <div className="bg-white py-12">

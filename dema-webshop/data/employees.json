@@ -1,0 +1,13 @@
+[
+  {
+    "id": "emp_001",
+    "employeeId": "DEMA2024001",
+    "email": "nicolas@demashop.be",
+    "name": "Nicolas Cloet",
+    "department": "Management",
+    "verified": true,
+    "active": true,
+    "role": "admin",
+    "createdAt": "2024-11-29T00:00:00.000Z"
+  }
+]

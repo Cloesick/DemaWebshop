@@ -1,43 +1,68 @@
-# DemaWebshop - Industrial Equipment E-commerce Platform
+# 🏭 DemaWebshop - Industrial Equipment E-commerce Platform
 
 <div align="center">
-  <img src="public/logo.svg" alt="DemaWebshop Logo" width="200">
-  <h2>Your One-Stop Shop for Industrial Equipment</h2>
+  <h2>Professional B2B E-commerce for Industrial Equipment</h2>
   <p>
-    <a href="#key-features">Features</a> • 
-    <a href="#tech-stack">Tech Stack</a> • 
-    <a href="#getting-started">Getting Started</a> •
-    <a href="#project-structure">Project Structure</a> •
-    <a href="#api-reference">API Reference</a> •
-    <a href="#deployment">Deployment</a> •
-    <a href="#testing">Testing</a> •
-    <a href="#troubleshooting">Troubleshooting</a> •
-    <a href="#contributing">Contributing</a> •
-    <a href="#license">License</a>
+    <a href="#-quick-start">Quick Start</a> • 
+    <a href="#-key-features">Features</a> • 
+    <a href="#-tech-stack">Tech Stack</a> • 
+    <a href="#-deployment">Deployment</a> •
+    <a href="#-project-structure">Structure</a> •
+    <a href="#-performance">Performance</a> •
+    <a href="#-documentation">Docs</a>
   </p>
   
   <!-- Badges -->
-  [![Next.js](https://img.shields.io/badge/Next.js-14.0.0-black?style=for-the-badge&logo=next.js)](https://nextjs.org/)
-  [![TypeScript](https://img.shields.io/badge/TypeScript-5.0.0-blue?style=for-the-badge&logo=typescript)](https://www.typescriptlang.org/)
-  [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.3.0-06B6D4?style=for-the-badge&logo=tailwind-css)](https://tailwindcss.com/)
-  [![Prisma](https://img.shields.io/badge/Prisma-5.0.0-2D3748?style=for-the-badge&logo=prisma)](https://www.prisma.io/)
-  [![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://vercel.com)
-  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
-  [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=for-the-badge)](https://github.com/yourusername/dema-webshop/pulls)
+  [![Next.js](https://img.shields.io/badge/Next.js-16.0-black?style=for-the-badge&logo=next.js)](https://nextjs.org/)
+  [![React](https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react)](https://react.dev/)
+  [![TypeScript](https://img.shields.io/badge/TypeScript-5.2-blue?style=for-the-badge&logo=typescript)](https://www.typescriptlang.org/)
+  [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4-06B6D4?style=for-the-badge&logo=tailwind-css)](https://tailwindcss.com/)
+  [![Vercel](https://img.shields.io/badge/Deploy-Vercel-000000?style=for-the-badge&logo=vercel)](https://vercel.com)
   
   [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https%3A%2F%2Fgithub.com%2Fyourusername%2Fdema-webshop)
-  [![Deploy with Docker](https://img.shields.io/badge/Deploy%20with-Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://www.docker.com/)
 
-  A high-performance, accessible, and scalable e-commerce platform built with Next.js 14, TypeScript, and Tailwind CSS. Designed specifically for industrial equipment sales with advanced product discovery, real-time search, and a seamless shopping experience.
+  A modern, high-performance B2B e-commerce platform featuring **10,000+ industrial products**, intelligent search, PDF catalog integration, and a seamless quote request system. Built with Next.js 16, React 19, and TypeScript.
+
+  **📊 9,913 Products** • **🏭 15+ Catalogs** • **⚡ Universal Specs System** • **🔍 Smart Search**
 </div>
+
+---
+
+## 🚀 Quick Start
+
+```bash
+# Clone the repository
+git clone https://github.com/Cloesick/DemaWebshop.git
+cd DemaWebshop/dema-webshop
+
+# Install dependencies
+npm install
+
+# Run development server
+npm run dev
+
+# Open browser
+# Visit http://localhost:3000
+```
+
+**⏱️ Setup Time:** < 5 minutes
+
+---
 
 ## 📌 Project Status (Nov 2025)
 
-- **Framework/runtime**: Next.js 16 (App Router), React 19, TypeScript, Tailwind CSS
-- **Images**: Next Image set to `unoptimized: true` (no server-side image optimization)
-- **API routes**: Contact endpoint at `src/app/api/contact/route.ts` using `resend`
-- **Database**: `@prisma/client` present but no `schema.prisma` in repo; DB not wired-in yet
-- **Auth/Payments**: `next-auth` and Stripe deps present, not hooked up in code paths
+| Component | Status | Version | Details |
+|-----------|--------|---------|----------|
+| **Framework** | ✅ Production Ready | Next.js 16 | App Router, React 19 |
+| **Products** | ✅ Complete | 9,913 products | 15+ catalogs integrated |
+| **Search** | ✅ Working | Real-time | Smart filtering |
+| **Quote System** | ✅ Implemented | v1.0 | Email integration |
+| **PDF Viewer** | ✅ Integrated | v5.4 | Highlight & navigation |
+| **Specs Display** | ✅ Universal System | v1.0 | 25+ property types |
+| **Images** | ⚠️ Unoptimized | Dev mode | Enable for production |
+| **Database** | 🔄 Optional | Prisma ready | Not required |
+| **Auth** | 🔄 Not implemented | next-auth ready | Optional |
+| **Payments** | 🔄 Not implemented | Stripe ready | Optional |
 
 ## 🌐 Hosting Guidance
 

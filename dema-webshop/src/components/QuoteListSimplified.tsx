@@ -38,9 +38,7 @@ export default function QuoteList() {
     watch
   } = useForm<QuoteFormData>();
 
-  if (!isQuoteOpen) return null;
-
-  // Watch company field to show/hide VAT
+  // Watch company field to show/hide VAT (must be before early return)
   const companyValue = watch('company');
   useEffect(() => {
     if (companyValue && companyValue.trim().length >= 1) {
@@ -49,6 +47,9 @@ export default function QuoteList() {
       setShowVatField(false);
     }
   }, [companyValue]);
+
+  // Early return AFTER all hooks
+  if (!isQuoteOpen) return null;
 
   const onSubmit: SubmitHandler<QuoteFormData> = async (data) => {
     setSending(true);

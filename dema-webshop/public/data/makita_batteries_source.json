@@ -1,0 +1,665 @@
+{
+  "metadata": {
+    "source": "makita-catalogus-2022-nl",
+    "note": "Li = Lithium",
+    "total_products": 19
+  },
+  "products": [
+    {
+      "sku": "191L29-0",
+      "category": "batteries",
+      "product_name": "Li-ion battery BL4020",
+      "specifications": "40Vmax • 2.0 Ah • 0.69 kg • 22 min charge",
+      "properties": {
+        "voltage": {
+          "value": "40Vmax",
+          "icon": "⚡",
+          "label": "Voltage"
+        },
+        "capacity": {
+          "value": "2.0 Ah",
+          "icon": "🔋",
+          "label": "Capacity"
+        },
+        "weight": {
+          "value": "0.69 kg",
+          "icon": "⚖️",
+          "label": "Weight"
+        },
+        "charge_time": {
+          "value": "22 min",
+          "icon": "⏱️",
+          "label": "Charge Time"
+        }
+      },
+      "prices": {
+        "excl_vat": 125.0,
+        "incl_vat": 151.25,
+        "vat_rate": 0.21
+      },
+      "display": {
+        "price_excl": "💶 € 125.00 (ex BTW)",
+        "price_incl": "💶 € 151.25 (incl BTW)",
+        "full_spec": "Li-ion battery BL4020 - 40Vmax • 2.0 Ah • 0.69 kg • 22 min charge",
+        "properties": {
+          "voltage": "⚡ 40Vmax",
+          "capacity": "🔋 2.0 Ah",
+          "weight": "⚖️ 0.69 kg",
+          "charge_time": "⏱️ 22 min"
+        }
+      }
+    },
+    {
+      "sku": "191B36-3",
+      "category": "batteries",
+      "product_name": "Li-ion battery BL4025",
+      "specifications": "40Vmax • 2.5 Ah • 0.71 kg • 28 min charge",
+      "properties": {
+        "voltage": {
+          "value": "40Vmax",
+          "icon": "⚡",
+          "label": "Voltage"
+        },
+        "capacity": {
+          "value": "2.5 Ah",
+          "icon": "🔋",
+          "label": "Capacity"
+        },
+        "weight": {
+          "value": "0.71 kg",
+          "icon": "⚖️",
+          "label": "Weight"
+        },
+        "charge_time": {
+          "value": "28 min",
+          "icon": "⏱️",
+          "label": "Charge Time"
+        }
+      },
+      "prices": {
+        "excl_vat": 135.0,
+        "incl_vat": 163.35,
+        "vat_rate": 0.21
+      },
+      "display": {
+        "price_excl": "💶 € 135.00 (ex BTW)",
+        "price_incl": "💶 € 163.35 (incl BTW)",
+        "full_spec": "Li-ion battery BL4025 - 40Vmax • 2.5 Ah • 0.71 kg • 28 min charge",
+        "properties": {
+          "voltage": "⚡ 40Vmax",
+          "capacity": "🔋 2.5 Ah",
+          "weight": "⚖️ 0.71 kg",
+          "charge_time": "⏱️ 28 min"
+        }
+      }
+    },
+    {
+      "sku": "191B26-6",
+      "category": "batteries",
+      "product_name": "Li-ion battery BL4040",
+      "specifications": "40Vmax • 4.0 Ah • 1 kg • 45 min charge",
+      "properties": {
+        "voltage": {
+          "value": "40Vmax",
+          "icon": "⚡",
+          "label": "Voltage"
+        },
+        "capacity": {
+          "value": "4.0 Ah",
+          "icon": "🔋",
+          "label": "Capacity"
+        },
+        "weight": {
+          "value": "1 kg",
+          "icon": "⚖️",
+          "label": "Weight"
+        },
+        "charge_time": {
+          "value": "45 min",
+          "icon": "⏱️",
+          "label": "Charge Time"
+        }
+      },
+      "prices": {
+        "excl_vat": 195.0,
+        "incl_vat": 235.95,
+        "vat_rate": 0.21
+      },
+      "display": {
+        "price_excl": "💶 € 195.00 (ex BTW)",
+        "price_incl": "💶 € 235.95 (incl BTW)",
+        "full_spec": "Li-ion battery BL4040 - 40Vmax • 4.0 Ah • 1 kg • 45 min charge",
+        "properties": {
+          "voltage": "⚡ 40Vmax",
+          "capacity": "🔋 4.0 Ah",
+          "weight": "⚖️ 1 kg",
+          "charge_time": "⏱️ 45 min"
+        }
+      }
+    },
+    {
+      "sku": "191L47-8",
+      "category": "batteries",
+      "product_name": "Li-ion battery BL4050F",
+      "specifications": "40Vmax • 5.0 Ah • 1.3 kg • 50 min charge",
+      "properties": {
+        "voltage": {
+          "value": "40Vmax",
+          "icon": "⚡",
+          "label": "Voltage"
+        },
+        "capacity": {
+          "value": "5.0 Ah",
+          "icon": "🔋",
+          "label": "Capacity"
+        },
+        "weight": {
+          "value": "1.3 kg",
+          "icon": "⚖️",
+          "label": "Weight"
+        },
+        "charge_time": {
+          "value": "50 min",
+          "icon": "⏱️",
+          "label": "Charge Time"
+        }
+      },
+      "prices": {
+        "excl_vat": 219.0,
+        "incl_vat": 264.99,
+        "vat_rate": 0.21
+      },
+      "display": {
+        "price_excl": "💶 € 219.00 (ex BTW)",
+        "price_incl": "💶 € 264.99 (incl BTW)",
+        "full_spec": "Li-ion battery BL4050F - 40Vmax • 5.0 Ah • 1.3 kg • 50 min charge",
+        "properties": {
+          "voltage": "⚡ 40Vmax",
+          "capacity": "🔋 5.0 Ah",
+          "weight": "⚖️ 1.3 kg",
+          "charge_time": "⏱️ 50 min"
+        }
+      }
+    },
+    {
+      "sku": "191X65-8",
+      "category": "batteries",
+      "product_name": "Li-ion battery BL4080F",
+      "specifications": "40Vmax • 8.0 Ah • 2.0 kg • 80 min charge",
+      "properties": {
+        "voltage": {
+          "value": "40Vmax",
+          "icon": "⚡",
+          "label": "Voltage"
+        },
+        "capacity": {
+          "value": "8.0 Ah",
+          "icon": "🔋",
+          "label": "Capacity"
+        },
+        "weight": {
+          "value": "2.0 kg",
+          "icon": "⚖️",
+          "label": "Weight"
+        },
+        "charge_time": {
+          "value": "80 min",
+          "icon": "⏱️",
+          "label": "Charge Time"
+        }
+      },
+      "prices": {
+        "excl_vat": 315.0,
+        "incl_vat": 381.15,
+        "vat_rate": 0.21
+      },
+      "display": {
+        "price_excl": "💶 € 315.00 (ex BTW)",
+        "price_incl": "💶 € 381.15 (incl BTW)",
+        "full_spec": "Li-ion battery BL4080F - 40Vmax • 8.0 Ah • 2.0 kg • 80 min charge",
+        "properties": {
+          "voltage": "⚡ 40Vmax",
+          "capacity": "🔋 8.0 Ah",
+          "weight": "⚖️ 2.0 kg",
+          "charge_time": "⏱️ 80 min"
+        }
+      }
+    },
+    {
+      "sku": "191V07-0",
+      "category": "powerpacks",
+      "product_name": "XGT Powerpack 2.0 Ah",
+      "specifications": "Includes MAKPAC case",
+      "properties": {
+        "case": {
+          "value": "MAKPAC case included",
+          "icon": "💼",
+          "label": "Case"
+        }
+      },
+      "prices": {
+        "excl_vat": 355.0,
+        "incl_vat": 429.55,
+        "vat_rate": 0.21
+      },
+      "display": {
+        "price_excl": "💶 € 355.00 (ex BTW)",
+        "price_incl": "💶 € 429.55 (incl BTW)",
+        "full_spec": "XGT Powerpack 2.0 Ah - Includes MAKPAC case",
+        "properties": {
+          "case": "💼 MAKPAC case included"
+        }
+      }
+    },
+    {
+      "sku": "191J81-6",
+      "category": "powerpacks",
+      "product_name": "XGT Powerpack 2.5 Ah",
+      "specifications": "Includes MAKPAC case",
+      "properties": {
+        "case": {
+          "value": "MAKPAC case included",
+          "icon": "💼",
+          "label": "Case"
+        }
+      },
+      "prices": {
+        "excl_vat": 399.0,
+        "incl_vat": 482.79,
+        "vat_rate": 0.21
+      },
+      "display": {
+        "price_excl": "💶 € 399.00 (ex BTW)",
+        "price_incl": "💶 € 482.79 (incl BTW)",
+        "full_spec": "XGT Powerpack 2.5 Ah - Includes MAKPAC case",
+        "properties": {
+          "case": "💼 MAKPAC case included"
+        }
+      }
+    },
+    {
+      "sku": "191J65-4",
+      "category": "powerpacks",
+      "product_name": "XGT Powerpack 4.0 Ah",
+      "specifications": "Single battery + charger (No MAKPAC shown)",
+      "properties": {
+        "case": {
+          "value": "MAKPAC case included",
+          "icon": "💼",
+          "label": "Case"
+        },
+        "charger_type": {
+          "value": "Single charger",
+          "icon": "🔌",
+          "label": "Charger"
+        }
+      },
+      "prices": {
+        "excl_vat": 299.0,
+        "incl_vat": 361.79,
+        "vat_rate": 0.21
+      },
+      "display": {
+        "price_excl": "💶 € 299.00 (ex BTW)",
+        "price_incl": "💶 € 361.79 (incl BTW)",
+        "full_spec": "XGT Powerpack 4.0 Ah - Single battery + charger (No MAKPAC shown)",
+        "properties": {
+          "case": "💼 MAKPAC case included",
+          "charger_type": "🔌 Single charger"
+        }
+      }
+    },
+    {
+      "sku": "191J97-1",
+      "category": "powerpacks",
+      "product_name": "XGT Powerpack 4.0 Ah",
+      "specifications": "Includes MAKPAC case",
+      "properties": {
+        "case": {
+          "value": "MAKPAC case included",
+          "icon": "💼",
+          "label": "Case"
+        }
+      },
+      "prices": {
+        "excl_vat": 499.0,
+        "incl_vat": 603.79,
+        "vat_rate": 0.21
+      },
+      "display": {
+        "price_excl": "💶 € 499.00 (ex BTW)",
+        "price_incl": "💶 € 603.79 (incl BTW)",
+        "full_spec": "XGT Powerpack 4.0 Ah - Includes MAKPAC case",
+        "properties": {
+          "case": "💼 MAKPAC case included"
+        }
+      }
+    },
+    {
+      "sku": "191V35-5",
+      "category": "powerpacks",
+      "product_name": "XGT Powerpack 5.0 Ah",
+      "specifications": "Includes MAKPAC case",
+      "properties": {
+        "case": {
+          "value": "MAKPAC case included",
+          "icon": "💼",
+          "label": "Case"
+        }
+      },
+      "prices": {
+        "excl_vat": 565.0,
+        "incl_vat": 683.65,
+        "vat_rate": 0.21
+      },
+      "display": {
+        "price_excl": "💶 € 565.00 (ex BTW)",
+        "price_incl": "💶 € 683.65 (incl BTW)",
+        "full_spec": "XGT Powerpack 5.0 Ah - Includes MAKPAC case",
+        "properties": {
+          "case": "💼 MAKPAC case included"
+        }
+      }
+    },
+    {
+      "sku": "191U00-8",
+      "category": "powerpacks",
+      "product_name": "XGT Powerpack 4.0 Ah",
+      "specifications": "Duo charger + MAKPAC",
+      "properties": {
+        "case": {
+          "value": "MAKPAC case included",
+          "icon": "💼",
+          "label": "Case"
+        },
+        "charger_type": {
+          "value": "Duo charger",
+          "icon": "🔌",
+          "label": "Charger"
+        }
+      },
+      "prices": {
+        "excl_vat": 569.0,
+        "incl_vat": 688.49,
+        "vat_rate": 0.21
+      },
+      "display": {
+        "price_excl": "💶 € 569.00 (ex BTW)",
+        "price_incl": "💶 € 688.49 (incl BTW)",
+        "full_spec": "XGT Powerpack 4.0 Ah - Duo charger + MAKPAC",
+        "properties": {
+          "case": "💼 MAKPAC case included",
+          "charger_type": "🔌 Duo charger"
+        }
+      }
+    },
+    {
+      "sku": "191U28-6",
+      "category": "powerpacks",
+      "product_name": "XGT Powerpack 4.0 Ah",
+      "specifications": "4 Batteries + Duo charger + MAKPAC",
+      "properties": {
+        "case": {
+          "value": "MAKPAC case included",
+          "icon": "💼",
+          "label": "Case"
+        },
+        "charger_type": {
+          "value": "Duo charger",
+          "icon": "🔌",
+          "label": "Charger"
+        },
+        "battery_count": {
+          "value": "4 batteries",
+          "icon": "🔋",
+          "label": "Batteries"
+        }
+      },
+      "prices": {
+        "excl_vat": 929.0,
+        "incl_vat": 1124.09,
+        "vat_rate": 0.21
+      },
+      "display": {
+        "price_excl": "💶 € 929.00 (ex BTW)",
+        "price_incl": "💶 € 1124.09 (incl BTW)",
+        "full_spec": "XGT Powerpack 4.0 Ah - 4 Batteries + Duo charger + MAKPAC",
+        "properties": {
+          "case": "💼 MAKPAC case included",
+          "charger_type": "🔌 Duo charger",
+          "battery_count": "🔋 4 batteries"
+        }
+      }
+    },
+    {
+      "sku": "191U13-9",
+      "category": "powerpacks",
+      "product_name": "XGT Powerpack 5.0 Ah",
+      "specifications": "Duo charger + MAKPAC",
+      "properties": {
+        "case": {
+          "value": "MAKPAC case included",
+          "icon": "💼",
+          "label": "Case"
+        },
+        "charger_type": {
+          "value": "Duo charger",
+          "icon": "🔌",
+          "label": "Charger"
+        }
+      },
+      "prices": {
+        "excl_vat": 639.0,
+        "incl_vat": 773.19,
+        "vat_rate": 0.21
+      },
+      "display": {
+        "price_excl": "💶 € 639.00 (ex BTW)",
+        "price_incl": "💶 € 773.19 (incl BTW)",
+        "full_spec": "XGT Powerpack 5.0 Ah - Duo charger + MAKPAC",
+        "properties": {
+          "case": "💼 MAKPAC case included",
+          "charger_type": "🔌 Duo charger"
+        }
+      }
+    },
+    {
+      "sku": "191U42-2",
+      "category": "powerpacks",
+      "product_name": "XGT Powerpack 5.0 Ah",
+      "specifications": "4 Batteries + Duo charger + MAKPAC",
+      "properties": {
+        "case": {
+          "value": "MAKPAC case included",
+          "icon": "💼",
+          "label": "Case"
+        },
+        "charger_type": {
+          "value": "Duo charger",
+          "icon": "🔌",
+          "label": "Charger"
+        },
+        "battery_count": {
+          "value": "4 batteries",
+          "icon": "🔋",
+          "label": "Batteries"
+        }
+      },
+      "prices": {
+        "excl_vat": 1069.0,
+        "incl_vat": 1293.49,
+        "vat_rate": 0.21
+      },
+      "display": {
+        "price_excl": "💶 € 1069.00 (ex BTW)",
+        "price_incl": "💶 € 1293.49 (incl BTW)",
+        "full_spec": "XGT Powerpack 5.0 Ah - 4 Batteries + Duo charger + MAKPAC",
+        "properties": {
+          "case": "💼 MAKPAC case included",
+          "charger_type": "🔌 Duo charger",
+          "battery_count": "🔋 4 batteries"
+        }
+      }
+    },
+    {
+      "sku": "191Y97-1",
+      "category": "powerpacks",
+      "product_name": "XGT Powerpack 8.0 Ah",
+      "specifications": "2x BL4080F + DC40RB in MAKPAC",
+      "properties": {
+        "case": {
+          "value": "MAKPAC case included",
+          "icon": "💼",
+          "label": "Case"
+        },
+        "battery_count": {
+          "value": "2 batteries",
+          "icon": "🔋",
+          "label": "Batteries"
+        }
+      },
+      "prices": {
+        "excl_vat": 799.0,
+        "incl_vat": 966.79,
+        "vat_rate": 0.21
+      },
+      "display": {
+        "price_excl": "💶 € 799.00 (ex BTW)",
+        "price_incl": "💶 € 966.79 (incl BTW)",
+        "full_spec": "XGT Powerpack 8.0 Ah - 2x BL4080F + DC40RB in MAKPAC",
+        "properties": {
+          "case": "💼 MAKPAC case included",
+          "battery_count": "🔋 2 batteries"
+        }
+      }
+    },
+    {
+      "sku": "191E07-8",
+      "category": "chargers",
+      "product_name": "Charger DC40RA",
+      "specifications": "Fast charger for XGT 40Vmax batteries",
+      "properties": {
+        "voltage": {
+          "value": "40Vmax",
+          "icon": "⚡",
+          "label": "Voltage"
+        },
+        "charger_type": {
+          "value": "Fast charger",
+          "icon": "⚡",
+          "label": "Type"
+        }
+      },
+      "prices": {
+        "excl_vat": 125.0,
+        "incl_vat": 151.25,
+        "vat_rate": 0.21
+      },
+      "display": {
+        "price_excl": "💶 € 125.00 (ex BTW)",
+        "price_incl": "💶 € 151.25 (incl BTW)",
+        "full_spec": "Charger DC40RA - Fast charger for XGT 40Vmax batteries",
+        "properties": {
+          "voltage": "⚡ 40Vmax",
+          "charger_type": "⚡ Fast charger"
+        }
+      }
+    },
+    {
+      "sku": "191N09-8",
+      "category": "chargers",
+      "product_name": "Duo fast charger DC40RB",
+      "specifications": "Simultaneous charging of two XGT 40Vmax batteries",
+      "properties": {
+        "voltage": {
+          "value": "40Vmax",
+          "icon": "⚡",
+          "label": "Voltage"
+        },
+        "feature": {
+          "value": "Simultaneous charging",
+          "icon": "🔄",
+          "label": "Feature"
+        }
+      },
+      "prices": {
+        "excl_vat": 205.0,
+        "incl_vat": 248.05,
+        "vat_rate": 0.21
+      },
+      "display": {
+        "price_excl": "💶 € 205.00 (ex BTW)",
+        "price_incl": "💶 € 248.05 (incl BTW)",
+        "full_spec": "Duo fast charger DC40RB - Simultaneous charging of two XGT 40Vmax batteries",
+        "properties": {
+          "voltage": "⚡ 40Vmax",
+          "feature": "🔄 Simultaneous charging"
+        }
+      }
+    },
+    {
+      "sku": "191C10-7",
+      "category": "adapters",
+      "product_name": "ADP10 Charging Adapter",
+      "specifications": "Adapter to charge LXT 14.4V/18V batteries on XGT charger",
+      "properties": {
+        "voltage": {
+          "value": "14.4V",
+          "icon": "⚡",
+          "label": "Voltage"
+        },
+        "compatibility": {
+          "value": "LXT 14.4V/18V compatible",
+          "icon": "🔄",
+          "label": "Compatibility"
+        }
+      },
+      "prices": {
+        "excl_vat": 59.5,
+        "incl_vat": 72.0,
+        "vat_rate": 0.21
+      },
+      "display": {
+        "price_excl": "💶 € 59.50 (ex BTW)",
+        "price_incl": "💶 € 72.00 (incl BTW)",
+        "full_spec": "ADP10 Charging Adapter - Adapter to charge LXT 14.4V/18V batteries on XGT charger",
+        "properties": {
+          "voltage": "⚡ 14.4V",
+          "compatibility": "🔄 LXT 14.4V/18V compatible"
+        }
+      }
+    },
+    {
+      "sku": "DEAADP001G",
+      "category": "adapters",
+      "product_name": "ADP001 Charging Adapter",
+      "specifications": "USB-adapter for XGT 40Vmax batteries",
+      "properties": {
+        "voltage": {
+          "value": "40Vmax",
+          "icon": "⚡",
+          "label": "Voltage"
+        },
+        "adapter_type": {
+          "value": "USB adapter",
+          "icon": "🔌",
+          "label": "Type"
+        }
+      },
+      "prices": {
+        "excl_vat": 50.8,
+        "incl_vat": 61.5,
+        "vat_rate": 0.21
+      },
+      "display": {
+        "price_excl": "💶 € 50.80 (ex BTW)",
+        "price_incl": "💶 € 61.50 (incl BTW)",
+        "full_spec": "ADP001 Charging Adapter - USB-adapter for XGT 40Vmax batteries",
+        "properties": {
+          "voltage": "⚡ 40Vmax",
+          "adapter_type": "🔌 USB adapter"
+        }
+      }
+    }
+  ]
+}

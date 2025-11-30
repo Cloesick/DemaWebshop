@@ -3,10 +3,10 @@ import { getPdfsByCategory } from '@/lib/pdfCatalog';
 
 export async function GET(
   _req: Request,
-  { params }: { params: { slug: string } }
+  { params }: { params: Promise<{ slug: string }> }
 ) {
   try {
-    const slug = (params?.slug ?? '').toString();
+    const { slug } = await params;
     if (!slug) return NextResponse.json({ pdfs: [] }, { status: 200 });
     const pdfs = await getPdfsByCategory(slug);
     return NextResponse.json({ pdfs }, { status: 200 });

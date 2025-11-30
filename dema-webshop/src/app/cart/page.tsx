@@ -25,7 +25,7 @@ export default function CartPage() {
   ]);
 
   const subtotal = cartItems.reduce((sum, item) => sum + item.price * item.quantity, 0);
-  const shipping = 0; // Free shipping for now
+  const shipping: number = 0; // Free shipping for now
   const tax = subtotal * 0.21; // 21% VAT
   const total = subtotal + shipping + tax;
 

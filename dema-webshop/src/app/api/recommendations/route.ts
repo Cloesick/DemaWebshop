@@ -69,7 +69,7 @@ export async function GET(request: Request) {
         if (anchor.pdf_source && p.pdf_source && anchor.pdf_source === p.pdf_source) {
           score += 15;
           if (Array.isArray(anchor.source_pages) && Array.isArray(p.source_pages)) {
-            const near = anchor.source_pages.some(a => p.source_pages.some(b => Math.abs(a - b) <= 3));
+            const near = anchor.source_pages.some(a => p.source_pages!.some(b => Math.abs(a - b) <= 3));
             if (near) score += 10;
           }
         }

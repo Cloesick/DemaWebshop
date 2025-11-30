@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Implementation Checklist</title>
+    <style>
+        @media print {
+            @page {
+                margin: 2cm;
+                size: A4;
+            }
+            body {
+                font-size: 11pt;
+            }
+        }
+        
+        body {
+            font-family: Georgia, 'Times New Roman', serif;
+            font-size: 12pt;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            background: white;
+        }
+        
+        h1 {
+            font-size: 28pt;
+            border-bottom: 4px solid #667eea;
+            padding-bottom: 10px;
+            margin: 30px 0 20px 0;
+            color: #1a1a1a;
+            page-break-after: avoid;
+        }
+        
+        h2 {
+            font-size: 20pt;
+            margin-top: 25px;
+            margin-bottom: 15px;
+            color: #2d3748;
+            page-break-after: avoid;
+        }
+        
+        h3 {
+            font-size: 16pt;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            color: #4a5568;
+            page-break-after: avoid;
+        }
+        
+        h4 {
+            font-size: 14pt;
+            margin-top: 15px;
+            margin-bottom: 8px;
+            color: #718096;
+        }
+        
+        p {
+            margin-bottom: 12px;
+            orphans: 3;
+            widows: 3;
+        }
+        
+        code {
+            background: #f7fafc;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-family: 'Courier New', 'Consolas', monospace;
+            font-size: 10pt;
+            border: 1px solid #e2e8f0;
+        }
+        
+        pre {
+            background: #f7fafc;
+            padding: 15px;
+            border-left: 4px solid #667eea;
+            border-radius: 4px;
+            overflow-x: auto;
+            font-size: 10pt;
+            line-height: 1.4;
+            margin: 15px 0;
+            page-break-inside: avoid;
+        }
+        
+        pre code {
+            background: none;
+            border: none;
+            padding: 0;
+        }
+        
+        ul, ol {
+            margin: 10px 0 15px 25px;
+            padding-left: 20px;
+        }
+        
+        li {
+            margin-bottom: 6px;
+        }
+        
+        blockquote {
+            border-left: 4px solid #cbd5e0;
+            padding-left: 20px;
+            margin: 15px 0;
+            color: #4a5568;
+            font-style: italic;
+        }
+        
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin: 20px 0;
+            page-break-inside: avoid;
+            font-size: 11pt;
+        }
+        
+        th {
+            background: #667eea;
+            color: white;
+            padding: 12px;
+            text-align: left;
+            font-weight: bold;
+        }
+        
+        td {
+            padding: 10px 12px;
+            border-bottom: 1px solid #e2e8f0;
+        }
+        
+        tr:nth-child(even) {
+            background: #f7fafc;
+        }
+        
+        a {
+            color: #667eea;
+            text-decoration: none;
+        }
+        
+        a:hover {
+            text-decoration: underline;
+        }
+        
+        strong {
+            font-weight: bold;
+            color: #1a1a1a;
+        }
+        
+        em {
+            font-style: italic;
+        }
+        
+        hr {
+            border: none;
+            border-top: 2px solid #e2e8f0;
+            margin: 30px 0;
+        }
+        
+        .title-page {
+            text-align: center;
+            margin: 100px 0 60px 0;
+            page-break-after: always;
+        }
+        
+        .title-page h1 {
+            font-size: 36pt;
+            border: none;
+            margin-bottom: 20px;
+        }
+        
+        .subtitle {
+            font-size: 16pt;
+            color: #718096;
+            margin: 20px 0 10px 0;
+        }
+        
+        .date {
+            font-size: 14pt;
+            color: #a0aec0;
+        }
+        
+        .checkbox {
+            margin-right: 8px;
+        }
+        
+        .note {
+            background: #ebf8ff;
+            border-left: 4px solid #4299e1;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 4px;
+        }
+        
+        .warning {
+            background: #fffaf0;
+            border-left: 4px solid #ed8936;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 4px;
+        }
+        
+        .success {
+            background: #f0fff4;
+            border-left: 4px solid #48bb78;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 4px;
+        }
+        
+        @media print {
+            .no-print {
+                display: none;
+            }
+            
+            a[href]:after {
+                content: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="title-page">
+        <h1>Implementation Checklist</h1>
+        <p class="subtitle">Makita Battery Products - Implementation Guide</p>
+        <p class="date">November 30, 2025</p>
+    </div>
+    
+    <div class="no-print" style="background: #ebf8ff; padding: 20px; border-radius: 8px; margin-bottom: 30px;">
+        <h3 style="margin-top: 0;">📄 How to Save as PDF:</h3>
+        <ol>
+            <li>Press <strong>Ctrl + P</strong> (or Cmd + P on Mac)</li>
+            <li>Select "Save as PDF" as destination</li>
+            <li>Click "Save"</li>
+        </ol>
+        <p style="margin-bottom: 0;"><em>This message won't appear in the PDF</em></p>
+    </div>
+    
+    <h1>✅ Makita Battery Products - Implementation Checklist</h1>
+
+<h2>Quick Reference for Each Phase</h2>
+
+<hr>
+
+<h2>✅ Phase 1: Data Integration (COMPLETE)</h2>
+
+<ul><li>[x] Integrate 19 battery products into products.json</li>
+<li>[x] Create API endpoint (<code>/api/batteries</code>)</li>
+<li>[x] Build React components (JSX + TypeScript)</li>
+<li>[x] Implement dynamic loading</li>
+<li>[x] Create custom hook (<code>useBatteryProducts</code>)</li>
+<li>[x] Add loading states & error handling</li>
+<li>[x] Write comprehensive documentation</li>
+<li>[x] Create example page (<code>/batteries</code>)</li>
+
+<strong>Status:</strong> ✅ 100% Complete
+
+<hr>
+
+<h2>📸 Phase 2: Product Images (READY TO START)</h2>
+
+<h3>Pre-flight Checklist</h3>
+<li>[ ] Install Pillow: <code>pip install Pillow</code></li>
+<li>[ ] Create folder: <code>source-images/batteries/</code></li>
+<li>[ ] Collect product images (or create placeholders)</li>
+
+<h3>Implementation Steps</h3>
+<li>[ ] Add source images to <code>source-images/batteries/</code></li>
+  <input type="checkbox" class="checkbox"> Name files by SKU (e.g., <code>191L29-0.jpg</code>)
+  <input type="checkbox" class="checkbox"> Minimum resolution: 800x800px
+  <input type="checkbox" class="checkbox"> Formats: JPG, PNG, or WebP
+
+<li>[ ] Run image processor</li>
+  <pre><code class="bash">  python scripts/add_battery_images.py
+  ``<code>
+
+<li>[ ] Verify images created</li>
+  <input type="checkbox" class="checkbox"> Check </code>public/product-images/makita-batteries/<code>
+  <input type="checkbox" class="checkbox"> Verify 3 sizes per product (thumbnail, medium, large)
+  <input type="checkbox" class="checkbox"> Check products.json updated
+
+<li>[ ] Test in browser</li>
+  <input type="checkbox" class="checkbox"> Images load correctly
+  <input type="checkbox" class="checkbox"> Lazy loading works
+  <input type="checkbox" class="checkbox"> Hover zoom works (if enabled)
+  <input type="checkbox" class="checkbox"> Fallback placeholder works
+
+<h3>Verification</h3>
+<li>[ ] Run: </code>python scripts/verify_battery_images.py<code></li>
+<li>[ ] All 19 products show </code>✅ Image found<code></li>
+<li>[ ] No console errors</li>
+<li>[ ] Mobile responsive</li>
+
+<strong>Files Used:</strong>
+<li></code>scripts/add_battery_images.py<code></li>
+<li></code>components/ProductImage.jsx<code></li>
+<li></code>PHASE_2_IMAGES_GUIDE.md<code></li>
+
+<hr>
+
+<h2>🛒 Phase 3: Shopping Cart (READY TO START)</h2>
+
+<h3>Pre-flight Checklist</h3>
+<li>[ ] Review </code>PHASE_3_CART_GUIDE.md<code></li>
+<li>[ ] Understand Context API</li>
+<li>[ ] Have Phase 1 working</li>
+
+<h3>Implementation Steps</h3>
+
+<h4>Step 1: Add Cart Provider</h4>
+<li>[ ] Open </code>app/layout.jsx<code> (or </code>_app.js<code>)</li>
+<li>[ ] Import CartProvider</li>
+  </code>`<code>jsx
+  import { CartProvider } from '../contexts/CartContext';
+  </code>`<code>
+<li>[ ] Wrap app with provider</li>
+  </code>`<code>jsx
+  <CartProvider>
+    {children}
+  </CartProvider>
+  </code>`<code>
+
+<h4>Step 2: Update Battery Cards</h4>
+<li>[ ] Open </code>components/BatteryProducts.jsx<code></li>
+<li>[ ] Import useCart</li>
+  </code>`<code>jsx
+  import { useCart } from '../contexts/CartContext';
+  </code>`<code>
+<li>[ ] Update button onClick</li>
+  </code>`<code>jsx
+  const { addToCart } = useCart();
+  // ...
+  onClick={() => addToCart(product)}
+  </code>`<code>
+
+<h4>Step 3: Add Mini Cart to Navigation</h4>
+<li>[ ] Open your header/nav component</li>
+<li>[ ] Import MiniCart</li>
+  </code>`<code>jsx
+  import MiniCart from '../components/Cart/MiniCart';
+  </code>`<code>
+<li>[ ] Add to navigation</li>
+  </code>`<code>jsx
+  <nav>
+    {/<em> ... other items ... </em>/}
+    <MiniCart />
+  </nav>
+  </code>`<code>
+
+<h4>Step 4: Create Cart Page</h4>
+<li>[ ] Create </code>app/cart/page.jsx<code></li>
+<li>[ ] Copy template from guide</li>
+<li>[ ] Add cart item listing</li>
+<li>[ ] Add checkout button</li>
+
+<h4>Step 5: Test Cart</h4>
+<li>[ ] Add product to cart ✅</li>
+<li>[ ] Check mini cart updates ✅</li>
+<li>[ ] Update quantity (+/-) ✅</li>
+<li>[ ] Remove item ✅</li>
+<li>[ ] Refresh page - cart persists ✅</li>
+<li>[ ] Total calculated correctly ✅</li>
+<li>[ ] VAT calculated (21%) ✅</li>
+
+<h3>Verification</h3>
+<li>[ ] Can add multiple products</li>
+<li>[ ] Quantities update smoothly</li>
+<li>[ ] Prices match product data</li>
+<li>[ ] localStorage persists cart</li>
+<li>[ ] No console errors</li>
+
+<strong>Files Used:</strong>
+<li></code>contexts/CartContext.jsx<code></li>
+<li></code>components/Cart/MiniCart.jsx<code></li>
+<li></code>PHASE_3_CART_GUIDE.md<code></li>
+
+<hr>
+
+<h2>🔍 Phase 4: Search & Filters (PLANNED)</h2>
+
+<h3>Pre-flight Checklist</h3>
+<li>[ ] Phase 1 complete</li>
+<li>[ ] Products have searchable data</li>
+
+<h3>Implementation Steps</h3>
+<li>[ ] Create SearchBar component</li>
+<li>[ ] Add filter panel</li>
+<li>[ ] Implement search logic</li>
+<li>[ ] Add sort options</li>
+<li>[ ] Test search functionality</li>
+
+<strong>Estimated Time:</strong> 2-3 hours
+
+<hr>
+
+<h2>📄 Phase 5: Product Detail Pages (PLANNED)</h2>
+
+<h3>Pre-flight Checklist</h3>
+<li>[ ] Phase 1 complete</li>
+<li>[ ] Phase 2 (images) preferred</li>
+
+<h3>Implementation Steps</h3>
+<li>[ ] Create </code>[sku]<code> dynamic route</li>
+<li>[ ] Build product detail layout</li>
+<li>[ ] Add specifications table</li>
+<li>[ ] Add related products</li>
+<li>[ ] Test routing</li>
+
+<strong>Estimated Time:</strong> 3-4 hours
+
+<hr>
+
+<h2>⚖️ Phase 6: Product Comparison (PLANNED)</h2>
+
+<h3>Pre-flight Checklist</h3>
+<li>[ ] Phase 1 complete</li>
+<li>[ ] Multiple products available</li>
+
+<h3>Implementation Steps</h3>
+<li>[ ] Create comparison context</li>
+<li>[ ] Add "Compare" button to cards</li>
+<li>[ ] Build comparison table</li>
+<li>[ ] Add export feature</li>
+
+<strong>Estimated Time:</strong> 2-3 hours
+
+<hr>
+
+<h2>💳 Phase 9: Checkout (CRITICAL)</h2>
+
+<h3>Pre-flight Checklist</h3>
+<li>[ ] Phase 3 (Cart) complete</li>
+<li>[ ] Payment gateway account</li>
+
+<h3>Implementation Steps</h3>
+<li>[ ] Create checkout flow</li>
+<li>[ ] Add shipping form</li>
+<li>[ ] Integrate payment</li>
+<li>[ ] Send confirmation email</li>
+<li>[ ] Test end-to-end</li>
+
+<strong>Estimated Time:</strong> 4-6 hours
+
+<hr>
+
+<h2>📊 Progress Tracking</h2>
+
+<h3>Overall Completion</code></pre></h3>
+Phase 1:  ████████████████████ 100% ✅
+Phase 2:  ░░░░░░░░░░░░░░░░░░░░   0% 📋
+Phase 3:  ░░░░░░░░░░░░░░░░░░░░   0% 📋
+Phase 4:  ░░░░░░░░░░░░░░░░░░░░   0% 📋
+Phase 5:  ░░░░░░░░░░░░░░░░░░░░   0% 📋
+...
+<pre><code class="">
+<h3>Feature Readiness</h3>
+<li>Data Integration: ✅ DONE</li>
+<li>Dynamic Loading: ✅ DONE</li>
+<li>Product Display: ✅ DONE</li>
+<li>Product Images: 📋 READY</li>
+<li>Shopping Cart: 📋 READY</li>
+<li>Product Search: ⏳ PLANNED</li>
+<li>Product Details: ⏳ PLANNED</li>
+<li>Checkout: ⏳ PLANNED</li>
+
+<hr>
+
+<h2>🎯 Quick Decision Tree</h2>
+</code></pre>
+Start here → Do you want...
+             
+             ├─ Visual appeal?
+             │  └─→ Phase 2: Images (2-4h)
+             │
+             ├─ Core e-commerce?
+             │  └─→ Phase 3: Cart (3-5h)
+             │
+             ├─ Better discovery?
+             │  └─→ Phase 4: Search (2-3h)
+             │
+             ├─ Detailed product info?
+             │  └─→ Phase 5: Details (3-4h)
+             │
+             └─ Complete purchases?
+                └─→ Phase 9: Checkout (4-6h)
+</code>`<code>
+
+<hr>
+
+<h2>📝 Daily Implementation Plan</h2>
+
+<h3>Day 1: Images + Cart Setup</h3>
+<li>[ ] Morning: Phase 2 - Add images (2-4h)</li>
+<li>[ ] Afternoon: Phase 3 - Setup cart (1-2h)</li>
+<li>[ ] Evening: Test & fix bugs</li>
+
+<h3>Day 2: Cart Complete</h3>
+<li>[ ] Morning: Phase 3 - Cart page (2h)</li>
+<li>[ ] Afternoon: Phase 3 - Mini cart polish (1h)</li>
+<li>[ ] Evening: Test checkout flow preparation</li>
+
+<h3>Day 3: Product Details</h3>
+<li>[ ] Morning: Phase 5 - Detail pages (3h)</li>
+<li>[ ] Afternoon: Phase 5 - Related products (1h)</li>
+
+<h3>Day 4: Search & Filters</h3>
+<li>[ ] Morning: Phase 4 - Search bar (2h)</li>
+<li>[ ] Afternoon: Phase 4 - Filters (1h)</li>
+
+<h3>Week 2: Checkout</h3>
+<li>[ ] Days 5-7: Phase 9 - Complete checkout (4-6h)</li>
+
+<hr>
+
+<h2>✅ Definition of "Done" for Each Phase</h2>
+
+<h3>Phase 2 (Images): DONE when...</h3>
+<li>✅ All 19 products have images</li>
+<li>✅ Images < 100KB (thumbnails)</li>
+<li>✅ Lazy loading works</li>
+<li>✅ No broken images</li>
+<li>✅ Mobile responsive</li>
+
+<h3>Phase 3 (Cart): DONE when...</h3>
+<li>✅ Can add products</li>
+<li>✅ Can update quantities</li>
+<li>✅ Can remove items</li>
+<li>✅ Cart persists (localStorage)</li>
+<li>✅ Prices calculate correctly</li>
+<li>✅ Mini cart shows count</li>
+
+<h3>Phase 4 (Search): DONE when...</h3>
+<li>✅ Search by name/SKU works</li>
+<li>✅ Filters apply correctly</li>
+<li>✅ Results update in real-time</li>
+<li>✅ Sort options work</li>
+
+<hr>
+
+<h2>🚀 Speed Run (Minimum Viable Product)</h2>
+
+<strong>Goal:</strong> Get a working e-commerce site in 1 week
+
+<h3>Day 1-2: Core Features</h3>
+<li>[x] Phase 1: Data ✅</li>
+<li>[ ] Phase 2: Images (skip if needed)</li>
+<li>[ ] Phase 3: Cart (MUST HAVE)</li>
+
+<h3>Day 3-4: Purchase Flow</h3>
+<li>[ ] Phase 9: Checkout (simplified)</li>
+<li>[ ] Basic payment integration</li>
+
+<h3>Day 5: Polish</h3>
+<li>[ ] Testing</li>
+<li>[ ] Bug fixes</li>
+<li>[ ] Basic styling</li>
+
+<h3>Day 6-7: Launch Prep</h3>
+<li>[ ] User testing</li>
+<li>[ ] Final tweaks</li>
+<li>[ ] Deploy</li>
+
+<hr>
+
+<h2>📞 Support Resources</h2>
+
+<h3>When Stuck on...</h3>
+
+<strong>Images:</strong>
+<li>Check: </code>PHASE_2_IMAGES_GUIDE.md<code></li>
+<li>Run: </code>python scripts/verify_battery_images.py<code></li>
+<li>Fallback: Use placeholders temporarily</li>
+
+<strong>Cart:</strong>
+<li>Check: </code>PHASE_3_CART_GUIDE.md<code></li>
+<li>Verify: CartProvider wraps app</li>
+<li>Debug: Console.log cart state</li>
+
+<strong>General:</strong>
+<li>Quick ref: </code>BATTERY_QUICK_START.md<code></li>
+<li>Roadmap: </code>BATTERY_PRODUCTS_ROADMAP.md<code></li>
+<li>API: </code>DYNAMIC_LOADING_SUMMARY.md`</li>
+
+<hr>
+
+<h2>🎉 Celebration Checklist</h2>
+
+Check off when you complete each major milestone:
+
+<li>[ ] ✅ First product image displays</li>
+<li>[ ] 🛒 First item added to cart</li>
+<li>[ ] 💳 First test checkout completed</li>
+<li>[ ] 🔍 First successful product search</li>
+<li>[ ] 📊 All 19 products have images</li>
+<li>[ ] 🚀 Site deployed to production</li>
+<li>[ ] 💰 First real customer order</li></ul>
+
+<hr>
+
+<strong>Remember:</strong> Progress over perfection. Start with Phase 2 or 3 and build from there! 🚀
+
+</body>
+</html>
