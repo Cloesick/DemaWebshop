@@ -1,0 +1,4872 @@
+[
+  {
+    "sku": "BUL1040",
+    "series_id": "nr-23-pijpnippel",
+    "series_name": "NR 23 - PIJPNIPPEL",
+    "page": 25,
+    "col_0": "BUL1040",
+    "maat": "1\"",
+    "col_2": "40 mm",
+    "type": "nr_23_pijpnippel",
+    "application": "BUITENDRAAD",
+    "_enriched": {
+      "series_raw": "NR 23 - PIJPNIPPEL",
+      "series": "nr-23-pijpnippel",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null,
+      "galvanized_piece": {
+        "sku_code": "BUL1040",
+        "size_inch": "1\""
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p25__nr-23-pijpnippel__bul__bul1040-bul1060-bul1080.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p25__nr-23-pijpnippel__bul__bul1040-bul1060-bul1080.webp"
+  },
+  {
+    "sku": "BUL1060",
+    "series_id": "nr-23-pijpnippel",
+    "series_name": "NR 23 - PIJPNIPPEL",
+    "page": 25,
+    "col_0": "BUL1060",
+    "maat": "1\"",
+    "col_2": "60 mm",
+    "type": "nr_23_pijpnippel",
+    "application": "BUITENDRAAD",
+    "_enriched": {
+      "series_raw": "NR 23 - PIJPNIPPEL",
+      "series": "nr-23-pijpnippel",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null,
+      "galvanized_piece": {
+        "sku_code": "BUL1060",
+        "size_inch": "1\""
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p25__nr-23-pijpnippel__bul__bul1040-bul1060-bul1080.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p25__nr-23-pijpnippel__bul__bul1040-bul1060-bul1080.webp"
+  },
+  {
+    "sku": "BUL1080",
+    "series_id": "nr-23-pijpnippel",
+    "series_name": "NR 23 - PIJPNIPPEL",
+    "page": 25,
+    "col_0": "BUL1080",
+    "maat": "1\"",
+    "col_2": "80 mm",
+    "type": "nr_23_pijpnippel",
+    "application": "BUITENDRAAD",
+    "_enriched": {
+      "series_raw": "NR 23 - PIJPNIPPEL",
+      "series": "nr-23-pijpnippel",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null,
+      "galvanized_piece": {
+        "sku_code": "BUL1080",
+        "size_inch": "1\""
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p25__nr-23-pijpnippel__bul__bul1040-bul1060-bul1080.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p25__nr-23-pijpnippel__bul__bul1040-bul1060-bul1080.webp"
+  },
+  {
+    "sku": "BUL1095",
+    "series_id": "nr-23-pijpnippel",
+    "series_name": "NR 23 - PIJPNIPPEL",
+    "page": 25,
+    "col_0": "BUL1095",
+    "maat": "1\"",
+    "col_2": "95 mm",
+    "type": "nr_23_pijpnippel",
+    "application": "BUITENDRAAD",
+    "_enriched": {
+      "series_raw": "NR 23 - PIJPNIPPEL",
+      "series": "nr-23-pijpnippel",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null,
+      "galvanized_piece": {
+        "sku_code": "BUL1095",
+        "size_inch": "1\""
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p25__nr-23-pijpnippel__bul__bul1040-bul1060-bul1080.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p25__nr-23-pijpnippel__bul__bul1040-bul1060-bul1080.webp"
+  },
+  {
+    "sku": "BUL11000",
+    "series_id": "nr-23-pijpnippel",
+    "series_name": "NR 23 - PIJPNIPPEL",
+    "page": 26,
+    "col_0": "BUL11000",
+    "maat": "1\"",
+    "col_2": "1000 mm",
+    "type": "nr_23_pijpnippel",
+    "application": "BUITENDRAAD",
+    "_enriched": {
+      "series_raw": "NR 23 - PIJPNIPPEL",
+      "series": "nr-23-pijpnippel",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null,
+      "galvanized_piece": {
+        "size_inch": "1\""
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p26__nr-23-pijpnippel__bul__bul11000-bul1400-bul1600.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p26__nr-23-pijpnippel__bul__bul11000-bul1400-bul1600.webp"
+  },
+  {
+    "sku": "BUL1120",
+    "series_id": "nr-23-pijpnippel",
+    "series_name": "NR 23 - PIJPNIPPEL",
+    "page": 25,
+    "col_0": "BUL1120",
+    "maat": "1\"",
+    "col_2": "120 mm",
+    "type": "nr_23_pijpnippel",
+    "application": "BUITENDRAAD",
+    "_enriched": {
+      "series_raw": "NR 23 - PIJPNIPPEL",
+      "series": "nr-23-pijpnippel",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null,
+      "galvanized_piece": {
+        "sku_code": "BUL1120",
+        "size_inch": "1\""
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p25__nr-23-pijpnippel__bul__bul1040-bul1060-bul1080.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p25__nr-23-pijpnippel__bul__bul1040-bul1060-bul1080.webp"
+  },
+  {
+    "sku": "BUL1180",
+    "series_id": "nr-23-pijpnippel",
+    "series_name": "NR 23 - PIJPNIPPEL",
+    "page": 25,
+    "col_0": "BUL1180",
+    "maat": "1\"",
+    "col_2": "180 mm",
+    "type": "nr_23_pijpnippel",
+    "application": "BUITENDRAAD",
+    "_enriched": {
+      "series_raw": "NR 23 - PIJPNIPPEL",
+      "series": "nr-23-pijpnippel",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null,
+      "galvanized_piece": {
+        "sku_code": "BUL1180",
+        "size_inch": "1\""
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p25__nr-23-pijpnippel__bul__bul1040-bul1060-bul1080.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p25__nr-23-pijpnippel__bul__bul1040-bul1060-bul1080.webp"
+  },
+  {
+    "sku": "BUL12030",
+    "series_id": "nr-23-pijpnippel",
+    "series_name": "NR 23 - PIJPNIPPEL",
+    "page": 25,
+    "col_0": "BUL12030",
+    "maat": "1/2\"",
+    "col_2": "30 mm",
+    "type": "nr_23_pijpnippel",
+    "application": "BUITENDRAAD",
+    "_enriched": {
+      "series_raw": "NR 23 - PIJPNIPPEL",
+      "series": "nr-23-pijpnippel",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null,
+      "galvanized_piece": {
+        "size_inch": "1/2\""
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p25__nr-23-pijpnippel__bul__bul1040-bul1060-bul1080.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p25__nr-23-pijpnippel__bul__bul1040-bul1060-bul1080.webp"
+  },
+  {
+    "sku": "BUL12050",
+    "series_id": "nr-23-pijpnippel",
+    "series_name": "NR 23 - PIJPNIPPEL",
+    "page": 25,
+    "col_0": "BUL12050",
+    "maat": "1/2\"",
+    "col_2": "50 mm",
+    "type": "nr_23_pijpnippel",
+    "application": "BUITENDRAAD",
+    "_enriched": {
+      "series_raw": "NR 23 - PIJPNIPPEL",
+      "series": "nr-23-pijpnippel",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null,
+      "galvanized_piece": {
+        "size_inch": "1/2\""
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p25__nr-23-pijpnippel__bul__bul1040-bul1060-bul1080.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p25__nr-23-pijpnippel__bul__bul1040-bul1060-bul1080.webp"
+  },
+  {
+    "sku": "BUL12070",
+    "series_id": "nr-23-pijpnippel",
+    "series_name": "NR 23 - PIJPNIPPEL",
+    "page": 25,
+    "col_0": "BUL12070",
+    "maat": "1/2\"",
+    "col_2": "70 mm",
+    "type": "nr_23_pijpnippel",
+    "application": "BUITENDRAAD",
+    "_enriched": {
+      "series_raw": "NR 23 - PIJPNIPPEL",
+      "series": "nr-23-pijpnippel",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null,
+      "galvanized_piece": {
+        "size_inch": "1/2\""
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p25__nr-23-pijpnippel__bul__bul1040-bul1060-bul1080.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p25__nr-23-pijpnippel__bul__bul1040-bul1060-bul1080.webp"
+  },
+  {
+    "sku": "BUL12090",
+    "series_id": "nr-23-pijpnippel",
+    "series_name": "NR 23 - PIJPNIPPEL",
+    "page": 25,
+    "col_0": "BUL12090",
+    "maat": "1/2\"",
+    "col_2": "90 mm",
+    "type": "nr_23_pijpnippel",
+    "application": "BUITENDRAAD",
+    "_enriched": {
+      "series_raw": "NR 23 - PIJPNIPPEL",
+      "series": "nr-23-pijpnippel",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null,
+      "galvanized_piece": {
+        "size_inch": "1/2\""
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p25__nr-23-pijpnippel__bul__bul1040-bul1060-bul1080.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p25__nr-23-pijpnippel__bul__bul1040-bul1060-bul1080.webp"
+  },
+  {
+    "sku": "BUL12120",
+    "series_id": "nr-23-pijpnippel",
+    "series_name": "NR 23 - PIJPNIPPEL",
+    "page": 25,
+    "col_0": "BUL12120",
+    "maat": "1/2\"",
+    "col_2": "120 mm",
+    "type": "nr_23_pijpnippel",
+    "application": "BUITENDRAAD",
+    "_enriched": {
+      "series_raw": "NR 23 - PIJPNIPPEL",
+      "series": "nr-23-pijpnippel",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null,
+      "galvanized_piece": {
+        "size_inch": "1/2\""
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p25__nr-23-pijpnippel__bul__bul1040-bul1060-bul1080.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p25__nr-23-pijpnippel__bul__bul1040-bul1060-bul1080.webp"
+  },
+  {
+    "sku": "BUL12180",
+    "series_id": "nr-23-pijpnippel",
+    "series_name": "NR 23 - PIJPNIPPEL",
+    "page": 25,
+    "col_0": "BUL12180",
+    "maat": "1/2\"",
+    "col_2": "180 mm",
+    "type": "nr_23_pijpnippel",
+    "application": "BUITENDRAAD",
+    "_enriched": {
+      "series_raw": "NR 23 - PIJPNIPPEL",
+      "series": "nr-23-pijpnippel",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null,
+      "galvanized_piece": {
+        "size_inch": "1/2\""
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p25__nr-23-pijpnippel__bul__bul1040-bul1060-bul1080.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p25__nr-23-pijpnippel__bul__bul1040-bul1060-bul1080.webp"
+  },
+  {
+    "sku": "BUL12250",
+    "series_id": "nr-23-pijpnippel",
+    "series_name": "NR 23 - PIJPNIPPEL",
+    "page": 25,
+    "col_0": "BUL12250",
+    "maat": "1/2\"",
+    "col_2": "250 mm",
+    "type": "nr_23_pijpnippel",
+    "application": "BUITENDRAAD",
+    "_enriched": {
+      "series_raw": "NR 23 - PIJPNIPPEL",
+      "series": "nr-23-pijpnippel",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null,
+      "galvanized_piece": {
+        "size_inch": "1/2\""
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p25__nr-23-pijpnippel__bul__bul1040-bul1060-bul1080.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p25__nr-23-pijpnippel__bul__bul1040-bul1060-bul1080.webp"
+  },
+  {
+    "sku": "BUL12350",
+    "series_id": "nr-23-pijpnippel",
+    "series_name": "NR 23 - PIJPNIPPEL",
+    "page": 25,
+    "col_0": "BUL12350",
+    "maat": "1/2\"",
+    "col_2": "350 mm",
+    "type": "nr_23_pijpnippel",
+    "application": "BUITENDRAAD",
+    "_enriched": {
+      "series_raw": "NR 23 - PIJPNIPPEL",
+      "series": "nr-23-pijpnippel",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null,
+      "galvanized_piece": {
+        "size_inch": "1/2\""
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p25__nr-23-pijpnippel__bul__bul1040-bul1060-bul1080.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p25__nr-23-pijpnippel__bul__bul1040-bul1060-bul1080.webp"
+  },
+  {
+    "sku": "BUL12450",
+    "series_id": "nr-23-pijpnippel",
+    "series_name": "NR 23 - PIJPNIPPEL",
+    "page": 25,
+    "col_0": "BUL12450",
+    "maat": "1/2\"",
+    "col_2": "450 mm",
+    "type": "nr_23_pijpnippel",
+    "application": "BUITENDRAAD",
+    "_enriched": {
+      "series_raw": "NR 23 - PIJPNIPPEL",
+      "series": "nr-23-pijpnippel",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null,
+      "galvanized_piece": {
+        "size_inch": "1/2\""
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p25__nr-23-pijpnippel__bul__bul1040-bul1060-bul1080.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p25__nr-23-pijpnippel__bul__bul1040-bul1060-bul1080.webp"
+  },
+  {
+    "sku": "BUL1250",
+    "series_id": "nr-23-pijpnippel",
+    "series_name": "NR 23 - PIJPNIPPEL",
+    "page": 25,
+    "col_0": "BUL1250",
+    "maat": "1\"",
+    "col_2": "250 mm",
+    "type": "nr_23_pijpnippel",
+    "application": "BUITENDRAAD",
+    "_enriched": {
+      "series_raw": "NR 23 - PIJPNIPPEL",
+      "series": "nr-23-pijpnippel",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null,
+      "galvanized_piece": {
+        "sku_code": "BUL1250",
+        "size_inch": "1\""
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p25__nr-23-pijpnippel__bul__bul1040-bul1060-bul1080.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p25__nr-23-pijpnippel__bul__bul1040-bul1060-bul1080.webp"
+  },
+  {
+    "sku": "BUL12600",
+    "series_id": "nr-23-pijpnippel",
+    "series_name": "NR 23 - PIJPNIPPEL",
+    "page": 25,
+    "col_0": "BUL12600",
+    "maat": "1/2\"",
+    "col_2": "600 mm",
+    "type": "nr_23_pijpnippel",
+    "application": "BUITENDRAAD",
+    "_enriched": {
+      "series_raw": "NR 23 - PIJPNIPPEL",
+      "series": "nr-23-pijpnippel",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null,
+      "galvanized_piece": {
+        "size_inch": "1/2\""
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p25__nr-23-pijpnippel__bul__bul1040-bul1060-bul1080.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p25__nr-23-pijpnippel__bul__bul1040-bul1060-bul1080.webp"
+  },
+  {
+    "sku": "BUL12800",
+    "series_id": "nr-23-pijpnippel",
+    "series_name": "NR 23 - PIJPNIPPEL",
+    "page": 25,
+    "col_0": "BUL12800",
+    "maat": "1/2\"",
+    "col_2": "800 mm",
+    "type": "nr_23_pijpnippel",
+    "application": "BUITENDRAAD",
+    "_enriched": {
+      "series_raw": "NR 23 - PIJPNIPPEL",
+      "series": "nr-23-pijpnippel",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null,
+      "galvanized_piece": {
+        "size_inch": "1/2\""
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p25__nr-23-pijpnippel__bul__bul1040-bul1060-bul1080.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p25__nr-23-pijpnippel__bul__bul1040-bul1060-bul1080.webp"
+  },
+  {
+    "sku": "BUL1400",
+    "series_id": "nr-23-pijpnippel",
+    "series_name": "NR 23 - PIJPNIPPEL",
+    "page": 26,
+    "col_0": "BUL1400",
+    "maat": "1\"",
+    "col_2": "400 mm",
+    "type": "nr_23_pijpnippel",
+    "application": "BUITENDRAAD",
+    "_enriched": {
+      "series_raw": "NR 23 - PIJPNIPPEL",
+      "series": "nr-23-pijpnippel",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null,
+      "galvanized_piece": {
+        "sku_code": "BUL1400",
+        "size_inch": "1\""
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p26__nr-23-pijpnippel__bul__bul11000-bul1400-bul1600.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p26__nr-23-pijpnippel__bul__bul11000-bul1400-bul1600.webp"
+  },
+  {
+    "sku": "BUL14040",
+    "series_id": "nr-23-pijpnippel",
+    "series_name": "NR 23 - PIJPNIPPEL",
+    "page": 25,
+    "col_0": "BUL14040",
+    "maat": "1/4\"",
+    "col_2": "40 mm",
+    "type": "nr_23_pijpnippel",
+    "application": "BUITENDRAAD",
+    "_enriched": {
+      "series_raw": "NR 23 - PIJPNIPPEL",
+      "series": "nr-23-pijpnippel",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null,
+      "galvanized_piece": {
+        "size_inch": "1/4\""
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p25__nr-23-pijpnippel__bul__bul1040-bul1060-bul1080.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p25__nr-23-pijpnippel__bul__bul1040-bul1060-bul1080.webp"
+  },
+  {
+    "sku": "BUL14080",
+    "series_id": "nr-23-pijpnippel",
+    "series_name": "NR 23 - PIJPNIPPEL",
+    "page": 25,
+    "col_0": "BUL14080",
+    "maat": "1/4\"",
+    "col_2": "80 mm",
+    "type": "nr_23_pijpnippel",
+    "application": "BUITENDRAAD",
+    "_enriched": {
+      "series_raw": "NR 23 - PIJPNIPPEL",
+      "series": "nr-23-pijpnippel",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null,
+      "galvanized_piece": {
+        "size_inch": "1/4\""
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p25__nr-23-pijpnippel__bul__bul1040-bul1060-bul1080.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p25__nr-23-pijpnippel__bul__bul1040-bul1060-bul1080.webp"
+  },
+  {
+    "sku": "BUL14200",
+    "series_id": "nr-23-pijpnippel",
+    "series_name": "NR 23 - PIJPNIPPEL",
+    "page": 25,
+    "col_0": "BUL14200",
+    "maat": "1/4\"",
+    "col_2": "200 mm",
+    "type": "nr_23_pijpnippel",
+    "application": "BUITENDRAAD",
+    "_enriched": {
+      "series_raw": "NR 23 - PIJPNIPPEL",
+      "series": "nr-23-pijpnippel",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null,
+      "galvanized_piece": {
+        "size_inch": "1/4\""
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p25__nr-23-pijpnippel__bul__bul1040-bul1060-bul1080.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p25__nr-23-pijpnippel__bul__bul1040-bul1060-bul1080.webp"
+  },
+  {
+    "sku": "BUL1600",
+    "series_id": "nr-23-pijpnippel",
+    "series_name": "NR 23 - PIJPNIPPEL",
+    "page": 26,
+    "col_0": "BUL1600",
+    "maat": "1\"",
+    "col_2": "600 mm",
+    "type": "nr_23_pijpnippel",
+    "application": "BUITENDRAAD",
+    "_enriched": {
+      "series_raw": "NR 23 - PIJPNIPPEL",
+      "series": "nr-23-pijpnippel",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null,
+      "galvanized_piece": {
+        "sku_code": "BUL1600",
+        "size_inch": "1\""
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p26__nr-23-pijpnippel__bul__bul11000-bul1400-bul1600.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p26__nr-23-pijpnippel__bul__bul11000-bul1400-bul1600.webp"
+  },
+  {
+    "sku": "BUL1800",
+    "series_id": "nr-23-pijpnippel",
+    "series_name": "NR 23 - PIJPNIPPEL",
+    "page": 26,
+    "col_0": "BUL1800",
+    "maat": "1\"",
+    "col_2": "800 mm",
+    "type": "nr_23_pijpnippel",
+    "application": "BUITENDRAAD",
+    "_enriched": {
+      "series_raw": "NR 23 - PIJPNIPPEL",
+      "series": "nr-23-pijpnippel",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null,
+      "galvanized_piece": {
+        "sku_code": "BUL1800",
+        "size_inch": "1\""
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p26__nr-23-pijpnippel__bul__bul11000-bul1400-bul1600.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p26__nr-23-pijpnippel__bul__bul11000-bul1400-bul1600.webp"
+  },
+  {
+    "sku": "BUL2080",
+    "series_id": "nr-23-pijpnippel",
+    "series_name": "NR 23 - PIJPNIPPEL",
+    "page": 26,
+    "col_0": "BUL2080",
+    "maat": "2\"",
+    "col_2": "80 mm",
+    "type": "nr_23_pijpnippel",
+    "application": "BUITENDRAAD",
+    "_enriched": {
+      "series_raw": "NR 23 - PIJPNIPPEL",
+      "series": "nr-23-pijpnippel",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null,
+      "galvanized_piece": {
+        "sku_code": "BUL2080",
+        "size_inch": "2\""
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p26__nr-23-pijpnippel__bul__bul11000-bul1400-bul1600.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p26__nr-23-pijpnippel__bul__bul11000-bul1400-bul1600.webp"
+  },
+  {
+    "sku": "BUL2120",
+    "series_id": "nr-23-pijpnippel",
+    "series_name": "NR 23 - PIJPNIPPEL",
+    "page": 26,
+    "col_0": "BUL2120",
+    "maat": "2\"",
+    "col_2": "120 mm",
+    "type": "nr_23_pijpnippel",
+    "application": "BUITENDRAAD",
+    "_enriched": {
+      "series_raw": "NR 23 - PIJPNIPPEL",
+      "series": "nr-23-pijpnippel",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null,
+      "galvanized_piece": {
+        "sku_code": "BUL2120",
+        "size_inch": "2\""
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p26__nr-23-pijpnippel__bul__bul11000-bul1400-bul1600.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p26__nr-23-pijpnippel__bul__bul11000-bul1400-bul1600.webp"
+  },
+  {
+    "sku": "BUL2150",
+    "series_id": "nr-23-pijpnippel",
+    "series_name": "NR 23 - PIJPNIPPEL",
+    "page": 26,
+    "col_0": "BUL2150",
+    "maat": "2\"",
+    "col_2": "150 mm",
+    "type": "nr_23_pijpnippel",
+    "application": "BUITENDRAAD",
+    "_enriched": {
+      "series_raw": "NR 23 - PIJPNIPPEL",
+      "series": "nr-23-pijpnippel",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null,
+      "galvanized_piece": {
+        "sku_code": "BUL2150",
+        "size_inch": "2\""
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p26__nr-23-pijpnippel__bul__bul11000-bul1400-bul1600.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p26__nr-23-pijpnippel__bul__bul11000-bul1400-bul1600.webp"
+  },
+  {
+    "sku": "BUL2200",
+    "series_id": "nr-23-pijpnippel",
+    "series_name": "NR 23 - PIJPNIPPEL",
+    "page": 26,
+    "col_0": "BUL2200",
+    "maat": "2\"",
+    "col_2": "200 mm",
+    "type": "nr_23_pijpnippel",
+    "application": "BUITENDRAAD",
+    "_enriched": {
+      "series_raw": "NR 23 - PIJPNIPPEL",
+      "series": "nr-23-pijpnippel",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null,
+      "galvanized_piece": {
+        "sku_code": "BUL2200",
+        "size_inch": "2\""
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p26__nr-23-pijpnippel__bul__bul11000-bul1400-bul1600.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p26__nr-23-pijpnippel__bul__bul11000-bul1400-bul1600.webp"
+  },
+  {
+    "sku": "BUL2300",
+    "series_id": "nr-23-pijpnippel",
+    "series_name": "NR 23 - PIJPNIPPEL",
+    "page": 26,
+    "col_0": "BUL2300",
+    "maat": "2\"",
+    "col_2": "300 mm",
+    "type": "nr_23_pijpnippel",
+    "application": "BUITENDRAAD",
+    "_enriched": {
+      "series_raw": "NR 23 - PIJPNIPPEL",
+      "series": "nr-23-pijpnippel",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null,
+      "galvanized_piece": {
+        "sku_code": "BUL2300",
+        "size_inch": "2\""
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p26__nr-23-pijpnippel__bul__bul11000-bul1400-bul1600.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p26__nr-23-pijpnippel__bul__bul11000-bul1400-bul1600.webp"
+  },
+  {
+    "sku": "BUL2500",
+    "series_id": "nr-23-pijpnippel",
+    "series_name": "NR 23 - PIJPNIPPEL",
+    "page": 26,
+    "col_0": "BUL2500",
+    "maat": "2\"",
+    "col_2": "500 mm",
+    "type": "nr_23_pijpnippel",
+    "application": "BUITENDRAAD",
+    "_enriched": {
+      "series_raw": "NR 23 - PIJPNIPPEL",
+      "series": "nr-23-pijpnippel",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null,
+      "galvanized_piece": {
+        "sku_code": "BUL2500",
+        "size_inch": "2\""
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p26__nr-23-pijpnippel__bul__bul11000-bul1400-bul1600.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p26__nr-23-pijpnippel__bul__bul11000-bul1400-bul1600.webp"
+  },
+  {
+    "sku": "BUL25100",
+    "series_id": "nr-23-pijpnippel",
+    "series_name": "NR 23 - PIJPNIPPEL",
+    "page": 26,
+    "col_0": "BUL25100",
+    "maat": "2 1/2\"",
+    "col_2": "100 mm",
+    "type": "nr_23_pijpnippel",
+    "application": "BUITENDRAAD",
+    "_enriched": {
+      "series_raw": "NR 23 - PIJPNIPPEL",
+      "series": "nr-23-pijpnippel",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null,
+      "galvanized_piece": {
+        "size_inch": "2 1/2\""
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p26__nr-23-pijpnippel__bul__bul11000-bul1400-bul1600.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p26__nr-23-pijpnippel__bul__bul11000-bul1400-bul1600.webp"
+  },
+  {
+    "sku": "BUL25200",
+    "series_id": "nr-23-pijpnippel",
+    "series_name": "NR 23 - PIJPNIPPEL",
+    "page": 26,
+    "col_0": "BUL25200",
+    "maat": "2 1/2\"",
+    "col_2": "200 mm",
+    "type": "nr_23_pijpnippel",
+    "application": "BUITENDRAAD",
+    "_enriched": {
+      "series_raw": "NR 23 - PIJPNIPPEL",
+      "series": "nr-23-pijpnippel",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null,
+      "galvanized_piece": {
+        "size_inch": "2 1/2\""
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p26__nr-23-pijpnippel__bul__bul11000-bul1400-bul1600.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p26__nr-23-pijpnippel__bul__bul11000-bul1400-bul1600.webp"
+  },
+  {
+    "sku": "BUL25300",
+    "series_id": "nr-23-pijpnippel",
+    "series_name": "NR 23 - PIJPNIPPEL",
+    "page": 26,
+    "col_0": "BUL25300",
+    "maat": "2 1/2\"",
+    "col_2": "300 mm",
+    "type": "nr_23_pijpnippel",
+    "application": "BUITENDRAAD",
+    "_enriched": {
+      "series_raw": "NR 23 - PIJPNIPPEL",
+      "series": "nr-23-pijpnippel",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null,
+      "galvanized_piece": {
+        "size_inch": "2 1/2\""
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p26__nr-23-pijpnippel__bul__bul11000-bul1400-bul1600.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p26__nr-23-pijpnippel__bul__bul11000-bul1400-bul1600.webp"
+  },
+  {
+    "sku": "BUL3150",
+    "series_id": "nr-23-pijpnippel",
+    "series_name": "NR 23 - PIJPNIPPEL",
+    "page": 26,
+    "col_0": "BUL3150",
+    "maat": "3\"",
+    "col_2": "150 mm",
+    "type": "nr_23_pijpnippel",
+    "application": "BUITENDRAAD",
+    "_enriched": {
+      "series_raw": "NR 23 - PIJPNIPPEL",
+      "series": "nr-23-pijpnippel",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null,
+      "galvanized_piece": {
+        "sku_code": "BUL3150",
+        "size_inch": "3\""
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p26__nr-23-pijpnippel__bul__bul11000-bul1400-bul1600.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p26__nr-23-pijpnippel__bul__bul11000-bul1400-bul1600.webp"
+  },
+  {
+    "sku": "BUL3250",
+    "series_id": "nr-23-pijpnippel",
+    "series_name": "NR 23 - PIJPNIPPEL",
+    "page": 26,
+    "col_0": "BUL3250",
+    "maat": "3\"",
+    "col_2": "250 mm",
+    "type": "nr_23_pijpnippel",
+    "application": "BUITENDRAAD",
+    "_enriched": {
+      "series_raw": "NR 23 - PIJPNIPPEL",
+      "series": "nr-23-pijpnippel",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null,
+      "galvanized_piece": {
+        "sku_code": "BUL3250",
+        "size_inch": "3\""
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p26__nr-23-pijpnippel__bul__bul11000-bul1400-bul1600.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p26__nr-23-pijpnippel__bul__bul11000-bul1400-bul1600.webp"
+  },
+  {
+    "sku": "BUL34030",
+    "series_id": "nr-23-pijpnippel",
+    "series_name": "NR 23 - PIJPNIPPEL",
+    "page": 25,
+    "col_0": "BUL34030",
+    "maat": "3/4\"",
+    "col_2": "30 mm",
+    "type": "nr_23_pijpnippel",
+    "application": "BUITENDRAAD",
+    "_enriched": {
+      "series_raw": "NR 23 - PIJPNIPPEL",
+      "series": "nr-23-pijpnippel",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null,
+      "galvanized_piece": {
+        "size_inch": "3/4\""
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p25__nr-23-pijpnippel__bul__bul1040-bul1060-bul1080.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p25__nr-23-pijpnippel__bul__bul1040-bul1060-bul1080.webp"
+  },
+  {
+    "sku": "BUL34060",
+    "series_id": "nr-23-pijpnippel",
+    "series_name": "NR 23 - PIJPNIPPEL",
+    "page": 25,
+    "col_0": "BUL34060",
+    "maat": "3/4\"",
+    "col_2": "60 mm",
+    "type": "nr_23_pijpnippel",
+    "application": "BUITENDRAAD",
+    "_enriched": {
+      "series_raw": "NR 23 - PIJPNIPPEL",
+      "series": "nr-23-pijpnippel",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null,
+      "galvanized_piece": {
+        "size_inch": "3/4\""
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p25__nr-23-pijpnippel__bul__bul1040-bul1060-bul1080.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p25__nr-23-pijpnippel__bul__bul1040-bul1060-bul1080.webp"
+  },
+  {
+    "sku": "BUL34080",
+    "series_id": "nr-23-pijpnippel",
+    "series_name": "NR 23 - PIJPNIPPEL",
+    "page": 25,
+    "col_0": "BUL34080",
+    "maat": "3/4\"",
+    "col_2": "80 mm",
+    "type": "nr_23_pijpnippel",
+    "application": "BUITENDRAAD",
+    "_enriched": {
+      "series_raw": "NR 23 - PIJPNIPPEL",
+      "series": "nr-23-pijpnippel",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null,
+      "galvanized_piece": {
+        "size_inch": "3/4\""
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p25__nr-23-pijpnippel__bul__bul1040-bul1060-bul1080.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p25__nr-23-pijpnippel__bul__bul1040-bul1060-bul1080.webp"
+  },
+  {
+    "sku": "BUL34100",
+    "series_id": "nr-23-pijpnippel",
+    "series_name": "NR 23 - PIJPNIPPEL",
+    "page": 25,
+    "col_0": "BUL34100",
+    "maat": "3/4\"",
+    "col_2": "100 mm",
+    "type": "nr_23_pijpnippel",
+    "application": "BUITENDRAAD",
+    "_enriched": {
+      "series_raw": "NR 23 - PIJPNIPPEL",
+      "series": "nr-23-pijpnippel",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null,
+      "galvanized_piece": {
+        "size_inch": "3/4\""
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p25__nr-23-pijpnippel__bul__bul1040-bul1060-bul1080.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p25__nr-23-pijpnippel__bul__bul1040-bul1060-bul1080.webp"
+  },
+  {
+    "sku": "BUL34150",
+    "series_id": "nr-23-pijpnippel",
+    "series_name": "NR 23 - PIJPNIPPEL",
+    "page": 25,
+    "col_0": "BUL34150",
+    "maat": "3/4\"",
+    "col_2": "150 mm",
+    "type": "nr_23_pijpnippel",
+    "application": "BUITENDRAAD",
+    "_enriched": {
+      "series_raw": "NR 23 - PIJPNIPPEL",
+      "series": "nr-23-pijpnippel",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null,
+      "galvanized_piece": {
+        "size_inch": "3/4\""
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p25__nr-23-pijpnippel__bul__bul1040-bul1060-bul1080.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p25__nr-23-pijpnippel__bul__bul1040-bul1060-bul1080.webp"
+  },
+  {
+    "sku": "BUL34200",
+    "series_id": "nr-23-pijpnippel",
+    "series_name": "NR 23 - PIJPNIPPEL",
+    "page": 25,
+    "col_0": "BUL34200",
+    "maat": "3/4\"",
+    "col_2": "200 mm",
+    "type": "nr_23_pijpnippel",
+    "application": "BUITENDRAAD",
+    "_enriched": {
+      "series_raw": "NR 23 - PIJPNIPPEL",
+      "series": "nr-23-pijpnippel",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null,
+      "galvanized_piece": {
+        "size_inch": "3/4\""
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p25__nr-23-pijpnippel__bul__bul1040-bul1060-bul1080.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p25__nr-23-pijpnippel__bul__bul1040-bul1060-bul1080.webp"
+  },
+  {
+    "sku": "BUL34300",
+    "series_id": "nr-23-pijpnippel",
+    "series_name": "NR 23 - PIJPNIPPEL",
+    "page": 25,
+    "col_0": "BUL34300",
+    "maat": "3/4\"",
+    "col_2": "300 mm",
+    "type": "nr_23_pijpnippel",
+    "application": "BUITENDRAAD",
+    "_enriched": {
+      "series_raw": "NR 23 - PIJPNIPPEL",
+      "series": "nr-23-pijpnippel",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null,
+      "galvanized_piece": {
+        "size_inch": "3/4\""
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p25__nr-23-pijpnippel__bul__bul1040-bul1060-bul1080.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p25__nr-23-pijpnippel__bul__bul1040-bul1060-bul1080.webp"
+  },
+  {
+    "sku": "BUL34400",
+    "series_id": "nr-23-pijpnippel",
+    "series_name": "NR 23 - PIJPNIPPEL",
+    "page": 25,
+    "col_0": "BUL34400",
+    "maat": "3/4\"",
+    "col_2": "400 mm",
+    "type": "nr_23_pijpnippel",
+    "application": "BUITENDRAAD",
+    "_enriched": {
+      "series_raw": "NR 23 - PIJPNIPPEL",
+      "series": "nr-23-pijpnippel",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null,
+      "galvanized_piece": {
+        "size_inch": "3/4\""
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p25__nr-23-pijpnippel__bul__bul1040-bul1060-bul1080.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p25__nr-23-pijpnippel__bul__bul1040-bul1060-bul1080.webp"
+  },
+  {
+    "sku": "BUL34500",
+    "series_id": "nr-23-pijpnippel",
+    "series_name": "NR 23 - PIJPNIPPEL",
+    "page": 25,
+    "col_0": "BUL34500",
+    "maat": "3/4\"",
+    "col_2": "500 mm",
+    "type": "nr_23_pijpnippel",
+    "application": "BUITENDRAAD",
+    "_enriched": {
+      "series_raw": "NR 23 - PIJPNIPPEL",
+      "series": "nr-23-pijpnippel",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null,
+      "galvanized_piece": {
+        "size_inch": "3/4\""
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p25__nr-23-pijpnippel__bul__bul1040-bul1060-bul1080.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p25__nr-23-pijpnippel__bul__bul1040-bul1060-bul1080.webp"
+  },
+  {
+    "sku": "BUL34700",
+    "series_id": "nr-23-pijpnippel",
+    "series_name": "NR 23 - PIJPNIPPEL",
+    "page": 25,
+    "col_0": "BUL34700",
+    "maat": "3/4\"",
+    "col_2": "700 mm",
+    "type": "nr_23_pijpnippel",
+    "application": "BUITENDRAAD",
+    "_enriched": {
+      "series_raw": "NR 23 - PIJPNIPPEL",
+      "series": "nr-23-pijpnippel",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null,
+      "galvanized_piece": {
+        "size_inch": "3/4\""
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p25__nr-23-pijpnippel__bul__bul1040-bul1060-bul1080.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p25__nr-23-pijpnippel__bul__bul1040-bul1060-bul1080.webp"
+  },
+  {
+    "sku": "BUL34900",
+    "series_id": "nr-23-pijpnippel",
+    "series_name": "NR 23 - PIJPNIPPEL",
+    "page": 25,
+    "col_0": "BUL34900",
+    "maat": "3/4\"",
+    "col_2": "900 mm",
+    "type": "nr_23_pijpnippel",
+    "application": "BUITENDRAAD",
+    "_enriched": {
+      "series_raw": "NR 23 - PIJPNIPPEL",
+      "series": "nr-23-pijpnippel",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null,
+      "galvanized_piece": {
+        "size_inch": "3/4\""
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p25__nr-23-pijpnippel__bul__bul1040-bul1060-bul1080.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p25__nr-23-pijpnippel__bul__bul1040-bul1060-bul1080.webp"
+  },
+  {
+    "sku": "BUL38050",
+    "series_id": "nr-23-pijpnippel",
+    "series_name": "NR 23 - PIJPNIPPEL",
+    "page": 25,
+    "col_0": "BUL38050",
+    "maat": "3/8\"",
+    "col_2": "50 mm",
+    "type": "nr_23_pijpnippel",
+    "application": "BUITENDRAAD",
+    "_enriched": {
+      "series_raw": "NR 23 - PIJPNIPPEL",
+      "series": "nr-23-pijpnippel",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null,
+      "galvanized_piece": {
+        "size_inch": "3/8\""
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p25__nr-23-pijpnippel__bul__bul1040-bul1060-bul1080.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p25__nr-23-pijpnippel__bul__bul1040-bul1060-bul1080.webp"
+  },
+  {
+    "sku": "BUL38080",
+    "series_id": "nr-23-pijpnippel",
+    "series_name": "NR 23 - PIJPNIPPEL",
+    "page": 25,
+    "col_0": "BUL38080",
+    "maat": "3/8\"",
+    "col_2": "80 mm",
+    "type": "nr_23_pijpnippel",
+    "application": "BUITENDRAAD",
+    "_enriched": {
+      "series_raw": "NR 23 - PIJPNIPPEL",
+      "series": "nr-23-pijpnippel",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null,
+      "galvanized_piece": {
+        "size_inch": "3/8\""
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p25__nr-23-pijpnippel__bul__bul1040-bul1060-bul1080.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p25__nr-23-pijpnippel__bul__bul1040-bul1060-bul1080.webp"
+  },
+  {
+    "sku": "BUL38120",
+    "series_id": "nr-23-pijpnippel",
+    "series_name": "NR 23 - PIJPNIPPEL",
+    "page": 25,
+    "col_0": "BUL38120",
+    "maat": "3/8\"",
+    "col_2": "120 mm",
+    "type": "nr_23_pijpnippel",
+    "application": "BUITENDRAAD",
+    "_enriched": {
+      "series_raw": "NR 23 - PIJPNIPPEL",
+      "series": "nr-23-pijpnippel",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null,
+      "galvanized_piece": {
+        "size_inch": "3/8\""
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p25__nr-23-pijpnippel__bul__bul1040-bul1060-bul1080.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p25__nr-23-pijpnippel__bul__bul1040-bul1060-bul1080.webp"
+  },
+  {
+    "sku": "BUL38180",
+    "series_id": "nr-23-pijpnippel",
+    "series_name": "NR 23 - PIJPNIPPEL",
+    "page": 25,
+    "col_0": "BUL38180",
+    "maat": "3/8\"",
+    "col_2": "180 mm",
+    "type": "nr_23_pijpnippel",
+    "application": "BUITENDRAAD",
+    "_enriched": {
+      "series_raw": "NR 23 - PIJPNIPPEL",
+      "series": "nr-23-pijpnippel",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null,
+      "galvanized_piece": {
+        "size_inch": "3/8\""
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p25__nr-23-pijpnippel__bul__bul1040-bul1060-bul1080.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p25__nr-23-pijpnippel__bul__bul1040-bul1060-bul1080.webp"
+  },
+  {
+    "sku": "BUL38250",
+    "series_id": "nr-23-pijpnippel",
+    "series_name": "NR 23 - PIJPNIPPEL",
+    "page": 25,
+    "col_0": "BUL38250",
+    "maat": "3/8\"",
+    "col_2": "250 mm",
+    "type": "nr_23_pijpnippel",
+    "application": "BUITENDRAAD",
+    "_enriched": {
+      "series_raw": "NR 23 - PIJPNIPPEL",
+      "series": "nr-23-pijpnippel",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null,
+      "galvanized_piece": {
+        "size_inch": "3/8\""
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p25__nr-23-pijpnippel__bul__bul1040-bul1060-bul1080.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p25__nr-23-pijpnippel__bul__bul1040-bul1060-bul1080.webp"
+  },
+  {
+    "sku": "BUL4100",
+    "series_id": "nr-23-pijpnippel",
+    "series_name": "NR 23 - PIJPNIPPEL",
+    "page": 26,
+    "col_0": "BUL4100",
+    "maat": "4\"",
+    "col_2": "100 mm",
+    "type": "nr_23_pijpnippel",
+    "application": "BUITENDRAAD",
+    "_enriched": {
+      "series_raw": "NR 23 - PIJPNIPPEL",
+      "series": "nr-23-pijpnippel",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null,
+      "galvanized_piece": {
+        "sku_code": "BUL4100",
+        "size_inch": "4\""
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p26__nr-23-pijpnippel__bul__bul11000-bul1400-bul1600.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p26__nr-23-pijpnippel__bul__bul11000-bul1400-bul1600.webp"
+  },
+  {
+    "sku": "BUL4200",
+    "series_id": "nr-23-pijpnippel",
+    "series_name": "NR 23 - PIJPNIPPEL",
+    "page": 26,
+    "col_0": "BUL4200",
+    "maat": "4\"",
+    "col_2": "200 mm",
+    "type": "nr_23_pijpnippel",
+    "application": "BUITENDRAAD",
+    "_enriched": {
+      "series_raw": "NR 23 - PIJPNIPPEL",
+      "series": "nr-23-pijpnippel",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null,
+      "galvanized_piece": {
+        "sku_code": "BUL4200",
+        "size_inch": "4\""
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p26__nr-23-pijpnippel__bul__bul11000-bul1400-bul1600.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p26__nr-23-pijpnippel__bul__bul11000-bul1400-bul1600.webp"
+  },
+  {
+    "sku": "BUL4300",
+    "series_id": "nr-23-pijpnippel",
+    "series_name": "NR 23 - PIJPNIPPEL",
+    "page": 26,
+    "col_0": "BUL4300",
+    "maat": "4\"",
+    "col_2": "300 mm",
+    "type": "nr_23_pijpnippel",
+    "application": "BUITENDRAAD",
+    "_enriched": {
+      "series_raw": "NR 23 - PIJPNIPPEL",
+      "series": "nr-23-pijpnippel",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null,
+      "galvanized_piece": {
+        "sku_code": "BUL4300",
+        "size_inch": "4\""
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p26__nr-23-pijpnippel__bul__bul11000-bul1400-bul1600.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p26__nr-23-pijpnippel__bul__bul11000-bul1400-bul1600.webp"
+  },
+  {
+    "sku": "BUL54050",
+    "series_id": "nr-23-pijpnippel",
+    "series_name": "NR 23 - PIJPNIPPEL",
+    "page": 26,
+    "col_0": "BUL54050",
+    "maat": "5/4\"",
+    "col_2": "50 mm",
+    "type": "nr_23_pijpnippel",
+    "application": "BUITENDRAAD",
+    "_enriched": {
+      "series_raw": "NR 23 - PIJPNIPPEL",
+      "series": "nr-23-pijpnippel",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null,
+      "galvanized_piece": {
+        "size_inch": "5/4\""
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p26__nr-23-pijpnippel__bul__bul11000-bul1400-bul1600.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p26__nr-23-pijpnippel__bul__bul11000-bul1400-bul1600.webp"
+  },
+  {
+    "sku": "BUL54080",
+    "series_id": "nr-23-pijpnippel",
+    "series_name": "NR 23 - PIJPNIPPEL",
+    "page": 26,
+    "col_0": "BUL54080",
+    "maat": "5/4\"",
+    "col_2": "80 mm",
+    "type": "nr_23_pijpnippel",
+    "application": "BUITENDRAAD",
+    "_enriched": {
+      "series_raw": "NR 23 - PIJPNIPPEL",
+      "series": "nr-23-pijpnippel",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null,
+      "galvanized_piece": {
+        "size_inch": "5/4\""
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p26__nr-23-pijpnippel__bul__bul11000-bul1400-bul1600.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p26__nr-23-pijpnippel__bul__bul11000-bul1400-bul1600.webp"
+  },
+  {
+    "sku": "BUL54100",
+    "series_id": "nr-23-pijpnippel",
+    "series_name": "NR 23 - PIJPNIPPEL",
+    "page": 26,
+    "col_0": "BUL54100",
+    "maat": "5/4\"",
+    "col_2": "100 mm",
+    "type": "nr_23_pijpnippel",
+    "application": "BUITENDRAAD",
+    "_enriched": {
+      "series_raw": "NR 23 - PIJPNIPPEL",
+      "series": "nr-23-pijpnippel",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null,
+      "galvanized_piece": {
+        "size_inch": "5/4\""
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p26__nr-23-pijpnippel__bul__bul11000-bul1400-bul1600.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p26__nr-23-pijpnippel__bul__bul11000-bul1400-bul1600.webp"
+  },
+  {
+    "sku": "BUL54150",
+    "series_id": "nr-23-pijpnippel",
+    "series_name": "NR 23 - PIJPNIPPEL",
+    "page": 26,
+    "col_0": "BUL54150",
+    "maat": "5/4\"",
+    "col_2": "150 mm",
+    "type": "nr_23_pijpnippel",
+    "application": "BUITENDRAAD",
+    "_enriched": {
+      "series_raw": "NR 23 - PIJPNIPPEL",
+      "series": "nr-23-pijpnippel",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null,
+      "galvanized_piece": {
+        "size_inch": "5/4\""
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p26__nr-23-pijpnippel__bul__bul11000-bul1400-bul1600.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p26__nr-23-pijpnippel__bul__bul11000-bul1400-bul1600.webp"
+  },
+  {
+    "sku": "BUL54200",
+    "series_id": "nr-23-pijpnippel",
+    "series_name": "NR 23 - PIJPNIPPEL",
+    "page": 26,
+    "col_0": "BUL54200",
+    "maat": "5/4\"",
+    "col_2": "200 mm",
+    "type": "nr_23_pijpnippel",
+    "application": "BUITENDRAAD",
+    "_enriched": {
+      "series_raw": "NR 23 - PIJPNIPPEL",
+      "series": "nr-23-pijpnippel",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null,
+      "galvanized_piece": {
+        "size_inch": "5/4\""
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p26__nr-23-pijpnippel__bul__bul11000-bul1400-bul1600.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p26__nr-23-pijpnippel__bul__bul11000-bul1400-bul1600.webp"
+  },
+  {
+    "sku": "BUL54300",
+    "series_id": "nr-23-pijpnippel",
+    "series_name": "NR 23 - PIJPNIPPEL",
+    "page": 26,
+    "col_0": "BUL54300",
+    "maat": "5/4\"",
+    "col_2": "300 mm",
+    "type": "nr_23_pijpnippel",
+    "application": "BUITENDRAAD",
+    "_enriched": {
+      "series_raw": "NR 23 - PIJPNIPPEL",
+      "series": "nr-23-pijpnippel",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null,
+      "galvanized_piece": {
+        "size_inch": "5/4\""
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p26__nr-23-pijpnippel__bul__bul11000-bul1400-bul1600.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p26__nr-23-pijpnippel__bul__bul11000-bul1400-bul1600.webp"
+  },
+  {
+    "sku": "BUL54400",
+    "series_id": "nr-23-pijpnippel",
+    "series_name": "NR 23 - PIJPNIPPEL",
+    "page": 26,
+    "col_0": "BUL54400",
+    "maat": "5/4\"",
+    "col_2": "400 mm",
+    "type": "nr_23_pijpnippel",
+    "application": "BUITENDRAAD",
+    "_enriched": {
+      "series_raw": "NR 23 - PIJPNIPPEL",
+      "series": "nr-23-pijpnippel",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null,
+      "galvanized_piece": {
+        "size_inch": "5/4\""
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p26__nr-23-pijpnippel__bul__bul11000-bul1400-bul1600.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p26__nr-23-pijpnippel__bul__bul11000-bul1400-bul1600.webp"
+  },
+  {
+    "sku": "BUL64050",
+    "series_id": "nr-23-pijpnippel",
+    "series_name": "NR 23 - PIJPNIPPEL",
+    "page": 26,
+    "col_0": "BUL64050",
+    "maat": "6/4\"",
+    "col_2": "50 mm",
+    "type": "nr_23_pijpnippel",
+    "application": "BUITENDRAAD",
+    "_enriched": {
+      "series_raw": "NR 23 - PIJPNIPPEL",
+      "series": "nr-23-pijpnippel",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null,
+      "galvanized_piece": {
+        "size_inch": "6/4\""
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p26__nr-23-pijpnippel__bul__bul11000-bul1400-bul1600.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p26__nr-23-pijpnippel__bul__bul11000-bul1400-bul1600.webp"
+  },
+  {
+    "sku": "BUL64070",
+    "series_id": "nr-23-pijpnippel",
+    "series_name": "NR 23 - PIJPNIPPEL",
+    "page": 26,
+    "col_0": "BUL64070",
+    "maat": "6/4\"",
+    "col_2": "70 mm",
+    "type": "nr_23_pijpnippel",
+    "application": "BUITENDRAAD",
+    "_enriched": {
+      "series_raw": "NR 23 - PIJPNIPPEL",
+      "series": "nr-23-pijpnippel",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null,
+      "galvanized_piece": {
+        "size_inch": "6/4\""
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p26__nr-23-pijpnippel__bul__bul11000-bul1400-bul1600.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p26__nr-23-pijpnippel__bul__bul11000-bul1400-bul1600.webp"
+  },
+  {
+    "sku": "BUL64100",
+    "series_id": "nr-23-pijpnippel",
+    "series_name": "NR 23 - PIJPNIPPEL",
+    "page": 26,
+    "col_0": "BUL64100",
+    "maat": "6/4\"",
+    "col_2": "100 mm",
+    "type": "nr_23_pijpnippel",
+    "application": "BUITENDRAAD",
+    "_enriched": {
+      "series_raw": "NR 23 - PIJPNIPPEL",
+      "series": "nr-23-pijpnippel",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null,
+      "galvanized_piece": {
+        "size_inch": "6/4\""
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p26__nr-23-pijpnippel__bul__bul11000-bul1400-bul1600.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p26__nr-23-pijpnippel__bul__bul11000-bul1400-bul1600.webp"
+  },
+  {
+    "sku": "BUL64150",
+    "series_id": "nr-23-pijpnippel",
+    "series_name": "NR 23 - PIJPNIPPEL",
+    "page": 26,
+    "col_0": "BUL64150",
+    "maat": "6/4\"",
+    "col_2": "150 mm",
+    "type": "nr_23_pijpnippel",
+    "application": "BUITENDRAAD",
+    "_enriched": {
+      "series_raw": "NR 23 - PIJPNIPPEL",
+      "series": "nr-23-pijpnippel",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null,
+      "galvanized_piece": {
+        "size_inch": "6/4\""
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p26__nr-23-pijpnippel__bul__bul11000-bul1400-bul1600.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p26__nr-23-pijpnippel__bul__bul11000-bul1400-bul1600.webp"
+  },
+  {
+    "sku": "BUL64200",
+    "series_id": "nr-23-pijpnippel",
+    "series_name": "NR 23 - PIJPNIPPEL",
+    "page": 26,
+    "col_0": "BUL64200",
+    "maat": "6/4\"",
+    "col_2": "200 mm",
+    "type": "nr_23_pijpnippel",
+    "application": "BUITENDRAAD",
+    "_enriched": {
+      "series_raw": "NR 23 - PIJPNIPPEL",
+      "series": "nr-23-pijpnippel",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null,
+      "galvanized_piece": {
+        "size_inch": "6/4\""
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p26__nr-23-pijpnippel__bul__bul11000-bul1400-bul1600.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p26__nr-23-pijpnippel__bul__bul11000-bul1400-bul1600.webp"
+  },
+  {
+    "sku": "BUL64300",
+    "series_id": "nr-23-pijpnippel",
+    "series_name": "NR 23 - PIJPNIPPEL",
+    "page": 26,
+    "col_0": "BUL64300",
+    "maat": "6/4\"",
+    "col_2": "300 mm",
+    "type": "nr_23_pijpnippel",
+    "application": "BUITENDRAAD",
+    "_enriched": {
+      "series_raw": "NR 23 - PIJPNIPPEL",
+      "series": "nr-23-pijpnippel",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null,
+      "galvanized_piece": {
+        "size_inch": "6/4\""
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p26__nr-23-pijpnippel__bul__bul11000-bul1400-bul1600.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p26__nr-23-pijpnippel__bul__bul11000-bul1400-bul1600.webp"
+  },
+  {
+    "sku": "GB2",
+    "series_id": "verzinkte-buis",
+    "series_name": "VERZINKTE BUIS",
+    "page": 4,
+    "col_0": "GB2",
+    "maat": "2\"",
+    "wanddikte": "3,60 mm",
+    "col_3": "6 m",
+    "type": "verzinkte_buis",
+    "application": "GLAD",
+    "_enriched": {
+      "series_raw": "VERZINKTE BUIS",
+      "series": "verzinkte-buis",
+      "catalog_group": null,
+      "product_type": "pipe",
+      "material": null,
+      "family_id": "pipe-verzinkte-buis-64239c",
+      "sku_series": null,
+      "galvanized_piece": {
+        "sku_code": "GB2",
+        "size_inch": "2\"",
+        "wall_thickness_mm": 3.6
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p4__verzinkte-buis__gb__gb2-gb3-gb34.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p4__verzinkte-buis__gb__gb2-gb3-gb34.webp"
+  },
+  {
+    "sku": "GB3",
+    "series_id": "verzinkte-buis",
+    "series_name": "VERZINKTE BUIS",
+    "page": 4,
+    "col_0": "GB3",
+    "maat": "3\"",
+    "wanddikte": "4,00 mm",
+    "col_3": "6 m",
+    "type": "verzinkte_buis",
+    "application": "GLAD",
+    "_enriched": {
+      "series_raw": "VERZINKTE BUIS",
+      "series": "verzinkte-buis",
+      "catalog_group": null,
+      "product_type": "pipe",
+      "material": null,
+      "family_id": "pipe-verzinkte-buis-64239c",
+      "sku_series": null,
+      "galvanized_piece": {
+        "sku_code": "GB3",
+        "size_inch": "3\"",
+        "wall_thickness_mm": 4.0
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p4__verzinkte-buis__gb__gb2-gb3-gb34.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p4__verzinkte-buis__gb__gb2-gb3-gb34.webp"
+  },
+  {
+    "sku": "GB34",
+    "series_id": "verzinkte-buis",
+    "series_name": "VERZINKTE BUIS",
+    "page": 4,
+    "col_0": "GB34",
+    "maat": "3/4\"",
+    "wanddikte": "2,60 mm",
+    "col_3": "6 m",
+    "type": "verzinkte_buis",
+    "application": "GLAD",
+    "_enriched": {
+      "series_raw": "VERZINKTE BUIS",
+      "series": "verzinkte-buis",
+      "catalog_group": null,
+      "product_type": "pipe",
+      "material": null,
+      "family_id": "pipe-verzinkte-buis-64239c",
+      "sku_series": null,
+      "galvanized_piece": {
+        "sku_code": "GB34",
+        "size_inch": "3/4\"",
+        "wall_thickness_mm": 2.6
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p4__verzinkte-buis__gb__gb2-gb3-gb34.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p4__verzinkte-buis__gb__gb2-gb3-gb34.webp"
+  },
+  {
+    "sku": "GB38",
+    "series_id": "verzinkte-buis",
+    "series_name": "VERZINKTE BUIS",
+    "page": 4,
+    "col_0": "GB38",
+    "maat": "3/8\"",
+    "wanddikte": "2,30 mm",
+    "col_3": "6 m",
+    "type": "verzinkte_buis",
+    "application": "GLAD",
+    "_enriched": {
+      "series_raw": "VERZINKTE BUIS",
+      "series": "verzinkte-buis",
+      "catalog_group": null,
+      "product_type": "pipe",
+      "material": null,
+      "family_id": "pipe-verzinkte-buis-64239c",
+      "sku_series": null,
+      "galvanized_piece": {
+        "sku_code": "GB38",
+        "size_inch": "3/8\"",
+        "wall_thickness_mm": 2.3
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p4__verzinkte-buis__gb__gb2-gb3-gb34.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p4__verzinkte-buis__gb__gb2-gb3-gb34.webp"
+  },
+  {
+    "sku": "GB54",
+    "series_id": "verzinkte-buis",
+    "series_name": "VERZINKTE BUIS",
+    "page": 4,
+    "col_0": "GB54",
+    "maat": "5/4\"",
+    "wanddikte": "3,20 mm",
+    "col_3": "6 m",
+    "type": "verzinkte_buis",
+    "application": "GLAD",
+    "_enriched": {
+      "series_raw": "VERZINKTE BUIS",
+      "series": "verzinkte-buis",
+      "catalog_group": null,
+      "product_type": "pipe",
+      "material": null,
+      "family_id": "pipe-verzinkte-buis-64239c",
+      "sku_series": null,
+      "galvanized_piece": {
+        "sku_code": "GB54",
+        "size_inch": "5/4\"",
+        "wall_thickness_mm": 3.2
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p4__verzinkte-buis__gb__gb2-gb3-gb34.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p4__verzinkte-buis__gb__gb2-gb3-gb34.webp"
+  },
+  {
+    "sku": "RCE032",
+    "series_id": "rubber-compensator",
+    "series_name": "RUBBER COMPENSATOR",
+    "page": 28,
+    "col_0": "RCE032",
+    "maat_dn": "DN32",
+    "maat_inch": "5/4\"",
+    "flens": "PN10",
+    "steekcirkel": "100 mm",
+    "col_5": "16 bar",
+    "type": "rubber_compensator",
+    "application": "EPDM",
+    "_enriched": {
+      "series_raw": "RUBBER COMPENSATOR",
+      "series": "rubber-compensator",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null,
+      "galvanized_piece": {
+        "sku_code": "RCE032",
+        "size_inch": "DN32"
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p28__rubber-compensator__rc__rce032-rce050-rce080.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p28__rubber-compensator__rc__rce032-rce050-rce080.webp"
+  },
+  {
+    "sku": "RCE050",
+    "series_id": "rubber-compensator",
+    "series_name": "RUBBER COMPENSATOR",
+    "page": 28,
+    "col_0": "RCE050",
+    "maat_dn": "DN50",
+    "maat_inch": "2\"",
+    "flens": "PN10",
+    "steekcirkel": "125 mm",
+    "col_5": "16 bar",
+    "type": "rubber_compensator",
+    "application": "EPDM",
+    "_enriched": {
+      "series_raw": "RUBBER COMPENSATOR",
+      "series": "rubber-compensator",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null,
+      "galvanized_piece": {
+        "sku_code": "RCE050",
+        "size_inch": "DN50"
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p28__rubber-compensator__rc__rce032-rce050-rce080.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p28__rubber-compensator__rc__rce032-rce050-rce080.webp"
+  },
+  {
+    "sku": "RCE080",
+    "series_id": "rubber-compensator",
+    "series_name": "RUBBER COMPENSATOR",
+    "page": 28,
+    "col_0": "RCE080",
+    "maat_dn": "DN80",
+    "maat_inch": "3\"",
+    "flens": "PN10",
+    "steekcirkel": "160 mm",
+    "col_5": "16 bar",
+    "type": "rubber_compensator",
+    "application": "EPDM",
+    "_enriched": {
+      "series_raw": "RUBBER COMPENSATOR",
+      "series": "rubber-compensator",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null,
+      "galvanized_piece": {
+        "sku_code": "RCE080",
+        "size_inch": "DN80"
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p28__rubber-compensator__rc__rce032-rce050-rce080.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p28__rubber-compensator__rc__rce032-rce050-rce080.webp"
+  },
+  {
+    "sku": "RCE125",
+    "series_id": "rubber-compensator",
+    "series_name": "RUBBER COMPENSATOR",
+    "page": 28,
+    "col_0": "RCE125",
+    "maat_dn": "DN125",
+    "maat_inch": "5\"",
+    "flens": "PN10",
+    "steekcirkel": "210 mm",
+    "col_5": "16 bar",
+    "type": "rubber_compensator",
+    "application": "EPDM",
+    "_enriched": {
+      "series_raw": "RUBBER COMPENSATOR",
+      "series": "rubber-compensator",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null,
+      "galvanized_piece": {
+        "sku_code": "RCE125",
+        "size_inch": "DN125"
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p28__rubber-compensator__rc__rce032-rce050-rce080.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p28__rubber-compensator__rc__rce032-rce050-rce080.webp"
+  },
+  {
+    "sku": "RCE200",
+    "series_id": "rubber-compensator",
+    "series_name": "RUBBER COMPENSATOR",
+    "page": 28,
+    "col_0": "RCE200",
+    "maat_dn": "DN200",
+    "maat_inch": "8\"",
+    "flens": "PN10",
+    "steekcirkel": "295 mm",
+    "col_5": "10 bar",
+    "type": "rubber_compensator",
+    "application": "EPDM",
+    "_enriched": {
+      "series_raw": "RUBBER COMPENSATOR",
+      "series": "rubber-compensator",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null,
+      "galvanized_piece": {
+        "sku_code": "RCE200",
+        "size_inch": "DN200"
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p28__rubber-compensator__rc__rce032-rce050-rce080.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p28__rubber-compensator__rc__rce032-rce050-rce080.webp"
+  },
+  {
+    "sku": "RCE300",
+    "series_id": "rubber-compensator",
+    "series_name": "RUBBER COMPENSATOR",
+    "page": 28,
+    "col_0": "RCE300",
+    "maat_dn": "DN300",
+    "maat_inch": "12\"",
+    "flens": "PN10",
+    "steekcirkel": "400 mm",
+    "col_5": "10 bar",
+    "type": "rubber_compensator",
+    "application": "EPDM",
+    "_enriched": {
+      "series_raw": "RUBBER COMPENSATOR",
+      "series": "rubber-compensator",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null,
+      "galvanized_piece": {
+        "sku_code": "RCE300",
+        "size_inch": "DN300"
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p28__rubber-compensator__rc__rce032-rce050-rce080.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p28__rubber-compensator__rc__rce032-rce050-rce080.webp"
+  },
+  {
+    "sku": "RCE400",
+    "series_id": "rubber-compensator",
+    "series_name": "RUBBER COMPENSATOR",
+    "page": 28,
+    "col_0": "RCE400",
+    "maat_dn": "DN400",
+    "maat_inch": "16\"",
+    "flens": "PN10",
+    "steekcirkel": "515 mm",
+    "col_5": "8 bar",
+    "type": "rubber_compensator",
+    "application": "EPDM",
+    "_enriched": {
+      "series_raw": "RUBBER COMPENSATOR",
+      "series": "rubber-compensator",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null,
+      "galvanized_piece": {
+        "sku_code": "RCE400",
+        "size_inch": "DN400"
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p28__rubber-compensator__rc__rce032-rce050-rce080.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p28__rubber-compensator__rc__rce032-rce050-rce080.webp"
+  },
+  {
+    "sku": "RCE500",
+    "series_id": "rubber-compensator",
+    "series_name": "RUBBER COMPENSATOR",
+    "page": 28,
+    "col_0": "RCE500",
+    "maat_dn": "DN500",
+    "maat_inch": "20\"",
+    "flens": "PN10",
+    "steekcirkel": "620 mm",
+    "col_5": "8 bar",
+    "type": "rubber_compensator",
+    "application": "EPDM",
+    "_enriched": {
+      "series_raw": "RUBBER COMPENSATOR",
+      "series": "rubber-compensator",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null,
+      "galvanized_piece": {
+        "sku_code": "RCE500",
+        "size_inch": "DN500"
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p28__rubber-compensator__rc__rce032-rce050-rce080.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p28__rubber-compensator__rc__rce032-rce050-rce080.webp"
+  },
+  {
+    "sku": "RCN032",
+    "series_id": "rubber-compensator",
+    "series_name": "RUBBER COMPENSATOR",
+    "page": 28,
+    "col_0": "RCN032",
+    "maat_dn": "DN32",
+    "maat_inch": "5/4\"",
+    "flens": "PN10",
+    "steekcirkel": "100 mm",
+    "col_5": "16 bar",
+    "type": "rubber_compensator",
+    "application": "NBR",
+    "_enriched": {
+      "series_raw": "RUBBER COMPENSATOR",
+      "series": "rubber-compensator",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null,
+      "galvanized_piece": {
+        "sku_code": "RCN032",
+        "size_inch": "DN32"
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p28__rubber-compensator__rc__rce032-rce050-rce080.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p28__rubber-compensator__rc__rce032-rce050-rce080.webp"
+  },
+  {
+    "sku": "RCN050",
+    "series_id": "rubber-compensator",
+    "series_name": "RUBBER COMPENSATOR",
+    "page": 28,
+    "col_0": "RCN050",
+    "maat_dn": "DN50",
+    "maat_inch": "2\"",
+    "flens": "PN10",
+    "steekcirkel": "125 mm",
+    "col_5": "16 bar",
+    "type": "rubber_compensator",
+    "application": "NBR",
+    "_enriched": {
+      "series_raw": "RUBBER COMPENSATOR",
+      "series": "rubber-compensator",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null,
+      "galvanized_piece": {
+        "sku_code": "RCN050",
+        "size_inch": "DN50"
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p28__rubber-compensator__rc__rce032-rce050-rce080.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p28__rubber-compensator__rc__rce032-rce050-rce080.webp"
+  },
+  {
+    "sku": "RCN080",
+    "series_id": "rubber-compensator",
+    "series_name": "RUBBER COMPENSATOR",
+    "page": 28,
+    "col_0": "RCN080",
+    "maat_dn": "DN80",
+    "maat_inch": "3\"",
+    "flens": "PN10",
+    "steekcirkel": "160 mm",
+    "col_5": "16 bar",
+    "type": "rubber_compensator",
+    "application": "NBR",
+    "_enriched": {
+      "series_raw": "RUBBER COMPENSATOR",
+      "series": "rubber-compensator",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null,
+      "galvanized_piece": {
+        "sku_code": "RCN080",
+        "size_inch": "DN80"
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p28__rubber-compensator__rc__rce032-rce050-rce080.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p28__rubber-compensator__rc__rce032-rce050-rce080.webp"
+  },
+  {
+    "sku": "RCN125",
+    "series_id": "rubber-compensator",
+    "series_name": "RUBBER COMPENSATOR",
+    "page": 28,
+    "col_0": "RCN125",
+    "maat_dn": "DN125",
+    "maat_inch": "5\"",
+    "flens": "PN10",
+    "steekcirkel": "210 mm",
+    "col_5": "16 bar",
+    "type": "rubber_compensator",
+    "application": "NBR",
+    "_enriched": {
+      "series_raw": "RUBBER COMPENSATOR",
+      "series": "rubber-compensator",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null,
+      "galvanized_piece": {
+        "sku_code": "RCN125",
+        "size_inch": "DN125"
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p28__rubber-compensator__rc__rce032-rce050-rce080.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p28__rubber-compensator__rc__rce032-rce050-rce080.webp"
+  },
+  {
+    "sku": "RCN200",
+    "series_id": "rubber-compensator",
+    "series_name": "RUBBER COMPENSATOR",
+    "page": 28,
+    "col_0": "RCN200",
+    "maat_dn": "DN200",
+    "maat_inch": "8\"",
+    "flens": "PN10",
+    "steekcirkel": "295 mm",
+    "col_5": "10 bar",
+    "type": "rubber_compensator",
+    "application": "NBR",
+    "_enriched": {
+      "series_raw": "RUBBER COMPENSATOR",
+      "series": "rubber-compensator",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null,
+      "galvanized_piece": {
+        "sku_code": "RCN200",
+        "size_inch": "DN200"
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p28__rubber-compensator__rc__rce032-rce050-rce080.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p28__rubber-compensator__rc__rce032-rce050-rce080.webp"
+  },
+  {
+    "sku": "RCN300",
+    "series_id": "rubber-compensator",
+    "series_name": "RUBBER COMPENSATOR",
+    "page": 28,
+    "col_0": "RCN300",
+    "maat_dn": "DN300",
+    "maat_inch": "12\"",
+    "flens": "PN10",
+    "steekcirkel": "400 mm",
+    "col_5": "10 bar",
+    "type": "rubber_compensator",
+    "application": "NBR",
+    "_enriched": {
+      "series_raw": "RUBBER COMPENSATOR",
+      "series": "rubber-compensator",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null,
+      "galvanized_piece": {
+        "sku_code": "RCN300",
+        "size_inch": "DN300"
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p28__rubber-compensator__rc__rce032-rce050-rce080.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p28__rubber-compensator__rc__rce032-rce050-rce080.webp"
+  },
+  {
+    "sku": "RCN400",
+    "series_id": "rubber-compensator",
+    "series_name": "RUBBER COMPENSATOR",
+    "page": 28,
+    "col_0": "RCN400",
+    "maat_dn": "DN400",
+    "maat_inch": "16\"",
+    "flens": "PN10",
+    "steekcirkel": "515 mm",
+    "col_5": "8 bar",
+    "type": "rubber_compensator",
+    "application": "NBR",
+    "_enriched": {
+      "series_raw": "RUBBER COMPENSATOR",
+      "series": "rubber-compensator",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null,
+      "galvanized_piece": {
+        "sku_code": "RCN400",
+        "size_inch": "DN400"
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p28__rubber-compensator__rc__rce032-rce050-rce080.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p28__rubber-compensator__rc__rce032-rce050-rce080.webp"
+  },
+  {
+    "sku": "RCN500",
+    "series_id": "rubber-compensator",
+    "series_name": "RUBBER COMPENSATOR",
+    "page": 28,
+    "col_0": "RCN500",
+    "maat_dn": "DN500",
+    "maat_inch": "20\"",
+    "flens": "PN10",
+    "steekcirkel": "620 mm",
+    "col_5": "8 bar",
+    "type": "rubber_compensator",
+    "application": "NBR",
+    "_enriched": {
+      "series_raw": "RUBBER COMPENSATOR",
+      "series": "rubber-compensator",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null,
+      "galvanized_piece": {
+        "sku_code": "RCN500",
+        "size_inch": "DN500"
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p28__rubber-compensator__rc__rce032-rce050-rce080.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p28__rubber-compensator__rc__rce032-rce050-rce080.webp"
+  },
+  {
+    "sku": "ZFGF1",
+    "series_id": "verzinkte-draadflens",
+    "series_name": "VERZINKTE DRAADFLENS",
+    "page": 27,
+    "col_0": "ZFGF1",
+    "maten": "DN25 x 1\"",
+    "flens_pn": "10/16",
+    "col_3": "85 mm",
+    "type": "verzinkte_draadflens",
+    "application": "BINNENDRAAD",
+    "_enriched": {
+      "series_raw": "VERZINKTE DRAADFLENS",
+      "series": "verzinkte-draadflens",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null,
+      "galvanized_piece": {
+        "sku_code": "ZFGF1"
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p27__verzinkte-draadflens__zfgf__zfgf1-zfgf12-zfgf25.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p27__verzinkte-draadflens__zfgf__zfgf1-zfgf12-zfgf25.webp"
+  },
+  {
+    "sku": "ZFGF12",
+    "series_id": "verzinkte-draadflens",
+    "series_name": "VERZINKTE DRAADFLENS",
+    "page": 27,
+    "col_0": "ZFGF12",
+    "maten": "DN15 x 1/2\"",
+    "flens_pn": "10/16",
+    "col_3": "65 mm",
+    "type": "verzinkte_draadflens",
+    "application": "BINNENDRAAD",
+    "_enriched": {
+      "series_raw": "VERZINKTE DRAADFLENS",
+      "series": "verzinkte-draadflens",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null,
+      "galvanized_piece": {
+        "sku_code": "ZFGF12"
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p27__verzinkte-draadflens__zfgf__zfgf1-zfgf12-zfgf25.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p27__verzinkte-draadflens__zfgf__zfgf1-zfgf12-zfgf25.webp"
+  },
+  {
+    "sku": "ZFGF25",
+    "series_id": "verzinkte-draadflens",
+    "series_name": "VERZINKTE DRAADFLENS",
+    "page": 27,
+    "col_0": "ZFGF25",
+    "maten": "DN65 x 2 1/2\"",
+    "flens_pn": "10/16",
+    "col_3": "145 mm",
+    "type": "verzinkte_draadflens",
+    "application": "BINNENDRAAD",
+    "_enriched": {
+      "series_raw": "VERZINKTE DRAADFLENS",
+      "series": "verzinkte-draadflens",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null,
+      "galvanized_piece": {
+        "sku_code": "ZFGF25"
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p27__verzinkte-draadflens__zfgf__zfgf1-zfgf12-zfgf25.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p27__verzinkte-draadflens__zfgf__zfgf1-zfgf12-zfgf25.webp"
+  },
+  {
+    "sku": "ZFGF4",
+    "series_id": "verzinkte-draadflens",
+    "series_name": "VERZINKTE DRAADFLENS",
+    "page": 27,
+    "col_0": "ZFGF4",
+    "maten": "DN100 x 4\"",
+    "flens_pn": "10/16",
+    "col_3": "180 mm",
+    "type": "verzinkte_draadflens",
+    "application": "BINNENDRAAD",
+    "_enriched": {
+      "series_raw": "VERZINKTE DRAADFLENS",
+      "series": "verzinkte-draadflens",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null,
+      "galvanized_piece": {
+        "sku_code": "ZFGF4"
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p27__verzinkte-draadflens__zfgf__zfgf1-zfgf12-zfgf25.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p27__verzinkte-draadflens__zfgf__zfgf1-zfgf12-zfgf25.webp"
+  },
+  {
+    "sku": "ZFGF6",
+    "series_id": "verzinkte-draadflens",
+    "series_name": "VERZINKTE DRAADFLENS",
+    "page": 27,
+    "col_0": "ZFGF6",
+    "maten": "DN150 x 6\"",
+    "flens_pn": "10/16",
+    "col_3": "240 mm",
+    "type": "verzinkte_draadflens",
+    "application": "BINNENDRAAD",
+    "_enriched": {
+      "series_raw": "VERZINKTE DRAADFLENS",
+      "series": "verzinkte-draadflens",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null,
+      "galvanized_piece": {
+        "sku_code": "ZFGF6"
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p27__verzinkte-draadflens__zfgf__zfgf1-zfgf12-zfgf25.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p27__verzinkte-draadflens__zfgf__zfgf1-zfgf12-zfgf25.webp"
+  },
+  {
+    "sku": "ZFGF64",
+    "series_id": "verzinkte-draadflens",
+    "series_name": "VERZINKTE DRAADFLENS",
+    "page": 27,
+    "col_0": "ZFGF64",
+    "maten": "DN40 x 6/4\"",
+    "flens_pn": "10/16",
+    "col_3": "110 mm",
+    "type": "verzinkte_draadflens",
+    "application": "BINNENDRAAD",
+    "_enriched": {
+      "series_raw": "VERZINKTE DRAADFLENS",
+      "series": "verzinkte-draadflens",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null,
+      "galvanized_piece": {
+        "sku_code": "ZFGF64"
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p27__verzinkte-draadflens__zfgf__zfgf1-zfgf12-zfgf25.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p27__verzinkte-draadflens__zfgf__zfgf1-zfgf12-zfgf25.webp"
+  },
+  {
+    "sku": null,
+    "series_id": "nr-23-pijpnippel",
+    "series_name": "NR 23 - PIJPNIPPEL",
+    "page": 25,
+    "col_0": null,
+    "maat": "1/4\"",
+    "col_2": null,
+    "type": "nr_23_pijpnippel",
+    "application": "BUITENDRAAD",
+    "_enriched": {
+      "series_raw": "NR 23 - PIJPNIPPEL",
+      "series": "nr-23-pijpnippel",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null,
+      "galvanized_piece": {
+        "size_inch": "1/4\""
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p25__nr-23-pijpnippel__bul__bul1040-bul1060-bul1080.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p25__nr-23-pijpnippel__bul__bul1040-bul1060-bul1080.webp"
+  },
+  {
+    "sku": null,
+    "series_id": "nr-23-pijpnippel",
+    "series_name": "NR 23 - PIJPNIPPEL",
+    "page": 25,
+    "col_0": null,
+    "maat": "1/4\"",
+    "col_2": null,
+    "type": "nr_23_pijpnippel",
+    "application": "BUITENDRAAD",
+    "_enriched": {
+      "series_raw": "NR 23 - PIJPNIPPEL",
+      "series": "nr-23-pijpnippel",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null,
+      "galvanized_piece": {
+        "size_inch": "1/4\""
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p25__nr-23-pijpnippel__bul__bul1040-bul1060-bul1080.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p25__nr-23-pijpnippel__bul__bul1040-bul1060-bul1080.webp"
+  },
+  {
+    "sku": null,
+    "series_id": "nr-23-pijpnippel",
+    "series_name": "NR 23 - PIJPNIPPEL",
+    "page": 25,
+    "col_0": null,
+    "maat": "3/8\"",
+    "col_2": null,
+    "type": "nr_23_pijpnippel",
+    "application": "BUITENDRAAD",
+    "_enriched": {
+      "series_raw": "NR 23 - PIJPNIPPEL",
+      "series": "nr-23-pijpnippel",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null,
+      "galvanized_piece": {
+        "size_inch": "3/8\""
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p25__nr-23-pijpnippel__bul__bul1040-bul1060-bul1080.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p25__nr-23-pijpnippel__bul__bul1040-bul1060-bul1080.webp"
+  },
+  {
+    "sku": null,
+    "series_id": "nr-23-pijpnippel",
+    "series_name": "NR 23 - PIJPNIPPEL",
+    "page": 25,
+    "col_0": null,
+    "maat": "3/8\"",
+    "col_2": null,
+    "type": "nr_23_pijpnippel",
+    "application": "BUITENDRAAD",
+    "_enriched": {
+      "series_raw": "NR 23 - PIJPNIPPEL",
+      "series": "nr-23-pijpnippel",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null,
+      "galvanized_piece": {
+        "size_inch": "3/8\""
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p25__nr-23-pijpnippel__bul__bul1040-bul1060-bul1080.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p25__nr-23-pijpnippel__bul__bul1040-bul1060-bul1080.webp"
+  },
+  {
+    "sku": null,
+    "series_id": "nr-23-pijpnippel",
+    "series_name": "NR 23 - PIJPNIPPEL",
+    "page": 25,
+    "col_0": null,
+    "maat": "3/8\"",
+    "col_2": null,
+    "type": "nr_23_pijpnippel",
+    "application": "BUITENDRAAD",
+    "_enriched": {
+      "series_raw": "NR 23 - PIJPNIPPEL",
+      "series": "nr-23-pijpnippel",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null,
+      "galvanized_piece": {
+        "size_inch": "3/8\""
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p25__nr-23-pijpnippel__bul__bul1040-bul1060-bul1080.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p25__nr-23-pijpnippel__bul__bul1040-bul1060-bul1080.webp"
+  },
+  {
+    "sku": null,
+    "series_id": "nr-23-pijpnippel",
+    "series_name": "NR 23 - PIJPNIPPEL",
+    "page": 25,
+    "col_0": null,
+    "maat": "3/8\"",
+    "col_2": null,
+    "type": "nr_23_pijpnippel",
+    "application": "BUITENDRAAD",
+    "_enriched": {
+      "series_raw": "NR 23 - PIJPNIPPEL",
+      "series": "nr-23-pijpnippel",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null,
+      "galvanized_piece": {
+        "size_inch": "3/8\""
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p25__nr-23-pijpnippel__bul__bul1040-bul1060-bul1080.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p25__nr-23-pijpnippel__bul__bul1040-bul1060-bul1080.webp"
+  },
+  {
+    "sku": null,
+    "series_id": "nr-23-pijpnippel",
+    "series_name": "NR 23 - PIJPNIPPEL",
+    "page": 25,
+    "col_0": null,
+    "maat": "3/8\"",
+    "col_2": null,
+    "type": "nr_23_pijpnippel",
+    "application": "BUITENDRAAD",
+    "_enriched": {
+      "series_raw": "NR 23 - PIJPNIPPEL",
+      "series": "nr-23-pijpnippel",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null,
+      "galvanized_piece": {
+        "size_inch": "3/8\""
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p25__nr-23-pijpnippel__bul__bul1040-bul1060-bul1080.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p25__nr-23-pijpnippel__bul__bul1040-bul1060-bul1080.webp"
+  },
+  {
+    "sku": null,
+    "series_id": "nr-23-pijpnippel",
+    "series_name": "NR 23 - PIJPNIPPEL",
+    "page": 25,
+    "col_0": null,
+    "maat": "3/8\"",
+    "col_2": null,
+    "type": "nr_23_pijpnippel",
+    "application": "BUITENDRAAD",
+    "_enriched": {
+      "series_raw": "NR 23 - PIJPNIPPEL",
+      "series": "nr-23-pijpnippel",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null,
+      "galvanized_piece": {
+        "size_inch": "3/8\""
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p25__nr-23-pijpnippel__bul__bul1040-bul1060-bul1080.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p25__nr-23-pijpnippel__bul__bul1040-bul1060-bul1080.webp"
+  },
+  {
+    "sku": null,
+    "series_id": "nr-23-pijpnippel",
+    "series_name": "NR 23 - PIJPNIPPEL",
+    "page": 25,
+    "col_0": null,
+    "maat": "1/2\"",
+    "col_2": null,
+    "type": "nr_23_pijpnippel",
+    "application": "BUITENDRAAD",
+    "_enriched": {
+      "series_raw": "NR 23 - PIJPNIPPEL",
+      "series": "nr-23-pijpnippel",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null,
+      "galvanized_piece": {
+        "size_inch": "1/2\""
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p25__nr-23-pijpnippel__bul__bul1040-bul1060-bul1080.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p25__nr-23-pijpnippel__bul__bul1040-bul1060-bul1080.webp"
+  },
+  {
+    "sku": null,
+    "series_id": "nr-23-pijpnippel",
+    "series_name": "NR 23 - PIJPNIPPEL",
+    "page": 25,
+    "col_0": null,
+    "maat": "1/2\"",
+    "col_2": null,
+    "type": "nr_23_pijpnippel",
+    "application": "BUITENDRAAD",
+    "_enriched": {
+      "series_raw": "NR 23 - PIJPNIPPEL",
+      "series": "nr-23-pijpnippel",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null,
+      "galvanized_piece": {
+        "size_inch": "1/2\""
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p25__nr-23-pijpnippel__bul__bul1040-bul1060-bul1080.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p25__nr-23-pijpnippel__bul__bul1040-bul1060-bul1080.webp"
+  },
+  {
+    "sku": null,
+    "series_id": "nr-23-pijpnippel",
+    "series_name": "NR 23 - PIJPNIPPEL",
+    "page": 25,
+    "col_0": null,
+    "maat": "1/2\"",
+    "col_2": null,
+    "type": "nr_23_pijpnippel",
+    "application": "BUITENDRAAD",
+    "_enriched": {
+      "series_raw": "NR 23 - PIJPNIPPEL",
+      "series": "nr-23-pijpnippel",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null,
+      "galvanized_piece": {
+        "size_inch": "1/2\""
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p25__nr-23-pijpnippel__bul__bul1040-bul1060-bul1080.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p25__nr-23-pijpnippel__bul__bul1040-bul1060-bul1080.webp"
+  },
+  {
+    "sku": null,
+    "series_id": "nr-23-pijpnippel",
+    "series_name": "NR 23 - PIJPNIPPEL",
+    "page": 25,
+    "col_0": null,
+    "maat": "1/2\"",
+    "col_2": null,
+    "type": "nr_23_pijpnippel",
+    "application": "BUITENDRAAD",
+    "_enriched": {
+      "series_raw": "NR 23 - PIJPNIPPEL",
+      "series": "nr-23-pijpnippel",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null,
+      "galvanized_piece": {
+        "size_inch": "1/2\""
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p25__nr-23-pijpnippel__bul__bul1040-bul1060-bul1080.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p25__nr-23-pijpnippel__bul__bul1040-bul1060-bul1080.webp"
+  },
+  {
+    "sku": null,
+    "series_id": "nr-23-pijpnippel",
+    "series_name": "NR 23 - PIJPNIPPEL",
+    "page": 25,
+    "col_0": null,
+    "maat": "1/2\"",
+    "col_2": null,
+    "type": "nr_23_pijpnippel",
+    "application": "BUITENDRAAD",
+    "_enriched": {
+      "series_raw": "NR 23 - PIJPNIPPEL",
+      "series": "nr-23-pijpnippel",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null,
+      "galvanized_piece": {
+        "size_inch": "1/2\""
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p25__nr-23-pijpnippel__bul__bul1040-bul1060-bul1080.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p25__nr-23-pijpnippel__bul__bul1040-bul1060-bul1080.webp"
+  },
+  {
+    "sku": null,
+    "series_id": "nr-23-pijpnippel",
+    "series_name": "NR 23 - PIJPNIPPEL",
+    "page": 25,
+    "col_0": null,
+    "maat": "1/2\"",
+    "col_2": null,
+    "type": "nr_23_pijpnippel",
+    "application": "BUITENDRAAD",
+    "_enriched": {
+      "series_raw": "NR 23 - PIJPNIPPEL",
+      "series": "nr-23-pijpnippel",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null,
+      "galvanized_piece": {
+        "size_inch": "1/2\""
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p25__nr-23-pijpnippel__bul__bul1040-bul1060-bul1080.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p25__nr-23-pijpnippel__bul__bul1040-bul1060-bul1080.webp"
+  },
+  {
+    "sku": null,
+    "series_id": "nr-23-pijpnippel",
+    "series_name": "NR 23 - PIJPNIPPEL",
+    "page": 25,
+    "col_0": null,
+    "maat": "1/2\"",
+    "col_2": null,
+    "type": "nr_23_pijpnippel",
+    "application": "BUITENDRAAD",
+    "_enriched": {
+      "series_raw": "NR 23 - PIJPNIPPEL",
+      "series": "nr-23-pijpnippel",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null,
+      "galvanized_piece": {
+        "size_inch": "1/2\""
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p25__nr-23-pijpnippel__bul__bul1040-bul1060-bul1080.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p25__nr-23-pijpnippel__bul__bul1040-bul1060-bul1080.webp"
+  },
+  {
+    "sku": null,
+    "series_id": "nr-23-pijpnippel",
+    "series_name": "NR 23 - PIJPNIPPEL",
+    "page": 25,
+    "col_0": null,
+    "maat": "1/2\"",
+    "col_2": null,
+    "type": "nr_23_pijpnippel",
+    "application": "BUITENDRAAD",
+    "_enriched": {
+      "series_raw": "NR 23 - PIJPNIPPEL",
+      "series": "nr-23-pijpnippel",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null,
+      "galvanized_piece": {
+        "size_inch": "1/2\""
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p25__nr-23-pijpnippel__bul__bul1040-bul1060-bul1080.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p25__nr-23-pijpnippel__bul__bul1040-bul1060-bul1080.webp"
+  },
+  {
+    "sku": null,
+    "series_id": "nr-23-pijpnippel",
+    "series_name": "NR 23 - PIJPNIPPEL",
+    "page": 25,
+    "col_0": null,
+    "maat": "1/2\"",
+    "col_2": null,
+    "type": "nr_23_pijpnippel",
+    "application": "BUITENDRAAD",
+    "_enriched": {
+      "series_raw": "NR 23 - PIJPNIPPEL",
+      "series": "nr-23-pijpnippel",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null,
+      "galvanized_piece": {
+        "size_inch": "1/2\""
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p25__nr-23-pijpnippel__bul__bul1040-bul1060-bul1080.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p25__nr-23-pijpnippel__bul__bul1040-bul1060-bul1080.webp"
+  },
+  {
+    "sku": null,
+    "series_id": "nr-23-pijpnippel",
+    "series_name": "NR 23 - PIJPNIPPEL",
+    "page": 25,
+    "col_0": null,
+    "maat": "1/2\"",
+    "col_2": null,
+    "type": "nr_23_pijpnippel",
+    "application": "BUITENDRAAD",
+    "_enriched": {
+      "series_raw": "NR 23 - PIJPNIPPEL",
+      "series": "nr-23-pijpnippel",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null,
+      "galvanized_piece": {
+        "size_inch": "1/2\""
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p25__nr-23-pijpnippel__bul__bul1040-bul1060-bul1080.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p25__nr-23-pijpnippel__bul__bul1040-bul1060-bul1080.webp"
+  },
+  {
+    "sku": null,
+    "series_id": "nr-23-pijpnippel",
+    "series_name": "NR 23 - PIJPNIPPEL",
+    "page": 25,
+    "col_0": null,
+    "maat": "1/2\"",
+    "col_2": null,
+    "type": "nr_23_pijpnippel",
+    "application": "BUITENDRAAD",
+    "_enriched": {
+      "series_raw": "NR 23 - PIJPNIPPEL",
+      "series": "nr-23-pijpnippel",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null,
+      "galvanized_piece": {
+        "size_inch": "1/2\""
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p25__nr-23-pijpnippel__bul__bul1040-bul1060-bul1080.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p25__nr-23-pijpnippel__bul__bul1040-bul1060-bul1080.webp"
+  },
+  {
+    "sku": null,
+    "series_id": "nr-23-pijpnippel",
+    "series_name": "NR 23 - PIJPNIPPEL",
+    "page": 25,
+    "col_0": null,
+    "maat": "3/4\"",
+    "col_2": null,
+    "type": "nr_23_pijpnippel",
+    "application": "BUITENDRAAD",
+    "_enriched": {
+      "series_raw": "NR 23 - PIJPNIPPEL",
+      "series": "nr-23-pijpnippel",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null,
+      "galvanized_piece": {
+        "size_inch": "3/4\""
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p25__nr-23-pijpnippel__bul__bul1040-bul1060-bul1080.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p25__nr-23-pijpnippel__bul__bul1040-bul1060-bul1080.webp"
+  },
+  {
+    "sku": null,
+    "series_id": "nr-23-pijpnippel",
+    "series_name": "NR 23 - PIJPNIPPEL",
+    "page": 25,
+    "col_0": null,
+    "maat": "3/4\"",
+    "col_2": null,
+    "type": "nr_23_pijpnippel",
+    "application": "BUITENDRAAD",
+    "_enriched": {
+      "series_raw": "NR 23 - PIJPNIPPEL",
+      "series": "nr-23-pijpnippel",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null,
+      "galvanized_piece": {
+        "size_inch": "3/4\""
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p25__nr-23-pijpnippel__bul__bul1040-bul1060-bul1080.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p25__nr-23-pijpnippel__bul__bul1040-bul1060-bul1080.webp"
+  },
+  {
+    "sku": null,
+    "series_id": "nr-23-pijpnippel",
+    "series_name": "NR 23 - PIJPNIPPEL",
+    "page": 25,
+    "col_0": null,
+    "maat": "3/4\"",
+    "col_2": null,
+    "type": "nr_23_pijpnippel",
+    "application": "BUITENDRAAD",
+    "_enriched": {
+      "series_raw": "NR 23 - PIJPNIPPEL",
+      "series": "nr-23-pijpnippel",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null,
+      "galvanized_piece": {
+        "size_inch": "3/4\""
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p25__nr-23-pijpnippel__bul__bul1040-bul1060-bul1080.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p25__nr-23-pijpnippel__bul__bul1040-bul1060-bul1080.webp"
+  },
+  {
+    "sku": null,
+    "series_id": "nr-23-pijpnippel",
+    "series_name": "NR 23 - PIJPNIPPEL",
+    "page": 25,
+    "col_0": null,
+    "maat": "3/4\"",
+    "col_2": null,
+    "type": "nr_23_pijpnippel",
+    "application": "BUITENDRAAD",
+    "_enriched": {
+      "series_raw": "NR 23 - PIJPNIPPEL",
+      "series": "nr-23-pijpnippel",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null,
+      "galvanized_piece": {
+        "size_inch": "3/4\""
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p25__nr-23-pijpnippel__bul__bul1040-bul1060-bul1080.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p25__nr-23-pijpnippel__bul__bul1040-bul1060-bul1080.webp"
+  },
+  {
+    "sku": null,
+    "series_id": "nr-23-pijpnippel",
+    "series_name": "NR 23 - PIJPNIPPEL",
+    "page": 25,
+    "col_0": null,
+    "maat": "3/4\"",
+    "col_2": null,
+    "type": "nr_23_pijpnippel",
+    "application": "BUITENDRAAD",
+    "_enriched": {
+      "series_raw": "NR 23 - PIJPNIPPEL",
+      "series": "nr-23-pijpnippel",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null,
+      "galvanized_piece": {
+        "size_inch": "3/4\""
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p25__nr-23-pijpnippel__bul__bul1040-bul1060-bul1080.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p25__nr-23-pijpnippel__bul__bul1040-bul1060-bul1080.webp"
+  },
+  {
+    "sku": null,
+    "series_id": "nr-23-pijpnippel",
+    "series_name": "NR 23 - PIJPNIPPEL",
+    "page": 25,
+    "col_0": null,
+    "maat": "3/4\"",
+    "col_2": null,
+    "type": "nr_23_pijpnippel",
+    "application": "BUITENDRAAD",
+    "_enriched": {
+      "series_raw": "NR 23 - PIJPNIPPEL",
+      "series": "nr-23-pijpnippel",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null,
+      "galvanized_piece": {
+        "size_inch": "3/4\""
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p25__nr-23-pijpnippel__bul__bul1040-bul1060-bul1080.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p25__nr-23-pijpnippel__bul__bul1040-bul1060-bul1080.webp"
+  },
+  {
+    "sku": null,
+    "series_id": "nr-23-pijpnippel",
+    "series_name": "NR 23 - PIJPNIPPEL",
+    "page": 25,
+    "col_0": null,
+    "maat": "3/4\"",
+    "col_2": null,
+    "type": "nr_23_pijpnippel",
+    "application": "BUITENDRAAD",
+    "_enriched": {
+      "series_raw": "NR 23 - PIJPNIPPEL",
+      "series": "nr-23-pijpnippel",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null,
+      "galvanized_piece": {
+        "size_inch": "3/4\""
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p25__nr-23-pijpnippel__bul__bul1040-bul1060-bul1080.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p25__nr-23-pijpnippel__bul__bul1040-bul1060-bul1080.webp"
+  },
+  {
+    "sku": null,
+    "series_id": "nr-23-pijpnippel",
+    "series_name": "NR 23 - PIJPNIPPEL",
+    "page": 25,
+    "col_0": null,
+    "maat": "3/4\"",
+    "col_2": null,
+    "type": "nr_23_pijpnippel",
+    "application": "BUITENDRAAD",
+    "_enriched": {
+      "series_raw": "NR 23 - PIJPNIPPEL",
+      "series": "nr-23-pijpnippel",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null,
+      "galvanized_piece": {
+        "size_inch": "3/4\""
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p25__nr-23-pijpnippel__bul__bul1040-bul1060-bul1080.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p25__nr-23-pijpnippel__bul__bul1040-bul1060-bul1080.webp"
+  },
+  {
+    "sku": null,
+    "series_id": "nr-23-pijpnippel",
+    "series_name": "NR 23 - PIJPNIPPEL",
+    "page": 25,
+    "col_0": null,
+    "maat": "3/4\"",
+    "col_2": null,
+    "type": "nr_23_pijpnippel",
+    "application": "BUITENDRAAD",
+    "_enriched": {
+      "series_raw": "NR 23 - PIJPNIPPEL",
+      "series": "nr-23-pijpnippel",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null,
+      "galvanized_piece": {
+        "size_inch": "3/4\""
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p25__nr-23-pijpnippel__bul__bul1040-bul1060-bul1080.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p25__nr-23-pijpnippel__bul__bul1040-bul1060-bul1080.webp"
+  },
+  {
+    "sku": null,
+    "series_id": "nr-23-pijpnippel",
+    "series_name": "NR 23 - PIJPNIPPEL",
+    "page": 25,
+    "col_0": null,
+    "maat": "3/4\"",
+    "col_2": null,
+    "type": "nr_23_pijpnippel",
+    "application": "BUITENDRAAD",
+    "_enriched": {
+      "series_raw": "NR 23 - PIJPNIPPEL",
+      "series": "nr-23-pijpnippel",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null,
+      "galvanized_piece": {
+        "size_inch": "3/4\""
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p25__nr-23-pijpnippel__bul__bul1040-bul1060-bul1080.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p25__nr-23-pijpnippel__bul__bul1040-bul1060-bul1080.webp"
+  },
+  {
+    "sku": null,
+    "series_id": "nr-23-pijpnippel",
+    "series_name": "NR 23 - PIJPNIPPEL",
+    "page": 25,
+    "col_0": null,
+    "maat": "3/4\"",
+    "col_2": null,
+    "type": "nr_23_pijpnippel",
+    "application": "BUITENDRAAD",
+    "_enriched": {
+      "series_raw": "NR 23 - PIJPNIPPEL",
+      "series": "nr-23-pijpnippel",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null,
+      "galvanized_piece": {
+        "size_inch": "3/4\""
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p25__nr-23-pijpnippel__bul__bul1040-bul1060-bul1080.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p25__nr-23-pijpnippel__bul__bul1040-bul1060-bul1080.webp"
+  },
+  {
+    "sku": null,
+    "series_id": "nr-23-pijpnippel",
+    "series_name": "NR 23 - PIJPNIPPEL",
+    "page": 25,
+    "col_0": null,
+    "maat": "1\"",
+    "col_2": null,
+    "type": "nr_23_pijpnippel",
+    "application": "BUITENDRAAD",
+    "_enriched": {
+      "series_raw": "NR 23 - PIJPNIPPEL",
+      "series": "nr-23-pijpnippel",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null,
+      "galvanized_piece": {
+        "size_inch": "1\""
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p25__nr-23-pijpnippel__bul__bul1040-bul1060-bul1080.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p25__nr-23-pijpnippel__bul__bul1040-bul1060-bul1080.webp"
+  },
+  {
+    "sku": null,
+    "series_id": "nr-23-pijpnippel",
+    "series_name": "NR 23 - PIJPNIPPEL",
+    "page": 25,
+    "col_0": null,
+    "maat": "1\"",
+    "col_2": null,
+    "type": "nr_23_pijpnippel",
+    "application": "BUITENDRAAD",
+    "_enriched": {
+      "series_raw": "NR 23 - PIJPNIPPEL",
+      "series": "nr-23-pijpnippel",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null,
+      "galvanized_piece": {
+        "size_inch": "1\""
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p25__nr-23-pijpnippel__bul__bul1040-bul1060-bul1080.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p25__nr-23-pijpnippel__bul__bul1040-bul1060-bul1080.webp"
+  },
+  {
+    "sku": null,
+    "series_id": "nr-23-pijpnippel",
+    "series_name": "NR 23 - PIJPNIPPEL",
+    "page": 25,
+    "col_0": null,
+    "maat": "1\"",
+    "col_2": null,
+    "type": "nr_23_pijpnippel",
+    "application": "BUITENDRAAD",
+    "_enriched": {
+      "series_raw": "NR 23 - PIJPNIPPEL",
+      "series": "nr-23-pijpnippel",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null,
+      "galvanized_piece": {
+        "size_inch": "1\""
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p25__nr-23-pijpnippel__bul__bul1040-bul1060-bul1080.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p25__nr-23-pijpnippel__bul__bul1040-bul1060-bul1080.webp"
+  },
+  {
+    "sku": null,
+    "series_id": "nr-23-pijpnippel",
+    "series_name": "NR 23 - PIJPNIPPEL",
+    "page": 25,
+    "col_0": null,
+    "maat": "1\"",
+    "col_2": null,
+    "type": "nr_23_pijpnippel",
+    "application": "BUITENDRAAD",
+    "_enriched": {
+      "series_raw": "NR 23 - PIJPNIPPEL",
+      "series": "nr-23-pijpnippel",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null,
+      "galvanized_piece": {
+        "size_inch": "1\""
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p25__nr-23-pijpnippel__bul__bul1040-bul1060-bul1080.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p25__nr-23-pijpnippel__bul__bul1040-bul1060-bul1080.webp"
+  },
+  {
+    "sku": null,
+    "series_id": "nr-23-pijpnippel",
+    "series_name": "NR 23 - PIJPNIPPEL",
+    "page": 25,
+    "col_0": null,
+    "maat": "1\"",
+    "col_2": null,
+    "type": "nr_23_pijpnippel",
+    "application": "BUITENDRAAD",
+    "_enriched": {
+      "series_raw": "NR 23 - PIJPNIPPEL",
+      "series": "nr-23-pijpnippel",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null,
+      "galvanized_piece": {
+        "size_inch": "1\""
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p25__nr-23-pijpnippel__bul__bul1040-bul1060-bul1080.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p25__nr-23-pijpnippel__bul__bul1040-bul1060-bul1080.webp"
+  },
+  {
+    "sku": null,
+    "series_id": "nr-23-pijpnippel",
+    "series_name": "NR 23 - PIJPNIPPEL",
+    "page": 25,
+    "col_0": null,
+    "maat": "1\"",
+    "col_2": null,
+    "type": "nr_23_pijpnippel",
+    "application": "BUITENDRAAD",
+    "_enriched": {
+      "series_raw": "NR 23 - PIJPNIPPEL",
+      "series": "nr-23-pijpnippel",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null,
+      "galvanized_piece": {
+        "size_inch": "1\""
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p25__nr-23-pijpnippel__bul__bul1040-bul1060-bul1080.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p25__nr-23-pijpnippel__bul__bul1040-bul1060-bul1080.webp"
+  },
+  {
+    "sku": null,
+    "series_id": "nr-23-pijpnippel",
+    "series_name": "NR 23 - PIJPNIPPEL",
+    "page": 25,
+    "col_0": null,
+    "maat": "1\"",
+    "col_2": null,
+    "type": "nr_23_pijpnippel",
+    "application": "BUITENDRAAD",
+    "_enriched": {
+      "series_raw": "NR 23 - PIJPNIPPEL",
+      "series": "nr-23-pijpnippel",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null,
+      "galvanized_piece": {
+        "size_inch": "1\""
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p25__nr-23-pijpnippel__bul__bul1040-bul1060-bul1080.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p25__nr-23-pijpnippel__bul__bul1040-bul1060-bul1080.webp"
+  },
+  {
+    "sku": null,
+    "series_id": "nr-23-pijpnippel",
+    "series_name": "NR 23 - PIJPNIPPEL",
+    "page": 26,
+    "col_0": null,
+    "maat": "1\"",
+    "col_2": null,
+    "type": "nr_23_pijpnippel",
+    "application": "BUITENDRAAD",
+    "_enriched": {
+      "series_raw": "NR 23 - PIJPNIPPEL",
+      "series": "nr-23-pijpnippel",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null,
+      "galvanized_piece": {
+        "size_inch": "1\""
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p26__nr-23-pijpnippel__bul__bul11000-bul1400-bul1600.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p26__nr-23-pijpnippel__bul__bul11000-bul1400-bul1600.webp"
+  },
+  {
+    "sku": null,
+    "series_id": "nr-23-pijpnippel",
+    "series_name": "NR 23 - PIJPNIPPEL",
+    "page": 26,
+    "col_0": null,
+    "maat": "1\"",
+    "col_2": null,
+    "type": "nr_23_pijpnippel",
+    "application": "BUITENDRAAD",
+    "_enriched": {
+      "series_raw": "NR 23 - PIJPNIPPEL",
+      "series": "nr-23-pijpnippel",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null,
+      "galvanized_piece": {
+        "size_inch": "1\""
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p26__nr-23-pijpnippel__bul__bul11000-bul1400-bul1600.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p26__nr-23-pijpnippel__bul__bul11000-bul1400-bul1600.webp"
+  },
+  {
+    "sku": null,
+    "series_id": "nr-23-pijpnippel",
+    "series_name": "NR 23 - PIJPNIPPEL",
+    "page": 26,
+    "col_0": null,
+    "maat": "1\"",
+    "col_2": null,
+    "type": "nr_23_pijpnippel",
+    "application": "BUITENDRAAD",
+    "_enriched": {
+      "series_raw": "NR 23 - PIJPNIPPEL",
+      "series": "nr-23-pijpnippel",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null,
+      "galvanized_piece": {
+        "size_inch": "1\""
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p26__nr-23-pijpnippel__bul__bul11000-bul1400-bul1600.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p26__nr-23-pijpnippel__bul__bul11000-bul1400-bul1600.webp"
+  },
+  {
+    "sku": null,
+    "series_id": "nr-23-pijpnippel",
+    "series_name": "NR 23 - PIJPNIPPEL",
+    "page": 26,
+    "col_0": null,
+    "maat": "5/4\"",
+    "col_2": null,
+    "type": "nr_23_pijpnippel",
+    "application": "BUITENDRAAD",
+    "_enriched": {
+      "series_raw": "NR 23 - PIJPNIPPEL",
+      "series": "nr-23-pijpnippel",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null,
+      "galvanized_piece": {
+        "size_inch": "5/4\""
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p26__nr-23-pijpnippel__bul__bul11000-bul1400-bul1600.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p26__nr-23-pijpnippel__bul__bul11000-bul1400-bul1600.webp"
+  },
+  {
+    "sku": null,
+    "series_id": "nr-23-pijpnippel",
+    "series_name": "NR 23 - PIJPNIPPEL",
+    "page": 26,
+    "col_0": null,
+    "maat": "5/4\"",
+    "col_2": null,
+    "type": "nr_23_pijpnippel",
+    "application": "BUITENDRAAD",
+    "_enriched": {
+      "series_raw": "NR 23 - PIJPNIPPEL",
+      "series": "nr-23-pijpnippel",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null,
+      "galvanized_piece": {
+        "size_inch": "5/4\""
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p26__nr-23-pijpnippel__bul__bul11000-bul1400-bul1600.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p26__nr-23-pijpnippel__bul__bul11000-bul1400-bul1600.webp"
+  },
+  {
+    "sku": null,
+    "series_id": "nr-23-pijpnippel",
+    "series_name": "NR 23 - PIJPNIPPEL",
+    "page": 26,
+    "col_0": null,
+    "maat": "5/4\"",
+    "col_2": null,
+    "type": "nr_23_pijpnippel",
+    "application": "BUITENDRAAD",
+    "_enriched": {
+      "series_raw": "NR 23 - PIJPNIPPEL",
+      "series": "nr-23-pijpnippel",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null,
+      "galvanized_piece": {
+        "size_inch": "5/4\""
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p26__nr-23-pijpnippel__bul__bul11000-bul1400-bul1600.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p26__nr-23-pijpnippel__bul__bul11000-bul1400-bul1600.webp"
+  },
+  {
+    "sku": null,
+    "series_id": "nr-23-pijpnippel",
+    "series_name": "NR 23 - PIJPNIPPEL",
+    "page": 26,
+    "col_0": null,
+    "maat": "5/4\"",
+    "col_2": null,
+    "type": "nr_23_pijpnippel",
+    "application": "BUITENDRAAD",
+    "_enriched": {
+      "series_raw": "NR 23 - PIJPNIPPEL",
+      "series": "nr-23-pijpnippel",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null,
+      "galvanized_piece": {
+        "size_inch": "5/4\""
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p26__nr-23-pijpnippel__bul__bul11000-bul1400-bul1600.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p26__nr-23-pijpnippel__bul__bul11000-bul1400-bul1600.webp"
+  },
+  {
+    "sku": null,
+    "series_id": "nr-23-pijpnippel",
+    "series_name": "NR 23 - PIJPNIPPEL",
+    "page": 26,
+    "col_0": null,
+    "maat": "5/4\"",
+    "col_2": null,
+    "type": "nr_23_pijpnippel",
+    "application": "BUITENDRAAD",
+    "_enriched": {
+      "series_raw": "NR 23 - PIJPNIPPEL",
+      "series": "nr-23-pijpnippel",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null,
+      "galvanized_piece": {
+        "size_inch": "5/4\""
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p26__nr-23-pijpnippel__bul__bul11000-bul1400-bul1600.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p26__nr-23-pijpnippel__bul__bul11000-bul1400-bul1600.webp"
+  },
+  {
+    "sku": null,
+    "series_id": "nr-23-pijpnippel",
+    "series_name": "NR 23 - PIJPNIPPEL",
+    "page": 26,
+    "col_0": null,
+    "maat": "5/4\"",
+    "col_2": null,
+    "type": "nr_23_pijpnippel",
+    "application": "BUITENDRAAD",
+    "_enriched": {
+      "series_raw": "NR 23 - PIJPNIPPEL",
+      "series": "nr-23-pijpnippel",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null,
+      "galvanized_piece": {
+        "size_inch": "5/4\""
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p26__nr-23-pijpnippel__bul__bul11000-bul1400-bul1600.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p26__nr-23-pijpnippel__bul__bul11000-bul1400-bul1600.webp"
+  },
+  {
+    "sku": null,
+    "series_id": "nr-23-pijpnippel",
+    "series_name": "NR 23 - PIJPNIPPEL",
+    "page": 26,
+    "col_0": null,
+    "maat": "5/4\"",
+    "col_2": null,
+    "type": "nr_23_pijpnippel",
+    "application": "BUITENDRAAD",
+    "_enriched": {
+      "series_raw": "NR 23 - PIJPNIPPEL",
+      "series": "nr-23-pijpnippel",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null,
+      "galvanized_piece": {
+        "size_inch": "5/4\""
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p26__nr-23-pijpnippel__bul__bul11000-bul1400-bul1600.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p26__nr-23-pijpnippel__bul__bul11000-bul1400-bul1600.webp"
+  },
+  {
+    "sku": null,
+    "series_id": "nr-23-pijpnippel",
+    "series_name": "NR 23 - PIJPNIPPEL",
+    "page": 26,
+    "col_0": null,
+    "maat": "5/4\"",
+    "col_2": null,
+    "type": "nr_23_pijpnippel",
+    "application": "BUITENDRAAD",
+    "_enriched": {
+      "series_raw": "NR 23 - PIJPNIPPEL",
+      "series": "nr-23-pijpnippel",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null,
+      "galvanized_piece": {
+        "size_inch": "5/4\""
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p26__nr-23-pijpnippel__bul__bul11000-bul1400-bul1600.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p26__nr-23-pijpnippel__bul__bul11000-bul1400-bul1600.webp"
+  },
+  {
+    "sku": null,
+    "series_id": "nr-23-pijpnippel",
+    "series_name": "NR 23 - PIJPNIPPEL",
+    "page": 26,
+    "col_0": null,
+    "maat": "6/4\"",
+    "col_2": null,
+    "type": "nr_23_pijpnippel",
+    "application": "BUITENDRAAD",
+    "_enriched": {
+      "series_raw": "NR 23 - PIJPNIPPEL",
+      "series": "nr-23-pijpnippel",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null,
+      "galvanized_piece": {
+        "size_inch": "6/4\""
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p26__nr-23-pijpnippel__bul__bul11000-bul1400-bul1600.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p26__nr-23-pijpnippel__bul__bul11000-bul1400-bul1600.webp"
+  },
+  {
+    "sku": null,
+    "series_id": "nr-23-pijpnippel",
+    "series_name": "NR 23 - PIJPNIPPEL",
+    "page": 26,
+    "col_0": null,
+    "maat": "6/4\"",
+    "col_2": null,
+    "type": "nr_23_pijpnippel",
+    "application": "BUITENDRAAD",
+    "_enriched": {
+      "series_raw": "NR 23 - PIJPNIPPEL",
+      "series": "nr-23-pijpnippel",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null,
+      "galvanized_piece": {
+        "size_inch": "6/4\""
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p26__nr-23-pijpnippel__bul__bul11000-bul1400-bul1600.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p26__nr-23-pijpnippel__bul__bul11000-bul1400-bul1600.webp"
+  },
+  {
+    "sku": null,
+    "series_id": "nr-23-pijpnippel",
+    "series_name": "NR 23 - PIJPNIPPEL",
+    "page": 26,
+    "col_0": null,
+    "maat": "6/4\"",
+    "col_2": null,
+    "type": "nr_23_pijpnippel",
+    "application": "BUITENDRAAD",
+    "_enriched": {
+      "series_raw": "NR 23 - PIJPNIPPEL",
+      "series": "nr-23-pijpnippel",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null,
+      "galvanized_piece": {
+        "size_inch": "6/4\""
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p26__nr-23-pijpnippel__bul__bul11000-bul1400-bul1600.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p26__nr-23-pijpnippel__bul__bul11000-bul1400-bul1600.webp"
+  },
+  {
+    "sku": null,
+    "series_id": "nr-23-pijpnippel",
+    "series_name": "NR 23 - PIJPNIPPEL",
+    "page": 26,
+    "col_0": null,
+    "maat": "6/4\"",
+    "col_2": null,
+    "type": "nr_23_pijpnippel",
+    "application": "BUITENDRAAD",
+    "_enriched": {
+      "series_raw": "NR 23 - PIJPNIPPEL",
+      "series": "nr-23-pijpnippel",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null,
+      "galvanized_piece": {
+        "size_inch": "6/4\""
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p26__nr-23-pijpnippel__bul__bul11000-bul1400-bul1600.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p26__nr-23-pijpnippel__bul__bul11000-bul1400-bul1600.webp"
+  },
+  {
+    "sku": null,
+    "series_id": "nr-23-pijpnippel",
+    "series_name": "NR 23 - PIJPNIPPEL",
+    "page": 26,
+    "col_0": null,
+    "maat": "6/4\"",
+    "col_2": null,
+    "type": "nr_23_pijpnippel",
+    "application": "BUITENDRAAD",
+    "_enriched": {
+      "series_raw": "NR 23 - PIJPNIPPEL",
+      "series": "nr-23-pijpnippel",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null,
+      "galvanized_piece": {
+        "size_inch": "6/4\""
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p26__nr-23-pijpnippel__bul__bul11000-bul1400-bul1600.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p26__nr-23-pijpnippel__bul__bul11000-bul1400-bul1600.webp"
+  },
+  {
+    "sku": null,
+    "series_id": "nr-23-pijpnippel",
+    "series_name": "NR 23 - PIJPNIPPEL",
+    "page": 26,
+    "col_0": null,
+    "maat": "2\"",
+    "col_2": null,
+    "type": "nr_23_pijpnippel",
+    "application": "BUITENDRAAD",
+    "_enriched": {
+      "series_raw": "NR 23 - PIJPNIPPEL",
+      "series": "nr-23-pijpnippel",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null,
+      "galvanized_piece": {
+        "size_inch": "2\""
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p26__nr-23-pijpnippel__bul__bul11000-bul1400-bul1600.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p26__nr-23-pijpnippel__bul__bul11000-bul1400-bul1600.webp"
+  },
+  {
+    "sku": null,
+    "series_id": "nr-23-pijpnippel",
+    "series_name": "NR 23 - PIJPNIPPEL",
+    "page": 26,
+    "col_0": null,
+    "maat": "2\"",
+    "col_2": null,
+    "type": "nr_23_pijpnippel",
+    "application": "BUITENDRAAD",
+    "_enriched": {
+      "series_raw": "NR 23 - PIJPNIPPEL",
+      "series": "nr-23-pijpnippel",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null,
+      "galvanized_piece": {
+        "size_inch": "2\""
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p26__nr-23-pijpnippel__bul__bul11000-bul1400-bul1600.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p26__nr-23-pijpnippel__bul__bul11000-bul1400-bul1600.webp"
+  },
+  {
+    "sku": null,
+    "series_id": "nr-23-pijpnippel",
+    "series_name": "NR 23 - PIJPNIPPEL",
+    "page": 26,
+    "col_0": null,
+    "maat": "2\"",
+    "col_2": null,
+    "type": "nr_23_pijpnippel",
+    "application": "BUITENDRAAD",
+    "_enriched": {
+      "series_raw": "NR 23 - PIJPNIPPEL",
+      "series": "nr-23-pijpnippel",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null,
+      "galvanized_piece": {
+        "size_inch": "2\""
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p26__nr-23-pijpnippel__bul__bul11000-bul1400-bul1600.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p26__nr-23-pijpnippel__bul__bul11000-bul1400-bul1600.webp"
+  },
+  {
+    "sku": null,
+    "series_id": "nr-23-pijpnippel",
+    "series_name": "NR 23 - PIJPNIPPEL",
+    "page": 26,
+    "col_0": null,
+    "maat": "2\"",
+    "col_2": null,
+    "type": "nr_23_pijpnippel",
+    "application": "BUITENDRAAD",
+    "_enriched": {
+      "series_raw": "NR 23 - PIJPNIPPEL",
+      "series": "nr-23-pijpnippel",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null,
+      "galvanized_piece": {
+        "size_inch": "2\""
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p26__nr-23-pijpnippel__bul__bul11000-bul1400-bul1600.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p26__nr-23-pijpnippel__bul__bul11000-bul1400-bul1600.webp"
+  },
+  {
+    "sku": null,
+    "series_id": "nr-23-pijpnippel",
+    "series_name": "NR 23 - PIJPNIPPEL",
+    "page": 26,
+    "col_0": null,
+    "maat": "2\"",
+    "col_2": null,
+    "type": "nr_23_pijpnippel",
+    "application": "BUITENDRAAD",
+    "_enriched": {
+      "series_raw": "NR 23 - PIJPNIPPEL",
+      "series": "nr-23-pijpnippel",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null,
+      "galvanized_piece": {
+        "size_inch": "2\""
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p26__nr-23-pijpnippel__bul__bul11000-bul1400-bul1600.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p26__nr-23-pijpnippel__bul__bul11000-bul1400-bul1600.webp"
+  },
+  {
+    "sku": null,
+    "series_id": "nr-23-pijpnippel",
+    "series_name": "NR 23 - PIJPNIPPEL",
+    "page": 26,
+    "col_0": null,
+    "maat": "2\"",
+    "col_2": null,
+    "type": "nr_23_pijpnippel",
+    "application": "BUITENDRAAD",
+    "_enriched": {
+      "series_raw": "NR 23 - PIJPNIPPEL",
+      "series": "nr-23-pijpnippel",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null,
+      "galvanized_piece": {
+        "size_inch": "2\""
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p26__nr-23-pijpnippel__bul__bul11000-bul1400-bul1600.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p26__nr-23-pijpnippel__bul__bul11000-bul1400-bul1600.webp"
+  },
+  {
+    "sku": null,
+    "series_id": "nr-23-pijpnippel",
+    "series_name": "NR 23 - PIJPNIPPEL",
+    "page": 26,
+    "col_0": null,
+    "maat": "2 1/2\"",
+    "col_2": null,
+    "type": "nr_23_pijpnippel",
+    "application": "BUITENDRAAD",
+    "_enriched": {
+      "series_raw": "NR 23 - PIJPNIPPEL",
+      "series": "nr-23-pijpnippel",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null,
+      "galvanized_piece": {
+        "size_inch": "2 1/2\""
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p26__nr-23-pijpnippel__bul__bul11000-bul1400-bul1600.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p26__nr-23-pijpnippel__bul__bul11000-bul1400-bul1600.webp"
+  },
+  {
+    "sku": null,
+    "series_id": "nr-23-pijpnippel",
+    "series_name": "NR 23 - PIJPNIPPEL",
+    "page": 26,
+    "col_0": null,
+    "maat": "2 1/2\"",
+    "col_2": null,
+    "type": "nr_23_pijpnippel",
+    "application": "BUITENDRAAD",
+    "_enriched": {
+      "series_raw": "NR 23 - PIJPNIPPEL",
+      "series": "nr-23-pijpnippel",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null,
+      "galvanized_piece": {
+        "size_inch": "2 1/2\""
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p26__nr-23-pijpnippel__bul__bul11000-bul1400-bul1600.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p26__nr-23-pijpnippel__bul__bul11000-bul1400-bul1600.webp"
+  },
+  {
+    "sku": null,
+    "series_id": "nr-23-pijpnippel",
+    "series_name": "NR 23 - PIJPNIPPEL",
+    "page": 26,
+    "col_0": null,
+    "maat": "3\"",
+    "col_2": null,
+    "type": "nr_23_pijpnippel",
+    "application": "BUITENDRAAD",
+    "_enriched": {
+      "series_raw": "NR 23 - PIJPNIPPEL",
+      "series": "nr-23-pijpnippel",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null,
+      "galvanized_piece": {
+        "size_inch": "3\""
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p26__nr-23-pijpnippel__bul__bul11000-bul1400-bul1600.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p26__nr-23-pijpnippel__bul__bul11000-bul1400-bul1600.webp"
+  },
+  {
+    "sku": null,
+    "series_id": "nr-23-pijpnippel",
+    "series_name": "NR 23 - PIJPNIPPEL",
+    "page": 26,
+    "col_0": null,
+    "maat": "3\"",
+    "col_2": null,
+    "type": "nr_23_pijpnippel",
+    "application": "BUITENDRAAD",
+    "_enriched": {
+      "series_raw": "NR 23 - PIJPNIPPEL",
+      "series": "nr-23-pijpnippel",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null,
+      "galvanized_piece": {
+        "size_inch": "3\""
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p26__nr-23-pijpnippel__bul__bul11000-bul1400-bul1600.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p26__nr-23-pijpnippel__bul__bul11000-bul1400-bul1600.webp"
+  },
+  {
+    "sku": null,
+    "series_id": "nr-23-pijpnippel",
+    "series_name": "NR 23 - PIJPNIPPEL",
+    "page": 26,
+    "col_0": null,
+    "maat": "3\"",
+    "col_2": null,
+    "type": "nr_23_pijpnippel",
+    "application": "BUITENDRAAD",
+    "_enriched": {
+      "series_raw": "NR 23 - PIJPNIPPEL",
+      "series": "nr-23-pijpnippel",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null,
+      "galvanized_piece": {
+        "size_inch": "3\""
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p26__nr-23-pijpnippel__bul__bul11000-bul1400-bul1600.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p26__nr-23-pijpnippel__bul__bul11000-bul1400-bul1600.webp"
+  },
+  {
+    "sku": null,
+    "series_id": "nr-23-pijpnippel",
+    "series_name": "NR 23 - PIJPNIPPEL",
+    "page": 26,
+    "col_0": null,
+    "maat": "4\"",
+    "col_2": null,
+    "type": "nr_23_pijpnippel",
+    "application": "BUITENDRAAD",
+    "_enriched": {
+      "series_raw": "NR 23 - PIJPNIPPEL",
+      "series": "nr-23-pijpnippel",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null,
+      "galvanized_piece": {
+        "size_inch": "4\""
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p26__nr-23-pijpnippel__bul__bul11000-bul1400-bul1600.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p26__nr-23-pijpnippel__bul__bul11000-bul1400-bul1600.webp"
+  },
+  {
+    "sku": null,
+    "series_id": "nr-23-pijpnippel",
+    "series_name": "NR 23 - PIJPNIPPEL",
+    "page": 26,
+    "col_0": null,
+    "maat": "4\"",
+    "col_2": null,
+    "type": "nr_23_pijpnippel",
+    "application": "BUITENDRAAD",
+    "_enriched": {
+      "series_raw": "NR 23 - PIJPNIPPEL",
+      "series": "nr-23-pijpnippel",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null,
+      "galvanized_piece": {
+        "size_inch": "4\""
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p26__nr-23-pijpnippel__bul__bul11000-bul1400-bul1600.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p26__nr-23-pijpnippel__bul__bul11000-bul1400-bul1600.webp"
+  },
+  {
+    "sku": null,
+    "series_id": "nr-23-pijpnippel",
+    "series_name": "NR 23 - PIJPNIPPEL",
+    "page": 26,
+    "col_0": null,
+    "maat": "4\"",
+    "col_2": null,
+    "type": "nr_23_pijpnippel",
+    "application": "BUITENDRAAD",
+    "_enriched": {
+      "series_raw": "NR 23 - PIJPNIPPEL",
+      "series": "nr-23-pijpnippel",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null,
+      "galvanized_piece": {
+        "size_inch": "4\""
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p26__nr-23-pijpnippel__bul__bul11000-bul1400-bul1600.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p26__nr-23-pijpnippel__bul__bul11000-bul1400-bul1600.webp"
+  },
+  {
+    "sku": null,
+    "series_id": "rubber-compensator",
+    "series_name": "RUBBER COMPENSATOR",
+    "page": 28,
+    "col_0": null,
+    "maat_dn": "DN40",
+    "maat_inch": "6/4\"",
+    "flens": "PN10",
+    "steekcirkel": "110 mm",
+    "col_5": null,
+    "type": "rubber_compensator",
+    "application": "EPDM",
+    "_enriched": {
+      "series_raw": "RUBBER COMPENSATOR",
+      "series": "rubber-compensator",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null,
+      "galvanized_piece": {
+        "sku_code": "DN40",
+        "size_inch": "DN40"
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p28__rubber-compensator__rc__rce032-rce050-rce080.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p28__rubber-compensator__rc__rce032-rce050-rce080.webp"
+  },
+  {
+    "sku": null,
+    "series_id": "rubber-compensator",
+    "series_name": "RUBBER COMPENSATOR",
+    "page": 28,
+    "col_0": null,
+    "maat_dn": "DN65",
+    "maat_inch": "2 1/2\"",
+    "flens": "PN10",
+    "steekcirkel": "145 mm",
+    "col_5": null,
+    "type": "rubber_compensator",
+    "application": "EPDM",
+    "_enriched": {
+      "series_raw": "RUBBER COMPENSATOR",
+      "series": "rubber-compensator",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null,
+      "galvanized_piece": {
+        "sku_code": "DN65",
+        "size_inch": "DN65"
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p28__rubber-compensator__rc__rce032-rce050-rce080.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p28__rubber-compensator__rc__rce032-rce050-rce080.webp"
+  },
+  {
+    "sku": null,
+    "series_id": "rubber-compensator",
+    "series_name": "RUBBER COMPENSATOR",
+    "page": 28,
+    "col_0": null,
+    "maat_dn": "DN100",
+    "maat_inch": "4\"",
+    "flens": "PN10",
+    "steekcirkel": "180 mm",
+    "col_5": null,
+    "type": "rubber_compensator",
+    "application": "EPDM",
+    "_enriched": {
+      "series_raw": "RUBBER COMPENSATOR",
+      "series": "rubber-compensator",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null,
+      "galvanized_piece": {
+        "sku_code": "DN100",
+        "size_inch": "DN100"
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p28__rubber-compensator__rc__rce032-rce050-rce080.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p28__rubber-compensator__rc__rce032-rce050-rce080.webp"
+  },
+  {
+    "sku": null,
+    "series_id": "rubber-compensator",
+    "series_name": "RUBBER COMPENSATOR",
+    "page": 28,
+    "col_0": null,
+    "maat_dn": "DN150",
+    "maat_inch": "6\"",
+    "flens": "PN10",
+    "steekcirkel": "240 mm",
+    "col_5": null,
+    "type": "rubber_compensator",
+    "application": "EPDM",
+    "_enriched": {
+      "series_raw": "RUBBER COMPENSATOR",
+      "series": "rubber-compensator",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null,
+      "galvanized_piece": {
+        "sku_code": "DN150",
+        "size_inch": "DN150"
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p28__rubber-compensator__rc__rce032-rce050-rce080.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p28__rubber-compensator__rc__rce032-rce050-rce080.webp"
+  },
+  {
+    "sku": null,
+    "series_id": "rubber-compensator",
+    "series_name": "RUBBER COMPENSATOR",
+    "page": 28,
+    "col_0": null,
+    "maat_dn": "DN250",
+    "maat_inch": "10\"",
+    "flens": "PN10",
+    "steekcirkel": "350 mm",
+    "col_5": null,
+    "type": "rubber_compensator",
+    "application": "EPDM",
+    "_enriched": {
+      "series_raw": "RUBBER COMPENSATOR",
+      "series": "rubber-compensator",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null,
+      "galvanized_piece": {
+        "sku_code": "DN250",
+        "size_inch": "DN250"
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p28__rubber-compensator__rc__rce032-rce050-rce080.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p28__rubber-compensator__rc__rce032-rce050-rce080.webp"
+  },
+  {
+    "sku": null,
+    "series_id": "rubber-compensator",
+    "series_name": "RUBBER COMPENSATOR",
+    "page": 28,
+    "col_0": null,
+    "maat_dn": "DN350",
+    "maat_inch": "14\"",
+    "flens": "PN10",
+    "steekcirkel": "460 mm",
+    "col_5": null,
+    "type": "rubber_compensator",
+    "application": "EPDM",
+    "_enriched": {
+      "series_raw": "RUBBER COMPENSATOR",
+      "series": "rubber-compensator",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null,
+      "galvanized_piece": {
+        "sku_code": "DN350",
+        "size_inch": "DN350"
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p28__rubber-compensator__rc__rce032-rce050-rce080.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p28__rubber-compensator__rc__rce032-rce050-rce080.webp"
+  },
+  {
+    "sku": null,
+    "series_id": "rubber-compensator",
+    "series_name": "RUBBER COMPENSATOR",
+    "page": 28,
+    "col_0": null,
+    "maat_dn": "DN450",
+    "maat_inch": "18\"",
+    "flens": "PN10",
+    "steekcirkel": "565 mm",
+    "col_5": null,
+    "type": "rubber_compensator",
+    "application": "EPDM",
+    "_enriched": {
+      "series_raw": "RUBBER COMPENSATOR",
+      "series": "rubber-compensator",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null,
+      "galvanized_piece": {
+        "sku_code": "DN450",
+        "size_inch": "DN450"
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p28__rubber-compensator__rc__rce032-rce050-rce080.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p28__rubber-compensator__rc__rce032-rce050-rce080.webp"
+  },
+  {
+    "sku": null,
+    "series_id": "rubber-compensator",
+    "series_name": "RUBBER COMPENSATOR",
+    "page": 28,
+    "col_0": null,
+    "maat_dn": "DN600",
+    "maat_inch": "24\"",
+    "flens": "PN10",
+    "steekcirkel": "725 mm",
+    "col_5": null,
+    "type": "rubber_compensator",
+    "application": "EPDM",
+    "_enriched": {
+      "series_raw": "RUBBER COMPENSATOR",
+      "series": "rubber-compensator",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null,
+      "galvanized_piece": {
+        "sku_code": "DN600",
+        "size_inch": "DN600"
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p28__rubber-compensator__rc__rce032-rce050-rce080.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p28__rubber-compensator__rc__rce032-rce050-rce080.webp"
+  },
+  {
+    "sku": null,
+    "series_id": "rubber-compensator",
+    "series_name": "RUBBER COMPENSATOR",
+    "page": 28,
+    "col_0": null,
+    "maat_dn": "DN40",
+    "maat_inch": "6/4\"",
+    "flens": "PN10",
+    "steekcirkel": "110 mm",
+    "col_5": null,
+    "type": "rubber_compensator",
+    "application": "NBR",
+    "_enriched": {
+      "series_raw": "RUBBER COMPENSATOR",
+      "series": "rubber-compensator",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null,
+      "galvanized_piece": {
+        "sku_code": "DN40",
+        "size_inch": "DN40"
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p28__rubber-compensator__rc__rce032-rce050-rce080.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p28__rubber-compensator__rc__rce032-rce050-rce080.webp"
+  },
+  {
+    "sku": null,
+    "series_id": "rubber-compensator",
+    "series_name": "RUBBER COMPENSATOR",
+    "page": 28,
+    "col_0": null,
+    "maat_dn": "DN65",
+    "maat_inch": "2 1/2\"",
+    "flens": "PN10",
+    "steekcirkel": "145 mm",
+    "col_5": null,
+    "type": "rubber_compensator",
+    "application": "NBR",
+    "_enriched": {
+      "series_raw": "RUBBER COMPENSATOR",
+      "series": "rubber-compensator",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null,
+      "galvanized_piece": {
+        "sku_code": "DN65",
+        "size_inch": "DN65"
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p28__rubber-compensator__rc__rce032-rce050-rce080.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p28__rubber-compensator__rc__rce032-rce050-rce080.webp"
+  },
+  {
+    "sku": null,
+    "series_id": "rubber-compensator",
+    "series_name": "RUBBER COMPENSATOR",
+    "page": 28,
+    "col_0": null,
+    "maat_dn": "DN100",
+    "maat_inch": "4\"",
+    "flens": "PN10",
+    "steekcirkel": "180 mm",
+    "col_5": null,
+    "type": "rubber_compensator",
+    "application": "NBR",
+    "_enriched": {
+      "series_raw": "RUBBER COMPENSATOR",
+      "series": "rubber-compensator",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null,
+      "galvanized_piece": {
+        "sku_code": "DN100",
+        "size_inch": "DN100"
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p28__rubber-compensator__rc__rce032-rce050-rce080.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p28__rubber-compensator__rc__rce032-rce050-rce080.webp"
+  },
+  {
+    "sku": null,
+    "series_id": "rubber-compensator",
+    "series_name": "RUBBER COMPENSATOR",
+    "page": 28,
+    "col_0": null,
+    "maat_dn": "DN150",
+    "maat_inch": "6\"",
+    "flens": "PN10",
+    "steekcirkel": "240 mm",
+    "col_5": null,
+    "type": "rubber_compensator",
+    "application": "NBR",
+    "_enriched": {
+      "series_raw": "RUBBER COMPENSATOR",
+      "series": "rubber-compensator",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null,
+      "galvanized_piece": {
+        "sku_code": "DN150",
+        "size_inch": "DN150"
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p28__rubber-compensator__rc__rce032-rce050-rce080.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p28__rubber-compensator__rc__rce032-rce050-rce080.webp"
+  },
+  {
+    "sku": null,
+    "series_id": "rubber-compensator",
+    "series_name": "RUBBER COMPENSATOR",
+    "page": 28,
+    "col_0": null,
+    "maat_dn": "DN250",
+    "maat_inch": "10\"",
+    "flens": "PN10",
+    "steekcirkel": "350 mm",
+    "col_5": null,
+    "type": "rubber_compensator",
+    "application": "NBR",
+    "_enriched": {
+      "series_raw": "RUBBER COMPENSATOR",
+      "series": "rubber-compensator",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null,
+      "galvanized_piece": {
+        "sku_code": "DN250",
+        "size_inch": "DN250"
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p28__rubber-compensator__rc__rce032-rce050-rce080.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p28__rubber-compensator__rc__rce032-rce050-rce080.webp"
+  },
+  {
+    "sku": null,
+    "series_id": "rubber-compensator",
+    "series_name": "RUBBER COMPENSATOR",
+    "page": 28,
+    "col_0": null,
+    "maat_dn": "DN350",
+    "maat_inch": "14\"",
+    "flens": "PN10",
+    "steekcirkel": "460 mm",
+    "col_5": null,
+    "type": "rubber_compensator",
+    "application": "NBR",
+    "_enriched": {
+      "series_raw": "RUBBER COMPENSATOR",
+      "series": "rubber-compensator",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null,
+      "galvanized_piece": {
+        "sku_code": "DN350",
+        "size_inch": "DN350"
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p28__rubber-compensator__rc__rce032-rce050-rce080.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p28__rubber-compensator__rc__rce032-rce050-rce080.webp"
+  },
+  {
+    "sku": null,
+    "series_id": "rubber-compensator",
+    "series_name": "RUBBER COMPENSATOR",
+    "page": 28,
+    "col_0": null,
+    "maat_dn": "DN450",
+    "maat_inch": "18\"",
+    "flens": "PN10",
+    "steekcirkel": "565 mm",
+    "col_5": null,
+    "type": "rubber_compensator",
+    "application": "NBR",
+    "_enriched": {
+      "series_raw": "RUBBER COMPENSATOR",
+      "series": "rubber-compensator",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null,
+      "galvanized_piece": {
+        "sku_code": "DN450",
+        "size_inch": "DN450"
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p28__rubber-compensator__rc__rce032-rce050-rce080.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p28__rubber-compensator__rc__rce032-rce050-rce080.webp"
+  },
+  {
+    "sku": null,
+    "series_id": "rubber-compensator",
+    "series_name": "RUBBER COMPENSATOR",
+    "page": 28,
+    "col_0": null,
+    "maat_dn": "DN600",
+    "maat_inch": "24\"",
+    "flens": "PN10",
+    "steekcirkel": "725 mm",
+    "col_5": null,
+    "type": "rubber_compensator",
+    "application": "NBR",
+    "_enriched": {
+      "series_raw": "RUBBER COMPENSATOR",
+      "series": "rubber-compensator",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null,
+      "galvanized_piece": {
+        "sku_code": "DN600",
+        "size_inch": "DN600"
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p28__rubber-compensator__rc__rce032-rce050-rce080.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p28__rubber-compensator__rc__rce032-rce050-rce080.webp"
+  },
+  {
+    "sku": null,
+    "series_id": "verzinkte-buis",
+    "series_name": "VERZINKTE BUIS",
+    "page": 4,
+    "col_0": null,
+    "maat": "1/2\"",
+    "wanddikte": "2,60 mm",
+    "col_3": null,
+    "type": "verzinkte_buis",
+    "application": "GLAD",
+    "_enriched": {
+      "series_raw": "VERZINKTE BUIS",
+      "series": "verzinkte-buis",
+      "catalog_group": null,
+      "product_type": "pipe",
+      "material": null,
+      "family_id": "pipe-verzinkte-buis-64239c",
+      "sku_series": null,
+      "galvanized_piece": {
+        "size_inch": "1/2\"",
+        "wall_thickness_mm": 2.6
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p4__verzinkte-buis__gb__gb2-gb3-gb34.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p4__verzinkte-buis__gb__gb2-gb3-gb34.webp"
+  },
+  {
+    "sku": null,
+    "series_id": "verzinkte-buis",
+    "series_name": "VERZINKTE BUIS",
+    "page": 4,
+    "col_0": null,
+    "maat": "1\"",
+    "wanddikte": "3,20 mm",
+    "col_3": null,
+    "type": "verzinkte_buis",
+    "application": "GLAD",
+    "_enriched": {
+      "series_raw": "VERZINKTE BUIS",
+      "series": "verzinkte-buis",
+      "catalog_group": null,
+      "product_type": "pipe",
+      "material": null,
+      "family_id": "pipe-verzinkte-buis-64239c",
+      "sku_series": null,
+      "galvanized_piece": {
+        "size_inch": "1\"",
+        "wall_thickness_mm": 3.2
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p4__verzinkte-buis__gb__gb2-gb3-gb34.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p4__verzinkte-buis__gb__gb2-gb3-gb34.webp"
+  },
+  {
+    "sku": null,
+    "series_id": "verzinkte-buis",
+    "series_name": "VERZINKTE BUIS",
+    "page": 4,
+    "col_0": null,
+    "maat": "6/4\"",
+    "wanddikte": "3,20 mm",
+    "col_3": null,
+    "type": "verzinkte_buis",
+    "application": "GLAD",
+    "_enriched": {
+      "series_raw": "VERZINKTE BUIS",
+      "series": "verzinkte-buis",
+      "catalog_group": null,
+      "product_type": "pipe",
+      "material": null,
+      "family_id": "pipe-verzinkte-buis-64239c",
+      "sku_series": null,
+      "galvanized_piece": {
+        "size_inch": "6/4\"",
+        "wall_thickness_mm": 3.2
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p4__verzinkte-buis__gb__gb2-gb3-gb34.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p4__verzinkte-buis__gb__gb2-gb3-gb34.webp"
+  },
+  {
+    "sku": null,
+    "series_id": "verzinkte-buis",
+    "series_name": "VERZINKTE BUIS",
+    "page": 4,
+    "col_0": null,
+    "maat": "2 1/2\"",
+    "wanddikte": "3,60 mm",
+    "col_3": null,
+    "type": "verzinkte_buis",
+    "application": "GLAD",
+    "_enriched": {
+      "series_raw": "VERZINKTE BUIS",
+      "series": "verzinkte-buis",
+      "catalog_group": null,
+      "product_type": "pipe",
+      "material": null,
+      "family_id": "pipe-verzinkte-buis-64239c",
+      "sku_series": null,
+      "galvanized_piece": {
+        "size_inch": "2 1/2\"",
+        "wall_thickness_mm": 3.6
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p4__verzinkte-buis__gb__gb2-gb3-gb34.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p4__verzinkte-buis__gb__gb2-gb3-gb34.webp"
+  },
+  {
+    "sku": null,
+    "series_id": "verzinkte-buis",
+    "series_name": "VERZINKTE BUIS",
+    "page": 4,
+    "col_0": null,
+    "maat": "4\"",
+    "wanddikte": "4,50 mm",
+    "col_3": null,
+    "type": "verzinkte_buis",
+    "application": "GLAD",
+    "_enriched": {
+      "series_raw": "VERZINKTE BUIS",
+      "series": "verzinkte-buis",
+      "catalog_group": null,
+      "product_type": "pipe",
+      "material": null,
+      "family_id": "pipe-verzinkte-buis-64239c",
+      "sku_series": null,
+      "galvanized_piece": {
+        "size_inch": "4\"",
+        "wall_thickness_mm": 4.5
+      }
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p4__verzinkte-buis__gb__gb2-gb3-gb34.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p4__verzinkte-buis__gb__gb2-gb3-gb34.webp"
+  },
+  {
+    "sku": null,
+    "series_id": "verzinkte-draadflens",
+    "series_name": "VERZINKTE DRAADFLENS",
+    "page": 27,
+    "col_0": null,
+    "maten": "DN20 x 3/4\"",
+    "flens_pn": "10/16",
+    "col_3": null,
+    "type": "verzinkte_draadflens",
+    "application": "BINNENDRAAD",
+    "_enriched": {
+      "series_raw": "VERZINKTE DRAADFLENS",
+      "series": "verzinkte-draadflens",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p27__verzinkte-draadflens__zfgf__zfgf1-zfgf12-zfgf25.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p27__verzinkte-draadflens__zfgf__zfgf1-zfgf12-zfgf25.webp"
+  },
+  {
+    "sku": null,
+    "series_id": "verzinkte-draadflens",
+    "series_name": "VERZINKTE DRAADFLENS",
+    "page": 27,
+    "col_0": null,
+    "maten": "DN32 x 5/4\"",
+    "flens_pn": "10/16",
+    "col_3": null,
+    "type": "verzinkte_draadflens",
+    "application": "BINNENDRAAD",
+    "_enriched": {
+      "series_raw": "VERZINKTE DRAADFLENS",
+      "series": "verzinkte-draadflens",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p27__verzinkte-draadflens__zfgf__zfgf1-zfgf12-zfgf25.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p27__verzinkte-draadflens__zfgf__zfgf1-zfgf12-zfgf25.webp"
+  },
+  {
+    "sku": null,
+    "series_id": "verzinkte-draadflens",
+    "series_name": "VERZINKTE DRAADFLENS",
+    "page": 27,
+    "col_0": null,
+    "maten": "DN50 x 2\"",
+    "flens_pn": "10/16",
+    "col_3": null,
+    "type": "verzinkte_draadflens",
+    "application": "BINNENDRAAD",
+    "_enriched": {
+      "series_raw": "VERZINKTE DRAADFLENS",
+      "series": "verzinkte-draadflens",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p27__verzinkte-draadflens__zfgf__zfgf1-zfgf12-zfgf25.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p27__verzinkte-draadflens__zfgf__zfgf1-zfgf12-zfgf25.webp"
+  },
+  {
+    "sku": null,
+    "series_id": "verzinkte-draadflens",
+    "series_name": "VERZINKTE DRAADFLENS",
+    "page": 27,
+    "col_0": null,
+    "maten": "DN80 x 3\"",
+    "flens_pn": "10/16",
+    "col_3": null,
+    "type": "verzinkte_draadflens",
+    "application": "BINNENDRAAD",
+    "_enriched": {
+      "series_raw": "VERZINKTE DRAADFLENS",
+      "series": "verzinkte-draadflens",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p27__verzinkte-draadflens__zfgf__zfgf1-zfgf12-zfgf25.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p27__verzinkte-draadflens__zfgf__zfgf1-zfgf12-zfgf25.webp"
+  },
+  {
+    "sku": null,
+    "series_id": "verzinkte-draadflens",
+    "series_name": "VERZINKTE DRAADFLENS",
+    "page": 27,
+    "col_0": null,
+    "maten": "DN125 x 5\"",
+    "flens_pn": "10/16",
+    "col_3": null,
+    "type": "verzinkte_draadflens",
+    "application": "BINNENDRAAD",
+    "_enriched": {
+      "series_raw": "VERZINKTE DRAADFLENS",
+      "series": "verzinkte-draadflens",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null
+    },
+    "series_image": "images/verzinkte-buizen/verzinkte-buizen__p27__verzinkte-draadflens__zfgf__zfgf1-zfgf12-zfgf25.webp",
+    "image": "images/verzinkte-buizen/verzinkte-buizen__p27__verzinkte-draadflens__zfgf__zfgf1-zfgf12-zfgf25.webp"
+  }
+]

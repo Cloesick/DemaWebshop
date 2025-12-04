@@ -27,7 +27,7 @@ const renderList = (items: any[], key: string, unit: string = '') => (
 );
 
 export default function ProductDetailsCard({ product, className = '' }: ProductDetailsCardProps) {
-  const title = [product.product_category, product.sku].filter(Boolean).join(' — ') || 'Product';
+  const title = product.description?.split('\n')[0] || 'Product';
   
   // Generate a placeholder color based on product SKU or category
   const getPlaceholderColor = (str: string) => {
@@ -74,6 +74,9 @@ export default function ProductDetailsCard({ product, className = '' }: ProductD
               <div className="mt-1 inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-blue-100 text-blue-800">
                 {product.product_category}
               </div>
+            )}
+            {product.sku && (
+              <p className="mt-2 text-sm text-gray-500">SKU: {product.sku}</p>
             )}
           </div>
           <div className="flex flex-col items-end">
@@ -204,7 +207,7 @@ export default function ProductDetailsCard({ product, className = '' }: ProductD
                       <div>
                         <h4 className="text-sm font-medium text-gray-500 mb-1">Connection Types</h4>
                         <div className="mt-1">
-                          {renderList(product.connection_types!, 'conn')}
+                          {renderList(product.connection_types, 'conn')}
                         </div>
                       </div>
                     )}
@@ -241,7 +244,7 @@ export default function ProductDetailsCard({ product, className = '' }: ProductD
                       <div>
                         <h4 className="text-sm font-medium text-gray-500 mb-1">Available Sizes</h4>
                         <div className="mt-1">
-                          {renderList(product.dimensions_mm_list!, 'size', ' mm')}
+                          {renderList(product.dimensions_mm_list, 'size', ' mm')}
                         </div>
                       </div>
                     )}
@@ -285,7 +288,7 @@ export default function ProductDetailsCard({ product, className = '' }: ProductD
               </div>
             )}
             
-            {/* Full Description with parsed properties (■) */}
+            {/* Full Description */}
             {product.description && (
               <div className="mt-8 bg-white border border-gray-200 rounded-lg overflow-hidden">
                 <div className="px-6 py-4 bg-gray-50 border-b border-gray-200">
@@ -293,33 +296,9 @@ export default function ProductDetailsCard({ product, className = '' }: ProductD
                 </div>
                 <div className="p-6">
                   <div className="prose max-w-none text-gray-700">
-                    {(() => {
-                      const desc = product.description || '';
-                      const idx = desc.indexOf('■');
-                      if (idx === -1) {
-                        return desc.split('\n').map((paragraph, i) => (
-                          <p key={i} className="mb-4">{paragraph}</p>
-                        ));
-                      }
-                      const intro = desc.slice(0, idx).trim();
-                      const properties = desc
-                        .slice(idx)
-                        .split('■')
-                        .map((s) => s.trim())
-                        .filter(Boolean);
-                      return (
-                        <>
-                          {intro && <p className="mb-4">{intro}</p>}
-                          <div className="space-y-2">
-                            {properties.map((prop, i) => (
-                              <div key={i} className="text-sm leading-6 text-gray-800">
-                                {prop}
-                              </div>
-                            ))}
-                          </div>
-                        </>
-                      );
-                    })()}
+                    {product.description.split('\n').map((paragraph, i) => (
+                      <p key={i} className="mb-4">{paragraph}</p>
+                    ))}
                   </div>
                 </div>
               </div>
