@@ -1,0 +1,147 @@
+| main_category | product_type | article_sku | connection_size | 
+ | :--- | :--- | :--- | :--- | 
+ | Quick Couplings - Euro | Internal Plug | 4311552 | 1/4" | 
+ | Quick Couplings - Euro | Internal Plug | 4311553 | 3/8" | 
+ | Quick Couplings - Euro | Internal Plug | 4311534 | 1/2" | 
+ | Quick Couplings - Euro | External Plug | 4311532 | 1/4" | 
+ | Quick Couplings - Euro | External Plug | 4311533 | 3/8" | 
+ | Quick Couplings - Euro | External Plug | 4311535 | 1/2" | 
+ | Quick Couplings - Euro | Plug for hose | 4311536 | 6 mm | 
+ | Quick Couplings - Euro | Plug for hose | 4311562 | 9 mm | 
+ | Quick Couplings - Euro | Plug for hose | 4311537 | 13 mm | 
+ | Quick Couplings - Euro | Internal Quick Coupling | 4301501 | 1/4" | 
+ | Quick Couplings - Euro | Internal Quick Coupling | 4301502 | 3/8" | 
+ | Quick Couplings - Euro | Internal Quick Coupling | 4301503 | 1/2" | 
+ | Quick Couplings - Euro | External Quick Coupling | 4301505 | 1/4" | 
+ | Quick Couplings - Euro | External Quick Coupling | 4301504 | 3/8" | 
+ | Quick Couplings - Euro | External Quick Coupling | 4301506 | 1/2" | 
+ | Quick Couplings - Euro | Quick Coupling for hose | 4301507 | 6 mm | 
+ | Quick Couplings - Euro | Quick Coupling for hose | 4301509 | 9 mm | 
+ | Quick Couplings - Euro | Quick Coupling for hose | 4301508 | 13 mm |
+
+ | main_category | product_type | article_sku | system_type | content_count_pcs |
+| :--- | :--- | :--- | :--- | ---: |
+| Air Tool Kits | Air tool kit | 4300027 | Euro | 6 |
+| Air Tool Kits | Air tool kit | 45892 | Orion | 6 |
+| Air Tool Kits | Air tool kit | 45893 | Euro | 5 |
+| Air Tool Kits | Air tool kit | 45897 | Euro | 7 |
+
+| main_category | product_type | article_sku | nozzle_feature_size | max_pressure_bar | air_consumption_l_min | net_weight_kg |
+| :--- | :--- | :--- | :--- | ---: | ---: | ---: |
+| Air Blowguns | Alu Blowgun | 4300001 | Short 20 mm | - | - | - |
+| Air Blowguns | Alu Blowgun | 4300011 | Long 160 mm | - | - | - |
+| Air Blowguns | Composite Blowgun | 45021 | 100 mm | - | - | - |
+| Air Blowguns | Composite Blowgun | 45023 | 250 mm | - | - | - |
+| Air Blowguns | Composite Blowgun | 45024 | 350 mm | - | - | - |
+| Air Blowguns | Composite Blowgun | 45025 | 500 mm | - | - | - |
+| Air Blowguns | Adjustable Blowgun | 4300003 | 112 mm | 10 | 150 | 0.2 |
+| Air Blowguns | Turbo Blowgun | 4300002 | Turbo | 6 | 180 | - |
+
+| main_category | product_type | article_sku | connection_size |
+| :--- | :--- | :--- | :--- |
+| Quick Couplings - Euro | Internal Plug | 4311552 | 1/4" |
+| Quick Couplings - Euro | Internal Plug | 4311553 | 3/8" |
+| Quick Couplings - Euro | Internal Plug | 4311534 | 1/2" |
+| Quick Couplings - Euro | External Plug | 4311532 | 1/4" |
+| Quick Couplings - Euro | External Plug | 4311533 | 3/8" |
+| Quick Couplings - Euro | External Plug | 4311535 | 1/2" |
+| Quick Couplings - Euro | Plug for hose | 4311536 | 6 mm |
+| Quick Couplings - Euro | Plug for hose | 4311562 | 9 mm |
+| Quick Couplings - Euro | Plug for hose | 4311537 | 13 mm |
+| Quick Couplings - Euro | Internal Quick Coupling | 4301501 | 1/4" |
+| Quick Couplings - Euro | Internal Quick Coupling | 4301502 | 3/8" |
+| Quick Couplings - Euro | Internal Quick Coupling | 4301503 | 1/2" |
+| Quick Couplings - Euro | External Quick Coupling | 4301505 | 1/4" |
+| Quick Couplings - Euro | External Quick Coupling | 4301504 | 3/8" |
+| Quick Couplings - Euro | External Quick Coupling | 4301506 | 1/2" |
+| Quick Couplings - Euro | Quick Coupling for hose | 4301507 | 6 mm |
+| Quick Couplings - Euro | Quick Coupling for hose | 4301509 | 9 mm |
+| Quick Couplings - Euro | Quick Coupling for hose | 4301508 | 13 mm |
+
+| main_category | product_type | article_sku | specification_size_rating |
+| :--- | :--- | :--- | :--- |
+| Compressor Accessories | Compressor Air Filter | 4304033 | M16 x 1.5 |
+| Compressor Accessories | Compressor Air Filter | 4300038 | 3/8" |
+| Compressor Accessories | Compressor Air Filter | 4300012 | 1/2" |
+| Compressor Accessories | Pressure Switch | 4304011 | 1/4" (230V) |
+| Compressor Accessories | Pressure Switch | 4304012 | 1/4" (400V) |
+| Compressor Accessories | Thermal Protection Switch | 2453016-4 | 4 A (2.2 KM / 1.5 kW) |
+| Compressor Accessories | Thermal Protection Switch | 2453016-6.3 | 6.3 A (4 KM / 3 kW) |
+| Compressor Accessories | Thermal Protection Switch | 2453016-10 | 10 A (5.5 KM / 4 kW) |
+| Compressor Accessories | Thermal Protection Switch | 2453016-16 | 16 A (7.5 KM / 5.5 kW) |
+| Compressor Accessories | Thermal Protection Switch | 2453016-20 | 20 A (10 KM / 7.5 kW) |
+| Compressor Accessories | Connector | 4337611 | Y-type connector 1/4" |
+| Compressor Accessories | Connector | 4303051 | T-type connector 1/4" |
+| Compressor Accessories | Connector | 4303047 | Y-type with couplers 1/2" |
+| Compressor Accessories | Manometer | 45219 | 1/4" |
+| Compressor Accessories | Valve | 4304021 | Drain valve 1/4" |
+| Compressor Accessories | Valve | 36303 | Drain valve 3/8" |
+| Compressor Accessories | Valve | 4304022 | Drain valve 1/2" |
+| Compressor Accessories | Valve | 4304041 | Safety valve 1/4" |
+| Compressor Accessories | Valve | 4384043 | Non-return valve (24-50L) |
+| Compressor Accessories | Valve | 4385143 | Non-return valve (50L vertical) |
+
+| main_category | product_type | article_sku | connection_size |
+| :--- | :--- | :--- | :--- |
+| Pneumatic Fittings | Parallel Plugs | 37500 | 1/8" |
+| Pneumatic Fittings | Parallel Plugs | 37501 | 1/4" |
+| Pneumatic Fittings | Parallel Plugs | 37502 | 3/8" |
+| Pneumatic Fittings | Parallel Plugs | 37503 | 1/2" |
+| Pneumatic Fittings | Double Nipples | 37510 | 1/8" |
+| Pneumatic Fittings | Double Nipples | 37511 | 1/4" |
+| Pneumatic Fittings | Double Nipples | 37512 | 3/8" |
+| Pneumatic Fittings | Double Nipples | 37513 | 1/2" |
+| Pneumatic Fittings | Double Nipples | 37514 | 3/4" |
+| Pneumatic Fittings | Reducing Double Nipples | 37520 | 1/8" x 1/4" |
+| Pneumatic Fittings | Reducing Double Nipples | 37521 | 1/8" x 3/8" |
+| Pneumatic Fittings | Reducing Double Nipples | 37522 | 1/8" x 1/2" |
+| Pneumatic Fittings | Reducing Double Nipples | 37523 | 1/4" x 3/8" |
+| Pneumatic Fittings | Reducing Double Nipples | 37524 | 1/4" x 1/2" |
+| Pneumatic Fittings | Reducing Double Nipples | 37525 | 3/8" x 1/2" |
+| Pneumatic Fittings | Reducing Double Nipples | 37526 | 1/2" x 3/4" |
+| Pneumatic Fittings | Sleeves | 37530 | 1/8" |
+| Pneumatic Fittings | Sleeves | 37531 | 1/4" |
+| Pneumatic Fittings | Sleeves | 37532 | 3/8" |
+| Pneumatic Fittings | Sleeves | 37533 | 1/2" |
+| Pneumatic Fittings | Sleeves | 37534 | 3/4" |
+| Pneumatic Fittings | Reducing Sleeves | 37540 | 1/8" x 1/4" |
+| Pneumatic Fittings | Reducing Sleeves | 37541 | 1/8" x 3/8" |
+| Pneumatic Fittings | Reducing Sleeves | 37542 | 1/8" x 1/2" |
+| Pneumatic Fittings | Reducing Sleeves | 37543 | 1/4" x 3/8" |
+| Pneumatic Fittings | Reducing Sleeves | 37544 | 1/4" x 1/2" |
+| Pneumatic Fittings | Reducing Sleeves | 37545 | 3/8" x 1/2" |
+| Pneumatic Fittings | Parallel Reducers | 37550 | 1/8" x 1/4" |
+| Pneumatic Fittings | Parallel Reducers | 37551 | 1/8" x 3/8" |
+| Pneumatic Fittings | Parallel Reducers | 37552 | 1/4" x 1/2" |
+| Pneumatic Fittings | Parallel Reducers | 37553 | 1/4" x 3/8" |
+| Pneumatic Fittings | Parallel Reducers | 37554 | 1/2" x 1/4" |
+| Pneumatic Fittings | Parallel Reducers | 37555 | 1/2" x 3/8" |
+| Pneumatic Fittings | Taper Reducers | 37560 | 1/8" x 1/4" |
+| Pneumatic Fittings | Taper Reducers | 37561 | 1/8" x 3/8" |
+| Pneumatic Fittings | Taper Reducers | 37562 | 1/8" x 1/2" |
+| Pneumatic Fittings | Taper Reducers | 37563 | 1/4" x 3/8" |
+| Pneumatic Fittings | Taper Reducers | 37564 | 1/4" x 1/2" |
+| Pneumatic Fittings | Taper Reducers | 37565 | 3/8" x 1/2" |
+| Pneumatic Fittings | Taper Reducers | 37566 | 3/8" x 3/4" |
+| Pneumatic Fittings | Taper Reducers | 37567 | 1/2" x 3/4" |
+| Pneumatic Fittings | Female Elbows | 37570 | 1/8" |
+| Pneumatic Fittings | Female Elbows | 37571 | 1/4" |
+| Pneumatic Fittings | Female Elbows | 37572 | 3/8" |
+| Pneumatic Fittings | Female Elbows | 37573 | 1/2" |
+| Pneumatic Fittings | Male-Female Elbows | 37580 | 1/8" |
+| Pneumatic Fittings | Male-Female Elbows | 37581 | 1/4" |
+| Pneumatic Fittings | Male-Female Elbows | 37582 | 3/8" |
+| Pneumatic Fittings | Male-Female Elbows | 37583 | 1/2" |
+| Pneumatic Fittings | Female Tees | 37590 | 1/8" |
+| Pneumatic Fittings | Female Tees | 37591 | 1/4" |
+| Pneumatic Fittings | Female Tees | 37592 | 3/8" |
+| Pneumatic Fittings | Female Tees | 37593 | 1/2" |
+| Pneumatic Fittings | Female Crosses | 37600 | 1/8" |
+| Pneumatic Fittings | Female Crosses | 37601 | 1/4" |
+| Pneumatic Fittings | Female Crosses | 37602 | 3/8" |
+| Pneumatic Fittings | Female Crosses | 37603 | 1/2" |
+| Pneumatic Fittings | Male Y | 37610 | 1/8" |
+| Pneumatic Fittings | Male Y | 37611 | 1/4" |
+| Pneumatic Fittings | Male Y | 37612 | 3/8" |
+| Pneumatic Fittings | Male Y | 37613 | 1/2" |
+

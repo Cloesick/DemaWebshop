@@ -819,6 +819,147 @@ def enrich_record(rec: Dict[str, Any]) -> Dict[str, Any]:
     return rec
 
 
+# ============================================================================
+# SKU PATTERNS - Consolidated patterns for all PDF types
+# ============================================================================
+
+# Patterns that indicate a value is NOT an SKU (contains units/measurements)
+NON_SKU_PATTERNS = re.compile(
+    r"(?i)"
+    r"(\d+\s*[Ll]\b)"              # Liters: "200 L", "1000L"
+    r"|(\d+\s*bar\b)"              # Pressure: "16 bar"
+    r"|(Ø\s*\d+)"                  # Diameter: "Ø 446", "Ø1100"
+    r"|(\d+\s*mm\b)"               # Millimeters: "1440 mm", "350 mm"
+    r"|(\d+[,.]?\d*\s*kg\b)"       # Weight: "60 kg", "13,5 kg"
+    r"|([+-]?\d+\s*°C)"            # Temperature: "-40 °C", "3 °C"
+    r"|(\d+\s*/\s*min)"            # Flow rate: "L/min", "m³/min"
+    r"|(\d+\s*/\s*hour)"           # Hourly rate: "m³/hour"
+    r"|(\d+\s*[Vv]\s*/\s*\d+)"     # Voltage: "230V / 50 Hz"
+    r"|(\d+/\d+\")"                # Inch fractions: "3/8\"", "1/2\""
+    r"|(\d+\s*['\"])"              # Inch notation: "1\"", "2'"
+    r"|(R\d{3}[a-z]?)"             # Refrigerant: "R134a", "R404a"
+    r"|(\d+\s*x\s*\d+\s*x\s*\d+)"  # Dimensions: "350 x 500 x 450"
+)
+
+# Alias for backward compatibility
+AIRPRESS_NON_SKU_PATTERNS = NON_SKU_PATTERNS
+
+# SKU patterns by PDF type
+SKU_PATTERNS = {
+    # Airpress: 5-10 digit numeric, with optional suffixes
+    "airpress": re.compile(
+        r"^(?:"
+        r"\d{5,10}"                   # Pure numeric: 36094, 390006, 4311552
+        r"|\d{5,10}[-/][A-Za-z0-9.]+" # With suffix: 450110-P, 45202/1.5
+        r"|\d{2}[A-Z]{2,3}\d{6}"      # Letter-in-middle: 43ES071101, 43ESI071101
+        r"|\d[A-Z]\d{4}"              # Short letter-in-middle: 9C0652
+        r"|\d{5}-[A-Z]{2,}\d*"        # With letter suffix: 12002-OFAG2
+        r"|\d{4,10}[A-Z]{0,2}"        # Numeric with optional letters: 45134, 2506FA
+        r")$"
+    ),
+    # Bronpompen: 8-digit numeric codes
+    "bronpompen": re.compile(r"^\d{8}$"),
+    # Drukbuizen/Kunststof: 2-3 letter prefix + 5-7 digits (DB050075, PF12345)
+    "drukbuizen": re.compile(r"^[A-Z]{2,3}\d{5,7}$"),
+    # Centrifugaalpompen/Dompelpompen: Type names as identifiers
+    "pumps": re.compile(r"^[A-Z]{2,}[\s-]?\d+.*$"),
+}
+
+# Alias for backward compatibility
+AIRPRESS_SKU_PATTERN = SKU_PATTERNS["airpress"]
+
+
+def is_valid_sku(value: Optional[str], pdf_type: str = "airpress") -> bool:
+    """Check if a cell value looks like a valid SKU for the given PDF type.
+    
+    Args:
+        value: The cell value to check
+        pdf_type: One of 'airpress', 'bronpompen', 'drukbuizen', 'pumps'
+    
+    Returns:
+        True if the value matches the SKU pattern for the PDF type
+    """
+    if not value or not isinstance(value, str):
+        return False
+    v = value.strip()
+    if not v:
+        return False
+    # Must not contain unit patterns
+    if NON_SKU_PATTERNS.search(v):
+        return False
+    # Must match SKU pattern for this PDF type
+    pattern = SKU_PATTERNS.get(pdf_type, SKU_PATTERNS["airpress"])
+    return bool(pattern.match(v))
+
+
+def is_airpress_sku_value(value: Optional[str]) -> bool:
+    """Check if a cell value looks like an Airpress SKU/bestelnr."""
+    if not value or not isinstance(value, str):
+        return False
+    v = value.strip()
+    if not v:
+        return False
+    # Must not contain unit patterns
+    if AIRPRESS_NON_SKU_PATTERNS.search(v):
+        return False
+    # Must match SKU pattern
+    return bool(AIRPRESS_SKU_PATTERN.match(v))
+
+
+def detect_airpress_sku_column(header: List[str], sample_rows: List[DataRow]) -> Optional[int]:
+    """Detect which column contains SKU/bestelnr in Airpress tables.
+    
+    The SKU column has an icon header (empty/unrecognized text) and contains
+    values that match SKU patterns without unit indicators.
+    
+    Returns the column index or None if not detected.
+    """
+    if not sample_rows:
+        return None
+    
+    candidates: List[int] = []
+    
+    for col_idx, h in enumerate(header):
+        # Header should be empty, very short, or contain only symbols/icons
+        h_clean = h.strip() if h else ""
+        # Skip columns with clear header text containing units
+        if any(unit in h_clean.lower() for unit in ["bar", "mm", "kg", "l/min", "°c", "volt"]):
+            continue
+        # Skip columns with diameter symbol
+        if "Ø" in h_clean or "ø" in h_clean:
+            continue
+        
+        # Check if column data looks like SKUs
+        sku_matches = 0
+        non_sku_matches = 0
+        
+        for row in sample_rows[:10]:  # Check first 10 rows
+            if col_idx >= len(row):
+                continue
+            cell = row[col_idx]
+            if cell is None:
+                continue
+            cell_str = str(cell).strip()
+            if not cell_str:
+                continue
+            
+            if is_airpress_sku_value(cell_str):
+                sku_matches += 1
+            elif AIRPRESS_NON_SKU_PATTERNS.search(cell_str):
+                non_sku_matches += 1
+        
+        # Column is a candidate if most values look like SKUs
+        if sku_matches >= 2 and sku_matches > non_sku_matches:
+            candidates.append((col_idx, sku_matches))
+    
+    if not candidates:
+        return None
+    
+    # Return the column with most SKU matches
+    candidates.sort(key=lambda x: x[1], reverse=True)
+    return candidates[0][0]
+
+
 def normalize_header_cell(cell: Optional[str]) -> str:
     if cell is None:
         return ""
@@ -1038,7 +1179,7 @@ def extract_product_specs_above_table(page: pdfplumber.page.Page, table_bbox: Tu
     ]
 
     # Known brands to detect in text (often in title or as standalone text)
-    known_brands = ["NTN", "DAB", "Rovatti", "Kranzle", "Kränzle", "Makita", "Airpress", "Pedrollo", "Grundfos", "Wilo", "Flotec", "Ebara", "Calpeda", "Lowara", "Bauer", "Georg Fischer", "GF", "Dema", "Firehose", "SDMO", "Börger", "Borger", "Honda"]
+    known_brands = ["NTN", "DAB", "Rovatti", "Kranzle", "Kränzle", "Makita", "Airpress", "Pedrollo", "Grundfos", "Wilo", "Flotec", "Ebara", "Calpeda", "Lowara", "Bauer", "Georg Fischer", "GF", "Dema", "Firehose", "SDMO", "Börger", "Borger", "Honda", "FK", "Walterscheid"]
     for brand in known_brands:
         if re.search(rf"\b{brand}\b", text, re.IGNORECASE):
             specs["brand"] = brand
@@ -1052,6 +1193,39 @@ def extract_product_specs_above_table(page: pdfplumber.page.Page, table_bbox: Tu
             value = re.split(r"\n|[A-Z][a-z]+\s*:", value)[0].strip()
             if value and value.lower() != "nvt":
                 specs[key] = value
+    
+    # Extract product title patterns (for PDFs without key:value format)
+    # These are typically in ALL CAPS or Title Case at the start of text blocks
+    title_patterns = [
+        # PVC products: "PVC DRUKBUIS PN7,5", "PVC-U DRUKBUIS", etc.
+        (r"(PVC[-\s]?U?\s+[A-Z]+(?:\s+PN[\d,\.]+)?)", "product_title"),
+        # PE products: "PE BUIS SDR11", "PE100 BUIS", etc.
+        (r"(PE\d*\s+[A-Z]+(?:\s+SDR\d+)?)", "product_title"),
+        # ABS products: "ABS PERSLUCHTBUIS", etc.
+        (r"(ABS\s+[A-Z]+)", "product_title"),
+        # RVS/Messing fittings: "RVS DRAADFITTING", "MESSING FITTING", etc.
+        (r"((?:RVS|MESSING|VERZINKT)\s+[A-Z]+)", "product_title"),
+        # Generic product series with PN rating
+        (r"([A-Z]{2,}\s+[A-Z]+\s+PN[\d,\.]+)", "product_title"),
+    ]
+    
+    for pattern, key in title_patterns:
+        m = re.search(pattern, text)
+        if m and key not in specs:
+            specs[key] = m.group(1).strip()
+    
+    # Extract subtitle/variant info (e.g., "LIJMMOF - GLAD", "MET FLENS")
+    subtitle_patterns = [
+        (r"(LIJMMOF\s*[-–]\s*\w+)", "product_variant"),
+        (r"(MET\s+\w+)", "product_variant"),
+        (r"(ZONDER\s+\w+)", "product_variant"),
+        (r"(BINNENDRAAD|BUITENDRAAD)", "thread_type"),
+    ]
+    
+    for pattern, key in subtitle_patterns:
+        m = re.search(pattern, text, re.IGNORECASE)
+        if m and key not in specs:
+            specs[key] = m.group(1).strip()
 
     return specs
 
@@ -1112,6 +1286,64 @@ def normalize_sku_from_bestelnr(rec: Dict[str, Any]) -> None:
         val = rec.get(key)
         if isinstance(val, str) and val.strip():
             rec["sku"] = val.strip()
+            return
+
+
+def extract_angle_from_context(rec: Dict[str, Any]) -> None:
+    """Extract angle property from series name, SKU, or application text.
+    
+    Common patterns:
+    - Series name: "BOCHT 90°", "KNIE 45°", "T-STUK 90°", "LASBOCHT 90°"
+    - SKU suffix: ABSB02090 (ends in 90), LF1201 (45° knie)
+    - Application: "90° elbow", "45 graden"
+    """
+    if rec.get("angle"):
+        return  # Already has angle
+    
+    # Sources to check for angle
+    series = str(rec.get("series_name", ""))
+    application = str(rec.get("application", ""))
+    sku = str(rec.get("sku", "") or rec.get("bestelnr", ""))
+    
+    # Also check _context.category which becomes series_name later
+    ctx = rec.get("_context") or {}
+    category = str(ctx.get("category", "") or "")
+    
+    combined_text = f"{series} {application} {category}".upper()
+    
+    # Pattern 1: Explicit angle in text (90°, 45°, 30°, 15°)
+    angle_match = re.search(r'\b(90|45|30|15|87|67|22)\s*[°º]', combined_text)
+    if angle_match:
+        rec["angle"] = f"{angle_match.group(1)}°"
+        return
+    
+    # Pattern 2: Angle keywords without degree symbol
+    # "BOCHT 90", "KNIE 45", "90 GRADEN"
+    angle_keyword_match = re.search(r'(?:BOCHT|KNIE|ELBOW|LASBOCHT|T-STUK)\s*(\d{2})\b', combined_text)
+    if angle_keyword_match:
+        angle = angle_keyword_match.group(1)
+        if angle in ('90', '45', '30', '15', '87', '67', '22'):
+            rec["angle"] = f"{angle}°"
+            return
+    
+    # Pattern 3: "X graden" or "X degrees"
+    graden_match = re.search(r'(\d{2})\s*(?:GRADEN|DEGREES|GRAD)', combined_text)
+    if graden_match:
+        angle = graden_match.group(1)
+        if angle in ('90', '45', '30', '15', '87', '67', '22'):
+            rec["angle"] = f"{angle}°"
+            return
+    
+    # Pattern 4: T-pieces are typically 90° junctions
+    if re.search(r'\bT[-\s]?STUK\b', combined_text):
+        rec["angle"] = "90°"
+        return
+    
+    # Pattern 5: SKU suffix for ABS pipes (ABSB02090 = 90°)
+    if sku and re.match(r'^ABS[A-Z]', sku, re.IGNORECASE):
+        sku_angle = re.search(r'(90|45|30|15)$', sku)
+        if sku_angle:
+            rec["angle"] = f"{sku_angle.group(1)}°"
             return
 
 
@@ -1323,7 +1555,24 @@ class ExtractedTable:
 
 
 def _row_looks_like_data(row: List[Optional[str]]) -> bool:
-    """Heuristic: if the first non-empty cell looks like a product code/SKU, it's data, not a header."""
+    """Heuristic: check if the row looks like data rather than a header.
+    
+    Returns True if:
+    - First non-empty cell looks like a product code/SKU, OR
+    - Any cell in the row matches the Airpress SKU pattern (for grouped tables)
+    """
+    # First, check if any cell looks like an Airpress SKU (handles grouped tables)
+    for cell in row:
+        if cell is None:
+            continue
+        cell_str = str(cell).strip()
+        if not cell_str:
+            continue
+        # Check against Airpress SKU pattern (5-10 digit codes with optional suffixes)
+        if re.match(r"^\d{5,10}(-[A-Za-z0-9.]+)?$", cell_str):
+            return True
+    
+    # Then check the first non-empty cell
     for cell in row:
         if cell is None:
             continue
@@ -1344,6 +1593,124 @@ def _row_looks_like_data(row: List[Optional[str]]) -> bool:
     return False
 
 
+def _repair_missing_cells_from_text(page: pdfplumber.page.Page, table_bbox: Tuple[float, float, float, float], rows: List[List[Any]], num_cols: int) -> List[List[Any]]:
+    """Repair rows with missing cells by extracting full text lines from page.
+    
+    pdfplumber sometimes fails to extract cells in tables with alternating colors
+    or complex formatting. This function extracts complete text lines and parses
+    them to fill in missing values.
+    """
+    if not rows:
+        return rows
+    
+    x0, top, x1, bottom = table_bbox
+    row_height = (bottom - top) / len(rows) if rows else 20
+    
+    # Extract all chars in the table area
+    table_chars = [c for c in page.chars 
+                   if top <= c['top'] <= bottom 
+                   and x0 <= c['x0'] <= x1]
+    
+    # Group chars by y position into text lines
+    from collections import defaultdict
+    lines_by_y = defaultdict(list)
+    for c in table_chars:
+        y_key = round(c['top'] / 2) * 2
+        lines_by_y[y_key].append(c)
+    
+    # Convert each line to full text with y position, adding spaces between words
+    text_lines = []
+    for y in sorted(lines_by_y.keys()):
+        chars = sorted(lines_by_y[y], key=lambda c: c['x0'])
+        # Build text with spaces where there are gaps
+        text_parts = []
+        prev_x1 = None
+        for c in chars:
+            if prev_x1 is not None:
+                gap = c['x0'] - prev_x1
+                # If gap is larger than average char width, add space
+                if gap > 3:  # ~3px gap indicates word boundary
+                    text_parts.append(' ')
+            text_parts.append(c['text'])
+            prev_x1 = c['x1'] if 'x1' in c else c['x0'] + 6  # Estimate x1 if not present
+        text = ''.join(text_parts).strip()
+        if text:
+            text_lines.append((y, text))
+    
+    # Match text lines to rows by finding the closest y position
+    used_text_lines = set()
+    repaired = []
+    
+    for i, row in enumerate(rows):
+        row_center_y = top + (i + 0.5) * row_height
+        
+        # Find the closest text line for this row
+        best_match_idx = None
+        best_match_text = None
+        best_distance = float('inf')
+        
+        for idx, (y, text) in enumerate(text_lines):
+            if idx in used_text_lines:
+                continue
+            distance = abs(y - row_center_y)
+            if distance < best_distance and distance < row_height:
+                best_distance = distance
+                best_match_idx = idx
+                best_match_text = text
+        
+        # Check if row needs repair (has any None values)
+        row_has_none = row and any(v is None or (isinstance(v, str) and not v.strip()) for v in row)
+        
+        # If row is complete, just mark the text line as used
+        if not row_has_none:
+            if best_match_idx is not None:
+                used_text_lines.add(best_match_idx)
+            repaired.append(row)
+            continue
+        
+        # Row needs repair - parse the full text line
+        if row and best_match_text:
+            used_text_lines.add(best_match_idx)
+            row = list(row)  # Make mutable
+            
+            # Parse the text line into components
+            # Pattern: SKU (alphanumeric) + Size (number + mm) + Pressure (number + bar)
+            import re
+            
+            # Extract SKU (alphanumeric code before the first space or dimension)
+            # SKUs like ABSB02590 end before "25 mm"
+            sku_match = re.match(r'^([A-Z]{2,}[A-Z0-9]*\d+)(?:\s|$)', best_match_text, re.IGNORECASE)
+            if sku_match and (row[0] is None or not str(row[0]).strip()):
+                sku = sku_match.group(1)
+                # Validate: SKU shouldn't end with the same digits as the size
+                # e.g., ABSB02590 is valid, but ABSB0259025 is not (25 is the size)
+                if len(sku) > 6:
+                    row[0] = sku
+            
+            # Extract size (number + mm)
+            size_match = re.search(r'(\d+)\s*mm', best_match_text, re.IGNORECASE)
+            if size_match and len(row) > 1 and (row[1] is None or not str(row[1]).strip()):
+                row[1] = f"{size_match.group(1)} mm"
+            
+            # Extract pressure (number + bar)
+            pressure_match = re.search(r'(\d+(?:[,\.]\d+)?)\s*bar', best_match_text, re.IGNORECASE)
+            if pressure_match and len(row) > 2 and (row[2] is None or not str(row[2]).strip()):
+                row[2] = f"{pressure_match.group(1)} bar"
+            
+            # Extract length (number + m, but not mm)
+            length_match = re.search(r'(\d+)\s*m(?!m)\b', best_match_text, re.IGNORECASE)
+            if length_match:
+                # Find the last column that's None
+                for col_idx in range(len(row) - 1, -1, -1):
+                    if row[col_idx] is None or not str(row[col_idx]).strip():
+                        row[col_idx] = f"{length_match.group(1)} m"
+                        break
+        
+        repaired.append(row)
+    
+    return repaired
+
+
 def find_tables_with_bboxes(page: pdfplumber.page.Page) -> List[ExtractedTable]:
     """Use pdfplumber's table finder to get tables plus row bboxes.
 
@@ -1352,28 +1719,90 @@ def find_tables_with_bboxes(page: pdfplumber.page.Page) -> List[ExtractedTable]:
     tables: List[ExtractedTable] = []
     for t in page.find_tables():
         raw = t.extract()
-        if not raw or len(raw) < 2:
+        if not raw:
             continue
         header_rows = []
         data_rows = []
 
-        # Detect how many header rows: check if row 1 looks like data
-        if len(raw) >= 2 and _row_looks_like_data(raw[1]):
+        # Detect how many header rows: check if rows look like data
+        row0_is_data = _row_looks_like_data(raw[0])
+        row1_is_data = len(raw) >= 2 and _row_looks_like_data(raw[1])
+        
+        if len(raw) == 1:
+            # Single row table - treat as data with generated headers
+            if row0_is_data:
+                header_rows = []
+                data_rows = raw
+            else:
+                # Single header row with no data - skip
+                continue
+        elif row0_is_data and row1_is_data:
+            # Both rows look like data - no header row, generate column names
+            header_rows = []
+            data_rows = raw
+        elif row1_is_data:
             # Only 1 header row
             header_rows = raw[:1]
             data_rows = raw[1:]
-        elif len(raw) >= 2:
+        else:
             # 2 header rows (multi-line headers)
             header_rows = raw[:2]
             data_rows = raw[2:]
-        else:
-            header_rows = raw[:1]
-            data_rows = raw[1:]
 
         header = merge_header_rows(header_rows)
         data_rows = filter_empty_rows([clean_row(r) for r in data_rows])
         if not data_rows:
             continue
+        
+        # Repair missing cells in first column (common issue with alternating row colors)
+        # Adjust bbox to account for removed header rows
+        x0, top, x1, bottom = t.bbox
+        num_header_rows = len(header_rows)
+        total_rows = len(raw)
+        if total_rows > 0 and num_header_rows > 0:
+            row_height_estimate = (bottom - top) / total_rows
+            adjusted_top = top + num_header_rows * row_height_estimate
+            adjusted_bbox = (x0, adjusted_top, x1, bottom)
+        else:
+            adjusted_bbox = t.bbox
+        
+        num_cols = max(len(r) for r in data_rows) if data_rows else 0
+        data_rows = _repair_missing_cells_from_text(page, adjusted_bbox, data_rows, num_cols)
+        
+        # If no header was detected, generate column names based on data width
+        if not header and data_rows:
+            max_cols = max(len(r) for r in data_rows)
+            header = [f"col_{i}" for i in range(max_cols)]
+        
+        # Fix missing header cells - pdfplumber sometimes returns None for cells that have text
+        # Replace None with col_N placeholders, then try to infer from context
+        if header:
+            # Common header patterns: [Bestelnr, Maat, Werkdruk, Wanddikte, Lengte]
+            # pdfplumber often misses first and last columns
+            known_headers = {
+                "maat": True, "maten": True, "werkdruk": True, "druk": True,
+                "wanddikte": True, "lengte": True, "flens": True,
+            }
+            
+            for i, h in enumerate(header):
+                if h is None or h == "":
+                    header[i] = f"col_{i}"
+            
+            # If we have known headers in the middle, infer first/last columns
+            has_known_middle = any(slugify_header(h) in known_headers for h in header if h)
+            
+            # First column is typically Bestelnr/SKU
+            if header[0] == "col_0" and data_rows:
+                first_col_vals = [r[0] for r in data_rows if r and r[0] and isinstance(r[0], str)]
+                if first_col_vals and any(re.match(r'^[A-Z]{2,}[A-Z0-9]*\d+', v) for v in first_col_vals):
+                    header[0] = "bestelnr"
+            
+            # Last column is often Lengte (length) if it contains "m" values
+            last_idx = len(header) - 1
+            if header[last_idx] == f"col_{last_idx}" and data_rows:
+                last_col_vals = [r[last_idx] for r in data_rows if r and len(r) > last_idx and r[last_idx] and isinstance(r[last_idx], str)]
+                if last_col_vals and any(re.search(r'\d+\s*m\b', v) for v in last_col_vals):
+                    header[last_idx] = "lengte"
 
         # Estimate row bboxes from table bbox by evenly splitting vertically
         x0, top, x1, bottom = t.bbox
@@ -1394,13 +1823,21 @@ def find_tables_with_bboxes(page: pdfplumber.page.Page) -> List[ExtractedTable]:
 
 
 def extract_abs_persluchtbuizen(row: DataRow, header: List[str]) -> Dict[str, Any]:
-    hmap = {i: slugify_header(h) for i, h in enumerate(header)}
+    hmap = {i: slugify_header(h) if h else f"col_{i}" for i, h in enumerate(header)}
     obj: Dict[str, Any] = {}
+    
+    # ABS SKU pattern: ABS + 2-4 letters + 3-5 digits (ABSBU016, ABSBO2090, ABSKR090)
+    abs_sku_pattern = re.compile(r'^ABS[A-Z]{1,4}\d{3,5}$', re.IGNORECASE)
+    
+    # First pass: find SKU in any column
+    for idx, value in enumerate(row):
+        v = value.strip() if isinstance(value, str) else None
+        if v and abs_sku_pattern.match(v):
+            obj["bestelnr"] = v
+            break
 
     for idx, value in enumerate(row):
-        key = hmap.get(idx)
-        if not key:
-            continue
+        key = hmap.get(idx) or f"col_{idx}"
         raw_h = header[idx] if idx < len(header) else None
         v = value
         if v is not None:
@@ -1433,9 +1870,15 @@ def extract_abs_persluchtbuizen(row: DataRow, header: List[str]) -> Dict[str, An
             obj["bestelnr"] = v
         elif key in {"bestelnr", "bestelnr_order_id", "order_id"}:
             obj["bestelnr"] = v
+        # col_0 with SKU-like value (e.g., ABSBU016, ABSBO2090) -> bestelnr
+        elif key == "col_0" and v and re.match(r"^[A-Z]{2,}[A-Z0-9]+$", v, re.IGNORECASE):
+            obj["bestelnr"] = v
         elif key.startswith("maat") or key.startswith("maten"):
             obj["maat"] = v
         elif "werkdruk" in key or "druk" in key:
+            obj["werkdruk"] = v
+        # col_2 with pressure-like value (e.g., "10 bar") -> werkdruk
+        elif key == "col_2" and v and re.search(r"\d+\s*bar", v, re.IGNORECASE):
             obj["werkdruk"] = v
         elif "wanddikte" in key:
             obj["wanddikte"] = v
@@ -1444,19 +1887,43 @@ def extract_abs_persluchtbuizen(row: DataRow, header: List[str]) -> Dict[str, An
             obj["lengte"] = v
         else:
             obj[key] = v
-
+    
     return obj
 
 
 def extract_bronpompen(row: DataRow, header: List[str]) -> Dict[str, Any]:
     hmap = {i: slugify_header(h) for i, h in enumerate(header)}
     obj: Dict[str, Any] = {}
+    
+    # Bronpompen SKU pattern: 8-digit codes (may start with 0, 2, etc.)
+    bronpompen_sku_pattern = re.compile(r'^\d{8}$')
+    
+    # First pass: find all SKUs in the row
+    skus_found = []
+    for idx, value in enumerate(row):
+        v = value.strip() if isinstance(value, str) else value
+        if v and isinstance(v, str) and bronpompen_sku_pattern.match(v):
+            skus_found.append((idx, v))
+    
+    # Assign SKUs based on position
+    if skus_found:
+        # First SKU becomes bestelnr
+        obj["bestelnr"] = skus_found[0][1]
+        # Additional SKUs are motor variants
+        for i, (idx, sku) in enumerate(skus_found[1:], 1):
+            obj[f"motor_variant_{i}"] = sku
 
+    # Second pass: extract other fields
     for idx, value in enumerate(row):
         key = hmap.get(idx)
+        v = value.strip() if isinstance(value, str) else value
+        
+        # Skip if already processed as SKU
+        if v and isinstance(v, str) and bronpompen_sku_pattern.match(v):
+            continue
+        
         if not key:
             continue
-        v = value.strip() if isinstance(value, str) else value
 
         if key.startswith("type"):
             obj["type"] = v
@@ -1468,10 +1935,12 @@ def extract_bronpompen(row: DataRow, header: List[str]) -> Dict[str, Any]:
             obj["opvoerhoogte_m"] = v
         elif "aansluiting" in key:
             obj["aansluiting"] = v
-        elif "230" in key:
-            obj["motor_voltage_230"] = v
-        elif "400" in key:
-            obj["motor_voltage_400"] = v
+        elif "stroom" in key:
+            obj["stroom_a"] = v
+        elif "kabel" in key:
+            obj["kabellengte_m"] = v
+        elif "gewicht" in key:
+            obj["gewicht_kg"] = v
         else:
             obj[key] = v
 
@@ -1481,16 +1950,39 @@ def extract_bronpompen(row: DataRow, header: List[str]) -> Dict[str, Any]:
 def extract_aandrijftechniek(row: DataRow, header: List[str], page: pdfplumber.page.Page, row_bbox: Tuple[float, float, float, float]) -> Dict[str, Any]:
     hmap = {i: slugify_header(h) for i, h in enumerate(header)}
     obj: Dict[str, Any] = {}
+    
+    # Aandrijftechniek CODE patterns - specific prefixes used in this catalog:
+    # - RL* (RLNUCP, RLFUCP, etc.) - lagerblokken
+    # - CAR* (CARBU) - cardan parts
+    # - Numeric codes (11050583, etc.)
+    # Exclude UC* which are spanlager codes, not product codes
+    aandrijf_code_pattern = re.compile(
+        r'^(?:'
+        r'RL[A-Z]+\d+'          # RLNUCP204, RLFUCP205
+        r'|CAR[A-Z]*\d+'        # CARBU11395290
+        r'|[A-Z]{3,}[A-Z0-9]*\d{3,}'  # Other 3+ letter codes with digits
+        r'|\d{6,}'              # Pure numeric codes (6+ digits)
+        r')$'
+    )
 
     for idx, value in enumerate(row):
         key = hmap.get(idx)
+        v = value.strip() if isinstance(value, str) else value
+        
+        # Try to detect CODE in first column only (idx == 0) to avoid false positives
+        if idx == 0 and v and isinstance(v, str) and aandrijf_code_pattern.match(v):
+            obj["code"] = v
+            obj["bestelnr"] = v
+            continue
+        
         if not key:
             continue
-        v = value.strip() if isinstance(value, str) else value
 
-        if key == "code":
-            obj["code"] = v
-        elif "binnendiameter" in key:
+        if key == "code" or key == "col_0":
+            if v:
+                obj["code"] = v
+                obj["bestelnr"] = v
+        elif "binnendiameter" in key or "asdiameter" in key or key == "col_1":
             obj["binnendiameter_mm"] = v
         elif "buitendiameter" in key:
             obj["buitendiameter_mm"] = v
@@ -1498,8 +1990,33 @@ def extract_aandrijftechniek(row: DataRow, header: List[str], page: pdfplumber.p
             obj["max_dynamische_belasting"] = v
         elif "maximale_statische_belasting" in key:
             obj["max_statische_belasting"] = v
+        elif "lagerhuis" in key or key == "col_2":
+            obj["lagerhuis"] = v
+        elif "spanlager" in key or key == "col_3":
+            # col_3 is typically Spanlager (bearing code like UC205G2)
+            if v and re.match(r'^[A-Z]{2}\d+[A-Z0-9]*$', v):
+                obj["spanlager"] = v
+            else:
+                obj["spanlager"] = v
+        elif "breedte" in key:
+            obj["breedte_mm"] = v
         else:
             obj[key] = v
+    
+    # If CODE still not found, try to extract from page text in the row bbox area
+    if not obj.get("code") and row_bbox:
+        x0, top, x1, bottom = row_bbox
+        # Crop to the first ~25% of the row (where CODE column is)
+        code_area = page.within_bbox((x0, top, x0 + (x1 - x0) * 0.25, bottom))
+        if code_area:
+            text = code_area.extract_text() or ""
+            # Find CODE pattern in extracted text
+            for word in text.split():
+                word = word.strip()
+                if aandrijf_code_pattern.match(word):
+                    obj["code"] = word
+                    obj["bestelnr"] = word
+                    break
 
     in_stock = detect_row_bold(page, row_bbox)
     obj["in_stock"] = bool(in_stock)
@@ -1512,15 +2029,26 @@ def extract_centrifugaalpompen(row: DataRow, header: List[str]) -> Dict[str, Any
 
     debiet_raw = None
     opv_raw = None
+    
+    # Pump SKU patterns: X followed by 7 digits, or 8 digits
+    pump_sku_pattern = re.compile(r'^(X\d{7}|\d{8})$')
 
     for idx, value in enumerate(row):
         key = hmap.get(idx)
+        v = value.strip() if isinstance(value, str) else value
+        
+        # Try to detect SKU in any column (pdfplumber sometimes misses first column)
+        if v and isinstance(v, str) and pump_sku_pattern.match(v):
+            if "bestelnr" not in obj:
+                obj["bestelnr"] = v
+            continue
+        
         if not key:
             continue
-        v = value.strip() if isinstance(value, str) else value
 
         if key.startswith("bestelnr"):
-            obj["bestelnr"] = v
+            if v:
+                obj["bestelnr"] = v
         elif key.startswith("type"):
             obj["type"] = v
         elif "spanning" in key or key.endswith("_v"):
@@ -1551,19 +2079,88 @@ def extract_centrifugaalpompen(row: DataRow, header: List[str]) -> Dict[str, Any
 def extract_dompelpompen(row: DataRow, header: List[str]) -> Dict[str, Any]:
     hmap = {i: slugify_header(h) for i, h in enumerate(header)}
     obj: Dict[str, Any] = {}
+    
+    # Pump SKU patterns: X followed by 7 digits, or 8 digits
+    pump_sku_pattern = re.compile(r'^(X\d{7}|\d{8})$')
 
     for idx, value in enumerate(row):
         key = hmap.get(idx)
+        v = value.strip() if isinstance(value, str) else value
+        
+        # Try to detect SKU in any column
+        if v and isinstance(v, str) and pump_sku_pattern.match(v):
+            if "bestelnr" not in obj:
+                obj["bestelnr"] = v
+            continue
+        
         if not key:
             continue
-        v = value.strip() if isinstance(value, str) else value
 
-        if "korrelgrootte" in key:
+        if key.startswith("bestelnr"):
+            if v:
+                obj["bestelnr"] = v
+        elif "korrelgrootte" in key:
             obj["korrelgrootte"] = v
         elif "vlotter" in key:
             obj["vlotter"] = parse_boolean(v)
         elif "kabellengte" in key:
             obj["kabellengte"] = v
+        elif key.startswith("type"):
+            obj["type"] = v
+        elif "spanning" in key:
+            obj["spanning_v"] = v
+        elif "vermogen" in key:
+            obj["vermogen_kw"] = v
+        elif "debiet" in key:
+            obj["debiet_m3_h"] = v
+        elif "opvoer" in key or "hoogte" in key:
+            obj["opvoerhoogte_m"] = v
+        elif "gewicht" in key:
+            obj["gewicht_kg"] = v
+        else:
+            obj[key] = v
+
+    return obj
+
+
+def extract_pe_buizen(row: DataRow, header: List[str]) -> Dict[str, Any]:
+    """Extract PE buizen products with SKU patterns like HDBUH07505005."""
+    hmap = {i: slugify_header(h) for i, h in enumerate(header)}
+    obj: Dict[str, Any] = {}
+    
+    # PE buizen SKU pattern: HDBU + letter + digits (e.g., HDBUH07505005)
+    pe_sku_pattern = re.compile(r'^HDBU[A-Z]\d{8,}$')
+
+    for idx, value in enumerate(row):
+        key = hmap.get(idx)
+        v = value.strip() if isinstance(value, str) else value
+        
+        # Detect SKU in any column (first column often has None header)
+        if v and isinstance(v, str) and pe_sku_pattern.match(v):
+            obj["bestelnr"] = v
+            continue
+        
+        if not key:
+            # For PE-buizen, col_0 is bestelnr, col_1 is maat, col_2 is werkdruk, col_3 is lengte
+            if idx == 0 and v:
+                obj["bestelnr"] = v
+            elif idx == 1 and v:
+                obj["maat"] = v
+            elif idx == 2 and v:
+                obj["werkdruk"] = v
+            elif idx == 3 and v:
+                obj["lengte"] = v
+            continue
+
+        if key.startswith("bestelnr") or key == "col_0":
+            if v:
+                obj["bestelnr"] = v
+        elif "maat" in key or key == "col_1":
+            obj["maat"] = v
+        elif "werkdruk" in key or key == "col_2":
+            obj["werkdruk"] = v
+        elif "lengte" in key or key == "col_3":
+            obj["lengte"] = v
         else:
             obj[key] = v
 
@@ -1573,12 +2170,21 @@ def extract_dompelpompen(row: DataRow, header: List[str]) -> Dict[str, Any]:
 def extract_drukbuizen(row: DataRow, header: List[str]) -> Dict[str, Any]:
     hmap = {i: slugify_header(h) for i, h in enumerate(header)}
     obj: Dict[str, Any] = {}
+    
+    # Drukbuizen SKU patterns: DB/AB/PF/PP/etc followed by digits
+    drukbuizen_sku_pattern = re.compile(r'^[A-Z]{2,3}\d{5,7}$')
 
     for idx, value in enumerate(row):
         key = hmap.get(idx)
+        v = value.strip() if isinstance(value, str) else value
+        
+        # Check if value looks like a drukbuizen SKU (even if header is None)
+        if v and isinstance(v, str) and drukbuizen_sku_pattern.match(v):
+            obj["bestelnr"] = v
+            continue
+        
         if not key:
             continue
-        v = value.strip() if isinstance(value, str) else value
 
         # In kunststof-afvoerleidingen the header often contains order codes
         # like AB0317 / AB0322 etc. These are not real property names but the
@@ -1593,12 +2199,228 @@ def extract_drukbuizen(row: DataRow, header: List[str]) -> Dict[str, Any]:
             obj["wanddikte"] = v
         elif "lengte" in key:
             obj["lengte"] = v
+        elif "werkdruk" in key:
+            obj["werkdruk"] = v
         elif key == "sn" or "sn_" in key:
             obj["sn"] = v
         else:
             obj[key] = v
 
     return obj
+
+
+def extract_airpress_row(row: DataRow, header: List[str], sku_col_idx: Optional[int]) -> Dict[str, Any]:
+    """Extract a row from Airpress catalog tables with SKU column detection.
+    
+    Target output structure:
+    - article_sku: The product SKU/bestelnr
+    - product_type: The product sub-type (from grouped table col_0)
+    - connection_size / specification: The spec value (from col_2+)
+    
+    Handles multiple table patterns:
+    1. SKU column with icon header (detected via sku_col_idx)
+    2. Grouped tables where col_0=product_type, col_1=SKU, col_2+=specs
+    3. Fallback: scan all columns for SKU-like values
+    """
+    obj: Dict[str, Any] = {}
+    
+    # Dynamically find the SKU column by scanning all cells
+    sku_col = None
+    model_col = None
+    for idx, cell in enumerate(row):
+        cell_val = cell.strip() if isinstance(cell, str) else ""
+        if cell_val and is_airpress_sku_value(cell_val):
+            sku_col = idx
+            break
+    
+    # If SKU found, look for model name in earlier columns
+    if sku_col is not None and sku_col > 0:
+        for idx in range(sku_col - 1, -1, -1):
+            cell_val = row[idx].strip() if isinstance(row[idx], str) else ""
+            if cell_val and not is_airpress_sku_value(cell_val):
+                model_col = idx
+                break
+    
+    # Legacy pattern detection for backward compatibility
+    col_0_val = row[0].strip() if len(row) > 0 and isinstance(row[0], str) else ""
+    col_1_val = row[1].strip() if len(row) > 1 and isinstance(row[1], str) else ""
+    
+    # Grouped table pattern: col_0 is product type (or empty), col_1 is SKU
+    is_grouped_table = (
+        len(row) >= 2 and  # At least 2 columns
+        is_airpress_sku_value(col_1_val) and  # col_1 looks like SKU
+        not is_airpress_sku_value(col_0_val)  # col_0 is NOT an SKU (it's a product type)
+    )
+    
+    # Also check: col_0 is SKU (simpler 2-column tables)
+    is_simple_sku_table = (
+        len(row) >= 1 and
+        is_airpress_sku_value(col_0_val)
+    )
+    
+    # Use dynamically detected SKU column if found (handles tables with SKU in any column)
+    if sku_col is not None and not is_grouped_table and not is_simple_sku_table:
+        # SKU found in column other than 0 or 1 (e.g., column 4 for compressor tables)
+        sku_val = row[sku_col].strip() if isinstance(row[sku_col], str) else ""
+        obj["article_sku"] = sku_val
+        
+        # Get model name from earlier column if found
+        if model_col is not None:
+            model_val = row[model_col].strip() if isinstance(row[model_col], str) else ""
+            if model_val:
+                obj["model_name"] = model_val
+        
+        # Process all other columns as specifications
+        for idx, value in enumerate(row):
+            if idx == sku_col or idx == model_col:
+                continue
+            v = value.strip() if isinstance(value, str) else value
+            if v:
+                field_name = _infer_airpress_field_name(v, idx)
+                obj[field_name] = v
+    
+    elif is_grouped_table:
+        # Grouped table: col_0=product_type/model_name, col_1=SKU, col_2+=specs
+        if col_0_val:
+            # Determine if col_0 is a model name (alphanumeric like B5900B, PAT 24B)
+            # or a product type (text like "Internal plugs", "Parallel Plugs")
+            if re.match(r'^[A-Z0-9]+\s*[A-Z0-9]*$', col_0_val) and len(col_0_val) <= 15:
+                obj["model_name"] = col_0_val
+            else:
+                obj["product_type"] = col_0_val
+        obj["article_sku"] = col_1_val
+        
+        # Process remaining columns as specifications
+        for idx in range(2, len(row)):
+            v = row[idx].strip() if isinstance(row[idx], str) else row[idx]
+            if v:
+                field_name = _infer_airpress_field_name(v, idx)
+                obj[field_name] = v
+                
+    elif is_simple_sku_table:
+        # Simple table: col_0=SKU, col_1+=specs
+        obj["article_sku"] = col_0_val
+        
+        for idx in range(1, len(row)):
+            v = row[idx].strip() if isinstance(row[idx], str) else row[idx]
+            if v:
+                field_name = _infer_airpress_field_name(v, idx)
+                obj[field_name] = v
+                
+    elif sku_col_idx is not None:
+        # Explicit SKU column detected (icon header)
+        for idx, value in enumerate(row):
+            v = value.strip() if isinstance(value, str) else value
+            if idx == sku_col_idx:
+                if v:
+                    obj["article_sku"] = v
+            elif v:
+                field_name = _infer_airpress_field_name(v, idx)
+                obj[field_name] = v
+    else:
+        # Fallback: scan for SKU and map other columns
+        hmap = {i: slugify_header(h) for i, h in enumerate(header)}
+        for idx, value in enumerate(row):
+            key = hmap.get(idx) or f"col_{idx}"
+            v = value.strip() if isinstance(value, str) else value
+            
+            if is_airpress_sku_value(v) and "article_sku" not in obj:
+                obj["article_sku"] = v
+            elif v:
+                field_name = _infer_airpress_field_name(v, idx) if key.startswith("col_") else key
+                obj[field_name] = v
+    
+    # Also set bestelnr for backward compatibility with normalize_sku_from_bestelnr
+    if obj.get("article_sku"):
+        obj["bestelnr"] = obj["article_sku"]
+    
+    return obj
+
+
+def _infer_airpress_field_name(value: str, col_idx: int) -> str:
+    """Infer semantic field name from value pattern."""
+    v_str = str(value)
+    
+    # Connection sizes: 1/4", 3/8", 1/2", 1/8" x 1/4", 6 mm, etc.
+    # Match fraction followed by any quote character, or mm sizes, or "x" combinations
+    if re.search(r'\d+/\d+.?$|^\d+\s*mm$|.?\s*x\s*.+$', v_str) and len(v_str) <= 20:
+        return "connection_size"
+    
+    # Pressure: 10 bar, 4-5 bar
+    if re.search(r"\d+\s*[-–]?\s*\d*\s*bar\b", v_str, re.IGNORECASE):
+        return "max_pressure_bar"
+    
+    # Volume/capacity: 600 ml, 50 L
+    if re.search(r"\d+\s*[mM][lL]\b|\d+\s*[Ll]\b", v_str):
+        return "capacity"
+    
+    # Flow rate: 250-300 L/min, 150 l/min
+    if re.search(r"\d+\s*[-–]?\s*\d*\s*[Ll]/min", v_str):
+        return "air_consumption_l_min"
+    
+    # Weight: 0.2 kg, 5,5 kg
+    if re.search(r"\d+[,.]?\d*\s*kg\b", v_str):
+        return "net_weight_kg"
+    
+    # Diameter: Ø 50, Ø50mm
+    if re.search(r"Ø\s*\d+", v_str):
+        return "diameter_mm"
+    
+    # Dimensions: 350 x 500 x 450
+    if re.search(r"\d+\s*x\s*\d+\s*x\s*\d+", v_str):
+        return "dimensions_mm"
+    
+    # Length/size in mm: 100 mm, 160 mm (nozzle length)
+    if re.search(r"^\d+\s*mm$", v_str):
+        return "size_mm"
+    
+    # Voltage: 230V / 50 Hz
+    if re.search(r"\d+\s*[Vv]", v_str):
+        return "voltage"
+    
+    # Temperature: -20°C, +60°C
+    if re.search(r"[+-]?\d+\s*°C", v_str):
+        return "temperature_c"
+    
+    # Amperage: 4 A, 6.3 A
+    if re.search(r"^\d+[,.]?\d*\s*A\b", v_str):
+        return "amperage"
+    
+    # Piece count: 6 pcs, 7 pcs
+    if re.search(r"\d+\s*pcs", v_str, re.IGNORECASE):
+        return "content_count_pcs"
+    
+    # System type: Euro, Orion (short text without numbers)
+    if v_str in ["Euro", "Orion", "EURO", "ORION"]:
+        return "system_type"
+    
+    # Nozzle feature descriptions: "Short 20 mm", "Long 160 mm", "Turbo"
+    if re.search(r"(Short|Long|Turbo)\s*\d*", v_str, re.IGNORECASE):
+        return "nozzle_feature"
+    
+    # Material types: PU, Nylon, Rubber, Steel, etc.
+    if v_str in ["PU", "Nylon", "Rubber", "Steel", "Aluminium", "Aluminum", "Cast iron", "Plastic"]:
+        return "wheel_material"
+    
+    # Range values with hyphen: 85-200 (lift range)
+    if re.search(r"^\d+\s*[-–]\s*\d+$", v_str) and "bar" not in v_str.lower():
+        return "range_mm"
+    
+    # Pure numeric values - try to infer from magnitude
+    if re.match(r"^\d+$", v_str):
+        num = int(v_str)
+        # Large numbers likely weight capacity (kg)
+        if num >= 500 and num <= 10000:
+            return "load_capacity_kg"
+        # Medium numbers could be lengths (mm)
+        elif num >= 50 and num < 500:
+            return "dimension_mm"
+        # Small numbers could be counts or small measurements
+        elif num < 50:
+            return "count_or_small_dim"
+    
+    # Default: use column index
+    return f"spec_{col_idx}"
 
 
 def extract_kranzle_transposed(table: ExtractedTable) -> List[Dict[str, Any]]:
@@ -1767,12 +2589,31 @@ def flatten_records_with_grouping(records: List[Dict[str, Any]], pdf_name: str) 
         # 1. SKU - canonical field
         sku = rec.get("sku")
         if not sku:
-            # Try common alternatives
-            for k in ("order_number", "bestelnr", "code", "model", "col_0"):
+            # Try common alternatives in priority order
+            for k in ("order_number", "bestelnr", "code", "model"):
                 v = rec.get(k)
                 if isinstance(v, str) and v.strip():
                     sku = v.strip()
                     break
+        
+        # If still no SKU, check col_0 and col_1 with smart detection
+        if not sku:
+            col_0 = rec.get("col_0")
+            col_1 = rec.get("col_1")
+            
+            # col_0 looks like a measurement (e.g., "1/2"", "3/4"", "1 "", "20 mm") -> use col_1 as SKU
+            if isinstance(col_0, str) and re.match(r'^[\d/]+\s*["\']?$|^\d+\s*mm$', col_0.strip()):
+                if isinstance(col_1, str) and col_1.strip():
+                    sku = col_1.strip()
+            # col_1 looks like a numeric article code (e.g., "45349") -> use col_1 as SKU
+            elif isinstance(col_1, str) and re.match(r'^\d{4,}$', col_1.strip()):
+                sku = col_1.strip()
+            # Fallback to col_0 if it looks like an SKU (alphanumeric code)
+            elif isinstance(col_0, str) and re.match(r'^[A-Z]{2,}[A-Z0-9]+$', col_0.strip(), re.IGNORECASE):
+                sku = col_0.strip()
+            elif isinstance(col_0, str) and col_0.strip():
+                sku = col_0.strip()
+        
         out["sku"] = sku
         
         # 2. Series/grouping metadata
@@ -1782,7 +2623,8 @@ def flatten_records_with_grouping(records: List[Dict[str, Any]], pdf_name: str) 
         out["series_id"] = generate_series_id(category, pdf_name)
         out["series_name"] = category or pdf_name.replace(".pdf", "").replace("-", " ").title()
         
-        # 3. Page info for image linking
+        # 3. Source PDF and page info for traceability
+        out["source_pdf"] = ctx.get("source_pdf")
         out["page"] = ctx.get("page_number")
         
         # 4. Brand (from product_specs or context)
@@ -1797,6 +2639,32 @@ def flatten_records_with_grouping(records: List[Dict[str, Any]], pdf_name: str) 
             if k == "sku":  # Already handled
                 continue
             out[k] = v
+        
+        # 5b. Rename generic col_N fields to semantic names based on value patterns
+        col_renames: Dict[str, str] = {}
+        for k, v in list(out.items()):
+            if not k.startswith("col_") or not isinstance(v, str):
+                continue
+            v_stripped = v.strip()
+            # Inch measurements (e.g., "1/2"", "3/4"", "1 "")
+            if re.match(r'^[\d/]+\s*["\']$', v_stripped):
+                col_renames[k] = "drive_size"
+            # Length in mm (e.g., "125 mm", "200 mm")
+            elif re.match(r'^\d+\s*mm$', v_stripped):
+                col_renames[k] = "length_mm"
+            # Multiple sizes separated by / (e.g., "10 / 11 / 13 / ... mm")
+            elif re.search(r'\d+\s*/\s*\d+.*mm', v_stripped):
+                col_renames[k] = "socket_sizes"
+            # Weight (e.g., "19 kg")
+            elif re.match(r'^[\d,\.]+\s*kg$', v_stripped):
+                col_renames[k] = "weight_kg"
+            # Pressure (e.g., "10 bar")
+            elif re.match(r'^[\d,\.]+\s*bar$', v_stripped):
+                col_renames[k] = "werkdruk"
+        
+        for old_key, new_key in col_renames.items():
+            if old_key in out and new_key not in out:
+                out[new_key] = out.pop(old_key)
         
         # 6. Denormalize inherited product specs
         for spec_key, spec_val in product_specs.items():
@@ -1821,6 +2689,70 @@ def flatten_records_with_grouping(records: List[Dict[str, Any]], pdf_name: str) 
     return flat
 
 
+# ============================================================================
+# PDF CONFIGURATION - Pages to skip, extraction settings per PDF type
+# ============================================================================
+
+PDF_CONFIG = {
+    "airpress-catalogus-eng": {
+        "skip_pages": {
+            35,         # Piston pump specifications (no SKUs, just model specs)
+            37,         # Controller feature comparison (MAM-860 vs MAM-6080)
+            110, 114,   # Roller cabinet feature descriptions (marketing content)
+            131, 132, 133,  # Explanation of Pictograms pages
+        },
+        "extractor": "airpress",
+        "sku_field": "article_sku",
+    },
+    "airpress-catalogus-nl-fr": {
+        "skip_pages": {
+            2, 3,       # Index/Table of Contents and Noise Level Reference
+            23,         # Controller feature comparison
+            28,         # Piston pump specifications
+            66,         # Marketing/feature page
+            80, 81, 82, # Symbol Legend pages (Symbolen/Symbole/Légende)
+        },
+        "extractor": "airpress",
+        "sku_field": "article_sku",
+    },
+    "bronpompen": {
+        "skip_pages": set(),
+        "extractor": "bronpompen",
+        "sku_field": "bestelnr",
+        "skip_empty_sku": True,
+    },
+    "drukbuizen": {
+        "skip_pages": set(),
+        "extractor": "drukbuizen",
+        "sku_field": "bestelnr",
+        "skip_empty_sku": True,
+    },
+    "kunststof-afvoerleidingen": {
+        "skip_pages": set(),
+        "extractor": "drukbuizen",
+        "sku_field": "bestelnr",
+        "skip_empty_sku": True,
+    },
+    "kranzle": {
+        "skip_pages": set(),
+        "extractor": "kranzle_transposed",
+    },
+    "makita": {
+        "skip_pages": set(),
+        "extractor": "makita_transposed",
+    },
+}
+
+
+def get_pdf_config(pdf_name: str) -> Dict[str, Any]:
+    """Get configuration for a PDF based on its filename."""
+    name_lower = pdf_name.lower()
+    for key, config in PDF_CONFIG.items():
+        if key in name_lower:
+            return config
+    return {"skip_pages": set(), "extractor": "generic"}
+
+
 # ------------------------
 # Driver per PDF
 # ------------------------
@@ -1832,12 +2764,18 @@ def process_pdf(
 ) -> Dict[str, Any]:
     name = pdf_path.name.lower()
     records: List[Dict[str, Any]] = []
+    config = get_pdf_config(name)
+    skip_pages = config.get("skip_pages", set())
 
     with pdfplumber.open(str(pdf_path)) as pdf:
         print(f"  Opened {pdf_path.name} with {len(pdf.pages)} pages")
         current_category: Optional[str] = None
-
+        
         for page_number, page in enumerate(pdf.pages, start=1):
+            # Skip non-product pages based on config
+            if page_number in skip_pages:
+                continue
+                
             tables = find_tables_with_bboxes(page)
             if not tables:
                 continue
@@ -1907,6 +2845,14 @@ def process_pdf(
                         records.append(m)
                     continue
 
+                # For Airpress PDFs, detect SKU column once per table
+                airpress_sku_col_idx: Optional[int] = None
+                airpress_current_group: Optional[str] = None  # Track product group for grouped tables
+                airpress_current_sku: Optional[str] = None  # Track SKU for continuation rows
+                airpress_current_model: Optional[str] = None  # Track model name for continuation rows
+                if "airpress-catalogus" in name:
+                    airpress_sku_col_idx = detect_airpress_sku_column(t.header, t.rows)
+
                 # Row-wise extraction for other PDFs
                 for row, row_bbox in zip(t.rows, t.bboxes):
                     ctx = RowContext(
@@ -1917,16 +2863,60 @@ def process_pdf(
 
                     if "abs-persluchtbuizen" in name:
                         obj = extract_abs_persluchtbuizen(row, t.header)
+                        # Skip rows without SKU
+                        if not obj.get("bestelnr"):
+                            continue
                     elif "bronpompen" in name:
                         obj = extract_bronpompen(row, t.header)
+                        # Skip rows without SKU (header rows, empty rows)
+                        if not obj.get("bestelnr"):
+                            continue
                     elif "aandrijftechniek" in name:
                         obj = extract_aandrijftechniek(row, t.header, page, row_bbox)
+                        # Skip rows without CODE (header rows, empty rows)
+                        if not obj.get("code"):
+                            continue
                     elif "centrifugaalpompen" in name:
                         obj = extract_centrifugaalpompen(row, t.header)
+                        # Skip rows without SKU
+                        if not obj.get("bestelnr"):
+                            continue
                     elif "dompelpompen" in name:
                         obj = extract_dompelpompen(row, t.header)
+                        # Skip rows without SKU
+                        if not obj.get("bestelnr"):
+                            continue
+                    elif "pe-buizen" in name:
+                        obj = extract_pe_buizen(row, t.header)
+                        # Skip rows without SKU
+                        if not obj.get("bestelnr"):
+                            continue
                     elif "drukbuizen" in name or "kunststof-afvoerleidingen" in name:
                         obj = extract_drukbuizen(row, t.header)
+                        # Skip rows without SKU (header rows, empty rows)
+                        if not obj.get("bestelnr"):
+                            continue
+                    elif "airpress-catalogus" in name:
+                        # Use Airpress-specific extractor with SKU column detection
+                        obj = extract_airpress_row(row, t.header, airpress_sku_col_idx)
+                        
+                        # Propagate product_type from previous rows in grouped tables
+                        if obj.get("product_type"):
+                            airpress_current_group = obj["product_type"]
+                        elif airpress_current_group and not obj.get("product_type"):
+                            obj["product_type"] = airpress_current_group
+                        
+                        # Propagate SKU and model_name for continuation rows (spec variants)
+                        if obj.get("article_sku"):
+                            airpress_current_sku = obj["article_sku"]
+                            airpress_current_model = obj.get("model_name")
+                        elif airpress_current_sku and not obj.get("article_sku"):
+                            # This is a continuation row - inherit SKU and model from previous row
+                            obj["article_sku"] = airpress_current_sku
+                            obj["bestelnr"] = airpress_current_sku
+                            if airpress_current_model:
+                                obj["model_name"] = airpress_current_model
+                            obj["is_variant"] = True  # Mark as spec variant
                     else:
                         # Fallback: generic column mapping
                         hmap = {i: slugify_header(h) for i, h in enumerate(t.header)}
@@ -1935,6 +2925,10 @@ def process_pdf(
                             key = hmap.get(idx) or f"col_{idx}"
                             v = val.strip() if isinstance(val, str) else val
                             obj[key] = v
+                        
+                        # Skip completely empty rows
+                        if not any(v for v in obj.values() if v and str(v).strip()):
+                            continue
 
                     # Ensure a generic type field is present
                     inferred_type = infer_type_from_context(pdf_path.name, current_category, obj.get("type"))
@@ -1948,11 +2942,30 @@ def process_pdf(
                     if product_specs:
                         obj["_context"]["product_specs"] = product_specs
 
+                    # Skip description/legend/header rows for Airpress (rows with no SKU and non-product content)
+                    if "airpress-catalogus" in name:
+                        has_sku = obj.get("article_sku") or obj.get("bestelnr")
+                        if not has_sku:
+                            # Check for long description text
+                            first_val = next((v for v in obj.values() if isinstance(v, str) and len(v) > 50), None)
+                            if first_val and len(first_val) > 100:
+                                continue
+                            # Check for header-like rows (all caps category names, percentages, etc.)
+                            vals = [str(v) for v in obj.values() if v and isinstance(v, str)]
+                            if vals and all(len(v) < 30 for v in vals):
+                                # Short values only - likely header row
+                                non_spec_vals = [v for v in vals if not any(c.isdigit() for c in v) or v in ['50%', '10', '3']]
+                                if len(non_spec_vals) == len(vals):
+                                    continue
+                    
                     # Normalize zwarte-draad-en-lasfittingen dynamic SKU keys into explicit fields
                     normalize_black_fittings_sku(obj, pdf_path.name)
 
                     # Normalize bestelnr / order_number / code / col_0 to sku for all PDFs
                     normalize_sku_from_bestelnr(obj)
+                    
+                    # Extract angle from series name or SKU for pipe/fitting products
+                    extract_angle_from_context(obj)
 
                     # Apply enrichment so this script handles the full pipeline
                     obj = enrich_record(obj)

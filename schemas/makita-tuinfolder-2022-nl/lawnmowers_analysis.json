@@ -1,0 +1,31 @@
+{
+  "lawnmowers_analysis": [
+    {
+      "category": "Benzine Grasmaaiers (Gasoline Lawnmowers)",
+      "source_images": ["image_0bdc9f.jpg", "image_0bdc89.jpg"],
+      "products": [
+        {
+          "model": "PLM5121N2",
+          "description": "Benzine Mulching Grasmaaier",
+          "engine_brand": "Briggs & Stratton",
+          "engine_model": "675 EXI ReadyStart",
+          "displacement_cc": 163,
+          "cutting_width_cm": 51,
+          "no_load_speed_rpm": 2600,
+          "self_propelled": true,
+          "recommended_area_m2": 2200,
+          "chassis": "Staal",
+          "weight_kg": 31.7,
+          "note": "Tot einde voorraad"
+        }
+      ],
+      "accessories": [
+        {
+          "reference": "980508620",
+          "description": "Olie voor 4-takt motoren",
+          "content_liter": 0.6
+        }
+      ]
+    }
+  ]
+}

@@ -3,6 +3,7 @@
     "sku": "X0330051",
     "series_id": "huishoudelijk-industrieel-landbouw-bere",
     "series_name": "huishoudelijk, industrieel, landbouw, bere-",
+    "source_pdf": "zuigerpompen.pdf",
     "page": 4,
     "col_0": "X0330051",
     "type_hercules_1500": "HERCULES 4000",
@@ -12,7 +13,7 @@
     "aanzuig_1": "6/4”",
     "steek_1": "5/4”",
     "opv_hoogte_40_m": "40 m",
-    "col_8": "9 m",
+    "lengte": "9 m",
     "type": "huishoudelijk_industrieel_landbouw_bere",
     "spec_liquid_temp_range": "maximum 50°C",
     "spec_temp_range": "vloeistof",
@@ -21,6 +22,7 @@
     "spec_application_desc": "huishoudelijk, industrieel, landbouw, bere-",
     "spec_housing": "gietijzer",
     "spec_material": "stang RVS",
+    "spec_product_title": "RVS\nT",
     "application": "VARIATIES",
     "_enriched": {
       "series_raw": "huishoudelijk, industrieel, landbouw, bere-",
@@ -30,14 +32,13 @@
       "material": null,
       "family_id": null,
       "sku_series": null
-    },
-    "series_image": "images/zuigerpompen/zuigerpompen__p4__huishoudelijk-industrieel-landbouw-bere__x0330__x0330051-x0330138-x0330162.webp",
-    "image": "images/zuigerpompen/zuigerpompen__p4__huishoudelijk-industrieel-landbouw-bere__x0330__x0330051-x0330138-x0330162.webp"
+    }
   },
   {
     "sku": "X0330138",
     "series_id": "huishoudelijk-industrieel-landbouw-bere",
     "series_name": "huishoudelijk, industrieel, landbouw, bere-",
+    "source_pdf": "zuigerpompen.pdf",
     "page": 4,
     "col_0": "X0330138",
     "type_hercules_1500": "HERCULES 6000",
@@ -47,7 +48,7 @@
     "aanzuig_1": "6/4”",
     "steek_1": "5/4”",
     "opv_hoogte_40_m": "40 m",
-    "col_8": "9 m",
+    "lengte": "9 m",
     "type": "huishoudelijk_industrieel_landbouw_bere",
     "spec_liquid_temp_range": "maximum 50°C",
     "spec_temp_range": "vloeistof",
@@ -56,6 +57,7 @@
     "spec_application_desc": "huishoudelijk, industrieel, landbouw, bere-",
     "spec_housing": "gietijzer",
     "spec_material": "stang RVS",
+    "spec_product_title": "RVS\nT",
     "application": "VARIATIES",
     "_enriched": {
       "series_raw": "huishoudelijk, industrieel, landbouw, bere-",
@@ -65,14 +67,13 @@
       "material": null,
       "family_id": null,
       "sku_series": null
-    },
-    "series_image": "images/zuigerpompen/zuigerpompen__p4__huishoudelijk-industrieel-landbouw-bere__x0330__x0330051-x0330138-x0330162.webp",
-    "image": "images/zuigerpompen/zuigerpompen__p4__huishoudelijk-industrieel-landbouw-bere__x0330__x0330051-x0330138-x0330162.webp"
+    }
   },
   {
     "sku": "X0330139",
     "series_id": "huishoudelijk-industrieel-landbouw-bere",
     "series_name": "huishoudelijk, industrieel, landbouw, bere-",
+    "source_pdf": "zuigerpompen.pdf",
     "page": 5,
     "col_0": "X0330139",
     "type_hercules_1500": "HERCULES 1500",
@@ -83,7 +84,7 @@
     "steek_1": "1”",
     "opv_hoogte_40_m": "40 m",
     "inhoud_vat_100l": "200L",
-    "col_9": "9 m",
+    "lengte": "9 m",
     "type": "huishoudelijk_industrieel_landbouw_bere",
     "spec_liquid_temp_range": "maximum 50°C",
     "spec_temp_range": "vloeistof",
@@ -92,6 +93,7 @@
     "spec_application_desc": "huishoudelijk, industrieel, landbouw, bere-",
     "spec_housing": "gietijzer",
     "spec_material": "stang RVS",
+    "spec_product_title": "RVS\nT",
     "application": "VARIATIES",
     "_enriched": {
       "series_raw": "huishoudelijk, industrieel, landbouw, bere-",
@@ -101,14 +103,13 @@
       "material": null,
       "family_id": null,
       "sku_series": null
-    },
-    "series_image": "images/zuigerpompen/zuigerpompen__p5__huishoudelijk-industrieel-landbouw-bere__x0330__x0330139-x0330143-x0330154.webp",
-    "image": "images/zuigerpompen/zuigerpompen__p5__huishoudelijk-industrieel-landbouw-bere__x0330__x0330139-x0330143-x0330154.webp"
+    }
   },
   {
     "sku": "X0330143",
     "series_id": "huishoudelijk-industrieel-landbouw-bere",
     "series_name": "huishoudelijk, industrieel, landbouw, bere-",
+    "source_pdf": "zuigerpompen.pdf",
     "page": 5,
     "col_0": "X0330143",
     "type_hercules_1500": "HERCULES 2500",
@@ -119,7 +120,7 @@
     "steek_1": "1”",
     "opv_hoogte_40_m": "40 m",
     "inhoud_vat_100l": "200L",
-    "col_9": "9 m",
+    "lengte": "9 m",
     "type": "huishoudelijk_industrieel_landbouw_bere",
     "spec_liquid_temp_range": "maximum 50°C",
     "spec_temp_range": "vloeistof",
@@ -128,6 +129,7 @@
     "spec_application_desc": "huishoudelijk, industrieel, landbouw, bere-",
     "spec_housing": "gietijzer",
     "spec_material": "stang RVS",
+    "spec_product_title": "RVS\nT",
     "application": "VARIATIES",
     "_enriched": {
       "series_raw": "huishoudelijk, industrieel, landbouw, bere-",
@@ -137,14 +139,13 @@
       "material": null,
       "family_id": null,
       "sku_series": null
-    },
-    "series_image": "images/zuigerpompen/zuigerpompen__p5__huishoudelijk-industrieel-landbouw-bere__x0330__x0330139-x0330143-x0330154.webp",
-    "image": "images/zuigerpompen/zuigerpompen__p5__huishoudelijk-industrieel-landbouw-bere__x0330__x0330139-x0330143-x0330154.webp"
+    }
   },
   {
     "sku": "X0330154",
     "series_id": "huishoudelijk-industrieel-landbouw-bere",
     "series_name": "huishoudelijk, industrieel, landbouw, bere-",
+    "source_pdf": "zuigerpompen.pdf",
     "page": 5,
     "col_0": "X0330154",
     "type_hercules_1500": "HERCULES 2000",
@@ -155,7 +156,7 @@
     "steek_1": "1”",
     "opv_hoogte_40_m": "40 m",
     "inhoud_vat_100l": "200L",
-    "col_9": "9 m",
+    "lengte": "9 m",
     "type": "huishoudelijk_industrieel_landbouw_bere",
     "spec_liquid_temp_range": "maximum 50°C",
     "spec_temp_range": "vloeistof",
@@ -164,6 +165,7 @@
     "spec_application_desc": "huishoudelijk, industrieel, landbouw, bere-",
     "spec_housing": "gietijzer",
     "spec_material": "stang RVS",
+    "spec_product_title": "RVS\nT",
     "application": "VARIATIES",
     "_enriched": {
       "series_raw": "huishoudelijk, industrieel, landbouw, bere-",
@@ -173,14 +175,13 @@
       "material": null,
       "family_id": null,
       "sku_series": null
-    },
-    "series_image": "images/zuigerpompen/zuigerpompen__p5__huishoudelijk-industrieel-landbouw-bere__x0330__x0330139-x0330143-x0330154.webp",
-    "image": "images/zuigerpompen/zuigerpompen__p5__huishoudelijk-industrieel-landbouw-bere__x0330__x0330139-x0330143-x0330154.webp"
+    }
   },
   {
     "sku": "X0330162",
     "series_id": "huishoudelijk-industrieel-landbouw-bere",
     "series_name": "huishoudelijk, industrieel, landbouw, bere-",
+    "source_pdf": "zuigerpompen.pdf",
     "page": 4,
     "col_0": "X0330162",
     "type_hercules_1500": "HERCULES 3000",
@@ -190,7 +191,7 @@
     "aanzuig_1": "5/4”",
     "steek_1": "1”",
     "opv_hoogte_40_m": "40 m",
-    "col_8": "9 m",
+    "lengte": "9 m",
     "type": "huishoudelijk_industrieel_landbouw_bere",
     "spec_liquid_temp_range": "maximum 50°C",
     "spec_temp_range": "vloeistof",
@@ -199,6 +200,7 @@
     "spec_application_desc": "huishoudelijk, industrieel, landbouw, bere-",
     "spec_housing": "gietijzer",
     "spec_material": "stang RVS",
+    "spec_product_title": "RVS\nT",
     "application": "VARIATIES",
     "_enriched": {
       "series_raw": "huishoudelijk, industrieel, landbouw, bere-",
@@ -208,14 +210,13 @@
       "material": null,
       "family_id": null,
       "sku_series": null
-    },
-    "series_image": "images/zuigerpompen/zuigerpompen__p4__huishoudelijk-industrieel-landbouw-bere__x0330__x0330051-x0330138-x0330162.webp",
-    "image": "images/zuigerpompen/zuigerpompen__p4__huishoudelijk-industrieel-landbouw-bere__x0330__x0330051-x0330138-x0330162.webp"
+    }
   },
   {
     "sku": "X0330167",
     "series_id": "huishoudelijk-industrieel-landbouw-bere",
     "series_name": "huishoudelijk, industrieel, landbouw, bere-",
+    "source_pdf": "zuigerpompen.pdf",
     "page": 4,
     "col_0": "X0330167",
     "type_hercules_1500": "HERCULES 2000",
@@ -225,7 +226,7 @@
     "aanzuig_1": "1”",
     "steek_1": "1”",
     "opv_hoogte_40_m": "40 m",
-    "col_8": "9 m",
+    "lengte": "9 m",
     "type": "huishoudelijk_industrieel_landbouw_bere",
     "spec_liquid_temp_range": "maximum 50°C",
     "spec_temp_range": "vloeistof",
@@ -234,6 +235,7 @@
     "spec_application_desc": "huishoudelijk, industrieel, landbouw, bere-",
     "spec_housing": "gietijzer",
     "spec_material": "stang RVS",
+    "spec_product_title": "RVS\nT",
     "application": "VARIATIES",
     "_enriched": {
       "series_raw": "huishoudelijk, industrieel, landbouw, bere-",
@@ -243,14 +245,13 @@
       "material": null,
       "family_id": null,
       "sku_series": null
-    },
-    "series_image": "images/zuigerpompen/zuigerpompen__p4__huishoudelijk-industrieel-landbouw-bere__x0330__x0330051-x0330138-x0330162.webp",
-    "image": "images/zuigerpompen/zuigerpompen__p4__huishoudelijk-industrieel-landbouw-bere__x0330__x0330051-x0330138-x0330162.webp"
+    }
   },
   {
     "sku": "X0330186",
     "series_id": "huishoudelijk-industrieel-landbouw-bere",
     "series_name": "huishoudelijk, industrieel, landbouw, bere-",
+    "source_pdf": "zuigerpompen.pdf",
     "page": 6,
     "col_0": "X0330186",
     "type_hercules_2000": "HERCULES 4000",
@@ -261,7 +262,7 @@
     "steek_1": "5/4”",
     "opv_hoogte_40_m": "40 m",
     "inhoud_vat_300l": "300L",
-    "col_9": "9 m",
+    "lengte": "9 m",
     "type": "huishoudelijk_industrieel_landbouw_bere",
     "spec_liquid_temp_range": "maximum 50°C",
     "spec_temp_range": "vloeistof",
@@ -270,6 +271,7 @@
     "spec_application_desc": "huishoudelijk, industrieel, landbouw, bere-",
     "spec_housing": "gietijzer",
     "spec_material": "stang RVS",
+    "spec_product_title": "RVS\nT",
     "application": "VARIATIES",
     "_enriched": {
       "series_raw": "huishoudelijk, industrieel, landbouw, bere-",
@@ -279,14 +281,13 @@
       "material": null,
       "family_id": null,
       "sku_series": null
-    },
-    "series_image": "images/zuigerpompen/zuigerpompen__p6__huishoudelijk-industrieel-landbouw-bere__x0330__x0330186-x0330255.webp",
-    "image": "images/zuigerpompen/zuigerpompen__p6__huishoudelijk-industrieel-landbouw-bere__x0330__x0330186-x0330255.webp"
+    }
   },
   {
     "sku": "X0330187",
     "series_id": "huishoudelijk-industrieel-landbouw-bere",
     "series_name": "huishoudelijk, industrieel, landbouw, bere-",
+    "source_pdf": "zuigerpompen.pdf",
     "page": 5,
     "col_0": "X0330187",
     "type_hercules_1500": "HERCULES 6000",
@@ -297,7 +298,7 @@
     "steek_1": "5/4”",
     "opv_hoogte_40_m": "40 m",
     "inhoud_vat_100l": "300L",
-    "col_9": "9 m",
+    "lengte": "9 m",
     "type": "huishoudelijk_industrieel_landbouw_bere",
     "spec_liquid_temp_range": "maximum 50°C",
     "spec_temp_range": "vloeistof",
@@ -306,6 +307,7 @@
     "spec_application_desc": "huishoudelijk, industrieel, landbouw, bere-",
     "spec_housing": "gietijzer",
     "spec_material": "stang RVS",
+    "spec_product_title": "RVS\nT",
     "application": "VARIATIES",
     "_enriched": {
       "series_raw": "huishoudelijk, industrieel, landbouw, bere-",
@@ -315,14 +317,13 @@
       "material": null,
       "family_id": null,
       "sku_series": null
-    },
-    "series_image": "images/zuigerpompen/zuigerpompen__p5__huishoudelijk-industrieel-landbouw-bere__x0330__x0330139-x0330143-x0330154.webp",
-    "image": "images/zuigerpompen/zuigerpompen__p5__huishoudelijk-industrieel-landbouw-bere__x0330__x0330139-x0330143-x0330154.webp"
+    }
   },
   {
     "sku": "X0330207",
     "series_id": "huishoudelijk-industrieel-landbouw-bere",
     "series_name": "huishoudelijk, industrieel, landbouw, bere-",
+    "source_pdf": "zuigerpompen.pdf",
     "page": 5,
     "col_0": "X0330207",
     "type_hercules_1500": "HERCULES 4000",
@@ -333,7 +334,7 @@
     "steek_1": "5/4”",
     "opv_hoogte_40_m": "40 m",
     "inhoud_vat_100l": "500L",
-    "col_9": "9 m",
+    "lengte": "9 m",
     "type": "huishoudelijk_industrieel_landbouw_bere",
     "spec_liquid_temp_range": "maximum 50°C",
     "spec_temp_range": "vloeistof",
@@ -342,6 +343,7 @@
     "spec_application_desc": "huishoudelijk, industrieel, landbouw, bere-",
     "spec_housing": "gietijzer",
     "spec_material": "stang RVS",
+    "spec_product_title": "RVS\nT",
     "application": "VARIATIES",
     "_enriched": {
       "series_raw": "huishoudelijk, industrieel, landbouw, bere-",
@@ -351,14 +353,13 @@
       "material": null,
       "family_id": null,
       "sku_series": null
-    },
-    "series_image": "images/zuigerpompen/zuigerpompen__p5__huishoudelijk-industrieel-landbouw-bere__x0330__x0330139-x0330143-x0330154.webp",
-    "image": "images/zuigerpompen/zuigerpompen__p5__huishoudelijk-industrieel-landbouw-bere__x0330__x0330139-x0330143-x0330154.webp"
+    }
   },
   {
     "sku": "X0330219",
     "series_id": "huishoudelijk-industrieel-landbouw-bere",
     "series_name": "huishoudelijk, industrieel, landbouw, bere-",
+    "source_pdf": "zuigerpompen.pdf",
     "page": 5,
     "col_0": "X0330219",
     "type_hercules_1500": "HERCULES 3000",
@@ -369,7 +370,7 @@
     "steek_1": "1”",
     "opv_hoogte_40_m": "40 m",
     "inhoud_vat_100l": "200L",
-    "col_9": "9 m",
+    "lengte": "9 m",
     "type": "huishoudelijk_industrieel_landbouw_bere",
     "spec_liquid_temp_range": "maximum 50°C",
     "spec_temp_range": "vloeistof",
@@ -378,6 +379,7 @@
     "spec_application_desc": "huishoudelijk, industrieel, landbouw, bere-",
     "spec_housing": "gietijzer",
     "spec_material": "stang RVS",
+    "spec_product_title": "RVS\nT",
     "application": "VARIATIES",
     "_enriched": {
       "series_raw": "huishoudelijk, industrieel, landbouw, bere-",
@@ -387,14 +389,13 @@
       "material": null,
       "family_id": null,
       "sku_series": null
-    },
-    "series_image": "images/zuigerpompen/zuigerpompen__p5__huishoudelijk-industrieel-landbouw-bere__x0330__x0330139-x0330143-x0330154.webp",
-    "image": "images/zuigerpompen/zuigerpompen__p5__huishoudelijk-industrieel-landbouw-bere__x0330__x0330139-x0330143-x0330154.webp"
+    }
   },
   {
     "sku": "X0330243",
     "series_id": "huishoudelijk-industrieel-landbouw-bere",
     "series_name": "huishoudelijk, industrieel, landbouw, bere-",
+    "source_pdf": "zuigerpompen.pdf",
     "page": 4,
     "col_0": "X0330243",
     "type_hercules_1500": "HERCULES 1500",
@@ -404,7 +405,7 @@
     "aanzuig_1": "1”",
     "steek_1": "1”",
     "opv_hoogte_40_m": "40 m",
-    "col_8": "9 m",
+    "lengte": "9 m",
     "type": "huishoudelijk_industrieel_landbouw_bere",
     "spec_liquid_temp_range": "maximum 50°C",
     "spec_temp_range": "vloeistof",
@@ -413,6 +414,7 @@
     "spec_application_desc": "huishoudelijk, industrieel, landbouw, bere-",
     "spec_housing": "gietijzer",
     "spec_material": "stang RVS",
+    "spec_product_title": "RVS\nT",
     "application": "VARIATIES",
     "_enriched": {
       "series_raw": "huishoudelijk, industrieel, landbouw, bere-",
@@ -422,14 +424,13 @@
       "material": null,
       "family_id": null,
       "sku_series": null
-    },
-    "series_image": "images/zuigerpompen/zuigerpompen__p4__huishoudelijk-industrieel-landbouw-bere__x0330__x0330051-x0330138-x0330162.webp",
-    "image": "images/zuigerpompen/zuigerpompen__p4__huishoudelijk-industrieel-landbouw-bere__x0330__x0330051-x0330138-x0330162.webp"
+    }
   },
   {
     "sku": "X0330254",
     "series_id": "huishoudelijk-industrieel-landbouw-bere",
     "series_name": "huishoudelijk, industrieel, landbouw, bere-",
+    "source_pdf": "zuigerpompen.pdf",
     "page": 5,
     "col_0": "X0330254",
     "type_hercules_1500": "HERCULES 3000",
@@ -440,7 +441,7 @@
     "steek_1": "1”",
     "opv_hoogte_40_m": "40 m",
     "inhoud_vat_100l": "500L",
-    "col_9": "9 m",
+    "lengte": "9 m",
     "type": "huishoudelijk_industrieel_landbouw_bere",
     "spec_liquid_temp_range": "maximum 50°C",
     "spec_temp_range": "vloeistof",
@@ -449,6 +450,7 @@
     "spec_application_desc": "huishoudelijk, industrieel, landbouw, bere-",
     "spec_housing": "gietijzer",
     "spec_material": "stang RVS",
+    "spec_product_title": "RVS\nT",
     "application": "VARIATIES",
     "_enriched": {
       "series_raw": "huishoudelijk, industrieel, landbouw, bere-",
@@ -458,14 +460,13 @@
       "material": null,
       "family_id": null,
       "sku_series": null
-    },
-    "series_image": "images/zuigerpompen/zuigerpompen__p5__huishoudelijk-industrieel-landbouw-bere__x0330__x0330139-x0330143-x0330154.webp",
-    "image": "images/zuigerpompen/zuigerpompen__p5__huishoudelijk-industrieel-landbouw-bere__x0330__x0330139-x0330143-x0330154.webp"
+    }
   },
   {
     "sku": "X0330255",
     "series_id": "huishoudelijk-industrieel-landbouw-bere",
     "series_name": "huishoudelijk, industrieel, landbouw, bere-",
+    "source_pdf": "zuigerpompen.pdf",
     "page": 6,
     "col_0": "X0330255",
     "type_hercules_2000": "HERCULES 7500",
@@ -476,7 +477,7 @@
     "steek_1": "6/4”",
     "opv_hoogte_40_m": "40 m",
     "inhoud_vat_300l": "1000L",
-    "col_9": "9 m",
+    "lengte": "9 m",
     "type": "huishoudelijk_industrieel_landbouw_bere",
     "spec_liquid_temp_range": "maximum 50°C",
     "spec_temp_range": "vloeistof",
@@ -485,6 +486,7 @@
     "spec_application_desc": "huishoudelijk, industrieel, landbouw, bere-",
     "spec_housing": "gietijzer",
     "spec_material": "stang RVS",
+    "spec_product_title": "RVS\nT",
     "application": "VARIATIES",
     "_enriched": {
       "series_raw": "huishoudelijk, industrieel, landbouw, bere-",
@@ -494,14 +496,13 @@
       "material": null,
       "family_id": null,
       "sku_series": null
-    },
-    "series_image": "images/zuigerpompen/zuigerpompen__p6__huishoudelijk-industrieel-landbouw-bere__x0330__x0330186-x0330255.webp",
-    "image": "images/zuigerpompen/zuigerpompen__p6__huishoudelijk-industrieel-landbouw-bere__x0330__x0330186-x0330255.webp"
+    }
   },
   {
     "sku": null,
     "series_id": "huishoudelijk-industrieel-landbouw-bere",
     "series_name": "huishoudelijk, industrieel, landbouw, bere-",
+    "source_pdf": "zuigerpompen.pdf",
     "page": 4,
     "col_0": null,
     "type_hercules_1500": "HERCULES 2000",
@@ -511,7 +512,7 @@
     "aanzuig_1": "1”",
     "steek_1": "1”",
     "opv_hoogte_40_m": "40 m",
-    "col_8": null,
+    "lengte": null,
     "type": "huishoudelijk_industrieel_landbouw_bere",
     "spec_liquid_temp_range": "maximum 50°C",
     "spec_temp_range": "vloeistof",
@@ -520,6 +521,7 @@
     "spec_application_desc": "huishoudelijk, industrieel, landbouw, bere-",
     "spec_housing": "gietijzer",
     "spec_material": "stang RVS",
+    "spec_product_title": "RVS\nT",
     "application": "VARIATIES",
     "_enriched": {
       "series_raw": "huishoudelijk, industrieel, landbouw, bere-",
@@ -529,14 +531,13 @@
       "material": null,
       "family_id": null,
       "sku_series": null
-    },
-    "series_image": "images/zuigerpompen/zuigerpompen__p4__huishoudelijk-industrieel-landbouw-bere__x0330__x0330051-x0330138-x0330162.webp",
-    "image": "images/zuigerpompen/zuigerpompen__p4__huishoudelijk-industrieel-landbouw-bere__x0330__x0330051-x0330138-x0330162.webp"
+    }
   },
   {
     "sku": null,
     "series_id": "huishoudelijk-industrieel-landbouw-bere",
     "series_name": "huishoudelijk, industrieel, landbouw, bere-",
+    "source_pdf": "zuigerpompen.pdf",
     "page": 4,
     "col_0": null,
     "type_hercules_1500": "HERCULES 2500",
@@ -546,7 +547,7 @@
     "aanzuig_1": "5/4”",
     "steek_1": "1”",
     "opv_hoogte_40_m": "40 m",
-    "col_8": null,
+    "lengte": "40 m",
     "type": "huishoudelijk_industrieel_landbouw_bere",
     "spec_liquid_temp_range": "maximum 50°C",
     "spec_temp_range": "vloeistof",
@@ -555,6 +556,7 @@
     "spec_application_desc": "huishoudelijk, industrieel, landbouw, bere-",
     "spec_housing": "gietijzer",
     "spec_material": "stang RVS",
+    "spec_product_title": "RVS\nT",
     "application": "VARIATIES",
     "_enriched": {
       "series_raw": "huishoudelijk, industrieel, landbouw, bere-",
@@ -564,14 +566,13 @@
       "material": null,
       "family_id": null,
       "sku_series": null
-    },
-    "series_image": "images/zuigerpompen/zuigerpompen__p4__huishoudelijk-industrieel-landbouw-bere__x0330__x0330051-x0330138-x0330162.webp",
-    "image": "images/zuigerpompen/zuigerpompen__p4__huishoudelijk-industrieel-landbouw-bere__x0330__x0330051-x0330138-x0330162.webp"
+    }
   },
   {
     "sku": null,
     "series_id": "huishoudelijk-industrieel-landbouw-bere",
     "series_name": "huishoudelijk, industrieel, landbouw, bere-",
+    "source_pdf": "zuigerpompen.pdf",
     "page": 4,
     "col_0": null,
     "type_hercules_1500": "HERCULES 3000",
@@ -581,7 +582,7 @@
     "aanzuig_1": "5/4”",
     "steek_1": "1”",
     "opv_hoogte_40_m": "40 m",
-    "col_8": null,
+    "lengte": "40 m",
     "type": "huishoudelijk_industrieel_landbouw_bere",
     "spec_liquid_temp_range": "maximum 50°C",
     "spec_temp_range": "vloeistof",
@@ -590,6 +591,7 @@
     "spec_application_desc": "huishoudelijk, industrieel, landbouw, bere-",
     "spec_housing": "gietijzer",
     "spec_material": "stang RVS",
+    "spec_product_title": "RVS\nT",
     "application": "VARIATIES",
     "_enriched": {
       "series_raw": "huishoudelijk, industrieel, landbouw, bere-",
@@ -599,14 +601,13 @@
       "material": null,
       "family_id": null,
       "sku_series": null
-    },
-    "series_image": "images/zuigerpompen/zuigerpompen__p4__huishoudelijk-industrieel-landbouw-bere__x0330__x0330051-x0330138-x0330162.webp",
-    "image": "images/zuigerpompen/zuigerpompen__p4__huishoudelijk-industrieel-landbouw-bere__x0330__x0330051-x0330138-x0330162.webp"
+    }
   },
   {
     "sku": null,
     "series_id": "huishoudelijk-industrieel-landbouw-bere",
     "series_name": "huishoudelijk, industrieel, landbouw, bere-",
+    "source_pdf": "zuigerpompen.pdf",
     "page": 4,
     "col_0": null,
     "type_hercules_1500": "HERCULES 5000",
@@ -616,7 +617,7 @@
     "aanzuig_1": "6/4”",
     "steek_1": "5/4”",
     "opv_hoogte_40_m": "40 m",
-    "col_8": null,
+    "lengte": "40 m",
     "type": "huishoudelijk_industrieel_landbouw_bere",
     "spec_liquid_temp_range": "maximum 50°C",
     "spec_temp_range": "vloeistof",
@@ -625,6 +626,7 @@
     "spec_application_desc": "huishoudelijk, industrieel, landbouw, bere-",
     "spec_housing": "gietijzer",
     "spec_material": "stang RVS",
+    "spec_product_title": "RVS\nT",
     "application": "VARIATIES",
     "_enriched": {
       "series_raw": "huishoudelijk, industrieel, landbouw, bere-",
@@ -634,14 +636,13 @@
       "material": null,
       "family_id": null,
       "sku_series": null
-    },
-    "series_image": "images/zuigerpompen/zuigerpompen__p4__huishoudelijk-industrieel-landbouw-bere__x0330__x0330051-x0330138-x0330162.webp",
-    "image": "images/zuigerpompen/zuigerpompen__p4__huishoudelijk-industrieel-landbouw-bere__x0330__x0330051-x0330138-x0330162.webp"
+    }
   },
   {
     "sku": null,
     "series_id": "huishoudelijk-industrieel-landbouw-bere",
     "series_name": "huishoudelijk, industrieel, landbouw, bere-",
+    "source_pdf": "zuigerpompen.pdf",
     "page": 4,
     "col_0": null,
     "type_hercules_1500": "HERCULES 7500",
@@ -651,7 +652,7 @@
     "aanzuig_1": "6/4”",
     "steek_1": "6/4”",
     "opv_hoogte_40_m": "40 m",
-    "col_8": null,
+    "lengte": "40 m",
     "type": "huishoudelijk_industrieel_landbouw_bere",
     "spec_liquid_temp_range": "maximum 50°C",
     "spec_temp_range": "vloeistof",
@@ -660,6 +661,7 @@
     "spec_application_desc": "huishoudelijk, industrieel, landbouw, bere-",
     "spec_housing": "gietijzer",
     "spec_material": "stang RVS",
+    "spec_product_title": "RVS\nT",
     "application": "VARIATIES",
     "_enriched": {
       "series_raw": "huishoudelijk, industrieel, landbouw, bere-",
@@ -669,14 +671,13 @@
       "material": null,
       "family_id": null,
       "sku_series": null
-    },
-    "series_image": "images/zuigerpompen/zuigerpompen__p4__huishoudelijk-industrieel-landbouw-bere__x0330__x0330051-x0330138-x0330162.webp",
-    "image": "images/zuigerpompen/zuigerpompen__p4__huishoudelijk-industrieel-landbouw-bere__x0330__x0330051-x0330138-x0330162.webp"
+    }
   },
   {
     "sku": null,
     "series_id": "huishoudelijk-industrieel-landbouw-bere",
     "series_name": "huishoudelijk, industrieel, landbouw, bere-",
+    "source_pdf": "zuigerpompen.pdf",
     "page": 5,
     "col_0": null,
     "type_hercules_1500": "HERCULES 2000",
@@ -687,7 +688,7 @@
     "steek_1": "1”",
     "opv_hoogte_40_m": "40 m",
     "inhoud_vat_100l": "200L",
-    "col_9": null,
+    "lengte": null,
     "type": "huishoudelijk_industrieel_landbouw_bere",
     "spec_liquid_temp_range": "maximum 50°C",
     "spec_temp_range": "vloeistof",
@@ -696,6 +697,7 @@
     "spec_application_desc": "huishoudelijk, industrieel, landbouw, bere-",
     "spec_housing": "gietijzer",
     "spec_material": "stang RVS",
+    "spec_product_title": "RVS\nT",
     "application": "VARIATIES",
     "_enriched": {
       "series_raw": "huishoudelijk, industrieel, landbouw, bere-",
@@ -705,14 +707,13 @@
       "material": null,
       "family_id": null,
       "sku_series": null
-    },
-    "series_image": "images/zuigerpompen/zuigerpompen__p5__huishoudelijk-industrieel-landbouw-bere__x0330__x0330139-x0330143-x0330154.webp",
-    "image": "images/zuigerpompen/zuigerpompen__p5__huishoudelijk-industrieel-landbouw-bere__x0330__x0330139-x0330143-x0330154.webp"
+    }
   },
   {
     "sku": null,
     "series_id": "huishoudelijk-industrieel-landbouw-bere",
     "series_name": "huishoudelijk, industrieel, landbouw, bere-",
+    "source_pdf": "zuigerpompen.pdf",
     "page": 5,
     "col_0": null,
     "type_hercules_1500": "HERCULES 2000",
@@ -723,7 +724,7 @@
     "steek_1": "1”",
     "opv_hoogte_40_m": "40 m",
     "inhoud_vat_100l": "300L",
-    "col_9": null,
+    "lengte": "40 m",
     "type": "huishoudelijk_industrieel_landbouw_bere",
     "spec_liquid_temp_range": "maximum 50°C",
     "spec_temp_range": "vloeistof",
@@ -732,6 +733,7 @@
     "spec_application_desc": "huishoudelijk, industrieel, landbouw, bere-",
     "spec_housing": "gietijzer",
     "spec_material": "stang RVS",
+    "spec_product_title": "RVS\nT",
     "application": "VARIATIES",
     "_enriched": {
       "series_raw": "huishoudelijk, industrieel, landbouw, bere-",
@@ -741,14 +743,13 @@
       "material": null,
       "family_id": null,
       "sku_series": null
-    },
-    "series_image": "images/zuigerpompen/zuigerpompen__p5__huishoudelijk-industrieel-landbouw-bere__x0330__x0330139-x0330143-x0330154.webp",
-    "image": "images/zuigerpompen/zuigerpompen__p5__huishoudelijk-industrieel-landbouw-bere__x0330__x0330139-x0330143-x0330154.webp"
+    }
   },
   {
     "sku": null,
     "series_id": "huishoudelijk-industrieel-landbouw-bere",
     "series_name": "huishoudelijk, industrieel, landbouw, bere-",
+    "source_pdf": "zuigerpompen.pdf",
     "page": 5,
     "col_0": null,
     "type_hercules_1500": "HERCULES 2500",
@@ -759,7 +760,7 @@
     "steek_1": "1”",
     "opv_hoogte_40_m": "40 m",
     "inhoud_vat_100l": "300L",
-    "col_9": null,
+    "lengte": "40 m",
     "type": "huishoudelijk_industrieel_landbouw_bere",
     "spec_liquid_temp_range": "maximum 50°C",
     "spec_temp_range": "vloeistof",
@@ -768,6 +769,7 @@
     "spec_application_desc": "huishoudelijk, industrieel, landbouw, bere-",
     "spec_housing": "gietijzer",
     "spec_material": "stang RVS",
+    "spec_product_title": "RVS\nT",
     "application": "VARIATIES",
     "_enriched": {
       "series_raw": "huishoudelijk, industrieel, landbouw, bere-",
@@ -777,14 +779,13 @@
       "material": null,
       "family_id": null,
       "sku_series": null
-    },
-    "series_image": "images/zuigerpompen/zuigerpompen__p5__huishoudelijk-industrieel-landbouw-bere__x0330__x0330139-x0330143-x0330154.webp",
-    "image": "images/zuigerpompen/zuigerpompen__p5__huishoudelijk-industrieel-landbouw-bere__x0330__x0330139-x0330143-x0330154.webp"
+    }
   },
   {
     "sku": null,
     "series_id": "huishoudelijk-industrieel-landbouw-bere",
     "series_name": "huishoudelijk, industrieel, landbouw, bere-",
+    "source_pdf": "zuigerpompen.pdf",
     "page": 5,
     "col_0": null,
     "type_hercules_1500": "HERCULES 3000",
@@ -795,7 +796,7 @@
     "steek_1": "1”",
     "opv_hoogte_40_m": "40 m",
     "inhoud_vat_100l": "300L",
-    "col_9": null,
+    "lengte": "40 m",
     "type": "huishoudelijk_industrieel_landbouw_bere",
     "spec_liquid_temp_range": "maximum 50°C",
     "spec_temp_range": "vloeistof",
@@ -804,6 +805,7 @@
     "spec_application_desc": "huishoudelijk, industrieel, landbouw, bere-",
     "spec_housing": "gietijzer",
     "spec_material": "stang RVS",
+    "spec_product_title": "RVS\nT",
     "application": "VARIATIES",
     "_enriched": {
       "series_raw": "huishoudelijk, industrieel, landbouw, bere-",
@@ -813,14 +815,13 @@
       "material": null,
       "family_id": null,
       "sku_series": null
-    },
-    "series_image": "images/zuigerpompen/zuigerpompen__p5__huishoudelijk-industrieel-landbouw-bere__x0330__x0330139-x0330143-x0330154.webp",
-    "image": "images/zuigerpompen/zuigerpompen__p5__huishoudelijk-industrieel-landbouw-bere__x0330__x0330139-x0330143-x0330154.webp"
+    }
   },
   {
     "sku": null,
     "series_id": "huishoudelijk-industrieel-landbouw-bere",
     "series_name": "huishoudelijk, industrieel, landbouw, bere-",
+    "source_pdf": "zuigerpompen.pdf",
     "page": 5,
     "col_0": null,
     "type_hercules_1500": "HERCULES 4000",
@@ -831,7 +832,7 @@
     "steek_1": "5/4”",
     "opv_hoogte_40_m": "40 m",
     "inhoud_vat_100l": "300L",
-    "col_9": null,
+    "lengte": "40 m",
     "type": "huishoudelijk_industrieel_landbouw_bere",
     "spec_liquid_temp_range": "maximum 50°C",
     "spec_temp_range": "vloeistof",
@@ -840,6 +841,7 @@
     "spec_application_desc": "huishoudelijk, industrieel, landbouw, bere-",
     "spec_housing": "gietijzer",
     "spec_material": "stang RVS",
+    "spec_product_title": "RVS\nT",
     "application": "VARIATIES",
     "_enriched": {
       "series_raw": "huishoudelijk, industrieel, landbouw, bere-",
@@ -849,14 +851,13 @@
       "material": null,
       "family_id": null,
       "sku_series": null
-    },
-    "series_image": "images/zuigerpompen/zuigerpompen__p5__huishoudelijk-industrieel-landbouw-bere__x0330__x0330139-x0330143-x0330154.webp",
-    "image": "images/zuigerpompen/zuigerpompen__p5__huishoudelijk-industrieel-landbouw-bere__x0330__x0330139-x0330143-x0330154.webp"
+    }
   },
   {
     "sku": null,
     "series_id": "huishoudelijk-industrieel-landbouw-bere",
     "series_name": "huishoudelijk, industrieel, landbouw, bere-",
+    "source_pdf": "zuigerpompen.pdf",
     "page": 5,
     "col_0": null,
     "type_hercules_1500": "HERCULES 5000",
@@ -867,7 +868,7 @@
     "steek_1": "5/4”",
     "opv_hoogte_40_m": "40 m",
     "inhoud_vat_100l": "500L",
-    "col_9": null,
+    "lengte": "0 m",
     "type": "huishoudelijk_industrieel_landbouw_bere",
     "spec_liquid_temp_range": "maximum 50°C",
     "spec_temp_range": "vloeistof",
@@ -876,6 +877,7 @@
     "spec_application_desc": "huishoudelijk, industrieel, landbouw, bere-",
     "spec_housing": "gietijzer",
     "spec_material": "stang RVS",
+    "spec_product_title": "RVS\nT",
     "application": "VARIATIES",
     "_enriched": {
       "series_raw": "huishoudelijk, industrieel, landbouw, bere-",
@@ -885,14 +887,13 @@
       "material": null,
       "family_id": null,
       "sku_series": null
-    },
-    "series_image": "images/zuigerpompen/zuigerpompen__p5__huishoudelijk-industrieel-landbouw-bere__x0330__x0330139-x0330143-x0330154.webp",
-    "image": "images/zuigerpompen/zuigerpompen__p5__huishoudelijk-industrieel-landbouw-bere__x0330__x0330139-x0330143-x0330154.webp"
+    }
   },
   {
     "sku": null,
     "series_id": "huishoudelijk-industrieel-landbouw-bere",
     "series_name": "huishoudelijk, industrieel, landbouw, bere-",
+    "source_pdf": "zuigerpompen.pdf",
     "page": 5,
     "col_0": null,
     "type_hercules_1500": "HERCULES 6000",
@@ -903,7 +904,7 @@
     "steek_1": "5/4”",
     "opv_hoogte_40_m": "40 m",
     "inhoud_vat_100l": "500L",
-    "col_9": null,
+    "lengte": "40 m",
     "type": "huishoudelijk_industrieel_landbouw_bere",
     "spec_liquid_temp_range": "maximum 50°C",
     "spec_temp_range": "vloeistof",
@@ -912,6 +913,7 @@
     "spec_application_desc": "huishoudelijk, industrieel, landbouw, bere-",
     "spec_housing": "gietijzer",
     "spec_material": "stang RVS",
+    "spec_product_title": "RVS\nT",
     "application": "VARIATIES",
     "_enriched": {
       "series_raw": "huishoudelijk, industrieel, landbouw, bere-",
@@ -921,14 +923,13 @@
       "material": null,
       "family_id": null,
       "sku_series": null
-    },
-    "series_image": "images/zuigerpompen/zuigerpompen__p5__huishoudelijk-industrieel-landbouw-bere__x0330__x0330139-x0330143-x0330154.webp",
-    "image": "images/zuigerpompen/zuigerpompen__p5__huishoudelijk-industrieel-landbouw-bere__x0330__x0330139-x0330143-x0330154.webp"
+    }
   },
   {
     "sku": null,
     "series_id": "huishoudelijk-industrieel-landbouw-bere",
     "series_name": "huishoudelijk, industrieel, landbouw, bere-",
+    "source_pdf": "zuigerpompen.pdf",
     "page": 6,
     "col_0": null,
     "type_hercules_2000": "HERCULES 4000",
@@ -939,7 +940,7 @@
     "steek_1": "5/4”",
     "opv_hoogte_40_m": "40 m",
     "inhoud_vat_300l": "500L",
-    "col_9": null,
+    "lengte": "0 m",
     "type": "huishoudelijk_industrieel_landbouw_bere",
     "spec_liquid_temp_range": "maximum 50°C",
     "spec_temp_range": "vloeistof",
@@ -948,6 +949,7 @@
     "spec_application_desc": "huishoudelijk, industrieel, landbouw, bere-",
     "spec_housing": "gietijzer",
     "spec_material": "stang RVS",
+    "spec_product_title": "RVS\nT",
     "application": "VARIATIES",
     "_enriched": {
       "series_raw": "huishoudelijk, industrieel, landbouw, bere-",
@@ -957,8 +959,6 @@
       "material": null,
       "family_id": null,
       "sku_series": null
-    },
-    "series_image": "images/zuigerpompen/zuigerpompen__p6__huishoudelijk-industrieel-landbouw-bere__x0330__x0330186-x0330255.webp",
-    "image": "images/zuigerpompen/zuigerpompen__p6__huishoudelijk-industrieel-landbouw-bere__x0330__x0330186-x0330255.webp"
+    }
   }
 ]

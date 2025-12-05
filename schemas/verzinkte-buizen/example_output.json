@@ -1,0 +1,64 @@
+{
+  "category": "VERZINKTE BUIZEN & FITTINGEN",
+  "product_groups": [
+    {
+      "product_series": {
+        "name": "VERZINKTE BUIS",
+        "subtype": "GLAD",
+        "specifications": {
+          "material": "verzinkt staal",
+          "finish": "glad",
+          "length_per_unit": "6 m",
+          "application": "constructie, leidingwerk"
+        },
+        "variations": [
+          {
+            "order_number": "GB38",
+            "size_inch": "3/8\"",
+            "size_inch_value": 0.375,
+            "wall_thickness_mm": 2.6,
+            "length_m": 6.0
+          }
+        ]
+      }
+    },
+    {
+      "product_series": {
+        "name": "NR 1 - LANGE BOCHT 90° (BIN/BUIT)",
+        "subtype": "lange bocht 90°",
+        "specifications": {
+          "material": "malleabel gietijzer, verzinkt",
+          "connection_system": "draad (threaded)",
+          "angle_degrees": 90,
+          "connection_type": "binnendraad/buitendraad"
+        },
+        "variations": [
+          {
+            "order_number": "ZF118",
+            "size_inch": "1/8\"",
+            "size_inch_value": 0.125
+          }
+        ]
+      }
+    },
+    {
+      "product_series": {
+        "name": "VERZINKTE PIJPNIPPELS (NR 23)",
+        "subtype": "BUITENDRAAD",
+        "specifications": {
+          "material": "verzinkt staal",
+          "type": "pijpnippel",
+          "connection": "buitendraad (male thread)"
+        },
+        "variations": [
+          {
+            "order_number": "BUL12060",
+            "size_inch": "1/2",
+            "size_inch_value": 0.5,
+            "length_mm": 60
+          }
+        ]
+      }
+    }
+  ]
+}

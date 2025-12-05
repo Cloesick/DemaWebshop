@@ -821,6 +821,63 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
+## 📄 PDF Product Catalog Extraction
+
+The project includes a powerful PDF extraction tool (`old_analyze_product_pdfs.py`) that automatically extracts product data from supplier PDF catalogs and converts them to structured JSON for the webshop.
+
+### Features
+
+- **Multi-PDF Support**: Processes 26+ different PDF catalog formats
+- **Smart Table Extraction**: Uses `pdfplumber` with custom repair logic for alternating row colors
+- **SKU Detection**: Extracts product codes from various column formats
+- **Property Extraction**: Captures dimensions, pressure ratings, materials, angles, and more
+- **Context Inheritance**: Products inherit specs from section headers and above-table text
+- **Angle Detection**: Automatically extracts pipe angles (15°, 22°, 30°, 45°, 90°) from series names
+
+### Extraction Statistics
+
+| Metric | Value |
+|--------|-------|
+| Total Records | ~14,400 |
+| Records with SKU | ~13,300 |
+| Unique SKUs | ~10,400 |
+| Extraction Rate | 97.5% |
+| Products with Angle | 945 |
+
+### Usage
+
+```bash
+# Extract all PDFs
+python old_analyze_product_pdfs.py --pdf-dir "dema-webshop/public/documents/Product_pdfs"
+
+# Output JSON files are written to:
+# dema-webshop/public/documents/Product_pdfs/json/
+```
+
+### Supported PDF Catalogs
+
+- **Pipes & Fittings**: abs-persluchtbuizen, drukbuizen, pe-buizen, kunststof-afvoerleidingen
+- **Pumps**: bronpompen, centrifugaalpompen, dompelpompen, zuigerpompen
+- **Compressors**: airpress-catalogus-eng, airpress-catalogus-nl-fr
+- **Fittings**: messing-draadfittingen, rvs-draadfittingen, zwarte-draad-en-lasfittingen
+- **Hoses & Couplings**: rubber-slangen, slangkoppelingen, slangklemmen
+- **Power Tools**: makita-catalogus, kranzle-catalogus
+- **And more...**
+
+### Output Format
+
+Each product record includes:
+- `sku`: Canonical product code
+- `series_name`: Product category/series
+- `maat`: Size/dimensions
+- `werkdruk`: Working pressure (for pipes)
+- `angle`: Pipe angle (15°, 22°, 30°, 45°, 90°)
+- `lengte`: Length
+- `type`: Product type classification
+- `source_pdf`: Source catalog reference
+
+---
+
 <div align="center">
   Made with ❤️ by DemaShop Team
 </div>

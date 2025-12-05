@@ -3,6 +3,7 @@
     "sku": "02350025",
     "series_id": "huishoudelijk-landbouw-industrie",
     "series_name": "huishoudelijk, landbouw, industrie",
+    "source_pdf": "pomp-specials.pdf",
     "page": 18,
     "col_0": "02350025",
     "type": "Messing",
@@ -10,12 +11,13 @@
     "aansluiting": "1/2”",
     "aanzuigdiepte_m": "6 m",
     "opv_hoogte_m": "20 m",
-    "col_6": "1,392 kg",
+    "lengte": "1,392 kg",
     "spec_liquid_temp_range": "P-serie: max. 35°C /",
     "spec_temp_range": "vloeistof",
     "spec_max_pressure": "2 - 4 bar",
     "spec_application_desc": "huishoudelijk, landbouw, industrie",
     "spec_housing": "Kunststof / Messing",
+    "spec_product_variant": "met behulp",
     "application": "VARIATIES",
     "_enriched": {
       "series_raw": "huishoudelijk, landbouw, industrie",
@@ -25,14 +27,13 @@
       "material": null,
       "family_id": null,
       "sku_series": null
-    },
-    "series_image": "images/pomp-specials/pomp-specials__p18__huishoudelijk-landbouw-industrie__02350025__02350025-09050229-x1106034.webp",
-    "image": "images/pomp-specials/pomp-specials__p18__huishoudelijk-landbouw-industrie__02350025__02350025-09050229-x1106034.webp"
+    }
   },
   {
     "sku": "09050229",
     "series_id": "variaties",
     "series_name": "VARIATIES",
+    "source_pdf": "pomp-specials.pdf",
     "page": 18,
     "col_0": "09050229",
     "type": "S3",
@@ -43,11 +44,12 @@
     "aansluiting_mm": "11,5 mm",
     "opv_hoogte": "0,21 m",
     "pomp_dia_mm": "85 mm",
-    "col_9": "2,5 kg",
+    "lengte": "2,5 kg",
     "spec_liquid_temp_range": "maximum 35°C",
     "spec_temp_range": "vloeistof",
     "spec_application_desc": "industrie, bouw",
     "spec_housing": "Technopolymeer",
+    "spec_product_title": "PE S",
     "application": "VARIATIES",
     "_enriched": {
       "series_raw": "VARIATIES",
@@ -57,14 +59,39 @@
       "material": null,
       "family_id": null,
       "sku_series": "s"
-    },
-    "series_image": "images/pomp-specials/pomp-specials__p18__huishoudelijk-landbouw-industrie__02350025__02350025-09050229-x1106034.webp",
-    "image": "images/pomp-specials/pomp-specials__p18__huishoudelijk-landbouw-industrie__02350025__02350025-09050229-x1106034.webp"
+    }
+  },
+  {
+    "sku": "1,5 m3/h",
+    "series_id": "landbouw-industrie-maritie",
+    "series_name": "landbouw, industrie, maritie",
+    "source_pdf": "pomp-specials.pdf",
+    "page": 17,
+    "col_0": "1,5 m3/h",
+    "col_1": "3/4”",
+    "col_2": "3 m",
+    "lengte": "20 m",
+    "type": "landbouw_industrie_maritie",
+    "spec_liquid_temp_range": "maximum 40°C",
+    "spec_temp_range": "vloeistof",
+    "spec_application_desc": "landbouw, industrie, maritiem",
+    "spec_housing": "Aluminium",
+    "application": "VARIATIES",
+    "_enriched": {
+      "series_raw": "landbouw, industrie, maritie",
+      "series": "landbouw-industrie-maritie",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null
+    }
   },
   {
     "sku": "13520005",
     "series_id": "industrie-bouw-landbouw-maritiem",
     "series_name": "industrie, bouw, landbouw, maritiem",
+    "source_pdf": "pomp-specials.pdf",
     "page": 16,
     "col_0": "13520005",
     "type": "K5",
@@ -73,11 +100,12 @@
     "aanzuigdiepte_m": "7 m",
     "opv_hoogte_m": "25 m",
     "aansluiting": "6/4”",
-    "col_7": "-",
+    "lengte": "-",
     "spec_liquid_temp_range": "maximum 40°C",
     "spec_temp_range": "vloeistof",
     "spec_application_desc": "industrie, bouw, landbouw, maritiem",
     "spec_housing": "Gietijzer",
+    "spec_product_variant": "met vrije",
     "application": "VARIATIES",
     "_enriched": {
       "series_raw": "industrie, bouw, landbouw, maritiem",
@@ -87,14 +115,13 @@
       "material": null,
       "family_id": null,
       "sku_series": "k"
-    },
-    "series_image": "images/pomp-specials/pomp-specials__p16__industrie-bouw-landbouw-maritiem__1__13520005-13730115-19220101.webp",
-    "image": "images/pomp-specials/pomp-specials__p16__industrie-bouw-landbouw-maritiem__1__13520005-13730115-19220101.webp"
+    }
   },
   {
     "sku": "13520047",
     "series_id": "industrie-bouw-landbouw-maritiem",
     "series_name": "industrie, bouw, landbouw, maritiem",
+    "source_pdf": "pomp-specials.pdf",
     "page": 12,
     "col_0": "13520047",
     "type": "Panther 72",
@@ -115,14 +142,13 @@
       "material": null,
       "family_id": null,
       "sku_series": null
-    },
-    "series_image": "images/pomp-specials/pomp-specials__p12__industrie-bouw-landbouw-maritiem__13520__13520047-13520108-13520109.webp",
-    "image": "images/pomp-specials/pomp-specials__p12__industrie-bouw-landbouw-maritiem__13520__13520047-13520108-13520109.webp"
+    }
   },
   {
     "sku": "13520048",
     "series_id": "industrie-bouw-landbouw-maritiem",
     "series_name": "industrie, bouw, landbouw, maritiem",
+    "source_pdf": "pomp-specials.pdf",
     "page": 13,
     "col_0": "13520048",
     "type_pomp": "Panther 56",
@@ -131,8 +157,8 @@
     "aanzuig": "1”",
     "filter": "nee",
     "teller": "ja",
-    "col_7": "18,0 kg",
     "type": "industrie_bouw_landbouw_maritiem",
+    "weight_kg": "18,0 kg",
     "spec_liquid_temp_range": "maximum 40°C",
     "spec_temp_range": "vloeistof",
     "spec_application_desc": "industrie, bouw, landbouw, maritiem",
@@ -146,21 +172,20 @@
       "material": null,
       "family_id": null,
       "sku_series": null
-    },
-    "series_image": "images/pomp-specials/pomp-specials__p13__industrie-bouw-landbouw-maritiem__13520048__13520048.webp",
-    "image": "images/pomp-specials/pomp-specials__p13__industrie-bouw-landbouw-maritiem__13520048__13520048.webp"
+    }
   },
   {
     "sku": "13520104",
     "series_id": "auto-motor-boot",
     "series_name": "auto, motor, boot",
+    "source_pdf": "pomp-specials.pdf",
     "page": 17,
     "col_0": "13520104",
     "debiet_l_m": "12 l/m",
     "vatgrootte_l": "60 - 200l",
     "type_aanzuiging": "Handpomp",
-    "col_4": "2,0 kg",
     "type": "auto_motor_boot",
+    "weight_kg": "2,0 kg",
     "spec_liquid_temp_range": "maximum 35°C",
     "spec_temp_range": "vloeistof",
     "spec_application_desc": "auto, motor, boot",
@@ -174,14 +199,13 @@
       "material": null,
       "family_id": null,
       "sku_series": null
-    },
-    "series_image": "images/pomp-specials/pomp-specials__p17__auto-motor-boot__13520104__13520104.webp",
-    "image": "images/pomp-specials/pomp-specials__p17__auto-motor-boot__13520104__13520104.webp"
+    }
   },
   {
     "sku": "13520108",
     "series_id": "industrie-bouw-landbouw",
     "series_name": "industrie, bouw, landbouw",
+    "source_pdf": "pomp-specials.pdf",
     "page": 12,
     "col_0": "13520108",
     "type_basic": "BASIC",
@@ -192,7 +216,7 @@
     "slang_m_4_m": "4 m",
     "filter_geen": "Geen",
     "hand_schoen_nee": "Nee",
-    "col_9": "9,5 kg",
+    "lengte": "9,5 kg",
     "type": "industrie_bouw_landbouw",
     "spec_liquid_temp_range": "maximum 35°C",
     "spec_temp_range": "vloeistof",
@@ -207,14 +231,13 @@
       "material": null,
       "family_id": null,
       "sku_series": null
-    },
-    "series_image": "images/pomp-specials/pomp-specials__p12__industrie-bouw-landbouw-maritiem__13520__13520047-13520108-13520109.webp",
-    "image": "images/pomp-specials/pomp-specials__p12__industrie-bouw-landbouw-maritiem__13520__13520047-13520108-13520109.webp"
+    }
   },
   {
     "sku": "13520109",
     "series_id": "industrie-bouw-landbouw",
     "series_name": "industrie, bouw, landbouw",
+    "source_pdf": "pomp-specials.pdf",
     "page": 12,
     "col_0": "13520109",
     "type_basic": "PRO",
@@ -225,7 +248,7 @@
     "slang_m_4_m": "6 m",
     "filter_geen": "10 µ",
     "hand_schoen_nee": "Ja",
-    "col_9": "12,0 kg",
+    "lengte": "12,0 kg",
     "type": "industrie_bouw_landbouw",
     "spec_liquid_temp_range": "maximum 35°C",
     "spec_temp_range": "vloeistof",
@@ -240,14 +263,13 @@
       "material": null,
       "family_id": null,
       "sku_series": null
-    },
-    "series_image": "images/pomp-specials/pomp-specials__p12__industrie-bouw-landbouw-maritiem__13520__13520047-13520108-13520109.webp",
-    "image": "images/pomp-specials/pomp-specials__p12__industrie-bouw-landbouw-maritiem__13520__13520047-13520108-13520109.webp"
+    }
   },
   {
     "sku": "13730115",
     "series_id": "industrie-bouw-landbouw-maritiem",
     "series_name": "industrie, bouw, landbouw, maritiem",
+    "source_pdf": "pomp-specials.pdf",
     "page": 16,
     "col_0": "13730115",
     "type": "K1",
@@ -256,11 +278,12 @@
     "aanzuigdiepte_m": "7 m",
     "opv_hoogte_m": "25 m",
     "aansluiting": "3/4”",
-    "col_7": "5,2 kg",
+    "lengte": "5,2 kg",
     "spec_liquid_temp_range": "maximum 40°C",
     "spec_temp_range": "vloeistof",
     "spec_application_desc": "industrie, bouw, landbouw, maritiem",
     "spec_housing": "Gietijzer",
+    "spec_product_variant": "met vrije",
     "application": "VARIATIES",
     "_enriched": {
       "series_raw": "industrie, bouw, landbouw, maritiem",
@@ -270,14 +293,13 @@
       "material": null,
       "family_id": null,
       "sku_series": "k"
-    },
-    "series_image": "images/pomp-specials/pomp-specials__p16__industrie-bouw-landbouw-maritiem__1__13520005-13730115-19220101.webp",
-    "image": "images/pomp-specials/pomp-specials__p16__industrie-bouw-landbouw-maritiem__1__13520005-13730115-19220101.webp"
+    }
   },
   {
     "sku": "17130004",
     "series_id": "irrigatie-landbouw",
     "series_name": "irrigatie, landbouw",
+    "source_pdf": "pomp-specials.pdf",
     "page": 4,
     "brand": "Rovatti",
     "col_0": "17130004",
@@ -294,6 +316,7 @@
     "spec_housing": "Gietijzer",
     "spec_impeller_material": "Gietijzer",
     "spec_material": "waaier Gietijzer",
+    "spec_product_variant": "met vaste",
     "application": "VARIATIES",
     "_enriched": {
       "series_raw": "irrigatie, landbouw",
@@ -303,14 +326,13 @@
       "material": null,
       "family_id": null,
       "sku_series": "t"
-    },
-    "series_image": "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130__17130004-17130014-17130028.webp",
-    "image": "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130__17130004-17130014-17130028.webp"
+    }
   },
   {
     "sku": "17130014",
     "series_id": "irrigatie-landbouw",
     "series_name": "irrigatie, landbouw",
+    "source_pdf": "pomp-specials.pdf",
     "page": 4,
     "brand": "Rovatti",
     "col_0": "17130014",
@@ -327,6 +349,7 @@
     "spec_housing": "Gietijzer",
     "spec_impeller_material": "Gietijzer",
     "spec_material": "waaier Gietijzer",
+    "spec_product_variant": "met vaste",
     "application": "VARIATIES",
     "_enriched": {
       "series_raw": "irrigatie, landbouw",
@@ -336,14 +359,13 @@
       "material": null,
       "family_id": null,
       "sku_series": "t"
-    },
-    "series_image": "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130__17130004-17130014-17130028.webp",
-    "image": "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130__17130004-17130014-17130028.webp"
+    }
   },
   {
     "sku": "17130028",
     "series_id": "irrigatie-landbouw",
     "series_name": "irrigatie, landbouw",
+    "source_pdf": "pomp-specials.pdf",
     "page": 4,
     "brand": "Rovatti",
     "col_0": "17130028",
@@ -360,6 +382,7 @@
     "spec_housing": "Gietijzer",
     "spec_impeller_material": "Gietijzer",
     "spec_material": "waaier Gietijzer",
+    "spec_product_variant": "met vaste",
     "application": "VARIATIES",
     "_enriched": {
       "series_raw": "irrigatie, landbouw",
@@ -369,14 +392,13 @@
       "material": null,
       "family_id": null,
       "sku_series": "t"
-    },
-    "series_image": "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130__17130004-17130014-17130028.webp",
-    "image": "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130__17130004-17130014-17130028.webp"
+    }
   },
   {
     "sku": "17130210",
     "series_id": "tractorpompen",
     "series_name": "TRACTORPOMPEN",
+    "source_pdf": "pomp-specials.pdf",
     "page": 5,
     "col_0": "17130210",
     "type": "T4-110",
@@ -399,6 +421,7 @@
     "sku": "17130227",
     "series_id": "irrigatie-landbouw",
     "series_name": "irrigatie, landbouw",
+    "source_pdf": "pomp-specials.pdf",
     "page": 4,
     "brand": "Rovatti",
     "col_0": "17130227",
@@ -415,6 +438,7 @@
     "spec_housing": "Gietijzer",
     "spec_impeller_material": "Gietijzer",
     "spec_material": "waaier Gietijzer",
+    "spec_product_variant": "met vaste",
     "application": "VARIATIES",
     "_enriched": {
       "series_raw": "irrigatie, landbouw",
@@ -424,14 +448,13 @@
       "material": null,
       "family_id": null,
       "sku_series": "t"
-    },
-    "series_image": "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130__17130004-17130014-17130028.webp",
-    "image": "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130__17130004-17130014-17130028.webp"
+    }
   },
   {
     "sku": "17130233",
     "series_id": "irrigatie-landbouw",
     "series_name": "irrigatie, landbouw",
+    "source_pdf": "pomp-specials.pdf",
     "page": 4,
     "brand": "Rovatti",
     "col_0": "17130233",
@@ -448,6 +471,7 @@
     "spec_housing": "Gietijzer",
     "spec_impeller_material": "Gietijzer",
     "spec_material": "waaier Gietijzer",
+    "spec_product_variant": "met vaste",
     "application": "VARIATIES",
     "_enriched": {
       "series_raw": "irrigatie, landbouw",
@@ -457,14 +481,13 @@
       "material": null,
       "family_id": null,
       "sku_series": "t"
-    },
-    "series_image": "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130__17130004-17130014-17130028.webp",
-    "image": "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130__17130004-17130014-17130028.webp"
+    }
   },
   {
     "sku": "17130234",
     "series_id": "tractorpompen",
     "series_name": "TRACTORPOMPEN",
+    "source_pdf": "pomp-specials.pdf",
     "page": 5,
     "col_0": "17130234",
     "type": "T4-100",
@@ -487,6 +510,7 @@
     "sku": "17130290",
     "series_id": "irrigatie-landbouw",
     "series_name": "irrigatie, landbouw",
+    "source_pdf": "pomp-specials.pdf",
     "page": 4,
     "brand": "Rovatti",
     "col_0": "17130290",
@@ -503,6 +527,7 @@
     "spec_housing": "Gietijzer",
     "spec_impeller_material": "Gietijzer",
     "spec_material": "waaier Gietijzer",
+    "spec_product_variant": "met vaste",
     "application": "VARIATIES",
     "_enriched": {
       "series_raw": "irrigatie, landbouw",
@@ -512,14 +537,13 @@
       "material": null,
       "family_id": null,
       "sku_series": "t"
-    },
-    "series_image": "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130__17130004-17130014-17130028.webp",
-    "image": "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130__17130004-17130014-17130028.webp"
+    }
   },
   {
     "sku": "17130292",
     "series_id": "irrigatie-landbouw",
     "series_name": "irrigatie, landbouw",
+    "source_pdf": "pomp-specials.pdf",
     "page": 4,
     "brand": "Rovatti",
     "col_0": "17130292",
@@ -536,6 +560,7 @@
     "spec_housing": "Gietijzer",
     "spec_impeller_material": "Gietijzer",
     "spec_material": "waaier Gietijzer",
+    "spec_product_variant": "met vaste",
     "application": "VARIATIES",
     "_enriched": {
       "series_raw": "irrigatie, landbouw",
@@ -545,14 +570,13 @@
       "material": null,
       "family_id": null,
       "sku_series": "t"
-    },
-    "series_image": "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130__17130004-17130014-17130028.webp",
-    "image": "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130__17130004-17130014-17130028.webp"
+    }
   },
   {
     "sku": "17130294",
     "series_id": "irrigatie-landbouw",
     "series_name": "irrigatie, landbouw",
+    "source_pdf": "pomp-specials.pdf",
     "page": 4,
     "brand": "Rovatti",
     "col_0": "17130294",
@@ -569,6 +593,7 @@
     "spec_housing": "Gietijzer",
     "spec_impeller_material": "Gietijzer",
     "spec_material": "waaier Gietijzer",
+    "spec_product_variant": "met vaste",
     "application": "VARIATIES",
     "_enriched": {
       "series_raw": "irrigatie, landbouw",
@@ -578,14 +603,13 @@
       "material": null,
       "family_id": null,
       "sku_series": "t"
-    },
-    "series_image": "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130__17130004-17130014-17130028.webp",
-    "image": "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130__17130004-17130014-17130028.webp"
+    }
   },
   {
     "sku": "17130297",
     "series_id": "irrigatie-landbouw",
     "series_name": "irrigatie, landbouw",
+    "source_pdf": "pomp-specials.pdf",
     "page": 4,
     "brand": "Rovatti",
     "col_0": "17130297",
@@ -602,6 +626,7 @@
     "spec_housing": "Gietijzer",
     "spec_impeller_material": "Gietijzer",
     "spec_material": "waaier Gietijzer",
+    "spec_product_variant": "met vaste",
     "application": "VARIATIES",
     "_enriched": {
       "series_raw": "irrigatie, landbouw",
@@ -611,14 +636,13 @@
       "material": null,
       "family_id": null,
       "sku_series": "t"
-    },
-    "series_image": "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130__17130004-17130014-17130028.webp",
-    "image": "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130__17130004-17130014-17130028.webp"
+    }
   },
   {
     "sku": "17130302",
     "series_id": "irrigatie-landbouw",
     "series_name": "irrigatie, landbouw",
+    "source_pdf": "pomp-specials.pdf",
     "page": 4,
     "brand": "Rovatti",
     "col_0": "17130302",
@@ -635,6 +659,7 @@
     "spec_housing": "Gietijzer",
     "spec_impeller_material": "Gietijzer",
     "spec_material": "waaier Gietijzer",
+    "spec_product_variant": "met vaste",
     "application": "VARIATIES",
     "_enriched": {
       "series_raw": "irrigatie, landbouw",
@@ -644,14 +669,13 @@
       "material": null,
       "family_id": null,
       "sku_series": "t"
-    },
-    "series_image": "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130__17130004-17130014-17130028.webp",
-    "image": "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130__17130004-17130014-17130028.webp"
+    }
   },
   {
     "sku": "17130304",
     "series_id": "irrigatie-landbouw",
     "series_name": "irrigatie, landbouw",
+    "source_pdf": "pomp-specials.pdf",
     "page": 4,
     "brand": "Rovatti",
     "col_0": "17130304",
@@ -668,6 +692,7 @@
     "spec_housing": "Gietijzer",
     "spec_impeller_material": "Gietijzer",
     "spec_material": "waaier Gietijzer",
+    "spec_product_variant": "met vaste",
     "application": "VARIATIES",
     "_enriched": {
       "series_raw": "irrigatie, landbouw",
@@ -677,14 +702,13 @@
       "material": null,
       "family_id": null,
       "sku_series": "t"
-    },
-    "series_image": "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130__17130004-17130014-17130028.webp",
-    "image": "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130__17130004-17130014-17130028.webp"
+    }
   },
   {
     "sku": "17130306",
     "series_id": "irrigatie-landbouw",
     "series_name": "irrigatie, landbouw",
+    "source_pdf": "pomp-specials.pdf",
     "page": 4,
     "brand": "Rovatti",
     "col_0": "17130306",
@@ -701,6 +725,7 @@
     "spec_housing": "Gietijzer",
     "spec_impeller_material": "Gietijzer",
     "spec_material": "waaier Gietijzer",
+    "spec_product_variant": "met vaste",
     "application": "VARIATIES",
     "_enriched": {
       "series_raw": "irrigatie, landbouw",
@@ -710,14 +735,13 @@
       "material": null,
       "family_id": null,
       "sku_series": "t"
-    },
-    "series_image": "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130__17130004-17130014-17130028.webp",
-    "image": "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130__17130004-17130014-17130028.webp"
+    }
   },
   {
     "sku": "17130308",
     "series_id": "irrigatie-landbouw",
     "series_name": "irrigatie, landbouw",
+    "source_pdf": "pomp-specials.pdf",
     "page": 4,
     "brand": "Rovatti",
     "col_0": "17130308",
@@ -734,6 +758,7 @@
     "spec_housing": "Gietijzer",
     "spec_impeller_material": "Gietijzer",
     "spec_material": "waaier Gietijzer",
+    "spec_product_variant": "met vaste",
     "application": "VARIATIES",
     "_enriched": {
       "series_raw": "irrigatie, landbouw",
@@ -743,14 +768,13 @@
       "material": null,
       "family_id": null,
       "sku_series": "t"
-    },
-    "series_image": "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130__17130004-17130014-17130028.webp",
-    "image": "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130__17130004-17130014-17130028.webp"
+    }
   },
   {
     "sku": "17130310",
     "series_id": "irrigatie-landbouw",
     "series_name": "irrigatie, landbouw",
+    "source_pdf": "pomp-specials.pdf",
     "page": 4,
     "brand": "Rovatti",
     "col_0": "17130310",
@@ -767,6 +791,7 @@
     "spec_housing": "Gietijzer",
     "spec_impeller_material": "Gietijzer",
     "spec_material": "waaier Gietijzer",
+    "spec_product_variant": "met vaste",
     "application": "VARIATIES",
     "_enriched": {
       "series_raw": "irrigatie, landbouw",
@@ -776,14 +801,13 @@
       "material": null,
       "family_id": null,
       "sku_series": "t"
-    },
-    "series_image": "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130__17130004-17130014-17130028.webp",
-    "image": "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130__17130004-17130014-17130028.webp"
+    }
   },
   {
     "sku": "17130312",
     "series_id": "irrigatie-landbouw",
     "series_name": "irrigatie, landbouw",
+    "source_pdf": "pomp-specials.pdf",
     "page": 4,
     "brand": "Rovatti",
     "col_0": "17130312",
@@ -800,6 +824,7 @@
     "spec_housing": "Gietijzer",
     "spec_impeller_material": "Gietijzer",
     "spec_material": "waaier Gietijzer",
+    "spec_product_variant": "met vaste",
     "application": "VARIATIES",
     "_enriched": {
       "series_raw": "irrigatie, landbouw",
@@ -809,14 +834,13 @@
       "material": null,
       "family_id": null,
       "sku_series": "t"
-    },
-    "series_image": "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130__17130004-17130014-17130028.webp",
-    "image": "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130__17130004-17130014-17130028.webp"
+    }
   },
   {
     "sku": "17130313",
     "series_id": "tractorpompen",
     "series_name": "TRACTORPOMPEN",
+    "source_pdf": "pomp-specials.pdf",
     "page": 5,
     "col_0": "17130313",
     "type": "T3-100A",
@@ -839,6 +863,7 @@
     "sku": "17130315",
     "series_id": "tractorpompen",
     "series_name": "TRACTORPOMPEN",
+    "source_pdf": "pomp-specials.pdf",
     "page": 5,
     "col_0": "17130315",
     "type": "T3-100A",
@@ -861,6 +886,7 @@
     "sku": "17130317",
     "series_id": "tractorpompen",
     "series_name": "TRACTORPOMPEN",
+    "source_pdf": "pomp-specials.pdf",
     "page": 5,
     "col_0": "17130317",
     "type": "T3-110",
@@ -883,6 +909,7 @@
     "sku": "17130319",
     "series_id": "tractorpompen",
     "series_name": "TRACTORPOMPEN",
+    "source_pdf": "pomp-specials.pdf",
     "page": 5,
     "col_0": "17130319",
     "type": "T3-110",
@@ -905,6 +932,7 @@
     "sku": "17130321",
     "series_id": "tractorpompen",
     "series_name": "TRACTORPOMPEN",
+    "source_pdf": "pomp-specials.pdf",
     "page": 5,
     "col_0": "17130321",
     "type": "T3-110",
@@ -927,6 +955,7 @@
     "sku": "17130322",
     "series_id": "tractorpompen",
     "series_name": "TRACTORPOMPEN",
+    "source_pdf": "pomp-specials.pdf",
     "page": 5,
     "col_0": "17130322",
     "type": "T4-100",
@@ -949,6 +978,7 @@
     "sku": "17130323",
     "series_id": "tractorpompen",
     "series_name": "TRACTORPOMPEN",
+    "source_pdf": "pomp-specials.pdf",
     "page": 5,
     "col_0": "17130323",
     "type": "T4-125",
@@ -971,6 +1001,7 @@
     "sku": "17130325",
     "series_id": "tractorpompen",
     "series_name": "TRACTORPOMPEN",
+    "source_pdf": "pomp-specials.pdf",
     "page": 5,
     "col_0": "17130325",
     "type": "T4-125",
@@ -993,6 +1024,7 @@
     "sku": "17130327",
     "series_id": "tractorpompen",
     "series_name": "TRACTORPOMPEN",
+    "source_pdf": "pomp-specials.pdf",
     "page": 5,
     "col_0": "17130327",
     "type": "T2K50/3",
@@ -1015,6 +1047,7 @@
     "sku": "17130328",
     "series_id": "tractorpompen",
     "series_name": "TRACTORPOMPEN",
+    "source_pdf": "pomp-specials.pdf",
     "page": 5,
     "col_0": "17130328",
     "type": "T2K65/2",
@@ -1037,6 +1070,7 @@
     "sku": "17130330",
     "series_id": "tractorpompen",
     "series_name": "TRACTORPOMPEN",
+    "source_pdf": "pomp-specials.pdf",
     "page": 5,
     "col_0": "17130330",
     "type": "T3K65/2",
@@ -1059,6 +1093,7 @@
     "sku": "17130331",
     "series_id": "tractorpompen",
     "series_name": "TRACTORPOMPEN",
+    "source_pdf": "pomp-specials.pdf",
     "page": 5,
     "col_0": "17130331",
     "type": "T3K80/2",
@@ -1081,6 +1116,7 @@
     "sku": "17130333",
     "series_id": "tractorpompen",
     "series_name": "TRACTORPOMPEN",
+    "source_pdf": "pomp-specials.pdf",
     "page": 5,
     "col_0": "17130333",
     "type": "T3K80/2",
@@ -1103,6 +1139,7 @@
     "sku": "17130334",
     "series_id": "tractorpompen",
     "series_name": "TRACTORPOMPEN",
+    "source_pdf": "pomp-specials.pdf",
     "page": 5,
     "col_0": "17130334",
     "type": "T3K80-90/2",
@@ -1125,6 +1162,7 @@
     "sku": "18480018",
     "series_id": "huishoudelijk-semi-industrieel-bouw-land",
     "series_name": "huishoudelijk, semi-industrieel, bouw, land-",
+    "source_pdf": "pomp-specials.pdf",
     "page": 10,
     "brand": "Honda",
     "col_0": "18480018",
@@ -1136,7 +1174,7 @@
     "aansluiting_2_50_mm": "3” - 80 mm",
     "gebruiks_duur_2_u": "3,4 u",
     "korrelgrootte_mm_8_mm": "8 mm",
-    "col_9": "29 kg",
+    "lengte": "29 kg",
     "type": "huishoudelijk_semi_industrieel_bouw_land",
     "spec_liquid_temp_range": "maximum 40°C",
     "spec_temp_range": "vloeistof",
@@ -1155,14 +1193,13 @@
       "material": null,
       "family_id": null,
       "sku_series": null
-    },
-    "series_image": "images/pomp-specials/pomp-specials__p10__huishoudelijk-semi-industrieel-bouw-land__184800__18480018-18480023.webp",
-    "image": "images/pomp-specials/pomp-specials__p10__huishoudelijk-semi-industrieel-bouw-land__184800__18480018-18480023.webp"
+    }
   },
   {
     "sku": "18480021",
     "series_id": "industrie-bouw-landbouw-modder",
     "series_name": "industrie, bouw, landbouw, modder",
+    "source_pdf": "pomp-specials.pdf",
     "page": 11,
     "col_0": "18480021",
     "type_specialist_trash_3": "SPECIALIST TRASH 4",
@@ -1173,8 +1210,8 @@
     "aansluiting_3_80_mm": "4” - 100 mm",
     "gebruiks_duur_4_3": "4,3",
     "korrelgrootte_mm_20_mm": "20 mm",
-    "col_9": "90 kg",
     "type": "industrie_bouw_landbouw_modder",
+    "weight_kg": "90 kg",
     "spec_liquid_temp_range": "maximum 40°C",
     "spec_temp_range": "vloeistof",
     "spec_max_pressure": "2,7 bar",
@@ -1182,6 +1219,7 @@
     "spec_application_desc": "industrie, bouw, landbouw, modder",
     "spec_impeller_material": "Gietijzer",
     "spec_material": "waaier Gietijzer",
+    "spec_product_variant": "MET DIESEL",
     "application": "VARIATIES",
     "_enriched": {
       "series_raw": "industrie, bouw, landbouw, modder",
@@ -1191,14 +1229,13 @@
       "material": null,
       "family_id": null,
       "sku_series": null
-    },
-    "series_image": "images/pomp-specials/pomp-specials__p11__industrie-bouw-landbouw-modder__18480021__18480021.webp",
-    "image": "images/pomp-specials/pomp-specials__p11__industrie-bouw-landbouw-modder__18480021__18480021.webp"
+    }
   },
   {
     "sku": "18480023",
     "series_id": "huishoudelijk-semi-industrieel-bouw-land",
     "series_name": "huishoudelijk, semi-industrieel, bouw, land-",
+    "source_pdf": "pomp-specials.pdf",
     "page": 10,
     "brand": "Honda",
     "col_0": "18480023",
@@ -1210,7 +1247,7 @@
     "aansluiting_2_50_mm": "3” - 80 mm",
     "gebruiks_duur_2_u": "3,4 u",
     "korrelgrootte_mm_8_mm": "8 mm",
-    "col_9": "29 kg",
+    "lengte": "29 kg",
     "type": "huishoudelijk_semi_industrieel_bouw_land",
     "spec_liquid_temp_range": "maximum 40°C",
     "spec_temp_range": "vloeistof",
@@ -1229,14 +1266,13 @@
       "material": null,
       "family_id": null,
       "sku_series": null
-    },
-    "series_image": "images/pomp-specials/pomp-specials__p10__huishoudelijk-semi-industrieel-bouw-land__184800__18480018-18480023.webp",
-    "image": "images/pomp-specials/pomp-specials__p10__huishoudelijk-semi-industrieel-bouw-land__184800__18480018-18480023.webp"
+    }
   },
   {
     "sku": "18540001",
     "series_id": "irrigatie-landbouw",
     "series_name": "irrigatie, landbouw",
+    "source_pdf": "pomp-specials.pdf",
     "page": 6,
     "brand": "Bauer",
     "col_0": "18540001",
@@ -1247,7 +1283,7 @@
     "opv_hoogte_m": "120",
     "aanzuig_dn": "DN80",
     "steek_dn": "DN65",
-    "col_8": "73 kg",
+    "weight_kg": "73 kg",
     "spec_liquid_temp_range": "maximum 40°C",
     "spec_temp_range": "vloeistof",
     "spec_max_pressure": "Zie opvoerhoogte in onderstaande tabel",
@@ -1256,6 +1292,7 @@
     "spec_housing": "Gietijzer",
     "spec_impeller_material": "Gietijzer",
     "spec_material": "waaier Gietijzer",
+    "spec_product_variant": "met vaste",
     "application": "VARIATIES",
     "_enriched": {
       "series_raw": "irrigatie, landbouw",
@@ -1265,14 +1302,13 @@
       "material": null,
       "family_id": null,
       "sku_series": null
-    },
-    "series_image": "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__18540001.webp",
-    "image": "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__18540001.webp"
+    }
   },
   {
     "sku": "19220101",
     "series_id": "industrie-bouw-landbouw-maritiem",
     "series_name": "industrie, bouw, landbouw, maritiem",
+    "source_pdf": "pomp-specials.pdf",
     "page": 16,
     "col_0": "19220101",
     "type": "K3",
@@ -1281,11 +1317,12 @@
     "aanzuigdiepte_m": "7 m",
     "opv_hoogte_m": "25 m",
     "aansluiting": "5/4”",
-    "col_7": "8,7 kg",
+    "lengte": "8,7 kg",
     "spec_liquid_temp_range": "maximum 40°C",
     "spec_temp_range": "vloeistof",
     "spec_application_desc": "industrie, bouw, landbouw, maritiem",
     "spec_housing": "Gietijzer",
+    "spec_product_variant": "met vrije",
     "application": "VARIATIES",
     "_enriched": {
       "series_raw": "industrie, bouw, landbouw, maritiem",
@@ -1295,14 +1332,13 @@
       "material": null,
       "family_id": null,
       "sku_series": "k"
-    },
-    "series_image": "images/pomp-specials/pomp-specials__p16__industrie-bouw-landbouw-maritiem__1__13520005-13730115-19220101.webp",
-    "image": "images/pomp-specials/pomp-specials__p16__industrie-bouw-landbouw-maritiem__1__13520005-13730115-19220101.webp"
+    }
   },
   {
     "sku": "19220228",
     "series_id": "osmose-opslag-bassins-viskwekerijen",
     "series_name": "osmose opslag, bassins, viskwekerijen,",
+    "source_pdf": "pomp-specials.pdf",
     "page": 15,
     "col_0": "19220228",
     "type_foam": "UMBRELLA",
@@ -1310,8 +1346,8 @@
     "vermogen_kw_0_75": "0,75",
     "debiet_m3_h_130_m3_h": "80 m3/h",
     "sproeihoogte_mm_400_mm": "700 mm",
-    "col_6": "1600 mm",
     "type": "osmose_opslag_bassins_viskwekerijen",
+    "length_mm": "1600 mm",
     "spec_liquid_temp_range": "maximum 35°C",
     "spec_temp_range": "vloeistof",
     "spec_water_pollution": "proper, licht vervuild",
@@ -1326,14 +1362,13 @@
       "material": null,
       "family_id": null,
       "sku_series": null
-    },
-    "series_image": "images/pomp-specials/pomp-specials__p15__osmose-opslag-bassins-viskwekerijen__19220228__19220228.webp",
-    "image": "images/pomp-specials/pomp-specials__p15__osmose-opslag-bassins-viskwekerijen__19220228__19220228.webp"
+    }
   },
   {
     "sku": "70455370",
     "series_id": "doseren-van-meststoffen-schoonmaakmid",
     "series_name": "doseren van meststoffen, schoonmaakmid-",
+    "source_pdf": "pomp-specials.pdf",
     "page": 14,
     "col_0": "70455370",
     "type": "12502",
@@ -1357,14 +1392,13 @@
       "material": null,
       "family_id": null,
       "sku_series": null
-    },
-    "series_image": "images/pomp-specials/pomp-specials__p14__doseren-van-meststoffen-schoonmaakmid__70455__70455370-70455377-70455379.webp",
-    "image": "images/pomp-specials/pomp-specials__p14__doseren-van-meststoffen-schoonmaakmid__70455__70455370-70455377-70455379.webp"
+    }
   },
   {
     "sku": "70455377",
     "series_id": "doseren-van-meststoffen-schoonmaakmid",
     "series_name": "doseren van meststoffen, schoonmaakmid-",
+    "source_pdf": "pomp-specials.pdf",
     "page": 14,
     "col_0": "70455377",
     "type": "12512",
@@ -1388,14 +1422,13 @@
       "material": null,
       "family_id": null,
       "sku_series": null
-    },
-    "series_image": "images/pomp-specials/pomp-specials__p14__doseren-van-meststoffen-schoonmaakmid__70455__70455370-70455377-70455379.webp",
-    "image": "images/pomp-specials/pomp-specials__p14__doseren-van-meststoffen-schoonmaakmid__70455__70455370-70455377-70455379.webp"
+    }
   },
   {
     "sku": "70455379",
     "series_id": "doseren-van-meststoffen-schoonmaakmid",
     "series_name": "doseren van meststoffen, schoonmaakmid-",
+    "source_pdf": "pomp-specials.pdf",
     "page": 14,
     "col_0": "70455379",
     "type": "12514",
@@ -1419,14 +1452,13 @@
       "material": null,
       "family_id": null,
       "sku_series": null
-    },
-    "series_image": "images/pomp-specials/pomp-specials__p14__doseren-van-meststoffen-schoonmaakmid__70455__70455370-70455377-70455379.webp",
-    "image": "images/pomp-specials/pomp-specials__p14__doseren-van-meststoffen-schoonmaakmid__70455__70455370-70455377-70455379.webp"
+    }
   },
   {
     "sku": "70455431",
     "series_id": "doseren-van-meststoffen-schoonmaakmid",
     "series_name": "doseren van meststoffen, schoonmaakmid-",
+    "source_pdf": "pomp-specials.pdf",
     "page": 14,
     "col_0": "70455431",
     "type": "TF-10",
@@ -1450,14 +1482,13 @@
       "material": null,
       "family_id": null,
       "sku_series": null
-    },
-    "series_image": "images/pomp-specials/pomp-specials__p14__doseren-van-meststoffen-schoonmaakmid__70455__70455370-70455377-70455379.webp",
-    "image": "images/pomp-specials/pomp-specials__p14__doseren-van-meststoffen-schoonmaakmid__70455__70455370-70455377-70455379.webp"
+    }
   },
   {
     "sku": "70455432",
     "series_id": "doseren-van-meststoffen-schoonmaakmid",
     "series_name": "doseren van meststoffen, schoonmaakmid-",
+    "source_pdf": "pomp-specials.pdf",
     "page": 14,
     "col_0": "70455432",
     "type": "TF-10",
@@ -1481,14 +1512,13 @@
       "material": null,
       "family_id": null,
       "sku_series": null
-    },
-    "series_image": "images/pomp-specials/pomp-specials__p14__doseren-van-meststoffen-schoonmaakmid__70455__70455370-70455377-70455379.webp",
-    "image": "images/pomp-specials/pomp-specials__p14__doseren-van-meststoffen-schoonmaakmid__70455__70455370-70455377-70455379.webp"
+    }
   },
   {
     "sku": "70455435",
     "series_id": "doseren-van-meststoffen-schoonmaakmid",
     "series_name": "doseren van meststoffen, schoonmaakmid-",
+    "source_pdf": "pomp-specials.pdf",
     "page": 14,
     "col_0": "70455435",
     "type": "2502",
@@ -1512,14 +1542,13 @@
       "material": null,
       "family_id": null,
       "sku_series": null
-    },
-    "series_image": "images/pomp-specials/pomp-specials__p14__doseren-van-meststoffen-schoonmaakmid__70455__70455370-70455377-70455379.webp",
-    "image": "images/pomp-specials/pomp-specials__p14__doseren-van-meststoffen-schoonmaakmid__70455__70455370-70455377-70455379.webp"
+    }
   },
   {
     "sku": "70455980",
     "series_id": "doseren-van-meststoffen-schoonmaakmid",
     "series_name": "doseren van meststoffen, schoonmaakmid-",
+    "source_pdf": "pomp-specials.pdf",
     "page": 14,
     "col_0": "70455980",
     "type": "TF-5",
@@ -1543,14 +1572,13 @@
       "material": null,
       "family_id": null,
       "sku_series": null
-    },
-    "series_image": "images/pomp-specials/pomp-specials__p14__doseren-van-meststoffen-schoonmaakmid__70455__70455370-70455377-70455379.webp",
-    "image": "images/pomp-specials/pomp-specials__p14__doseren-van-meststoffen-schoonmaakmid__70455__70455370-70455377-70455379.webp"
+    }
   },
   {
     "sku": "70455990",
     "series_id": "doseren-van-meststoffen-schoonmaakmid",
     "series_name": "doseren van meststoffen, schoonmaakmid-",
+    "source_pdf": "pomp-specials.pdf",
     "page": 14,
     "col_0": "70455990",
     "type": "TF-25",
@@ -1574,14 +1602,39 @@
       "material": null,
       "family_id": null,
       "sku_series": null
-    },
-    "series_image": "images/pomp-specials/pomp-specials__p14__doseren-van-meststoffen-schoonmaakmid__70455__70455370-70455377-70455379.webp",
-    "image": "images/pomp-specials/pomp-specials__p14__doseren-van-meststoffen-schoonmaakmid__70455__70455370-70455377-70455379.webp"
+    }
+  },
+  {
+    "sku": "Debiet\nm3/h",
+    "series_id": "landbouw-industrie-maritie",
+    "series_name": "landbouw, industrie, maritie",
+    "source_pdf": "pomp-specials.pdf",
+    "page": 17,
+    "col_0": "Debiet\nm3/h",
+    "col_1": "Aansluiting\n“",
+    "col_2": "Aanzuigdiepte\nm",
+    "lengte": "Opv.hoogte\nm",
+    "type": "landbouw_industrie_maritie",
+    "spec_liquid_temp_range": "maximum 40°C",
+    "spec_temp_range": "vloeistof",
+    "spec_application_desc": "landbouw, industrie, maritiem",
+    "spec_housing": "Aluminium",
+    "application": "VARIATIES",
+    "_enriched": {
+      "series_raw": "landbouw, industrie, maritie",
+      "series": "landbouw-industrie-maritie",
+      "catalog_group": null,
+      "product_type": null,
+      "material": null,
+      "family_id": null,
+      "sku_series": null
+    }
   },
   {
     "sku": "FL 776",
     "series_id": "installaties-industrie",
     "series_name": "installaties, industrie",
+    "source_pdf": "pomp-specials.pdf",
     "page": 8,
     "col_0": "FL 776",
     "min_toerental_rpm": "50",
@@ -1597,6 +1650,7 @@
     "spec_application_desc": "bouw, landbouw, afvalverwerking, biogas",
     "spec_housing": "EN-GJL-250/RVS 1.4517",
     "spec_material": "rotor Gietijzer/gietstaal/RVS",
+    "spec_product_title": "PE FL",
     "application": "VARIATIES",
     "_enriched": {
       "series_raw": "installaties, industrie",
@@ -1606,21 +1660,20 @@
       "material": null,
       "family_id": null,
       "sku_series": null
-    },
-    "series_image": "images/pomp-specials/pomp-specials__p8__installaties-industrie__fl__fl-776.webp",
-    "image": "images/pomp-specials/pomp-specials__p8__installaties-industrie__fl__fl-776.webp"
+    }
   },
   {
     "sku": "SUPER 150",
     "series_id": "landbouw-slachthuizen-biogas-installaties",
     "series_name": "landbouw, slachthuizen, biogas installaties",
+    "source_pdf": "pomp-specials.pdf",
     "page": 7,
     "col_0": "SUPER 150",
     "steekleiding_mm": "150",
     "waaier_rpm": "1600",
     "debiet_m3_h": "390",
     "opv_hoogte_m": "30 m",
-    "col_5": "130",
+    "lengte": "130",
     "type": "landbouw_slachthuizen_biogas_installaties",
     "spec_liquid_temp_range": "maximum 40°C",
     "spec_temp_range": "vloeistof",
@@ -1630,6 +1683,8 @@
     "spec_housing": "Gietijzer/RVS",
     "spec_impeller_material": "Gietijzer/gietstaal/RVS",
     "spec_material": "waaier Gietijzer/gietstaal/RVS",
+    "spec_product_title": "RVS\nM",
+    "spec_product_variant": "met vermaalinrichting",
     "application": "VARIATIES",
     "_enriched": {
       "series_raw": "landbouw, slachthuizen, biogas installaties",
@@ -1639,21 +1694,20 @@
       "material": null,
       "family_id": null,
       "sku_series": null
-    },
-    "series_image": "images/pomp-specials/pomp-specials__p7__landbouw-slachthuizen-biogas-installatie__super-15__super-150-super-me-100-7-5-super-me-120-15.webp",
-    "image": "images/pomp-specials/pomp-specials__p7__landbouw-slachthuizen-biogas-installatie__super-15__super-150-super-me-100-7-5-super-me-120-15.webp"
+    }
   },
   {
     "sku": "SUPER ME 100/7,5",
     "series_id": "landbouw-slachthuizen-biogas-installaties",
     "series_name": "landbouw, slachthuizen, biogas installaties",
+    "source_pdf": "pomp-specials.pdf",
     "page": 7,
     "col_0": "SUPER ME 100/7,5",
     "steekleiding_mm": "100",
     "waaier_rpm": "1450",
     "debiet_m3_h": "120",
     "opv_hoogte_m": "7,5 m",
-    "col_5": "7,5",
+    "lengte": "7,5",
     "type": "landbouw_slachthuizen_biogas_installaties",
     "spec_liquid_temp_range": "maximum 40°C",
     "spec_temp_range": "vloeistof",
@@ -1663,6 +1717,8 @@
     "spec_housing": "Gietijzer/RVS",
     "spec_impeller_material": "Gietijzer/gietstaal/RVS",
     "spec_material": "waaier Gietijzer/gietstaal/RVS",
+    "spec_product_title": "RVS\nM",
+    "spec_product_variant": "met vermaalinrichting",
     "application": "VARIATIES",
     "_enriched": {
       "series_raw": "landbouw, slachthuizen, biogas installaties",
@@ -1672,21 +1728,20 @@
       "material": null,
       "family_id": null,
       "sku_series": null
-    },
-    "series_image": "images/pomp-specials/pomp-specials__p7__landbouw-slachthuizen-biogas-installatie__super-15__super-150-super-me-100-7-5-super-me-120-15.webp",
-    "image": "images/pomp-specials/pomp-specials__p7__landbouw-slachthuizen-biogas-installatie__super-15__super-150-super-me-100-7-5-super-me-120-15.webp"
+    }
   },
   {
     "sku": "SUPER ME 120/15",
     "series_id": "landbouw-slachthuizen-biogas-installaties",
     "series_name": "landbouw, slachthuizen, biogas installaties",
+    "source_pdf": "pomp-specials.pdf",
     "page": 7,
     "col_0": "SUPER ME 120/15",
     "steekleiding_mm": "120",
     "waaier_rpm": "1450",
     "debiet_m3_h": "180",
     "opv_hoogte_m": "12 m",
-    "col_5": "15",
+    "lengte": "15",
     "type": "landbouw_slachthuizen_biogas_installaties",
     "spec_liquid_temp_range": "maximum 40°C",
     "spec_temp_range": "vloeistof",
@@ -1696,6 +1751,8 @@
     "spec_housing": "Gietijzer/RVS",
     "spec_impeller_material": "Gietijzer/gietstaal/RVS",
     "spec_material": "waaier Gietijzer/gietstaal/RVS",
+    "spec_product_title": "RVS\nM",
+    "spec_product_variant": "met vermaalinrichting",
     "application": "VARIATIES",
     "_enriched": {
       "series_raw": "landbouw, slachthuizen, biogas installaties",
@@ -1705,21 +1762,20 @@
       "material": null,
       "family_id": null,
       "sku_series": null
-    },
-    "series_image": "images/pomp-specials/pomp-specials__p7__landbouw-slachthuizen-biogas-installatie__super-15__super-150-super-me-100-7-5-super-me-120-15.webp",
-    "image": "images/pomp-specials/pomp-specials__p7__landbouw-slachthuizen-biogas-installatie__super-15__super-150-super-me-100-7-5-super-me-120-15.webp"
+    }
   },
   {
     "sku": "SUPER ME 120/25",
     "series_id": "landbouw-slachthuizen-biogas-installaties",
     "series_name": "landbouw, slachthuizen, biogas installaties",
+    "source_pdf": "pomp-specials.pdf",
     "page": 7,
     "col_0": "SUPER ME 120/25",
     "steekleiding_mm": "120",
     "waaier_rpm": "1450",
     "debiet_m3_h": "228",
     "opv_hoogte_m": "19 m",
-    "col_5": "25",
+    "lengte": "25",
     "type": "landbouw_slachthuizen_biogas_installaties",
     "spec_liquid_temp_range": "maximum 40°C",
     "spec_temp_range": "vloeistof",
@@ -1729,6 +1785,8 @@
     "spec_housing": "Gietijzer/RVS",
     "spec_impeller_material": "Gietijzer/gietstaal/RVS",
     "spec_material": "waaier Gietijzer/gietstaal/RVS",
+    "spec_product_title": "RVS\nM",
+    "spec_product_variant": "met vermaalinrichting",
     "application": "VARIATIES",
     "_enriched": {
       "series_raw": "landbouw, slachthuizen, biogas installaties",
@@ -1738,21 +1796,20 @@
       "material": null,
       "family_id": null,
       "sku_series": null
-    },
-    "series_image": "images/pomp-specials/pomp-specials__p7__landbouw-slachthuizen-biogas-installatie__super-15__super-150-super-me-100-7-5-super-me-120-15.webp",
-    "image": "images/pomp-specials/pomp-specials__p7__landbouw-slachthuizen-biogas-installatie__super-15__super-150-super-me-100-7-5-super-me-120-15.webp"
+    }
   },
   {
     "sku": "SUPER ME 60/1",
     "series_id": "landbouw-slachthuizen-biogas-installaties",
     "series_name": "landbouw, slachthuizen, biogas installaties",
+    "source_pdf": "pomp-specials.pdf",
     "page": 7,
     "col_0": "SUPER ME 60/1",
     "steekleiding_mm": "60",
     "waaier_rpm": "1450",
     "debiet_m3_h": "30",
     "opv_hoogte_m": "3 m",
-    "col_5": "1",
+    "lengte": "1",
     "type": "landbouw_slachthuizen_biogas_installaties",
     "spec_liquid_temp_range": "maximum 40°C",
     "spec_temp_range": "vloeistof",
@@ -1762,6 +1819,8 @@
     "spec_housing": "Gietijzer/RVS",
     "spec_impeller_material": "Gietijzer/gietstaal/RVS",
     "spec_material": "waaier Gietijzer/gietstaal/RVS",
+    "spec_product_title": "RVS\nM",
+    "spec_product_variant": "met vermaalinrichting",
     "application": "VARIATIES",
     "_enriched": {
       "series_raw": "landbouw, slachthuizen, biogas installaties",
@@ -1771,21 +1830,20 @@
       "material": null,
       "family_id": null,
       "sku_series": null
-    },
-    "series_image": "images/pomp-specials/pomp-specials__p7__landbouw-slachthuizen-biogas-installatie__super-15__super-150-super-me-100-7-5-super-me-120-15.webp",
-    "image": "images/pomp-specials/pomp-specials__p7__landbouw-slachthuizen-biogas-installatie__super-15__super-150-super-me-100-7-5-super-me-120-15.webp"
+    }
   },
   {
     "sku": "ULTRA 120/15",
     "series_id": "landbouw-slachthuizen-biogas-installaties",
     "series_name": "landbouw, slachthuizen, biogas installaties",
+    "source_pdf": "pomp-specials.pdf",
     "page": 7,
     "col_0": "ULTRA 120/15",
     "steekleiding_mm": "120",
     "waaier_rpm": "1450",
     "debiet_m3_h": "180",
     "opv_hoogte_m": "18 m",
-    "col_5": "15",
+    "lengte": "15",
     "type": "landbouw_slachthuizen_biogas_installaties",
     "spec_liquid_temp_range": "maximum 40°C",
     "spec_temp_range": "vloeistof",
@@ -1795,6 +1853,8 @@
     "spec_housing": "Gietijzer/RVS",
     "spec_impeller_material": "Gietijzer/gietstaal/RVS",
     "spec_material": "waaier Gietijzer/gietstaal/RVS",
+    "spec_product_title": "RVS\nM",
+    "spec_product_variant": "met vermaalinrichting",
     "application": "VARIATIES",
     "_enriched": {
       "series_raw": "landbouw, slachthuizen, biogas installaties",
@@ -1804,21 +1864,20 @@
       "material": null,
       "family_id": null,
       "sku_series": null
-    },
-    "series_image": "images/pomp-specials/pomp-specials__p7__landbouw-slachthuizen-biogas-installatie__super-15__super-150-super-me-100-7-5-super-me-120-15.webp",
-    "image": "images/pomp-specials/pomp-specials__p7__landbouw-slachthuizen-biogas-installatie__super-15__super-150-super-me-100-7-5-super-me-120-15.webp"
+    }
   },
   {
     "sku": "ULTRA 120/25",
     "series_id": "landbouw-slachthuizen-biogas-installaties",
     "series_name": "landbouw, slachthuizen, biogas installaties",
+    "source_pdf": "pomp-specials.pdf",
     "page": 7,
     "col_0": "ULTRA 120/25",
     "steekleiding_mm": "120",
     "waaier_rpm": "1450",
     "debiet_m3_h": "228",
     "opv_hoogte_m": "24 m",
-    "col_5": "25",
+    "lengte": "25",
     "type": "landbouw_slachthuizen_biogas_installaties",
     "spec_liquid_temp_range": "maximum 40°C",
     "spec_temp_range": "vloeistof",
@@ -1828,6 +1887,8 @@
     "spec_housing": "Gietijzer/RVS",
     "spec_impeller_material": "Gietijzer/gietstaal/RVS",
     "spec_material": "waaier Gietijzer/gietstaal/RVS",
+    "spec_product_title": "RVS\nM",
+    "spec_product_variant": "met vermaalinrichting",
     "application": "VARIATIES",
     "_enriched": {
       "series_raw": "landbouw, slachthuizen, biogas installaties",
@@ -1837,14 +1898,13 @@
       "material": null,
       "family_id": null,
       "sku_series": null
-    },
-    "series_image": "images/pomp-specials/pomp-specials__p7__landbouw-slachthuizen-biogas-installatie__super-15__super-150-super-me-100-7-5-super-me-120-15.webp",
-    "image": "images/pomp-specials/pomp-specials__p7__landbouw-slachthuizen-biogas-installatie__super-15__super-150-super-me-100-7-5-super-me-120-15.webp"
+    }
   },
   {
     "sku": "X1106034",
     "series_id": "huishoudelijk-landbouw-industrie",
     "series_name": "huishoudelijk, landbouw, industrie",
+    "source_pdf": "pomp-specials.pdf",
     "page": 18,
     "col_0": "X1106034",
     "type": "Maxi P63",
@@ -1852,12 +1912,13 @@
     "aansluiting": "1/2”",
     "aanzuigdiepte_m": "4 m",
     "opv_hoogte_m": "40 m",
-    "col_6": "0,170 kg",
+    "lengte": "0,170 kg",
     "spec_liquid_temp_range": "P-serie: max. 35°C /",
     "spec_temp_range": "vloeistof",
     "spec_max_pressure": "2 - 4 bar",
     "spec_application_desc": "huishoudelijk, landbouw, industrie",
     "spec_housing": "Kunststof / Messing",
+    "spec_product_variant": "met behulp",
     "application": "VARIATIES",
     "_enriched": {
       "series_raw": "huishoudelijk, landbouw, industrie",
@@ -1867,14 +1928,13 @@
       "material": null,
       "family_id": null,
       "sku_series": null
-    },
-    "series_image": "images/pomp-specials/pomp-specials__p18__huishoudelijk-landbouw-industrie__02350025__02350025-09050229-x1106034.webp",
-    "image": "images/pomp-specials/pomp-specials__p18__huishoudelijk-landbouw-industrie__02350025__02350025-09050229-x1106034.webp"
+    }
   },
   {
     "sku": null,
     "series_id": "auto-motor-boot",
     "series_name": "auto, motor, boot",
+    "source_pdf": "pomp-specials.pdf",
     "page": 17,
     "col_0": null,
     "debiet_l_m": "6 l/m",
@@ -1895,14 +1955,13 @@
       "material": null,
       "family_id": null,
       "sku_series": null
-    },
-    "series_image": "images/pomp-specials/pomp-specials__p17__auto-motor-boot__13520104__13520104.webp",
-    "image": "images/pomp-specials/pomp-specials__p17__auto-motor-boot__13520104__13520104.webp"
+    }
   },
   {
     "sku": null,
     "series_id": "auto-motor-boot",
     "series_name": "auto, motor, boot",
+    "source_pdf": "pomp-specials.pdf",
     "page": 17,
     "col_0": null,
     "debiet_l_m": "20 l/m",
@@ -1923,14 +1982,13 @@
       "material": null,
       "family_id": null,
       "sku_series": null
-    },
-    "series_image": "images/pomp-specials/pomp-specials__p17__auto-motor-boot__13520104__13520104.webp",
-    "image": "images/pomp-specials/pomp-specials__p17__auto-motor-boot__13520104__13520104.webp"
+    }
   },
   {
     "sku": null,
     "series_id": "bouw-landbouw",
     "series_name": "bouw, landbouw",
+    "source_pdf": "pomp-specials.pdf",
     "page": 10,
     "brand": "Honda",
     "type_motor": "GX 160",
@@ -1957,14 +2015,13 @@
       "material": null,
       "family_id": null,
       "sku_series": null
-    },
-    "series_image": "images/pomp-specials/pomp-specials__p10__huishoudelijk-semi-industrieel-bouw-land__184800__18480018-18480023.webp",
-    "image": "images/pomp-specials/pomp-specials__p10__huishoudelijk-semi-industrieel-bouw-land__184800__18480018-18480023.webp"
+    }
   },
   {
     "sku": null,
     "series_id": "doseren-van-meststoffen-schoonmaakmid",
     "series_name": "doseren van meststoffen, schoonmaakmid-",
+    "source_pdf": "pomp-specials.pdf",
     "page": 14,
     "col_0": null,
     "type": "2502",
@@ -1988,14 +2045,13 @@
       "material": null,
       "family_id": null,
       "sku_series": null
-    },
-    "series_image": "images/pomp-specials/pomp-specials__p14__doseren-van-meststoffen-schoonmaakmid__70455__70455370-70455377-70455379.webp",
-    "image": "images/pomp-specials/pomp-specials__p14__doseren-van-meststoffen-schoonmaakmid__70455__70455370-70455377-70455379.webp"
+    }
   },
   {
     "sku": null,
     "series_id": "doseren-van-meststoffen-schoonmaakmid",
     "series_name": "doseren van meststoffen, schoonmaakmid-",
+    "source_pdf": "pomp-specials.pdf",
     "page": 14,
     "col_0": null,
     "type": "2505",
@@ -2019,14 +2075,13 @@
       "material": null,
       "family_id": null,
       "sku_series": null
-    },
-    "series_image": "images/pomp-specials/pomp-specials__p14__doseren-van-meststoffen-schoonmaakmid__70455__70455370-70455377-70455379.webp",
-    "image": "images/pomp-specials/pomp-specials__p14__doseren-van-meststoffen-schoonmaakmid__70455__70455370-70455377-70455379.webp"
+    }
   },
   {
     "sku": null,
     "series_id": "doseren-van-meststoffen-schoonmaakmid",
     "series_name": "doseren van meststoffen, schoonmaakmid-",
+    "source_pdf": "pomp-specials.pdf",
     "page": 14,
     "col_0": null,
     "type": "12504",
@@ -2050,14 +2105,13 @@
       "material": null,
       "family_id": null,
       "sku_series": null
-    },
-    "series_image": "images/pomp-specials/pomp-specials__p14__doseren-van-meststoffen-schoonmaakmid__70455__70455370-70455377-70455379.webp",
-    "image": "images/pomp-specials/pomp-specials__p14__doseren-van-meststoffen-schoonmaakmid__70455__70455370-70455377-70455379.webp"
+    }
   },
   {
     "sku": null,
     "series_id": "doseren-van-meststoffen-schoonmaakmid",
     "series_name": "doseren van meststoffen, schoonmaakmid-",
+    "source_pdf": "pomp-specials.pdf",
     "page": 14,
     "col_0": null,
     "type": "12512",
@@ -2081,14 +2135,13 @@
       "material": null,
       "family_id": null,
       "sku_series": null
-    },
-    "series_image": "images/pomp-specials/pomp-specials__p14__doseren-van-meststoffen-schoonmaakmid__70455__70455370-70455377-70455379.webp",
-    "image": "images/pomp-specials/pomp-specials__p14__doseren-van-meststoffen-schoonmaakmid__70455__70455370-70455377-70455379.webp"
+    }
   },
   {
     "sku": null,
     "series_id": "doseren-van-meststoffen-schoonmaakmid",
     "series_name": "doseren van meststoffen, schoonmaakmid-",
+    "source_pdf": "pomp-specials.pdf",
     "page": 14,
     "col_0": null,
     "type": "TF-5",
@@ -2112,14 +2165,13 @@
       "material": null,
       "family_id": null,
       "sku_series": null
-    },
-    "series_image": "images/pomp-specials/pomp-specials__p14__doseren-van-meststoffen-schoonmaakmid__70455__70455370-70455377-70455379.webp",
-    "image": "images/pomp-specials/pomp-specials__p14__doseren-van-meststoffen-schoonmaakmid__70455__70455370-70455377-70455379.webp"
+    }
   },
   {
     "sku": null,
     "series_id": "doseren-van-meststoffen-schoonmaakmid",
     "series_name": "doseren van meststoffen, schoonmaakmid-",
+    "source_pdf": "pomp-specials.pdf",
     "page": 14,
     "col_0": null,
     "type": "TF-10",
@@ -2143,14 +2195,13 @@
       "material": null,
       "family_id": null,
       "sku_series": null
-    },
-    "series_image": "images/pomp-specials/pomp-specials__p14__doseren-van-meststoffen-schoonmaakmid__70455__70455370-70455377-70455379.webp",
-    "image": "images/pomp-specials/pomp-specials__p14__doseren-van-meststoffen-schoonmaakmid__70455__70455370-70455377-70455379.webp"
+    }
   },
   {
     "sku": null,
     "series_id": "doseren-van-meststoffen-schoonmaakmid",
     "series_name": "doseren van meststoffen, schoonmaakmid-",
+    "source_pdf": "pomp-specials.pdf",
     "page": 14,
     "col_0": null,
     "type": "TF-10",
@@ -2174,14 +2225,13 @@
       "material": null,
       "family_id": null,
       "sku_series": null
-    },
-    "series_image": "images/pomp-specials/pomp-specials__p14__doseren-van-meststoffen-schoonmaakmid__70455__70455370-70455377-70455379.webp",
-    "image": "images/pomp-specials/pomp-specials__p14__doseren-van-meststoffen-schoonmaakmid__70455__70455370-70455377-70455379.webp"
+    }
   },
   {
     "sku": null,
     "series_id": "doseren-van-meststoffen-schoonmaakmid",
     "series_name": "doseren van meststoffen, schoonmaakmid-",
+    "source_pdf": "pomp-specials.pdf",
     "page": 14,
     "col_0": null,
     "type": "TF-25",
@@ -2205,14 +2255,13 @@
       "material": null,
       "family_id": null,
       "sku_series": null
-    },
-    "series_image": "images/pomp-specials/pomp-specials__p14__doseren-van-meststoffen-schoonmaakmid__70455__70455370-70455377-70455379.webp",
-    "image": "images/pomp-specials/pomp-specials__p14__doseren-van-meststoffen-schoonmaakmid__70455__70455370-70455377-70455379.webp"
+    }
   },
   {
     "sku": null,
     "series_id": "doseren-van-meststoffen-schoonmaakmid",
     "series_name": "doseren van meststoffen, schoonmaakmid-",
+    "source_pdf": "pomp-specials.pdf",
     "page": 14,
     "col_0": null,
     "type": "TF-25",
@@ -2236,14 +2285,13 @@
       "material": null,
       "family_id": null,
       "sku_series": null
-    },
-    "series_image": "images/pomp-specials/pomp-specials__p14__doseren-van-meststoffen-schoonmaakmid__70455__70455370-70455377-70455379.webp",
-    "image": "images/pomp-specials/pomp-specials__p14__doseren-van-meststoffen-schoonmaakmid__70455__70455370-70455377-70455379.webp"
+    }
   },
   {
     "sku": null,
     "series_id": "huishoudelijk-landbouw-industrie",
     "series_name": "huishoudelijk, landbouw, industrie",
+    "source_pdf": "pomp-specials.pdf",
     "page": 18,
     "col_0": null,
     "type": "Mini P61",
@@ -2251,12 +2299,13 @@
     "aansluiting": "1/2”",
     "aanzuigdiepte_m": "3 m",
     "opv_hoogte_m": "20 m",
-    "col_6": null,
+    "lengte": "3 m",
     "spec_liquid_temp_range": "P-serie: max. 35°C /",
     "spec_temp_range": "vloeistof",
     "spec_max_pressure": "2 - 4 bar",
     "spec_application_desc": "huishoudelijk, landbouw, industrie",
     "spec_housing": "Kunststof / Messing",
+    "spec_product_variant": "met behulp",
     "application": "VARIATIES",
     "_enriched": {
       "series_raw": "huishoudelijk, landbouw, industrie",
@@ -2266,14 +2315,13 @@
       "material": null,
       "family_id": null,
       "sku_series": null
-    },
-    "series_image": "images/pomp-specials/pomp-specials__p18__huishoudelijk-landbouw-industrie__02350025__02350025-09050229-x1106034.webp",
-    "image": "images/pomp-specials/pomp-specials__p18__huishoudelijk-landbouw-industrie__02350025__02350025-09050229-x1106034.webp"
+    }
   },
   {
     "sku": null,
     "series_id": "huishoudelijk-landbouw-industrie",
     "series_name": "huishoudelijk, landbouw, industrie",
+    "source_pdf": "pomp-specials.pdf",
     "page": 18,
     "col_0": null,
     "type": "Combi P60",
@@ -2281,12 +2329,13 @@
     "aansluiting": "1/2” + 3/4”",
     "aanzuigdiepte_m": "4 m",
     "opv_hoogte_m": "40 m",
-    "col_6": null,
+    "lengte": "4 m",
     "spec_liquid_temp_range": "P-serie: max. 35°C /",
     "spec_temp_range": "vloeistof",
     "spec_max_pressure": "2 - 4 bar",
     "spec_application_desc": "huishoudelijk, landbouw, industrie",
     "spec_housing": "Kunststof / Messing",
+    "spec_product_variant": "met behulp",
     "application": "VARIATIES",
     "_enriched": {
       "series_raw": "huishoudelijk, landbouw, industrie",
@@ -2296,14 +2345,13 @@
       "material": null,
       "family_id": null,
       "sku_series": null
-    },
-    "series_image": "images/pomp-specials/pomp-specials__p18__huishoudelijk-landbouw-industrie__02350025__02350025-09050229-x1106034.webp",
-    "image": "images/pomp-specials/pomp-specials__p18__huishoudelijk-landbouw-industrie__02350025__02350025-09050229-x1106034.webp"
+    }
   },
   {
     "sku": null,
     "series_id": "huishoudelijk-semi-industrieel-bouw-land",
     "series_name": "huishoudelijk, semi-industrieel, bouw, land-",
+    "source_pdf": "pomp-specials.pdf",
     "page": 10,
     "brand": "Honda",
     "col_0": null,
@@ -2315,7 +2363,7 @@
     "aansluiting_2_50_mm": "2” - 50 mm",
     "gebruiks_duur_2_u": "2 u",
     "korrelgrootte_mm_8_mm": "8 mm",
-    "col_9": null,
+    "lengte": "26 m",
     "type": "huishoudelijk_semi_industrieel_bouw_land",
     "spec_liquid_temp_range": "maximum 40°C",
     "spec_temp_range": "vloeistof",
@@ -2334,14 +2382,13 @@
       "material": null,
       "family_id": null,
       "sku_series": null
-    },
-    "series_image": "images/pomp-specials/pomp-specials__p10__huishoudelijk-semi-industrieel-bouw-land__184800__18480018-18480023.webp",
-    "image": "images/pomp-specials/pomp-specials__p10__huishoudelijk-semi-industrieel-bouw-land__184800__18480018-18480023.webp"
+    }
   },
   {
     "sku": null,
     "series_id": "inbouw-afmetingen",
     "series_name": "INBOUW AFMETINGEN",
+    "source_pdf": "pomp-specials.pdf",
     "page": 9,
     "brand": "Borger",
     "maat": "DN80 - 3\"",
@@ -2360,14 +2407,13 @@
       "material": null,
       "family_id": null,
       "sku_series": null
-    },
-    "series_image": "images/pomp-specials/pomp-specials__p9__inbouw-afmetingen.webp",
-    "image": "images/pomp-specials/pomp-specials__p9__inbouw-afmetingen.webp"
+    }
   },
   {
     "sku": null,
     "series_id": "inbouw-afmetingen",
     "series_name": "INBOUW AFMETINGEN",
+    "source_pdf": "pomp-specials.pdf",
     "page": 9,
     "brand": "Borger",
     "maat": "DN100 - 4\"",
@@ -2375,8 +2421,8 @@
     "b": "752 mm",
     "fl_776_a": "206 mm",
     "a": "152 mm",
-    "col_6": "644 mm",
     "type": "inbouw_afmetingen",
+    "length_mm": "644 mm",
     "application": "INBOUW AFMETINGEN",
     "_enriched": {
       "series_raw": "INBOUW AFMETINGEN",
@@ -2386,14 +2432,13 @@
       "material": null,
       "family_id": null,
       "sku_series": null
-    },
-    "series_image": "images/pomp-specials/pomp-specials__p9__inbouw-afmetingen.webp",
-    "image": "images/pomp-specials/pomp-specials__p9__inbouw-afmetingen.webp"
+    }
   },
   {
     "sku": null,
     "series_id": "inbouw-afmetingen",
     "series_name": "INBOUW AFMETINGEN",
+    "source_pdf": "pomp-specials.pdf",
     "page": 9,
     "brand": "Borger",
     "maat": "DN125 - 5\"",
@@ -2412,14 +2457,13 @@
       "material": null,
       "family_id": null,
       "sku_series": null
-    },
-    "series_image": "images/pomp-specials/pomp-specials__p9__inbouw-afmetingen.webp",
-    "image": "images/pomp-specials/pomp-specials__p9__inbouw-afmetingen.webp"
+    }
   },
   {
     "sku": null,
     "series_id": "inbouw-afmetingen",
     "series_name": "INBOUW AFMETINGEN",
+    "source_pdf": "pomp-specials.pdf",
     "page": 9,
     "brand": "Borger",
     "maat": "DN150 - 6\"",
@@ -2427,8 +2471,8 @@
     "b": "692 mm",
     "fl_776_a": "176 mm",
     "a": "26 mm",
-    "col_6": "792 mm",
     "type": "inbouw_afmetingen",
+    "length_mm": "792 mm",
     "application": "INBOUW AFMETINGEN",
     "_enriched": {
       "series_raw": "INBOUW AFMETINGEN",
@@ -2438,14 +2482,13 @@
       "material": null,
       "family_id": null,
       "sku_series": null
-    },
-    "series_image": "images/pomp-specials/pomp-specials__p9__inbouw-afmetingen.webp",
-    "image": "images/pomp-specials/pomp-specials__p9__inbouw-afmetingen.webp"
+    }
   },
   {
     "sku": null,
     "series_id": "inbouw-afmetingen",
     "series_name": "INBOUW AFMETINGEN",
+    "source_pdf": "pomp-specials.pdf",
     "page": 9,
     "brand": "Borger",
     "maat": "DN200 - 8\"",
@@ -2464,14 +2507,13 @@
       "material": null,
       "family_id": null,
       "sku_series": null
-    },
-    "series_image": "images/pomp-specials/pomp-specials__p9__inbouw-afmetingen.webp",
-    "image": "images/pomp-specials/pomp-specials__p9__inbouw-afmetingen.webp"
+    }
   },
   {
     "sku": null,
     "series_id": "inbouw-afmetingen",
     "series_name": "INBOUW AFMETINGEN",
+    "source_pdf": "pomp-specials.pdf",
     "page": 9,
     "brand": "Borger",
     "maat": "DN250 - 10\"",
@@ -2479,8 +2521,8 @@
     "b": "842 mm",
     "fl_776_a": "251 mm",
     "a": "201 mm",
-    "col_6": "742 mm",
     "type": "inbouw_afmetingen",
+    "length_mm": "742 mm",
     "application": "INBOUW AFMETINGEN",
     "_enriched": {
       "series_raw": "INBOUW AFMETINGEN",
@@ -2490,14 +2532,13 @@
       "material": null,
       "family_id": null,
       "sku_series": null
-    },
-    "series_image": "images/pomp-specials/pomp-specials__p9__inbouw-afmetingen.webp",
-    "image": "images/pomp-specials/pomp-specials__p9__inbouw-afmetingen.webp"
+    }
   },
   {
     "sku": null,
     "series_id": "inbouw-afmetingen",
     "series_name": "INBOUW AFMETINGEN",
+    "source_pdf": "pomp-specials.pdf",
     "page": 9,
     "brand": "Borger",
     "maat": "DN300 - 12\"",
@@ -2516,14 +2557,13 @@
       "material": null,
       "family_id": null,
       "sku_series": null
-    },
-    "series_image": "images/pomp-specials/pomp-specials__p9__inbouw-afmetingen.webp",
-    "image": "images/pomp-specials/pomp-specials__p9__inbouw-afmetingen.webp"
+    }
   },
   {
     "sku": null,
     "series_id": "inbouw-afmetingen",
     "series_name": "INBOUW AFMETINGEN",
+    "source_pdf": "pomp-specials.pdf",
     "page": 9,
     "brand": "Borger",
     "maat": "DN350 - 14\"",
@@ -2542,14 +2582,13 @@
       "material": null,
       "family_id": null,
       "sku_series": null
-    },
-    "series_image": "images/pomp-specials/pomp-specials__p9__inbouw-afmetingen.webp",
-    "image": "images/pomp-specials/pomp-specials__p9__inbouw-afmetingen.webp"
+    }
   },
   {
     "sku": null,
     "series_id": "inbouw-afmetingen",
     "series_name": "INBOUW AFMETINGEN",
+    "source_pdf": "pomp-specials.pdf",
     "page": 9,
     "brand": "Borger",
     "maat": "DN80 - 3\"",
@@ -2568,14 +2607,13 @@
       "material": null,
       "family_id": null,
       "sku_series": null
-    },
-    "series_image": "images/pomp-specials/pomp-specials__p9__inbouw-afmetingen.webp",
-    "image": "images/pomp-specials/pomp-specials__p9__inbouw-afmetingen.webp"
+    }
   },
   {
     "sku": null,
     "series_id": "inbouw-afmetingen",
     "series_name": "INBOUW AFMETINGEN",
+    "source_pdf": "pomp-specials.pdf",
     "page": 9,
     "brand": "Borger",
     "maat": "DN100 - 4\"",
@@ -2594,14 +2632,13 @@
       "material": null,
       "family_id": null,
       "sku_series": null
-    },
-    "series_image": "images/pomp-specials/pomp-specials__p9__inbouw-afmetingen.webp",
-    "image": "images/pomp-specials/pomp-specials__p9__inbouw-afmetingen.webp"
+    }
   },
   {
     "sku": null,
     "series_id": "inbouw-afmetingen",
     "series_name": "INBOUW AFMETINGEN",
+    "source_pdf": "pomp-specials.pdf",
     "page": 9,
     "brand": "Borger",
     "maat": "DN125 - 5\"",
@@ -2620,14 +2657,13 @@
       "material": null,
       "family_id": null,
       "sku_series": null
-    },
-    "series_image": "images/pomp-specials/pomp-specials__p9__inbouw-afmetingen.webp",
-    "image": "images/pomp-specials/pomp-specials__p9__inbouw-afmetingen.webp"
+    }
   },
   {
     "sku": null,
     "series_id": "inbouw-afmetingen",
     "series_name": "INBOUW AFMETINGEN",
+    "source_pdf": "pomp-specials.pdf",
     "page": 9,
     "brand": "Borger",
     "maat": "DN150 - 6\"",
@@ -2635,8 +2671,8 @@
     "b": "1040 mm",
     "fl_776_a": "350 mm",
     "a": "400 mm",
-    "col_6": "1140 mm",
     "type": "inbouw_afmetingen",
+    "length_mm": "1140 mm",
     "application": "INBOUW AFMETINGEN",
     "_enriched": {
       "series_raw": "INBOUW AFMETINGEN",
@@ -2646,14 +2682,13 @@
       "material": null,
       "family_id": null,
       "sku_series": null
-    },
-    "series_image": "images/pomp-specials/pomp-specials__p9__inbouw-afmetingen.webp",
-    "image": "images/pomp-specials/pomp-specials__p9__inbouw-afmetingen.webp"
+    }
   },
   {
     "sku": null,
     "series_id": "inbouw-afmetingen",
     "series_name": "INBOUW AFMETINGEN",
+    "source_pdf": "pomp-specials.pdf",
     "page": 9,
     "brand": "Borger",
     "maat": "DN200 - 8\"",
@@ -2672,14 +2707,13 @@
       "material": null,
       "family_id": null,
       "sku_series": null
-    },
-    "series_image": "images/pomp-specials/pomp-specials__p9__inbouw-afmetingen.webp",
-    "image": "images/pomp-specials/pomp-specials__p9__inbouw-afmetingen.webp"
+    }
   },
   {
     "sku": null,
     "series_id": "inbouw-afmetingen",
     "series_name": "INBOUW AFMETINGEN",
+    "source_pdf": "pomp-specials.pdf",
     "page": 9,
     "brand": "Borger",
     "maat": "DN250 - 10\"",
@@ -2687,8 +2721,8 @@
     "b": "1468 mm",
     "fl_776_a": "564 mm",
     "a": "514 mm",
-    "col_6": "1368 mm",
     "type": "inbouw_afmetingen",
+    "length_mm": "1368 mm",
     "application": "INBOUW AFMETINGEN",
     "_enriched": {
       "series_raw": "INBOUW AFMETINGEN",
@@ -2698,14 +2732,13 @@
       "material": null,
       "family_id": null,
       "sku_series": null
-    },
-    "series_image": "images/pomp-specials/pomp-specials__p9__inbouw-afmetingen.webp",
-    "image": "images/pomp-specials/pomp-specials__p9__inbouw-afmetingen.webp"
+    }
   },
   {
     "sku": null,
     "series_id": "inbouw-afmetingen",
     "series_name": "INBOUW AFMETINGEN",
+    "source_pdf": "pomp-specials.pdf",
     "page": 9,
     "brand": "Borger",
     "maat": "DN100 - 4\"",
@@ -2724,14 +2757,13 @@
       "material": null,
       "family_id": null,
       "sku_series": null
-    },
-    "series_image": "images/pomp-specials/pomp-specials__p9__inbouw-afmetingen.webp",
-    "image": "images/pomp-specials/pomp-specials__p9__inbouw-afmetingen.webp"
+    }
   },
   {
     "sku": null,
     "series_id": "inbouw-afmetingen",
     "series_name": "INBOUW AFMETINGEN",
+    "source_pdf": "pomp-specials.pdf",
     "page": 9,
     "brand": "Borger",
     "maat": "DN125 - 5\"",
@@ -2750,14 +2782,13 @@
       "material": null,
       "family_id": null,
       "sku_series": null
-    },
-    "series_image": "images/pomp-specials/pomp-specials__p9__inbouw-afmetingen.webp",
-    "image": "images/pomp-specials/pomp-specials__p9__inbouw-afmetingen.webp"
+    }
   },
   {
     "sku": null,
     "series_id": "inbouw-afmetingen",
     "series_name": "INBOUW AFMETINGEN",
+    "source_pdf": "pomp-specials.pdf",
     "page": 9,
     "brand": "Borger",
     "maat": "DN150 - 6\"",
@@ -2776,14 +2807,13 @@
       "material": null,
       "family_id": null,
       "sku_series": null
-    },
-    "series_image": "images/pomp-specials/pomp-specials__p9__inbouw-afmetingen.webp",
-    "image": "images/pomp-specials/pomp-specials__p9__inbouw-afmetingen.webp"
+    }
   },
   {
     "sku": null,
     "series_id": "inbouw-afmetingen",
     "series_name": "INBOUW AFMETINGEN",
+    "source_pdf": "pomp-specials.pdf",
     "page": 9,
     "brand": "Borger",
     "maat": "DN200 - 8\"",
@@ -2791,8 +2821,8 @@
     "b": "1862 mm",
     "fl_776_a": "761 mm",
     "a": "811 mm",
-    "col_6": "1962 mm",
     "type": "inbouw_afmetingen",
+    "length_mm": "1962 mm",
     "application": "INBOUW AFMETINGEN",
     "_enriched": {
       "series_raw": "INBOUW AFMETINGEN",
@@ -2802,14 +2832,13 @@
       "material": null,
       "family_id": null,
       "sku_series": null
-    },
-    "series_image": "images/pomp-specials/pomp-specials__p9__inbouw-afmetingen.webp",
-    "image": "images/pomp-specials/pomp-specials__p9__inbouw-afmetingen.webp"
+    }
   },
   {
     "sku": null,
     "series_id": "inbouw-afmetingen",
     "series_name": "INBOUW AFMETINGEN",
+    "source_pdf": "pomp-specials.pdf",
     "page": 9,
     "brand": "Borger",
     "maat": "DN250 - 10\"",
@@ -2828,14 +2857,13 @@
       "material": null,
       "family_id": null,
       "sku_series": null
-    },
-    "series_image": "images/pomp-specials/pomp-specials__p9__inbouw-afmetingen.webp",
-    "image": "images/pomp-specials/pomp-specials__p9__inbouw-afmetingen.webp"
+    }
   },
   {
     "sku": null,
     "series_id": "industrie-bouw-landbou",
     "series_name": "industrie, bouw, landbou",
+    "source_pdf": "pomp-specials.pdf",
     "page": 13,
     "debiet_l_slag": "0,05 l/slag",
     "lengte_zuigbuis_mm": "650 mm",
@@ -2854,14 +2882,13 @@
       "material": null,
       "family_id": null,
       "sku_series": null
-    },
-    "series_image": "images/pomp-specials/pomp-specials__p13__industrie-bouw-landbouw-maritiem__13520048__13520048.webp",
-    "image": "images/pomp-specials/pomp-specials__p13__industrie-bouw-landbouw-maritiem__13520048__13520048.webp"
+    }
   },
   {
     "sku": null,
     "series_id": "industrie-bouw-landbouw",
     "series_name": "industrie, bouw, landbouw",
+    "source_pdf": "pomp-specials.pdf",
     "page": 11,
     "brand": "Honda",
     "type_motor": "GX 240",
@@ -2879,6 +2906,7 @@
     "spec_application_desc": "industrie, bouw, landbouw",
     "spec_impeller_material": "Gietijzer",
     "spec_material": "waaier Gietijzer",
+    "spec_product_variant": "met vaste",
     "application": "VARIATIES",
     "_enriched": {
       "series_raw": "industrie, bouw, landbouw",
@@ -2888,14 +2916,13 @@
       "material": null,
       "family_id": null,
       "sku_series": null
-    },
-    "series_image": "images/pomp-specials/pomp-specials__p11__industrie-bouw-landbouw-modder__18480021__18480021.webp",
-    "image": "images/pomp-specials/pomp-specials__p11__industrie-bouw-landbouw-modder__18480021__18480021.webp"
+    }
   },
   {
     "sku": null,
     "series_id": "industrie-bouw-landbouw",
     "series_name": "industrie, bouw, landbouw",
+    "source_pdf": "pomp-specials.pdf",
     "page": 12,
     "col_0": null,
     "type_basic": "PRO",
@@ -2906,7 +2933,7 @@
     "slang_m_4_m": "6 m",
     "filter_geen": "10 µ",
     "hand_schoen_nee": "Ja",
-    "col_9": null,
+    "lengte": "6 m",
     "type": "industrie_bouw_landbouw",
     "spec_liquid_temp_range": "maximum 35°C",
     "spec_temp_range": "vloeistof",
@@ -2921,14 +2948,13 @@
       "material": null,
       "family_id": null,
       "sku_series": null
-    },
-    "series_image": "images/pomp-specials/pomp-specials__p12__industrie-bouw-landbouw-maritiem__13520__13520047-13520108-13520109.webp",
-    "image": "images/pomp-specials/pomp-specials__p12__industrie-bouw-landbouw-maritiem__13520__13520047-13520108-13520109.webp"
+    }
   },
   {
     "sku": null,
     "series_id": "industrie-bouw-landbouw",
     "series_name": "industrie, bouw, landbouw,",
+    "source_pdf": "pomp-specials.pdf",
     "page": 16,
     "debiet_l_m_80_omw": "28 l/m",
     "aanzuigdiepte_m": "1,3 m",
@@ -2948,14 +2974,13 @@
       "material": null,
       "family_id": null,
       "sku_series": null
-    },
-    "series_image": "images/pomp-specials/pomp-specials__p16__industrie-bouw-landbouw-maritiem__1__13520005-13730115-19220101.webp",
-    "image": "images/pomp-specials/pomp-specials__p16__industrie-bouw-landbouw-maritiem__1__13520005-13730115-19220101.webp"
+    }
   },
   {
     "sku": null,
     "series_id": "industrie-bouw-landbouw-maritiem",
     "series_name": "industrie, bouw, landbouw, maritiem",
+    "source_pdf": "pomp-specials.pdf",
     "page": 12,
     "col_0": null,
     "type": "Panther 56",
@@ -2976,14 +3001,13 @@
       "material": null,
       "family_id": null,
       "sku_series": null
-    },
-    "series_image": "images/pomp-specials/pomp-specials__p12__industrie-bouw-landbouw-maritiem__13520__13520047-13520108-13520109.webp",
-    "image": "images/pomp-specials/pomp-specials__p12__industrie-bouw-landbouw-maritiem__13520__13520047-13520108-13520109.webp"
+    }
   },
   {
     "sku": null,
     "series_id": "industrie-bouw-landbouw-maritiem",
     "series_name": "industrie, bouw, landbouw, maritiem",
+    "source_pdf": "pomp-specials.pdf",
     "page": 13,
     "col_0": null,
     "type_pomp": "Panther 56",
@@ -3007,14 +3031,13 @@
       "material": null,
       "family_id": null,
       "sku_series": null
-    },
-    "series_image": "images/pomp-specials/pomp-specials__p13__industrie-bouw-landbouw-maritiem__13520048__13520048.webp",
-    "image": "images/pomp-specials/pomp-specials__p13__industrie-bouw-landbouw-maritiem__13520048__13520048.webp"
+    }
   },
   {
     "sku": null,
     "series_id": "industrie-bouw-landbouw-maritiem",
     "series_name": "industrie, bouw, landbouw, maritiem",
+    "source_pdf": "pomp-specials.pdf",
     "page": 13,
     "col_0": null,
     "type_pomp": "Panther 56",
@@ -3038,14 +3061,13 @@
       "material": null,
       "family_id": null,
       "sku_series": null
-    },
-    "series_image": "images/pomp-specials/pomp-specials__p13__industrie-bouw-landbouw-maritiem__13520048__13520048.webp",
-    "image": "images/pomp-specials/pomp-specials__p13__industrie-bouw-landbouw-maritiem__13520048__13520048.webp"
+    }
   },
   {
     "sku": null,
     "series_id": "industrie-bouw-landbouw-maritiem",
     "series_name": "industrie, bouw, landbouw, maritiem",
+    "source_pdf": "pomp-specials.pdf",
     "page": 16,
     "col_0": null,
     "type": "K0",
@@ -3054,11 +3076,12 @@
     "aanzuigdiepte_m": "7 m",
     "opv_hoogte_m": "25 m",
     "aansluiting": "1/2”",
-    "col_7": null,
+    "lengte": "7 m",
     "spec_liquid_temp_range": "maximum 40°C",
     "spec_temp_range": "vloeistof",
     "spec_application_desc": "industrie, bouw, landbouw, maritiem",
     "spec_housing": "Gietijzer",
+    "spec_product_variant": "met vrije",
     "application": "VARIATIES",
     "_enriched": {
       "series_raw": "industrie, bouw, landbouw, maritiem",
@@ -3068,14 +3091,13 @@
       "material": null,
       "family_id": null,
       "sku_series": "k"
-    },
-    "series_image": "images/pomp-specials/pomp-specials__p16__industrie-bouw-landbouw-maritiem__1__13520005-13730115-19220101.webp",
-    "image": "images/pomp-specials/pomp-specials__p16__industrie-bouw-landbouw-maritiem__1__13520005-13730115-19220101.webp"
+    }
   },
   {
     "sku": null,
     "series_id": "industrie-bouw-landbouw-maritiem",
     "series_name": "industrie, bouw, landbouw, maritiem",
+    "source_pdf": "pomp-specials.pdf",
     "page": 16,
     "col_0": null,
     "type": "K2",
@@ -3084,11 +3106,12 @@
     "aanzuigdiepte_m": "7 m",
     "opv_hoogte_m": "25 m",
     "aansluiting": "1”",
-    "col_7": null,
+    "lengte": "7 m",
     "spec_liquid_temp_range": "maximum 40°C",
     "spec_temp_range": "vloeistof",
     "spec_application_desc": "industrie, bouw, landbouw, maritiem",
     "spec_housing": "Gietijzer",
+    "spec_product_variant": "met vrije",
     "application": "VARIATIES",
     "_enriched": {
       "series_raw": "industrie, bouw, landbouw, maritiem",
@@ -3098,14 +3121,13 @@
       "material": null,
       "family_id": null,
       "sku_series": "k"
-    },
-    "series_image": "images/pomp-specials/pomp-specials__p16__industrie-bouw-landbouw-maritiem__1__13520005-13730115-19220101.webp",
-    "image": "images/pomp-specials/pomp-specials__p16__industrie-bouw-landbouw-maritiem__1__13520005-13730115-19220101.webp"
+    }
   },
   {
     "sku": null,
     "series_id": "industrie-bouw-landbouw-maritiem",
     "series_name": "industrie, bouw, landbouw, maritiem",
+    "source_pdf": "pomp-specials.pdf",
     "page": 16,
     "col_0": null,
     "type": "K4",
@@ -3114,11 +3136,12 @@
     "aanzuigdiepte_m": "7 m",
     "opv_hoogte_m": "25 m",
     "aansluiting": "5/4”",
-    "col_7": null,
+    "lengte": "7 m",
     "spec_liquid_temp_range": "maximum 40°C",
     "spec_temp_range": "vloeistof",
     "spec_application_desc": "industrie, bouw, landbouw, maritiem",
     "spec_housing": "Gietijzer",
+    "spec_product_variant": "met vrije",
     "application": "VARIATIES",
     "_enriched": {
       "series_raw": "industrie, bouw, landbouw, maritiem",
@@ -3128,14 +3151,13 @@
       "material": null,
       "family_id": null,
       "sku_series": "k"
-    },
-    "series_image": "images/pomp-specials/pomp-specials__p16__industrie-bouw-landbouw-maritiem__1__13520005-13730115-19220101.webp",
-    "image": "images/pomp-specials/pomp-specials__p16__industrie-bouw-landbouw-maritiem__1__13520005-13730115-19220101.webp"
+    }
   },
   {
     "sku": null,
     "series_id": "installaties-industrie",
     "series_name": "installaties, industrie",
+    "source_pdf": "pomp-specials.pdf",
     "page": 8,
     "col_0": null,
     "min_toerental_rpm": "50",
@@ -3151,6 +3173,7 @@
     "spec_application_desc": "bouw, landbouw, afvalverwerking, biogas",
     "spec_housing": "EN-GJL-250/RVS 1.4517",
     "spec_material": "rotor Gietijzer/gietstaal/RVS",
+    "spec_product_title": "PE FL",
     "application": "VARIATIES",
     "_enriched": {
       "series_raw": "installaties, industrie",
@@ -3160,14 +3183,13 @@
       "material": null,
       "family_id": null,
       "sku_series": null
-    },
-    "series_image": "images/pomp-specials/pomp-specials__p8__installaties-industrie__fl__fl-776.webp",
-    "image": "images/pomp-specials/pomp-specials__p8__installaties-industrie__fl__fl-776.webp"
+    }
   },
   {
     "sku": null,
     "series_id": "installaties-industrie",
     "series_name": "installaties, industrie",
+    "source_pdf": "pomp-specials.pdf",
     "page": 8,
     "col_0": null,
     "min_toerental_rpm": "50",
@@ -3183,6 +3205,7 @@
     "spec_application_desc": "bouw, landbouw, afvalverwerking, biogas",
     "spec_housing": "EN-GJL-250/RVS 1.4517",
     "spec_material": "rotor Gietijzer/gietstaal/RVS",
+    "spec_product_title": "PE FL",
     "application": "VARIATIES",
     "_enriched": {
       "series_raw": "installaties, industrie",
@@ -3192,14 +3215,13 @@
       "material": null,
       "family_id": null,
       "sku_series": null
-    },
-    "series_image": "images/pomp-specials/pomp-specials__p8__installaties-industrie__fl__fl-776.webp",
-    "image": "images/pomp-specials/pomp-specials__p8__installaties-industrie__fl__fl-776.webp"
+    }
   },
   {
     "sku": null,
     "series_id": "irrigatie-landbouw",
     "series_name": "irrigatie, landbouw",
+    "source_pdf": "pomp-specials.pdf",
     "page": 4,
     "brand": "Rovatti",
     "col_0": null,
@@ -3216,6 +3238,7 @@
     "spec_housing": "Gietijzer",
     "spec_impeller_material": "Gietijzer",
     "spec_material": "waaier Gietijzer",
+    "spec_product_variant": "met vaste",
     "application": "VARIATIES",
     "_enriched": {
       "series_raw": "irrigatie, landbouw",
@@ -3225,14 +3248,13 @@
       "material": null,
       "family_id": null,
       "sku_series": "t"
-    },
-    "series_image": "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130__17130004-17130014-17130028.webp",
-    "image": "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130__17130004-17130014-17130028.webp"
+    }
   },
   {
     "sku": null,
     "series_id": "irrigatie-landbouw",
     "series_name": "irrigatie, landbouw",
+    "source_pdf": "pomp-specials.pdf",
     "page": 4,
     "brand": "Rovatti",
     "col_0": null,
@@ -3249,6 +3271,7 @@
     "spec_housing": "Gietijzer",
     "spec_impeller_material": "Gietijzer",
     "spec_material": "waaier Gietijzer",
+    "spec_product_variant": "met vaste",
     "application": "VARIATIES",
     "_enriched": {
       "series_raw": "irrigatie, landbouw",
@@ -3258,14 +3281,13 @@
       "material": null,
       "family_id": null,
       "sku_series": "t"
-    },
-    "series_image": "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130__17130004-17130014-17130028.webp",
-    "image": "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130__17130004-17130014-17130028.webp"
+    }
   },
   {
     "sku": null,
     "series_id": "irrigatie-landbouw",
     "series_name": "irrigatie, landbouw",
+    "source_pdf": "pomp-specials.pdf",
     "page": 4,
     "brand": "Rovatti",
     "col_0": null,
@@ -3282,6 +3304,7 @@
     "spec_housing": "Gietijzer",
     "spec_impeller_material": "Gietijzer",
     "spec_material": "waaier Gietijzer",
+    "spec_product_variant": "met vaste",
     "application": "VARIATIES",
     "_enriched": {
       "series_raw": "irrigatie, landbouw",
@@ -3291,14 +3314,13 @@
       "material": null,
       "family_id": null,
       "sku_series": "t"
-    },
-    "series_image": "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130__17130004-17130014-17130028.webp",
-    "image": "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130__17130004-17130014-17130028.webp"
+    }
   },
   {
     "sku": null,
     "series_id": "irrigatie-landbouw",
     "series_name": "irrigatie, landbouw",
+    "source_pdf": "pomp-specials.pdf",
     "page": 4,
     "brand": "Rovatti",
     "col_0": null,
@@ -3315,6 +3337,7 @@
     "spec_housing": "Gietijzer",
     "spec_impeller_material": "Gietijzer",
     "spec_material": "waaier Gietijzer",
+    "spec_product_variant": "met vaste",
     "application": "VARIATIES",
     "_enriched": {
       "series_raw": "irrigatie, landbouw",
@@ -3324,14 +3347,13 @@
       "material": null,
       "family_id": null,
       "sku_series": "t"
-    },
-    "series_image": "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130__17130004-17130014-17130028.webp",
-    "image": "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130__17130004-17130014-17130028.webp"
+    }
   },
   {
     "sku": null,
     "series_id": "irrigatie-landbouw",
     "series_name": "irrigatie, landbouw",
+    "source_pdf": "pomp-specials.pdf",
     "page": 4,
     "brand": "Rovatti",
     "col_0": null,
@@ -3348,6 +3370,7 @@
     "spec_housing": "Gietijzer",
     "spec_impeller_material": "Gietijzer",
     "spec_material": "waaier Gietijzer",
+    "spec_product_variant": "met vaste",
     "application": "VARIATIES",
     "_enriched": {
       "series_raw": "irrigatie, landbouw",
@@ -3357,14 +3380,13 @@
       "material": null,
       "family_id": null,
       "sku_series": "t"
-    },
-    "series_image": "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130__17130004-17130014-17130028.webp",
-    "image": "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130__17130004-17130014-17130028.webp"
+    }
   },
   {
     "sku": null,
     "series_id": "irrigatie-landbouw",
     "series_name": "irrigatie, landbouw",
+    "source_pdf": "pomp-specials.pdf",
     "page": 4,
     "brand": "Rovatti",
     "col_0": null,
@@ -3381,6 +3403,7 @@
     "spec_housing": "Gietijzer",
     "spec_impeller_material": "Gietijzer",
     "spec_material": "waaier Gietijzer",
+    "spec_product_variant": "met vaste",
     "application": "VARIATIES",
     "_enriched": {
       "series_raw": "irrigatie, landbouw",
@@ -3390,14 +3413,13 @@
       "material": null,
       "family_id": null,
       "sku_series": "t"
-    },
-    "series_image": "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130__17130004-17130014-17130028.webp",
-    "image": "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130__17130004-17130014-17130028.webp"
+    }
   },
   {
     "sku": null,
     "series_id": "irrigatie-landbouw",
     "series_name": "irrigatie, landbouw",
+    "source_pdf": "pomp-specials.pdf",
     "page": 4,
     "brand": "Rovatti",
     "col_0": null,
@@ -3414,6 +3436,7 @@
     "spec_housing": "Gietijzer",
     "spec_impeller_material": "Gietijzer",
     "spec_material": "waaier Gietijzer",
+    "spec_product_variant": "met vaste",
     "application": "VARIATIES",
     "_enriched": {
       "series_raw": "irrigatie, landbouw",
@@ -3423,14 +3446,13 @@
       "material": null,
       "family_id": null,
       "sku_series": "t"
-    },
-    "series_image": "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130__17130004-17130014-17130028.webp",
-    "image": "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130__17130004-17130014-17130028.webp"
+    }
   },
   {
     "sku": null,
     "series_id": "irrigatie-landbouw",
     "series_name": "irrigatie, landbouw",
+    "source_pdf": "pomp-specials.pdf",
     "page": 4,
     "brand": "Rovatti",
     "col_0": null,
@@ -3447,6 +3469,7 @@
     "spec_housing": "Gietijzer",
     "spec_impeller_material": "Gietijzer",
     "spec_material": "waaier Gietijzer",
+    "spec_product_variant": "met vaste",
     "application": "VARIATIES",
     "_enriched": {
       "series_raw": "irrigatie, landbouw",
@@ -3456,14 +3479,13 @@
       "material": null,
       "family_id": null,
       "sku_series": "t"
-    },
-    "series_image": "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130__17130004-17130014-17130028.webp",
-    "image": "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130__17130004-17130014-17130028.webp"
+    }
   },
   {
     "sku": null,
     "series_id": "irrigatie-landbouw",
     "series_name": "irrigatie, landbouw",
+    "source_pdf": "pomp-specials.pdf",
     "page": 4,
     "brand": "Rovatti",
     "col_0": null,
@@ -3480,6 +3502,7 @@
     "spec_housing": "Gietijzer",
     "spec_impeller_material": "Gietijzer",
     "spec_material": "waaier Gietijzer",
+    "spec_product_variant": "met vaste",
     "application": "VARIATIES",
     "_enriched": {
       "series_raw": "irrigatie, landbouw",
@@ -3489,14 +3512,13 @@
       "material": null,
       "family_id": null,
       "sku_series": "t"
-    },
-    "series_image": "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130__17130004-17130014-17130028.webp",
-    "image": "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130__17130004-17130014-17130028.webp"
+    }
   },
   {
     "sku": null,
     "series_id": "irrigatie-landbouw",
     "series_name": "irrigatie, landbouw",
+    "source_pdf": "pomp-specials.pdf",
     "page": 4,
     "brand": "Rovatti",
     "col_0": null,
@@ -3513,6 +3535,7 @@
     "spec_housing": "Gietijzer",
     "spec_impeller_material": "Gietijzer",
     "spec_material": "waaier Gietijzer",
+    "spec_product_variant": "met vaste",
     "application": "VARIATIES",
     "_enriched": {
       "series_raw": "irrigatie, landbouw",
@@ -3522,14 +3545,13 @@
       "material": null,
       "family_id": null,
       "sku_series": "t"
-    },
-    "series_image": "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130__17130004-17130014-17130028.webp",
-    "image": "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130__17130004-17130014-17130028.webp"
+    }
   },
   {
     "sku": null,
     "series_id": "irrigatie-landbouw",
     "series_name": "irrigatie, landbouw",
+    "source_pdf": "pomp-specials.pdf",
     "page": 4,
     "brand": "Rovatti",
     "col_0": null,
@@ -3546,6 +3568,7 @@
     "spec_housing": "Gietijzer",
     "spec_impeller_material": "Gietijzer",
     "spec_material": "waaier Gietijzer",
+    "spec_product_variant": "met vaste",
     "application": "VARIATIES",
     "_enriched": {
       "series_raw": "irrigatie, landbouw",
@@ -3555,14 +3578,13 @@
       "material": null,
       "family_id": null,
       "sku_series": "t"
-    },
-    "series_image": "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130__17130004-17130014-17130028.webp",
-    "image": "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130__17130004-17130014-17130028.webp"
+    }
   },
   {
     "sku": null,
     "series_id": "irrigatie-landbouw",
     "series_name": "irrigatie, landbouw",
+    "source_pdf": "pomp-specials.pdf",
     "page": 4,
     "brand": "Rovatti",
     "col_0": null,
@@ -3579,6 +3601,7 @@
     "spec_housing": "Gietijzer",
     "spec_impeller_material": "Gietijzer",
     "spec_material": "waaier Gietijzer",
+    "spec_product_variant": "met vaste",
     "application": "VARIATIES",
     "_enriched": {
       "series_raw": "irrigatie, landbouw",
@@ -3588,14 +3611,13 @@
       "material": null,
       "family_id": null,
       "sku_series": "t"
-    },
-    "series_image": "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130__17130004-17130014-17130028.webp",
-    "image": "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130__17130004-17130014-17130028.webp"
+    }
   },
   {
     "sku": null,
     "series_id": "irrigatie-landbouw",
     "series_name": "irrigatie, landbouw",
+    "source_pdf": "pomp-specials.pdf",
     "page": 4,
     "brand": "Rovatti",
     "col_0": null,
@@ -3612,6 +3634,7 @@
     "spec_housing": "Gietijzer",
     "spec_impeller_material": "Gietijzer",
     "spec_material": "waaier Gietijzer",
+    "spec_product_variant": "met vaste",
     "application": "VARIATIES",
     "_enriched": {
       "series_raw": "irrigatie, landbouw",
@@ -3621,14 +3644,13 @@
       "material": null,
       "family_id": null,
       "sku_series": "t"
-    },
-    "series_image": "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130__17130004-17130014-17130028.webp",
-    "image": "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130__17130004-17130014-17130028.webp"
+    }
   },
   {
     "sku": null,
     "series_id": "irrigatie-landbouw",
     "series_name": "irrigatie, landbouw",
+    "source_pdf": "pomp-specials.pdf",
     "page": 4,
     "brand": "Rovatti",
     "col_0": null,
@@ -3645,6 +3667,7 @@
     "spec_housing": "Gietijzer",
     "spec_impeller_material": "Gietijzer",
     "spec_material": "waaier Gietijzer",
+    "spec_product_variant": "met vaste",
     "application": "VARIATIES",
     "_enriched": {
       "series_raw": "irrigatie, landbouw",
@@ -3654,14 +3677,13 @@
       "material": null,
       "family_id": null,
       "sku_series": "t"
-    },
-    "series_image": "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130__17130004-17130014-17130028.webp",
-    "image": "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130__17130004-17130014-17130028.webp"
+    }
   },
   {
     "sku": null,
     "series_id": "irrigatie-landbouw",
     "series_name": "irrigatie, landbouw",
+    "source_pdf": "pomp-specials.pdf",
     "page": 4,
     "brand": "Rovatti",
     "col_0": null,
@@ -3678,6 +3700,7 @@
     "spec_housing": "Gietijzer",
     "spec_impeller_material": "Gietijzer",
     "spec_material": "waaier Gietijzer",
+    "spec_product_variant": "met vaste",
     "application": "VARIATIES",
     "_enriched": {
       "series_raw": "irrigatie, landbouw",
@@ -3687,14 +3710,13 @@
       "material": null,
       "family_id": null,
       "sku_series": "t"
-    },
-    "series_image": "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130__17130004-17130014-17130028.webp",
-    "image": "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130__17130004-17130014-17130028.webp"
+    }
   },
   {
     "sku": null,
     "series_id": "irrigatie-landbouw",
     "series_name": "irrigatie, landbouw",
+    "source_pdf": "pomp-specials.pdf",
     "page": 4,
     "brand": "Rovatti",
     "col_0": null,
@@ -3711,6 +3733,7 @@
     "spec_housing": "Gietijzer",
     "spec_impeller_material": "Gietijzer",
     "spec_material": "waaier Gietijzer",
+    "spec_product_variant": "met vaste",
     "application": "VARIATIES",
     "_enriched": {
       "series_raw": "irrigatie, landbouw",
@@ -3720,14 +3743,13 @@
       "material": null,
       "family_id": null,
       "sku_series": "t"
-    },
-    "series_image": "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130__17130004-17130014-17130028.webp",
-    "image": "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130__17130004-17130014-17130028.webp"
+    }
   },
   {
     "sku": null,
     "series_id": "irrigatie-landbouw",
     "series_name": "irrigatie, landbouw",
+    "source_pdf": "pomp-specials.pdf",
     "page": 6,
     "brand": "Bauer",
     "col_0": null,
@@ -3747,6 +3769,7 @@
     "spec_housing": "Gietijzer",
     "spec_impeller_material": "Gietijzer",
     "spec_material": "waaier Gietijzer",
+    "spec_product_variant": "met vaste",
     "application": "VARIATIES",
     "_enriched": {
       "series_raw": "irrigatie, landbouw",
@@ -3756,41 +3779,13 @@
       "material": null,
       "family_id": null,
       "sku_series": null
-    },
-    "series_image": "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__18540001.webp",
-    "image": "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__18540001.webp"
-  },
-  {
-    "sku": null,
-    "series_id": "landbouw-industrie-maritie",
-    "series_name": "landbouw, industrie, maritie",
-    "page": 17,
-    "debiet_m3_h": "1,5 m3/h",
-    "aansluiting": "3/4”",
-    "aanzuigdiepte_m": "3 m",
-    "opv_hoogte_m": "20 m",
-    "type": "landbouw_industrie_maritie",
-    "spec_liquid_temp_range": "maximum 40°C",
-    "spec_temp_range": "vloeistof",
-    "spec_application_desc": "landbouw, industrie, maritiem",
-    "spec_housing": "Aluminium",
-    "application": "VARIATIES",
-    "_enriched": {
-      "series_raw": "landbouw, industrie, maritie",
-      "series": "landbouw-industrie-maritie",
-      "catalog_group": null,
-      "product_type": null,
-      "material": null,
-      "family_id": null,
-      "sku_series": null
-    },
-    "series_image": "images/pomp-specials/pomp-specials__p17__auto-motor-boot__13520104__13520104.webp",
-    "image": "images/pomp-specials/pomp-specials__p17__auto-motor-boot__13520104__13520104.webp"
+    }
   },
   {
     "sku": null,
     "series_id": "landbouw-slachthuizen-biogas-i",
     "series_name": "landbouw, slachthuizen, biogas i",
+    "source_pdf": "pomp-specials.pdf",
     "page": 6,
     "brand": "Bauer",
     "toeren_rpm": "2600 rpm",
@@ -3808,6 +3803,7 @@
     "spec_housing": "Gietijzer",
     "spec_impeller_material": "Versterkt gietijzer",
     "spec_material": "waaier Versterkt gietijzer",
+    "spec_product_variant": "met vermaalinrichting",
     "application": "VARIATIES",
     "_enriched": {
       "series_raw": "landbouw, slachthuizen, biogas i",
@@ -3817,21 +3813,20 @@
       "material": null,
       "family_id": null,
       "sku_series": null
-    },
-    "series_image": "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__18540001.webp",
-    "image": "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__18540001.webp"
+    }
   },
   {
     "sku": null,
     "series_id": "landbouw-slachthuizen-biogas-installaties",
     "series_name": "landbouw, slachthuizen, biogas installaties",
+    "source_pdf": "pomp-specials.pdf",
     "page": 7,
     "col_0": null,
     "steekleiding_mm": "120",
     "waaier_rpm": "1600",
     "debiet_m3_h": "240",
     "opv_hoogte_m": "25 m",
-    "col_5": null,
+    "lengte": "25 m",
     "type": "landbouw_slachthuizen_biogas_installaties",
     "spec_liquid_temp_range": "maximum 40°C",
     "spec_temp_range": "vloeistof",
@@ -3841,6 +3836,8 @@
     "spec_housing": "Gietijzer/RVS",
     "spec_impeller_material": "Gietijzer/gietstaal/RVS",
     "spec_material": "waaier Gietijzer/gietstaal/RVS",
+    "spec_product_title": "RVS\nM",
+    "spec_product_variant": "met vermaalinrichting",
     "application": "VARIATIES",
     "_enriched": {
       "series_raw": "landbouw, slachthuizen, biogas installaties",
@@ -3850,21 +3847,20 @@
       "material": null,
       "family_id": null,
       "sku_series": null
-    },
-    "series_image": "images/pomp-specials/pomp-specials__p7__landbouw-slachthuizen-biogas-installatie__super-15__super-150-super-me-100-7-5-super-me-120-15.webp",
-    "image": "images/pomp-specials/pomp-specials__p7__landbouw-slachthuizen-biogas-installatie__super-15__super-150-super-me-100-7-5-super-me-120-15.webp"
+    }
   },
   {
     "sku": null,
     "series_id": "landbouw-slachthuizen-biogas-installaties",
     "series_name": "landbouw, slachthuizen, biogas installaties",
+    "source_pdf": "pomp-specials.pdf",
     "page": 7,
     "col_0": null,
     "steekleiding_mm": "200",
     "waaier_rpm": "1600",
     "debiet_m3_h": "660",
     "opv_hoogte_m": "50 m",
-    "col_5": null,
+    "lengte": "50 m",
     "type": "landbouw_slachthuizen_biogas_installaties",
     "spec_liquid_temp_range": "maximum 40°C",
     "spec_temp_range": "vloeistof",
@@ -3874,6 +3870,8 @@
     "spec_housing": "Gietijzer/RVS",
     "spec_impeller_material": "Gietijzer/gietstaal/RVS",
     "spec_material": "waaier Gietijzer/gietstaal/RVS",
+    "spec_product_title": "RVS\nM",
+    "spec_product_variant": "met vermaalinrichting",
     "application": "VARIATIES",
     "_enriched": {
       "series_raw": "landbouw, slachthuizen, biogas installaties",
@@ -3883,21 +3881,20 @@
       "material": null,
       "family_id": null,
       "sku_series": null
-    },
-    "series_image": "images/pomp-specials/pomp-specials__p7__landbouw-slachthuizen-biogas-installatie__super-15__super-150-super-me-100-7-5-super-me-120-15.webp",
-    "image": "images/pomp-specials/pomp-specials__p7__landbouw-slachthuizen-biogas-installatie__super-15__super-150-super-me-100-7-5-super-me-120-15.webp"
+    }
   },
   {
     "sku": null,
     "series_id": "landbouw-slachthuizen-biogas-installaties",
     "series_name": "landbouw, slachthuizen, biogas installaties",
+    "source_pdf": "pomp-specials.pdf",
     "page": 7,
     "col_0": null,
     "steekleiding_mm": "80",
     "waaier_rpm": "1450",
     "debiet_m3_h": "78",
     "opv_hoogte_m": "5 m",
-    "col_5": null,
+    "lengte": "5 m",
     "type": "landbouw_slachthuizen_biogas_installaties",
     "spec_liquid_temp_range": "maximum 40°C",
     "spec_temp_range": "vloeistof",
@@ -3907,6 +3904,8 @@
     "spec_housing": "Gietijzer/RVS",
     "spec_impeller_material": "Gietijzer/gietstaal/RVS",
     "spec_material": "waaier Gietijzer/gietstaal/RVS",
+    "spec_product_title": "RVS\nM",
+    "spec_product_variant": "met vermaalinrichting",
     "application": "VARIATIES",
     "_enriched": {
       "series_raw": "landbouw, slachthuizen, biogas installaties",
@@ -3916,21 +3915,20 @@
       "material": null,
       "family_id": null,
       "sku_series": null
-    },
-    "series_image": "images/pomp-specials/pomp-specials__p7__landbouw-slachthuizen-biogas-installatie__super-15__super-150-super-me-100-7-5-super-me-120-15.webp",
-    "image": "images/pomp-specials/pomp-specials__p7__landbouw-slachthuizen-biogas-installatie__super-15__super-150-super-me-100-7-5-super-me-120-15.webp"
+    }
   },
   {
     "sku": null,
     "series_id": "landbouw-slachthuizen-biogas-installaties",
     "series_name": "landbouw, slachthuizen, biogas installaties",
+    "source_pdf": "pomp-specials.pdf",
     "page": 7,
     "col_0": null,
     "steekleiding_mm": "120",
     "waaier_rpm": "1450",
     "debiet_m3_h": "168",
     "opv_hoogte_m": "15 m",
-    "col_5": null,
+    "lengte": "15 m",
     "type": "landbouw_slachthuizen_biogas_installaties",
     "spec_liquid_temp_range": "maximum 40°C",
     "spec_temp_range": "vloeistof",
@@ -3940,6 +3938,8 @@
     "spec_housing": "Gietijzer/RVS",
     "spec_impeller_material": "Gietijzer/gietstaal/RVS",
     "spec_material": "waaier Gietijzer/gietstaal/RVS",
+    "spec_product_title": "RVS\nM",
+    "spec_product_variant": "met vermaalinrichting",
     "application": "VARIATIES",
     "_enriched": {
       "series_raw": "landbouw, slachthuizen, biogas installaties",
@@ -3949,21 +3949,20 @@
       "material": null,
       "family_id": null,
       "sku_series": null
-    },
-    "series_image": "images/pomp-specials/pomp-specials__p7__landbouw-slachthuizen-biogas-installatie__super-15__super-150-super-me-100-7-5-super-me-120-15.webp",
-    "image": "images/pomp-specials/pomp-specials__p7__landbouw-slachthuizen-biogas-installatie__super-15__super-150-super-me-100-7-5-super-me-120-15.webp"
+    }
   },
   {
     "sku": null,
     "series_id": "landbouw-slachthuizen-biogas-installaties",
     "series_name": "landbouw, slachthuizen, biogas installaties",
+    "source_pdf": "pomp-specials.pdf",
     "page": 7,
     "col_0": null,
     "steekleiding_mm": "120",
     "waaier_rpm": "1450",
     "debiet_m3_h": "204",
     "opv_hoogte_m": "16 m",
-    "col_5": null,
+    "lengte": "16 m",
     "type": "landbouw_slachthuizen_biogas_installaties",
     "spec_liquid_temp_range": "maximum 40°C",
     "spec_temp_range": "vloeistof",
@@ -3973,6 +3972,8 @@
     "spec_housing": "Gietijzer/RVS",
     "spec_impeller_material": "Gietijzer/gietstaal/RVS",
     "spec_material": "waaier Gietijzer/gietstaal/RVS",
+    "spec_product_title": "RVS\nM",
+    "spec_product_variant": "met vermaalinrichting",
     "application": "VARIATIES",
     "_enriched": {
       "series_raw": "landbouw, slachthuizen, biogas installaties",
@@ -3982,21 +3983,20 @@
       "material": null,
       "family_id": null,
       "sku_series": null
-    },
-    "series_image": "images/pomp-specials/pomp-specials__p7__landbouw-slachthuizen-biogas-installatie__super-15__super-150-super-me-100-7-5-super-me-120-15.webp",
-    "image": "images/pomp-specials/pomp-specials__p7__landbouw-slachthuizen-biogas-installatie__super-15__super-150-super-me-100-7-5-super-me-120-15.webp"
+    }
   },
   {
     "sku": null,
     "series_id": "landbouw-slachthuizen-biogas-installaties",
     "series_name": "landbouw, slachthuizen, biogas installaties",
+    "source_pdf": "pomp-specials.pdf",
     "page": 7,
     "col_0": null,
     "steekleiding_mm": "120",
     "waaier_rpm": "1450",
     "debiet_m3_h": "168",
     "opv_hoogte_m": "15 m",
-    "col_5": null,
+    "lengte": "15 m",
     "type": "landbouw_slachthuizen_biogas_installaties",
     "spec_liquid_temp_range": "maximum 40°C",
     "spec_temp_range": "vloeistof",
@@ -4006,6 +4006,8 @@
     "spec_housing": "Gietijzer/RVS",
     "spec_impeller_material": "Gietijzer/gietstaal/RVS",
     "spec_material": "waaier Gietijzer/gietstaal/RVS",
+    "spec_product_title": "RVS\nM",
+    "spec_product_variant": "met vermaalinrichting",
     "application": "VARIATIES",
     "_enriched": {
       "series_raw": "landbouw, slachthuizen, biogas installaties",
@@ -4015,21 +4017,20 @@
       "material": null,
       "family_id": null,
       "sku_series": null
-    },
-    "series_image": "images/pomp-specials/pomp-specials__p7__landbouw-slachthuizen-biogas-installatie__super-15__super-150-super-me-100-7-5-super-me-120-15.webp",
-    "image": "images/pomp-specials/pomp-specials__p7__landbouw-slachthuizen-biogas-installatie__super-15__super-150-super-me-100-7-5-super-me-120-15.webp"
+    }
   },
   {
     "sku": null,
     "series_id": "landbouw-slachthuizen-biogas-installaties",
     "series_name": "landbouw, slachthuizen, biogas installaties",
+    "source_pdf": "pomp-specials.pdf",
     "page": 7,
     "col_0": null,
     "steekleiding_mm": "120",
     "waaier_rpm": "1450",
     "debiet_m3_h": "204",
     "opv_hoogte_m": "22 m",
-    "col_5": null,
+    "lengte": "22 m",
     "type": "landbouw_slachthuizen_biogas_installaties",
     "spec_liquid_temp_range": "maximum 40°C",
     "spec_temp_range": "vloeistof",
@@ -4039,6 +4040,8 @@
     "spec_housing": "Gietijzer/RVS",
     "spec_impeller_material": "Gietijzer/gietstaal/RVS",
     "spec_material": "waaier Gietijzer/gietstaal/RVS",
+    "spec_product_title": "RVS\nM",
+    "spec_product_variant": "met vermaalinrichting",
     "application": "VARIATIES",
     "_enriched": {
       "series_raw": "landbouw, slachthuizen, biogas installaties",
@@ -4048,14 +4051,13 @@
       "material": null,
       "family_id": null,
       "sku_series": null
-    },
-    "series_image": "images/pomp-specials/pomp-specials__p7__landbouw-slachthuizen-biogas-installatie__super-15__super-150-super-me-100-7-5-super-me-120-15.webp",
-    "image": "images/pomp-specials/pomp-specials__p7__landbouw-slachthuizen-biogas-installatie__super-15__super-150-super-me-100-7-5-super-me-120-15.webp"
+    }
   },
   {
     "sku": null,
     "series_id": "tractorpompen",
     "series_name": "TRACTORPOMPEN",
+    "source_pdf": "pomp-specials.pdf",
     "page": 5,
     "col_0": null,
     "type": "T3-100A",
@@ -4078,6 +4080,7 @@
     "sku": null,
     "series_id": "tractorpompen",
     "series_name": "TRACTORPOMPEN",
+    "source_pdf": "pomp-specials.pdf",
     "page": 5,
     "col_0": null,
     "type": "T3-100A",
@@ -4100,6 +4103,7 @@
     "sku": null,
     "series_id": "tractorpompen",
     "series_name": "TRACTORPOMPEN",
+    "source_pdf": "pomp-specials.pdf",
     "page": 5,
     "col_0": null,
     "type": "T3-110",
@@ -4122,6 +4126,7 @@
     "sku": null,
     "series_id": "tractorpompen",
     "series_name": "TRACTORPOMPEN",
+    "source_pdf": "pomp-specials.pdf",
     "page": 5,
     "col_0": null,
     "type": "T3-110",
@@ -4144,6 +4149,7 @@
     "sku": null,
     "series_id": "tractorpompen",
     "series_name": "TRACTORPOMPEN",
+    "source_pdf": "pomp-specials.pdf",
     "page": 5,
     "col_0": null,
     "type": "T4-100",
@@ -4166,6 +4172,7 @@
     "sku": null,
     "series_id": "tractorpompen",
     "series_name": "TRACTORPOMPEN",
+    "source_pdf": "pomp-specials.pdf",
     "page": 5,
     "col_0": null,
     "type": "T4-100",
@@ -4188,6 +4195,7 @@
     "sku": null,
     "series_id": "tractorpompen",
     "series_name": "TRACTORPOMPEN",
+    "source_pdf": "pomp-specials.pdf",
     "page": 5,
     "col_0": null,
     "type": "T4-110",
@@ -4210,6 +4218,7 @@
     "sku": null,
     "series_id": "tractorpompen",
     "series_name": "TRACTORPOMPEN",
+    "source_pdf": "pomp-specials.pdf",
     "page": 5,
     "col_0": null,
     "type": "T4-110",
@@ -4232,6 +4241,7 @@
     "sku": null,
     "series_id": "tractorpompen",
     "series_name": "TRACTORPOMPEN",
+    "source_pdf": "pomp-specials.pdf",
     "page": 5,
     "col_0": null,
     "type": "T4-125",
@@ -4254,6 +4264,7 @@
     "sku": null,
     "series_id": "tractorpompen",
     "series_name": "TRACTORPOMPEN",
+    "source_pdf": "pomp-specials.pdf",
     "page": 5,
     "col_0": null,
     "type": "T2-150",
@@ -4276,6 +4287,7 @@
     "sku": null,
     "series_id": "tractorpompen",
     "series_name": "TRACTORPOMPEN",
+    "source_pdf": "pomp-specials.pdf",
     "page": 5,
     "col_0": null,
     "type": "T2K65/2",
@@ -4298,6 +4310,7 @@
     "sku": null,
     "series_id": "tractorpompen",
     "series_name": "TRACTORPOMPEN",
+    "source_pdf": "pomp-specials.pdf",
     "page": 5,
     "col_0": null,
     "type": "T3K65/2",
@@ -4320,6 +4333,7 @@
     "sku": null,
     "series_id": "tractorpompen",
     "series_name": "TRACTORPOMPEN",
+    "source_pdf": "pomp-specials.pdf",
     "page": 5,
     "col_0": null,
     "type": "T3K65/2",
@@ -4342,6 +4356,7 @@
     "sku": null,
     "series_id": "tractorpompen",
     "series_name": "TRACTORPOMPEN",
+    "source_pdf": "pomp-specials.pdf",
     "page": 5,
     "col_0": null,
     "type": "T3K80/2",
@@ -4364,6 +4379,7 @@
     "sku": null,
     "series_id": "tractorpompen",
     "series_name": "TRACTORPOMPEN",
+    "source_pdf": "pomp-specials.pdf",
     "page": 5,
     "col_0": null,
     "type": "T3K80-90/2",
@@ -4386,6 +4402,7 @@
     "sku": null,
     "series_id": "tractorpompen",
     "series_name": "TRACTORPOMPEN",
+    "source_pdf": "pomp-specials.pdf",
     "page": 5,
     "col_0": null,
     "type": "T3K80-90/2",
@@ -4408,6 +4425,7 @@
     "sku": null,
     "series_id": "variaties",
     "series_name": "VARIATIES",
+    "source_pdf": "pomp-specials.pdf",
     "page": 18,
     "col_0": null,
     "type": "S1",
@@ -4418,11 +4436,12 @@
     "aansluiting_mm": "9 mm",
     "opv_hoogte": "0,17 m",
     "pomp_dia_mm": "70 mm",
-    "col_9": null,
+    "lengte": "17 m",
     "spec_liquid_temp_range": "maximum 35°C",
     "spec_temp_range": "vloeistof",
     "spec_application_desc": "industrie, bouw",
     "spec_housing": "Technopolymeer",
+    "spec_product_title": "PE S",
     "application": "VARIATIES",
     "_enriched": {
       "series_raw": "VARIATIES",
@@ -4432,8 +4451,6 @@
       "material": null,
       "family_id": null,
       "sku_series": "s"
-    },
-    "series_image": "images/pomp-specials/pomp-specials__p18__huishoudelijk-landbouw-industrie__02350025__02350025-09050229-x1106034.webp",
-    "image": "images/pomp-specials/pomp-specials__p18__huishoudelijk-landbouw-industrie__02350025__02350025-09050229-x1106034.webp"
+    }
   }
 ]
