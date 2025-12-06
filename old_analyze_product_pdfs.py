@@ -2553,14 +2553,28 @@ def extract_makita_transposed(table: ExtractedTable) -> List[Dict[str, Any]]:
 # ------------------------
 
 
-def generate_series_id(category: Optional[str], pdf_name: str) -> str:
-    """Generate a unique series identifier from category and PDF name."""
+def generate_series_id(category: Optional[str], pdf_name: str, include_pdf_prefix: bool = True) -> str:
+    """Generate a unique series identifier from category and PDF name.
+    
+    Args:
+        category: The table header / series name (e.g., "ABS KNIE 90°")
+        pdf_name: The source PDF filename
+        include_pdf_prefix: If True, prefix with PDF stem to avoid cross-PDF collisions
+        
+    Returns:
+        Unique series_id like "abs-persluchtbuizen__abs-knie-90"
+    """
+    pdf_stem = slugify(pdf_name.replace(".pdf", "")) or "unknown"
+    
     if category:
         slug = slugify(category)
         if slug:
+            if include_pdf_prefix:
+                return f"{pdf_stem}__{slug}"
             return slug
-    # Fallback to PDF stem
-    return slugify(pdf_name.replace(".pdf", "")) or "unknown"
+    
+    # Fallback to PDF stem only
+    return pdf_stem
 
 
 def flatten_records_with_grouping(records: List[Dict[str, Any]], pdf_name: str) -> List[Dict[str, Any]]:

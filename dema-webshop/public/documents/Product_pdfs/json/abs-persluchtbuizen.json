@@ -1,7 +1,7 @@
 [
   {
     "sku": "ABSB02090",
-    "series_id": "abs-bocht-90",
+    "series_id": "abs-persluchtbuizen__abs-bocht-90",
     "series_name": "ABS BOCHT 90°",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 5,
@@ -22,11 +22,15 @@
       "family_id": "compressed-air-compressed-air-pipe-abs-bocht-90-20-mm-absb02090-0bc14a",
       "sku_series": "absb",
       "diameter_mm": 20.0
-    }
+    },
+    "image": "images/abs-persluchtbuizen/abs-persluchtbuizen__p5__abs-bocht-90__ABSB02090-ABSB02590-ABSB03290__v2.webp",
+    "images": [
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p5__abs-bocht-90__ABSB02090-ABSB02590-ABSB03290__v2.webp"
+    ]
   },
   {
     "sku": "ABSB02590",
-    "series_id": "abs-bocht-90",
+    "series_id": "abs-persluchtbuizen__abs-bocht-90",
     "series_name": "ABS BOCHT 90°",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 5,
@@ -47,11 +51,15 @@
       "family_id": "compressed-air-compressed-air-pipe-abs-bocht-90-25-mm-absb02590-a5e607",
       "sku_series": "absb",
       "diameter_mm": 25.0
-    }
+    },
+    "image": "images/abs-persluchtbuizen/abs-persluchtbuizen__p5__abs-bocht-90__ABSB02090-ABSB02590-ABSB03290__v2.webp",
+    "images": [
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p5__abs-bocht-90__ABSB02090-ABSB02590-ABSB03290__v2.webp"
+    ]
   },
   {
     "sku": "ABSB03290",
-    "series_id": "abs-bocht-90",
+    "series_id": "abs-persluchtbuizen__abs-bocht-90",
     "series_name": "ABS BOCHT 90°",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 5,
@@ -72,11 +80,15 @@
       "family_id": "compressed-air-compressed-air-pipe-abs-bocht-90-32-mm-absb03290-05c270",
       "sku_series": "absb",
       "diameter_mm": 32.0
-    }
+    },
+    "image": "images/abs-persluchtbuizen/abs-persluchtbuizen__p5__abs-bocht-90__ABSB02090-ABSB02590-ABSB03290__v2.webp",
+    "images": [
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p5__abs-bocht-90__ABSB02090-ABSB02590-ABSB03290__v2.webp"
+    ]
   },
   {
     "sku": "ABSB04090",
-    "series_id": "abs-bocht-90",
+    "series_id": "abs-persluchtbuizen__abs-bocht-90",
     "series_name": "ABS BOCHT 90°",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 5,
@@ -97,11 +109,15 @@
       "family_id": "compressed-air-compressed-air-pipe-abs-bocht-90-40-mm-absb04090-3592f4",
       "sku_series": "absb",
       "diameter_mm": 40.0
-    }
+    },
+    "image": "images/abs-persluchtbuizen/abs-persluchtbuizen__p5__abs-bocht-90__ABSB02090-ABSB02590-ABSB03290__v2.webp",
+    "images": [
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p5__abs-bocht-90__ABSB02090-ABSB02590-ABSB03290__v2.webp"
+    ]
   },
   {
     "sku": "ABSB05090",
-    "series_id": "abs-bocht-90",
+    "series_id": "abs-persluchtbuizen__abs-bocht-90",
     "series_name": "ABS BOCHT 90°",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 5,
@@ -122,11 +138,15 @@
       "family_id": "compressed-air-compressed-air-pipe-abs-bocht-90-50-mm-absb05090-0e924e",
       "sku_series": "absb",
       "diameter_mm": 50.0
-    }
+    },
+    "image": "images/abs-persluchtbuizen/abs-persluchtbuizen__p5__abs-bocht-90__ABSB02090-ABSB02590-ABSB03290__v2.webp",
+    "images": [
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p5__abs-bocht-90__ABSB02090-ABSB02590-ABSB03290__v2.webp"
+    ]
   },
   {
     "sku": "ABSB06390",
-    "series_id": "abs-bocht-90",
+    "series_id": "abs-persluchtbuizen__abs-bocht-90",
     "series_name": "ABS BOCHT 90°",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 5,
@@ -147,11 +167,15 @@
       "family_id": "compressed-air-compressed-air-pipe-abs-bocht-90-63-mm-absb06390-e8dc70",
       "sku_series": "absb",
       "diameter_mm": 63.0
-    }
+    },
+    "image": "images/abs-persluchtbuizen/abs-persluchtbuizen__p5__abs-bocht-90__ABSB02090-ABSB02590-ABSB03290__v2.webp",
+    "images": [
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p5__abs-bocht-90__ABSB02090-ABSB02590-ABSB03290__v2.webp"
+    ]
   },
   {
     "sku": "ABSB07590",
-    "series_id": "abs-bocht-90",
+    "series_id": "abs-persluchtbuizen__abs-bocht-90",
     "series_name": "ABS BOCHT 90°",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 5,
@@ -172,11 +196,15 @@
       "family_id": "compressed-air-compressed-air-pipe-abs-bocht-90-75-mm-absb07590-766ad0",
       "sku_series": "absb",
       "diameter_mm": 75.0
-    }
+    },
+    "image": "images/abs-persluchtbuizen/abs-persluchtbuizen__p5__abs-bocht-90__ABSB02090-ABSB02590-ABSB03290__v2.webp",
+    "images": [
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p5__abs-bocht-90__ABSB02090-ABSB02590-ABSB03290__v2.webp"
+    ]
   },
   {
     "sku": "ABSB09090",
-    "series_id": "abs-bocht-90",
+    "series_id": "abs-persluchtbuizen__abs-bocht-90",
     "series_name": "ABS BOCHT 90°",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 5,
@@ -197,11 +225,15 @@
       "family_id": "compressed-air-compressed-air-pipe-abs-bocht-90-90-mm-absb09090-b8c683",
       "sku_series": "absb",
       "diameter_mm": 90.0
-    }
+    },
+    "image": "images/abs-persluchtbuizen/abs-persluchtbuizen__p5__abs-bocht-90__ABSB02090-ABSB02590-ABSB03290__v2.webp",
+    "images": [
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p5__abs-bocht-90__ABSB02090-ABSB02590-ABSB03290__v2.webp"
+    ]
   },
   {
     "sku": "ABSB11090",
-    "series_id": "abs-bocht-90",
+    "series_id": "abs-persluchtbuizen__abs-bocht-90",
     "series_name": "ABS BOCHT 90°",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 5,
@@ -222,11 +254,15 @@
       "family_id": "compressed-air-compressed-air-pipe-abs-bocht-90-110-mm-absb11090-ac45e2",
       "sku_series": "absb",
       "diameter_mm": 110.0
-    }
+    },
+    "image": "images/abs-persluchtbuizen/abs-persluchtbuizen__p5__abs-bocht-90__ABSB02090-ABSB02590-ABSB03290__v2.webp",
+    "images": [
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p5__abs-bocht-90__ABSB02090-ABSB02590-ABSB03290__v2.webp"
+    ]
   },
   {
     "sku": "ABSBK016",
-    "series_id": "abs-bolkraan",
+    "series_id": "abs-persluchtbuizen__abs-bolkraan",
     "series_name": "ABS BOLKRAAN",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 14,
@@ -245,11 +281,15 @@
       "family_id": "compressed-air-compressed-air-pipe-abs-bolkraan-16-mm-absbk016-949703",
       "sku_series": "absbk",
       "diameter_mm": 16.0
-    }
+    },
+    "image": "images/abs-persluchtbuizen/abs-persluchtbuizen__p14__abs-bolkraan__ABSBK016-ABSBK020-ABSBK032__v3.webp",
+    "images": [
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p14__abs-bolkraan__ABSBK016-ABSBK020-ABSBK032__v3.webp"
+    ]
   },
   {
     "sku": "ABSBK020",
-    "series_id": "abs-bolkraan",
+    "series_id": "abs-persluchtbuizen__abs-bolkraan",
     "series_name": "ABS BOLKRAAN",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 14,
@@ -268,11 +308,15 @@
       "family_id": "compressed-air-compressed-air-pipe-abs-bolkraan-20-mm-absbk020-2202e6",
       "sku_series": "absbk",
       "diameter_mm": 20.0
-    }
+    },
+    "image": "images/abs-persluchtbuizen/abs-persluchtbuizen__p14__abs-bolkraan__ABSBK016-ABSBK020-ABSBK032__v3.webp",
+    "images": [
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p14__abs-bolkraan__ABSBK016-ABSBK020-ABSBK032__v3.webp"
+    ]
   },
   {
     "sku": "ABSBK032",
-    "series_id": "abs-bolkraan",
+    "series_id": "abs-persluchtbuizen__abs-bolkraan",
     "series_name": "ABS BOLKRAAN",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 14,
@@ -291,11 +335,15 @@
       "family_id": "compressed-air-compressed-air-pipe-abs-bolkraan-32-mm-absbk032-6b15dd",
       "sku_series": "absbk",
       "diameter_mm": 32.0
-    }
+    },
+    "image": "images/abs-persluchtbuizen/abs-persluchtbuizen__p14__abs-bolkraan__ABSBK016-ABSBK020-ABSBK032__v3.webp",
+    "images": [
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p14__abs-bolkraan__ABSBK016-ABSBK020-ABSBK032__v3.webp"
+    ]
   },
   {
     "sku": "ABSBK040",
-    "series_id": "abs-bolkraan",
+    "series_id": "abs-persluchtbuizen__abs-bolkraan",
     "series_name": "ABS BOLKRAAN",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 14,
@@ -314,11 +362,15 @@
       "family_id": "compressed-air-compressed-air-pipe-abs-bolkraan-40-mm-absbk040-22d70a",
       "sku_series": "absbk",
       "diameter_mm": 40.0
-    }
+    },
+    "image": "images/abs-persluchtbuizen/abs-persluchtbuizen__p14__abs-bolkraan__ABSBK016-ABSBK020-ABSBK032__v3.webp",
+    "images": [
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p14__abs-bolkraan__ABSBK016-ABSBK020-ABSBK032__v3.webp"
+    ]
   },
   {
     "sku": "ABSBK050",
-    "series_id": "abs-bolkraan",
+    "series_id": "abs-persluchtbuizen__abs-bolkraan",
     "series_name": "ABS BOLKRAAN",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 14,
@@ -337,11 +389,15 @@
       "family_id": "compressed-air-compressed-air-pipe-abs-bolkraan-50-mm-absbk050-823218",
       "sku_series": "absbk",
       "diameter_mm": 50.0
-    }
+    },
+    "image": "images/abs-persluchtbuizen/abs-persluchtbuizen__p14__abs-bolkraan__ABSBK016-ABSBK020-ABSBK032__v3.webp",
+    "images": [
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p14__abs-bolkraan__ABSBK016-ABSBK020-ABSBK032__v3.webp"
+    ]
   },
   {
     "sku": "ABSBK063",
-    "series_id": "abs-bolkraan",
+    "series_id": "abs-persluchtbuizen__abs-bolkraan",
     "series_name": "ABS BOLKRAAN",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 14,
@@ -360,11 +416,15 @@
       "family_id": "compressed-air-compressed-air-pipe-abs-bolkraan-63-mm-absbk063-1ce24c",
       "sku_series": "absbk",
       "diameter_mm": 63.0
-    }
+    },
+    "image": "images/abs-persluchtbuizen/abs-persluchtbuizen__p14__abs-bolkraan__ABSBK016-ABSBK020-ABSBK032__v3.webp",
+    "images": [
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p14__abs-bolkraan__ABSBK016-ABSBK020-ABSBK032__v3.webp"
+    ]
   },
   {
     "sku": "ABSBK075",
-    "series_id": "abs-bolkraan",
+    "series_id": "abs-persluchtbuizen__abs-bolkraan",
     "series_name": "ABS BOLKRAAN",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 14,
@@ -383,11 +443,15 @@
       "family_id": "compressed-air-compressed-air-pipe-abs-bolkraan-75-mm-absbk075-f4b8f3",
       "sku_series": "absbk",
       "diameter_mm": 75.0
-    }
+    },
+    "image": "images/abs-persluchtbuizen/abs-persluchtbuizen__p14__abs-bolkraan__ABSBK016-ABSBK020-ABSBK032__v3.webp",
+    "images": [
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p14__abs-bolkraan__ABSBK016-ABSBK020-ABSBK032__v3.webp"
+    ]
   },
   {
     "sku": "ABSBK090",
-    "series_id": "abs-bolkraan",
+    "series_id": "abs-persluchtbuizen__abs-bolkraan",
     "series_name": "ABS BOLKRAAN",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 14,
@@ -407,11 +471,15 @@
       "family_id": "compressed-air-compressed-air-pipe-abs-bolkraan-90-mm-absbk090-2f4386",
       "sku_series": "absbk",
       "diameter_mm": 90.0
-    }
+    },
+    "image": "images/abs-persluchtbuizen/abs-persluchtbuizen__p14__abs-bolkraan__ABSBK016-ABSBK020-ABSBK032__v3.webp",
+    "images": [
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p14__abs-bolkraan__ABSBK016-ABSBK020-ABSBK032__v3.webp"
+    ]
   },
   {
     "sku": "ABSBK110",
-    "series_id": "abs-bolkraan",
+    "series_id": "abs-persluchtbuizen__abs-bolkraan",
     "series_name": "ABS BOLKRAAN",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 14,
@@ -430,11 +498,15 @@
       "family_id": "compressed-air-compressed-air-pipe-abs-bolkraan-110-mm-absbk110-d3749b",
       "sku_series": "absbk",
       "diameter_mm": 110.0
-    }
+    },
+    "image": "images/abs-persluchtbuizen/abs-persluchtbuizen__p14__abs-bolkraan__ABSBK016-ABSBK020-ABSBK032__v3.webp",
+    "images": [
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p14__abs-bolkraan__ABSBK016-ABSBK020-ABSBK032__v3.webp"
+    ]
   },
   {
     "sku": "ABSBU016",
-    "series_id": "abs-drukbuis-pn10",
+    "series_id": "abs-persluchtbuizen__abs-drukbuis-pn10",
     "series_name": "ABS DRUKBUIS PN10",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 5,
@@ -461,7 +533,7 @@
   },
   {
     "sku": "ABSBU020",
-    "series_id": "abs-drukbuis-pn10",
+    "series_id": "abs-persluchtbuizen__abs-drukbuis-pn10",
     "series_name": "ABS DRUKBUIS PN10",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 5,
@@ -488,7 +560,7 @@
   },
   {
     "sku": "ABSBU025",
-    "series_id": "abs-drukbuis-pn10",
+    "series_id": "abs-persluchtbuizen__abs-drukbuis-pn10",
     "series_name": "ABS DRUKBUIS PN10",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 5,
@@ -515,7 +587,7 @@
   },
   {
     "sku": "ABSBU032",
-    "series_id": "abs-drukbuis-pn10",
+    "series_id": "abs-persluchtbuizen__abs-drukbuis-pn10",
     "series_name": "ABS DRUKBUIS PN10",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 5,
@@ -542,7 +614,7 @@
   },
   {
     "sku": "ABSBU040",
-    "series_id": "abs-drukbuis-pn10",
+    "series_id": "abs-persluchtbuizen__abs-drukbuis-pn10",
     "series_name": "ABS DRUKBUIS PN10",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 5,
@@ -569,7 +641,7 @@
   },
   {
     "sku": "ABSBU050",
-    "series_id": "abs-drukbuis-pn10",
+    "series_id": "abs-persluchtbuizen__abs-drukbuis-pn10",
     "series_name": "ABS DRUKBUIS PN10",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 5,
@@ -596,7 +668,7 @@
   },
   {
     "sku": "ABSBU063",
-    "series_id": "abs-drukbuis-pn10",
+    "series_id": "abs-persluchtbuizen__abs-drukbuis-pn10",
     "series_name": "ABS DRUKBUIS PN10",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 5,
@@ -623,7 +695,7 @@
   },
   {
     "sku": "ABSBU075",
-    "series_id": "abs-drukbuis-pn10",
+    "series_id": "abs-persluchtbuizen__abs-drukbuis-pn10",
     "series_name": "ABS DRUKBUIS PN10",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 5,
@@ -650,7 +722,7 @@
   },
   {
     "sku": "ABSBU090",
-    "series_id": "abs-drukbuis-pn10",
+    "series_id": "abs-persluchtbuizen__abs-drukbuis-pn10",
     "series_name": "ABS DRUKBUIS PN10",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 5,
@@ -678,7 +750,7 @@
   },
   {
     "sku": "ABSBU110",
-    "series_id": "abs-drukbuis-pn10",
+    "series_id": "abs-persluchtbuizen__abs-drukbuis-pn10",
     "series_name": "ABS DRUKBUIS PN10",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 5,
@@ -705,7 +777,7 @@
   },
   {
     "sku": "ABSBU125",
-    "series_id": "abs-drukbuis-pn10",
+    "series_id": "abs-persluchtbuizen__abs-drukbuis-pn10",
     "series_name": "ABS DRUKBUIS PN10",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 5,
@@ -732,7 +804,7 @@
   },
   {
     "sku": "ABSBU140",
-    "series_id": "abs-drukbuis-pn10",
+    "series_id": "abs-persluchtbuizen__abs-drukbuis-pn10",
     "series_name": "ABS DRUKBUIS PN10",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 5,
@@ -759,7 +831,7 @@
   },
   {
     "sku": "ABSBU160",
-    "series_id": "abs-drukbuis-pn10",
+    "series_id": "abs-persluchtbuizen__abs-drukbuis-pn10",
     "series_name": "ABS DRUKBUIS PN10",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 5,
@@ -786,7 +858,7 @@
   },
   {
     "sku": "ABSBU200",
-    "series_id": "abs-drukbuis-pn10",
+    "series_id": "abs-persluchtbuizen__abs-drukbuis-pn10",
     "series_name": "ABS DRUKBUIS PN10",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 5,
@@ -813,7 +885,7 @@
   },
   {
     "sku": "ABSBU225",
-    "series_id": "abs-drukbuis-pn10",
+    "series_id": "abs-persluchtbuizen__abs-drukbuis-pn10",
     "series_name": "ABS DRUKBUIS PN10",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 5,
@@ -840,7 +912,7 @@
   },
   {
     "sku": "ABSBU250",
-    "series_id": "abs-drukbuis-pn10",
+    "series_id": "abs-persluchtbuizen__abs-drukbuis-pn10",
     "series_name": "ABS DRUKBUIS PN10",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 5,
@@ -867,7 +939,7 @@
   },
   {
     "sku": "ABSI020016",
-    "series_id": "abs-inljmring",
+    "series_id": "abs-persluchtbuizen__abs-inljmring",
     "series_name": "ABS INLJMRING",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 11,
@@ -886,11 +958,15 @@
       "family_id": "compressed-air-compressed-air-pipe-abs-inljmring-20-mm-x-16-mm-absi020016-d83b69",
       "sku_series": "absi",
       "diameter_mm": 20.0
-    }
+    },
+    "image": "images/abs-persluchtbuizen/abs-persluchtbuizen__p11__abs-inljmring__ABSI020016-ABSI025020-ABSI032016__v2.webp",
+    "images": [
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p11__abs-inljmring__ABSI020016-ABSI025020-ABSI032016__v2.webp"
+    ]
   },
   {
     "sku": "ABSI025020",
-    "series_id": "abs-inljmring",
+    "series_id": "abs-persluchtbuizen__abs-inljmring",
     "series_name": "ABS INLJMRING",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 11,
@@ -909,11 +985,15 @@
       "family_id": "compressed-air-compressed-air-pipe-abs-inljmring-25-mm-x-20-mm-absi025020-5f83a7",
       "sku_series": "absi",
       "diameter_mm": 25.0
-    }
+    },
+    "image": "images/abs-persluchtbuizen/abs-persluchtbuizen__p11__abs-inljmring__ABSI020016-ABSI025020-ABSI032016__v2.webp",
+    "images": [
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p11__abs-inljmring__ABSI020016-ABSI025020-ABSI032016__v2.webp"
+    ]
   },
   {
     "sku": "ABSI032016",
-    "series_id": "abs-inljmring",
+    "series_id": "abs-persluchtbuizen__abs-inljmring",
     "series_name": "ABS INLJMRING",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 11,
@@ -932,11 +1012,15 @@
       "family_id": "compressed-air-compressed-air-pipe-abs-inljmring-32-mm-x-16-mm-absi032016-23ca0e",
       "sku_series": "absi",
       "diameter_mm": 32.0
-    }
+    },
+    "image": "images/abs-persluchtbuizen/abs-persluchtbuizen__p11__abs-inljmring__ABSI020016-ABSI025020-ABSI032016__v2.webp",
+    "images": [
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p11__abs-inljmring__ABSI020016-ABSI025020-ABSI032016__v2.webp"
+    ]
   },
   {
     "sku": "ABSI032025",
-    "series_id": "abs-inljmring",
+    "series_id": "abs-persluchtbuizen__abs-inljmring",
     "series_name": "ABS INLJMRING",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 11,
@@ -955,11 +1039,15 @@
       "family_id": "compressed-air-compressed-air-pipe-abs-inljmring-32-mm-x-25-mm-absi032025-73c424",
       "sku_series": "absi",
       "diameter_mm": 32.0
-    }
+    },
+    "image": "images/abs-persluchtbuizen/abs-persluchtbuizen__p11__abs-inljmring__ABSI020016-ABSI025020-ABSI032016__v2.webp",
+    "images": [
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p11__abs-inljmring__ABSI020016-ABSI025020-ABSI032016__v2.webp"
+    ]
   },
   {
     "sku": "ABSI040032",
-    "series_id": "abs-inljmring",
+    "series_id": "abs-persluchtbuizen__abs-inljmring",
     "series_name": "ABS INLJMRING",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 11,
@@ -978,11 +1066,15 @@
       "family_id": "compressed-air-compressed-air-pipe-abs-inljmring-40-mm-x-32-mm-absi040032-a9af62",
       "sku_series": "absi",
       "diameter_mm": 40.0
-    }
+    },
+    "image": "images/abs-persluchtbuizen/abs-persluchtbuizen__p11__abs-inljmring__ABSI020016-ABSI025020-ABSI032016__v2.webp",
+    "images": [
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p11__abs-inljmring__ABSI020016-ABSI025020-ABSI032016__v2.webp"
+    ]
   },
   {
     "sku": "ABSI050020",
-    "series_id": "abs-inljmring",
+    "series_id": "abs-persluchtbuizen__abs-inljmring",
     "series_name": "ABS INLJMRING",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 11,
@@ -1001,11 +1093,15 @@
       "family_id": "compressed-air-compressed-air-pipe-abs-inljmring-50-mm-x-20-mm-absi050020-843d0c",
       "sku_series": "absi",
       "diameter_mm": 50.0
-    }
+    },
+    "image": "images/abs-persluchtbuizen/abs-persluchtbuizen__p11__abs-inljmring__ABSI020016-ABSI025020-ABSI032016__v2.webp",
+    "images": [
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p11__abs-inljmring__ABSI020016-ABSI025020-ABSI032016__v2.webp"
+    ]
   },
   {
     "sku": "ABSI050025",
-    "series_id": "abs-inljmring",
+    "series_id": "abs-persluchtbuizen__abs-inljmring",
     "series_name": "ABS INLJMRING",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 11,
@@ -1024,11 +1120,15 @@
       "family_id": "compressed-air-compressed-air-pipe-abs-inljmring-50-mm-x-25-mm-absi050025-89c4d0",
       "sku_series": "absi",
       "diameter_mm": 50.0
-    }
+    },
+    "image": "images/abs-persluchtbuizen/abs-persluchtbuizen__p11__abs-inljmring__ABSI020016-ABSI025020-ABSI032016__v2.webp",
+    "images": [
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p11__abs-inljmring__ABSI020016-ABSI025020-ABSI032016__v2.webp"
+    ]
   },
   {
     "sku": "ABSI050032",
-    "series_id": "abs-inljmring",
+    "series_id": "abs-persluchtbuizen__abs-inljmring",
     "series_name": "ABS INLJMRING",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 11,
@@ -1047,11 +1147,15 @@
       "family_id": "compressed-air-compressed-air-pipe-abs-inljmring-50-mm-x-32-mm-absi050032-bfdffa",
       "sku_series": "absi",
       "diameter_mm": 50.0
-    }
+    },
+    "image": "images/abs-persluchtbuizen/abs-persluchtbuizen__p11__abs-inljmring__ABSI020016-ABSI025020-ABSI032016__v2.webp",
+    "images": [
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p11__abs-inljmring__ABSI020016-ABSI025020-ABSI032016__v2.webp"
+    ]
   },
   {
     "sku": "ABSI050040",
-    "series_id": "abs-inljmring",
+    "series_id": "abs-persluchtbuizen__abs-inljmring",
     "series_name": "ABS INLJMRING",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 11,
@@ -1070,11 +1174,15 @@
       "family_id": "compressed-air-compressed-air-pipe-abs-inljmring-50-mm-x-40-mm-absi050040-3056ff",
       "sku_series": "absi",
       "diameter_mm": 50.0
-    }
+    },
+    "image": "images/abs-persluchtbuizen/abs-persluchtbuizen__p11__abs-inljmring__ABSI020016-ABSI025020-ABSI032016__v2.webp",
+    "images": [
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p11__abs-inljmring__ABSI020016-ABSI025020-ABSI032016__v2.webp"
+    ]
   },
   {
     "sku": "ABSI063025",
-    "series_id": "abs-inljmring",
+    "series_id": "abs-persluchtbuizen__abs-inljmring",
     "series_name": "ABS INLJMRING",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 11,
@@ -1093,11 +1201,15 @@
       "family_id": "compressed-air-compressed-air-pipe-abs-inljmring-63-mm-x-25-mm-absi063025-547484",
       "sku_series": "absi",
       "diameter_mm": 63.0
-    }
+    },
+    "image": "images/abs-persluchtbuizen/abs-persluchtbuizen__p11__abs-inljmring__ABSI020016-ABSI025020-ABSI032016__v2.webp",
+    "images": [
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p11__abs-inljmring__ABSI020016-ABSI025020-ABSI032016__v2.webp"
+    ]
   },
   {
     "sku": "ABSI063032",
-    "series_id": "abs-inljmring",
+    "series_id": "abs-persluchtbuizen__abs-inljmring",
     "series_name": "ABS INLJMRING",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 11,
@@ -1116,11 +1228,15 @@
       "family_id": "compressed-air-compressed-air-pipe-abs-inljmring-63-mm-x-32-mm-absi063032-acf7a9",
       "sku_series": "absi",
       "diameter_mm": 63.0
-    }
+    },
+    "image": "images/abs-persluchtbuizen/abs-persluchtbuizen__p11__abs-inljmring__ABSI020016-ABSI025020-ABSI032016__v2.webp",
+    "images": [
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p11__abs-inljmring__ABSI020016-ABSI025020-ABSI032016__v2.webp"
+    ]
   },
   {
     "sku": "ABSI063050",
-    "series_id": "abs-inljmring",
+    "series_id": "abs-persluchtbuizen__abs-inljmring",
     "series_name": "ABS INLJMRING",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 11,
@@ -1139,11 +1255,15 @@
       "family_id": "compressed-air-compressed-air-pipe-abs-inljmring-63-mm-x-50-mm-absi063050-71cf35",
       "sku_series": "absi",
       "diameter_mm": 63.0
-    }
+    },
+    "image": "images/abs-persluchtbuizen/abs-persluchtbuizen__p11__abs-inljmring__ABSI020016-ABSI025020-ABSI032016__v2.webp",
+    "images": [
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p11__abs-inljmring__ABSI020016-ABSI025020-ABSI032016__v2.webp"
+    ]
   },
   {
     "sku": "ABSI075063",
-    "series_id": "abs-inljmring",
+    "series_id": "abs-persluchtbuizen__abs-inljmring",
     "series_name": "ABS INLJMRING",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 11,
@@ -1162,11 +1282,15 @@
       "family_id": "compressed-air-compressed-air-pipe-abs-inljmring-75-mm-x-63-mm-absi075063-3fa243",
       "sku_series": "absi",
       "diameter_mm": 75.0
-    }
+    },
+    "image": "images/abs-persluchtbuizen/abs-persluchtbuizen__p11__abs-inljmring__ABSI020016-ABSI025020-ABSI032016__v2.webp",
+    "images": [
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p11__abs-inljmring__ABSI020016-ABSI025020-ABSI032016__v2.webp"
+    ]
   },
   {
     "sku": "ABSI090050",
-    "series_id": "abs-inljmring",
+    "series_id": "abs-persluchtbuizen__abs-inljmring",
     "series_name": "ABS INLJMRING",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 11,
@@ -1185,11 +1309,15 @@
       "family_id": "compressed-air-compressed-air-pipe-abs-inljmring-90-mm-x-50-mm-absi090050-1b61e9",
       "sku_series": "absi",
       "diameter_mm": 90.0
-    }
+    },
+    "image": "images/abs-persluchtbuizen/abs-persluchtbuizen__p11__abs-inljmring__ABSI020016-ABSI025020-ABSI032016__v2.webp",
+    "images": [
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p11__abs-inljmring__ABSI020016-ABSI025020-ABSI032016__v2.webp"
+    ]
   },
   {
     "sku": "ABSI090063",
-    "series_id": "abs-inljmring",
+    "series_id": "abs-persluchtbuizen__abs-inljmring",
     "series_name": "ABS INLJMRING",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 11,
@@ -1208,11 +1336,15 @@
       "family_id": "compressed-air-compressed-air-pipe-abs-inljmring-90-mm-x-63-mm-absi090063-69a3dd",
       "sku_series": "absi",
       "diameter_mm": 90.0
-    }
+    },
+    "image": "images/abs-persluchtbuizen/abs-persluchtbuizen__p11__abs-inljmring__ABSI020016-ABSI025020-ABSI032016__v2.webp",
+    "images": [
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p11__abs-inljmring__ABSI020016-ABSI025020-ABSI032016__v2.webp"
+    ]
   },
   {
     "sku": "ABSI090075",
-    "series_id": "abs-inljmring",
+    "series_id": "abs-persluchtbuizen__abs-inljmring",
     "series_name": "ABS INLJMRING",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 11,
@@ -1231,11 +1363,15 @@
       "family_id": "compressed-air-compressed-air-pipe-abs-inljmring-90-mm-x-75-mm-absi090075-95cc8f",
       "sku_series": "absi",
       "diameter_mm": 90.0
-    }
+    },
+    "image": "images/abs-persluchtbuizen/abs-persluchtbuizen__p11__abs-inljmring__ABSI020016-ABSI025020-ABSI032016__v2.webp",
+    "images": [
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p11__abs-inljmring__ABSI020016-ABSI025020-ABSI032016__v2.webp"
+    ]
   },
   {
     "sku": "ABSI110063",
-    "series_id": "abs-inljmring",
+    "series_id": "abs-persluchtbuizen__abs-inljmring",
     "series_name": "ABS INLJMRING",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 11,
@@ -1254,11 +1390,15 @@
       "family_id": "compressed-air-compressed-air-pipe-abs-inljmring-110-mm-x-63-mm-absi110063-83af6d",
       "sku_series": "absi",
       "diameter_mm": 110.0
-    }
+    },
+    "image": "images/abs-persluchtbuizen/abs-persluchtbuizen__p11__abs-inljmring__ABSI020016-ABSI025020-ABSI032016__v2.webp",
+    "images": [
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p11__abs-inljmring__ABSI020016-ABSI025020-ABSI032016__v2.webp"
+    ]
   },
   {
     "sku": "ABSI110090",
-    "series_id": "abs-inljmring",
+    "series_id": "abs-persluchtbuizen__abs-inljmring",
     "series_name": "ABS INLJMRING",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 11,
@@ -1278,11 +1418,15 @@
       "family_id": "compressed-air-compressed-air-pipe-abs-inljmring-110-mm-x-90-mm-absi110090-a72440",
       "sku_series": "absi",
       "diameter_mm": 110.0
-    }
+    },
+    "image": "images/abs-persluchtbuizen/abs-persluchtbuizen__p11__abs-inljmring__ABSI020016-ABSI025020-ABSI032016__v2.webp",
+    "images": [
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p11__abs-inljmring__ABSI020016-ABSI025020-ABSI032016__v2.webp"
+    ]
   },
   {
     "sku": "ABSI125110",
-    "series_id": "abs-inljmring",
+    "series_id": "abs-persluchtbuizen__abs-inljmring",
     "series_name": "ABS INLJMRING",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 11,
@@ -1301,11 +1445,15 @@
       "family_id": "compressed-air-compressed-air-pipe-abs-inljmring-125-mm-x110-mm-absi125110-1689bf",
       "sku_series": "absi",
       "diameter_mm": 125.0
-    }
+    },
+    "image": "images/abs-persluchtbuizen/abs-persluchtbuizen__p11__abs-inljmring__ABSI020016-ABSI025020-ABSI032016__v2.webp",
+    "images": [
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p11__abs-inljmring__ABSI020016-ABSI025020-ABSI032016__v2.webp"
+    ]
   },
   {
     "sku": "ABSI140125",
-    "series_id": "abs-inljmring",
+    "series_id": "abs-persluchtbuizen__abs-inljmring",
     "series_name": "ABS INLJMRING",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 11,
@@ -1324,11 +1472,15 @@
       "family_id": "compressed-air-compressed-air-pipe-abs-inljmring-140-mm-x125-mm-absi140125-6dacca",
       "sku_series": "absi",
       "diameter_mm": 140.0
-    }
+    },
+    "image": "images/abs-persluchtbuizen/abs-persluchtbuizen__p11__abs-inljmring__ABSI020016-ABSI025020-ABSI032016__v2.webp",
+    "images": [
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p11__abs-inljmring__ABSI020016-ABSI025020-ABSI032016__v2.webp"
+    ]
   },
   {
     "sku": "ABSI160090",
-    "series_id": "abs-inljmring",
+    "series_id": "abs-persluchtbuizen__abs-inljmring",
     "series_name": "ABS INLJMRING",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 11,
@@ -1348,11 +1500,15 @@
       "family_id": "compressed-air-compressed-air-pipe-abs-inljmring-160-mm-x-90-mm-absi160090-d1f967",
       "sku_series": "absi",
       "diameter_mm": 160.0
-    }
+    },
+    "image": "images/abs-persluchtbuizen/abs-persluchtbuizen__p11__abs-inljmring__ABSI020016-ABSI025020-ABSI032016__v2.webp",
+    "images": [
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p11__abs-inljmring__ABSI020016-ABSI025020-ABSI032016__v2.webp"
+    ]
   },
   {
     "sku": "ABSI160110",
-    "series_id": "abs-inljmring",
+    "series_id": "abs-persluchtbuizen__abs-inljmring",
     "series_name": "ABS INLJMRING",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 11,
@@ -1371,11 +1527,15 @@
       "family_id": "compressed-air-compressed-air-pipe-abs-inljmring-160-mm-x110-mm-absi160110-f224b5",
       "sku_series": "absi",
       "diameter_mm": 160.0
-    }
+    },
+    "image": "images/abs-persluchtbuizen/abs-persluchtbuizen__p11__abs-inljmring__ABSI020016-ABSI025020-ABSI032016__v2.webp",
+    "images": [
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p11__abs-inljmring__ABSI020016-ABSI025020-ABSI032016__v2.webp"
+    ]
   },
   {
     "sku": "ABSI160140",
-    "series_id": "abs-inljmring",
+    "series_id": "abs-persluchtbuizen__abs-inljmring",
     "series_name": "ABS INLJMRING",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 11,
@@ -1394,11 +1554,15 @@
       "family_id": "compressed-air-compressed-air-pipe-abs-inljmring-160-mm-x140-mm-absi160140-7f3332",
       "sku_series": "absi",
       "diameter_mm": 160.0
-    }
+    },
+    "image": "images/abs-persluchtbuizen/abs-persluchtbuizen__p11__abs-inljmring__ABSI020016-ABSI025020-ABSI032016__v2.webp",
+    "images": [
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p11__abs-inljmring__ABSI020016-ABSI025020-ABSI032016__v2.webp"
+    ]
   },
   {
     "sku": "ABSI200160",
-    "series_id": "abs-inljmring",
+    "series_id": "abs-persluchtbuizen__abs-inljmring",
     "series_name": "ABS INLJMRING",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 11,
@@ -1417,11 +1581,15 @@
       "family_id": "compressed-air-compressed-air-pipe-abs-inljmring-200-mm-x160-mm-absi200160-166fb2",
       "sku_series": "absi",
       "diameter_mm": 200.0
-    }
+    },
+    "image": "images/abs-persluchtbuizen/abs-persluchtbuizen__p11__abs-inljmring__ABSI020016-ABSI025020-ABSI032016__v2.webp",
+    "images": [
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p11__abs-inljmring__ABSI020016-ABSI025020-ABSI032016__v2.webp"
+    ]
   },
   {
     "sku": "ABSI225160",
-    "series_id": "abs-inljmring",
+    "series_id": "abs-persluchtbuizen__abs-inljmring",
     "series_name": "ABS INLJMRING",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 11,
@@ -1440,11 +1608,15 @@
       "family_id": "compressed-air-compressed-air-pipe-abs-inljmring-225-mm-x160-mm-absi225160-84d01c",
       "sku_series": "absi",
       "diameter_mm": 225.0
-    }
+    },
+    "image": "images/abs-persluchtbuizen/abs-persluchtbuizen__p11__abs-inljmring__ABSI020016-ABSI025020-ABSI032016__v2.webp",
+    "images": [
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p11__abs-inljmring__ABSI020016-ABSI025020-ABSI032016__v2.webp"
+    ]
   },
   {
     "sku": "ABSI225200",
-    "series_id": "abs-inljmring",
+    "series_id": "abs-persluchtbuizen__abs-inljmring",
     "series_name": "ABS INLJMRING",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 11,
@@ -1463,11 +1635,15 @@
       "family_id": "compressed-air-compressed-air-pipe-abs-inljmring-225-mm-x200-mm-absi225200-391e02",
       "sku_series": "absi",
       "diameter_mm": 225.0
-    }
+    },
+    "image": "images/abs-persluchtbuizen/abs-persluchtbuizen__p11__abs-inljmring__ABSI020016-ABSI025020-ABSI032016__v2.webp",
+    "images": [
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p11__abs-inljmring__ABSI020016-ABSI025020-ABSI032016__v2.webp"
+    ]
   },
   {
     "sku": "ABSID01612",
-    "series_id": "abs-inzet-draadsok",
+    "series_id": "abs-persluchtbuizen__abs-inzet-draadsok",
     "series_name": "ABS INZET DRAADSOK",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 9,
@@ -1487,11 +1663,15 @@
       "family_id": "compressed-air-compressed-air-pipe-abs-inzet-draadsok-16-mm-x-12-mm-x-3-8-absid01612-743197",
       "sku_series": "absid",
       "diameter_mm": 16.0
-    }
+    },
+    "image": "images/abs-persluchtbuizen/abs-persluchtbuizen__p9__abs-inzet-draadsok__ABSID01612-ABSID02016-ABSID02520__v2.webp",
+    "images": [
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p9__abs-inzet-draadsok__ABSID01612-ABSID02016-ABSID02520__v2.webp"
+    ]
   },
   {
     "sku": "ABSID02016",
-    "series_id": "abs-inzet-draadsok",
+    "series_id": "abs-persluchtbuizen__abs-inzet-draadsok",
     "series_name": "ABS INZET DRAADSOK",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 9,
@@ -1511,11 +1691,15 @@
       "family_id": "compressed-air-compressed-air-pipe-abs-inzet-draadsok-20-mm-x-16-mm-x-1-2-absid02016-3e4018",
       "sku_series": "absid",
       "diameter_mm": 20.0
-    }
+    },
+    "image": "images/abs-persluchtbuizen/abs-persluchtbuizen__p9__abs-inzet-draadsok__ABSID01612-ABSID02016-ABSID02520__v2.webp",
+    "images": [
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p9__abs-inzet-draadsok__ABSID01612-ABSID02016-ABSID02520__v2.webp"
+    ]
   },
   {
     "sku": "ABSID02520",
-    "series_id": "abs-inzet-draadsok",
+    "series_id": "abs-persluchtbuizen__abs-inzet-draadsok",
     "series_name": "ABS INZET DRAADSOK",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 9,
@@ -1535,11 +1719,15 @@
       "family_id": "compressed-air-compressed-air-pipe-abs-inzet-draadsok-25-mm-x-20-mm-x-3-4-absid02520-a16d36",
       "sku_series": "absid",
       "diameter_mm": 25.0
-    }
+    },
+    "image": "images/abs-persluchtbuizen/abs-persluchtbuizen__p9__abs-inzet-draadsok__ABSID01612-ABSID02016-ABSID02520__v2.webp",
+    "images": [
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p9__abs-inzet-draadsok__ABSID01612-ABSID02016-ABSID02520__v2.webp"
+    ]
   },
   {
     "sku": "ABSID03225",
-    "series_id": "abs-inzet-draadsok",
+    "series_id": "abs-persluchtbuizen__abs-inzet-draadsok",
     "series_name": "ABS INZET DRAADSOK",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 9,
@@ -1559,11 +1747,15 @@
       "family_id": "compressed-air-compressed-air-pipe-abs-inzet-draadsok-32-mm-x-25-mm-x-1-absid03225-a84ed6",
       "sku_series": "absid",
       "diameter_mm": 32.0
-    }
+    },
+    "image": "images/abs-persluchtbuizen/abs-persluchtbuizen__p9__abs-inzet-draadsok__ABSID01612-ABSID02016-ABSID02520__v2.webp",
+    "images": [
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p9__abs-inzet-draadsok__ABSID01612-ABSID02016-ABSID02520__v2.webp"
+    ]
   },
   {
     "sku": "ABSID04032",
-    "series_id": "abs-inzet-draadsok",
+    "series_id": "abs-persluchtbuizen__abs-inzet-draadsok",
     "series_name": "ABS INZET DRAADSOK",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 9,
@@ -1583,11 +1775,15 @@
       "family_id": "compressed-air-compressed-air-pipe-abs-inzet-draadsok-40-mm-x-32-mm-x-5-4-absid04032-381674",
       "sku_series": "absid",
       "diameter_mm": 40.0
-    }
+    },
+    "image": "images/abs-persluchtbuizen/abs-persluchtbuizen__p9__abs-inzet-draadsok__ABSID01612-ABSID02016-ABSID02520__v2.webp",
+    "images": [
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p9__abs-inzet-draadsok__ABSID01612-ABSID02016-ABSID02520__v2.webp"
+    ]
   },
   {
     "sku": "ABSID05040",
-    "series_id": "abs-inzet-draadsok",
+    "series_id": "abs-persluchtbuizen__abs-inzet-draadsok",
     "series_name": "ABS INZET DRAADSOK",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 9,
@@ -1607,11 +1803,15 @@
       "family_id": "compressed-air-compressed-air-pipe-abs-inzet-draadsok-50-mm-x-40-mm-x-6-4-absid05040-0404bf",
       "sku_series": "absid",
       "diameter_mm": 50.0
-    }
+    },
+    "image": "images/abs-persluchtbuizen/abs-persluchtbuizen__p9__abs-inzet-draadsok__ABSID01612-ABSID02016-ABSID02520__v2.webp",
+    "images": [
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p9__abs-inzet-draadsok__ABSID01612-ABSID02016-ABSID02520__v2.webp"
+    ]
   },
   {
     "sku": "ABSID06350",
-    "series_id": "abs-inzet-draadsok",
+    "series_id": "abs-persluchtbuizen__abs-inzet-draadsok",
     "series_name": "ABS INZET DRAADSOK",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 9,
@@ -1631,11 +1831,15 @@
       "family_id": "compressed-air-compressed-air-pipe-abs-inzet-draadsok-63-mm-x-50-mm-x-2-absid06350-7bb772",
       "sku_series": "absid",
       "diameter_mm": 63.0
-    }
+    },
+    "image": "images/abs-persluchtbuizen/abs-persluchtbuizen__p9__abs-inzet-draadsok__ABSID01612-ABSID02016-ABSID02520__v2.webp",
+    "images": [
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p9__abs-inzet-draadsok__ABSID01612-ABSID02016-ABSID02520__v2.webp"
+    ]
   },
   {
     "sku": "ABSK01645",
-    "series_id": "abs-knie-45",
+    "series_id": "abs-persluchtbuizen__abs-knie-45",
     "series_name": "ABS KNIE 45°",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 6,
@@ -1655,11 +1859,15 @@
       "family_id": "compressed-air-compressed-air-pipe-abs-knie-45-16-mm-absk01645-c1396b",
       "sku_series": "absk",
       "diameter_mm": 16.0
-    }
+    },
+    "image": "images/abs-persluchtbuizen/abs-persluchtbuizen__p6__abs-knie-45__ABSK01645-ABSK02045-ABSK02545__v1.webp",
+    "images": [
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p6__abs-knie-45__ABSK01645-ABSK02045-ABSK02545__v1.webp"
+    ]
   },
   {
     "sku": "ABSK01690",
-    "series_id": "abs-knie-90",
+    "series_id": "abs-persluchtbuizen__abs-knie-90",
     "series_name": "ABS KNIE 90°",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 6,
@@ -1683,7 +1891,7 @@
   },
   {
     "sku": "ABSK02045",
-    "series_id": "abs-knie-45",
+    "series_id": "abs-persluchtbuizen__abs-knie-45",
     "series_name": "ABS KNIE 45°",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 6,
@@ -1703,11 +1911,15 @@
       "family_id": "compressed-air-compressed-air-pipe-abs-knie-45-20-mm-absk02045-93bff5",
       "sku_series": "absk",
       "diameter_mm": 20.0
-    }
+    },
+    "image": "images/abs-persluchtbuizen/abs-persluchtbuizen__p6__abs-knie-45__ABSK01645-ABSK02045-ABSK02545__v1.webp",
+    "images": [
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p6__abs-knie-45__ABSK01645-ABSK02045-ABSK02545__v1.webp"
+    ]
   },
   {
     "sku": "ABSK02090",
-    "series_id": "abs-knie-90",
+    "series_id": "abs-persluchtbuizen__abs-knie-90",
     "series_name": "ABS KNIE 90°",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 6,
@@ -1731,7 +1943,7 @@
   },
   {
     "sku": "ABSK02545",
-    "series_id": "abs-knie-45",
+    "series_id": "abs-persluchtbuizen__abs-knie-45",
     "series_name": "ABS KNIE 45°",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 6,
@@ -1751,11 +1963,15 @@
       "family_id": "compressed-air-compressed-air-pipe-abs-knie-45-25-mm-absk02545-5eff12",
       "sku_series": "absk",
       "diameter_mm": 25.0
-    }
+    },
+    "image": "images/abs-persluchtbuizen/abs-persluchtbuizen__p6__abs-knie-45__ABSK01645-ABSK02045-ABSK02545__v1.webp",
+    "images": [
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p6__abs-knie-45__ABSK01645-ABSK02045-ABSK02545__v1.webp"
+    ]
   },
   {
     "sku": "ABSK02590",
-    "series_id": "abs-knie-90",
+    "series_id": "abs-persluchtbuizen__abs-knie-90",
     "series_name": "ABS KNIE 90°",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 6,
@@ -1779,7 +1995,7 @@
   },
   {
     "sku": "ABSK03245",
-    "series_id": "abs-knie-45",
+    "series_id": "abs-persluchtbuizen__abs-knie-45",
     "series_name": "ABS KNIE 45°",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 6,
@@ -1799,11 +2015,15 @@
       "family_id": "compressed-air-compressed-air-pipe-abs-knie-45-32-mm-absk03245-c84b46",
       "sku_series": "absk",
       "diameter_mm": 32.0
-    }
+    },
+    "image": "images/abs-persluchtbuizen/abs-persluchtbuizen__p6__abs-knie-45__ABSK01645-ABSK02045-ABSK02545__v1.webp",
+    "images": [
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p6__abs-knie-45__ABSK01645-ABSK02045-ABSK02545__v1.webp"
+    ]
   },
   {
     "sku": "ABSK03290",
-    "series_id": "abs-knie-90",
+    "series_id": "abs-persluchtbuizen__abs-knie-90",
     "series_name": "ABS KNIE 90°",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 6,
@@ -1827,7 +2047,7 @@
   },
   {
     "sku": "ABSK04045",
-    "series_id": "abs-knie-45",
+    "series_id": "abs-persluchtbuizen__abs-knie-45",
     "series_name": "ABS KNIE 45°",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 6,
@@ -1847,11 +2067,15 @@
       "family_id": "compressed-air-compressed-air-pipe-abs-knie-45-40-mm-absk04045-250f1c",
       "sku_series": "absk",
       "diameter_mm": 40.0
-    }
+    },
+    "image": "images/abs-persluchtbuizen/abs-persluchtbuizen__p6__abs-knie-45__ABSK01645-ABSK02045-ABSK02545__v1.webp",
+    "images": [
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p6__abs-knie-45__ABSK01645-ABSK02045-ABSK02545__v1.webp"
+    ]
   },
   {
     "sku": "ABSK04090",
-    "series_id": "abs-knie-90",
+    "series_id": "abs-persluchtbuizen__abs-knie-90",
     "series_name": "ABS KNIE 90°",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 6,
@@ -1875,7 +2099,7 @@
   },
   {
     "sku": "ABSK05045",
-    "series_id": "abs-knie-45",
+    "series_id": "abs-persluchtbuizen__abs-knie-45",
     "series_name": "ABS KNIE 45°",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 6,
@@ -1895,11 +2119,15 @@
       "family_id": "compressed-air-compressed-air-pipe-abs-knie-45-50-mm-absk05045-cc38c8",
       "sku_series": "absk",
       "diameter_mm": 50.0
-    }
+    },
+    "image": "images/abs-persluchtbuizen/abs-persluchtbuizen__p6__abs-knie-45__ABSK01645-ABSK02045-ABSK02545__v1.webp",
+    "images": [
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p6__abs-knie-45__ABSK01645-ABSK02045-ABSK02545__v1.webp"
+    ]
   },
   {
     "sku": "ABSK05090",
-    "series_id": "abs-knie-90",
+    "series_id": "abs-persluchtbuizen__abs-knie-90",
     "series_name": "ABS KNIE 90°",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 6,
@@ -1923,7 +2151,7 @@
   },
   {
     "sku": "ABSK06345",
-    "series_id": "abs-knie-45",
+    "series_id": "abs-persluchtbuizen__abs-knie-45",
     "series_name": "ABS KNIE 45°",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 6,
@@ -1943,11 +2171,15 @@
       "family_id": "compressed-air-compressed-air-pipe-abs-knie-45-63-mm-absk06345-40cf1b",
       "sku_series": "absk",
       "diameter_mm": 63.0
-    }
+    },
+    "image": "images/abs-persluchtbuizen/abs-persluchtbuizen__p6__abs-knie-45__ABSK01645-ABSK02045-ABSK02545__v1.webp",
+    "images": [
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p6__abs-knie-45__ABSK01645-ABSK02045-ABSK02545__v1.webp"
+    ]
   },
   {
     "sku": "ABSK06390",
-    "series_id": "abs-knie-90",
+    "series_id": "abs-persluchtbuizen__abs-knie-90",
     "series_name": "ABS KNIE 90°",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 6,
@@ -1971,7 +2203,7 @@
   },
   {
     "sku": "ABSK07545",
-    "series_id": "abs-knie-45",
+    "series_id": "abs-persluchtbuizen__abs-knie-45",
     "series_name": "ABS KNIE 45°",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 6,
@@ -1991,11 +2223,15 @@
       "family_id": "compressed-air-compressed-air-pipe-abs-knie-45-75-mm-absk07545-1c4780",
       "sku_series": "absk",
       "diameter_mm": 75.0
-    }
+    },
+    "image": "images/abs-persluchtbuizen/abs-persluchtbuizen__p6__abs-knie-45__ABSK01645-ABSK02045-ABSK02545__v1.webp",
+    "images": [
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p6__abs-knie-45__ABSK01645-ABSK02045-ABSK02545__v1.webp"
+    ]
   },
   {
     "sku": "ABSK07590",
-    "series_id": "abs-knie-90",
+    "series_id": "abs-persluchtbuizen__abs-knie-90",
     "series_name": "ABS KNIE 90°",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 6,
@@ -2019,7 +2255,7 @@
   },
   {
     "sku": "ABSK09045",
-    "series_id": "abs-knie-45",
+    "series_id": "abs-persluchtbuizen__abs-knie-45",
     "series_name": "ABS KNIE 45°",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 6,
@@ -2039,11 +2275,15 @@
       "family_id": "compressed-air-compressed-air-pipe-abs-knie-45-90-mm-absk09045-4a19e1",
       "sku_series": "absk",
       "diameter_mm": 90.0
-    }
+    },
+    "image": "images/abs-persluchtbuizen/abs-persluchtbuizen__p6__abs-knie-45__ABSK01645-ABSK02045-ABSK02545__v1.webp",
+    "images": [
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p6__abs-knie-45__ABSK01645-ABSK02045-ABSK02545__v1.webp"
+    ]
   },
   {
     "sku": "ABSK09090",
-    "series_id": "abs-knie-90",
+    "series_id": "abs-persluchtbuizen__abs-knie-90",
     "series_name": "ABS KNIE 90°",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 6,
@@ -2067,7 +2307,7 @@
   },
   {
     "sku": "ABSK11045",
-    "series_id": "abs-knie-45",
+    "series_id": "abs-persluchtbuizen__abs-knie-45",
     "series_name": "ABS KNIE 45°",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 6,
@@ -2087,11 +2327,15 @@
       "family_id": "compressed-air-compressed-air-pipe-abs-knie-45-110-mm-absk11045-12f6e1",
       "sku_series": "absk",
       "diameter_mm": 110.0
-    }
+    },
+    "image": "images/abs-persluchtbuizen/abs-persluchtbuizen__p6__abs-knie-45__ABSK01645-ABSK02045-ABSK02545__v1.webp",
+    "images": [
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p6__abs-knie-45__ABSK01645-ABSK02045-ABSK02545__v1.webp"
+    ]
   },
   {
     "sku": "ABSK11090",
-    "series_id": "abs-knie-90",
+    "series_id": "abs-persluchtbuizen__abs-knie-90",
     "series_name": "ABS KNIE 90°",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 6,
@@ -2115,7 +2359,7 @@
   },
   {
     "sku": "ABSK12545",
-    "series_id": "abs-knie-45",
+    "series_id": "abs-persluchtbuizen__abs-knie-45",
     "series_name": "ABS KNIE 45°",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 6,
@@ -2135,11 +2379,15 @@
       "family_id": "compressed-air-compressed-air-pipe-abs-knie-45-125-mm-absk12545-11e6b4",
       "sku_series": "absk",
       "diameter_mm": 125.0
-    }
+    },
+    "image": "images/abs-persluchtbuizen/abs-persluchtbuizen__p6__abs-knie-45__ABSK01645-ABSK02045-ABSK02545__v1.webp",
+    "images": [
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p6__abs-knie-45__ABSK01645-ABSK02045-ABSK02545__v1.webp"
+    ]
   },
   {
     "sku": "ABSK12590",
-    "series_id": "abs-knie-90",
+    "series_id": "abs-persluchtbuizen__abs-knie-90",
     "series_name": "ABS KNIE 90°",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 6,
@@ -2163,7 +2411,7 @@
   },
   {
     "sku": "ABSK14045",
-    "series_id": "abs-knie-45",
+    "series_id": "abs-persluchtbuizen__abs-knie-45",
     "series_name": "ABS KNIE 45°",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 6,
@@ -2183,11 +2431,15 @@
       "family_id": "compressed-air-compressed-air-pipe-abs-knie-45-140-mm-absk14045-a30bf1",
       "sku_series": "absk",
       "diameter_mm": 140.0
-    }
+    },
+    "image": "images/abs-persluchtbuizen/abs-persluchtbuizen__p6__abs-knie-45__ABSK01645-ABSK02045-ABSK02545__v1.webp",
+    "images": [
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p6__abs-knie-45__ABSK01645-ABSK02045-ABSK02545__v1.webp"
+    ]
   },
   {
     "sku": "ABSK14090",
-    "series_id": "abs-knie-90",
+    "series_id": "abs-persluchtbuizen__abs-knie-90",
     "series_name": "ABS KNIE 90°",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 6,
@@ -2211,7 +2463,7 @@
   },
   {
     "sku": "ABSK16045",
-    "series_id": "abs-knie-45",
+    "series_id": "abs-persluchtbuizen__abs-knie-45",
     "series_name": "ABS KNIE 45°",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 6,
@@ -2231,11 +2483,15 @@
       "family_id": "compressed-air-compressed-air-pipe-abs-knie-45-160-mm-absk16045-70b540",
       "sku_series": "absk",
       "diameter_mm": 160.0
-    }
+    },
+    "image": "images/abs-persluchtbuizen/abs-persluchtbuizen__p6__abs-knie-45__ABSK01645-ABSK02045-ABSK02545__v1.webp",
+    "images": [
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p6__abs-knie-45__ABSK01645-ABSK02045-ABSK02545__v1.webp"
+    ]
   },
   {
     "sku": "ABSK16090",
-    "series_id": "abs-knie-90",
+    "series_id": "abs-persluchtbuizen__abs-knie-90",
     "series_name": "ABS KNIE 90°",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 6,
@@ -2259,7 +2515,7 @@
   },
   {
     "sku": "ABSK20045",
-    "series_id": "abs-knie-45",
+    "series_id": "abs-persluchtbuizen__abs-knie-45",
     "series_name": "ABS KNIE 45°",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 6,
@@ -2279,11 +2535,15 @@
       "family_id": "compressed-air-compressed-air-pipe-abs-knie-45-200-mm-absk20045-8d9723",
       "sku_series": "absk",
       "diameter_mm": 200.0
-    }
+    },
+    "image": "images/abs-persluchtbuizen/abs-persluchtbuizen__p6__abs-knie-45__ABSK01645-ABSK02045-ABSK02545__v1.webp",
+    "images": [
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p6__abs-knie-45__ABSK01645-ABSK02045-ABSK02545__v1.webp"
+    ]
   },
   {
     "sku": "ABSK20090",
-    "series_id": "abs-knie-90",
+    "series_id": "abs-persluchtbuizen__abs-knie-90",
     "series_name": "ABS KNIE 90°",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 6,
@@ -2307,7 +2567,7 @@
   },
   {
     "sku": "ABSK22545",
-    "series_id": "abs-knie-45",
+    "series_id": "abs-persluchtbuizen__abs-knie-45",
     "series_name": "ABS KNIE 45°",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 6,
@@ -2327,11 +2587,15 @@
       "family_id": "compressed-air-compressed-air-pipe-abs-knie-45-225-mm-absk22545-4ed123",
       "sku_series": "absk",
       "diameter_mm": 225.0
-    }
+    },
+    "image": "images/abs-persluchtbuizen/abs-persluchtbuizen__p6__abs-knie-45__ABSK01645-ABSK02045-ABSK02545__v1.webp",
+    "images": [
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p6__abs-knie-45__ABSK01645-ABSK02045-ABSK02545__v1.webp"
+    ]
   },
   {
     "sku": "ABSK22590",
-    "series_id": "abs-knie-90",
+    "series_id": "abs-persluchtbuizen__abs-knie-90",
     "series_name": "ABS KNIE 90°",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 6,
@@ -2355,7 +2619,7 @@
   },
   {
     "sku": "ABSK25045",
-    "series_id": "abs-knie-45",
+    "series_id": "abs-persluchtbuizen__abs-knie-45",
     "series_name": "ABS KNIE 45°",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 6,
@@ -2375,11 +2639,15 @@
       "family_id": "compressed-air-compressed-air-pipe-abs-knie-45-250-mm-absk25045-03c37b",
       "sku_series": "absk",
       "diameter_mm": 250.0
-    }
+    },
+    "image": "images/abs-persluchtbuizen/abs-persluchtbuizen__p6__abs-knie-45__ABSK01645-ABSK02045-ABSK02545__v1.webp",
+    "images": [
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p6__abs-knie-45__ABSK01645-ABSK02045-ABSK02545__v1.webp"
+    ]
   },
   {
     "sku": "ABSK25090",
-    "series_id": "abs-knie-90",
+    "series_id": "abs-persluchtbuizen__abs-knie-90",
     "series_name": "ABS KNIE 90°",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 6,
@@ -2403,7 +2671,7 @@
   },
   {
     "sku": "ABSKR020",
-    "series_id": "abs-kraagbus",
+    "series_id": "abs-persluchtbuizen__abs-kraagbus",
     "series_name": "ABS KRAAGBUS",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 13,
@@ -2422,11 +2690,16 @@
       "family_id": "compressed-air-compressed-air-pipe-abs-kraagbus-20-mm-abskr020-76d9a6",
       "sku_series": "abskr",
       "diameter_mm": 20.0
-    }
+    },
+    "image": "images/abs-persluchtbuizen/abs-persluchtbuizen__p13__abs-kraagbus__ABSKR020-ABSKR025-ABSKR032__v2.webp",
+    "images": [
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p13__abs-kraagbus__ABSKR020-ABSKR025-ABSKR032__v1.webp",
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p13__abs-kraagbus__ABSKR020-ABSKR025-ABSKR032__v2.webp"
+    ]
   },
   {
     "sku": "ABSKR025",
-    "series_id": "abs-kraagbus",
+    "series_id": "abs-persluchtbuizen__abs-kraagbus",
     "series_name": "ABS KRAAGBUS",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 13,
@@ -2445,11 +2718,16 @@
       "family_id": "compressed-air-compressed-air-pipe-abs-kraagbus-25-mm-abskr025-06c731",
       "sku_series": "abskr",
       "diameter_mm": 25.0
-    }
+    },
+    "image": "images/abs-persluchtbuizen/abs-persluchtbuizen__p13__abs-kraagbus__ABSKR020-ABSKR025-ABSKR032__v2.webp",
+    "images": [
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p13__abs-kraagbus__ABSKR020-ABSKR025-ABSKR032__v1.webp",
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p13__abs-kraagbus__ABSKR020-ABSKR025-ABSKR032__v2.webp"
+    ]
   },
   {
     "sku": "ABSKR032",
-    "series_id": "abs-kraagbus",
+    "series_id": "abs-persluchtbuizen__abs-kraagbus",
     "series_name": "ABS KRAAGBUS",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 13,
@@ -2468,11 +2746,16 @@
       "family_id": "compressed-air-compressed-air-pipe-abs-kraagbus-32-mm-abskr032-3ad991",
       "sku_series": "abskr",
       "diameter_mm": 32.0
-    }
+    },
+    "image": "images/abs-persluchtbuizen/abs-persluchtbuizen__p13__abs-kraagbus__ABSKR020-ABSKR025-ABSKR032__v2.webp",
+    "images": [
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p13__abs-kraagbus__ABSKR020-ABSKR025-ABSKR032__v1.webp",
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p13__abs-kraagbus__ABSKR020-ABSKR025-ABSKR032__v2.webp"
+    ]
   },
   {
     "sku": "ABSKR040",
-    "series_id": "abs-kraagbus",
+    "series_id": "abs-persluchtbuizen__abs-kraagbus",
     "series_name": "ABS KRAAGBUS",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 13,
@@ -2491,11 +2774,16 @@
       "family_id": "compressed-air-compressed-air-pipe-abs-kraagbus-40-mm-abskr040-78bbac",
       "sku_series": "abskr",
       "diameter_mm": 40.0
-    }
+    },
+    "image": "images/abs-persluchtbuizen/abs-persluchtbuizen__p13__abs-kraagbus__ABSKR020-ABSKR025-ABSKR032__v2.webp",
+    "images": [
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p13__abs-kraagbus__ABSKR020-ABSKR025-ABSKR032__v1.webp",
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p13__abs-kraagbus__ABSKR020-ABSKR025-ABSKR032__v2.webp"
+    ]
   },
   {
     "sku": "ABSKR050",
-    "series_id": "abs-kraagbus",
+    "series_id": "abs-persluchtbuizen__abs-kraagbus",
     "series_name": "ABS KRAAGBUS",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 13,
@@ -2514,11 +2802,16 @@
       "family_id": "compressed-air-compressed-air-pipe-abs-kraagbus-50-mm-abskr050-0af383",
       "sku_series": "abskr",
       "diameter_mm": 50.0
-    }
+    },
+    "image": "images/abs-persluchtbuizen/abs-persluchtbuizen__p13__abs-kraagbus__ABSKR020-ABSKR025-ABSKR032__v2.webp",
+    "images": [
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p13__abs-kraagbus__ABSKR020-ABSKR025-ABSKR032__v1.webp",
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p13__abs-kraagbus__ABSKR020-ABSKR025-ABSKR032__v2.webp"
+    ]
   },
   {
     "sku": "ABSKR063",
-    "series_id": "abs-kraagbus",
+    "series_id": "abs-persluchtbuizen__abs-kraagbus",
     "series_name": "ABS KRAAGBUS",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 13,
@@ -2537,11 +2830,16 @@
       "family_id": "compressed-air-compressed-air-pipe-abs-kraagbus-63-mm-abskr063-82804f",
       "sku_series": "abskr",
       "diameter_mm": 63.0
-    }
+    },
+    "image": "images/abs-persluchtbuizen/abs-persluchtbuizen__p13__abs-kraagbus__ABSKR020-ABSKR025-ABSKR032__v2.webp",
+    "images": [
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p13__abs-kraagbus__ABSKR020-ABSKR025-ABSKR032__v1.webp",
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p13__abs-kraagbus__ABSKR020-ABSKR025-ABSKR032__v2.webp"
+    ]
   },
   {
     "sku": "ABSKR075",
-    "series_id": "abs-kraagbus",
+    "series_id": "abs-persluchtbuizen__abs-kraagbus",
     "series_name": "ABS KRAAGBUS",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 13,
@@ -2560,11 +2858,16 @@
       "family_id": "compressed-air-compressed-air-pipe-abs-kraagbus-75-mm-abskr075-d3aa6d",
       "sku_series": "abskr",
       "diameter_mm": 75.0
-    }
+    },
+    "image": "images/abs-persluchtbuizen/abs-persluchtbuizen__p13__abs-kraagbus__ABSKR020-ABSKR025-ABSKR032__v2.webp",
+    "images": [
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p13__abs-kraagbus__ABSKR020-ABSKR025-ABSKR032__v1.webp",
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p13__abs-kraagbus__ABSKR020-ABSKR025-ABSKR032__v2.webp"
+    ]
   },
   {
     "sku": "ABSKR090",
-    "series_id": "abs-kraagbus",
+    "series_id": "abs-persluchtbuizen__abs-kraagbus",
     "series_name": "ABS KRAAGBUS",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 13,
@@ -2584,11 +2887,16 @@
       "family_id": "compressed-air-compressed-air-pipe-abs-kraagbus-90-mm-abskr090-0a56fc",
       "sku_series": "abskr",
       "diameter_mm": 90.0
-    }
+    },
+    "image": "images/abs-persluchtbuizen/abs-persluchtbuizen__p13__abs-kraagbus__ABSKR020-ABSKR025-ABSKR032__v2.webp",
+    "images": [
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p13__abs-kraagbus__ABSKR020-ABSKR025-ABSKR032__v1.webp",
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p13__abs-kraagbus__ABSKR020-ABSKR025-ABSKR032__v2.webp"
+    ]
   },
   {
     "sku": "ABSKR110",
-    "series_id": "abs-kraagbus",
+    "series_id": "abs-persluchtbuizen__abs-kraagbus",
     "series_name": "ABS KRAAGBUS",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 13,
@@ -2607,11 +2915,16 @@
       "family_id": "compressed-air-compressed-air-pipe-abs-kraagbus-110-mm-abskr110-5c032d",
       "sku_series": "abskr",
       "diameter_mm": 110.0
-    }
+    },
+    "image": "images/abs-persluchtbuizen/abs-persluchtbuizen__p13__abs-kraagbus__ABSKR020-ABSKR025-ABSKR032__v2.webp",
+    "images": [
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p13__abs-kraagbus__ABSKR020-ABSKR025-ABSKR032__v1.webp",
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p13__abs-kraagbus__ABSKR020-ABSKR025-ABSKR032__v2.webp"
+    ]
   },
   {
     "sku": "ABSKR125",
-    "series_id": "abs-kraagbus",
+    "series_id": "abs-persluchtbuizen__abs-kraagbus",
     "series_name": "ABS KRAAGBUS",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 13,
@@ -2630,11 +2943,16 @@
       "family_id": "compressed-air-compressed-air-pipe-abs-kraagbus-125-mm-abskr125-a1f4a4",
       "sku_series": "abskr",
       "diameter_mm": 125.0
-    }
+    },
+    "image": "images/abs-persluchtbuizen/abs-persluchtbuizen__p13__abs-kraagbus__ABSKR020-ABSKR025-ABSKR032__v2.webp",
+    "images": [
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p13__abs-kraagbus__ABSKR020-ABSKR025-ABSKR032__v1.webp",
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p13__abs-kraagbus__ABSKR020-ABSKR025-ABSKR032__v2.webp"
+    ]
   },
   {
     "sku": "ABSKR140",
-    "series_id": "abs-kraagbus",
+    "series_id": "abs-persluchtbuizen__abs-kraagbus",
     "series_name": "ABS KRAAGBUS",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 13,
@@ -2653,11 +2971,16 @@
       "family_id": "compressed-air-compressed-air-pipe-abs-kraagbus-140-mm-abskr140-1803fb",
       "sku_series": "abskr",
       "diameter_mm": 140.0
-    }
+    },
+    "image": "images/abs-persluchtbuizen/abs-persluchtbuizen__p13__abs-kraagbus__ABSKR020-ABSKR025-ABSKR032__v2.webp",
+    "images": [
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p13__abs-kraagbus__ABSKR020-ABSKR025-ABSKR032__v1.webp",
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p13__abs-kraagbus__ABSKR020-ABSKR025-ABSKR032__v2.webp"
+    ]
   },
   {
     "sku": "ABSKR160",
-    "series_id": "abs-kraagbus",
+    "series_id": "abs-persluchtbuizen__abs-kraagbus",
     "series_name": "ABS KRAAGBUS",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 13,
@@ -2676,11 +2999,16 @@
       "family_id": "compressed-air-compressed-air-pipe-abs-kraagbus-160-mm-abskr160-a28067",
       "sku_series": "abskr",
       "diameter_mm": 160.0
-    }
+    },
+    "image": "images/abs-persluchtbuizen/abs-persluchtbuizen__p13__abs-kraagbus__ABSKR020-ABSKR025-ABSKR032__v2.webp",
+    "images": [
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p13__abs-kraagbus__ABSKR020-ABSKR025-ABSKR032__v1.webp",
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p13__abs-kraagbus__ABSKR020-ABSKR025-ABSKR032__v2.webp"
+    ]
   },
   {
     "sku": "ABSKR200",
-    "series_id": "abs-kraagbus",
+    "series_id": "abs-persluchtbuizen__abs-kraagbus",
     "series_name": "ABS KRAAGBUS",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 13,
@@ -2699,11 +3027,16 @@
       "family_id": "compressed-air-compressed-air-pipe-abs-kraagbus-200-mm-abskr200-30b47f",
       "sku_series": "abskr",
       "diameter_mm": 200.0
-    }
+    },
+    "image": "images/abs-persluchtbuizen/abs-persluchtbuizen__p13__abs-kraagbus__ABSKR020-ABSKR025-ABSKR032__v2.webp",
+    "images": [
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p13__abs-kraagbus__ABSKR020-ABSKR025-ABSKR032__v1.webp",
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p13__abs-kraagbus__ABSKR020-ABSKR025-ABSKR032__v2.webp"
+    ]
   },
   {
     "sku": "ABSKR225",
-    "series_id": "abs-kraagbus",
+    "series_id": "abs-persluchtbuizen__abs-kraagbus",
     "series_name": "ABS KRAAGBUS",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 13,
@@ -2722,11 +3055,16 @@
       "family_id": "compressed-air-compressed-air-pipe-abs-kraagbus-225-mm-abskr225-8177fd",
       "sku_series": "abskr",
       "diameter_mm": 225.0
-    }
+    },
+    "image": "images/abs-persluchtbuizen/abs-persluchtbuizen__p13__abs-kraagbus__ABSKR020-ABSKR025-ABSKR032__v2.webp",
+    "images": [
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p13__abs-kraagbus__ABSKR020-ABSKR025-ABSKR032__v1.webp",
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p13__abs-kraagbus__ABSKR020-ABSKR025-ABSKR032__v2.webp"
+    ]
   },
   {
     "sku": "ABSKR250",
-    "series_id": "abs-kraagbus",
+    "series_id": "abs-persluchtbuizen__abs-kraagbus",
     "series_name": "ABS KRAAGBUS",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 13,
@@ -2745,11 +3083,16 @@
       "family_id": "compressed-air-compressed-air-pipe-abs-kraagbus-250-mm-abskr250-ab8bde",
       "sku_series": "abskr",
       "diameter_mm": 250.0
-    }
+    },
+    "image": "images/abs-persluchtbuizen/abs-persluchtbuizen__p13__abs-kraagbus__ABSKR020-ABSKR025-ABSKR032__v2.webp",
+    "images": [
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p13__abs-kraagbus__ABSKR020-ABSKR025-ABSKR032__v1.webp",
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p13__abs-kraagbus__ABSKR020-ABSKR025-ABSKR032__v2.webp"
+    ]
   },
   {
     "sku": "ABSLK016",
-    "series_id": "abs-lijmkap",
+    "series_id": "abs-persluchtbuizen__abs-lijmkap",
     "series_name": "ABS LIJMKAP",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 10,
@@ -2770,11 +3113,16 @@
       "family_id": "compressed-air-compressed-air-pipe-abs-lijmkap-16-mm-abslk016-f7f727",
       "sku_series": "abslk",
       "diameter_mm": 16.0
-    }
+    },
+    "image": "images/abs-persluchtbuizen/abs-persluchtbuizen__p10__abs-lijmkap__ABSLK016-ABSLK020-ABSLK025__v2.webp",
+    "images": [
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p10__abs-lijmkap__ABSLK016-ABSLK020-ABSLK025__v1.webp",
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p10__abs-lijmkap__ABSLK016-ABSLK020-ABSLK025__v2.webp"
+    ]
   },
   {
     "sku": "ABSLK020",
-    "series_id": "abs-lijmkap",
+    "series_id": "abs-persluchtbuizen__abs-lijmkap",
     "series_name": "ABS LIJMKAP",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 10,
@@ -2795,11 +3143,16 @@
       "family_id": "compressed-air-compressed-air-pipe-abs-lijmkap-20-mm-abslk020-3b391f",
       "sku_series": "abslk",
       "diameter_mm": 20.0
-    }
+    },
+    "image": "images/abs-persluchtbuizen/abs-persluchtbuizen__p10__abs-lijmkap__ABSLK016-ABSLK020-ABSLK025__v2.webp",
+    "images": [
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p10__abs-lijmkap__ABSLK016-ABSLK020-ABSLK025__v1.webp",
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p10__abs-lijmkap__ABSLK016-ABSLK020-ABSLK025__v2.webp"
+    ]
   },
   {
     "sku": "ABSLK025",
-    "series_id": "abs-lijmkap",
+    "series_id": "abs-persluchtbuizen__abs-lijmkap",
     "series_name": "ABS LIJMKAP",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 10,
@@ -2820,11 +3173,16 @@
       "family_id": "compressed-air-compressed-air-pipe-abs-lijmkap-25-mm-abslk025-ea4b5e",
       "sku_series": "abslk",
       "diameter_mm": 25.0
-    }
+    },
+    "image": "images/abs-persluchtbuizen/abs-persluchtbuizen__p10__abs-lijmkap__ABSLK016-ABSLK020-ABSLK025__v2.webp",
+    "images": [
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p10__abs-lijmkap__ABSLK016-ABSLK020-ABSLK025__v1.webp",
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p10__abs-lijmkap__ABSLK016-ABSLK020-ABSLK025__v2.webp"
+    ]
   },
   {
     "sku": "ABSLK032",
-    "series_id": "abs-lijmkap",
+    "series_id": "abs-persluchtbuizen__abs-lijmkap",
     "series_name": "ABS LIJMKAP",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 10,
@@ -2845,11 +3203,16 @@
       "family_id": "compressed-air-compressed-air-pipe-abs-lijmkap-32-mm-abslk032-dbfff7",
       "sku_series": "abslk",
       "diameter_mm": 32.0
-    }
+    },
+    "image": "images/abs-persluchtbuizen/abs-persluchtbuizen__p10__abs-lijmkap__ABSLK016-ABSLK020-ABSLK025__v2.webp",
+    "images": [
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p10__abs-lijmkap__ABSLK016-ABSLK020-ABSLK025__v1.webp",
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p10__abs-lijmkap__ABSLK016-ABSLK020-ABSLK025__v2.webp"
+    ]
   },
   {
     "sku": "ABSLK040",
-    "series_id": "abs-lijmkap",
+    "series_id": "abs-persluchtbuizen__abs-lijmkap",
     "series_name": "ABS LIJMKAP",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 10,
@@ -2870,11 +3233,16 @@
       "family_id": "compressed-air-compressed-air-pipe-abs-lijmkap-40-mm-abslk040-be9415",
       "sku_series": "abslk",
       "diameter_mm": 40.0
-    }
+    },
+    "image": "images/abs-persluchtbuizen/abs-persluchtbuizen__p10__abs-lijmkap__ABSLK016-ABSLK020-ABSLK025__v2.webp",
+    "images": [
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p10__abs-lijmkap__ABSLK016-ABSLK020-ABSLK025__v1.webp",
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p10__abs-lijmkap__ABSLK016-ABSLK020-ABSLK025__v2.webp"
+    ]
   },
   {
     "sku": "ABSLK050",
-    "series_id": "abs-lijmkap",
+    "series_id": "abs-persluchtbuizen__abs-lijmkap",
     "series_name": "ABS LIJMKAP",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 10,
@@ -2895,11 +3263,16 @@
       "family_id": "compressed-air-compressed-air-pipe-abs-lijmkap-50-mm-abslk050-2d674b",
       "sku_series": "abslk",
       "diameter_mm": 50.0
-    }
+    },
+    "image": "images/abs-persluchtbuizen/abs-persluchtbuizen__p10__abs-lijmkap__ABSLK016-ABSLK020-ABSLK025__v2.webp",
+    "images": [
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p10__abs-lijmkap__ABSLK016-ABSLK020-ABSLK025__v1.webp",
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p10__abs-lijmkap__ABSLK016-ABSLK020-ABSLK025__v2.webp"
+    ]
   },
   {
     "sku": "ABSLK063",
-    "series_id": "abs-lijmkap",
+    "series_id": "abs-persluchtbuizen__abs-lijmkap",
     "series_name": "ABS LIJMKAP",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 10,
@@ -2920,11 +3293,16 @@
       "family_id": "compressed-air-compressed-air-pipe-abs-lijmkap-63-mm-abslk063-e02e31",
       "sku_series": "abslk",
       "diameter_mm": 63.0
-    }
+    },
+    "image": "images/abs-persluchtbuizen/abs-persluchtbuizen__p10__abs-lijmkap__ABSLK016-ABSLK020-ABSLK025__v2.webp",
+    "images": [
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p10__abs-lijmkap__ABSLK016-ABSLK020-ABSLK025__v1.webp",
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p10__abs-lijmkap__ABSLK016-ABSLK020-ABSLK025__v2.webp"
+    ]
   },
   {
     "sku": "ABSLK075",
-    "series_id": "abs-lijmkap",
+    "series_id": "abs-persluchtbuizen__abs-lijmkap",
     "series_name": "ABS LIJMKAP",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 10,
@@ -2945,11 +3323,16 @@
       "family_id": "compressed-air-compressed-air-pipe-abs-lijmkap-75-mm-abslk075-0d1acf",
       "sku_series": "abslk",
       "diameter_mm": 75.0
-    }
+    },
+    "image": "images/abs-persluchtbuizen/abs-persluchtbuizen__p10__abs-lijmkap__ABSLK016-ABSLK020-ABSLK025__v2.webp",
+    "images": [
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p10__abs-lijmkap__ABSLK016-ABSLK020-ABSLK025__v1.webp",
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p10__abs-lijmkap__ABSLK016-ABSLK020-ABSLK025__v2.webp"
+    ]
   },
   {
     "sku": "ABSLK090",
-    "series_id": "abs-lijmkap",
+    "series_id": "abs-persluchtbuizen__abs-lijmkap",
     "series_name": "ABS LIJMKAP",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 10,
@@ -2971,11 +3354,16 @@
       "family_id": "compressed-air-compressed-air-pipe-abs-lijmkap-90-mm-abslk090-84a6e5",
       "sku_series": "abslk",
       "diameter_mm": 90.0
-    }
+    },
+    "image": "images/abs-persluchtbuizen/abs-persluchtbuizen__p10__abs-lijmkap__ABSLK016-ABSLK020-ABSLK025__v2.webp",
+    "images": [
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p10__abs-lijmkap__ABSLK016-ABSLK020-ABSLK025__v1.webp",
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p10__abs-lijmkap__ABSLK016-ABSLK020-ABSLK025__v2.webp"
+    ]
   },
   {
     "sku": "ABSLK110",
-    "series_id": "abs-lijmkap",
+    "series_id": "abs-persluchtbuizen__abs-lijmkap",
     "series_name": "ABS LIJMKAP",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 10,
@@ -2996,11 +3384,16 @@
       "family_id": "compressed-air-compressed-air-pipe-abs-lijmkap-110-mm-abslk110-2cb2a1",
       "sku_series": "abslk",
       "diameter_mm": 110.0
-    }
+    },
+    "image": "images/abs-persluchtbuizen/abs-persluchtbuizen__p10__abs-lijmkap__ABSLK016-ABSLK020-ABSLK025__v2.webp",
+    "images": [
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p10__abs-lijmkap__ABSLK016-ABSLK020-ABSLK025__v1.webp",
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p10__abs-lijmkap__ABSLK016-ABSLK020-ABSLK025__v2.webp"
+    ]
   },
   {
     "sku": "ABSM016",
-    "series_id": "abs-mof",
+    "series_id": "abs-persluchtbuizen__abs-mof",
     "series_name": "ABS MOF",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 8,
@@ -3019,11 +3412,16 @@
       "family_id": "compressed-air-compressed-air-pipe-abs-mof-16-mm-absm016-a1a7fe",
       "sku_series": "absm",
       "diameter_mm": 16.0
-    }
+    },
+    "image": "images/abs-persluchtbuizen/abs-persluchtbuizen__p8__abs-mof__ABSM016-ABSM020-ABSM025__v2.webp",
+    "images": [
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p8__abs-mof__ABSM016-ABSM020-ABSM025__v1.webp",
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p8__abs-mof__ABSM016-ABSM020-ABSM025__v2.webp"
+    ]
   },
   {
     "sku": "ABSM020",
-    "series_id": "abs-mof",
+    "series_id": "abs-persluchtbuizen__abs-mof",
     "series_name": "ABS MOF",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 8,
@@ -3042,11 +3440,16 @@
       "family_id": "compressed-air-compressed-air-pipe-abs-mof-20-mm-absm020-2635c0",
       "sku_series": "absm",
       "diameter_mm": 20.0
-    }
+    },
+    "image": "images/abs-persluchtbuizen/abs-persluchtbuizen__p8__abs-mof__ABSM016-ABSM020-ABSM025__v2.webp",
+    "images": [
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p8__abs-mof__ABSM016-ABSM020-ABSM025__v1.webp",
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p8__abs-mof__ABSM016-ABSM020-ABSM025__v2.webp"
+    ]
   },
   {
     "sku": "ABSM025",
-    "series_id": "abs-mof",
+    "series_id": "abs-persluchtbuizen__abs-mof",
     "series_name": "ABS MOF",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 8,
@@ -3065,11 +3468,16 @@
       "family_id": "compressed-air-compressed-air-pipe-abs-mof-25-mm-absm025-202f3b",
       "sku_series": "absm",
       "diameter_mm": 25.0
-    }
+    },
+    "image": "images/abs-persluchtbuizen/abs-persluchtbuizen__p8__abs-mof__ABSM016-ABSM020-ABSM025__v2.webp",
+    "images": [
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p8__abs-mof__ABSM016-ABSM020-ABSM025__v1.webp",
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p8__abs-mof__ABSM016-ABSM020-ABSM025__v2.webp"
+    ]
   },
   {
     "sku": "ABSM032",
-    "series_id": "abs-mof",
+    "series_id": "abs-persluchtbuizen__abs-mof",
     "series_name": "ABS MOF",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 8,
@@ -3088,11 +3496,16 @@
       "family_id": "compressed-air-compressed-air-pipe-abs-mof-32-mm-absm032-1e1f5c",
       "sku_series": "absm",
       "diameter_mm": 32.0
-    }
+    },
+    "image": "images/abs-persluchtbuizen/abs-persluchtbuizen__p8__abs-mof__ABSM016-ABSM020-ABSM025__v2.webp",
+    "images": [
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p8__abs-mof__ABSM016-ABSM020-ABSM025__v1.webp",
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p8__abs-mof__ABSM016-ABSM020-ABSM025__v2.webp"
+    ]
   },
   {
     "sku": "ABSM040",
-    "series_id": "abs-mof",
+    "series_id": "abs-persluchtbuizen__abs-mof",
     "series_name": "ABS MOF",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 8,
@@ -3111,11 +3524,16 @@
       "family_id": "compressed-air-compressed-air-pipe-abs-mof-40-mm-absm040-6a859c",
       "sku_series": "absm",
       "diameter_mm": 40.0
-    }
+    },
+    "image": "images/abs-persluchtbuizen/abs-persluchtbuizen__p8__abs-mof__ABSM016-ABSM020-ABSM025__v2.webp",
+    "images": [
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p8__abs-mof__ABSM016-ABSM020-ABSM025__v1.webp",
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p8__abs-mof__ABSM016-ABSM020-ABSM025__v2.webp"
+    ]
   },
   {
     "sku": "ABSM050",
-    "series_id": "abs-mof",
+    "series_id": "abs-persluchtbuizen__abs-mof",
     "series_name": "ABS MOF",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 8,
@@ -3134,11 +3552,16 @@
       "family_id": "compressed-air-compressed-air-pipe-abs-mof-50-mm-absm050-098cda",
       "sku_series": "absm",
       "diameter_mm": 50.0
-    }
+    },
+    "image": "images/abs-persluchtbuizen/abs-persluchtbuizen__p8__abs-mof__ABSM016-ABSM020-ABSM025__v2.webp",
+    "images": [
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p8__abs-mof__ABSM016-ABSM020-ABSM025__v1.webp",
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p8__abs-mof__ABSM016-ABSM020-ABSM025__v2.webp"
+    ]
   },
   {
     "sku": "ABSM063",
-    "series_id": "abs-mof",
+    "series_id": "abs-persluchtbuizen__abs-mof",
     "series_name": "ABS MOF",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 8,
@@ -3157,11 +3580,16 @@
       "family_id": "compressed-air-compressed-air-pipe-abs-mof-63-mm-absm063-eece84",
       "sku_series": "absm",
       "diameter_mm": 63.0
-    }
+    },
+    "image": "images/abs-persluchtbuizen/abs-persluchtbuizen__p8__abs-mof__ABSM016-ABSM020-ABSM025__v2.webp",
+    "images": [
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p8__abs-mof__ABSM016-ABSM020-ABSM025__v1.webp",
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p8__abs-mof__ABSM016-ABSM020-ABSM025__v2.webp"
+    ]
   },
   {
     "sku": "ABSM075",
-    "series_id": "abs-mof",
+    "series_id": "abs-persluchtbuizen__abs-mof",
     "series_name": "ABS MOF",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 8,
@@ -3180,11 +3608,16 @@
       "family_id": "compressed-air-compressed-air-pipe-abs-mof-75-mm-absm075-63df36",
       "sku_series": "absm",
       "diameter_mm": 75.0
-    }
+    },
+    "image": "images/abs-persluchtbuizen/abs-persluchtbuizen__p8__abs-mof__ABSM016-ABSM020-ABSM025__v2.webp",
+    "images": [
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p8__abs-mof__ABSM016-ABSM020-ABSM025__v1.webp",
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p8__abs-mof__ABSM016-ABSM020-ABSM025__v2.webp"
+    ]
   },
   {
     "sku": "ABSM090",
-    "series_id": "abs-mof",
+    "series_id": "abs-persluchtbuizen__abs-mof",
     "series_name": "ABS MOF",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 8,
@@ -3204,11 +3637,16 @@
       "family_id": "compressed-air-compressed-air-pipe-abs-mof-90-mm-absm090-2ec29e",
       "sku_series": "absm",
       "diameter_mm": 90.0
-    }
+    },
+    "image": "images/abs-persluchtbuizen/abs-persluchtbuizen__p8__abs-mof__ABSM016-ABSM020-ABSM025__v2.webp",
+    "images": [
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p8__abs-mof__ABSM016-ABSM020-ABSM025__v1.webp",
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p8__abs-mof__ABSM016-ABSM020-ABSM025__v2.webp"
+    ]
   },
   {
     "sku": "ABSM110",
-    "series_id": "abs-mof",
+    "series_id": "abs-persluchtbuizen__abs-mof",
     "series_name": "ABS MOF",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 8,
@@ -3227,11 +3665,16 @@
       "family_id": "compressed-air-compressed-air-pipe-abs-mof-110-mm-absm110-e7ac2d",
       "sku_series": "absm",
       "diameter_mm": 110.0
-    }
+    },
+    "image": "images/abs-persluchtbuizen/abs-persluchtbuizen__p8__abs-mof__ABSM016-ABSM020-ABSM025__v2.webp",
+    "images": [
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p8__abs-mof__ABSM016-ABSM020-ABSM025__v1.webp",
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p8__abs-mof__ABSM016-ABSM020-ABSM025__v2.webp"
+    ]
   },
   {
     "sku": "ABSM125",
-    "series_id": "abs-mof",
+    "series_id": "abs-persluchtbuizen__abs-mof",
     "series_name": "ABS MOF",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 8,
@@ -3250,11 +3693,16 @@
       "family_id": "compressed-air-compressed-air-pipe-abs-mof-125-mm-absm125-711693",
       "sku_series": "absm",
       "diameter_mm": 125.0
-    }
+    },
+    "image": "images/abs-persluchtbuizen/abs-persluchtbuizen__p8__abs-mof__ABSM016-ABSM020-ABSM025__v2.webp",
+    "images": [
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p8__abs-mof__ABSM016-ABSM020-ABSM025__v1.webp",
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p8__abs-mof__ABSM016-ABSM020-ABSM025__v2.webp"
+    ]
   },
   {
     "sku": "ABSM140",
-    "series_id": "abs-mof",
+    "series_id": "abs-persluchtbuizen__abs-mof",
     "series_name": "ABS MOF",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 8,
@@ -3273,11 +3721,16 @@
       "family_id": "compressed-air-compressed-air-pipe-abs-mof-140-mm-absm140-5b29f0",
       "sku_series": "absm",
       "diameter_mm": 140.0
-    }
+    },
+    "image": "images/abs-persluchtbuizen/abs-persluchtbuizen__p8__abs-mof__ABSM016-ABSM020-ABSM025__v2.webp",
+    "images": [
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p8__abs-mof__ABSM016-ABSM020-ABSM025__v1.webp",
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p8__abs-mof__ABSM016-ABSM020-ABSM025__v2.webp"
+    ]
   },
   {
     "sku": "ABSM160",
-    "series_id": "abs-mof",
+    "series_id": "abs-persluchtbuizen__abs-mof",
     "series_name": "ABS MOF",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 8,
@@ -3296,11 +3749,16 @@
       "family_id": "compressed-air-compressed-air-pipe-abs-mof-160-mm-absm160-4ec982",
       "sku_series": "absm",
       "diameter_mm": 160.0
-    }
+    },
+    "image": "images/abs-persluchtbuizen/abs-persluchtbuizen__p8__abs-mof__ABSM016-ABSM020-ABSM025__v2.webp",
+    "images": [
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p8__abs-mof__ABSM016-ABSM020-ABSM025__v1.webp",
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p8__abs-mof__ABSM016-ABSM020-ABSM025__v2.webp"
+    ]
   },
   {
     "sku": "ABSM200",
-    "series_id": "abs-mof",
+    "series_id": "abs-persluchtbuizen__abs-mof",
     "series_name": "ABS MOF",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 8,
@@ -3319,11 +3777,16 @@
       "family_id": "compressed-air-compressed-air-pipe-abs-mof-200-mm-absm200-99e451",
       "sku_series": "absm",
       "diameter_mm": 200.0
-    }
+    },
+    "image": "images/abs-persluchtbuizen/abs-persluchtbuizen__p8__abs-mof__ABSM016-ABSM020-ABSM025__v2.webp",
+    "images": [
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p8__abs-mof__ABSM016-ABSM020-ABSM025__v1.webp",
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p8__abs-mof__ABSM016-ABSM020-ABSM025__v2.webp"
+    ]
   },
   {
     "sku": "ABSM225",
-    "series_id": "abs-mof",
+    "series_id": "abs-persluchtbuizen__abs-mof",
     "series_name": "ABS MOF",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 8,
@@ -3342,11 +3805,16 @@
       "family_id": "compressed-air-compressed-air-pipe-abs-mof-225-mm-absm225-c38812",
       "sku_series": "absm",
       "diameter_mm": 225.0
-    }
+    },
+    "image": "images/abs-persluchtbuizen/abs-persluchtbuizen__p8__abs-mof__ABSM016-ABSM020-ABSM025__v2.webp",
+    "images": [
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p8__abs-mof__ABSM016-ABSM020-ABSM025__v1.webp",
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p8__abs-mof__ABSM016-ABSM020-ABSM025__v2.webp"
+    ]
   },
   {
     "sku": "ABSM250",
-    "series_id": "abs-mof",
+    "series_id": "abs-persluchtbuizen__abs-mof",
     "series_name": "ABS MOF",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 8,
@@ -3365,11 +3833,16 @@
       "family_id": "compressed-air-compressed-air-pipe-abs-mof-250-mm-absm250-902df0",
       "sku_series": "absm",
       "diameter_mm": 250.0
-    }
+    },
+    "image": "images/abs-persluchtbuizen/abs-persluchtbuizen__p8__abs-mof__ABSM016-ABSM020-ABSM025__v2.webp",
+    "images": [
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p8__abs-mof__ABSM016-ABSM020-ABSM025__v1.webp",
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p8__abs-mof__ABSM016-ABSM020-ABSM025__v2.webp"
+    ]
   },
   {
     "sku": "ABSP020161",
-    "series_id": "abs-puntstuk",
+    "series_id": "abs-persluchtbuizen__abs-puntstuk",
     "series_name": "ABS PUNTSTUK",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 10,
@@ -3394,7 +3867,7 @@
   },
   {
     "sku": "ABSP020163",
-    "series_id": "abs-puntstuk",
+    "series_id": "abs-persluchtbuizen__abs-puntstuk",
     "series_name": "ABS PUNTSTUK",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 10,
@@ -3419,7 +3892,7 @@
   },
   {
     "sku": "ABSP025201",
-    "series_id": "abs-puntstuk",
+    "series_id": "abs-persluchtbuizen__abs-puntstuk",
     "series_name": "ABS PUNTSTUK",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 10,
@@ -3444,7 +3917,7 @@
   },
   {
     "sku": "ABSP025203",
-    "series_id": "abs-puntstuk",
+    "series_id": "abs-persluchtbuizen__abs-puntstuk",
     "series_name": "ABS PUNTSTUK",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 10,
@@ -3469,7 +3942,7 @@
   },
   {
     "sku": "ABSP032251",
-    "series_id": "abs-puntstuk",
+    "series_id": "abs-persluchtbuizen__abs-puntstuk",
     "series_name": "ABS PUNTSTUK",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 10,
@@ -3494,7 +3967,7 @@
   },
   {
     "sku": "ABSP032253",
-    "series_id": "abs-puntstuk",
+    "series_id": "abs-persluchtbuizen__abs-puntstuk",
     "series_name": "ABS PUNTSTUK",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 10,
@@ -3519,7 +3992,7 @@
   },
   {
     "sku": "ABSP040321",
-    "series_id": "abs-puntstuk",
+    "series_id": "abs-persluchtbuizen__abs-puntstuk",
     "series_name": "ABS PUNTSTUK",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 10,
@@ -3544,7 +4017,7 @@
   },
   {
     "sku": "ABSP040325",
-    "series_id": "abs-puntstuk",
+    "series_id": "abs-persluchtbuizen__abs-puntstuk",
     "series_name": "ABS PUNTSTUK",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 10,
@@ -3569,7 +4042,7 @@
   },
   {
     "sku": "ABSP050405",
-    "series_id": "abs-puntstuk",
+    "series_id": "abs-persluchtbuizen__abs-puntstuk",
     "series_name": "ABS PUNTSTUK",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 10,
@@ -3594,7 +4067,7 @@
   },
   {
     "sku": "ABSP050406",
-    "series_id": "abs-puntstuk",
+    "series_id": "abs-persluchtbuizen__abs-puntstuk",
     "series_name": "ABS PUNTSTUK",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 10,
@@ -3619,7 +4092,7 @@
   },
   {
     "sku": "ABSP063502",
-    "series_id": "abs-puntstuk",
+    "series_id": "abs-persluchtbuizen__abs-puntstuk",
     "series_name": "ABS PUNTSTUK",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 10,
@@ -3644,7 +4117,7 @@
   },
   {
     "sku": "ABSP063506",
-    "series_id": "abs-puntstuk",
+    "series_id": "abs-persluchtbuizen__abs-puntstuk",
     "series_name": "ABS PUNTSTUK",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 10,
@@ -3669,7 +4142,7 @@
   },
   {
     "sku": "ABSP075632",
-    "series_id": "abs-puntstuk",
+    "series_id": "abs-persluchtbuizen__abs-puntstuk",
     "series_name": "ABS PUNTSTUK",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 10,
@@ -3694,7 +4167,7 @@
   },
   {
     "sku": "ABSR016",
-    "series_id": "abs-spuitgietkoppeling",
+    "series_id": "abs-persluchtbuizen__abs-spuitgietkoppeling",
     "series_name": "ABS SPUITGIETKOPPELING",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 11,
@@ -3717,7 +4190,7 @@
   },
   {
     "sku": "ABSR020",
-    "series_id": "abs-spuitgietkoppeling",
+    "series_id": "abs-persluchtbuizen__abs-spuitgietkoppeling",
     "series_name": "ABS SPUITGIETKOPPELING",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 11,
@@ -3740,7 +4213,7 @@
   },
   {
     "sku": "ABSR025",
-    "series_id": "abs-spuitgietkoppeling",
+    "series_id": "abs-persluchtbuizen__abs-spuitgietkoppeling",
     "series_name": "ABS SPUITGIETKOPPELING",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 11,
@@ -3763,7 +4236,7 @@
   },
   {
     "sku": "ABSR032",
-    "series_id": "abs-spuitgietkoppeling",
+    "series_id": "abs-persluchtbuizen__abs-spuitgietkoppeling",
     "series_name": "ABS SPUITGIETKOPPELING",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 11,
@@ -3786,7 +4259,7 @@
   },
   {
     "sku": "ABSR040",
-    "series_id": "abs-spuitgietkoppeling",
+    "series_id": "abs-persluchtbuizen__abs-spuitgietkoppeling",
     "series_name": "ABS SPUITGIETKOPPELING",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 11,
@@ -3809,7 +4282,7 @@
   },
   {
     "sku": "ABSR050",
-    "series_id": "abs-spuitgietkoppeling",
+    "series_id": "abs-persluchtbuizen__abs-spuitgietkoppeling",
     "series_name": "ABS SPUITGIETKOPPELING",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 11,
@@ -3832,7 +4305,7 @@
   },
   {
     "sku": "ABSR063",
-    "series_id": "abs-spuitgietkoppeling",
+    "series_id": "abs-persluchtbuizen__abs-spuitgietkoppeling",
     "series_name": "ABS SPUITGIETKOPPELING",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 11,
@@ -3855,7 +4328,7 @@
   },
   {
     "sku": "ABSR075",
-    "series_id": "abs-spuitgietkoppeling",
+    "series_id": "abs-persluchtbuizen__abs-spuitgietkoppeling",
     "series_name": "ABS SPUITGIETKOPPELING",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 11,
@@ -3878,7 +4351,7 @@
   },
   {
     "sku": "ABSR090",
-    "series_id": "abs-spuitgietkoppeling",
+    "series_id": "abs-persluchtbuizen__abs-spuitgietkoppeling",
     "series_name": "ABS SPUITGIETKOPPELING",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 11,
@@ -3902,7 +4375,7 @@
   },
   {
     "sku": "ABSR110",
-    "series_id": "abs-spuitgietkoppeling",
+    "series_id": "abs-persluchtbuizen__abs-spuitgietkoppeling",
     "series_name": "ABS SPUITGIETKOPPELING",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 11,
@@ -3925,7 +4398,7 @@
   },
   {
     "sku": "ABSRI01638",
-    "series_id": "raccord-abs-messing",
+    "series_id": "abs-persluchtbuizen__raccord-abs-messing",
     "series_name": "RACCORD ABS/MESSING",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 12,
@@ -3946,11 +4419,16 @@
       "family_id": "compressed-air-compressed-air-pipe-raccord-abs-messing-16-mm-x-3-8-absri01638-fb5f8e",
       "sku_series": "absri",
       "diameter_mm": 16.0
-    }
+    },
+    "image": "images/abs-persluchtbuizen/abs-persluchtbuizen__p12__raccord-abs-messing__ABSRI01638-ABSRI02012-ABSRI02534__v2.webp",
+    "images": [
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p12__raccord-abs-messing__ABSRI01638-ABSRI02012-ABSRI02534__v1.webp",
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p12__raccord-abs-messing__ABSRI01638-ABSRI02012-ABSRI02534__v2.webp"
+    ]
   },
   {
     "sku": "ABSRI02012",
-    "series_id": "raccord-abs-messing",
+    "series_id": "abs-persluchtbuizen__raccord-abs-messing",
     "series_name": "RACCORD ABS/MESSING",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 12,
@@ -3971,11 +4449,16 @@
       "family_id": "compressed-air-compressed-air-pipe-raccord-abs-messing-20-mm-x-1-2-absri02012-ffee6c",
       "sku_series": "absri",
       "diameter_mm": 20.0
-    }
+    },
+    "image": "images/abs-persluchtbuizen/abs-persluchtbuizen__p12__raccord-abs-messing__ABSRI01638-ABSRI02012-ABSRI02534__v2.webp",
+    "images": [
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p12__raccord-abs-messing__ABSRI01638-ABSRI02012-ABSRI02534__v1.webp",
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p12__raccord-abs-messing__ABSRI01638-ABSRI02012-ABSRI02534__v2.webp"
+    ]
   },
   {
     "sku": "ABSRI02534",
-    "series_id": "raccord-abs-messing",
+    "series_id": "abs-persluchtbuizen__raccord-abs-messing",
     "series_name": "RACCORD ABS/MESSING",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 12,
@@ -3996,11 +4479,16 @@
       "family_id": "compressed-air-compressed-air-pipe-raccord-abs-messing-25-mm-x-3-4-absri02534-52ca44",
       "sku_series": "absri",
       "diameter_mm": 25.0
-    }
+    },
+    "image": "images/abs-persluchtbuizen/abs-persluchtbuizen__p12__raccord-abs-messing__ABSRI01638-ABSRI02012-ABSRI02534__v2.webp",
+    "images": [
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p12__raccord-abs-messing__ABSRI01638-ABSRI02012-ABSRI02534__v1.webp",
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p12__raccord-abs-messing__ABSRI01638-ABSRI02012-ABSRI02534__v2.webp"
+    ]
   },
   {
     "sku": "ABSRI0321",
-    "series_id": "raccord-abs-messing",
+    "series_id": "abs-persluchtbuizen__raccord-abs-messing",
     "series_name": "RACCORD ABS/MESSING",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 12,
@@ -4021,11 +4509,16 @@
       "family_id": "compressed-air-compressed-air-pipe-raccord-abs-messing-32-mm-x-1-absri0321-57d196",
       "sku_series": "absri",
       "diameter_mm": 32.0
-    }
+    },
+    "image": "images/abs-persluchtbuizen/abs-persluchtbuizen__p12__raccord-abs-messing__ABSRI01638-ABSRI02012-ABSRI02534__v2.webp",
+    "images": [
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p12__raccord-abs-messing__ABSRI01638-ABSRI02012-ABSRI02534__v1.webp",
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p12__raccord-abs-messing__ABSRI01638-ABSRI02012-ABSRI02534__v2.webp"
+    ]
   },
   {
     "sku": "ABSRI04054",
-    "series_id": "raccord-abs-messing",
+    "series_id": "abs-persluchtbuizen__raccord-abs-messing",
     "series_name": "RACCORD ABS/MESSING",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 12,
@@ -4046,11 +4539,16 @@
       "family_id": "compressed-air-compressed-air-pipe-raccord-abs-messing-40-mm-x-5-4-absri04054-4265cb",
       "sku_series": "absri",
       "diameter_mm": 40.0
-    }
+    },
+    "image": "images/abs-persluchtbuizen/abs-persluchtbuizen__p12__raccord-abs-messing__ABSRI01638-ABSRI02012-ABSRI02534__v2.webp",
+    "images": [
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p12__raccord-abs-messing__ABSRI01638-ABSRI02012-ABSRI02534__v1.webp",
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p12__raccord-abs-messing__ABSRI01638-ABSRI02012-ABSRI02534__v2.webp"
+    ]
   },
   {
     "sku": "ABSRI05064",
-    "series_id": "raccord-abs-messing",
+    "series_id": "abs-persluchtbuizen__raccord-abs-messing",
     "series_name": "RACCORD ABS/MESSING",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 12,
@@ -4071,11 +4569,16 @@
       "family_id": "compressed-air-compressed-air-pipe-raccord-abs-messing-50-mm-x-6-4-absri05064-5b6601",
       "sku_series": "absri",
       "diameter_mm": 50.0
-    }
+    },
+    "image": "images/abs-persluchtbuizen/abs-persluchtbuizen__p12__raccord-abs-messing__ABSRI01638-ABSRI02012-ABSRI02534__v2.webp",
+    "images": [
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p12__raccord-abs-messing__ABSRI01638-ABSRI02012-ABSRI02534__v1.webp",
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p12__raccord-abs-messing__ABSRI01638-ABSRI02012-ABSRI02534__v2.webp"
+    ]
   },
   {
     "sku": "ABSRI0632",
-    "series_id": "raccord-abs-messing",
+    "series_id": "abs-persluchtbuizen__raccord-abs-messing",
     "series_name": "RACCORD ABS/MESSING",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 12,
@@ -4096,11 +4599,16 @@
       "family_id": "compressed-air-compressed-air-pipe-raccord-abs-messing-63-mm-x-2-absri0632-b3c902",
       "sku_series": "absri",
       "diameter_mm": 63.0
-    }
+    },
+    "image": "images/abs-persluchtbuizen/abs-persluchtbuizen__p12__raccord-abs-messing__ABSRI01638-ABSRI02012-ABSRI02534__v2.webp",
+    "images": [
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p12__raccord-abs-messing__ABSRI01638-ABSRI02012-ABSRI02534__v1.webp",
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p12__raccord-abs-messing__ABSRI01638-ABSRI02012-ABSRI02534__v2.webp"
+    ]
   },
   {
     "sku": "ABSRU01638",
-    "series_id": "raccord-abs-messing",
+    "series_id": "abs-persluchtbuizen__raccord-abs-messing",
     "series_name": "RACCORD ABS/MESSING",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 12,
@@ -4121,11 +4629,16 @@
       "family_id": "compressed-air-compressed-air-pipe-raccord-abs-messing-16-mm-x-3-8-absru01638-2ae687",
       "sku_series": "absru",
       "diameter_mm": 16.0
-    }
+    },
+    "image": "images/abs-persluchtbuizen/abs-persluchtbuizen__p12__raccord-abs-messing__ABSRI01638-ABSRI02012-ABSRI02534__v2.webp",
+    "images": [
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p12__raccord-abs-messing__ABSRI01638-ABSRI02012-ABSRI02534__v1.webp",
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p12__raccord-abs-messing__ABSRI01638-ABSRI02012-ABSRI02534__v2.webp"
+    ]
   },
   {
     "sku": "ABSRU02012",
-    "series_id": "raccord-abs-messing",
+    "series_id": "abs-persluchtbuizen__raccord-abs-messing",
     "series_name": "RACCORD ABS/MESSING",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 12,
@@ -4146,11 +4659,16 @@
       "family_id": "compressed-air-compressed-air-pipe-raccord-abs-messing-20-mm-x-1-2-absru02012-ef6c04",
       "sku_series": "absru",
       "diameter_mm": 20.0
-    }
+    },
+    "image": "images/abs-persluchtbuizen/abs-persluchtbuizen__p12__raccord-abs-messing__ABSRI01638-ABSRI02012-ABSRI02534__v2.webp",
+    "images": [
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p12__raccord-abs-messing__ABSRI01638-ABSRI02012-ABSRI02534__v1.webp",
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p12__raccord-abs-messing__ABSRI01638-ABSRI02012-ABSRI02534__v2.webp"
+    ]
   },
   {
     "sku": "ABSRU02534",
-    "series_id": "raccord-abs-messing",
+    "series_id": "abs-persluchtbuizen__raccord-abs-messing",
     "series_name": "RACCORD ABS/MESSING",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 12,
@@ -4171,11 +4689,16 @@
       "family_id": "compressed-air-compressed-air-pipe-raccord-abs-messing-25-mm-x-3-4-absru02534-6d24b2",
       "sku_series": "absru",
       "diameter_mm": 25.0
-    }
+    },
+    "image": "images/abs-persluchtbuizen/abs-persluchtbuizen__p12__raccord-abs-messing__ABSRI01638-ABSRI02012-ABSRI02534__v2.webp",
+    "images": [
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p12__raccord-abs-messing__ABSRI01638-ABSRI02012-ABSRI02534__v1.webp",
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p12__raccord-abs-messing__ABSRI01638-ABSRI02012-ABSRI02534__v2.webp"
+    ]
   },
   {
     "sku": "ABSRU0321",
-    "series_id": "raccord-abs-messing",
+    "series_id": "abs-persluchtbuizen__raccord-abs-messing",
     "series_name": "RACCORD ABS/MESSING",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 12,
@@ -4196,11 +4719,16 @@
       "family_id": "compressed-air-compressed-air-pipe-raccord-abs-messing-32-mm-x-1-absru0321-1ef415",
       "sku_series": "absru",
       "diameter_mm": 32.0
-    }
+    },
+    "image": "images/abs-persluchtbuizen/abs-persluchtbuizen__p12__raccord-abs-messing__ABSRI01638-ABSRI02012-ABSRI02534__v2.webp",
+    "images": [
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p12__raccord-abs-messing__ABSRI01638-ABSRI02012-ABSRI02534__v1.webp",
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p12__raccord-abs-messing__ABSRI01638-ABSRI02012-ABSRI02534__v2.webp"
+    ]
   },
   {
     "sku": "ABSRU04054",
-    "series_id": "raccord-abs-messing",
+    "series_id": "abs-persluchtbuizen__raccord-abs-messing",
     "series_name": "RACCORD ABS/MESSING",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 12,
@@ -4221,11 +4749,16 @@
       "family_id": "compressed-air-compressed-air-pipe-raccord-abs-messing-40-mm-x-5-4-absru04054-525eaa",
       "sku_series": "absru",
       "diameter_mm": 40.0
-    }
+    },
+    "image": "images/abs-persluchtbuizen/abs-persluchtbuizen__p12__raccord-abs-messing__ABSRI01638-ABSRI02012-ABSRI02534__v2.webp",
+    "images": [
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p12__raccord-abs-messing__ABSRI01638-ABSRI02012-ABSRI02534__v1.webp",
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p12__raccord-abs-messing__ABSRI01638-ABSRI02012-ABSRI02534__v2.webp"
+    ]
   },
   {
     "sku": "ABSRU05064",
-    "series_id": "raccord-abs-messing",
+    "series_id": "abs-persluchtbuizen__raccord-abs-messing",
     "series_name": "RACCORD ABS/MESSING",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 12,
@@ -4246,11 +4779,16 @@
       "family_id": "compressed-air-compressed-air-pipe-raccord-abs-messing-50-mm-x-6-4-absru05064-6869b5",
       "sku_series": "absru",
       "diameter_mm": 50.0
-    }
+    },
+    "image": "images/abs-persluchtbuizen/abs-persluchtbuizen__p12__raccord-abs-messing__ABSRI01638-ABSRI02012-ABSRI02534__v2.webp",
+    "images": [
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p12__raccord-abs-messing__ABSRI01638-ABSRI02012-ABSRI02534__v1.webp",
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p12__raccord-abs-messing__ABSRI01638-ABSRI02012-ABSRI02534__v2.webp"
+    ]
   },
   {
     "sku": "ABSRU0632",
-    "series_id": "raccord-abs-messing",
+    "series_id": "abs-persluchtbuizen__raccord-abs-messing",
     "series_name": "RACCORD ABS/MESSING",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 12,
@@ -4271,11 +4809,16 @@
       "family_id": "compressed-air-compressed-air-pipe-raccord-abs-messing-63-mm-x-2-absru0632-7ea06d",
       "sku_series": "absru",
       "diameter_mm": 63.0
-    }
+    },
+    "image": "images/abs-persluchtbuizen/abs-persluchtbuizen__p12__raccord-abs-messing__ABSRI01638-ABSRI02012-ABSRI02534__v2.webp",
+    "images": [
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p12__raccord-abs-messing__ABSRI01638-ABSRI02012-ABSRI02534__v1.webp",
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p12__raccord-abs-messing__ABSRI01638-ABSRI02012-ABSRI02534__v2.webp"
+    ]
   },
   {
     "sku": "ABST01690",
-    "series_id": "abs-t-stuk-90",
+    "series_id": "abs-persluchtbuizen__abs-t-stuk-90",
     "series_name": "ABS T-STUK 90°",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 7,
@@ -4295,11 +4838,16 @@
       "family_id": "compressed-air-compressed-air-pipe-abs-t-stuk-90-16-mm-abst01690-8da1b1",
       "sku_series": "abst",
       "diameter_mm": 16.0
-    }
+    },
+    "image": "images/abs-persluchtbuizen/abs-persluchtbuizen__p7__abs-t-stuk-90__ABST01690-ABST02090-ABST02590__v2.webp",
+    "images": [
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p7__abs-t-stuk-90__ABST01690-ABST02090-ABST02590__v1.webp",
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p7__abs-t-stuk-90__ABST01690-ABST02090-ABST02590__v2.webp"
+    ]
   },
   {
     "sku": "ABST02045",
-    "series_id": "abs-t-stuk-45",
+    "series_id": "abs-persluchtbuizen__abs-t-stuk-45",
     "series_name": "ABS T-STUK 45°",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 7,
@@ -4323,7 +4871,7 @@
   },
   {
     "sku": "ABST02090",
-    "series_id": "abs-t-stuk-90",
+    "series_id": "abs-persluchtbuizen__abs-t-stuk-90",
     "series_name": "ABS T-STUK 90°",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 7,
@@ -4343,11 +4891,16 @@
       "family_id": "compressed-air-compressed-air-pipe-abs-t-stuk-90-20-mm-abst02090-bcd991",
       "sku_series": "abst",
       "diameter_mm": 20.0
-    }
+    },
+    "image": "images/abs-persluchtbuizen/abs-persluchtbuizen__p7__abs-t-stuk-90__ABST01690-ABST02090-ABST02590__v2.webp",
+    "images": [
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p7__abs-t-stuk-90__ABST01690-ABST02090-ABST02590__v1.webp",
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p7__abs-t-stuk-90__ABST01690-ABST02090-ABST02590__v2.webp"
+    ]
   },
   {
     "sku": "ABST025209",
-    "series_id": "abs-verloop-t-stuk-90",
+    "series_id": "abs-persluchtbuizen__abs-verloop-t-stuk-90",
     "series_name": "ABS VERLOOP T-STUK 90°",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 8,
@@ -4371,7 +4924,7 @@
   },
   {
     "sku": "ABST02545",
-    "series_id": "abs-t-stuk-45",
+    "series_id": "abs-persluchtbuizen__abs-t-stuk-45",
     "series_name": "ABS T-STUK 45°",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 7,
@@ -4395,7 +4948,7 @@
   },
   {
     "sku": "ABST02590",
-    "series_id": "abs-t-stuk-90",
+    "series_id": "abs-persluchtbuizen__abs-t-stuk-90",
     "series_name": "ABS T-STUK 90°",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 7,
@@ -4415,11 +4968,16 @@
       "family_id": "compressed-air-compressed-air-pipe-abs-t-stuk-90-25-mm-abst02590-6a344a",
       "sku_series": "abst",
       "diameter_mm": 25.0
-    }
+    },
+    "image": "images/abs-persluchtbuizen/abs-persluchtbuizen__p7__abs-t-stuk-90__ABST01690-ABST02090-ABST02590__v2.webp",
+    "images": [
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p7__abs-t-stuk-90__ABST01690-ABST02090-ABST02590__v1.webp",
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p7__abs-t-stuk-90__ABST01690-ABST02090-ABST02590__v2.webp"
+    ]
   },
   {
     "sku": "ABST032209",
-    "series_id": "abs-verloop-t-stuk-90",
+    "series_id": "abs-persluchtbuizen__abs-verloop-t-stuk-90",
     "series_name": "ABS VERLOOP T-STUK 90°",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 8,
@@ -4443,7 +5001,7 @@
   },
   {
     "sku": "ABST032259",
-    "series_id": "abs-verloop-t-stuk-90",
+    "series_id": "abs-persluchtbuizen__abs-verloop-t-stuk-90",
     "series_name": "ABS VERLOOP T-STUK 90°",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 8,
@@ -4467,7 +5025,7 @@
   },
   {
     "sku": "ABST03245",
-    "series_id": "abs-t-stuk-45",
+    "series_id": "abs-persluchtbuizen__abs-t-stuk-45",
     "series_name": "ABS T-STUK 45°",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 7,
@@ -4491,7 +5049,7 @@
   },
   {
     "sku": "ABST03290",
-    "series_id": "abs-t-stuk-90",
+    "series_id": "abs-persluchtbuizen__abs-t-stuk-90",
     "series_name": "ABS T-STUK 90°",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 7,
@@ -4511,11 +5069,16 @@
       "family_id": "compressed-air-compressed-air-pipe-abs-t-stuk-90-32-mm-abst03290-ce8dae",
       "sku_series": "abst",
       "diameter_mm": 32.0
-    }
+    },
+    "image": "images/abs-persluchtbuizen/abs-persluchtbuizen__p7__abs-t-stuk-90__ABST01690-ABST02090-ABST02590__v2.webp",
+    "images": [
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p7__abs-t-stuk-90__ABST01690-ABST02090-ABST02590__v1.webp",
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p7__abs-t-stuk-90__ABST01690-ABST02090-ABST02590__v2.webp"
+    ]
   },
   {
     "sku": "ABST040209",
-    "series_id": "abs-verloop-t-stuk-90",
+    "series_id": "abs-persluchtbuizen__abs-verloop-t-stuk-90",
     "series_name": "ABS VERLOOP T-STUK 90°",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 8,
@@ -4539,7 +5102,7 @@
   },
   {
     "sku": "ABST040259",
-    "series_id": "abs-verloop-t-stuk-90",
+    "series_id": "abs-persluchtbuizen__abs-verloop-t-stuk-90",
     "series_name": "ABS VERLOOP T-STUK 90°",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 8,
@@ -4563,7 +5126,7 @@
   },
   {
     "sku": "ABST04045",
-    "series_id": "abs-t-stuk-45",
+    "series_id": "abs-persluchtbuizen__abs-t-stuk-45",
     "series_name": "ABS T-STUK 45°",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 7,
@@ -4587,7 +5150,7 @@
   },
   {
     "sku": "ABST04090",
-    "series_id": "abs-t-stuk-90",
+    "series_id": "abs-persluchtbuizen__abs-t-stuk-90",
     "series_name": "ABS T-STUK 90°",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 7,
@@ -4607,11 +5170,16 @@
       "family_id": "compressed-air-compressed-air-pipe-abs-t-stuk-90-40-mm-abst04090-03e107",
       "sku_series": "abst",
       "diameter_mm": 40.0
-    }
+    },
+    "image": "images/abs-persluchtbuizen/abs-persluchtbuizen__p7__abs-t-stuk-90__ABST01690-ABST02090-ABST02590__v2.webp",
+    "images": [
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p7__abs-t-stuk-90__ABST01690-ABST02090-ABST02590__v1.webp",
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p7__abs-t-stuk-90__ABST01690-ABST02090-ABST02590__v2.webp"
+    ]
   },
   {
     "sku": "ABST050209",
-    "series_id": "abs-verloop-t-stuk-90",
+    "series_id": "abs-persluchtbuizen__abs-verloop-t-stuk-90",
     "series_name": "ABS VERLOOP T-STUK 90°",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 8,
@@ -4635,7 +5203,7 @@
   },
   {
     "sku": "ABST050259",
-    "series_id": "abs-verloop-t-stuk-90",
+    "series_id": "abs-persluchtbuizen__abs-verloop-t-stuk-90",
     "series_name": "ABS VERLOOP T-STUK 90°",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 8,
@@ -4659,7 +5227,7 @@
   },
   {
     "sku": "ABST050329",
-    "series_id": "abs-verloop-t-stuk-90",
+    "series_id": "abs-persluchtbuizen__abs-verloop-t-stuk-90",
     "series_name": "ABS VERLOOP T-STUK 90°",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 8,
@@ -4683,7 +5251,7 @@
   },
   {
     "sku": "ABST05045",
-    "series_id": "abs-t-stuk-45",
+    "series_id": "abs-persluchtbuizen__abs-t-stuk-45",
     "series_name": "ABS T-STUK 45°",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 7,
@@ -4707,7 +5275,7 @@
   },
   {
     "sku": "ABST05090",
-    "series_id": "abs-t-stuk-90",
+    "series_id": "abs-persluchtbuizen__abs-t-stuk-90",
     "series_name": "ABS T-STUK 90°",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 7,
@@ -4727,11 +5295,16 @@
       "family_id": "compressed-air-compressed-air-pipe-abs-t-stuk-90-50-mm-abst05090-9e1e87",
       "sku_series": "abst",
       "diameter_mm": 50.0
-    }
+    },
+    "image": "images/abs-persluchtbuizen/abs-persluchtbuizen__p7__abs-t-stuk-90__ABST01690-ABST02090-ABST02590__v2.webp",
+    "images": [
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p7__abs-t-stuk-90__ABST01690-ABST02090-ABST02590__v1.webp",
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p7__abs-t-stuk-90__ABST01690-ABST02090-ABST02590__v2.webp"
+    ]
   },
   {
     "sku": "ABST063259",
-    "series_id": "abs-verloop-t-stuk-90",
+    "series_id": "abs-persluchtbuizen__abs-verloop-t-stuk-90",
     "series_name": "ABS VERLOOP T-STUK 90°",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 8,
@@ -4755,7 +5328,7 @@
   },
   {
     "sku": "ABST063329",
-    "series_id": "abs-verloop-t-stuk-90",
+    "series_id": "abs-persluchtbuizen__abs-verloop-t-stuk-90",
     "series_name": "ABS VERLOOP T-STUK 90°",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 8,
@@ -4779,7 +5352,7 @@
   },
   {
     "sku": "ABST06345",
-    "series_id": "abs-t-stuk-45",
+    "series_id": "abs-persluchtbuizen__abs-t-stuk-45",
     "series_name": "ABS T-STUK 45°",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 7,
@@ -4803,7 +5376,7 @@
   },
   {
     "sku": "ABST06390",
-    "series_id": "abs-t-stuk-90",
+    "series_id": "abs-persluchtbuizen__abs-t-stuk-90",
     "series_name": "ABS T-STUK 90°",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 7,
@@ -4823,11 +5396,16 @@
       "family_id": "compressed-air-compressed-air-pipe-abs-t-stuk-90-63-mm-abst06390-645a2e",
       "sku_series": "abst",
       "diameter_mm": 63.0
-    }
+    },
+    "image": "images/abs-persluchtbuizen/abs-persluchtbuizen__p7__abs-t-stuk-90__ABST01690-ABST02090-ABST02590__v2.webp",
+    "images": [
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p7__abs-t-stuk-90__ABST01690-ABST02090-ABST02590__v1.webp",
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p7__abs-t-stuk-90__ABST01690-ABST02090-ABST02590__v2.webp"
+    ]
   },
   {
     "sku": "ABST075329",
-    "series_id": "abs-verloop-t-stuk-90",
+    "series_id": "abs-persluchtbuizen__abs-verloop-t-stuk-90",
     "series_name": "ABS VERLOOP T-STUK 90°",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 8,
@@ -4851,7 +5429,7 @@
   },
   {
     "sku": "ABST075409",
-    "series_id": "abs-verloop-t-stuk-90",
+    "series_id": "abs-persluchtbuizen__abs-verloop-t-stuk-90",
     "series_name": "ABS VERLOOP T-STUK 90°",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 8,
@@ -4875,7 +5453,7 @@
   },
   {
     "sku": "ABST075509",
-    "series_id": "abs-verloop-t-stuk-90",
+    "series_id": "abs-persluchtbuizen__abs-verloop-t-stuk-90",
     "series_name": "ABS VERLOOP T-STUK 90°",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 8,
@@ -4899,7 +5477,7 @@
   },
   {
     "sku": "ABST075639",
-    "series_id": "abs-verloop-t-stuk-90",
+    "series_id": "abs-persluchtbuizen__abs-verloop-t-stuk-90",
     "series_name": "ABS VERLOOP T-STUK 90°",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 8,
@@ -4923,7 +5501,7 @@
   },
   {
     "sku": "ABST07590",
-    "series_id": "abs-t-stuk-90",
+    "series_id": "abs-persluchtbuizen__abs-t-stuk-90",
     "series_name": "ABS T-STUK 90°",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 7,
@@ -4943,11 +5521,16 @@
       "family_id": "compressed-air-compressed-air-pipe-abs-t-stuk-90-75-mm-abst07590-6129ab",
       "sku_series": "abst",
       "diameter_mm": 75.0
-    }
+    },
+    "image": "images/abs-persluchtbuizen/abs-persluchtbuizen__p7__abs-t-stuk-90__ABST01690-ABST02090-ABST02590__v2.webp",
+    "images": [
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p7__abs-t-stuk-90__ABST01690-ABST02090-ABST02590__v1.webp",
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p7__abs-t-stuk-90__ABST01690-ABST02090-ABST02590__v2.webp"
+    ]
   },
   {
     "sku": "ABST090409",
-    "series_id": "abs-verloop-t-stuk-90",
+    "series_id": "abs-persluchtbuizen__abs-verloop-t-stuk-90",
     "series_name": "ABS VERLOOP T-STUK 90°",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 8,
@@ -4971,7 +5554,7 @@
   },
   {
     "sku": "ABST090509",
-    "series_id": "abs-verloop-t-stuk-90",
+    "series_id": "abs-persluchtbuizen__abs-verloop-t-stuk-90",
     "series_name": "ABS VERLOOP T-STUK 90°",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 8,
@@ -4995,7 +5578,7 @@
   },
   {
     "sku": "ABST090639",
-    "series_id": "abs-verloop-t-stuk-90",
+    "series_id": "abs-persluchtbuizen__abs-verloop-t-stuk-90",
     "series_name": "ABS VERLOOP T-STUK 90°",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 8,
@@ -5019,7 +5602,7 @@
   },
   {
     "sku": "ABST090759",
-    "series_id": "abs-verloop-t-stuk-90",
+    "series_id": "abs-persluchtbuizen__abs-verloop-t-stuk-90",
     "series_name": "ABS VERLOOP T-STUK 90°",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 8,
@@ -5043,7 +5626,7 @@
   },
   {
     "sku": "ABST09090",
-    "series_id": "abs-t-stuk-90",
+    "series_id": "abs-persluchtbuizen__abs-t-stuk-90",
     "series_name": "ABS T-STUK 90°",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 7,
@@ -5063,11 +5646,16 @@
       "family_id": "compressed-air-compressed-air-pipe-abs-t-stuk-90-90-mm-abst09090-f96ca3",
       "sku_series": "abst",
       "diameter_mm": 90.0
-    }
+    },
+    "image": "images/abs-persluchtbuizen/abs-persluchtbuizen__p7__abs-t-stuk-90__ABST01690-ABST02090-ABST02590__v2.webp",
+    "images": [
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p7__abs-t-stuk-90__ABST01690-ABST02090-ABST02590__v1.webp",
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p7__abs-t-stuk-90__ABST01690-ABST02090-ABST02590__v2.webp"
+    ]
   },
   {
     "sku": "ABST110509",
-    "series_id": "abs-verloop-t-stuk-90",
+    "series_id": "abs-persluchtbuizen__abs-verloop-t-stuk-90",
     "series_name": "ABS VERLOOP T-STUK 90°",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 8,
@@ -5091,7 +5679,7 @@
   },
   {
     "sku": "ABST110639",
-    "series_id": "abs-verloop-t-stuk-90",
+    "series_id": "abs-persluchtbuizen__abs-verloop-t-stuk-90",
     "series_name": "ABS VERLOOP T-STUK 90°",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 8,
@@ -5115,7 +5703,7 @@
   },
   {
     "sku": "ABST110759",
-    "series_id": "abs-verloop-t-stuk-90",
+    "series_id": "abs-persluchtbuizen__abs-verloop-t-stuk-90",
     "series_name": "ABS VERLOOP T-STUK 90°",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 8,
@@ -5139,7 +5727,7 @@
   },
   {
     "sku": "ABST11090",
-    "series_id": "abs-t-stuk-90",
+    "series_id": "abs-persluchtbuizen__abs-t-stuk-90",
     "series_name": "ABS T-STUK 90°",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 7,
@@ -5159,11 +5747,16 @@
       "family_id": "compressed-air-compressed-air-pipe-abs-t-stuk-90-110-mm-abst11090-e23670",
       "sku_series": "abst",
       "diameter_mm": 110.0
-    }
+    },
+    "image": "images/abs-persluchtbuizen/abs-persluchtbuizen__p7__abs-t-stuk-90__ABST01690-ABST02090-ABST02590__v2.webp",
+    "images": [
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p7__abs-t-stuk-90__ABST01690-ABST02090-ABST02590__v1.webp",
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p7__abs-t-stuk-90__ABST01690-ABST02090-ABST02590__v2.webp"
+    ]
   },
   {
     "sku": "ABST110909",
-    "series_id": "abs-verloop-t-stuk-90",
+    "series_id": "abs-persluchtbuizen__abs-verloop-t-stuk-90",
     "series_name": "ABS VERLOOP T-STUK 90°",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 8,
@@ -5187,7 +5780,7 @@
   },
   {
     "sku": "ABST12590",
-    "series_id": "abs-t-stuk-90",
+    "series_id": "abs-persluchtbuizen__abs-t-stuk-90",
     "series_name": "ABS T-STUK 90°",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 7,
@@ -5207,11 +5800,16 @@
       "family_id": "compressed-air-compressed-air-pipe-abs-t-stuk-90-125-mm-abst12590-0fff64",
       "sku_series": "abst",
       "diameter_mm": 125.0
-    }
+    },
+    "image": "images/abs-persluchtbuizen/abs-persluchtbuizen__p7__abs-t-stuk-90__ABST01690-ABST02090-ABST02590__v2.webp",
+    "images": [
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p7__abs-t-stuk-90__ABST01690-ABST02090-ABST02590__v1.webp",
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p7__abs-t-stuk-90__ABST01690-ABST02090-ABST02590__v2.webp"
+    ]
   },
   {
     "sku": "ABST14090",
-    "series_id": "abs-t-stuk-90",
+    "series_id": "abs-persluchtbuizen__abs-t-stuk-90",
     "series_name": "ABS T-STUK 90°",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 7,
@@ -5231,11 +5829,16 @@
       "family_id": "compressed-air-compressed-air-pipe-abs-t-stuk-90-140-mm-abst14090-fe6652",
       "sku_series": "abst",
       "diameter_mm": 140.0
-    }
+    },
+    "image": "images/abs-persluchtbuizen/abs-persluchtbuizen__p7__abs-t-stuk-90__ABST01690-ABST02090-ABST02590__v2.webp",
+    "images": [
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p7__abs-t-stuk-90__ABST01690-ABST02090-ABST02590__v1.webp",
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p7__abs-t-stuk-90__ABST01690-ABST02090-ABST02590__v2.webp"
+    ]
   },
   {
     "sku": "ABST16090",
-    "series_id": "abs-t-stuk-90",
+    "series_id": "abs-persluchtbuizen__abs-t-stuk-90",
     "series_name": "ABS T-STUK 90°",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 7,
@@ -5255,11 +5858,16 @@
       "family_id": "compressed-air-compressed-air-pipe-abs-t-stuk-90-160-mm-abst16090-c49221",
       "sku_series": "abst",
       "diameter_mm": 160.0
-    }
+    },
+    "image": "images/abs-persluchtbuizen/abs-persluchtbuizen__p7__abs-t-stuk-90__ABST01690-ABST02090-ABST02590__v2.webp",
+    "images": [
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p7__abs-t-stuk-90__ABST01690-ABST02090-ABST02590__v1.webp",
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p7__abs-t-stuk-90__ABST01690-ABST02090-ABST02590__v2.webp"
+    ]
   },
   {
     "sku": "ABST20090",
-    "series_id": "abs-t-stuk-90",
+    "series_id": "abs-persluchtbuizen__abs-t-stuk-90",
     "series_name": "ABS T-STUK 90°",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 7,
@@ -5279,11 +5887,16 @@
       "family_id": "compressed-air-compressed-air-pipe-abs-t-stuk-90-200-mm-abst20090-75a0c0",
       "sku_series": "abst",
       "diameter_mm": 200.0
-    }
+    },
+    "image": "images/abs-persluchtbuizen/abs-persluchtbuizen__p7__abs-t-stuk-90__ABST01690-ABST02090-ABST02590__v2.webp",
+    "images": [
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p7__abs-t-stuk-90__ABST01690-ABST02090-ABST02590__v1.webp",
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p7__abs-t-stuk-90__ABST01690-ABST02090-ABST02590__v2.webp"
+    ]
   },
   {
     "sku": "ABST22590",
-    "series_id": "abs-t-stuk-90",
+    "series_id": "abs-persluchtbuizen__abs-t-stuk-90",
     "series_name": "ABS T-STUK 90°",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 7,
@@ -5303,11 +5916,16 @@
       "family_id": "compressed-air-compressed-air-pipe-abs-t-stuk-90-225-mm-abst22590-1bad95",
       "sku_series": "abst",
       "diameter_mm": 225.0
-    }
+    },
+    "image": "images/abs-persluchtbuizen/abs-persluchtbuizen__p7__abs-t-stuk-90__ABST01690-ABST02090-ABST02590__v2.webp",
+    "images": [
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p7__abs-t-stuk-90__ABST01690-ABST02090-ABST02590__v1.webp",
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p7__abs-t-stuk-90__ABST01690-ABST02090-ABST02590__v2.webp"
+    ]
   },
   {
     "sku": "ABST25090",
-    "series_id": "abs-t-stuk-90",
+    "series_id": "abs-persluchtbuizen__abs-t-stuk-90",
     "series_name": "ABS T-STUK 90°",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 7,
@@ -5327,11 +5945,16 @@
       "family_id": "compressed-air-compressed-air-pipe-abs-t-stuk-90-250-mm-abst25090-abb3f1",
       "sku_series": "abst",
       "diameter_mm": 250.0
-    }
+    },
+    "image": "images/abs-persluchtbuizen/abs-persluchtbuizen__p7__abs-t-stuk-90__ABST01690-ABST02090-ABST02590__v2.webp",
+    "images": [
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p7__abs-t-stuk-90__ABST01690-ABST02090-ABST02590__v1.webp",
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p7__abs-t-stuk-90__ABST01690-ABST02090-ABST02590__v2.webp"
+    ]
   },
   {
     "sku": "ABSV016",
-    "series_id": "abs-slangpilaar",
+    "series_id": "abs-persluchtbuizen__abs-slangpilaar",
     "series_name": "ABS SLANGPILAAR",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 13,
@@ -5354,7 +5977,7 @@
   },
   {
     "sku": "ABSV020",
-    "series_id": "abs-slangpilaar",
+    "series_id": "abs-persluchtbuizen__abs-slangpilaar",
     "series_name": "ABS SLANGPILAAR",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 13,
@@ -5377,7 +6000,7 @@
   },
   {
     "sku": "ABSV025",
-    "series_id": "abs-slangpilaar",
+    "series_id": "abs-persluchtbuizen__abs-slangpilaar",
     "series_name": "ABS SLANGPILAAR",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 13,
@@ -5400,7 +6023,7 @@
   },
   {
     "sku": "ABSV032",
-    "series_id": "abs-slangpilaar",
+    "series_id": "abs-persluchtbuizen__abs-slangpilaar",
     "series_name": "ABS SLANGPILAAR",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 13,
@@ -5423,7 +6046,7 @@
   },
   {
     "sku": "ABSVM02520",
-    "series_id": "abs-verloopmof",
+    "series_id": "abs-persluchtbuizen__abs-verloopmof",
     "series_name": "ABS VERLOOPMOF",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 9,
@@ -5447,7 +6070,7 @@
   },
   {
     "sku": "ABSVM03225",
-    "series_id": "abs-verloopmof",
+    "series_id": "abs-persluchtbuizen__abs-verloopmof",
     "series_name": "ABS VERLOOPMOF",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 9,
@@ -5471,7 +6094,7 @@
   },
   {
     "sku": "ABSVM04032",
-    "series_id": "abs-verloopmof",
+    "series_id": "abs-persluchtbuizen__abs-verloopmof",
     "series_name": "ABS VERLOOPMOF",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 9,
@@ -5495,7 +6118,7 @@
   },
   {
     "sku": "ABSVM05040",
-    "series_id": "abs-verloopmof",
+    "series_id": "abs-persluchtbuizen__abs-verloopmof",
     "series_name": "ABS VERLOOPMOF",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 9,
@@ -5519,7 +6142,7 @@
   },
   {
     "sku": "ABSVM06350",
-    "series_id": "abs-verloopmof",
+    "series_id": "abs-persluchtbuizen__abs-verloopmof",
     "series_name": "ABS VERLOOPMOF",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 9,
@@ -5543,7 +6166,7 @@
   },
   {
     "sku": "ABSVM07563",
-    "series_id": "abs-verloopmof",
+    "series_id": "abs-persluchtbuizen__abs-verloopmof",
     "series_name": "ABS VERLOOPMOF",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 9,
@@ -5567,7 +6190,7 @@
   },
   {
     "sku": "ABSVM09075",
-    "series_id": "abs-verloopmof",
+    "series_id": "abs-persluchtbuizen__abs-verloopmof",
     "series_name": "ABS VERLOOPMOF",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 9,
@@ -5591,7 +6214,7 @@
   },
   {
     "sku": "ABSVM11090",
-    "series_id": "abs-verloopmof",
+    "series_id": "abs-persluchtbuizen__abs-verloopmof",
     "series_name": "ABS VERLOOPMOF",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 9,
@@ -5616,7 +6239,7 @@
   },
   {
     "sku": "ABSVM12511",
-    "series_id": "abs-verloopmof",
+    "series_id": "abs-persluchtbuizen__abs-verloopmof",
     "series_name": "ABS VERLOOPMOF",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 9,
@@ -5640,7 +6263,7 @@
   },
   {
     "sku": "ABSVM14012",
-    "series_id": "abs-verloopmof",
+    "series_id": "abs-persluchtbuizen__abs-verloopmof",
     "series_name": "ABS VERLOOPMOF",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 9,
@@ -5664,7 +6287,7 @@
   },
   {
     "sku": "ABSVM16014",
-    "series_id": "abs-verloopmof",
+    "series_id": "abs-persluchtbuizen__abs-verloopmof",
     "series_name": "ABS VERLOOPMOF",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 9,
@@ -5688,7 +6311,7 @@
   },
   {
     "sku": "ABSVM20016",
-    "series_id": "abs-verloopmof",
+    "series_id": "abs-persluchtbuizen__abs-verloopmof",
     "series_name": "ABS VERLOOPMOF",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 9,
@@ -5712,7 +6335,7 @@
   },
   {
     "sku": "ABSVM22520",
-    "series_id": "abs-verloopmof",
+    "series_id": "abs-persluchtbuizen__abs-verloopmof",
     "series_name": "ABS VERLOOPMOF",
     "source_pdf": "abs-persluchtbuizen.pdf",
     "page": 9,

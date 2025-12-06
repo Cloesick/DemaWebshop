@@ -868,13 +868,87 @@ python old_analyze_product_pdfs.py --pdf-dir "dema-webshop/public/documents/Prod
 
 Each product record includes:
 - `sku`: Canonical product code
-- `series_name`: Product category/series
+- `series_id`: PDF-scoped unique identifier (e.g., `abs-persluchtbuizen__abs-knie-90`)
+- `series_name`: Full table header (e.g., "ABS KNIE 90°")
 - `maat`: Size/dimensions
 - `werkdruk`: Working pressure (for pipes)
 - `angle`: Pipe angle (15°, 22°, 30°, 45°, 90°)
 - `lengte`: Length
 - `type`: Product type classification
 - `source_pdf`: Source catalog reference
+- `image`: Primary product image path
+- `images`: Array of all available image versions
+
+## 🖼️ Product Image Extraction
+
+The `extract_product_images.py` tool extracts product images from PDF catalogs and links them to SKUs.
+
+### Features
+
+- **Automatic Image Extraction**: Extracts product images from PDF pages
+- **Series Matching**: Links images to product series using vertical proximity (images appear above tables)
+- **WebP Conversion**: Converts images to optimized WebP format
+- **PDF-Scoped Series ID**: Prevents cross-PDF collisions (e.g., "2X BINNENDRAAD" in different catalogs)
+- **Complete SKU Mapping**: Generates `image-sku-mapping.json` with all SKUs per image
+
+### Image Statistics
+
+| Metric | Value |
+|--------|-------|
+| Total Images | 2,367 |
+| Total SKUs Covered | 28,988 |
+| Cross-PDF Collisions | 0 |
+
+### Usage
+
+```bash
+# Extract images from all PDFs
+python extract_product_images.py --update-json
+
+# Generate SKU mapping from existing images (no extraction)
+python extract_product_images.py --generate-mapping
+
+# Extract from specific PDF
+python extract_product_images.py --pdf abs-persluchtbuizen.pdf --update-json
+```
+
+### Image Naming Convention
+
+```
+{pdf}__p{page}__{series_id}__{sample_skus}__v{version}.webp
+
+Example:
+abs-persluchtbuizen__p5__abs-bocht-90__ABSB02090-ABSB02590-ABSB03290__v2.webp
+```
+
+### Image-SKU Mapping
+
+The `image-sku-mapping.json` file provides complete SKU coverage per image:
+
+```json
+{
+  "images/abs-persluchtbuizen/abs-persluchtbuizen__p5__abs-bocht-90__...v2.webp": {
+    "series_id": "abs-persluchtbuizen__abs-bocht-90",
+    "series_name": "ABS BOCHT 90°",
+    "pdf": "abs-persluchtbuizen.pdf",
+    "page": 5,
+    "skus": ["ABSB02090", "ABSB02590", "ABSB03290", "ABSB04090", ...],
+    "sku_count": 25
+  }
+}
+```
+
+### Cross-PDF Collision Prevention
+
+Products with the same table name in different PDFs now have unique `series_id`:
+
+| PDF | Table Header | series_id |
+|-----|--------------|-----------|
+| messing-draadfittingen.pdf | 2X BINNENDRAAD | `messing-draadfittingen__2x-binnendraad` |
+| verzinkte-buizen.pdf | 2X BINNENDRAAD | `verzinkte-buizen__2x-binnendraad` |
+| zwarte-draad-en-lasfittingen.pdf | 2X BINNENDRAAD | `zwarte-draad-en-lasfittingen__2x-binnendraad` |
+
+This ensures each PDF's products get their correct material-specific images.
 
 ---
 
