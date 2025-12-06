@@ -53,6 +53,13 @@ export default function ProductSearch({ onSearchResults }: ProductSearchProps) {
     setIsLoading(true);
     try {
       const response = await fetch(`/api/search?q=${encodeURIComponent(query)}`);
+      if (!response.ok) {
+        throw new Error(`HTTP ${response.status}`);
+      }
+      const contentType = response.headers.get('content-type');
+      if (!contentType || !contentType.includes('application/json')) {
+        throw new Error('Not JSON response');
+      }
       const data = await response.json();
       setSuggestions(data);
       onSearchResults(data);

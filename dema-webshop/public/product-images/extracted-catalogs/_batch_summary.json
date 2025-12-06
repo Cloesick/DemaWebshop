@@ -1,0 +1,238 @@
+{
+  "generated": "2025-11-30T20:06:05.256787",
+  "total_catalogs": 26,
+  "successful": 25,
+  "failed": 1,
+  "total_images": 6341,
+  "total_skus": 6672,
+  "catalogs": [
+    {
+      "catalog": "abs-persluchtbuizen",
+      "pdf_name": "abs-persluchtbuizen.pdf",
+      "pages": 15,
+      "images_saved": 22,
+      "total_size": 87862,
+      "unique_skus": 1,
+      "processing_time": 5.852864742279053
+    },
+    {
+      "catalog": "airpress-catalogus-eng",
+      "pdf_name": "airpress-catalogus-eng.pdf",
+      "pages": 136,
+      "images_saved": 1200,
+      "total_size": 6695790,
+      "unique_skus": 1279,
+      "processing_time": 87.57550501823425
+    },
+    {
+      "catalog": "airpress-catalogus-nl-fr",
+      "pdf_name": "airpress-catalogus-nl-fr.pdf",
+      "pages": 82,
+      "images_saved": 1074,
+      "total_size": 6518604,
+      "unique_skus": 1876,
+      "processing_time": 52.96742868423462
+    },
+    {
+      "catalog": "bronpompen",
+      "pdf_name": "bronpompen.pdf",
+      "pages": 30,
+      "images_saved": 18,
+      "total_size": 430316,
+      "unique_skus": 0,
+      "processing_time": 3.4517366886138916
+    },
+    {
+      "catalog": "catalogus-aandrijftechniek-150922",
+      "pdf_name": "catalogus-aandrijftechniek-150922.pdf",
+      "pages": 92,
+      "images_saved": 121,
+      "total_size": 1273254,
+      "unique_skus": 150,
+      "processing_time": 8.406305074691772
+    },
+    {
+      "catalog": "centrifugaalpompen",
+      "pdf_name": "centrifugaalpompen.pdf",
+      "pages": 30,
+      "images_saved": 39,
+      "total_size": 621196,
+      "unique_skus": 3,
+      "processing_time": 4.2253992557525635
+    },
+    {
+      "catalog": "digitale-versie-pompentoebehoren-compressed",
+      "pdf_name": "digitale-versie-pompentoebehoren-compressed.pdf",
+      "pages": 140,
+      "images_saved": 223,
+      "total_size": 2727906,
+      "unique_skus": 188,
+      "processing_time": 16.794511318206787
+    },
+    {
+      "catalog": "dompelpompen",
+      "pdf_name": "dompelpompen.pdf",
+      "pages": 40,
+      "images_saved": 79,
+      "total_size": 483318,
+      "unique_skus": 47,
+      "processing_time": 4.414353132247925
+    },
+    {
+      "catalog": "drukbuizen",
+      "pdf_name": "drukbuizen.pdf",
+      "pages": 64,
+      "images_saved": 125,
+      "total_size": 460616,
+      "unique_skus": 55,
+      "processing_time": 3.223111629486084
+    },
+    {
+      "catalog": "kranzle-catalogus-2021-nl-1",
+      "pdf_name": "kranzle-catalogus-2021-nl-1.pdf",
+      "pages": 51,
+      "images_saved": 785,
+      "total_size": 6380376,
+      "unique_skus": 487,
+      "processing_time": 30.204112768173218
+    },
+    {
+      "catalog": "kunststof-afvoerleidingen",
+      "pdf_name": "kunststof-afvoerleidingen.pdf",
+      "pages": 36,
+      "images_saved": 105,
+      "total_size": 267962,
+      "unique_skus": 40,
+      "processing_time": 2.372154712677002
+    },
+    {
+      "catalog": "makita-catalogus-2022-nl",
+      "pdf_name": "makita-catalogus-2022-nl.pdf",
+      "pages": 119,
+      "images_saved": 1454,
+      "total_size": 10549940,
+      "unique_skus": 1725,
+      "processing_time": 101.4677312374115
+    },
+    {
+      "catalog": "makita-tuinfolder-2022-nl",
+      "pdf_name": "makita-tuinfolder-2022-nl.pdf",
+      "pages": 64,
+      "images_saved": 332,
+      "total_size": 13040232,
+      "unique_skus": 556,
+      "processing_time": 47.309160232543945
+    },
+    {
+      "catalog": "messing-draadfittingen",
+      "pdf_name": "messing-draadfittingen.pdf",
+      "pages": 18,
+      "images_saved": 32,
+      "total_size": 327374,
+      "unique_skus": 25,
+      "processing_time": 3.1660988330841064
+    },
+    {
+      "catalog": "offerteaanvraag-bronpomp",
+      "pdf_name": "offerteaanvraag-bronpomp.pdf",
+      "pages": 7,
+      "images_saved": 8,
+      "total_size": 20688,
+      "unique_skus": 1,
+      "processing_time": 0.4315629005432129
+    },
+    {
+      "catalog": "pe-buizen",
+      "pdf_name": "pe-buizen.pdf",
+      "pages": 58,
+      "images_saved": 150,
+      "total_size": 685788,
+      "unique_skus": 12,
+      "processing_time": 6.82260799407959
+    },
+    {
+      "catalog": "plat-oprolbare-slangen",
+      "pdf_name": "plat-oprolbare-slangen.pdf",
+      "pages": 8,
+      "images_saved": 32,
+      "total_size": 68168,
+      "unique_skus": 13,
+      "processing_time": 1.0205960273742676
+    },
+    {
+      "catalog": "pomp-specials",
+      "pdf_name": "pomp-specials.pdf",
+      "pages": 18,
+      "images_saved": 45,
+      "total_size": 362186,
+      "unique_skus": 12,
+      "processing_time": 2.8600783348083496
+    },
+    {
+      "catalog": "rubber-slangen",
+      "pdf_name": "rubber-slangen.pdf",
+      "pages": 24,
+      "images_saved": 67,
+      "total_size": 74304,
+      "unique_skus": 31,
+      "processing_time": 2.9644312858581543
+    },
+    {
+      "catalog": "rvs-draadfittingen",
+      "pdf_name": "rvs-draadfittingen.pdf",
+      "pages": 24,
+      "images_saved": 37,
+      "total_size": 329336,
+      "unique_skus": 21,
+      "processing_time": 4.028200387954712
+    },
+    {
+      "catalog": "slangklemmen",
+      "pdf_name": "slangklemmen.pdf",
+      "pages": 8,
+      "images_saved": 15,
+      "total_size": 64224,
+      "unique_skus": 21,
+      "processing_time": 0.4671363830566406
+    },
+    {
+      "catalog": "slangkoppelingen",
+      "pdf_name": "slangkoppelingen.pdf",
+      "pages": 100,
+      "images_saved": 281,
+      "total_size": 1174532,
+      "unique_skus": 66,
+      "processing_time": 9.880055665969849
+    },
+    {
+      "catalog": "verzinkte-buizen",
+      "pdf_name": "verzinkte-buizen.pdf",
+      "pages": 28,
+      "images_saved": 54,
+      "total_size": 573206,
+      "unique_skus": 46,
+      "processing_time": 5.102904796600342
+    },
+    {
+      "catalog": "zuigerpompen (1)",
+      "pdf_name": "zuigerpompen (1).pdf",
+      "pages": 6,
+      "images_saved": 5,
+      "total_size": 126508,
+      "unique_skus": 0,
+      "processing_time": 1.0574216842651367
+    },
+    {
+      "catalog": "zwarte-draad-en-lasfittingen (1)",
+      "pdf_name": "zwarte-draad-en-lasfittingen (1).pdf",
+      "pages": 24,
+      "images_saved": 38,
+      "total_size": 429944,
+      "unique_skus": 17,
+      "processing_time": 3.506052255630493
+    }
+  ],
+  "errors": [
+    "pu-afzuigslangen.pdf"
+  ]
+}

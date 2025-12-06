@@ -1,0 +1,24 @@
+{
+  "catalog": "offerteaanvraag-bronpomp",
+  "generated": "2025-11-30T20:05:27.209089",
+  "total_skus": 1,
+  "total_images": 8,
+  "mapping": {
+    "8800": [
+      {
+        "filename": "8800_p003_i02.webp",
+        "page": 3,
+        "all_skus": [
+          "8800"
+        ]
+      },
+      {
+        "filename": "8800_p004_i08.webp",
+        "page": 4,
+        "all_skus": [
+          "8800"
+        ]
+      }
+    ]
+  }
+}

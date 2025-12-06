@@ -1,10 +1,31 @@
 import { NextResponse } from 'next/server';
-import catalogProductsData from '@/data/catalog_products.json';
-import catalogIndex from '@/data/catalog_index.json';
+import fs from 'fs';
+import path from 'path';
 
-const catalogProducts = catalogProductsData as any[];
+// Cache the data in memory
+let catalogProducts: any[] | null = null;
+let catalogIndex: any | null = null;
+
+function loadCatalogData() {
+  if (!catalogProducts) {
+    try {
+      const productsPath = path.join(process.cwd(), 'src', 'data', 'catalog_products.json');
+      const indexPath = path.join(process.cwd(), 'src', 'data', 'catalog_index.json');
+      
+      catalogProducts = JSON.parse(fs.readFileSync(productsPath, 'utf-8'));
+      catalogIndex = JSON.parse(fs.readFileSync(indexPath, 'utf-8'));
+    } catch (error) {
+      console.error('Error loading catalog data:', error);
+      catalogProducts = [];
+      catalogIndex = { catalogs: {} };
+    }
+  }
+  return { catalogProducts, catalogIndex };
+}
 
 export async function GET(request: Request) {
+  const { catalogProducts, catalogIndex } = loadCatalogData();
+  
   const { searchParams } = new URL(request.url);
   
   const page = parseInt(searchParams.get('page') || '1');
@@ -13,7 +34,7 @@ export async function GET(request: Request) {
   const catalog = searchParams.get('catalog') || '';
   
   // Filter products
-  let filtered = catalogProducts;
+  let filtered = catalogProducts || [];
   
   if (search) {
     filtered = filtered.filter((p: any) => 
@@ -40,6 +61,6 @@ export async function GET(request: Request) {
       total: filtered.length,
       totalPages: Math.ceil(filtered.length / limit)
     },
-    catalogs: catalogIndex.catalogs
+    catalogs: catalogIndex?.catalogs || {}
   });
 }

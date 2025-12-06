@@ -1,0 +1,325 @@
+{
+  "catalog": "pomp-specials",
+  "generated": "2025-11-30T20:05:37.919650",
+  "total_skus": 12,
+  "total_images": 45,
+  "mapping": {
+    "SX1000": [
+      {
+        "filename": "SX1000_p006_i02.webp",
+        "page": 6,
+        "all_skus": [
+          "SX1000"
+        ]
+      }
+    ],
+    "DN150": [
+      {
+        "filename": "DN100+DN125+DN150+DN200+DN250_p009_i02.webp",
+        "page": 9,
+        "all_skus": [
+          "DN100",
+          "DN125",
+          "DN150",
+          "DN200",
+          "DN250"
+        ]
+      },
+      {
+        "filename": "DN100+DN125+DN150+DN200+DN250+DN300+DN350+DN80_p009_i03.webp",
+        "page": 9,
+        "all_skus": [
+          "DN100",
+          "DN125",
+          "DN150",
+          "DN200",
+          "DN250",
+          "DN300",
+          "DN350",
+          "DN80"
+        ]
+      },
+      {
+        "filename": "DN100+DN125+DN150+DN20+DN250+DN30+DN350+DN80_p009_i04.webp",
+        "page": 9,
+        "all_skus": [
+          "DN100",
+          "DN125",
+          "DN150",
+          "DN20",
+          "DN250",
+          "DN30",
+          "DN350",
+          "DN80"
+        ]
+      }
+    ],
+    "DN125": [
+      {
+        "filename": "DN100+DN125+DN150+DN200+DN250_p009_i02.webp",
+        "page": 9,
+        "all_skus": [
+          "DN100",
+          "DN125",
+          "DN150",
+          "DN200",
+          "DN250"
+        ]
+      },
+      {
+        "filename": "DN100+DN125+DN150+DN200+DN250+DN300+DN350+DN80_p009_i03.webp",
+        "page": 9,
+        "all_skus": [
+          "DN100",
+          "DN125",
+          "DN150",
+          "DN200",
+          "DN250",
+          "DN300",
+          "DN350",
+          "DN80"
+        ]
+      },
+      {
+        "filename": "DN100+DN125+DN150+DN20+DN250+DN30+DN350+DN80_p009_i04.webp",
+        "page": 9,
+        "all_skus": [
+          "DN100",
+          "DN125",
+          "DN150",
+          "DN20",
+          "DN250",
+          "DN30",
+          "DN350",
+          "DN80"
+        ]
+      }
+    ],
+    "DN100": [
+      {
+        "filename": "DN100+DN125+DN150+DN200+DN250_p009_i02.webp",
+        "page": 9,
+        "all_skus": [
+          "DN100",
+          "DN125",
+          "DN150",
+          "DN200",
+          "DN250"
+        ]
+      },
+      {
+        "filename": "DN100+DN125+DN150+DN200+DN250+DN300+DN350+DN80_p009_i03.webp",
+        "page": 9,
+        "all_skus": [
+          "DN100",
+          "DN125",
+          "DN150",
+          "DN200",
+          "DN250",
+          "DN300",
+          "DN350",
+          "DN80"
+        ]
+      },
+      {
+        "filename": "DN100+DN125+DN150+DN20+DN250+DN30+DN350+DN80_p009_i04.webp",
+        "page": 9,
+        "all_skus": [
+          "DN100",
+          "DN125",
+          "DN150",
+          "DN20",
+          "DN250",
+          "DN30",
+          "DN350",
+          "DN80"
+        ]
+      }
+    ],
+    "DN200": [
+      {
+        "filename": "DN100+DN125+DN150+DN200+DN250_p009_i02.webp",
+        "page": 9,
+        "all_skus": [
+          "DN100",
+          "DN125",
+          "DN150",
+          "DN200",
+          "DN250"
+        ]
+      },
+      {
+        "filename": "DN100+DN125+DN150+DN200+DN250+DN300+DN350+DN80_p009_i03.webp",
+        "page": 9,
+        "all_skus": [
+          "DN100",
+          "DN125",
+          "DN150",
+          "DN200",
+          "DN250",
+          "DN300",
+          "DN350",
+          "DN80"
+        ]
+      }
+    ],
+    "DN250": [
+      {
+        "filename": "DN100+DN125+DN150+DN200+DN250_p009_i02.webp",
+        "page": 9,
+        "all_skus": [
+          "DN100",
+          "DN125",
+          "DN150",
+          "DN200",
+          "DN250"
+        ]
+      },
+      {
+        "filename": "DN100+DN125+DN150+DN200+DN250+DN300+DN350+DN80_p009_i03.webp",
+        "page": 9,
+        "all_skus": [
+          "DN100",
+          "DN125",
+          "DN150",
+          "DN200",
+          "DN250",
+          "DN300",
+          "DN350",
+          "DN80"
+        ]
+      },
+      {
+        "filename": "DN100+DN125+DN150+DN20+DN250+DN30+DN350+DN80_p009_i04.webp",
+        "page": 9,
+        "all_skus": [
+          "DN100",
+          "DN125",
+          "DN150",
+          "DN20",
+          "DN250",
+          "DN30",
+          "DN350",
+          "DN80"
+        ]
+      }
+    ],
+    "DN80": [
+      {
+        "filename": "DN100+DN125+DN150+DN200+DN250+DN300+DN350+DN80_p009_i03.webp",
+        "page": 9,
+        "all_skus": [
+          "DN100",
+          "DN125",
+          "DN150",
+          "DN200",
+          "DN250",
+          "DN300",
+          "DN350",
+          "DN80"
+        ]
+      },
+      {
+        "filename": "DN100+DN125+DN150+DN20+DN250+DN30+DN350+DN80_p009_i04.webp",
+        "page": 9,
+        "all_skus": [
+          "DN100",
+          "DN125",
+          "DN150",
+          "DN20",
+          "DN250",
+          "DN30",
+          "DN350",
+          "DN80"
+        ]
+      }
+    ],
+    "DN300": [
+      {
+        "filename": "DN100+DN125+DN150+DN200+DN250+DN300+DN350+DN80_p009_i03.webp",
+        "page": 9,
+        "all_skus": [
+          "DN100",
+          "DN125",
+          "DN150",
+          "DN200",
+          "DN250",
+          "DN300",
+          "DN350",
+          "DN80"
+        ]
+      }
+    ],
+    "DN350": [
+      {
+        "filename": "DN100+DN125+DN150+DN200+DN250+DN300+DN350+DN80_p009_i03.webp",
+        "page": 9,
+        "all_skus": [
+          "DN100",
+          "DN125",
+          "DN150",
+          "DN200",
+          "DN250",
+          "DN300",
+          "DN350",
+          "DN80"
+        ]
+      },
+      {
+        "filename": "DN100+DN125+DN150+DN20+DN250+DN30+DN350+DN80_p009_i04.webp",
+        "page": 9,
+        "all_skus": [
+          "DN100",
+          "DN125",
+          "DN150",
+          "DN20",
+          "DN250",
+          "DN30",
+          "DN350",
+          "DN80"
+        ]
+      }
+    ],
+    "DN20": [
+      {
+        "filename": "DN100+DN125+DN150+DN20+DN250+DN30+DN350+DN80_p009_i04.webp",
+        "page": 9,
+        "all_skus": [
+          "DN100",
+          "DN125",
+          "DN150",
+          "DN20",
+          "DN250",
+          "DN30",
+          "DN350",
+          "DN80"
+        ]
+      }
+    ],
+    "DN30": [
+      {
+        "filename": "DN100+DN125+DN150+DN20+DN250+DN30+DN350+DN80_p009_i04.webp",
+        "page": 9,
+        "all_skus": [
+          "DN100",
+          "DN125",
+          "DN150",
+          "DN20",
+          "DN250",
+          "DN30",
+          "DN350",
+          "DN80"
+        ]
+      }
+    ],
+    "12-24": [
+      {
+        "filename": "12-24_p012_i02.webp",
+        "page": 12,
+        "all_skus": [
+          "12-24"
+        ]
+      }
+    ]
+  }
+}

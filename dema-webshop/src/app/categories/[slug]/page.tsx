@@ -185,6 +185,10 @@ export default function CategoryPage() {
         setPdfError(null);
         const res = await fetch(`/api/pdf-catalog/${encodeURIComponent(slug)}`);
         if (!res.ok) throw new Error(`HTTP ${res.status}`);
+        const contentType = res.headers.get('content-type');
+        if (!contentType || !contentType.includes('application/json')) {
+          throw new Error('Not JSON response');
+        }
         const data = await res.json();
         if (!cancelled) setPdfs(Array.isArray(data?.pdfs) ? data.pdfs : []);
       } catch (e: any) {

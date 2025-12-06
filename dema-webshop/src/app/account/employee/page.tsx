@@ -43,6 +43,13 @@ export default function EmployeeVerificationPage() {
 
     try {
       const response = await fetch('/api/employee/verify');
+      if (!response.ok) {
+        throw new Error(`HTTP ${response.status}`);
+      }
+      const contentType = response.headers.get('content-type');
+      if (!contentType || !contentType.includes('application/json')) {
+        throw new Error('Not JSON response');
+      }
       const data = await response.json();
       setVerificationStatus(data);
     } catch (error) {
@@ -67,9 +74,23 @@ export default function EmployeeVerificationPage() {
         body: JSON.stringify({ employeeId }),
       });
 
+      if (!response.ok) {
+        const contentType = response.headers.get('content-type');
+        if (contentType && contentType.includes('application/json')) {
+          const data = await response.json();
+          throw new Error(data.message || 'Verification failed');
+        } else {
+          throw new Error('Verification failed');
+        }
+      }
+
+      const contentType = response.headers.get('content-type');
+      if (!contentType || !contentType.includes('application/json')) {
+        throw new Error('Not JSON response');
+      }
       const data = await response.json();
 
-      if (response.ok && data.success) {
+      if (data.success) {
         setMessage(data.message || 'Employee verified successfully!');
         setVerificationStatus({
           verified: true,

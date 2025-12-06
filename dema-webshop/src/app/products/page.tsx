@@ -1,111 +1,165 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import CatalogProductCard from '@/components/CatalogProductCard';
-import ProductCardEnhanced from '@/components/products/ProductCardEnhanced';
+import { useRouter } from 'next/navigation';
+import ProductGroupCard from '@/components/ProductGroupCard';
 import SimpleProductFilters from '@/components/products/SimpleProductFilters';
-import Link from 'next/link';
+import { Grid, List, Search } from 'lucide-react';
+
+// Map old catalog names to new grouped pages
+const GROUPED_CATALOG_MAP: Record<string, string> = {
+  'abs-persluchtbuizen': '/catalog/abs-grouped',
+  'slangkoppelingen': '/catalog/slangkoppelingen-grouped',
+  'slangklemmen': '/catalog/slangklemmen-grouped',
+  'pu-afzuigslangen': '/catalog/pu-afzuigslangen-grouped',
+  'rubber-slangen': '/catalog/rubber-slangen-grouped',
+  'drukbuizen': '/catalog/drukbuizen-grouped',
+  'pe-buizen': '/catalog/pe-buizen-grouped',
+  'verzinkte-buizen': '/catalog/verzinkte-buizen-grouped',
+  'kunststof-afvoerleidingen': '/catalog/kunststof-afvoerleidingen-grouped',
+  'messing-draadfittingen': '/catalog/messing-draadfittingen-grouped',
+  'rvs-draadfittingen': '/catalog/rvs-draadfittingen-grouped',
+  'zwarte-draad-en-lasfittingen': '/catalog/zwarte-draad-en-lasfittingen-grouped',
+  'pomp-specials': '/catalog/pomp-specials-grouped',
+  'centrifugaalpompen': '/catalog/centrifugaalpompen-grouped',
+  'dompelpompen': '/catalog/dompelpompen-grouped',
+  'bronpompen': '/catalog/bronpompen-grouped',
+  'pompentoebehoren': '/catalog/pompentoebehoren-grouped',
+  'aandrijftechniek': '/catalog/aandrijftechniek-grouped'
+};
 
 export default function ProductsPage() {
-  const [products, setProducts] = useState<any[]>([]);
-  const [rawProducts, setRawProducts] = useState<any[]>([]);
-  const [catalogs, setCatalogs] = useState({});
+  const router = useRouter();
+  const [productGroups, setProductGroups] = useState<any[]>([]);
+  const [filteredGroups, setFilteredGroups] = useState<any[]>([]);
   const [loading, setLoading] = useState(true);
-  const [search, setSearch] = useState('');
-  const [selectedCatalog, setSelectedCatalog] = useState('');
-  const [page, setPage] = useState(1);
-  const [pagination, setPagination] = useState({ total: 0, totalPages: 0 });
-  const [showFilters, setShowFilters] = useState(true);
+  const [searchQuery, setSearchQuery] = useState('');
+  const [viewMode, setViewMode] = useState<'grid' | 'list'>('grid');
   const [filters, setFilters] = useState<Record<string, string[]>>({});
+  const [selectedCatalog, setSelectedCatalog] = useState('');
 
+  // Redirect to grouped page if catalog has enhanced view
   useEffect(() => {
-    loadProducts();
-  }, [search, selectedCatalog]);
-
-  const loadProducts = async () => {
-    setLoading(true);
-    try {
-      const params = new URLSearchParams({
-        page: '1',
-        limit: '10000',
-        ...(search && { search }),
-        ...(selectedCatalog && { catalog: selectedCatalog })
-      });
-
-      const response = await fetch(`/api/catalog?${params}`);
-      const data = await response.json();
-      
-      setRawProducts(data.products || []);
-      if (data.catalogs) {
-        setCatalogs(data.catalogs);
-      }
-    } catch (error) {
-      console.error('Error loading products:', error);
-    } finally {
-      setLoading(false);
+    if (selectedCatalog && GROUPED_CATALOG_MAP[selectedCatalog]) {
+      router.push(GROUPED_CATALOG_MAP[selectedCatalog]);
     }
-  };
+  }, [selectedCatalog, router]);
 
-  // Apply filters client-side
+  // Load grouped products data
   useEffect(() => {
-    let filtered = [...rawProducts];
-
-    // Apply each filter type
-    Object.entries(filters).forEach(([filterType, filterValues]) => {
-      if (!filterValues || filterValues.length === 0) return;
-
-      filtered = filtered.filter(product => {
-        return filterValues.some(value => {
-          switch (filterType) {
-            case 'pdf_source':
-              return product.pdf_source === value;
-            case 'power_kw':
-              const power = product.power_kw || product.power_kw_derived;
-              if (!power || power <= 0) return false;
-              const productPower = Math.round(power * 10) / 10;
-              return String(productPower) === value;
-            case 'pressure_max_bar':
-              if (!product.pressure_max_bar || product.pressure_max_bar <= 0) return false;
-              const productPressure = Math.round(product.pressure_max_bar);
-              return String(productPressure) === value;
-            case 'voltage_v':
-              if (!product.voltage_v || product.voltage_v <= 0) return false;
-              const productVoltage = Math.round(product.voltage_v);
-              return String(productVoltage) === value;
-            case 'weight_kg':
-              if (!product.weight_kg || product.weight_kg <= 0) return false;
-              const productWeight = Math.round(product.weight_kg * 10) / 10;
-              return String(productWeight) === value;
-            case 'connection_types':
-              return (Array.isArray(product.connection_types) && product.connection_types.includes(value)) ||
-                     product.connection_type === value;
-            default:
-              return false;
-          }
-        });
+    fetch('/data/products_all_grouped.json')
+      .then(res => {
+        if (!res.ok) throw new Error(`HTTP ${res.status}`);
+        const contentType = res.headers.get('content-type');
+        if (!contentType || !contentType.includes('application/json')) {
+          throw new Error('Not JSON response');
+        }
+        return res.json();
+      })
+      .then(data => {
+        setProductGroups(data);
+        setFilteredGroups(data);
+        setLoading(false);
+      })
+      .catch(err => {
+        console.error('Error loading product groups:', err);
+        setLoading(false);
       });
-    });
+  }, []);
 
-    // Pagination
-    const start = (page - 1) * 24;
-    const end = start + 24;
-    const paginated = filtered.slice(start, end);
+  // Convert product groups to flat products for filtering
+  const flatProducts = productGroups.flatMap(group =>
+    group.variants.map((v: any) => ({
+      ...v.properties,
+      ...v.attributes,
+      sku: v.sku,
+      name: v.label || v.sku,
+      group_id: group.group_id,
+      group_name: group.name,
+      catalog: group.catalog,
+      brand: group.brand,
+      category: group.category,
+      pdf_source: group.catalog + '.pdf',
+      page_in_pdf: v.page_in_pdf
+    }))
+  );
 
-    setProducts(paginated);
-    setPagination({
-      total: filtered.length,
-      totalPages: Math.ceil(filtered.length / 24)
-    });
-  }, [rawProducts, filters, page]);
+  // Apply search and filters
+  useEffect(() => {
+    let filtered = productGroups;
+
+    // Search filter
+    if (searchQuery) {
+      const query = searchQuery.toLowerCase();
+      filtered = filtered.filter(group =>
+        group.name.toLowerCase().includes(query) ||
+        (group.family && group.family.toLowerCase().includes(query)) ||
+        group.variants.some((v: any) =>
+          v.sku.toLowerCase().includes(query) ||
+          v.label.toLowerCase().includes(query)
+        )
+      );
+    }
+
+    // Catalog filter
+    if (selectedCatalog) {
+      filtered = filtered.filter(group => group.catalog === selectedCatalog);
+    }
+
+    // Advanced filters
+    if (Object.keys(filters).length > 0) {
+      const matchingGroupIds = new Set(
+        flatProducts
+          .filter(product => {
+            return Object.entries(filters).every(([filterType, filterValues]) => {
+              if (!filterValues || filterValues.length === 0) return true;
+
+              return filterValues.some(value => {
+                switch (filterType) {
+                  case 'pdf_source':
+                    return product.pdf_source === value;
+                  case 'pressure_max_bar':
+                    const pressure = product.pressure_max_bar || product.pressure_bar;
+                    if (!pressure || pressure <= 0) return false;
+                    return String(Math.round(pressure)) === value;
+                  case 'weight_kg':
+                    const weight = product.weight_kg;
+                    if (!weight || weight <= 0) return false;
+                    return String(Math.round(weight * 10) / 10) === value;
+                  default:
+                    return false;
+                }
+              });
+            });
+          })
+          .map(p => p.group_id)
+      );
+
+      filtered = filtered.filter(group => matchingGroupIds.has(group.group_id));
+    }
+
+    setFilteredGroups(filtered);
+  }, [searchQuery, filters, productGroups, selectedCatalog]);
+
+  if (loading) {
+    return (
+      <div className="min-h-screen flex items-center justify-center">
+        <div className="animate-spin rounded-full h-12 w-12 border-4 border-[#00ADEF] border-t-transparent"></div>
+      </div>
+    );
+  }
+
+  const totalVariants = productGroups.reduce((sum, g) => sum + g.variant_count, 0);
+  const uniqueCatalogs = new Set(productGroups.map(g => g.catalog)).size;
 
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Header */}
-      <div className="text-white" style={{ background: 'linear-gradient(to right, #00ADEF, #0088CC)' }}>
+      <div className="bg-gradient-to-r from-[#00ADEF] to-blue-500 text-white">
         <div className="container mx-auto px-4 py-12">
-          <h1 className="text-4xl font-bold mb-4">📦 Product Catalog</h1>
+          <h1 className="text-4xl font-bold mb-4">📦 All Products - Grouped View</h1>
           <p className="text-xl opacity-90">
-            {pagination.total.toLocaleString()} products from 26 industrial catalogs
+            {productGroups.length} product groups with {totalVariants} variants from {uniqueCatalogs} catalogs
           </p>
         </div>
       </div>
@@ -115,255 +169,116 @@ export default function ProductsPage() {
         <div className="container mx-auto px-4 py-6">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             <div className="text-center">
-              <div className="text-3xl font-bold" style={{ color: '#00ADEF' }}>
-                {pagination.total.toLocaleString()}
-              </div>
-              <div className="text-gray-600">Total Products</div>
+              <div className="text-3xl font-bold text-[#00ADEF]">{filteredGroups.length}</div>
+              <div className="text-gray-600">Product Groups</div>
             </div>
             <div className="text-center">
-              <div className="text-3xl font-bold" style={{ color: '#00ADEF' }}>
-                {Object.keys(catalogs).length}
-              </div>
-              <div className="text-gray-600">Catalogs</div>
+              <div className="text-3xl font-bold text-[#00ADEF]">{totalVariants}</div>
+              <div className="text-gray-600">Total Variants</div>
             </div>
             <div className="text-center">
-              <div className="text-3xl font-bold" style={{ color: '#00ADEF' }}>9,495</div>
-              <div className="text-gray-600">Product Images</div>
+              <div className="text-3xl font-bold text-[#00ADEF]">
+                {(totalVariants / productGroups.length).toFixed(1)}
+              </div>
+              <div className="text-gray-600">Avg Variants/Group</div>
             </div>
           </div>
         </div>
       </div>
 
-      {/* Makita Featured Banner */}
-      <div className="bg-gradient-to-r from-teal-600 via-teal-500 to-teal-600 py-4">
-        <div className="container mx-auto px-4">
-          <div className="flex flex-col md:flex-row items-center justify-between gap-4">
-            <div className="flex items-center gap-4">
-              <div className="text-4xl">🔋</div>
-              <div>
-                <h2 className="text-white font-bold text-xl flex items-center gap-2">
-                  <span>Makita XGT Battery Products</span>
-                  <span className="bg-yellow-400 text-gray-900 px-2 py-0.5 rounded text-xs font-bold">NEW</span>
-                </h2>
-                <p className="text-teal-50 text-sm">19 professional 40V MAX batteries, chargers & accessories now available</p>
-              </div>
+      {/* Search & View Toggle */}
+      <div className="bg-white border-b sticky top-0 z-20 shadow-sm">
+        <div className="container mx-auto px-4 py-4">
+          <div className="flex gap-4 items-center">
+            <div className="flex-1 relative">
+              <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 h-5 w-5 text-gray-400" />
+              <input
+                type="text"
+                placeholder="🔍 Search product groups by name, SKU, or variant..."
+                value={searchQuery}
+                onChange={(e) => setSearchQuery(e.target.value)}
+                className="w-full pl-10 pr-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#00ADEF] focus:border-transparent"
+              />
             </div>
-            <div className="flex gap-3">
-              <a
-                href="/makita"
-                className="px-6 py-2 bg-white text-teal-600 font-semibold rounded-lg hover:bg-gray-100 transition shadow-lg"
-              >
-                Explore Makita →
-              </a>
+            <select
+              value={selectedCatalog}
+              onChange={(e) => setSelectedCatalog(e.target.value)}
+              className="px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#00ADEF] focus:border-transparent"
+            >
+              <option value="">All Catalogs</option>
+              {Array.from(new Set(productGroups.map(g => g.catalog))).sort().map(catalog => (
+                <option key={catalog} value={catalog}>
+                  {catalog.replace(/-/g, ' ').replace(/\b\w/g, (l: string) => l.toUpperCase())}
+                </option>
+              ))}
+            </select>
+            <div className="flex gap-2">
               <button
-                onClick={() => setSelectedCatalog('makita')}
-                className="px-6 py-2 bg-teal-700 text-white font-semibold rounded-lg hover:bg-teal-800 transition border-2 border-white/30"
+                onClick={() => setViewMode('grid')}
+                className={`p-3 rounded-lg border-2 transition ${
+                  viewMode === 'grid'
+                    ? 'bg-[#00ADEF] border-[#00ADEF] text-white'
+                    : 'border-gray-300 hover:border-[#00ADEF]'
+                }`}
               >
-                Filter Makita
+                <Grid className="h-5 w-5" />
+              </button>
+              <button
+                onClick={() => setViewMode('list')}
+                className={`p-3 rounded-lg border-2 transition ${
+                  viewMode === 'list'
+                    ? 'bg-[#00ADEF] border-[#00ADEF] text-white'
+                    : 'border-gray-300 hover:border-[#00ADEF]'
+                }`}
+              >
+                <List className="h-5 w-5" />
               </button>
             </div>
           </div>
         </div>
       </div>
 
-      {/* Search & Filter */}
-      <div className="bg-white border-b sticky top-0 z-10 shadow-sm">
-        <div className="container mx-auto px-4 py-4">
-          <div className="flex flex-col md:flex-row gap-4 items-center">
-            <div className="flex-1 w-full">
-              <input
-                type="text"
-                placeholder="🔍 Search products by SKU, name, or catalog..."
-                value={search}
-                onChange={(e) => {
-                  setSearch(e.target.value);
-                  setPage(1);
-                }}
-                className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:border-transparent"
-                style={{ '--tw-ring-color': '#00ADEF' } as any}
-                onFocus={(e) => e.currentTarget.style.boxShadow = '0 0 0 2px #00ADEF40'}
+      {/* Main Content */}
+      <div className="container mx-auto px-4 py-8">
+        <div className="flex flex-col lg:flex-row gap-8">
+          {/* Filters Sidebar */}
+          <aside className="lg:w-80 flex-shrink-0">
+            <div className="bg-white rounded-lg shadow-sm p-6 sticky top-32">
+              <h2 className="text-lg font-bold mb-4 text-gray-900">Filters</h2>
+              <SimpleProductFilters
+                products={flatProducts}
+                onFilterChange={setFilters}
+                onSearch={setSearchQuery}
               />
             </div>
-            <button
-              onClick={() => setShowFilters(!showFilters)}
-              className="px-4 py-3 border border-gray-300 rounded-lg hover:bg-gray-50 transition flex items-center gap-2"
-            >
-              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 4a1 1 0 011-1h16a1 1 0 011 1v2.586a1 1 0 01-.293.707l-6.414 6.414a1 1 0 00-.293.707V17l-4 4v-6.586a1 1 0 00-.293-.707L3.293 7.293A1 1 0 013 6.586V4z" />
-              </svg>
-              Filters ({Object.keys(filters).length})
-            </button>
-            <select
-              value={selectedCatalog}
-              onChange={(e) => {
-                setSelectedCatalog(e.target.value);
-                setPage(1);
-              }}
-              className="px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:border-transparent"
-              style={{ '--tw-ring-color': '#00ADEF' } as any}
-              onFocus={(e) => e.currentTarget.style.boxShadow = '0 0 0 2px #00ADEF40'}
-            >
-              <option value="">All Catalogs</option>
-              {Object.entries(catalogs).map(([pdf, data]: [string, any]) => (
-                <option key={pdf} value={pdf}>
-                  {data.name} ({data.product_count})
-                </option>
-              ))}
-            </select>
-          </div>
-        </div>
-      </div>
+          </aside>
 
-      {/* Main Content with Filters */}
-      <div className="container mx-auto px-4 py-8">
-        {/* Active Makita Filter Indicator */}
-        {selectedCatalog === 'makita' && (
-          <div className="mb-6 bg-gradient-to-r from-teal-50 to-teal-100 border-2 border-teal-500 rounded-lg p-4">
-            <div className="flex items-center justify-between">
-              <div className="flex items-center gap-3">
-                <div className="text-3xl">🔋</div>
-                <div>
-                  <h3 className="font-bold text-teal-900 text-lg">Viewing Makita XGT Products</h3>
-                  <p className="text-teal-700 text-sm">Showing {products.length} professional battery products</p>
-                </div>
-              </div>
-              <div className="flex gap-2">
-                <a
-                  href="/makita"
-                  className="px-4 py-2 bg-teal-600 text-white text-sm font-semibold rounded-lg hover:bg-teal-700 transition"
-                >
-                  Visit Makita Page
-                </a>
-                <button
-                  onClick={() => setSelectedCatalog('')}
-                  className="px-4 py-2 bg-gray-200 text-gray-700 text-sm font-semibold rounded-lg hover:bg-gray-300 transition"
-                >
-                  Clear Filter
-                </button>
-              </div>
-            </div>
-          </div>
-        )}
-        
-        <div className="flex flex-col lg:flex-row gap-8">
-          {/* Collapsible Sidebar with filters */}
-          {showFilters && (
-            <aside className="lg:w-80 flex-shrink-0">
-              <div className="bg-white rounded-lg shadow-sm p-6">
-                <SimpleProductFilters
-                  products={rawProducts}
-                  onFilterChange={(newFilters: Record<string, string[]>) => {
-                    setFilters(newFilters);
-                    setPage(1);
-                  }}
-                  onSearch={(searchTerm: string) => {
-                    setSearch(searchTerm);
-                    setPage(1);
-                  }}
-                />
-              </div>
-            </aside>
-          )}
-
-          {/* Main content area */}
-          <section className="flex-1 min-w-0">
-            {loading ? (
-              <div className="text-center py-20">
-                <div className="inline-block animate-spin rounded-full h-12 w-12 border-4 border-t-transparent" style={{ borderColor: '#00ADEF', borderTopColor: 'transparent' }}></div>
-                <p className="mt-4 text-gray-600">Loading products...</p>
-              </div>
-            ) : products.length === 0 ? (
+          {/* Product Groups Grid/List */}
+          <section className="flex-1">
+            {filteredGroups.length === 0 ? (
               <div className="text-center py-20">
                 <div className="text-6xl mb-4">🔍</div>
-                <h3 className="text-2xl font-bold text-gray-800 mb-2">No products found</h3>
+                <h3 className="text-2xl font-bold text-gray-800 mb-2">No product groups found</h3>
                 <p className="text-gray-600">Try adjusting your search or filters</p>
               </div>
             ) : (
-              <>
-                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-                  {products.map((product: any) => {
-                    // Use ProductCardEnhanced for Makita products with specs
-                    const isMakita = product.brand === 'Makita' || 
-                                     product.catalog?.toLowerCase().includes('makita') ||
-                                     product.pdf_source?.toLowerCase().includes('makita');
-                    const hasSpecs = product.specs && product.specs.length > 0;
-                    
-                    if (isMakita && hasSpecs) {
-                      return <ProductCardEnhanced key={product.id} product={product} layout="grid" />;
-                    }
-                    
-                    return <CatalogProductCard key={product.id} product={product} viewMode="grid" />;
-                  })}
-                </div>
-
-            {/* Pagination */}
-            {pagination.totalPages > 1 && (
-              <div className="mt-12 flex justify-center items-center gap-2">
-                <button
-                  onClick={() => setPage(p => Math.max(1, p - 1))}
-                  disabled={page === 1}
-                  className="px-4 py-2 border rounded-lg disabled:opacity-50 disabled:cursor-not-allowed hover:bg-gray-50"
-                >
-                  ← Previous
-                </button>
-                
-                <div className="flex gap-2">
-                  {Array.from({ length: Math.min(5, pagination.totalPages) }, (_, i) => {
-                    const pageNum = page <= 3 ? i + 1 : page - 2 + i;
-                    if (pageNum > pagination.totalPages) return null;
-                    
-                    return (
-                      <button
-                        key={pageNum}
-                        onClick={() => setPage(pageNum)}
-                        className={`px-4 py-2 border rounded-lg ${
-                          page === pageNum
-                            ? 'text-white'
-                            : 'hover:bg-gray-50'
-                        }`}
-                        style={page === pageNum ? { backgroundColor: '#00ADEF' } : {}}
-                      >
-                        {pageNum}
-                      </button>
-                    );
-                  })}
-                </div>
-
-                <button
-                  onClick={() => setPage(p => Math.min(pagination.totalPages, p + 1))}
-                  disabled={page === pagination.totalPages}
-                  className="px-4 py-2 border rounded-lg disabled:opacity-50 disabled:cursor-not-allowed hover:bg-gray-50"
-                >
-                  Next →
-                </button>
+              <div
+                className={
+                  viewMode === 'grid'
+                    ? 'grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6'
+                    : 'space-y-4'
+                }
+              >
+                {filteredGroups.map(group => (
+                  <ProductGroupCard
+                    key={group.group_id}
+                    productGroup={group}
+                    viewMode={viewMode}
+                  />
+                ))}
               </div>
             )}
-
-                {/* Results Info */}
-                <div className="mt-6 text-center text-gray-600">
-                  Showing {((page - 1) * 24) + 1} - {Math.min(page * 24, pagination.total)} of{' '}
-                  {pagination.total.toLocaleString()} products
-                </div>
-              </>
-            )}
           </section>
-        </div>
-      </div>
-
-      {/* Footer CTA */}
-      <div className="text-white mt-16" style={{ background: 'linear-gradient(to right, #00ADEF, #0088CC)' }}>
-        <div className="container mx-auto px-4 py-12 text-center">
-          <h2 className="text-3xl font-bold mb-4">Need Help Finding a Product?</h2>
-          <p className="text-xl opacity-90 mb-6">
-            Our team is here to assist you with product selection and technical specifications
-          </p>
-          <Link
-            href="/contact"
-            className="inline-block bg-white px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition"
-            style={{ color: '#00ADEF' }}
-          >
-            Contact Us
-          </Link>
         </div>
       </div>
     </div>

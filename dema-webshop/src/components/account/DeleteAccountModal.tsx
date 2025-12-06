@@ -34,11 +34,21 @@ export default function DeleteAccountModal({ isOpen, onClose }: DeleteAccountMod
         body: JSON.stringify({ email, phone }),
       });
 
-      const data = await response.json();
-
       if (!response.ok) {
-        throw new Error(data.error || 'Verification failed');
+        const contentType = response.headers.get('content-type');
+        if (contentType && contentType.includes('application/json')) {
+          const data = await response.json();
+          throw new Error(data.error || 'Verification failed');
+        } else {
+          throw new Error('Verification failed');
+        }
       }
+
+      const contentType = response.headers.get('content-type');
+      if (!contentType || !contentType.includes('application/json')) {
+        throw new Error('Not JSON response');
+      }
+      const data = await response.json();
 
       if (data.verified) {
         setStep('confirm');
@@ -79,11 +89,21 @@ export default function DeleteAccountModal({ isOpen, onClose }: DeleteAccountMod
         }),
       });
 
-      const data = await response.json();
-
       if (!response.ok) {
-        throw new Error(data.error || 'Account deletion failed');
+        const contentType = response.headers.get('content-type');
+        if (contentType && contentType.includes('application/json')) {
+          const data = await response.json();
+          throw new Error(data.error || 'Account deletion failed');
+        } else {
+          throw new Error('Account deletion failed');
+        }
       }
+
+      const contentType = response.headers.get('content-type');
+      if (!contentType || !contentType.includes('application/json')) {
+        throw new Error('Not JSON response');
+      }
+      const data = await response.json();
 
       // Sign out and redirect
       await signOut({ callbackUrl: '/?deleted=true' });

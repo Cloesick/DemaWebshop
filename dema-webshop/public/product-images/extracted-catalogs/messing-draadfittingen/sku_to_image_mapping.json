@@ -1,0 +1,346 @@
+{
+  "catalog": "messing-draadfittingen",
+  "generated": "2025-11-30T20:05:26.771402",
+  "total_skus": 25,
+  "total_images": 32,
+  "mapping": {
+    "NR 94": [
+      {
+        "filename": "NR 94_p004_i00.webp",
+        "page": 4,
+        "all_skus": [
+          "NR 94"
+        ]
+      }
+    ],
+    "NR 92": [
+      {
+        "filename": "NR 92_p004_i01.webp",
+        "page": 4,
+        "all_skus": [
+          "NR 92"
+        ]
+      },
+      {
+        "filename": "NR 90+NR 92_p004_i02.webp",
+        "page": 4,
+        "all_skus": [
+          "NR 90",
+          "NR 92"
+        ]
+      }
+    ],
+    "NR 90": [
+      {
+        "filename": "NR 90+NR 92_p004_i02.webp",
+        "page": 4,
+        "all_skus": [
+          "NR 90",
+          "NR 92"
+        ]
+      }
+    ],
+    "NR 96": [
+      {
+        "filename": "NR 96+NR 98_p005_i00.webp",
+        "page": 5,
+        "all_skus": [
+          "NR 96",
+          "NR 98"
+        ]
+      }
+    ],
+    "NR 98": [
+      {
+        "filename": "NR 96+NR 98_p005_i00.webp",
+        "page": 5,
+        "all_skus": [
+          "NR 96",
+          "NR 98"
+        ]
+      },
+      {
+        "filename": "NR 98_p005_i01.webp",
+        "page": 5,
+        "all_skus": [
+          "NR 98"
+        ]
+      }
+    ],
+    "NR 120": [
+      {
+        "filename": "NR 120_p006_i00.webp",
+        "page": 6,
+        "all_skus": [
+          "NR 120"
+        ]
+      },
+      {
+        "filename": "NR 110+NR 120_p006_i01.webp",
+        "page": 6,
+        "all_skus": [
+          "NR 110",
+          "NR 120"
+        ]
+      }
+    ],
+    "NR 110": [
+      {
+        "filename": "NR 110+NR 120_p006_i01.webp",
+        "page": 6,
+        "all_skus": [
+          "NR 110",
+          "NR 120"
+        ]
+      }
+    ],
+    "NR 130": [
+      {
+        "filename": "NR 130_p007_i00.webp",
+        "page": 7,
+        "all_skus": [
+          "NR 130"
+        ]
+      },
+      {
+        "filename": "NR 121+NR 130_p007_i01.webp",
+        "page": 7,
+        "all_skus": [
+          "NR 121",
+          "NR 130"
+        ]
+      }
+    ],
+    "NR 121": [
+      {
+        "filename": "NR 121+NR 130_p007_i01.webp",
+        "page": 7,
+        "all_skus": [
+          "NR 121",
+          "NR 130"
+        ]
+      }
+    ],
+    "NR 180": [
+      {
+        "filename": "NR 180_p008_i00.webp",
+        "page": 8,
+        "all_skus": [
+          "NR 180"
+        ]
+      },
+      {
+        "filename": "NR 180_p008_i01.webp",
+        "page": 8,
+        "all_skus": [
+          "NR 180"
+        ]
+      }
+    ],
+    "NR 240": [
+      {
+        "filename": "NR 240_p009_i00.webp",
+        "page": 9,
+        "all_skus": [
+          "NR 240"
+        ]
+      },
+      {
+        "filename": "NR 230+NR 240_p009_i01.webp",
+        "page": 9,
+        "all_skus": [
+          "NR 230",
+          "NR 240"
+        ]
+      }
+    ],
+    "NR 230": [
+      {
+        "filename": "NR 230+NR 240_p009_i01.webp",
+        "page": 9,
+        "all_skus": [
+          "NR 230",
+          "NR 240"
+        ]
+      }
+    ],
+    "NR 245": [
+      {
+        "filename": "NR 245_p010_i00.webp",
+        "page": 10,
+        "all_skus": [
+          "NR 245"
+        ]
+      },
+      {
+        "filename": "NR 241+NR 245_p010_i01.webp",
+        "page": 10,
+        "all_skus": [
+          "NR 241",
+          "NR 245"
+        ]
+      }
+    ],
+    "NR 241": [
+      {
+        "filename": "NR 241+NR 245_p010_i01.webp",
+        "page": 10,
+        "all_skus": [
+          "NR 241",
+          "NR 245"
+        ]
+      }
+    ],
+    "NR 270": [
+      {
+        "filename": "NR 270_p011_i00.webp",
+        "page": 11,
+        "all_skus": [
+          "NR 270"
+        ]
+      },
+      {
+        "filename": "NR 246+NR 270_p011_i01.webp",
+        "page": 11,
+        "all_skus": [
+          "NR 246",
+          "NR 270"
+        ]
+      }
+    ],
+    "NR 246": [
+      {
+        "filename": "NR 246+NR 270_p011_i01.webp",
+        "page": 11,
+        "all_skus": [
+          "NR 246",
+          "NR 270"
+        ]
+      }
+    ],
+    "NR 290": [
+      {
+        "filename": "NR 290_p012_i00.webp",
+        "page": 12,
+        "all_skus": [
+          "NR 290"
+        ]
+      },
+      {
+        "filename": "NR 280+NR 290_p012_i01.webp",
+        "page": 12,
+        "all_skus": [
+          "NR 280",
+          "NR 290"
+        ]
+      }
+    ],
+    "NR 280": [
+      {
+        "filename": "NR 280+NR 290_p012_i01.webp",
+        "page": 12,
+        "all_skus": [
+          "NR 280",
+          "NR 290"
+        ]
+      }
+    ],
+    "NR 310": [
+      {
+        "filename": "NR 310_p013_i00.webp",
+        "page": 13,
+        "all_skus": [
+          "NR 310"
+        ]
+      },
+      {
+        "filename": "NR 300+NR 310_p013_i01.webp",
+        "page": 13,
+        "all_skus": [
+          "NR 300",
+          "NR 310"
+        ]
+      }
+    ],
+    "NR 300": [
+      {
+        "filename": "NR 300+NR 310_p013_i01.webp",
+        "page": 13,
+        "all_skus": [
+          "NR 300",
+          "NR 310"
+        ]
+      }
+    ],
+    "NR 341": [
+      {
+        "filename": "NR 341_p014_i00.webp",
+        "page": 14,
+        "all_skus": [
+          "NR 341"
+        ]
+      },
+      {
+        "filename": "NR 340+NR 341_p014_i01.webp",
+        "page": 14,
+        "all_skus": [
+          "NR 340",
+          "NR 341"
+        ]
+      }
+    ],
+    "NR 340": [
+      {
+        "filename": "NR 340+NR 341_p014_i01.webp",
+        "page": 14,
+        "all_skus": [
+          "NR 340",
+          "NR 341"
+        ]
+      }
+    ],
+    "NR 531": [
+      {
+        "filename": "NR 531_p015_i00.webp",
+        "page": 15,
+        "all_skus": [
+          "NR 531"
+        ]
+      },
+      {
+        "filename": "NR 471+NR 531_p015_i01.webp",
+        "page": 15,
+        "all_skus": [
+          "NR 471",
+          "NR 531"
+        ]
+      }
+    ],
+    "NR 471": [
+      {
+        "filename": "NR 471+NR 531_p015_i01.webp",
+        "page": 15,
+        "all_skus": [
+          "NR 471",
+          "NR 531"
+        ]
+      }
+    ],
+    "NR 23": [
+      {
+        "filename": "NR 23_p016_i00.webp",
+        "page": 16,
+        "all_skus": [
+          "NR 23"
+        ]
+      },
+      {
+        "filename": "NR 23_p017_i01.webp",
+        "page": 17,
+        "all_skus": [
+          "NR 23"
+        ]
+      }
+    ]
+  }
+}

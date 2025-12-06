@@ -1,0 +1,3094 @@
+[
+  {
+    "group_id": "abs-persluchtbuizen-abs-bocht-90",
+    "name": "ABS BOCHT 90°",
+    "family": "abs-bocht-90",
+    "catalog": "abs-persluchtbuizen",
+    "brand": "Various",
+    "category": "LIJMMOF",
+    "variants": [
+      {
+        "sku": "ABSB02090",
+        "label": "ABS BOCHT 90°",
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "spec_product_variant": "LIJMMOF - GLAD",
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSB02590",
+        "label": "ABS BOCHT 90°",
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "spec_product_variant": "LIJMMOF - GLAD",
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSB03290",
+        "label": "ABS BOCHT 90°",
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "spec_product_variant": "LIJMMOF - GLAD",
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSB04090",
+        "label": "ABS BOCHT 90°",
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "spec_product_variant": "LIJMMOF - GLAD",
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSB05090",
+        "label": "ABS BOCHT 90°",
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "spec_product_variant": "LIJMMOF - GLAD",
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSB06390",
+        "label": "ABS BOCHT 90°",
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "spec_product_variant": "LIJMMOF - GLAD",
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSB07590",
+        "label": "ABS BOCHT 90°",
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "spec_product_variant": "LIJMMOF - GLAD",
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSB09090",
+        "label": "ABS BOCHT 90°",
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "spec_product_variant": "LIJMMOF - GLAD",
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSB11090",
+        "label": "ABS BOCHT 90°",
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "spec_product_variant": "LIJMMOF - GLAD",
+          "application": "LIJMMOF"
+        }
+      }
+    ],
+    "images": [
+      "images/abs-persluchtbuizen/abs-bocht-90__v1.webp",
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p5__abs-bocht-90__ABSB02090-ABSB02590-ABSB03290__v1.webp"
+    ],
+    "variant_count": 9,
+    "default_variant_sku": "ABSB02090",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/abs-persluchtbuizen/abs-bocht-90__v1.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "abs-persluchtbuizen-abs-bolkraan",
+    "name": "ABS BOLKRAAN",
+    "family": "abs-bolkraan",
+    "catalog": "abs-persluchtbuizen",
+    "brand": "Various",
+    "category": "LIJMMOF",
+    "variants": [
+      {
+        "sku": "ABSBK016",
+        "label": "ABS BOLKRAAN",
+        "page_in_pdf": 14,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSBK020",
+        "label": "ABS BOLKRAAN",
+        "page_in_pdf": 14,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSBK032",
+        "label": "ABS BOLKRAAN",
+        "page_in_pdf": 14,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSBK040",
+        "label": "ABS BOLKRAAN",
+        "page_in_pdf": 14,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSBK050",
+        "label": "ABS BOLKRAAN",
+        "page_in_pdf": 14,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSBK063",
+        "label": "ABS BOLKRAAN",
+        "page_in_pdf": 14,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSBK075",
+        "label": "ABS BOLKRAAN",
+        "page_in_pdf": 14,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSBK090",
+        "label": "ABS BOLKRAAN",
+        "page_in_pdf": 14,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSBK110",
+        "label": "ABS BOLKRAAN",
+        "page_in_pdf": 14,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      }
+    ],
+    "images": [
+      "images/abs-persluchtbuizen/abs-bolkraan__v1.webp",
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p14__abs-bolkraan__ABSBK016-ABSBK020-ABSBK032__v1.webp"
+    ],
+    "variant_count": 9,
+    "default_variant_sku": "ABSBK016",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/abs-persluchtbuizen/abs-bolkraan__v1.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "abs-persluchtbuizen-abs-drukbuis-pn10",
+    "name": "ABS DRUKBUIS PN10",
+    "family": "abs-drukbuis-pn10",
+    "catalog": "abs-persluchtbuizen",
+    "brand": "Various",
+    "category": "LIJMMOF - GLAD",
+    "variants": [
+      {
+        "sku": "ABSBU016",
+        "label": "ABS DRUKBUIS PN10",
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "lengte": "5 m"
+        },
+        "attributes": {
+          "spec_product_variant": "LIJMMOF - GLAD",
+          "application": "LIJMMOF - GLAD"
+        }
+      },
+      {
+        "sku": "ABSBU020",
+        "label": "ABS DRUKBUIS PN10",
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "lengte": "5 m"
+        },
+        "attributes": {
+          "spec_product_variant": "LIJMMOF - GLAD",
+          "application": "LIJMMOF - GLAD"
+        }
+      },
+      {
+        "sku": "ABSBU025",
+        "label": "ABS DRUKBUIS PN10",
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "lengte": "5 m"
+        },
+        "attributes": {
+          "spec_product_variant": "LIJMMOF - GLAD",
+          "application": "LIJMMOF - GLAD"
+        }
+      },
+      {
+        "sku": "ABSBU032",
+        "label": "ABS DRUKBUIS PN10",
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "lengte": "5 m"
+        },
+        "attributes": {
+          "spec_product_variant": "LIJMMOF - GLAD",
+          "application": "LIJMMOF - GLAD"
+        }
+      },
+      {
+        "sku": "ABSBU040",
+        "label": "ABS DRUKBUIS PN10",
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "lengte": "5 m"
+        },
+        "attributes": {
+          "spec_product_variant": "LIJMMOF - GLAD",
+          "application": "LIJMMOF - GLAD"
+        }
+      },
+      {
+        "sku": "ABSBU050",
+        "label": "ABS DRUKBUIS PN10",
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "lengte": "5 m"
+        },
+        "attributes": {
+          "spec_product_variant": "LIJMMOF - GLAD",
+          "application": "LIJMMOF - GLAD"
+        }
+      },
+      {
+        "sku": "ABSBU063",
+        "label": "ABS DRUKBUIS PN10",
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "lengte": "5 m"
+        },
+        "attributes": {
+          "spec_product_variant": "LIJMMOF - GLAD",
+          "application": "LIJMMOF - GLAD"
+        }
+      },
+      {
+        "sku": "ABSBU075",
+        "label": "ABS DRUKBUIS PN10",
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "lengte": "5 m"
+        },
+        "attributes": {
+          "spec_product_variant": "LIJMMOF - GLAD",
+          "application": "LIJMMOF - GLAD"
+        }
+      },
+      {
+        "sku": "ABSBU090",
+        "label": "ABS DRUKBUIS PN10",
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "lengte": "5 m"
+        },
+        "attributes": {
+          "spec_product_variant": "LIJMMOF - GLAD",
+          "application": "LIJMMOF - GLAD"
+        }
+      },
+      {
+        "sku": "ABSBU110",
+        "label": "ABS DRUKBUIS PN10",
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "lengte": "5 m"
+        },
+        "attributes": {
+          "spec_product_variant": "LIJMMOF - GLAD",
+          "application": "LIJMMOF - GLAD"
+        }
+      },
+      {
+        "sku": "ABSBU125",
+        "label": "ABS DRUKBUIS PN10",
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "lengte": "5 m"
+        },
+        "attributes": {
+          "spec_product_variant": "LIJMMOF - GLAD",
+          "application": "LIJMMOF - GLAD"
+        }
+      },
+      {
+        "sku": "ABSBU140",
+        "label": "ABS DRUKBUIS PN10",
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "lengte": "5 m"
+        },
+        "attributes": {
+          "spec_product_variant": "LIJMMOF - GLAD",
+          "application": "LIJMMOF - GLAD"
+        }
+      },
+      {
+        "sku": "ABSBU160",
+        "label": "ABS DRUKBUIS PN10",
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "lengte": "5 m"
+        },
+        "attributes": {
+          "spec_product_variant": "LIJMMOF - GLAD",
+          "application": "LIJMMOF - GLAD"
+        }
+      },
+      {
+        "sku": "ABSBU200",
+        "label": "ABS DRUKBUIS PN10",
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "lengte": "5 m"
+        },
+        "attributes": {
+          "spec_product_variant": "LIJMMOF - GLAD",
+          "application": "LIJMMOF - GLAD"
+        }
+      },
+      {
+        "sku": "ABSBU225",
+        "label": "ABS DRUKBUIS PN10",
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "lengte": "5 m"
+        },
+        "attributes": {
+          "spec_product_variant": "LIJMMOF - GLAD",
+          "application": "LIJMMOF - GLAD"
+        }
+      },
+      {
+        "sku": "ABSBU250",
+        "label": "ABS DRUKBUIS PN10",
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "compressed_air_pipe",
+          "lengte": "5 m"
+        },
+        "attributes": {
+          "spec_product_variant": "LIJMMOF - GLAD",
+          "application": "LIJMMOF - GLAD"
+        }
+      }
+    ],
+    "images": [
+      "images/abs-persluchtbuizen/abs-bocht-90__v1.webp",
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p5__abs-bocht-90__ABSB02090-ABSB02590-ABSB03290__v1.webp"
+    ],
+    "variant_count": 16,
+    "default_variant_sku": "ABSBU016",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/abs-persluchtbuizen/abs-bocht-90__v1.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "abs-persluchtbuizen-abs-inljmring",
+    "name": "ABS INLJMRING",
+    "family": "abs-inljmring",
+    "catalog": "abs-persluchtbuizen",
+    "brand": "Various",
+    "category": "LIJMSPIE",
+    "variants": [
+      {
+        "sku": "ABSI020016",
+        "label": "ABS INLJMRING",
+        "page_in_pdf": 11,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMSPIE"
+        }
+      },
+      {
+        "sku": "ABSI025020",
+        "label": "ABS INLJMRING",
+        "page_in_pdf": 11,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMSPIE"
+        }
+      },
+      {
+        "sku": "ABSI032016",
+        "label": "ABS INLJMRING",
+        "page_in_pdf": 11,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMSPIE"
+        }
+      },
+      {
+        "sku": "ABSI032025",
+        "label": "ABS INLJMRING",
+        "page_in_pdf": 11,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMSPIE"
+        }
+      },
+      {
+        "sku": "ABSI040032",
+        "label": "ABS INLJMRING",
+        "page_in_pdf": 11,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMSPIE"
+        }
+      },
+      {
+        "sku": "ABSI050020",
+        "label": "ABS INLJMRING",
+        "page_in_pdf": 11,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMSPIE"
+        }
+      },
+      {
+        "sku": "ABSI050025",
+        "label": "ABS INLJMRING",
+        "page_in_pdf": 11,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMSPIE"
+        }
+      },
+      {
+        "sku": "ABSI050032",
+        "label": "ABS INLJMRING",
+        "page_in_pdf": 11,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMSPIE"
+        }
+      },
+      {
+        "sku": "ABSI050040",
+        "label": "ABS INLJMRING",
+        "page_in_pdf": 11,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMSPIE"
+        }
+      },
+      {
+        "sku": "ABSI063025",
+        "label": "ABS INLJMRING",
+        "page_in_pdf": 11,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMSPIE"
+        }
+      },
+      {
+        "sku": "ABSI063032",
+        "label": "ABS INLJMRING",
+        "page_in_pdf": 11,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMSPIE"
+        }
+      },
+      {
+        "sku": "ABSI063050",
+        "label": "ABS INLJMRING",
+        "page_in_pdf": 11,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMSPIE"
+        }
+      },
+      {
+        "sku": "ABSI075063",
+        "label": "ABS INLJMRING",
+        "page_in_pdf": 11,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMSPIE"
+        }
+      },
+      {
+        "sku": "ABSI090050",
+        "label": "ABS INLJMRING",
+        "page_in_pdf": 11,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMSPIE"
+        }
+      },
+      {
+        "sku": "ABSI090063",
+        "label": "ABS INLJMRING",
+        "page_in_pdf": 11,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMSPIE"
+        }
+      },
+      {
+        "sku": "ABSI090075",
+        "label": "ABS INLJMRING",
+        "page_in_pdf": 11,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMSPIE"
+        }
+      },
+      {
+        "sku": "ABSI110063",
+        "label": "ABS INLJMRING",
+        "page_in_pdf": 11,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMSPIE"
+        }
+      },
+      {
+        "sku": "ABSI110090",
+        "label": "ABS INLJMRING",
+        "page_in_pdf": 11,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMSPIE"
+        }
+      },
+      {
+        "sku": "ABSI125110",
+        "label": "ABS INLJMRING",
+        "page_in_pdf": 11,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMSPIE"
+        }
+      },
+      {
+        "sku": "ABSI140125",
+        "label": "ABS INLJMRING",
+        "page_in_pdf": 11,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMSPIE"
+        }
+      },
+      {
+        "sku": "ABSI160090",
+        "label": "ABS INLJMRING",
+        "page_in_pdf": 11,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMSPIE"
+        }
+      },
+      {
+        "sku": "ABSI160110",
+        "label": "ABS INLJMRING",
+        "page_in_pdf": 11,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMSPIE"
+        }
+      },
+      {
+        "sku": "ABSI160140",
+        "label": "ABS INLJMRING",
+        "page_in_pdf": 11,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMSPIE"
+        }
+      },
+      {
+        "sku": "ABSI200160",
+        "label": "ABS INLJMRING",
+        "page_in_pdf": 11,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMSPIE"
+        }
+      },
+      {
+        "sku": "ABSI225160",
+        "label": "ABS INLJMRING",
+        "page_in_pdf": 11,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMSPIE"
+        }
+      },
+      {
+        "sku": "ABSI225200",
+        "label": "ABS INLJMRING",
+        "page_in_pdf": 11,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMSPIE"
+        }
+      }
+    ],
+    "images": [
+      "images/abs-persluchtbuizen/abs-inljmring__v1.webp",
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p11__abs-inljmring__ABSI020016-ABSI025020-ABSI032016__v1.webp"
+    ],
+    "variant_count": 26,
+    "default_variant_sku": "ABSI020016",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/abs-persluchtbuizen/abs-inljmring__v1.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "abs-persluchtbuizen-abs-inzet-draadsok",
+    "name": "ABS INZET DRAADSOK",
+    "family": "abs-inzet-draadsok",
+    "catalog": "abs-persluchtbuizen",
+    "brand": "Various",
+    "category": "LIJMSPIE - BINNENDRAAD",
+    "variants": [
+      {
+        "sku": "ABSID01612",
+        "label": "ABS INZET DRAADSOK",
+        "page_in_pdf": 9,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMSPIE - BINNENDRAAD"
+        }
+      },
+      {
+        "sku": "ABSID02016",
+        "label": "ABS INZET DRAADSOK",
+        "page_in_pdf": 9,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMSPIE - BINNENDRAAD"
+        }
+      },
+      {
+        "sku": "ABSID02520",
+        "label": "ABS INZET DRAADSOK",
+        "page_in_pdf": 9,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMSPIE - BINNENDRAAD"
+        }
+      },
+      {
+        "sku": "ABSID03225",
+        "label": "ABS INZET DRAADSOK",
+        "page_in_pdf": 9,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMSPIE - BINNENDRAAD"
+        }
+      },
+      {
+        "sku": "ABSID04032",
+        "label": "ABS INZET DRAADSOK",
+        "page_in_pdf": 9,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMSPIE - BINNENDRAAD"
+        }
+      },
+      {
+        "sku": "ABSID05040",
+        "label": "ABS INZET DRAADSOK",
+        "page_in_pdf": 9,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMSPIE - BINNENDRAAD"
+        }
+      },
+      {
+        "sku": "ABSID06350",
+        "label": "ABS INZET DRAADSOK",
+        "page_in_pdf": 9,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMSPIE - BINNENDRAAD"
+        }
+      }
+    ],
+    "images": [
+      "images/abs-persluchtbuizen/abs-inzet-draadsok__v1.webp",
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p9__abs-inzet-draadsok__ABSID01612-ABSID02016-ABSID02520__v1.webp"
+    ],
+    "variant_count": 7,
+    "default_variant_sku": "ABSID01612",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/abs-persluchtbuizen/abs-inzet-draadsok__v1.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "abs-persluchtbuizen-abs-knie-45",
+    "name": "ABS KNIE 45°",
+    "family": "abs-knie-45",
+    "catalog": "abs-persluchtbuizen",
+    "brand": "Various",
+    "category": "LIJMMOF",
+    "variants": [
+      {
+        "sku": "ABSK01645",
+        "label": "ABS KNIE 45°",
+        "page_in_pdf": 6,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSK02045",
+        "label": "ABS KNIE 45°",
+        "page_in_pdf": 6,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSK02545",
+        "label": "ABS KNIE 45°",
+        "page_in_pdf": 6,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSK03245",
+        "label": "ABS KNIE 45°",
+        "page_in_pdf": 6,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSK04045",
+        "label": "ABS KNIE 45°",
+        "page_in_pdf": 6,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSK05045",
+        "label": "ABS KNIE 45°",
+        "page_in_pdf": 6,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSK06345",
+        "label": "ABS KNIE 45°",
+        "page_in_pdf": 6,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSK07545",
+        "label": "ABS KNIE 45°",
+        "page_in_pdf": 6,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSK09045",
+        "label": "ABS KNIE 45°",
+        "page_in_pdf": 6,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSK11045",
+        "label": "ABS KNIE 45°",
+        "page_in_pdf": 6,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSK12545",
+        "label": "ABS KNIE 45°",
+        "page_in_pdf": 6,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSK14045",
+        "label": "ABS KNIE 45°",
+        "page_in_pdf": 6,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSK16045",
+        "label": "ABS KNIE 45°",
+        "page_in_pdf": 6,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSK20045",
+        "label": "ABS KNIE 45°",
+        "page_in_pdf": 6,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSK22545",
+        "label": "ABS KNIE 45°",
+        "page_in_pdf": 6,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSK25045",
+        "label": "ABS KNIE 45°",
+        "page_in_pdf": 6,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      }
+    ],
+    "images": [
+      "images/abs-persluchtbuizen/abs-knie-45__v1.webp",
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p6__abs-knie-45__ABSK01645-ABSK02045-ABSK02545__v1.webp"
+    ],
+    "variant_count": 16,
+    "default_variant_sku": "ABSK01645",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/abs-persluchtbuizen/abs-knie-45__v1.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "abs-persluchtbuizen-abs-knie-90",
+    "name": "ABS KNIE 90°",
+    "family": "abs-knie-90",
+    "catalog": "abs-persluchtbuizen",
+    "brand": "Various",
+    "category": "LIJMMOF",
+    "variants": [
+      {
+        "sku": "ABSK01690",
+        "label": "ABS KNIE 90°",
+        "page_in_pdf": 6,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSK02090",
+        "label": "ABS KNIE 90°",
+        "page_in_pdf": 6,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSK02590",
+        "label": "ABS KNIE 90°",
+        "page_in_pdf": 6,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSK03290",
+        "label": "ABS KNIE 90°",
+        "page_in_pdf": 6,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSK04090",
+        "label": "ABS KNIE 90°",
+        "page_in_pdf": 6,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSK05090",
+        "label": "ABS KNIE 90°",
+        "page_in_pdf": 6,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSK06390",
+        "label": "ABS KNIE 90°",
+        "page_in_pdf": 6,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSK07590",
+        "label": "ABS KNIE 90°",
+        "page_in_pdf": 6,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSK09090",
+        "label": "ABS KNIE 90°",
+        "page_in_pdf": 6,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSK11090",
+        "label": "ABS KNIE 90°",
+        "page_in_pdf": 6,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSK12590",
+        "label": "ABS KNIE 90°",
+        "page_in_pdf": 6,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSK14090",
+        "label": "ABS KNIE 90°",
+        "page_in_pdf": 6,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSK16090",
+        "label": "ABS KNIE 90°",
+        "page_in_pdf": 6,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSK20090",
+        "label": "ABS KNIE 90°",
+        "page_in_pdf": 6,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSK22590",
+        "label": "ABS KNIE 90°",
+        "page_in_pdf": 6,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSK25090",
+        "label": "ABS KNIE 90°",
+        "page_in_pdf": 6,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      }
+    ],
+    "images": [
+      "images/abs-persluchtbuizen/abs-knie-45__v1.webp",
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p6__abs-knie-45__ABSK01645-ABSK02045-ABSK02545__v1.webp"
+    ],
+    "variant_count": 16,
+    "default_variant_sku": "ABSK01690",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/abs-persluchtbuizen/abs-knie-45__v1.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "abs-persluchtbuizen-abs-kraagbus",
+    "name": "ABS KRAAGBUS",
+    "family": "abs-kraagbus",
+    "catalog": "abs-persluchtbuizen",
+    "brand": "Various",
+    "category": "LIJMMOF",
+    "variants": [
+      {
+        "sku": "ABSKR020",
+        "label": "ABS KRAAGBUS",
+        "page_in_pdf": 13,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSKR025",
+        "label": "ABS KRAAGBUS",
+        "page_in_pdf": 13,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSKR032",
+        "label": "ABS KRAAGBUS",
+        "page_in_pdf": 13,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSKR040",
+        "label": "ABS KRAAGBUS",
+        "page_in_pdf": 13,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSKR050",
+        "label": "ABS KRAAGBUS",
+        "page_in_pdf": 13,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSKR063",
+        "label": "ABS KRAAGBUS",
+        "page_in_pdf": 13,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSKR075",
+        "label": "ABS KRAAGBUS",
+        "page_in_pdf": 13,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSKR090",
+        "label": "ABS KRAAGBUS",
+        "page_in_pdf": 13,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSKR110",
+        "label": "ABS KRAAGBUS",
+        "page_in_pdf": 13,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSKR125",
+        "label": "ABS KRAAGBUS",
+        "page_in_pdf": 13,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSKR140",
+        "label": "ABS KRAAGBUS",
+        "page_in_pdf": 13,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSKR160",
+        "label": "ABS KRAAGBUS",
+        "page_in_pdf": 13,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSKR200",
+        "label": "ABS KRAAGBUS",
+        "page_in_pdf": 13,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSKR225",
+        "label": "ABS KRAAGBUS",
+        "page_in_pdf": 13,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSKR250",
+        "label": "ABS KRAAGBUS",
+        "page_in_pdf": 13,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      }
+    ],
+    "images": [
+      "images/abs-persluchtbuizen/abs-kraagbus__v1.webp",
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p13__abs-kraagbus__ABSKR020-ABSKR025-ABSKR032__v1.webp"
+    ],
+    "variant_count": 15,
+    "default_variant_sku": "ABSKR020",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/abs-persluchtbuizen/abs-kraagbus__v1.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "abs-persluchtbuizen-abs-lijmkap",
+    "name": "ABS LIJMKAP",
+    "family": "abs-lijmkap",
+    "catalog": "abs-persluchtbuizen",
+    "brand": "Various",
+    "category": "LIJMMOF",
+    "variants": [
+      {
+        "sku": "ABSLK016",
+        "label": "ABS LIJMKAP",
+        "page_in_pdf": 10,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "spec_product_variant": "LIJMMOF - BUITENDRAAD",
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSLK020",
+        "label": "ABS LIJMKAP",
+        "page_in_pdf": 10,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "spec_product_variant": "LIJMMOF - BUITENDRAAD",
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSLK025",
+        "label": "ABS LIJMKAP",
+        "page_in_pdf": 10,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "spec_product_variant": "LIJMMOF - BUITENDRAAD",
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSLK032",
+        "label": "ABS LIJMKAP",
+        "page_in_pdf": 10,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "spec_product_variant": "LIJMMOF - BUITENDRAAD",
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSLK040",
+        "label": "ABS LIJMKAP",
+        "page_in_pdf": 10,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "spec_product_variant": "LIJMMOF - BUITENDRAAD",
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSLK050",
+        "label": "ABS LIJMKAP",
+        "page_in_pdf": 10,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "spec_product_variant": "LIJMMOF - BUITENDRAAD",
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSLK063",
+        "label": "ABS LIJMKAP",
+        "page_in_pdf": 10,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "spec_product_variant": "LIJMMOF - BUITENDRAAD",
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSLK075",
+        "label": "ABS LIJMKAP",
+        "page_in_pdf": 10,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "spec_product_variant": "LIJMMOF - BUITENDRAAD",
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSLK090",
+        "label": "ABS LIJMKAP",
+        "page_in_pdf": 10,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "spec_product_variant": "LIJMMOF - BUITENDRAAD",
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSLK110",
+        "label": "ABS LIJMKAP",
+        "page_in_pdf": 10,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "spec_product_variant": "LIJMMOF - BUITENDRAAD",
+          "application": "LIJMMOF"
+        }
+      }
+    ],
+    "images": [
+      "images/abs-persluchtbuizen/abs-lijmkap__v1.webp",
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p10__abs-lijmkap__ABSLK016-ABSLK020-ABSLK025__v1.webp"
+    ],
+    "variant_count": 10,
+    "default_variant_sku": "ABSLK016",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/abs-persluchtbuizen/abs-lijmkap__v1.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "abs-persluchtbuizen-abs-mof",
+    "name": "ABS MOF",
+    "family": "abs-mof",
+    "catalog": "abs-persluchtbuizen",
+    "brand": "Various",
+    "category": "LIJMMOF",
+    "variants": [
+      {
+        "sku": "ABSM016",
+        "label": "ABS MOF",
+        "page_in_pdf": 8,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSM020",
+        "label": "ABS MOF",
+        "page_in_pdf": 8,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSM025",
+        "label": "ABS MOF",
+        "page_in_pdf": 8,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSM032",
+        "label": "ABS MOF",
+        "page_in_pdf": 8,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSM040",
+        "label": "ABS MOF",
+        "page_in_pdf": 8,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSM050",
+        "label": "ABS MOF",
+        "page_in_pdf": 8,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSM063",
+        "label": "ABS MOF",
+        "page_in_pdf": 8,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSM075",
+        "label": "ABS MOF",
+        "page_in_pdf": 8,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSM090",
+        "label": "ABS MOF",
+        "page_in_pdf": 8,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSM110",
+        "label": "ABS MOF",
+        "page_in_pdf": 8,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSM125",
+        "label": "ABS MOF",
+        "page_in_pdf": 8,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSM140",
+        "label": "ABS MOF",
+        "page_in_pdf": 8,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSM160",
+        "label": "ABS MOF",
+        "page_in_pdf": 8,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSM200",
+        "label": "ABS MOF",
+        "page_in_pdf": 8,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSM225",
+        "label": "ABS MOF",
+        "page_in_pdf": 8,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSM250",
+        "label": "ABS MOF",
+        "page_in_pdf": 8,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      }
+    ],
+    "images": [
+      "images/abs-persluchtbuizen/abs-mof__v1.webp",
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p8__abs-mof__ABSM016-ABSM020-ABSM025__v1.webp"
+    ],
+    "variant_count": 16,
+    "default_variant_sku": "ABSM016",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/abs-persluchtbuizen/abs-mof__v1.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "abs-persluchtbuizen-abs-puntstuk",
+    "name": "ABS PUNTSTUK",
+    "family": "abs-puntstuk",
+    "catalog": "abs-persluchtbuizen",
+    "brand": "Various",
+    "category": "LIJMMOF - BUITENDRAAD",
+    "variants": [
+      {
+        "sku": "ABSP020161",
+        "label": "ABS PUNTSTUK",
+        "page_in_pdf": 10,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "spec_product_variant": "LIJMMOF - BUITENDRAAD",
+          "application": "LIJMMOF - BUITENDRAAD"
+        }
+      },
+      {
+        "sku": "ABSP020163",
+        "label": "ABS PUNTSTUK",
+        "page_in_pdf": 10,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "spec_product_variant": "LIJMMOF - BUITENDRAAD",
+          "application": "LIJMMOF - BUITENDRAAD"
+        }
+      },
+      {
+        "sku": "ABSP025201",
+        "label": "ABS PUNTSTUK",
+        "page_in_pdf": 10,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "spec_product_variant": "LIJMMOF - BUITENDRAAD",
+          "application": "LIJMMOF - BUITENDRAAD"
+        }
+      },
+      {
+        "sku": "ABSP025203",
+        "label": "ABS PUNTSTUK",
+        "page_in_pdf": 10,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "spec_product_variant": "LIJMMOF - BUITENDRAAD",
+          "application": "LIJMMOF - BUITENDRAAD"
+        }
+      },
+      {
+        "sku": "ABSP032251",
+        "label": "ABS PUNTSTUK",
+        "page_in_pdf": 10,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "spec_product_variant": "LIJMMOF - BUITENDRAAD",
+          "application": "LIJMMOF - BUITENDRAAD"
+        }
+      },
+      {
+        "sku": "ABSP032253",
+        "label": "ABS PUNTSTUK",
+        "page_in_pdf": 10,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "spec_product_variant": "LIJMMOF - BUITENDRAAD",
+          "application": "LIJMMOF - BUITENDRAAD"
+        }
+      },
+      {
+        "sku": "ABSP040321",
+        "label": "ABS PUNTSTUK",
+        "page_in_pdf": 10,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "spec_product_variant": "LIJMMOF - BUITENDRAAD",
+          "application": "LIJMMOF - BUITENDRAAD"
+        }
+      },
+      {
+        "sku": "ABSP040325",
+        "label": "ABS PUNTSTUK",
+        "page_in_pdf": 10,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "spec_product_variant": "LIJMMOF - BUITENDRAAD",
+          "application": "LIJMMOF - BUITENDRAAD"
+        }
+      },
+      {
+        "sku": "ABSP050405",
+        "label": "ABS PUNTSTUK",
+        "page_in_pdf": 10,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "spec_product_variant": "LIJMMOF - BUITENDRAAD",
+          "application": "LIJMMOF - BUITENDRAAD"
+        }
+      },
+      {
+        "sku": "ABSP050406",
+        "label": "ABS PUNTSTUK",
+        "page_in_pdf": 10,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "spec_product_variant": "LIJMMOF - BUITENDRAAD",
+          "application": "LIJMMOF - BUITENDRAAD"
+        }
+      },
+      {
+        "sku": "ABSP063502",
+        "label": "ABS PUNTSTUK",
+        "page_in_pdf": 10,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "spec_product_variant": "LIJMMOF - BUITENDRAAD",
+          "application": "LIJMMOF - BUITENDRAAD"
+        }
+      },
+      {
+        "sku": "ABSP063506",
+        "label": "ABS PUNTSTUK",
+        "page_in_pdf": 10,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "spec_product_variant": "LIJMMOF - BUITENDRAAD",
+          "application": "LIJMMOF - BUITENDRAAD"
+        }
+      },
+      {
+        "sku": "ABSP075632",
+        "label": "ABS PUNTSTUK",
+        "page_in_pdf": 10,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "spec_product_variant": "LIJMMOF - BUITENDRAAD",
+          "application": "LIJMMOF - BUITENDRAAD"
+        }
+      }
+    ],
+    "images": [
+      "images/abs-persluchtbuizen/abs-lijmkap__v1.webp",
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p10__abs-lijmkap__ABSLK016-ABSLK020-ABSLK025__v1.webp"
+    ],
+    "variant_count": 13,
+    "default_variant_sku": "ABSP020161",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/abs-persluchtbuizen/abs-lijmkap__v1.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "abs-persluchtbuizen-abs-spuitgietkoppeling",
+    "name": "ABS SPUITGIETKOPPELING",
+    "family": "abs-spuitgietkoppeling",
+    "catalog": "abs-persluchtbuizen",
+    "brand": "Various",
+    "category": "LIJMMOF",
+    "variants": [
+      {
+        "sku": "ABSR016",
+        "label": "ABS SPUITGIETKOPPELING",
+        "page_in_pdf": 11,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSR020",
+        "label": "ABS SPUITGIETKOPPELING",
+        "page_in_pdf": 11,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSR025",
+        "label": "ABS SPUITGIETKOPPELING",
+        "page_in_pdf": 11,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSR032",
+        "label": "ABS SPUITGIETKOPPELING",
+        "page_in_pdf": 11,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSR040",
+        "label": "ABS SPUITGIETKOPPELING",
+        "page_in_pdf": 11,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSR050",
+        "label": "ABS SPUITGIETKOPPELING",
+        "page_in_pdf": 11,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSR063",
+        "label": "ABS SPUITGIETKOPPELING",
+        "page_in_pdf": 11,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSR075",
+        "label": "ABS SPUITGIETKOPPELING",
+        "page_in_pdf": 11,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSR090",
+        "label": "ABS SPUITGIETKOPPELING",
+        "page_in_pdf": 11,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSR110",
+        "label": "ABS SPUITGIETKOPPELING",
+        "page_in_pdf": 11,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      }
+    ],
+    "images": [
+      "images/abs-persluchtbuizen/abs-inljmring__v1.webp",
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p11__abs-inljmring__ABSI020016-ABSI025020-ABSI032016__v1.webp"
+    ],
+    "variant_count": 10,
+    "default_variant_sku": "ABSR016",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/abs-persluchtbuizen/abs-inljmring__v1.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "abs-persluchtbuizen-raccord-abs-messing",
+    "name": "RACCORD ABS/MESSING",
+    "family": "raccord-abs-messing",
+    "catalog": "abs-persluchtbuizen",
+    "brand": "Various",
+    "category": "LIJMMOF - BINNENDRAAD",
+    "variants": [
+      {
+        "sku": "ABSRI01638",
+        "label": "RACCORD ABS/MESSING",
+        "page_in_pdf": 12,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "spec_product_variant": "LIJMMOF - BINNENDRAAD",
+          "application": "LIJMMOF - BINNENDRAAD"
+        }
+      },
+      {
+        "sku": "ABSRI02012",
+        "label": "RACCORD ABS/MESSING",
+        "page_in_pdf": 12,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "spec_product_variant": "LIJMMOF - BINNENDRAAD",
+          "application": "LIJMMOF - BINNENDRAAD"
+        }
+      },
+      {
+        "sku": "ABSRI02534",
+        "label": "RACCORD ABS/MESSING",
+        "page_in_pdf": 12,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "spec_product_variant": "LIJMMOF - BINNENDRAAD",
+          "application": "LIJMMOF - BINNENDRAAD"
+        }
+      },
+      {
+        "sku": "ABSRI0321",
+        "label": "RACCORD ABS/MESSING",
+        "page_in_pdf": 12,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "spec_product_variant": "LIJMMOF - BINNENDRAAD",
+          "application": "LIJMMOF - BINNENDRAAD"
+        }
+      },
+      {
+        "sku": "ABSRI04054",
+        "label": "RACCORD ABS/MESSING",
+        "page_in_pdf": 12,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "spec_product_variant": "LIJMMOF - BINNENDRAAD",
+          "application": "LIJMMOF - BINNENDRAAD"
+        }
+      },
+      {
+        "sku": "ABSRI05064",
+        "label": "RACCORD ABS/MESSING",
+        "page_in_pdf": 12,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "spec_product_variant": "LIJMMOF - BINNENDRAAD",
+          "application": "LIJMMOF - BINNENDRAAD"
+        }
+      },
+      {
+        "sku": "ABSRI0632",
+        "label": "RACCORD ABS/MESSING",
+        "page_in_pdf": 12,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "spec_product_variant": "LIJMMOF - BINNENDRAAD",
+          "application": "LIJMMOF - BINNENDRAAD"
+        }
+      },
+      {
+        "sku": "ABSRU01638",
+        "label": "RACCORD ABS/MESSING",
+        "page_in_pdf": 12,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "spec_product_variant": "LIJMMOF - BINNENDRAAD",
+          "application": "LIJMMOF - BUITENDRAAD"
+        }
+      },
+      {
+        "sku": "ABSRU02012",
+        "label": "RACCORD ABS/MESSING",
+        "page_in_pdf": 12,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "spec_product_variant": "LIJMMOF - BINNENDRAAD",
+          "application": "LIJMMOF - BUITENDRAAD"
+        }
+      },
+      {
+        "sku": "ABSRU02534",
+        "label": "RACCORD ABS/MESSING",
+        "page_in_pdf": 12,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "spec_product_variant": "LIJMMOF - BINNENDRAAD",
+          "application": "LIJMMOF - BUITENDRAAD"
+        }
+      },
+      {
+        "sku": "ABSRU0321",
+        "label": "RACCORD ABS/MESSING",
+        "page_in_pdf": 12,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "spec_product_variant": "LIJMMOF - BINNENDRAAD",
+          "application": "LIJMMOF - BUITENDRAAD"
+        }
+      },
+      {
+        "sku": "ABSRU04054",
+        "label": "RACCORD ABS/MESSING",
+        "page_in_pdf": 12,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "spec_product_variant": "LIJMMOF - BINNENDRAAD",
+          "application": "LIJMMOF - BUITENDRAAD"
+        }
+      },
+      {
+        "sku": "ABSRU05064",
+        "label": "RACCORD ABS/MESSING",
+        "page_in_pdf": 12,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "spec_product_variant": "LIJMMOF - BINNENDRAAD",
+          "application": "LIJMMOF - BUITENDRAAD"
+        }
+      },
+      {
+        "sku": "ABSRU0632",
+        "label": "RACCORD ABS/MESSING",
+        "page_in_pdf": 12,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "spec_product_variant": "LIJMMOF - BINNENDRAAD",
+          "application": "LIJMMOF - BUITENDRAAD"
+        }
+      }
+    ],
+    "images": [
+      "images/abs-persluchtbuizen/raccord-abs-messing__v1.webp",
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p12__raccord-abs-messing__ABSRI01638-ABSRI02012-ABSRI02534__v1.webp"
+    ],
+    "variant_count": 14,
+    "default_variant_sku": "ABSRI01638",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/abs-persluchtbuizen/raccord-abs-messing__v1.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "abs-persluchtbuizen-abs-t-stuk-90",
+    "name": "ABS T-STUK 90°",
+    "family": "abs-t-stuk-90",
+    "catalog": "abs-persluchtbuizen",
+    "brand": "Various",
+    "category": "LIJMMOF",
+    "variants": [
+      {
+        "sku": "ABST01690",
+        "label": "ABS T-STUK 90°",
+        "page_in_pdf": 7,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABST02090",
+        "label": "ABS T-STUK 90°",
+        "page_in_pdf": 7,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABST02590",
+        "label": "ABS T-STUK 90°",
+        "page_in_pdf": 7,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABST03290",
+        "label": "ABS T-STUK 90°",
+        "page_in_pdf": 7,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABST04090",
+        "label": "ABS T-STUK 90°",
+        "page_in_pdf": 7,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABST05090",
+        "label": "ABS T-STUK 90°",
+        "page_in_pdf": 7,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABST06390",
+        "label": "ABS T-STUK 90°",
+        "page_in_pdf": 7,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABST07590",
+        "label": "ABS T-STUK 90°",
+        "page_in_pdf": 7,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABST09090",
+        "label": "ABS T-STUK 90°",
+        "page_in_pdf": 7,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABST11090",
+        "label": "ABS T-STUK 90°",
+        "page_in_pdf": 7,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABST12590",
+        "label": "ABS T-STUK 90°",
+        "page_in_pdf": 7,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABST14090",
+        "label": "ABS T-STUK 90°",
+        "page_in_pdf": 7,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABST16090",
+        "label": "ABS T-STUK 90°",
+        "page_in_pdf": 7,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABST20090",
+        "label": "ABS T-STUK 90°",
+        "page_in_pdf": 7,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABST22590",
+        "label": "ABS T-STUK 90°",
+        "page_in_pdf": 7,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABST25090",
+        "label": "ABS T-STUK 90°",
+        "page_in_pdf": 7,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      }
+    ],
+    "images": [
+      "images/abs-persluchtbuizen/abs-t-stuk-90__v1.webp",
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p7__abs-t-stuk-90__ABST01690-ABST02090-ABST02590__v1.webp"
+    ],
+    "variant_count": 16,
+    "default_variant_sku": "ABST01690",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/abs-persluchtbuizen/abs-t-stuk-90__v1.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "abs-persluchtbuizen-abs-t-stuk-45",
+    "name": "ABS T-STUK 45°",
+    "family": "abs-t-stuk-45",
+    "catalog": "abs-persluchtbuizen",
+    "brand": "Various",
+    "category": "LIJMMOF",
+    "variants": [
+      {
+        "sku": "ABST02045",
+        "label": "ABS T-STUK 45°",
+        "page_in_pdf": 7,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABST02545",
+        "label": "ABS T-STUK 45°",
+        "page_in_pdf": 7,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABST03245",
+        "label": "ABS T-STUK 45°",
+        "page_in_pdf": 7,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABST04045",
+        "label": "ABS T-STUK 45°",
+        "page_in_pdf": 7,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABST05045",
+        "label": "ABS T-STUK 45°",
+        "page_in_pdf": 7,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABST06345",
+        "label": "ABS T-STUK 45°",
+        "page_in_pdf": 7,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      }
+    ],
+    "images": [
+      "images/abs-persluchtbuizen/abs-t-stuk-90__v1.webp",
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p7__abs-t-stuk-90__ABST01690-ABST02090-ABST02590__v1.webp"
+    ],
+    "variant_count": 6,
+    "default_variant_sku": "ABST02045",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/abs-persluchtbuizen/abs-t-stuk-90__v1.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "abs-persluchtbuizen-abs-verloop-t-stuk-90",
+    "name": "ABS VERLOOP T-STUK 90°",
+    "family": "abs-verloop-t-stuk-90",
+    "catalog": "abs-persluchtbuizen",
+    "brand": "Various",
+    "category": "LIJMMOF",
+    "variants": [
+      {
+        "sku": "ABST025209",
+        "label": "ABS VERLOOP T-STUK 90°",
+        "page_in_pdf": 8,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABST032209",
+        "label": "ABS VERLOOP T-STUK 90°",
+        "page_in_pdf": 8,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABST032259",
+        "label": "ABS VERLOOP T-STUK 90°",
+        "page_in_pdf": 8,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABST040209",
+        "label": "ABS VERLOOP T-STUK 90°",
+        "page_in_pdf": 8,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABST040259",
+        "label": "ABS VERLOOP T-STUK 90°",
+        "page_in_pdf": 8,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABST050209",
+        "label": "ABS VERLOOP T-STUK 90°",
+        "page_in_pdf": 8,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABST050259",
+        "label": "ABS VERLOOP T-STUK 90°",
+        "page_in_pdf": 8,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABST050329",
+        "label": "ABS VERLOOP T-STUK 90°",
+        "page_in_pdf": 8,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABST063259",
+        "label": "ABS VERLOOP T-STUK 90°",
+        "page_in_pdf": 8,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABST063329",
+        "label": "ABS VERLOOP T-STUK 90°",
+        "page_in_pdf": 8,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABST075329",
+        "label": "ABS VERLOOP T-STUK 90°",
+        "page_in_pdf": 8,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABST075409",
+        "label": "ABS VERLOOP T-STUK 90°",
+        "page_in_pdf": 8,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABST075509",
+        "label": "ABS VERLOOP T-STUK 90°",
+        "page_in_pdf": 8,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABST075639",
+        "label": "ABS VERLOOP T-STUK 90°",
+        "page_in_pdf": 8,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABST090409",
+        "label": "ABS VERLOOP T-STUK 90°",
+        "page_in_pdf": 8,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABST090509",
+        "label": "ABS VERLOOP T-STUK 90°",
+        "page_in_pdf": 8,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABST090639",
+        "label": "ABS VERLOOP T-STUK 90°",
+        "page_in_pdf": 8,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABST090759",
+        "label": "ABS VERLOOP T-STUK 90°",
+        "page_in_pdf": 8,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABST110509",
+        "label": "ABS VERLOOP T-STUK 90°",
+        "page_in_pdf": 8,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABST110639",
+        "label": "ABS VERLOOP T-STUK 90°",
+        "page_in_pdf": 8,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABST110759",
+        "label": "ABS VERLOOP T-STUK 90°",
+        "page_in_pdf": 8,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABST110909",
+        "label": "ABS VERLOOP T-STUK 90°",
+        "page_in_pdf": 8,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      }
+    ],
+    "images": [
+      "images/abs-persluchtbuizen/abs-mof__v1.webp",
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p8__abs-mof__ABSM016-ABSM020-ABSM025__v1.webp"
+    ],
+    "variant_count": 22,
+    "default_variant_sku": "ABST025209",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/abs-persluchtbuizen/abs-mof__v1.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "abs-persluchtbuizen-abs-slangpilaar",
+    "name": "ABS SLANGPILAAR",
+    "family": "abs-slangpilaar",
+    "catalog": "abs-persluchtbuizen",
+    "brand": "Various",
+    "category": "LIJMSPIE",
+    "variants": [
+      {
+        "sku": "ABSV016",
+        "label": "ABS SLANGPILAAR",
+        "page_in_pdf": 13,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMSPIE"
+        }
+      },
+      {
+        "sku": "ABSV020",
+        "label": "ABS SLANGPILAAR",
+        "page_in_pdf": 13,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMSPIE"
+        }
+      },
+      {
+        "sku": "ABSV025",
+        "label": "ABS SLANGPILAAR",
+        "page_in_pdf": 13,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMSPIE"
+        }
+      },
+      {
+        "sku": "ABSV032",
+        "label": "ABS SLANGPILAAR",
+        "page_in_pdf": 13,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMSPIE"
+        }
+      }
+    ],
+    "images": [
+      "images/abs-persluchtbuizen/abs-kraagbus__v1.webp",
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p13__abs-kraagbus__ABSKR020-ABSKR025-ABSKR032__v1.webp"
+    ],
+    "variant_count": 4,
+    "default_variant_sku": "ABSV016",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/abs-persluchtbuizen/abs-kraagbus__v1.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "abs-persluchtbuizen-abs-verloopmof",
+    "name": "ABS VERLOOPMOF",
+    "family": "abs-verloopmof",
+    "catalog": "abs-persluchtbuizen",
+    "brand": "Various",
+    "category": "LIJMMOF",
+    "variants": [
+      {
+        "sku": "ABSVM02520",
+        "label": "ABS VERLOOPMOF",
+        "page_in_pdf": 9,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSVM03225",
+        "label": "ABS VERLOOPMOF",
+        "page_in_pdf": 9,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSVM04032",
+        "label": "ABS VERLOOPMOF",
+        "page_in_pdf": 9,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSVM05040",
+        "label": "ABS VERLOOPMOF",
+        "page_in_pdf": 9,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSVM06350",
+        "label": "ABS VERLOOPMOF",
+        "page_in_pdf": 9,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSVM07563",
+        "label": "ABS VERLOOPMOF",
+        "page_in_pdf": 9,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSVM09075",
+        "label": "ABS VERLOOPMOF",
+        "page_in_pdf": 9,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSVM11090",
+        "label": "ABS VERLOOPMOF",
+        "page_in_pdf": 9,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSVM12511",
+        "label": "ABS VERLOOPMOF",
+        "page_in_pdf": 9,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSVM14012",
+        "label": "ABS VERLOOPMOF",
+        "page_in_pdf": 9,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSVM16014",
+        "label": "ABS VERLOOPMOF",
+        "page_in_pdf": 9,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSVM20016",
+        "label": "ABS VERLOOPMOF",
+        "page_in_pdf": 9,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      },
+      {
+        "sku": "ABSVM22520",
+        "label": "ABS VERLOOPMOF",
+        "page_in_pdf": 9,
+        "properties": {
+          "type": "compressed_air_pipe"
+        },
+        "attributes": {
+          "application": "LIJMMOF"
+        }
+      }
+    ],
+    "images": [
+      "images/abs-persluchtbuizen/abs-inzet-draadsok__v1.webp",
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p9__abs-inzet-draadsok__ABSID01612-ABSID02016-ABSID02520__v1.webp"
+    ],
+    "variant_count": 13,
+    "default_variant_sku": "ABSVM02520",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/abs-persluchtbuizen/abs-inzet-draadsok__v1.webp"
+      }
+    ]
+  }
+]

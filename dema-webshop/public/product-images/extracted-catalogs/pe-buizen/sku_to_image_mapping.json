@@ -1,0 +1,344 @@
+{
+  "catalog": "pe-buizen",
+  "generated": "2025-11-30T20:05:34.031533",
+  "total_skus": 12,
+  "total_images": 152,
+  "mapping": {
+    "26-35": [
+      {
+        "filename": "0-14+15-25+26-35+C\n15+C\n26+PE 100_p005_i00.webp",
+        "page": 5,
+        "all_skus": [
+          "0-14",
+          "15-25",
+          "26-35",
+          "C\n15",
+          "C\n26",
+          "PE 100"
+        ]
+      }
+    ],
+    "PE 100": [
+      {
+        "filename": "0-14+15-25+26-35+C\n15+C\n26+PE 100_p005_i00.webp",
+        "page": 5,
+        "all_skus": [
+          "0-14",
+          "15-25",
+          "26-35",
+          "C\n15",
+          "C\n26",
+          "PE 100"
+        ]
+      },
+      {
+        "filename": "PE 100_p006_i00.webp",
+        "page": 6,
+        "all_skus": [
+          "PE 100"
+        ]
+      },
+      {
+        "filename": "PE 100_p007_i00.webp",
+        "page": 7,
+        "all_skus": [
+          "PE 100"
+        ]
+      },
+      {
+        "filename": "PE 100_p007_i01.webp",
+        "page": 7,
+        "all_skus": [
+          "PE 100"
+        ]
+      },
+      {
+        "filename": "PE 100+PN10_p008_i00.webp",
+        "page": 8,
+        "all_skus": [
+          "PE 100",
+          "PN10"
+        ]
+      },
+      {
+        "filename": "PE 100+PN10_p008_i01.webp",
+        "page": 8,
+        "all_skus": [
+          "PE 100",
+          "PN10"
+        ]
+      },
+      {
+        "filename": "PE 100+PN12_p009_i00.webp",
+        "page": 9,
+        "all_skus": [
+          "PE 100",
+          "PN12"
+        ]
+      },
+      {
+        "filename": "PE 100+PN12_p009_i01.webp",
+        "page": 9,
+        "all_skus": [
+          "PE 100",
+          "PN12"
+        ]
+      },
+      {
+        "filename": "PE 100+PN16_p010_i00.webp",
+        "page": 10,
+        "all_skus": [
+          "PE 100",
+          "PN16"
+        ]
+      },
+      {
+        "filename": "PE 100+PN16_p010_i01.webp",
+        "page": 10,
+        "all_skus": [
+          "PE 100",
+          "PN16"
+        ]
+      },
+      {
+        "filename": "PE 100+PN12_p011_i00.webp",
+        "page": 11,
+        "all_skus": [
+          "PE 100",
+          "PN12"
+        ]
+      },
+      {
+        "filename": "PE 100+PN12_p011_i01.webp",
+        "page": 11,
+        "all_skus": [
+          "PE 100",
+          "PN12"
+        ]
+      },
+      {
+        "filename": "PE 100+PN16_p012_i00.webp",
+        "page": 12,
+        "all_skus": [
+          "PE 100",
+          "PN16"
+        ]
+      },
+      {
+        "filename": "PE 100+PN16_p012_i01.webp",
+        "page": 12,
+        "all_skus": [
+          "PE 100",
+          "PN16"
+        ]
+      },
+      {
+        "filename": "PE 100+PN10_p013_i00.webp",
+        "page": 13,
+        "all_skus": [
+          "PE 100",
+          "PN10"
+        ]
+      },
+      {
+        "filename": "PE 100+PN10_p013_i01.webp",
+        "page": 13,
+        "all_skus": [
+          "PE 100",
+          "PN10"
+        ]
+      }
+    ],
+    "0-14": [
+      {
+        "filename": "0-14+15-25+26-35+C\n15+C\n26+PE 100_p005_i00.webp",
+        "page": 5,
+        "all_skus": [
+          "0-14",
+          "15-25",
+          "26-35",
+          "C\n15",
+          "C\n26",
+          "PE 100"
+        ]
+      }
+    ],
+    "C\n26": [
+      {
+        "filename": "0-14+15-25+26-35+C\n15+C\n26+PE 100_p005_i00.webp",
+        "page": 5,
+        "all_skus": [
+          "0-14",
+          "15-25",
+          "26-35",
+          "C\n15",
+          "C\n26",
+          "PE 100"
+        ]
+      }
+    ],
+    "15-25": [
+      {
+        "filename": "0-14+15-25+26-35+C\n15+C\n26+PE 100_p005_i00.webp",
+        "page": 5,
+        "all_skus": [
+          "0-14",
+          "15-25",
+          "26-35",
+          "C\n15",
+          "C\n26",
+          "PE 100"
+        ]
+      }
+    ],
+    "C\n15": [
+      {
+        "filename": "0-14+15-25+26-35+C\n15+C\n26+PE 100_p005_i00.webp",
+        "page": 5,
+        "all_skus": [
+          "0-14",
+          "15-25",
+          "26-35",
+          "C\n15",
+          "C\n26",
+          "PE 100"
+        ]
+      }
+    ],
+    "PN10": [
+      {
+        "filename": "PE 100+PN10_p008_i00.webp",
+        "page": 8,
+        "all_skus": [
+          "PE 100",
+          "PN10"
+        ]
+      },
+      {
+        "filename": "PE 100+PN10_p008_i01.webp",
+        "page": 8,
+        "all_skus": [
+          "PE 100",
+          "PN10"
+        ]
+      },
+      {
+        "filename": "PE 100+PN10_p013_i00.webp",
+        "page": 13,
+        "all_skus": [
+          "PE 100",
+          "PN10"
+        ]
+      },
+      {
+        "filename": "PE 100+PN10_p013_i01.webp",
+        "page": 13,
+        "all_skus": [
+          "PE 100",
+          "PN10"
+        ]
+      }
+    ],
+    "PN12": [
+      {
+        "filename": "PE 100+PN12_p009_i00.webp",
+        "page": 9,
+        "all_skus": [
+          "PE 100",
+          "PN12"
+        ]
+      },
+      {
+        "filename": "PE 100+PN12_p009_i01.webp",
+        "page": 9,
+        "all_skus": [
+          "PE 100",
+          "PN12"
+        ]
+      },
+      {
+        "filename": "PE 100+PN12_p011_i00.webp",
+        "page": 11,
+        "all_skus": [
+          "PE 100",
+          "PN12"
+        ]
+      },
+      {
+        "filename": "PE 100+PN12_p011_i01.webp",
+        "page": 11,
+        "all_skus": [
+          "PE 100",
+          "PN12"
+        ]
+      }
+    ],
+    "PN16": [
+      {
+        "filename": "PE 100+PN16_p010_i00.webp",
+        "page": 10,
+        "all_skus": [
+          "PE 100",
+          "PN16"
+        ]
+      },
+      {
+        "filename": "PE 100+PN16_p010_i01.webp",
+        "page": 10,
+        "all_skus": [
+          "PE 100",
+          "PN16"
+        ]
+      },
+      {
+        "filename": "PE 100+PN16_p012_i00.webp",
+        "page": 12,
+        "all_skus": [
+          "PE 100",
+          "PN16"
+        ]
+      },
+      {
+        "filename": "PE 100+PN16_p012_i01.webp",
+        "page": 12,
+        "all_skus": [
+          "PE 100",
+          "PN16"
+        ]
+      }
+    ],
+    "SUMH090": [
+      {
+        "filename": "SUMH090+SUMH110+mm\n10_p043_i02.webp",
+        "page": 43,
+        "all_skus": [
+          "SUMH090",
+          "SUMH110",
+          "mm\n10"
+        ]
+      }
+    ],
+    "mm\n10": [
+      {
+        "filename": "SUMH090+SUMH110+mm\n10_p043_i02.webp",
+        "page": 43,
+        "all_skus": [
+          "SUMH090",
+          "SUMH110",
+          "mm\n10"
+        ]
+      }
+    ],
+    "SUMH110": [
+      {
+        "filename": "SUMH090+SUMH110+mm\n10_p043_i02.webp",
+        "page": 43,
+        "all_skus": [
+          "SUMH090",
+          "SUMH110",
+          "mm\n10"
+        ]
+      }
+    ]
+  }
+}

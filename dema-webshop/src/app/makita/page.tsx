@@ -27,6 +27,13 @@ export default function MakitaPage() {
   const loadMakitaProducts = async () => {
     try {
       const response = await fetch('/api/catalog?catalog=makita&limit=100');
+      if (!response.ok) {
+        throw new Error(`HTTP ${response.status}`);
+      }
+      const contentType = response.headers.get('content-type');
+      if (!contentType || !contentType.includes('application/json')) {
+        throw new Error('Not JSON response');
+      }
       const data = await response.json();
       setProducts(data.products || []);
     } catch (error) {

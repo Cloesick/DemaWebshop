@@ -1,0 +1,2823 @@
+[
+  {
+    "group_id": "pomp-specials-huishoudelijk-landbouw-industrie",
+    "name": "huishoudelijk, landbouw, industrie",
+    "family": "huishoudelijk-landbouw-industrie",
+    "catalog": "pomp-specials",
+    "brand": "Various",
+    "category": "VARIATIES",
+    "variants": [
+      {
+        "sku": "02350025",
+        "label": "huishoudelijk, landbouw, industrie",
+        "page_in_pdf": 18,
+        "properties": {
+          "type": "Messing",
+          "debiet_m3_h": "1,92 m3/h",
+          "aansluiting": "1/2”",
+          "aanzuigdiepte_m": "6 m",
+          "opv_hoogte_m": "20 m",
+          "lengte": "1,392 kg"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "P-serie: max. 35°C /",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "2 - 4 bar",
+          "spec_application_desc": "huishoudelijk, landbouw, industrie",
+          "spec_housing": "Kunststof / Messing",
+          "spec_product_variant": "met behulp",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "X1106034",
+        "label": "huishoudelijk, landbouw, industrie",
+        "page_in_pdf": 18,
+        "properties": {
+          "type": "Maxi P63",
+          "debiet_m3_h": "2,4 m3/h",
+          "aansluiting": "1/2”",
+          "aanzuigdiepte_m": "4 m",
+          "opv_hoogte_m": "40 m",
+          "lengte": "0,170 kg"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "P-serie: max. 35°C /",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "2 - 4 bar",
+          "spec_application_desc": "huishoudelijk, landbouw, industrie",
+          "spec_housing": "Kunststof / Messing",
+          "spec_product_variant": "met behulp",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": null,
+        "label": "huishoudelijk, landbouw, industrie",
+        "page_in_pdf": 18,
+        "properties": {
+          "type": "Mini P61",
+          "debiet_m3_h": "1,5 m3/h",
+          "aansluiting": "1/2”",
+          "aanzuigdiepte_m": "3 m",
+          "opv_hoogte_m": "20 m",
+          "lengte": "3 m"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "P-serie: max. 35°C /",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "2 - 4 bar",
+          "spec_application_desc": "huishoudelijk, landbouw, industrie",
+          "spec_housing": "Kunststof / Messing",
+          "spec_product_variant": "met behulp",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": null,
+        "label": "huishoudelijk, landbouw, industrie",
+        "page_in_pdf": 18,
+        "properties": {
+          "type": "Combi P60",
+          "debiet_m3_h": "3,0 m3/h",
+          "aansluiting": "1/2” + 3/4”",
+          "aanzuigdiepte_m": "4 m",
+          "opv_hoogte_m": "40 m",
+          "lengte": "4 m"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "P-serie: max. 35°C /",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "2 - 4 bar",
+          "spec_application_desc": "huishoudelijk, landbouw, industrie",
+          "spec_housing": "Kunststof / Messing",
+          "spec_product_variant": "met behulp",
+          "application": "VARIATIES"
+        }
+      }
+    ],
+    "images": [
+      "images/pomp-specials/huishoudelijk-landbouw-industrie__02350025.webp",
+      "images/pomp-specials/pomp-specials__p18__huishoudelijk-landbouw-industrie__02350025-X1106034.webp"
+    ],
+    "variant_count": 4,
+    "default_variant_sku": "02350025",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/pomp-specials/huishoudelijk-landbouw-industrie__02350025.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "pomp-specials-variaties",
+    "name": "VARIATIES",
+    "family": "variaties",
+    "catalog": "pomp-specials",
+    "brand": "Various",
+    "category": "VARIATIES",
+    "variants": [
+      {
+        "sku": "09050229",
+        "label": "VARIATIES",
+        "page_in_pdf": 18,
+        "properties": {
+          "type": "S3",
+          "debiet_m3_h": "1,8 m3/h",
+          "lengte": "2,5 kg",
+          "spanning_v": "1x230V",
+          "vermogen_w": "60",
+          "stroom_a": "0,35",
+          "pomp_dia_mm": "85 mm"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 35°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "industrie, bouw",
+          "spec_housing": "Technopolymeer",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": null,
+        "label": "VARIATIES",
+        "page_in_pdf": 18,
+        "properties": {
+          "type": "S1",
+          "debiet_m3_h": "1,2 m3/h",
+          "lengte": "17 m",
+          "spanning_v": "1x230V",
+          "vermogen_w": "50",
+          "stroom_a": "0,35",
+          "pomp_dia_mm": "70 mm"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 35°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "industrie, bouw",
+          "spec_housing": "Technopolymeer",
+          "application": "VARIATIES"
+        }
+      }
+    ],
+    "images": [
+      "images/pomp-specials/variaties__09050229.webp",
+      "images/pomp-specials/pomp-specials__p18__variaties__09050229.webp"
+    ],
+    "variant_count": 2,
+    "default_variant_sku": "09050229",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/pomp-specials/variaties__09050229.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "pomp-specials-landbouw-industrie-maritie",
+    "name": "landbouw, industrie, maritie",
+    "family": "landbouw-industrie-maritie",
+    "catalog": "pomp-specials",
+    "brand": "Various",
+    "category": "VARIATIES",
+    "variants": [
+      {
+        "sku": "1,5 m3/h",
+        "label": "landbouw, industrie, maritie",
+        "page_in_pdf": 17,
+        "properties": {
+          "type": "landbouw_industrie_maritie",
+          "lengte": "20 m"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 40°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "landbouw, industrie, maritiem",
+          "spec_housing": "Aluminium",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "Debiet\nm3/h",
+        "label": "landbouw, industrie, maritie",
+        "page_in_pdf": 17,
+        "properties": {
+          "type": "landbouw_industrie_maritie",
+          "lengte": "Opv.hoogte\nm"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 40°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "landbouw, industrie, maritiem",
+          "spec_housing": "Aluminium",
+          "application": "VARIATIES"
+        }
+      }
+    ],
+    "images": [
+      "images/pomp-specials/landbouw-industrie-maritie__1-5-m3-h.webp",
+      "images/pomp-specials/pomp-specials__p17__auto-motor-boot__13520104.webp"
+    ],
+    "variant_count": 2,
+    "default_variant_sku": "1,5 m3/h",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/pomp-specials/landbouw-industrie-maritie__1-5-m3-h.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "pomp-specials-industrie-bouw-landbouw-maritiem",
+    "name": "industrie, bouw, landbouw, maritiem",
+    "family": "industrie-bouw-landbouw-maritiem",
+    "catalog": "pomp-specials",
+    "brand": "Various",
+    "category": "VARIATIES",
+    "variants": [
+      {
+        "sku": "13520005",
+        "label": "industrie, bouw, landbouw, maritiem",
+        "page_in_pdf": 16,
+        "properties": {
+          "type": "K5",
+          "aansluiting": "6/4”",
+          "aanzuigdiepte_m": "7 m",
+          "opv_hoogte_m": "25 m",
+          "lengte": "-"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 40°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "industrie, bouw, landbouw, maritiem",
+          "spec_housing": "Gietijzer",
+          "spec_product_variant": "met vrije",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "13520047",
+        "label": "industrie, bouw, landbouw, maritiem",
+        "page_in_pdf": 12,
+        "properties": {
+          "type": "Panther 72",
+          "spanning_v": "230V"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 40°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "industrie, bouw, landbouw, maritiem",
+          "spec_housing": "Gietijzer",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "13520048",
+        "label": "industrie, bouw, landbouw, maritiem",
+        "page_in_pdf": 13,
+        "properties": {
+          "type": "industrie_bouw_landbouw_maritiem",
+          "spanning_v": "230V",
+          "weight_kg": "18,0 kg"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 40°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "industrie, bouw, landbouw, maritiem",
+          "spec_housing": "Gietijzer",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "13730115",
+        "label": "industrie, bouw, landbouw, maritiem",
+        "page_in_pdf": 16,
+        "properties": {
+          "type": "K1",
+          "aansluiting": "3/4”",
+          "aanzuigdiepte_m": "7 m",
+          "opv_hoogte_m": "25 m",
+          "lengte": "5,2 kg"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 40°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "industrie, bouw, landbouw, maritiem",
+          "spec_housing": "Gietijzer",
+          "spec_product_variant": "met vrije",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "19220101",
+        "label": "industrie, bouw, landbouw, maritiem",
+        "page_in_pdf": 16,
+        "properties": {
+          "type": "K3",
+          "aansluiting": "5/4”",
+          "aanzuigdiepte_m": "7 m",
+          "opv_hoogte_m": "25 m",
+          "lengte": "8,7 kg"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 40°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "industrie, bouw, landbouw, maritiem",
+          "spec_housing": "Gietijzer",
+          "spec_product_variant": "met vrije",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": null,
+        "label": "industrie, bouw, landbouw, maritiem",
+        "page_in_pdf": 12,
+        "properties": {
+          "type": "Panther 56",
+          "spanning_v": "230V"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 40°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "industrie, bouw, landbouw, maritiem",
+          "spec_housing": "Gietijzer",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": null,
+        "label": "industrie, bouw, landbouw, maritiem",
+        "page_in_pdf": 13,
+        "properties": {
+          "type": "industrie_bouw_landbouw_maritiem",
+          "spanning_v": "230V"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 40°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "industrie, bouw, landbouw, maritiem",
+          "spec_housing": "Gietijzer",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": null,
+        "label": "industrie, bouw, landbouw, maritiem",
+        "page_in_pdf": 13,
+        "properties": {
+          "type": "industrie_bouw_landbouw_maritiem",
+          "spanning_v": "230V"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 40°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "industrie, bouw, landbouw, maritiem",
+          "spec_housing": "Gietijzer",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": null,
+        "label": "industrie, bouw, landbouw, maritiem",
+        "page_in_pdf": 16,
+        "properties": {
+          "type": "K0",
+          "aansluiting": "1/2”",
+          "aanzuigdiepte_m": "7 m",
+          "opv_hoogte_m": "25 m",
+          "lengte": "7 m"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 40°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "industrie, bouw, landbouw, maritiem",
+          "spec_housing": "Gietijzer",
+          "spec_product_variant": "met vrije",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": null,
+        "label": "industrie, bouw, landbouw, maritiem",
+        "page_in_pdf": 16,
+        "properties": {
+          "type": "K2",
+          "aansluiting": "1”",
+          "aanzuigdiepte_m": "7 m",
+          "opv_hoogte_m": "25 m",
+          "lengte": "7 m"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 40°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "industrie, bouw, landbouw, maritiem",
+          "spec_housing": "Gietijzer",
+          "spec_product_variant": "met vrije",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": null,
+        "label": "industrie, bouw, landbouw, maritiem",
+        "page_in_pdf": 16,
+        "properties": {
+          "type": "K4",
+          "aansluiting": "5/4”",
+          "aanzuigdiepte_m": "7 m",
+          "opv_hoogte_m": "25 m",
+          "lengte": "7 m"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 40°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "industrie, bouw, landbouw, maritiem",
+          "spec_housing": "Gietijzer",
+          "spec_product_variant": "met vrije",
+          "application": "VARIATIES"
+        }
+      }
+    ],
+    "images": [
+      "images/pomp-specials/pomp-specials__p13__industrie-bouw-landbouw-maritiem__13520048__13520048.webp",
+      "images/pomp-specials/industrie-bouw-landbouw-maritiem__13520047.webp",
+      "images/pomp-specials/pomp-specials__p16__industrie-bouw-landbouw-maritiem__1__13520005-13730115-19220101.webp",
+      "images/pomp-specials/pomp-specials__p12__industrie-bouw-landbouw-maritiem__13520047.webp"
+    ],
+    "variant_count": 11,
+    "default_variant_sku": "13520005",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/pomp-specials/pomp-specials__p13__industrie-bouw-landbouw-maritiem__13520048__13520048.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "pomp-specials-auto-motor-boot",
+    "name": "auto, motor, boot",
+    "family": "auto-motor-boot",
+    "catalog": "pomp-specials",
+    "brand": "Various",
+    "category": "VARIATIES",
+    "variants": [
+      {
+        "sku": "13520104",
+        "label": "auto, motor, boot",
+        "page_in_pdf": 17,
+        "properties": {
+          "type": "auto_motor_boot",
+          "weight_kg": "2,0 kg"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 35°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "auto, motor, boot",
+          "spec_housing": "Polyethyleen",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": null,
+        "label": "auto, motor, boot",
+        "page_in_pdf": 17,
+        "properties": {
+          "type": "auto_motor_boot"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 35°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "auto, motor, boot",
+          "spec_housing": "Polyethyleen",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": null,
+        "label": "auto, motor, boot",
+        "page_in_pdf": 17,
+        "properties": {
+          "type": "auto_motor_boot"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 35°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "auto, motor, boot",
+          "spec_housing": "Polyethyleen",
+          "application": "VARIATIES"
+        }
+      }
+    ],
+    "images": [
+      "images/pomp-specials/auto-motor-boot__13520104.webp",
+      "images/pomp-specials/pomp-specials__p17__auto-motor-boot__13520104.webp"
+    ],
+    "variant_count": 3,
+    "default_variant_sku": "13520104",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/pomp-specials/auto-motor-boot__13520104.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "pomp-specials-industrie-bouw-landbouw",
+    "name": "industrie, bouw, landbouw",
+    "family": "industrie-bouw-landbouw",
+    "catalog": "pomp-specials",
+    "brand": "Various",
+    "category": "VARIATIES",
+    "variants": [
+      {
+        "sku": "13520108",
+        "label": "industrie, bouw, landbouw",
+        "page_in_pdf": 12,
+        "properties": {
+          "type": "industrie_bouw_landbouw",
+          "lengte": "9,5 kg"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 35°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "industrie, bouw, landbouw",
+          "spec_housing": "pomp Aluminium",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "13520109",
+        "label": "industrie, bouw, landbouw",
+        "page_in_pdf": 12,
+        "properties": {
+          "type": "industrie_bouw_landbouw",
+          "lengte": "12,0 kg"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 35°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "industrie, bouw, landbouw",
+          "spec_housing": "pomp Aluminium",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": null,
+        "label": "industrie, bouw, landbouw",
+        "page_in_pdf": 11,
+        "properties": {
+          "type": "industrie_bouw_landbouw",
+          "debiet_m3_h": "80,4",
+          "aansluiting": "3” - 80 mm"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 40°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "niet gekend",
+          "spec_application_desc": "industrie, bouw, landbouw",
+          "spec_product_variant": "met vaste",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": null,
+        "label": "industrie, bouw, landbouw",
+        "page_in_pdf": 12,
+        "properties": {
+          "type": "industrie_bouw_landbouw",
+          "lengte": "6 m"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 35°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "industrie, bouw, landbouw",
+          "spec_housing": "pomp Aluminium",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": null,
+        "label": "industrie, bouw, landbouw,",
+        "page_in_pdf": 16,
+        "properties": {
+          "type": "industrie_bouw_landbouw",
+          "aansluiting": "slang",
+          "aanzuigdiepte_m": "1,3 m"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 40°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "industrie, bouw, landbouw, maritiem",
+          "spec_housing": "Gietijzer",
+          "application": "VARIATIES"
+        }
+      }
+    ],
+    "images": [
+      "images/pomp-specials/industrie-bouw-landbouw__13520108.webp",
+      "images/pomp-specials/pomp-specials__p12__industrie-bouw-landbouw__13520108-13520109__v1.webp"
+    ],
+    "variant_count": 5,
+    "default_variant_sku": "13520108",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/pomp-specials/industrie-bouw-landbouw__13520108.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "pomp-specials-irrigatie-landbouw",
+    "name": "irrigatie, landbouw",
+    "family": "irrigatie-landbouw",
+    "catalog": "pomp-specials",
+    "brand": "Various",
+    "category": "VARIATIES",
+    "variants": [
+      {
+        "sku": "17130004",
+        "label": "irrigatie, landbouw",
+        "page_in_pdf": 4,
+        "properties": {
+          "type": "T1-50",
+          "debiet_m3_h": "60"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 60°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "Zie opvoerhoogte in onderstaande tabel",
+          "spec_application_desc": "irrigatie, landbouw",
+          "spec_housing": "Gietijzer",
+          "spec_product_variant": "met vaste",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "17130014",
+        "label": "irrigatie, landbouw",
+        "page_in_pdf": 4,
+        "properties": {
+          "type": "T3-80A",
+          "debiet_m3_h": "90"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 60°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "Zie opvoerhoogte in onderstaande tabel",
+          "spec_application_desc": "irrigatie, landbouw",
+          "spec_housing": "Gietijzer",
+          "spec_product_variant": "met vaste",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "17130028",
+        "label": "irrigatie, landbouw",
+        "page_in_pdf": 4,
+        "properties": {
+          "type": "T2-50",
+          "debiet_m3_h": "75"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 60°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "Zie opvoerhoogte in onderstaande tabel",
+          "spec_application_desc": "irrigatie, landbouw",
+          "spec_housing": "Gietijzer",
+          "spec_product_variant": "met vaste",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "17130227",
+        "label": "irrigatie, landbouw",
+        "page_in_pdf": 4,
+        "properties": {
+          "type": "T2-80",
+          "debiet_m3_h": "105"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 60°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "Zie opvoerhoogte in onderstaande tabel",
+          "spec_application_desc": "irrigatie, landbouw",
+          "spec_housing": "Gietijzer",
+          "spec_product_variant": "met vaste",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "17130233",
+        "label": "irrigatie, landbouw",
+        "page_in_pdf": 4,
+        "properties": {
+          "type": "T1-80",
+          "debiet_m3_h": "90"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 60°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "Zie opvoerhoogte in onderstaande tabel",
+          "spec_application_desc": "irrigatie, landbouw",
+          "spec_housing": "Gietijzer",
+          "spec_product_variant": "met vaste",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "17130290",
+        "label": "irrigatie, landbouw",
+        "page_in_pdf": 4,
+        "properties": {
+          "type": "T1-40",
+          "debiet_m3_h": "30"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 60°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "Zie opvoerhoogte in onderstaande tabel",
+          "spec_application_desc": "irrigatie, landbouw",
+          "spec_housing": "Gietijzer",
+          "spec_product_variant": "met vaste",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "17130292",
+        "label": "irrigatie, landbouw",
+        "page_in_pdf": 4,
+        "properties": {
+          "type": "T2-40",
+          "debiet_m3_h": "30"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 60°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "Zie opvoerhoogte in onderstaande tabel",
+          "spec_application_desc": "irrigatie, landbouw",
+          "spec_housing": "Gietijzer",
+          "spec_product_variant": "met vaste",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "17130294",
+        "label": "irrigatie, landbouw",
+        "page_in_pdf": 4,
+        "properties": {
+          "type": "T1-65A",
+          "debiet_m3_h": "60"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 60°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "Zie opvoerhoogte in onderstaande tabel",
+          "spec_application_desc": "irrigatie, landbouw",
+          "spec_housing": "Gietijzer",
+          "spec_product_variant": "met vaste",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "17130297",
+        "label": "irrigatie, landbouw",
+        "page_in_pdf": 4,
+        "properties": {
+          "type": "T2-65",
+          "debiet_m3_h": "48"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 60°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "Zie opvoerhoogte in onderstaande tabel",
+          "spec_application_desc": "irrigatie, landbouw",
+          "spec_housing": "Gietijzer",
+          "spec_product_variant": "met vaste",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "17130302",
+        "label": "irrigatie, landbouw",
+        "page_in_pdf": 4,
+        "properties": {
+          "type": "T2-80",
+          "debiet_m3_h": "105"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 60°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "Zie opvoerhoogte in onderstaande tabel",
+          "spec_application_desc": "irrigatie, landbouw",
+          "spec_housing": "Gietijzer",
+          "spec_product_variant": "met vaste",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "17130304",
+        "label": "irrigatie, landbouw",
+        "page_in_pdf": 4,
+        "properties": {
+          "type": "T2-85",
+          "debiet_m3_h": "120"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 60°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "Zie opvoerhoogte in onderstaande tabel",
+          "spec_application_desc": "irrigatie, landbouw",
+          "spec_housing": "Gietijzer",
+          "spec_product_variant": "met vaste",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "17130306",
+        "label": "irrigatie, landbouw",
+        "page_in_pdf": 4,
+        "properties": {
+          "type": "T3-80A",
+          "debiet_m3_h": "90"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 60°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "Zie opvoerhoogte in onderstaande tabel",
+          "spec_application_desc": "irrigatie, landbouw",
+          "spec_housing": "Gietijzer",
+          "spec_product_variant": "met vaste",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "17130308",
+        "label": "irrigatie, landbouw",
+        "page_in_pdf": 4,
+        "properties": {
+          "type": "T3-80A",
+          "debiet_m3_h": "90"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 60°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "Zie opvoerhoogte in onderstaande tabel",
+          "spec_application_desc": "irrigatie, landbouw",
+          "spec_housing": "Gietijzer",
+          "spec_product_variant": "met vaste",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "17130310",
+        "label": "irrigatie, landbouw",
+        "page_in_pdf": 4,
+        "properties": {
+          "type": "T1-100",
+          "debiet_m3_h": "180"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 60°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "Zie opvoerhoogte in onderstaande tabel",
+          "spec_application_desc": "irrigatie, landbouw",
+          "spec_housing": "Gietijzer",
+          "spec_product_variant": "met vaste",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "17130312",
+        "label": "irrigatie, landbouw",
+        "page_in_pdf": 4,
+        "properties": {
+          "type": "T3-100A",
+          "debiet_m3_h": "180"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 60°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "Zie opvoerhoogte in onderstaande tabel",
+          "spec_application_desc": "irrigatie, landbouw",
+          "spec_housing": "Gietijzer",
+          "spec_product_variant": "met vaste",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "18540001",
+        "label": "irrigatie, landbouw",
+        "page_in_pdf": 6,
+        "properties": {
+          "type": "F-IV-80",
+          "debiet_m3_h": "90",
+          "opv_hoogte_m": "120",
+          "weight_kg": "73 kg"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 40°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "Zie opvoerhoogte in onderstaande tabel",
+          "spec_application_desc": "irrigatie, landbouw",
+          "spec_housing": "Gietijzer",
+          "spec_product_variant": "met vaste",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": null,
+        "label": "irrigatie, landbouw",
+        "page_in_pdf": 4,
+        "properties": {
+          "type": "T1-40",
+          "debiet_m3_h": "30"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 60°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "Zie opvoerhoogte in onderstaande tabel",
+          "spec_application_desc": "irrigatie, landbouw",
+          "spec_housing": "Gietijzer",
+          "spec_product_variant": "met vaste",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": null,
+        "label": "irrigatie, landbouw",
+        "page_in_pdf": 4,
+        "properties": {
+          "type": "T2-40",
+          "debiet_m3_h": "30"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 60°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "Zie opvoerhoogte in onderstaande tabel",
+          "spec_application_desc": "irrigatie, landbouw",
+          "spec_housing": "Gietijzer",
+          "spec_product_variant": "met vaste",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": null,
+        "label": "irrigatie, landbouw",
+        "page_in_pdf": 4,
+        "properties": {
+          "type": "T2-40",
+          "debiet_m3_h": "30"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 60°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "Zie opvoerhoogte in onderstaande tabel",
+          "spec_application_desc": "irrigatie, landbouw",
+          "spec_housing": "Gietijzer",
+          "spec_product_variant": "met vaste",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": null,
+        "label": "irrigatie, landbouw",
+        "page_in_pdf": 4,
+        "properties": {
+          "type": "T1-65A",
+          "debiet_m3_h": "60"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 60°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "Zie opvoerhoogte in onderstaande tabel",
+          "spec_application_desc": "irrigatie, landbouw",
+          "spec_housing": "Gietijzer",
+          "spec_product_variant": "met vaste",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": null,
+        "label": "irrigatie, landbouw",
+        "page_in_pdf": 4,
+        "properties": {
+          "type": "T1-50",
+          "debiet_m3_h": "60"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 60°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "Zie opvoerhoogte in onderstaande tabel",
+          "spec_application_desc": "irrigatie, landbouw",
+          "spec_housing": "Gietijzer",
+          "spec_product_variant": "met vaste",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": null,
+        "label": "irrigatie, landbouw",
+        "page_in_pdf": 4,
+        "properties": {
+          "type": "T2-65",
+          "debiet_m3_h": "48"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 60°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "Zie opvoerhoogte in onderstaande tabel",
+          "spec_application_desc": "irrigatie, landbouw",
+          "spec_housing": "Gietijzer",
+          "spec_product_variant": "met vaste",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": null,
+        "label": "irrigatie, landbouw",
+        "page_in_pdf": 4,
+        "properties": {
+          "type": "T2-65",
+          "debiet_m3_h": "48"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 60°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "Zie opvoerhoogte in onderstaande tabel",
+          "spec_application_desc": "irrigatie, landbouw",
+          "spec_housing": "Gietijzer",
+          "spec_product_variant": "met vaste",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": null,
+        "label": "irrigatie, landbouw",
+        "page_in_pdf": 4,
+        "properties": {
+          "type": "T1-80",
+          "debiet_m3_h": "90"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 60°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "Zie opvoerhoogte in onderstaande tabel",
+          "spec_application_desc": "irrigatie, landbouw",
+          "spec_housing": "Gietijzer",
+          "spec_product_variant": "met vaste",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": null,
+        "label": "irrigatie, landbouw",
+        "page_in_pdf": 4,
+        "properties": {
+          "type": "T2-80",
+          "debiet_m3_h": "105"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 60°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "Zie opvoerhoogte in onderstaande tabel",
+          "spec_application_desc": "irrigatie, landbouw",
+          "spec_housing": "Gietijzer",
+          "spec_product_variant": "met vaste",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": null,
+        "label": "irrigatie, landbouw",
+        "page_in_pdf": 4,
+        "properties": {
+          "type": "T2-85",
+          "debiet_m3_h": "120"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 60°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "Zie opvoerhoogte in onderstaande tabel",
+          "spec_application_desc": "irrigatie, landbouw",
+          "spec_housing": "Gietijzer",
+          "spec_product_variant": "met vaste",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": null,
+        "label": "irrigatie, landbouw",
+        "page_in_pdf": 4,
+        "properties": {
+          "type": "T2-85",
+          "debiet_m3_h": "120"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 60°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "Zie opvoerhoogte in onderstaande tabel",
+          "spec_application_desc": "irrigatie, landbouw",
+          "spec_housing": "Gietijzer",
+          "spec_product_variant": "met vaste",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": null,
+        "label": "irrigatie, landbouw",
+        "page_in_pdf": 4,
+        "properties": {
+          "type": "T3-80A",
+          "debiet_m3_h": "90"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 60°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "Zie opvoerhoogte in onderstaande tabel",
+          "spec_application_desc": "irrigatie, landbouw",
+          "spec_housing": "Gietijzer",
+          "spec_product_variant": "met vaste",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": null,
+        "label": "irrigatie, landbouw",
+        "page_in_pdf": 4,
+        "properties": {
+          "type": "T3-80A",
+          "debiet_m3_h": "90"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 60°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "Zie opvoerhoogte in onderstaande tabel",
+          "spec_application_desc": "irrigatie, landbouw",
+          "spec_housing": "Gietijzer",
+          "spec_product_variant": "met vaste",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": null,
+        "label": "irrigatie, landbouw",
+        "page_in_pdf": 4,
+        "properties": {
+          "type": "T1-100",
+          "debiet_m3_h": "180"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 60°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "Zie opvoerhoogte in onderstaande tabel",
+          "spec_application_desc": "irrigatie, landbouw",
+          "spec_housing": "Gietijzer",
+          "spec_product_variant": "met vaste",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": null,
+        "label": "irrigatie, landbouw",
+        "page_in_pdf": 4,
+        "properties": {
+          "type": "T1-100",
+          "debiet_m3_h": "180"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 60°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "Zie opvoerhoogte in onderstaande tabel",
+          "spec_application_desc": "irrigatie, landbouw",
+          "spec_housing": "Gietijzer",
+          "spec_product_variant": "met vaste",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": null,
+        "label": "irrigatie, landbouw",
+        "page_in_pdf": 4,
+        "properties": {
+          "type": "T3-100A",
+          "debiet_m3_h": "180"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 60°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "Zie opvoerhoogte in onderstaande tabel",
+          "spec_application_desc": "irrigatie, landbouw",
+          "spec_housing": "Gietijzer",
+          "spec_product_variant": "met vaste",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": null,
+        "label": "irrigatie, landbouw",
+        "page_in_pdf": 6,
+        "properties": {
+          "type": "F III-60",
+          "debiet_m3_h": "80",
+          "opv_hoogte_m": "85"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 40°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "Zie opvoerhoogte in onderstaande tabel",
+          "spec_application_desc": "irrigatie, landbouw",
+          "spec_housing": "Gietijzer",
+          "spec_product_variant": "met vaste",
+          "application": "VARIATIES"
+        }
+      }
+    ],
+    "images": [
+      "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__18540001.webp",
+      "images/pomp-specials/irrigatie-landbouw__17130004.webp",
+      "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130004-17130014-17130028__v1.webp"
+    ],
+    "variant_count": 33,
+    "default_variant_sku": "17130004",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__18540001.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "pomp-specials-tractorpompen",
+    "name": "TRACTORPOMPEN",
+    "family": "tractorpompen",
+    "catalog": "pomp-specials",
+    "brand": "Various",
+    "category": "TRACTORPOMPEN",
+    "variants": [
+      {
+        "sku": "17130210",
+        "label": "TRACTORPOMPEN",
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "T4-110",
+          "debiet_m3_h": "180"
+        },
+        "attributes": {
+          "application": "TRACTORPOMPEN"
+        }
+      },
+      {
+        "sku": "17130234",
+        "label": "TRACTORPOMPEN",
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "T4-100",
+          "debiet_m3_h": "180"
+        },
+        "attributes": {
+          "application": "TRACTORPOMPEN"
+        }
+      },
+      {
+        "sku": "17130313",
+        "label": "TRACTORPOMPEN",
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "T3-100A",
+          "debiet_m3_h": "180"
+        },
+        "attributes": {
+          "application": "TRACTORPOMPEN"
+        }
+      },
+      {
+        "sku": "17130315",
+        "label": "TRACTORPOMPEN",
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "T3-100A",
+          "debiet_m3_h": "180"
+        },
+        "attributes": {
+          "application": "TRACTORPOMPEN"
+        }
+      },
+      {
+        "sku": "17130317",
+        "label": "TRACTORPOMPEN",
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "T3-110",
+          "debiet_m3_h": "210"
+        },
+        "attributes": {
+          "application": "TRACTORPOMPEN"
+        }
+      },
+      {
+        "sku": "17130319",
+        "label": "TRACTORPOMPEN",
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "T3-110",
+          "debiet_m3_h": "210"
+        },
+        "attributes": {
+          "application": "TRACTORPOMPEN"
+        }
+      },
+      {
+        "sku": "17130321",
+        "label": "TRACTORPOMPEN",
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "T3-110",
+          "debiet_m3_h": "210"
+        },
+        "attributes": {
+          "application": "TRACTORPOMPEN"
+        }
+      },
+      {
+        "sku": "17130322",
+        "label": "TRACTORPOMPEN",
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "T4-100",
+          "debiet_m3_h": "180"
+        },
+        "attributes": {
+          "application": "TRACTORPOMPEN"
+        }
+      },
+      {
+        "sku": "17130323",
+        "label": "TRACTORPOMPEN",
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "T4-125",
+          "debiet_m3_h": "240"
+        },
+        "attributes": {
+          "application": "TRACTORPOMPEN"
+        }
+      },
+      {
+        "sku": "17130325",
+        "label": "TRACTORPOMPEN",
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "T4-125",
+          "debiet_m3_h": "240"
+        },
+        "attributes": {
+          "application": "TRACTORPOMPEN"
+        }
+      },
+      {
+        "sku": "17130327",
+        "label": "TRACTORPOMPEN",
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "T2K50/3",
+          "debiet_m3_h": "30"
+        },
+        "attributes": {
+          "application": "TRACTORPOMPEN"
+        }
+      },
+      {
+        "sku": "17130328",
+        "label": "TRACTORPOMPEN",
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "T2K65/2",
+          "debiet_m3_h": "54"
+        },
+        "attributes": {
+          "application": "TRACTORPOMPEN"
+        }
+      },
+      {
+        "sku": "17130330",
+        "label": "TRACTORPOMPEN",
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "T3K65/2",
+          "debiet_m3_h": "60"
+        },
+        "attributes": {
+          "application": "TRACTORPOMPEN"
+        }
+      },
+      {
+        "sku": "17130331",
+        "label": "TRACTORPOMPEN",
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "T3K80/2",
+          "debiet_m3_h": "90"
+        },
+        "attributes": {
+          "application": "TRACTORPOMPEN"
+        }
+      },
+      {
+        "sku": "17130333",
+        "label": "TRACTORPOMPEN",
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "T3K80/2",
+          "debiet_m3_h": "90"
+        },
+        "attributes": {
+          "application": "TRACTORPOMPEN"
+        }
+      },
+      {
+        "sku": "17130334",
+        "label": "TRACTORPOMPEN",
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "T3K80-90/2",
+          "debiet_m3_h": "105"
+        },
+        "attributes": {
+          "application": "TRACTORPOMPEN"
+        }
+      },
+      {
+        "sku": null,
+        "label": "TRACTORPOMPEN",
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "T3-100A",
+          "debiet_m3_h": "180"
+        },
+        "attributes": {
+          "application": "TRACTORPOMPEN"
+        }
+      },
+      {
+        "sku": null,
+        "label": "TRACTORPOMPEN",
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "T3-100A",
+          "debiet_m3_h": "180"
+        },
+        "attributes": {
+          "application": "TRACTORPOMPEN"
+        }
+      },
+      {
+        "sku": null,
+        "label": "TRACTORPOMPEN",
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "T3-110",
+          "debiet_m3_h": "210"
+        },
+        "attributes": {
+          "application": "TRACTORPOMPEN"
+        }
+      },
+      {
+        "sku": null,
+        "label": "TRACTORPOMPEN",
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "T3-110",
+          "debiet_m3_h": "210"
+        },
+        "attributes": {
+          "application": "TRACTORPOMPEN"
+        }
+      },
+      {
+        "sku": null,
+        "label": "TRACTORPOMPEN",
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "T4-100",
+          "debiet_m3_h": "180"
+        },
+        "attributes": {
+          "application": "TRACTORPOMPEN"
+        }
+      },
+      {
+        "sku": null,
+        "label": "TRACTORPOMPEN",
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "T4-100",
+          "debiet_m3_h": "180"
+        },
+        "attributes": {
+          "application": "TRACTORPOMPEN"
+        }
+      },
+      {
+        "sku": null,
+        "label": "TRACTORPOMPEN",
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "T4-110",
+          "debiet_m3_h": "180"
+        },
+        "attributes": {
+          "application": "TRACTORPOMPEN"
+        }
+      },
+      {
+        "sku": null,
+        "label": "TRACTORPOMPEN",
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "T4-110",
+          "debiet_m3_h": "180"
+        },
+        "attributes": {
+          "application": "TRACTORPOMPEN"
+        }
+      },
+      {
+        "sku": null,
+        "label": "TRACTORPOMPEN",
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "T4-125",
+          "debiet_m3_h": "240"
+        },
+        "attributes": {
+          "application": "TRACTORPOMPEN"
+        }
+      },
+      {
+        "sku": null,
+        "label": "TRACTORPOMPEN",
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "T2-150",
+          "debiet_m3_h": "330"
+        },
+        "attributes": {
+          "application": "TRACTORPOMPEN"
+        }
+      },
+      {
+        "sku": null,
+        "label": "TRACTORPOMPEN",
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "T2K65/2",
+          "debiet_m3_h": "54"
+        },
+        "attributes": {
+          "application": "TRACTORPOMPEN"
+        }
+      },
+      {
+        "sku": null,
+        "label": "TRACTORPOMPEN",
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "T3K65/2",
+          "debiet_m3_h": "60"
+        },
+        "attributes": {
+          "application": "TRACTORPOMPEN"
+        }
+      },
+      {
+        "sku": null,
+        "label": "TRACTORPOMPEN",
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "T3K65/2",
+          "debiet_m3_h": "60"
+        },
+        "attributes": {
+          "application": "TRACTORPOMPEN"
+        }
+      },
+      {
+        "sku": null,
+        "label": "TRACTORPOMPEN",
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "T3K80/2",
+          "debiet_m3_h": "90"
+        },
+        "attributes": {
+          "application": "TRACTORPOMPEN"
+        }
+      },
+      {
+        "sku": null,
+        "label": "TRACTORPOMPEN",
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "T3K80-90/2",
+          "debiet_m3_h": "105"
+        },
+        "attributes": {
+          "application": "TRACTORPOMPEN"
+        }
+      },
+      {
+        "sku": null,
+        "label": "TRACTORPOMPEN",
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "T3K80-90/2",
+          "debiet_m3_h": "105"
+        },
+        "attributes": {
+          "application": "TRACTORPOMPEN"
+        }
+      }
+    ],
+    "images": [],
+    "variant_count": 32,
+    "default_variant_sku": "17130210",
+    "media": []
+  },
+  {
+    "group_id": "pomp-specials-huishoudelijk-semi-industrieel-bouw-land",
+    "name": "huishoudelijk, semi-industrieel, bouw, land-",
+    "family": "huishoudelijk-semi-industrieel-bouw-land",
+    "catalog": "pomp-specials",
+    "brand": "Various",
+    "category": "VARIATIES",
+    "variants": [
+      {
+        "sku": "18480018",
+        "label": "huishoudelijk, semi-industrieel, bouw, land-",
+        "page_in_pdf": 10,
+        "properties": {
+          "type": "huishoudelijk_semi_industrieel_bouw_land",
+          "lengte": "29 kg"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 40°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "2,6 bar",
+          "spec_application_desc": "huishoudelijk, semi-industrieel, bouw, land-",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "18480023",
+        "label": "huishoudelijk, semi-industrieel, bouw, land-",
+        "page_in_pdf": 10,
+        "properties": {
+          "type": "huishoudelijk_semi_industrieel_bouw_land",
+          "lengte": "29 kg"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 40°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "2,6 bar",
+          "spec_application_desc": "huishoudelijk, semi-industrieel, bouw, land-",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": null,
+        "label": "huishoudelijk, semi-industrieel, bouw, land-",
+        "page_in_pdf": 10,
+        "properties": {
+          "type": "huishoudelijk_semi_industrieel_bouw_land",
+          "lengte": "26 m"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 40°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "2,6 bar",
+          "spec_application_desc": "huishoudelijk, semi-industrieel, bouw, land-",
+          "application": "VARIATIES"
+        }
+      }
+    ],
+    "images": [
+      "images/pomp-specials/industrie-bouw-landbouw-modder__18480021.webp",
+      "images/pomp-specials/pomp-specials__p11__industrie-bouw-landbouw-modder__18480021__v1.webp"
+    ],
+    "variant_count": 3,
+    "default_variant_sku": "18480018",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/pomp-specials/industrie-bouw-landbouw-modder__18480021.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "pomp-specials-industrie-bouw-landbouw-modder",
+    "name": "industrie, bouw, landbouw, modder",
+    "family": "industrie-bouw-landbouw-modder",
+    "catalog": "pomp-specials",
+    "brand": "Various",
+    "category": "VARIATIES",
+    "variants": [
+      {
+        "sku": "18480021",
+        "label": "industrie, bouw, landbouw, modder",
+        "page_in_pdf": 11,
+        "properties": {
+          "type": "industrie_bouw_landbouw_modder",
+          "weight_kg": "90 kg"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 40°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "2,7 bar",
+          "spec_application_desc": "industrie, bouw, landbouw, modder",
+          "spec_product_variant": "MET DIESEL",
+          "application": "VARIATIES"
+        }
+      }
+    ],
+    "images": [
+      "images/pomp-specials/industrie-bouw-landbouw-modder__18480021.webp",
+      "images/pomp-specials/pomp-specials__p11__industrie-bouw-landbouw-modder__18480021__v1.webp"
+    ],
+    "variant_count": 1,
+    "default_variant_sku": "18480021",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/pomp-specials/industrie-bouw-landbouw-modder__18480021.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "pomp-specials-osmose-opslag-bassins-viskwekerijen",
+    "name": "osmose opslag, bassins, viskwekerijen,",
+    "family": "osmose-opslag-bassins-viskwekerijen",
+    "catalog": "pomp-specials",
+    "brand": "Various",
+    "category": "VARIATIES",
+    "variants": [
+      {
+        "sku": "19220228",
+        "label": "osmose opslag, bassins, viskwekerijen,",
+        "page_in_pdf": 15,
+        "properties": {
+          "type": "osmose_opslag_bassins_viskwekerijen"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 35°C",
+          "spec_temp_range": "vloeistof",
+          "spec_application_desc": "osmose opslag, bassins, viskwekerijen,",
+          "spec_housing": "pomp rvs 304",
+          "application": "VARIATIES"
+        }
+      }
+    ],
+    "images": [
+      "images/pomp-specials/osmose-opslag-bassins-viskwekerijen__19220228.webp",
+      "images/pomp-specials/pomp-specials__p15__osmose-opslag-bassins-viskwekerijen__19220228__v1.webp"
+    ],
+    "variant_count": 1,
+    "default_variant_sku": "19220228",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/pomp-specials/osmose-opslag-bassins-viskwekerijen__19220228.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "pomp-specials-doseren-van-meststoffen-schoonmaakmid",
+    "name": "doseren van meststoffen, schoonmaakmid-",
+    "family": "doseren-van-meststoffen-schoonmaakmid",
+    "catalog": "pomp-specials",
+    "brand": "Various",
+    "category": "VARIATIES",
+    "variants": [
+      {
+        "sku": "70455370",
+        "label": "doseren van meststoffen, schoonmaakmid-",
+        "page_in_pdf": 14,
+        "properties": {
+          "type": "12502",
+          "aansluiting": "3/4\""
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 50°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "8 bar",
+          "spec_application_desc": "doseren van meststoffen, schoonmaakmid-",
+          "spec_housing": "hoogwaardig kunststof",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "70455377",
+        "label": "doseren van meststoffen, schoonmaakmid-",
+        "page_in_pdf": 14,
+        "properties": {
+          "type": "12512",
+          "aansluiting": "3/4\""
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 50°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "8 bar",
+          "spec_application_desc": "doseren van meststoffen, schoonmaakmid-",
+          "spec_housing": "hoogwaardig kunststof",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "70455379",
+        "label": "doseren van meststoffen, schoonmaakmid-",
+        "page_in_pdf": 14,
+        "properties": {
+          "type": "12514",
+          "aansluiting": "3/4\""
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 50°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "8 bar",
+          "spec_application_desc": "doseren van meststoffen, schoonmaakmid-",
+          "spec_housing": "hoogwaardig kunststof",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "70455431",
+        "label": "doseren van meststoffen, schoonmaakmid-",
+        "page_in_pdf": 14,
+        "properties": {
+          "type": "TF-10",
+          "aansluiting": "1 1/2\""
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 50°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "8 bar",
+          "spec_application_desc": "doseren van meststoffen, schoonmaakmid-",
+          "spec_housing": "hoogwaardig kunststof",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "70455432",
+        "label": "doseren van meststoffen, schoonmaakmid-",
+        "page_in_pdf": 14,
+        "properties": {
+          "type": "TF-10",
+          "aansluiting": "1 1/2\""
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 50°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "8 bar",
+          "spec_application_desc": "doseren van meststoffen, schoonmaakmid-",
+          "spec_housing": "hoogwaardig kunststof",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "70455435",
+        "label": "doseren van meststoffen, schoonmaakmid-",
+        "page_in_pdf": 14,
+        "properties": {
+          "type": "2502",
+          "aansluiting": "3/4\""
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 50°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "8 bar",
+          "spec_application_desc": "doseren van meststoffen, schoonmaakmid-",
+          "spec_housing": "hoogwaardig kunststof",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "70455980",
+        "label": "doseren van meststoffen, schoonmaakmid-",
+        "page_in_pdf": 14,
+        "properties": {
+          "type": "TF-5",
+          "aansluiting": "1\""
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 50°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "8 bar",
+          "spec_application_desc": "doseren van meststoffen, schoonmaakmid-",
+          "spec_housing": "hoogwaardig kunststof",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "70455990",
+        "label": "doseren van meststoffen, schoonmaakmid-",
+        "page_in_pdf": 14,
+        "properties": {
+          "type": "TF-25",
+          "aansluiting": "63 mm"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 50°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "8 bar",
+          "spec_application_desc": "doseren van meststoffen, schoonmaakmid-",
+          "spec_housing": "hoogwaardig kunststof",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": null,
+        "label": "doseren van meststoffen, schoonmaakmid-",
+        "page_in_pdf": 14,
+        "properties": {
+          "type": "2502",
+          "aansluiting": "3/4\""
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 50°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "8 bar",
+          "spec_application_desc": "doseren van meststoffen, schoonmaakmid-",
+          "spec_housing": "hoogwaardig kunststof",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": null,
+        "label": "doseren van meststoffen, schoonmaakmid-",
+        "page_in_pdf": 14,
+        "properties": {
+          "type": "2505",
+          "aansluiting": "3/4\""
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 50°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "8 bar",
+          "spec_application_desc": "doseren van meststoffen, schoonmaakmid-",
+          "spec_housing": "hoogwaardig kunststof",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": null,
+        "label": "doseren van meststoffen, schoonmaakmid-",
+        "page_in_pdf": 14,
+        "properties": {
+          "type": "12504",
+          "aansluiting": "3/4\""
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 50°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "8 bar",
+          "spec_application_desc": "doseren van meststoffen, schoonmaakmid-",
+          "spec_housing": "hoogwaardig kunststof",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": null,
+        "label": "doseren van meststoffen, schoonmaakmid-",
+        "page_in_pdf": 14,
+        "properties": {
+          "type": "12512",
+          "aansluiting": "3/4\""
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 50°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "8 bar",
+          "spec_application_desc": "doseren van meststoffen, schoonmaakmid-",
+          "spec_housing": "hoogwaardig kunststof",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": null,
+        "label": "doseren van meststoffen, schoonmaakmid-",
+        "page_in_pdf": 14,
+        "properties": {
+          "type": "TF-5",
+          "aansluiting": "1\""
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 50°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "8 bar",
+          "spec_application_desc": "doseren van meststoffen, schoonmaakmid-",
+          "spec_housing": "hoogwaardig kunststof",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": null,
+        "label": "doseren van meststoffen, schoonmaakmid-",
+        "page_in_pdf": 14,
+        "properties": {
+          "type": "TF-10",
+          "aansluiting": "1 1/2\""
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 50°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "8 bar",
+          "spec_application_desc": "doseren van meststoffen, schoonmaakmid-",
+          "spec_housing": "hoogwaardig kunststof",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": null,
+        "label": "doseren van meststoffen, schoonmaakmid-",
+        "page_in_pdf": 14,
+        "properties": {
+          "type": "TF-10",
+          "aansluiting": "1 1/2\""
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 50°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "8 bar",
+          "spec_application_desc": "doseren van meststoffen, schoonmaakmid-",
+          "spec_housing": "hoogwaardig kunststof",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": null,
+        "label": "doseren van meststoffen, schoonmaakmid-",
+        "page_in_pdf": 14,
+        "properties": {
+          "type": "TF-25",
+          "aansluiting": "63 mm"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 50°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "8 bar",
+          "spec_application_desc": "doseren van meststoffen, schoonmaakmid-",
+          "spec_housing": "hoogwaardig kunststof",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": null,
+        "label": "doseren van meststoffen, schoonmaakmid-",
+        "page_in_pdf": 14,
+        "properties": {
+          "type": "TF-25",
+          "aansluiting": "63 mm"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 50°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "8 bar",
+          "spec_application_desc": "doseren van meststoffen, schoonmaakmid-",
+          "spec_housing": "hoogwaardig kunststof",
+          "application": "VARIATIES"
+        }
+      }
+    ],
+    "images": [
+      "images/pomp-specials/doseren-van-meststoffen-schoonmaakmid__70455370.webp",
+      "images/pomp-specials/pomp-specials__p14__doseren-van-meststoffen-schoonmaakmid__70455370-70455377-70455379__v1.webp"
+    ],
+    "variant_count": 17,
+    "default_variant_sku": "70455370",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/pomp-specials/doseren-van-meststoffen-schoonmaakmid__70455370.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "pomp-specials-installaties-industrie",
+    "name": "installaties, industrie",
+    "family": "installaties-industrie",
+    "catalog": "pomp-specials",
+    "brand": "Various",
+    "category": "VARIATIES",
+    "variants": [
+      {
+        "sku": "FL 776",
+        "label": "installaties, industrie",
+        "page_in_pdf": 8,
+        "properties": {
+          "type": "installaties_industrie"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 200°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "zie onderstaande tabel",
+          "spec_application_desc": "bouw, landbouw, afvalverwerking, biogas",
+          "spec_housing": "EN-GJL-250/RVS 1.4517",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": null,
+        "label": "installaties, industrie",
+        "page_in_pdf": 8,
+        "properties": {
+          "type": "installaties_industrie"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 200°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "zie onderstaande tabel",
+          "spec_application_desc": "bouw, landbouw, afvalverwerking, biogas",
+          "spec_housing": "EN-GJL-250/RVS 1.4517",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": null,
+        "label": "installaties, industrie",
+        "page_in_pdf": 8,
+        "properties": {
+          "type": "installaties_industrie"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 200°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "zie onderstaande tabel",
+          "spec_application_desc": "bouw, landbouw, afvalverwerking, biogas",
+          "spec_housing": "EN-GJL-250/RVS 1.4517",
+          "application": "VARIATIES"
+        }
+      }
+    ],
+    "images": [
+      "images/pomp-specials/installaties-industrie__fl-776.webp",
+      "images/pomp-specials/pomp-specials__p8__installaties-industrie__FL 776__v1.webp"
+    ],
+    "variant_count": 3,
+    "default_variant_sku": "FL 776",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/pomp-specials/installaties-industrie__fl-776.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "pomp-specials-landbouw-slachthuizen-biogas-installaties",
+    "name": "landbouw, slachthuizen, biogas installaties",
+    "family": "landbouw-slachthuizen-biogas-installaties",
+    "catalog": "pomp-specials",
+    "brand": "Various",
+    "category": "VARIATIES",
+    "variants": [
+      {
+        "sku": "SUPER 150",
+        "label": "landbouw, slachthuizen, biogas installaties",
+        "page_in_pdf": 7,
+        "properties": {
+          "type": "landbouw_slachthuizen_biogas_installaties",
+          "debiet_m3_h": "390",
+          "opv_hoogte_m": "30 m",
+          "lengte": "130"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 40°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "Zie opvoerhoogte in onderstaande tabel",
+          "spec_application_desc": "landbouw, slachthuizen, biogas installaties",
+          "spec_housing": "Gietijzer/RVS",
+          "spec_product_variant": "met vermaalinrichting",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "SUPER ME 100/7,5",
+        "label": "landbouw, slachthuizen, biogas installaties",
+        "page_in_pdf": 7,
+        "properties": {
+          "type": "landbouw_slachthuizen_biogas_installaties",
+          "debiet_m3_h": "120",
+          "opv_hoogte_m": "7,5 m",
+          "lengte": "7,5"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 40°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "Zie opvoerhoogte in onderstaande tabel",
+          "spec_application_desc": "landbouw, slachthuizen, biogas installaties",
+          "spec_housing": "Gietijzer/RVS",
+          "spec_product_variant": "met vermaalinrichting",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "SUPER ME 120/15",
+        "label": "landbouw, slachthuizen, biogas installaties",
+        "page_in_pdf": 7,
+        "properties": {
+          "type": "landbouw_slachthuizen_biogas_installaties",
+          "debiet_m3_h": "180",
+          "opv_hoogte_m": "12 m",
+          "lengte": "15"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 40°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "Zie opvoerhoogte in onderstaande tabel",
+          "spec_application_desc": "landbouw, slachthuizen, biogas installaties",
+          "spec_housing": "Gietijzer/RVS",
+          "spec_product_variant": "met vermaalinrichting",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "SUPER ME 120/25",
+        "label": "landbouw, slachthuizen, biogas installaties",
+        "page_in_pdf": 7,
+        "properties": {
+          "type": "landbouw_slachthuizen_biogas_installaties",
+          "debiet_m3_h": "228",
+          "opv_hoogte_m": "19 m",
+          "lengte": "25"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 40°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "Zie opvoerhoogte in onderstaande tabel",
+          "spec_application_desc": "landbouw, slachthuizen, biogas installaties",
+          "spec_housing": "Gietijzer/RVS",
+          "spec_product_variant": "met vermaalinrichting",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "SUPER ME 60/1",
+        "label": "landbouw, slachthuizen, biogas installaties",
+        "page_in_pdf": 7,
+        "properties": {
+          "type": "landbouw_slachthuizen_biogas_installaties",
+          "debiet_m3_h": "30",
+          "opv_hoogte_m": "3 m",
+          "lengte": "1"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 40°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "Zie opvoerhoogte in onderstaande tabel",
+          "spec_application_desc": "landbouw, slachthuizen, biogas installaties",
+          "spec_housing": "Gietijzer/RVS",
+          "spec_product_variant": "met vermaalinrichting",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "ULTRA 120/15",
+        "label": "landbouw, slachthuizen, biogas installaties",
+        "page_in_pdf": 7,
+        "properties": {
+          "type": "landbouw_slachthuizen_biogas_installaties",
+          "debiet_m3_h": "180",
+          "opv_hoogte_m": "18 m",
+          "lengte": "15"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 40°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "Zie opvoerhoogte in onderstaande tabel",
+          "spec_application_desc": "landbouw, slachthuizen, biogas installaties",
+          "spec_housing": "Gietijzer/RVS",
+          "spec_product_variant": "met vermaalinrichting",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": "ULTRA 120/25",
+        "label": "landbouw, slachthuizen, biogas installaties",
+        "page_in_pdf": 7,
+        "properties": {
+          "type": "landbouw_slachthuizen_biogas_installaties",
+          "debiet_m3_h": "228",
+          "opv_hoogte_m": "24 m",
+          "lengte": "25"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 40°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "Zie opvoerhoogte in onderstaande tabel",
+          "spec_application_desc": "landbouw, slachthuizen, biogas installaties",
+          "spec_housing": "Gietijzer/RVS",
+          "spec_product_variant": "met vermaalinrichting",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": null,
+        "label": "landbouw, slachthuizen, biogas installaties",
+        "page_in_pdf": 7,
+        "properties": {
+          "type": "landbouw_slachthuizen_biogas_installaties",
+          "debiet_m3_h": "240",
+          "opv_hoogte_m": "25 m",
+          "lengte": "25 m"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 40°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "Zie opvoerhoogte in onderstaande tabel",
+          "spec_application_desc": "landbouw, slachthuizen, biogas installaties",
+          "spec_housing": "Gietijzer/RVS",
+          "spec_product_variant": "met vermaalinrichting",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": null,
+        "label": "landbouw, slachthuizen, biogas installaties",
+        "page_in_pdf": 7,
+        "properties": {
+          "type": "landbouw_slachthuizen_biogas_installaties",
+          "debiet_m3_h": "660",
+          "opv_hoogte_m": "50 m",
+          "lengte": "50 m"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 40°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "Zie opvoerhoogte in onderstaande tabel",
+          "spec_application_desc": "landbouw, slachthuizen, biogas installaties",
+          "spec_housing": "Gietijzer/RVS",
+          "spec_product_variant": "met vermaalinrichting",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": null,
+        "label": "landbouw, slachthuizen, biogas installaties",
+        "page_in_pdf": 7,
+        "properties": {
+          "type": "landbouw_slachthuizen_biogas_installaties",
+          "debiet_m3_h": "78",
+          "opv_hoogte_m": "5 m",
+          "lengte": "5 m"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 40°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "Zie opvoerhoogte in onderstaande tabel",
+          "spec_application_desc": "landbouw, slachthuizen, biogas installaties",
+          "spec_housing": "Gietijzer/RVS",
+          "spec_product_variant": "met vermaalinrichting",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": null,
+        "label": "landbouw, slachthuizen, biogas installaties",
+        "page_in_pdf": 7,
+        "properties": {
+          "type": "landbouw_slachthuizen_biogas_installaties",
+          "debiet_m3_h": "168",
+          "opv_hoogte_m": "15 m",
+          "lengte": "15 m"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 40°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "Zie opvoerhoogte in onderstaande tabel",
+          "spec_application_desc": "landbouw, slachthuizen, biogas installaties",
+          "spec_housing": "Gietijzer/RVS",
+          "spec_product_variant": "met vermaalinrichting",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": null,
+        "label": "landbouw, slachthuizen, biogas installaties",
+        "page_in_pdf": 7,
+        "properties": {
+          "type": "landbouw_slachthuizen_biogas_installaties",
+          "debiet_m3_h": "204",
+          "opv_hoogte_m": "16 m",
+          "lengte": "16 m"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 40°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "Zie opvoerhoogte in onderstaande tabel",
+          "spec_application_desc": "landbouw, slachthuizen, biogas installaties",
+          "spec_housing": "Gietijzer/RVS",
+          "spec_product_variant": "met vermaalinrichting",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": null,
+        "label": "landbouw, slachthuizen, biogas installaties",
+        "page_in_pdf": 7,
+        "properties": {
+          "type": "landbouw_slachthuizen_biogas_installaties",
+          "debiet_m3_h": "168",
+          "opv_hoogte_m": "15 m",
+          "lengte": "15 m"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 40°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "Zie opvoerhoogte in onderstaande tabel",
+          "spec_application_desc": "landbouw, slachthuizen, biogas installaties",
+          "spec_housing": "Gietijzer/RVS",
+          "spec_product_variant": "met vermaalinrichting",
+          "application": "VARIATIES"
+        }
+      },
+      {
+        "sku": null,
+        "label": "landbouw, slachthuizen, biogas installaties",
+        "page_in_pdf": 7,
+        "properties": {
+          "type": "landbouw_slachthuizen_biogas_installaties",
+          "debiet_m3_h": "204",
+          "opv_hoogte_m": "22 m",
+          "lengte": "22 m"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 40°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "Zie opvoerhoogte in onderstaande tabel",
+          "spec_application_desc": "landbouw, slachthuizen, biogas installaties",
+          "spec_housing": "Gietijzer/RVS",
+          "spec_product_variant": "met vermaalinrichting",
+          "application": "VARIATIES"
+        }
+      }
+    ],
+    "images": [
+      "images/pomp-specials/landbouw-slachthuizen-biogas-installaties__super-150.webp",
+      "images/pomp-specials/pomp-specials__p7__landbouw-slachthuizen-biogas-installatie__SUPER 150-SUPER ME 100/7,5-SUPER ME 120/15__v1.webp"
+    ],
+    "variant_count": 14,
+    "default_variant_sku": "SUPER 150",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/pomp-specials/landbouw-slachthuizen-biogas-installaties__super-150.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "pomp-specials-bouw-landbouw",
+    "name": "bouw, landbouw",
+    "family": "bouw-landbouw",
+    "catalog": "pomp-specials",
+    "brand": "Various",
+    "category": "VARIATIES",
+    "variants": [
+      {
+        "sku": null,
+        "label": "bouw, landbouw",
+        "page_in_pdf": 10,
+        "properties": {
+          "type": "bouw_landbouw",
+          "debiet_m3_h": "26,4",
+          "aansluiting": "2” - 50 mm"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 40°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "5,7 bar",
+          "spec_application_desc": "bouw, landbouw",
+          "application": "VARIATIES"
+        }
+      }
+    ],
+    "images": [
+      "images/pomp-specials/industrie-bouw-landbouw-modder__18480021.webp",
+      "images/pomp-specials/pomp-specials__p11__industrie-bouw-landbouw-modder__18480021__v1.webp"
+    ],
+    "variant_count": 1,
+    "default_variant_sku": null,
+    "media": [
+      {
+        "role": "main",
+        "url": "images/pomp-specials/industrie-bouw-landbouw-modder__18480021.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "pomp-specials-inbouw-afmetingen",
+    "name": "INBOUW AFMETINGEN",
+    "family": "inbouw-afmetingen",
+    "catalog": "pomp-specials",
+    "brand": "Various",
+    "category": "INBOUW AFMETINGEN",
+    "variants": [
+      {
+        "sku": null,
+        "label": "INBOUW AFMETINGEN",
+        "page_in_pdf": 9,
+        "properties": {
+          "type": "inbouw_afmetingen"
+        },
+        "attributes": {
+          "application": "INBOUW AFMETINGEN"
+        }
+      },
+      {
+        "sku": null,
+        "label": "INBOUW AFMETINGEN",
+        "page_in_pdf": 9,
+        "properties": {
+          "type": "inbouw_afmetingen"
+        },
+        "attributes": {
+          "application": "INBOUW AFMETINGEN"
+        }
+      },
+      {
+        "sku": null,
+        "label": "INBOUW AFMETINGEN",
+        "page_in_pdf": 9,
+        "properties": {
+          "type": "inbouw_afmetingen"
+        },
+        "attributes": {
+          "application": "INBOUW AFMETINGEN"
+        }
+      },
+      {
+        "sku": null,
+        "label": "INBOUW AFMETINGEN",
+        "page_in_pdf": 9,
+        "properties": {
+          "type": "inbouw_afmetingen"
+        },
+        "attributes": {
+          "application": "INBOUW AFMETINGEN"
+        }
+      },
+      {
+        "sku": null,
+        "label": "INBOUW AFMETINGEN",
+        "page_in_pdf": 9,
+        "properties": {
+          "type": "inbouw_afmetingen"
+        },
+        "attributes": {
+          "application": "INBOUW AFMETINGEN"
+        }
+      },
+      {
+        "sku": null,
+        "label": "INBOUW AFMETINGEN",
+        "page_in_pdf": 9,
+        "properties": {
+          "type": "inbouw_afmetingen"
+        },
+        "attributes": {
+          "application": "INBOUW AFMETINGEN"
+        }
+      },
+      {
+        "sku": null,
+        "label": "INBOUW AFMETINGEN",
+        "page_in_pdf": 9,
+        "properties": {
+          "type": "inbouw_afmetingen"
+        },
+        "attributes": {
+          "application": "INBOUW AFMETINGEN"
+        }
+      },
+      {
+        "sku": null,
+        "label": "INBOUW AFMETINGEN",
+        "page_in_pdf": 9,
+        "properties": {
+          "type": "inbouw_afmetingen"
+        },
+        "attributes": {
+          "application": "INBOUW AFMETINGEN"
+        }
+      },
+      {
+        "sku": null,
+        "label": "INBOUW AFMETINGEN",
+        "page_in_pdf": 9,
+        "properties": {
+          "type": "inbouw_afmetingen"
+        },
+        "attributes": {
+          "application": "INBOUW AFMETINGEN"
+        }
+      },
+      {
+        "sku": null,
+        "label": "INBOUW AFMETINGEN",
+        "page_in_pdf": 9,
+        "properties": {
+          "type": "inbouw_afmetingen"
+        },
+        "attributes": {
+          "application": "INBOUW AFMETINGEN"
+        }
+      },
+      {
+        "sku": null,
+        "label": "INBOUW AFMETINGEN",
+        "page_in_pdf": 9,
+        "properties": {
+          "type": "inbouw_afmetingen"
+        },
+        "attributes": {
+          "application": "INBOUW AFMETINGEN"
+        }
+      },
+      {
+        "sku": null,
+        "label": "INBOUW AFMETINGEN",
+        "page_in_pdf": 9,
+        "properties": {
+          "type": "inbouw_afmetingen"
+        },
+        "attributes": {
+          "application": "INBOUW AFMETINGEN"
+        }
+      },
+      {
+        "sku": null,
+        "label": "INBOUW AFMETINGEN",
+        "page_in_pdf": 9,
+        "properties": {
+          "type": "inbouw_afmetingen"
+        },
+        "attributes": {
+          "application": "INBOUW AFMETINGEN"
+        }
+      },
+      {
+        "sku": null,
+        "label": "INBOUW AFMETINGEN",
+        "page_in_pdf": 9,
+        "properties": {
+          "type": "inbouw_afmetingen"
+        },
+        "attributes": {
+          "application": "INBOUW AFMETINGEN"
+        }
+      },
+      {
+        "sku": null,
+        "label": "INBOUW AFMETINGEN",
+        "page_in_pdf": 9,
+        "properties": {
+          "type": "inbouw_afmetingen"
+        },
+        "attributes": {
+          "application": "INBOUW AFMETINGEN"
+        }
+      },
+      {
+        "sku": null,
+        "label": "INBOUW AFMETINGEN",
+        "page_in_pdf": 9,
+        "properties": {
+          "type": "inbouw_afmetingen"
+        },
+        "attributes": {
+          "application": "INBOUW AFMETINGEN"
+        }
+      },
+      {
+        "sku": null,
+        "label": "INBOUW AFMETINGEN",
+        "page_in_pdf": 9,
+        "properties": {
+          "type": "inbouw_afmetingen"
+        },
+        "attributes": {
+          "application": "INBOUW AFMETINGEN"
+        }
+      },
+      {
+        "sku": null,
+        "label": "INBOUW AFMETINGEN",
+        "page_in_pdf": 9,
+        "properties": {
+          "type": "inbouw_afmetingen"
+        },
+        "attributes": {
+          "application": "INBOUW AFMETINGEN"
+        }
+      },
+      {
+        "sku": null,
+        "label": "INBOUW AFMETINGEN",
+        "page_in_pdf": 9,
+        "properties": {
+          "type": "inbouw_afmetingen"
+        },
+        "attributes": {
+          "application": "INBOUW AFMETINGEN"
+        }
+      }
+    ],
+    "images": [
+      "images/pomp-specials/inbouw-afmetingen.webp",
+      "images/pomp-specials/pomp-specials__p9__inbouw-afmetingen__v1.webp"
+    ],
+    "variant_count": 19,
+    "default_variant_sku": null,
+    "media": [
+      {
+        "role": "main",
+        "url": "images/pomp-specials/inbouw-afmetingen.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "pomp-specials-industrie-bouw-landbou",
+    "name": "industrie, bouw, landbou",
+    "family": "industrie-bouw-landbou",
+    "catalog": "pomp-specials",
+    "brand": "Various",
+    "category": "VARIATIES",
+    "variants": [
+      {
+        "sku": null,
+        "label": "industrie, bouw, landbou",
+        "page_in_pdf": 13,
+        "properties": {
+          "type": "industrie_bouw_landbou"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 35°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "10 bar",
+          "spec_application_desc": "industrie, bouw, landbouw, maritiem",
+          "application": "VARIATIES"
+        }
+      }
+    ],
+    "images": [
+      "images/pomp-specials/pomp-specials__p13__industrie-bouw-landbouw-maritiem__13520048__13520048.webp",
+      "images/pomp-specials/pomp-specials__p12__industrie-bouw-landbouw__13520108-13520109__v2.webp"
+    ],
+    "variant_count": 1,
+    "default_variant_sku": null,
+    "media": [
+      {
+        "role": "main",
+        "url": "images/pomp-specials/pomp-specials__p13__industrie-bouw-landbouw-maritiem__13520048__13520048.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "pomp-specials-landbouw-slachthuizen-biogas-i",
+    "name": "landbouw, slachthuizen, biogas i",
+    "family": "landbouw-slachthuizen-biogas-i",
+    "catalog": "pomp-specials",
+    "brand": "Various",
+    "category": "VARIATIES",
+    "variants": [
+      {
+        "sku": null,
+        "label": "landbouw, slachthuizen, biogas i",
+        "page_in_pdf": 6,
+        "properties": {
+          "type": "landbouw_slachthuizen_biogas_i",
+          "debiet_m3_h": "60-300",
+          "opv_hoogte_m": "140 m"
+        },
+        "attributes": {
+          "spec_liquid_temp_range": "maximum 40°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "Zie opvoerhoogte in onderstaande tabel",
+          "spec_application_desc": "landbouw, slachthuizen, biogas installaties",
+          "spec_housing": "Gietijzer",
+          "spec_product_variant": "met vermaalinrichting",
+          "application": "VARIATIES"
+        }
+      }
+    ],
+    "images": [
+      "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__18540001.webp",
+      "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v4.webp"
+    ],
+    "variant_count": 1,
+    "default_variant_sku": null,
+    "media": [
+      {
+        "role": "main",
+        "url": "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__18540001.webp"
+      }
+    ]
+  }
+]

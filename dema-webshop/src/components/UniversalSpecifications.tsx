@@ -49,17 +49,27 @@ export default function UniversalSpecifications({ product, compact = false }: Un
           🔧 {product.pressure_min_bar}-{product.pressure_max_bar} bar
         </span>
       )}
-      {!product.pressure_min_bar && product.pressure_max_bar && !product.pressure_work_bar && (
+      {!product.pressure_min_bar && product.pressure_max_bar && !product.pressure_work_bar && !product.pressure_bar && (
         <span className={`${badgeClass} bg-blue-50 text-blue-800 border border-blue-200`}>
           🔧 {product.pressure_max_bar} bar
         </span>
       )}
-      {product.pressure_work_bar && (
+      {product.pressure_bar && !product.pressure_display && (
+        <span className={`${badgeClass} bg-blue-50 text-blue-800 border border-blue-200`}>
+          🔧 {product.pressure_bar} bar
+        </span>
+      )}
+      {product.pressure_display && (
+        <span className={`${badgeClass} bg-blue-50 text-blue-800 border border-blue-200`}>
+          🔧 {product.pressure_display}
+        </span>
+      )}
+      {product.pressure_work_bar && !product.pressure_display && (
         <span className={`${badgeClass} bg-blue-50 text-blue-800 border border-blue-200`}>
           🔧 {product.pressure_work_bar} bar{product.pressure_max_bar && product.pressure_max_bar !== product.pressure_work_bar ? ' work' : ''}
         </span>
       )}
-      {product.pressure_max_bar && product.pressure_work_bar && product.pressure_max_bar !== product.pressure_work_bar && (
+      {product.pressure_max_bar && product.pressure_work_bar && product.pressure_max_bar !== product.pressure_work_bar && !product.pressure_display && (
         <span className={`${badgeClass} bg-blue-50 text-blue-800 border border-blue-200`}>
           🔧 {product.pressure_max_bar} bar max
         </span>
@@ -97,17 +107,27 @@ export default function UniversalSpecifications({ product, compact = false }: Un
         </span>
       )}
 
-      {/* Volume / Capacity */}
+      {/* Volume / Capacity / Tank */}
       {product.volume_l && (
         <span className={`${badgeClass} bg-indigo-50 text-indigo-800 border border-indigo-200`}>
-          🗜️ {product.volume_l} L
+          🗜️ {product.volume_l} L tank
+        </span>
+      )}
+      {product.tank_volume_l && (
+        <span className={`${badgeClass} bg-indigo-50 text-indigo-800 border border-indigo-200`}>
+          🗜️ {product.tank_volume_l} L tank
         </span>
       )}
 
       {/* Diameters */}
       {product.diameter_mm && !product.inner_diameter_mm && !product.outer_diameter_mm && (
         <span className={`${badgeClass} bg-green-50 text-green-800 border border-green-200`}>
-          📏 {product.diameter_mm} mm
+          📏 ø {product.diameter_mm} mm
+        </span>
+      )}
+      {product.diameter_display && !product.diameter_mm && (
+        <span className={`${badgeClass} bg-green-50 text-green-800 border border-green-200`}>
+          📏 ø {product.diameter_display}
         </span>
       )}
       {product.outer_diameter_mm && (
@@ -122,9 +142,14 @@ export default function UniversalSpecifications({ product, compact = false }: Un
       )}
 
       {/* Length */}
-      {product.length_m && (
+      {product.length_m && !product.length_display && (
         <span className={`${badgeClass} bg-teal-50 text-teal-800 border border-teal-200`}>
           📐 {product.length_m} m
+        </span>
+      )}
+      {product.length_display && (
+        <span className={`${badgeClass} bg-teal-50 text-teal-800 border border-teal-200`}>
+          📐 {product.length_display}
         </span>
       )}
 
@@ -174,9 +199,14 @@ export default function UniversalSpecifications({ product, compact = false }: Un
       )}
 
       {/* Weight */}
-      {product.weight_kg && (
+      {product.weight_kg && !product.weight_display && (
         <span className={`${badgeClass} bg-gray-50 text-gray-800 border border-gray-200`}>
           ⚖️ {product.weight_kg} kg
+        </span>
+      )}
+      {product.weight_display && (
+        <span className={`${badgeClass} bg-gray-50 text-gray-800 border border-gray-200`}>
+          ⚖️ {product.weight_display}
         </span>
       )}
 
@@ -187,10 +217,29 @@ export default function UniversalSpecifications({ product, compact = false }: Un
         </span>
       )}
 
+      {/* Wall Thickness */}
+      {product.wall_thickness_mm && !product.wall_thickness_display && (
+        <span className={`${badgeClass} bg-slate-50 text-slate-800 border border-slate-200`}>
+          ▭ {product.wall_thickness_mm} mm wall
+        </span>
+      )}
+      {product.wall_thickness_display && (
+        <span className={`${badgeClass} bg-slate-50 text-slate-800 border border-slate-200`}>
+          ▭ {product.wall_thickness_display} wall
+        </span>
+      )}
+
       {/* Thread Size */}
       {product.thread_size && (
         <span className={`${badgeClass} bg-rose-50 text-rose-800 border border-rose-200`}>
           🔩 {product.thread_size}
+        </span>
+      )}
+      
+      {/* Connection Type */}
+      {product.connection_type && (
+        <span className={`${badgeClass} bg-cyan-50 text-cyan-800 border border-cyan-200`}>
+          🔗 {product.connection_type}
         </span>
       )}
 

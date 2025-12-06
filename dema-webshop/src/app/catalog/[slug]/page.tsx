@@ -15,9 +15,11 @@ export default function CatalogProductPage() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    // Find product by SKU (slug)
+    // Find product by SKU (slug) - use optional chaining for seo
     const found = catalogProducts.find((p: any) => 
-      p.seo.slug === slug || p.sku.toLowerCase() === slug.toLowerCase()
+      p.seo?.slug === slug || 
+      p.sku?.toLowerCase() === slug.toLowerCase() ||
+      p.id === slug
     );
     setProduct(found);
     setLoading(false);

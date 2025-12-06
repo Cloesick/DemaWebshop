@@ -87,8 +87,8 @@ export default function Header() {
           {/* Request Quote & Cart & Contact */}
           <div className="flex items-center space-x-4">
             {/* Request Quote Button */}
-            <button 
-              onClick={toggleQuote} 
+            <Link
+              href="/quote-request"
               className="flex items-center text-gray-700 hover:text-orange-600 relative transition-colors"
               title="Request Quote"
             >
@@ -99,7 +99,7 @@ export default function Header() {
                 </span>
               )}
               <span className="ml-1 hidden md:inline">Quote</span>
-            </button>
+            </Link>
             
             {/* Cart Button */}
             <button onClick={toggleCart} className="flex items-center text-gray-700 hover:text-blue-600 relative">
@@ -122,6 +122,7 @@ export default function Header() {
           <ul className="flex space-x-8">
             <li><Link href="/" className="text-gray-700 hover:text-blue-600 font-medium">{t('nav.home')}</Link></li>
             <li><Link href="/products" className="text-gray-700 hover:text-blue-600 font-medium">{t('nav.products')}</Link></li>
+            <li><Link href="/catalogs" className="text-gray-700 hover:text-blue-600 font-medium">📚 Catalogs</Link></li>
             <li><Link href="/categories" className="text-gray-700 hover:text-blue-600 font-medium">{t('nav.categories')}</Link></li>
             <li><Link href="/about" className="text-gray-700 hover:text-blue-600 font-medium">{t('nav.about')}</Link></li>
             <li><Link href="/contact" className="text-gray-700 hover:text-blue-600 font-medium">{t('contact')}</Link></li>

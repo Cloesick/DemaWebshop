@@ -21,6 +21,7 @@ export default function Navbar() {
   const navigation = [
     { key: 'nav.home', href: '/' },
     { key: 'nav.products', href: '/products' },
+    { key: 'nav.catalogs', href: '/catalogs', literal: true },
     { key: 'nav.about', href: '/about' },
     { key: 'contact', href: '/contact' },
   ];
@@ -52,7 +53,7 @@ export default function Navbar() {
                       : 'border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700'
                       } inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium`}
                   >
-                    {t(item.key)}
+                    {(item as any).literal ? item.key : t(item.key)}
                   </Link>
                 ))}
               </div>
@@ -98,10 +99,33 @@ export default function Navbar() {
                 <UserIcon className="h-6 w-6" aria-hidden="true" />
               </Link>
             </div>
-            <div className="-mr-2 flex items-center sm:hidden">
+            <div className="-mr-2 flex items-center sm:hidden gap-3">
+              {/* Request Quote Button - Mobile */}
               <button
-                onClick={() => setIsOpen(!isOpen)}
+                type="button"
+                onClick={toggleQuote}
+                className="p-1 rounded-full text-orange-500 hover:text-orange-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-orange-500 relative"
+                title="Request Quote"
+              >
+                <span className="sr-only">Request Quote</span>
+                <FileText className="h-6 w-6" aria-hidden="true" />
+                {quoteItems.length > 0 && (
+                  <span className="absolute -top-1 -right-1 bg-orange-500 text-white text-xs font-bold rounded-full h-5 w-5 flex items-center justify-center">
+                    {quoteItems.length}
+                  </span>
+                )}
+              </button>
+              
+              {/* Hamburger Menu Button */}
+              <button
+                type="button"
+                onClick={() => {
+                  console.log('Hamburger clicked, isOpen:', isOpen);
+                  setIsOpen(!isOpen);
+                }}
                 className="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-500"
+                aria-expanded={isOpen}
+                aria-label="Toggle navigation menu"
               >
                 <span className="sr-only">Open main menu</span>
                 {isOpen ? (
@@ -115,7 +139,7 @@ export default function Navbar() {
         </div>
 
         {/* Mobile menu */}
-        <div className={`${isOpen ? 'block' : 'hidden'} sm:hidden`}>
+        <div className={`${isOpen ? 'block' : 'hidden'} sm:hidden bg-white border-t border-gray-200`}>
           <div className="pt-2 pb-3 space-y-1">
             {navigation.map((item) => (
               <Link
@@ -127,12 +151,28 @@ export default function Navbar() {
                   }`}
                 onClick={() => setIsOpen(false)}
               >
-                {t(item.key)}
+                {(item as any).literal ? item.key : t(item.key)}
               </Link>
             ))}
           </div>
           <div className="pt-4 pb-3 border-t border-gray-200">
             <div className="flex items-center px-4 space-x-3">
+              <button
+                type="button"
+                onClick={() => {
+                  toggleQuote();
+                  setIsOpen(false);
+                }}
+                className="flex-shrink-0 p-1 rounded-full text-orange-500 hover:text-orange-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-orange-500 relative"
+              >
+                <span className="sr-only">Request Quote</span>
+                <FileText className="h-6 w-6" aria-hidden="true" />
+                {quoteItems.length > 0 && (
+                  <span className="absolute -top-1 -right-1 bg-orange-500 text-white text-xs font-bold rounded-full h-5 w-5 flex items-center justify-center">
+                    {quoteItems.length}
+                  </span>
+                )}
+              </button>
               <button
                 type="button"
                 onClick={() => {

@@ -1,0 +1,1010 @@
+{
+  "catalog": "rubber-slangen",
+  "generated": "2025-11-30T20:05:41.170553",
+  "total_skus": 31,
+  "total_images": 67,
+  "mapping": {
+    "P184": [
+      {
+        "filename": "P158+P184_p002_i08.webp",
+        "page": 2,
+        "all_skus": [
+          "P158",
+          "P184"
+        ]
+      },
+      {
+        "filename": "P159+P184_p003_i00.webp",
+        "page": 3,
+        "all_skus": [
+          "P159",
+          "P184"
+        ]
+      },
+      {
+        "filename": "P184+P192_p003_i10.webp",
+        "page": 3,
+        "all_skus": [
+          "P184",
+          "P192"
+        ]
+      },
+      {
+        "filename": "P143+P184_p004_i00.webp",
+        "page": 4,
+        "all_skus": [
+          "P143",
+          "P184"
+        ]
+      },
+      {
+        "filename": "P184+P192_p004_i10.webp",
+        "page": 4,
+        "all_skus": [
+          "P184",
+          "P192"
+        ]
+      },
+      {
+        "filename": "P143+P184_p005_i01.webp",
+        "page": 5,
+        "all_skus": [
+          "P143",
+          "P184"
+        ]
+      },
+      {
+        "filename": "P184+P192_p005_i10.webp",
+        "page": 5,
+        "all_skus": [
+          "P184",
+          "P192"
+        ]
+      },
+      {
+        "filename": "P139+P184_p006_i00.webp",
+        "page": 6,
+        "all_skus": [
+          "P139",
+          "P184"
+        ]
+      },
+      {
+        "filename": "P184+P193_p006_i10.webp",
+        "page": 6,
+        "all_skus": [
+          "P184",
+          "P193"
+        ]
+      },
+      {
+        "filename": "P184+P190_p011_i11.webp",
+        "page": 11,
+        "all_skus": [
+          "P184",
+          "P190"
+        ]
+      },
+      {
+        "filename": "2010+3821+P184+P190+SLGT05+SLGT06+SLGT08+SLGT10_p012_i01.webp",
+        "page": 12,
+        "all_skus": [
+          "2010",
+          "3821",
+          "P184",
+          "P190",
+          "SLGT05",
+          "SLGT06",
+          "SLGT08",
+          "SLGT10"
+        ]
+      },
+      {
+        "filename": "P184+P190_p012_i12.webp",
+        "page": 12,
+        "all_skus": [
+          "P184",
+          "P190"
+        ]
+      }
+    ],
+    "P158": [
+      {
+        "filename": "P158+P184_p002_i08.webp",
+        "page": 2,
+        "all_skus": [
+          "P158",
+          "P184"
+        ]
+      },
+      {
+        "filename": "P158+P192_p002_i09.webp",
+        "page": 2,
+        "all_skus": [
+          "P158",
+          "P192"
+        ]
+      },
+      {
+        "filename": "P143+P158_p004_i11.webp",
+        "page": 4,
+        "all_skus": [
+          "P143",
+          "P158"
+        ]
+      },
+      {
+        "filename": "P143+P158_p005_i11.webp",
+        "page": 5,
+        "all_skus": [
+          "P143",
+          "P158"
+        ]
+      },
+      {
+        "filename": "P139+P158_p006_i11.webp",
+        "page": 6,
+        "all_skus": [
+          "P139",
+          "P158"
+        ]
+      }
+    ],
+    "P192": [
+      {
+        "filename": "P158+P192_p002_i09.webp",
+        "page": 2,
+        "all_skus": [
+          "P158",
+          "P192"
+        ]
+      },
+      {
+        "filename": "P192_p002_i10.webp",
+        "page": 2,
+        "all_skus": [
+          "P192"
+        ]
+      },
+      {
+        "filename": "P184+P192_p003_i10.webp",
+        "page": 3,
+        "all_skus": [
+          "P184",
+          "P192"
+        ]
+      },
+      {
+        "filename": "P192_p003_i11.webp",
+        "page": 3,
+        "all_skus": [
+          "P192"
+        ]
+      },
+      {
+        "filename": "P184+P192_p004_i10.webp",
+        "page": 4,
+        "all_skus": [
+          "P184",
+          "P192"
+        ]
+      },
+      {
+        "filename": "P192_p004_i12.webp",
+        "page": 4,
+        "all_skus": [
+          "P192"
+        ]
+      },
+      {
+        "filename": "P184+P192_p005_i10.webp",
+        "page": 5,
+        "all_skus": [
+          "P184",
+          "P192"
+        ]
+      },
+      {
+        "filename": "P192_p005_i12.webp",
+        "page": 5,
+        "all_skus": [
+          "P192"
+        ]
+      },
+      {
+        "filename": "P126+P192_p007_i02.webp",
+        "page": 7,
+        "all_skus": [
+          "P126",
+          "P192"
+        ]
+      },
+      {
+        "filename": "P192_p007_i03.webp",
+        "page": 7,
+        "all_skus": [
+          "P192"
+        ]
+      },
+      {
+        "filename": "P131+P192_p008_i01.webp",
+        "page": 8,
+        "all_skus": [
+          "P131",
+          "P192"
+        ]
+      },
+      {
+        "filename": "P192_p008_i02.webp",
+        "page": 8,
+        "all_skus": [
+          "P192"
+        ]
+      },
+      {
+        "filename": "P192+P98_p018_i01.webp",
+        "page": 18,
+        "all_skus": [
+          "P192",
+          "P98"
+        ]
+      },
+      {
+        "filename": "P192_p018_i04.webp",
+        "page": 18,
+        "all_skus": [
+          "P192"
+        ]
+      },
+      {
+        "filename": "P192_p019_i02.webp",
+        "page": 19,
+        "all_skus": [
+          "P192"
+        ]
+      },
+      {
+        "filename": "P192+P92_p019_i03.webp",
+        "page": 19,
+        "all_skus": [
+          "P192",
+          "P92"
+        ]
+      },
+      {
+        "filename": "P192_p020_i02.webp",
+        "page": 20,
+        "all_skus": [
+          "P192"
+        ]
+      },
+      {
+        "filename": "P126+P192_p020_i03.webp",
+        "page": 20,
+        "all_skus": [
+          "P126",
+          "P192"
+        ]
+      }
+    ],
+    "P159": [
+      {
+        "filename": "P159+P184_p003_i00.webp",
+        "page": 3,
+        "all_skus": [
+          "P159",
+          "P184"
+        ]
+      }
+    ],
+    "P143": [
+      {
+        "filename": "P143+P184_p004_i00.webp",
+        "page": 4,
+        "all_skus": [
+          "P143",
+          "P184"
+        ]
+      },
+      {
+        "filename": "P143+P158_p004_i11.webp",
+        "page": 4,
+        "all_skus": [
+          "P143",
+          "P158"
+        ]
+      },
+      {
+        "filename": "P143+P184_p005_i01.webp",
+        "page": 5,
+        "all_skus": [
+          "P143",
+          "P184"
+        ]
+      },
+      {
+        "filename": "P143+P158_p005_i11.webp",
+        "page": 5,
+        "all_skus": [
+          "P143",
+          "P158"
+        ]
+      }
+    ],
+    "P139": [
+      {
+        "filename": "P139+P184_p006_i00.webp",
+        "page": 6,
+        "all_skus": [
+          "P139",
+          "P184"
+        ]
+      },
+      {
+        "filename": "P139+P158_p006_i11.webp",
+        "page": 6,
+        "all_skus": [
+          "P139",
+          "P158"
+        ]
+      }
+    ],
+    "P193": [
+      {
+        "filename": "P184+P193_p006_i10.webp",
+        "page": 6,
+        "all_skus": [
+          "P184",
+          "P193"
+        ]
+      },
+      {
+        "filename": "P193_p006_i12.webp",
+        "page": 6,
+        "all_skus": [
+          "P193"
+        ]
+      }
+    ],
+    "P92": [
+      {
+        "filename": "P109+P92_p007_i00.webp",
+        "page": 7,
+        "all_skus": [
+          "P109",
+          "P92"
+        ]
+      },
+      {
+        "filename": "P102+P92_p017_i00.webp",
+        "page": 17,
+        "all_skus": [
+          "P102",
+          "P92"
+        ]
+      },
+      {
+        "filename": "P195+P92_p017_i05.webp",
+        "page": 17,
+        "all_skus": [
+          "P195",
+          "P92"
+        ]
+      },
+      {
+        "filename": "P109+P92_p019_i01.webp",
+        "page": 19,
+        "all_skus": [
+          "P109",
+          "P92"
+        ]
+      },
+      {
+        "filename": "P192+P92_p019_i03.webp",
+        "page": 19,
+        "all_skus": [
+          "P192",
+          "P92"
+        ]
+      }
+    ],
+    "P109": [
+      {
+        "filename": "P109+P92_p007_i00.webp",
+        "page": 7,
+        "all_skus": [
+          "P109",
+          "P92"
+        ]
+      },
+      {
+        "filename": "P109+P126_p007_i01.webp",
+        "page": 7,
+        "all_skus": [
+          "P109",
+          "P126"
+        ]
+      },
+      {
+        "filename": "P109+P98_p018_i00.webp",
+        "page": 18,
+        "all_skus": [
+          "P109",
+          "P98"
+        ]
+      },
+      {
+        "filename": "P109+P92_p019_i01.webp",
+        "page": 19,
+        "all_skus": [
+          "P109",
+          "P92"
+        ]
+      }
+    ],
+    "P126": [
+      {
+        "filename": "P109+P126_p007_i01.webp",
+        "page": 7,
+        "all_skus": [
+          "P109",
+          "P126"
+        ]
+      },
+      {
+        "filename": "P126+P192_p007_i02.webp",
+        "page": 7,
+        "all_skus": [
+          "P126",
+          "P192"
+        ]
+      },
+      {
+        "filename": "P126+P192_p020_i03.webp",
+        "page": 20,
+        "all_skus": [
+          "P126",
+          "P192"
+        ]
+      }
+    ],
+    "P155": [
+      {
+        "filename": "P131+P155_p008_i00.webp",
+        "page": 8,
+        "all_skus": [
+          "P131",
+          "P155"
+        ]
+      },
+      {
+        "filename": "11851+P149+P155_p021_i00.webp",
+        "page": 21,
+        "all_skus": [
+          "11851",
+          "P149",
+          "P155"
+        ]
+      },
+      {
+        "filename": "P155+P189_p021_i04.webp",
+        "page": 21,
+        "all_skus": [
+          "P155",
+          "P189"
+        ]
+      },
+      {
+        "filename": "P155+P156_p022_i00.webp",
+        "page": 22,
+        "all_skus": [
+          "P155",
+          "P156"
+        ]
+      },
+      {
+        "filename": "P155+P189_p022_i03.webp",
+        "page": 22,
+        "all_skus": [
+          "P155",
+          "P189"
+        ]
+      },
+      {
+        "filename": "P155+P156_p023_i00.webp",
+        "page": 23,
+        "all_skus": [
+          "P155",
+          "P156"
+        ]
+      },
+      {
+        "filename": "P155+P189_p023_i03.webp",
+        "page": 23,
+        "all_skus": [
+          "P155",
+          "P189"
+        ]
+      }
+    ],
+    "P131": [
+      {
+        "filename": "P131+P155_p008_i00.webp",
+        "page": 8,
+        "all_skus": [
+          "P131",
+          "P155"
+        ]
+      },
+      {
+        "filename": "P131+P192_p008_i01.webp",
+        "page": 8,
+        "all_skus": [
+          "P131",
+          "P192"
+        ]
+      }
+    ],
+    "P168": [
+      {
+        "filename": "P163+P168_p009_i00.webp",
+        "page": 9,
+        "all_skus": [
+          "P163",
+          "P168"
+        ]
+      },
+      {
+        "filename": "P168+P191_p009_i01.webp",
+        "page": 9,
+        "all_skus": [
+          "P168",
+          "P191"
+        ]
+      }
+    ],
+    "P163": [
+      {
+        "filename": "P163+P168_p009_i00.webp",
+        "page": 9,
+        "all_skus": [
+          "P163",
+          "P168"
+        ]
+      }
+    ],
+    "P191": [
+      {
+        "filename": "P168+P191_p009_i01.webp",
+        "page": 9,
+        "all_skus": [
+          "P168",
+          "P191"
+        ]
+      },
+      {
+        "filename": "P191_p009_i02.webp",
+        "page": 9,
+        "all_skus": [
+          "P191"
+        ]
+      }
+    ],
+    "P190": [
+      {
+        "filename": "P190_p011_i00.webp",
+        "page": 11,
+        "all_skus": [
+          "P190"
+        ]
+      },
+      {
+        "filename": "P190_p011_i01.webp",
+        "page": 11,
+        "all_skus": [
+          "P190"
+        ]
+      },
+      {
+        "filename": "P184+P190_p011_i11.webp",
+        "page": 11,
+        "all_skus": [
+          "P184",
+          "P190"
+        ]
+      },
+      {
+        "filename": "2010+3821+P184+P190+SLGT05+SLGT06+SLGT08+SLGT10_p012_i01.webp",
+        "page": 12,
+        "all_skus": [
+          "2010",
+          "3821",
+          "P184",
+          "P190",
+          "SLGT05",
+          "SLGT06",
+          "SLGT08",
+          "SLGT10"
+        ]
+      },
+      {
+        "filename": "P190_p012_i02.webp",
+        "page": 12,
+        "all_skus": [
+          "P190"
+        ]
+      },
+      {
+        "filename": "P190_p012_i03.webp",
+        "page": 12,
+        "all_skus": [
+          "P190"
+        ]
+      },
+      {
+        "filename": "P184+P190_p012_i12.webp",
+        "page": 12,
+        "all_skus": [
+          "P184",
+          "P190"
+        ]
+      }
+    ],
+    "2010": [
+      {
+        "filename": "2010+3821+P184+P190+SLGT05+SLGT06+SLGT08+SLGT10_p012_i01.webp",
+        "page": 12,
+        "all_skus": [
+          "2010",
+          "3821",
+          "P184",
+          "P190",
+          "SLGT05",
+          "SLGT06",
+          "SLGT08",
+          "SLGT10"
+        ]
+      }
+    ],
+    "SLGT10": [
+      {
+        "filename": "2010+3821+P184+P190+SLGT05+SLGT06+SLGT08+SLGT10_p012_i01.webp",
+        "page": 12,
+        "all_skus": [
+          "2010",
+          "3821",
+          "P184",
+          "P190",
+          "SLGT05",
+          "SLGT06",
+          "SLGT08",
+          "SLGT10"
+        ]
+      }
+    ],
+    "SLGT08": [
+      {
+        "filename": "2010+3821+P184+P190+SLGT05+SLGT06+SLGT08+SLGT10_p012_i01.webp",
+        "page": 12,
+        "all_skus": [
+          "2010",
+          "3821",
+          "P184",
+          "P190",
+          "SLGT05",
+          "SLGT06",
+          "SLGT08",
+          "SLGT10"
+        ]
+      }
+    ],
+    "3821": [
+      {
+        "filename": "2010+3821+P184+P190+SLGT05+SLGT06+SLGT08+SLGT10_p012_i01.webp",
+        "page": 12,
+        "all_skus": [
+          "2010",
+          "3821",
+          "P184",
+          "P190",
+          "SLGT05",
+          "SLGT06",
+          "SLGT08",
+          "SLGT10"
+        ]
+      }
+    ],
+    "SLGT05": [
+      {
+        "filename": "2010+3821+P184+P190+SLGT05+SLGT06+SLGT08+SLGT10_p012_i01.webp",
+        "page": 12,
+        "all_skus": [
+          "2010",
+          "3821",
+          "P184",
+          "P190",
+          "SLGT05",
+          "SLGT06",
+          "SLGT08",
+          "SLGT10"
+        ]
+      }
+    ],
+    "SLGT06": [
+      {
+        "filename": "2010+3821+P184+P190+SLGT05+SLGT06+SLGT08+SLGT10_p012_i01.webp",
+        "page": 12,
+        "all_skus": [
+          "2010",
+          "3821",
+          "P184",
+          "P190",
+          "SLGT05",
+          "SLGT06",
+          "SLGT08",
+          "SLGT10"
+        ]
+      }
+    ],
+    "P152": [
+      {
+        "filename": "P152+P153_p013_i00.webp",
+        "page": 13,
+        "all_skus": [
+          "P152",
+          "P153"
+        ]
+      },
+      {
+        "filename": "P152+P189_p013_i01.webp",
+        "page": 13,
+        "all_skus": [
+          "P152",
+          "P189"
+        ]
+      },
+      {
+        "filename": "P152+P153_p016_i00.webp",
+        "page": 16,
+        "all_skus": [
+          "P152",
+          "P153"
+        ]
+      },
+      {
+        "filename": "P152+P189_p016_i01.webp",
+        "page": 16,
+        "all_skus": [
+          "P152",
+          "P189"
+        ]
+      },
+      {
+        "filename": "P152+P153_p024_i02.webp",
+        "page": 24,
+        "all_skus": [
+          "P152",
+          "P153"
+        ]
+      },
+      {
+        "filename": "P152+P189_p024_i03.webp",
+        "page": 24,
+        "all_skus": [
+          "P152",
+          "P189"
+        ]
+      }
+    ],
+    "P153": [
+      {
+        "filename": "P152+P153_p013_i00.webp",
+        "page": 13,
+        "all_skus": [
+          "P152",
+          "P153"
+        ]
+      },
+      {
+        "filename": "P152+P153_p016_i00.webp",
+        "page": 16,
+        "all_skus": [
+          "P152",
+          "P153"
+        ]
+      },
+      {
+        "filename": "P152+P153_p024_i02.webp",
+        "page": 24,
+        "all_skus": [
+          "P152",
+          "P153"
+        ]
+      }
+    ],
+    "P189": [
+      {
+        "filename": "P152+P189_p013_i01.webp",
+        "page": 13,
+        "all_skus": [
+          "P152",
+          "P189"
+        ]
+      },
+      {
+        "filename": "P189_p013_i02.webp",
+        "page": 13,
+        "all_skus": [
+          "P189"
+        ]
+      },
+      {
+        "filename": "P152+P189_p016_i01.webp",
+        "page": 16,
+        "all_skus": [
+          "P152",
+          "P189"
+        ]
+      },
+      {
+        "filename": "P189_p016_i02.webp",
+        "page": 16,
+        "all_skus": [
+          "P189"
+        ]
+      },
+      {
+        "filename": "P189_p021_i03.webp",
+        "page": 21,
+        "all_skus": [
+          "P189"
+        ]
+      },
+      {
+        "filename": "P155+P189_p021_i04.webp",
+        "page": 21,
+        "all_skus": [
+          "P155",
+          "P189"
+        ]
+      },
+      {
+        "filename": "P189_p022_i02.webp",
+        "page": 22,
+        "all_skus": [
+          "P189"
+        ]
+      },
+      {
+        "filename": "P155+P189_p022_i03.webp",
+        "page": 22,
+        "all_skus": [
+          "P155",
+          "P189"
+        ]
+      },
+      {
+        "filename": "P189_p023_i02.webp",
+        "page": 23,
+        "all_skus": [
+          "P189"
+        ]
+      },
+      {
+        "filename": "P155+P189_p023_i03.webp",
+        "page": 23,
+        "all_skus": [
+          "P155",
+          "P189"
+        ]
+      },
+      {
+        "filename": "P152+P189_p024_i03.webp",
+        "page": 24,
+        "all_skus": [
+          "P152",
+          "P189"
+        ]
+      },
+      {
+        "filename": "P189_p024_i04.webp",
+        "page": 24,
+        "all_skus": [
+          "P189"
+        ]
+      }
+    ],
+    "P102": [
+      {
+        "filename": "P102+P92_p017_i00.webp",
+        "page": 17,
+        "all_skus": [
+          "P102",
+          "P92"
+        ]
+      }
+    ],
+    "P195": [
+      {
+        "filename": "P195_p017_i01.webp",
+        "page": 17,
+        "all_skus": [
+          "P195"
+        ]
+      },
+      {
+        "filename": "P195_p017_i02.webp",
+        "page": 17,
+        "all_skus": [
+          "P195"
+        ]
+      },
+      {
+        "filename": "P195+P92_p017_i05.webp",
+        "page": 17,
+        "all_skus": [
+          "P195",
+          "P92"
+        ]
+      }
+    ],
+    "P98": [
+      {
+        "filename": "P109+P98_p018_i00.webp",
+        "page": 18,
+        "all_skus": [
+          "P109",
+          "P98"
+        ]
+      },
+      {
+        "filename": "P192+P98_p018_i01.webp",
+        "page": 18,
+        "all_skus": [
+          "P192",
+          "P98"
+        ]
+      }
+    ],
+    "11851": [
+      {
+        "filename": "11851+P149+P155_p021_i00.webp",
+        "page": 21,
+        "all_skus": [
+          "11851",
+          "P149",
+          "P155"
+        ]
+      }
+    ],
+    "P149": [
+      {
+        "filename": "11851+P149+P155_p021_i00.webp",
+        "page": 21,
+        "all_skus": [
+          "11851",
+          "P149",
+          "P155"
+        ]
+      }
+    ],
+    "P156": [
+      {
+        "filename": "P155+P156_p022_i00.webp",
+        "page": 22,
+        "all_skus": [
+          "P155",
+          "P156"
+        ]
+      },
+      {
+        "filename": "P155+P156_p023_i00.webp",
+        "page": 23,
+        "all_skus": [
+          "P155",
+          "P156"
+        ]
+      }
+    ]
+  }
+}

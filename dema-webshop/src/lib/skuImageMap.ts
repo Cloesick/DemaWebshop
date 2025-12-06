@@ -12,6 +12,10 @@ export async function getSkuImagePath(sku: string): Promise<string | null> {
     loading = fetch('/data/Product_images.json', { cache: 'no-store' })
       .then(async (r) => {
         if (!r.ok) throw new Error('Failed to load Product_images.json');
+        const contentType = r.headers.get('content-type');
+        if (!contentType || !contentType.includes('application/json')) {
+          throw new Error('Not JSON response');
+        }
         return r.json();
       })
       .then((j) => {

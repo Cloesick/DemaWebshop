@@ -1,0 +1,3445 @@
+[
+  {
+    "group_id": "slangklemmen-alu-klemschalen",
+    "name": "ALU KLEMSCHALEN",
+    "family": "alu-klemschalen",
+    "catalog": "slangklemmen",
+    "brand": "Various",
+    "category": "2-DELIG VOOR KLEMSCHAAL SLANGKOPPELING",
+    "variants": [
+      {
+        "sku": "GM46013",
+        "label": "ALU KLEMSCHALEN",
+        "page_in_pdf": 1,
+        "properties": {
+          "type": "alu_klemschalen"
+        },
+        "attributes": {
+          "application": "2-DELIG VOOR KLEMSCHAAL SLANGKOPPELING"
+        }
+      },
+      {
+        "sku": "GM46019",
+        "label": "ALU KLEMSCHALEN",
+        "page_in_pdf": 1,
+        "properties": {
+          "type": "alu_klemschalen"
+        },
+        "attributes": {
+          "application": "2-DELIG VOOR KLEMSCHAAL SLANGKOPPELING"
+        }
+      },
+      {
+        "sku": "GM4602506",
+        "label": "ALU KLEMSCHALEN",
+        "page_in_pdf": 1,
+        "properties": {
+          "type": "alu_klemschalen"
+        },
+        "attributes": {
+          "application": "2-DELIG VOOR KLEMSCHAAL SLANGKOPPELING"
+        }
+      },
+      {
+        "sku": "GM4602506",
+        "label": "ALU KLEMSCHALEN",
+        "page_in_pdf": 1,
+        "properties": {
+          "type": "alu_klemschalen"
+        },
+        "attributes": {
+          "application": "2-DELIG VOOR KLEMSCHAAL SLANGKOPPELING"
+        }
+      },
+      {
+        "sku": "GM4603208",
+        "label": "ALU KLEMSCHALEN",
+        "page_in_pdf": 1,
+        "properties": {
+          "type": "alu_klemschalen"
+        },
+        "attributes": {
+          "application": "2-DELIG VOOR KLEMSCHAAL SLANGKOPPELING"
+        }
+      },
+      {
+        "sku": "GM46038",
+        "label": "ALU KLEMSCHALEN",
+        "page_in_pdf": 1,
+        "properties": {
+          "type": "alu_klemschalen"
+        },
+        "attributes": {
+          "application": "2-DELIG VOOR KLEMSCHAAL SLANGKOPPELING"
+        }
+      },
+      {
+        "sku": "GM4603808",
+        "label": "ALU KLEMSCHALEN",
+        "page_in_pdf": 1,
+        "properties": {
+          "type": "alu_klemschalen"
+        },
+        "attributes": {
+          "application": "2-DELIG VOOR KLEMSCHAAL SLANGKOPPELING"
+        }
+      },
+      {
+        "sku": "GM4603810",
+        "label": "ALU KLEMSCHALEN",
+        "page_in_pdf": 1,
+        "properties": {
+          "type": "alu_klemschalen"
+        },
+        "attributes": {
+          "application": "2-DELIG VOOR KLEMSCHAAL SLANGKOPPELING"
+        }
+      },
+      {
+        "sku": "GM46040",
+        "label": "ALU KLEMSCHALEN",
+        "page_in_pdf": 1,
+        "properties": {
+          "type": "alu_klemschalen"
+        },
+        "attributes": {
+          "application": "2-DELIG VOOR KLEMSCHAAL SLANGKOPPELING"
+        }
+      },
+      {
+        "sku": "GM46050",
+        "label": "ALU KLEMSCHALEN",
+        "page_in_pdf": 1,
+        "properties": {
+          "type": "alu_klemschalen"
+        },
+        "attributes": {
+          "application": "2-DELIG VOOR KLEMSCHAAL SLANGKOPPELING"
+        }
+      },
+      {
+        "sku": "GM4605010",
+        "label": "ALU KLEMSCHALEN",
+        "page_in_pdf": 1,
+        "properties": {
+          "type": "alu_klemschalen"
+        },
+        "attributes": {
+          "application": "2-DELIG VOOR KLEMSCHAAL SLANGKOPPELING"
+        }
+      },
+      {
+        "sku": "GM46063",
+        "label": "ALU KLEMSCHALEN",
+        "page_in_pdf": 1,
+        "properties": {
+          "type": "alu_klemschalen"
+        },
+        "attributes": {
+          "application": "2-DELIG VOOR KLEMSCHAAL SLANGKOPPELING"
+        }
+      },
+      {
+        "sku": "GM4606310",
+        "label": "ALU KLEMSCHALEN",
+        "page_in_pdf": 1,
+        "properties": {
+          "type": "alu_klemschalen"
+        },
+        "attributes": {
+          "application": "2-DELIG VOOR KLEMSCHAAL SLANGKOPPELING"
+        }
+      },
+      {
+        "sku": "GM46075",
+        "label": "ALU KLEMSCHALEN",
+        "page_in_pdf": 1,
+        "properties": {
+          "type": "alu_klemschalen"
+        },
+        "attributes": {
+          "application": "2-DELIG VOOR KLEMSCHAAL SLANGKOPPELING"
+        }
+      },
+      {
+        "sku": "GM4607510",
+        "label": "ALU KLEMSCHALEN",
+        "page_in_pdf": 1,
+        "properties": {
+          "type": "alu_klemschalen"
+        },
+        "attributes": {
+          "application": "2-DELIG VOOR KLEMSCHAAL SLANGKOPPELING"
+        }
+      },
+      {
+        "sku": "GM46080",
+        "label": "ALU KLEMSCHALEN",
+        "page_in_pdf": 1,
+        "properties": {
+          "type": "alu_klemschalen"
+        },
+        "attributes": {
+          "application": "2-DELIG VOOR KLEMSCHAAL SLANGKOPPELING"
+        }
+      },
+      {
+        "sku": "GM46100",
+        "label": "ALU KLEMSCHALEN",
+        "page_in_pdf": 1,
+        "properties": {
+          "type": "alu_klemschalen"
+        },
+        "attributes": {
+          "application": "2-DELIG VOOR KLEMSCHAAL SLANGKOPPELING"
+        }
+      },
+      {
+        "sku": "GM4610010",
+        "label": "ALU KLEMSCHALEN",
+        "page_in_pdf": 1,
+        "properties": {
+          "type": "alu_klemschalen"
+        },
+        "attributes": {
+          "application": "2-DELIG VOOR KLEMSCHAAL SLANGKOPPELING"
+        }
+      },
+      {
+        "sku": "GM4610012",
+        "label": "ALU KLEMSCHALEN",
+        "page_in_pdf": 1,
+        "properties": {
+          "type": "alu_klemschalen"
+        },
+        "attributes": {
+          "application": "2-DELIG VOOR KLEMSCHAAL SLANGKOPPELING"
+        }
+      },
+      {
+        "sku": "GM46125",
+        "label": "ALU KLEMSCHALEN",
+        "page_in_pdf": 1,
+        "properties": {
+          "type": "alu_klemschalen"
+        },
+        "attributes": {
+          "application": "2-DELIG VOOR KLEMSCHAAL SLANGKOPPELING"
+        }
+      },
+      {
+        "sku": "GM46150",
+        "label": "ALU KLEMSCHALEN",
+        "page_in_pdf": 1,
+        "properties": {
+          "type": "alu_klemschalen"
+        },
+        "attributes": {
+          "application": "2-DELIG VOOR KLEMSCHAAL SLANGKOPPELING"
+        }
+      },
+      {
+        "sku": "GM46200",
+        "label": "ALU KLEMSCHALEN",
+        "page_in_pdf": 1,
+        "properties": {
+          "type": "alu_klemschalen"
+        },
+        "attributes": {
+          "application": "2-DELIG VOOR KLEMSCHAAL SLANGKOPPELING"
+        }
+      }
+    ],
+    "images": [
+      "images/slangklemmen/alu-klemschalen__gm46013.webp",
+      "images/slangklemmen/slangklemmen__p1__alu-klemschalen__GM46013-GM46019-GM4602506__v1.webp"
+    ],
+    "variant_count": 22,
+    "default_variant_sku": "GM46013",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/slangklemmen/alu-klemschalen__gm46013.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "slangklemmen-rvs-klemschalen",
+    "name": "RVS KLEMSCHALEN",
+    "family": "rvs-klemschalen",
+    "catalog": "slangklemmen",
+    "brand": "Various",
+    "category": "2-DELIG VOOR KLEMSCHAAL SLANGKOPPELING",
+    "variants": [
+      {
+        "sku": "GMI46013",
+        "label": "RVS KLEMSCHALEN",
+        "page_in_pdf": 1,
+        "properties": {
+          "type": "rvs_klemschalen"
+        },
+        "attributes": {
+          "application": "2-DELIG VOOR KLEMSCHAAL SLANGKOPPELING"
+        }
+      },
+      {
+        "sku": "GMI46019",
+        "label": "RVS KLEMSCHALEN",
+        "page_in_pdf": 1,
+        "properties": {
+          "type": "rvs_klemschalen"
+        },
+        "attributes": {
+          "application": "2-DELIG VOOR KLEMSCHAAL SLANGKOPPELING"
+        }
+      },
+      {
+        "sku": "GMI46025",
+        "label": "RVS KLEMSCHALEN",
+        "page_in_pdf": 1,
+        "properties": {
+          "type": "rvs_klemschalen"
+        },
+        "attributes": {
+          "application": "2-DELIG VOOR KLEMSCHAAL SLANGKOPPELING"
+        }
+      },
+      {
+        "sku": "GMI46032",
+        "label": "RVS KLEMSCHALEN",
+        "page_in_pdf": 1,
+        "properties": {
+          "type": "rvs_klemschalen"
+        },
+        "attributes": {
+          "application": "2-DELIG VOOR KLEMSCHAAL SLANGKOPPELING"
+        }
+      },
+      {
+        "sku": "GMI46038",
+        "label": "RVS KLEMSCHALEN",
+        "page_in_pdf": 1,
+        "properties": {
+          "type": "rvs_klemschalen"
+        },
+        "attributes": {
+          "application": "2-DELIG VOOR KLEMSCHAAL SLANGKOPPELING"
+        }
+      },
+      {
+        "sku": "GMI46050",
+        "label": "RVS KLEMSCHALEN",
+        "page_in_pdf": 1,
+        "properties": {
+          "type": "rvs_klemschalen"
+        },
+        "attributes": {
+          "application": "2-DELIG VOOR KLEMSCHAAL SLANGKOPPELING"
+        }
+      },
+      {
+        "sku": "GMI46063",
+        "label": "RVS KLEMSCHALEN",
+        "page_in_pdf": 1,
+        "properties": {
+          "type": "rvs_klemschalen"
+        },
+        "attributes": {
+          "application": "2-DELIG VOOR KLEMSCHAAL SLANGKOPPELING"
+        }
+      },
+      {
+        "sku": "GMI46075",
+        "label": "RVS KLEMSCHALEN",
+        "page_in_pdf": 1,
+        "properties": {
+          "type": "rvs_klemschalen"
+        },
+        "attributes": {
+          "application": "2-DELIG VOOR KLEMSCHAAL SLANGKOPPELING"
+        }
+      },
+      {
+        "sku": "GMI46100",
+        "label": "RVS KLEMSCHALEN",
+        "page_in_pdf": 1,
+        "properties": {
+          "type": "rvs_klemschalen"
+        },
+        "attributes": {
+          "application": "2-DELIG VOOR KLEMSCHAAL SLANGKOPPELING"
+        }
+      }
+    ],
+    "images": [
+      "images/slangklemmen/alu-klemschalen__gm46013.webp",
+      "images/slangklemmen/slangklemmen__p1__alu-klemschalen__GM46013-GM46019-GM4602506__v1.webp"
+    ],
+    "variant_count": 9,
+    "default_variant_sku": "GMI46013",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/slangklemmen/alu-klemschalen__gm46013.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "slangklemmen-galva-2-oor-slangklemmen",
+    "name": "GALVA 2-OOR SLANGKLEMMEN",
+    "family": "galva-2-oor-slangklemmen",
+    "catalog": "slangklemmen",
+    "brand": "Various",
+    "category": "MONTAGE MET DWARSKNIJPER",
+    "variants": [
+      {
+        "sku": "MAX21005",
+        "label": "GALVA 2-OOR SLANGKLEMMEN",
+        "page_in_pdf": 3,
+        "properties": {
+          "type": "galva_2_oor_slangklemmen"
+        },
+        "attributes": {
+          "spec_product_variant": "MET DWARSKNIJPER",
+          "application": "MONTAGE MET DWARSKNIJPER"
+        }
+      },
+      {
+        "sku": "MAX21007",
+        "label": "GALVA 2-OOR SLANGKLEMMEN",
+        "page_in_pdf": 3,
+        "properties": {
+          "type": "galva_2_oor_slangklemmen"
+        },
+        "attributes": {
+          "spec_product_variant": "MET DWARSKNIJPER",
+          "application": "MONTAGE MET DWARSKNIJPER"
+        }
+      },
+      {
+        "sku": "MAX21009",
+        "label": "GALVA 2-OOR SLANGKLEMMEN",
+        "page_in_pdf": 3,
+        "properties": {
+          "type": "galva_2_oor_slangklemmen"
+        },
+        "attributes": {
+          "spec_product_variant": "MET DWARSKNIJPER",
+          "application": "MONTAGE MET DWARSKNIJPER"
+        }
+      },
+      {
+        "sku": "MAX21011",
+        "label": "GALVA 2-OOR SLANGKLEMMEN",
+        "page_in_pdf": 3,
+        "properties": {
+          "type": "galva_2_oor_slangklemmen"
+        },
+        "attributes": {
+          "spec_product_variant": "MET DWARSKNIJPER",
+          "application": "MONTAGE MET DWARSKNIJPER"
+        }
+      },
+      {
+        "sku": "MAX21013",
+        "label": "GALVA 2-OOR SLANGKLEMMEN",
+        "page_in_pdf": 3,
+        "properties": {
+          "type": "galva_2_oor_slangklemmen"
+        },
+        "attributes": {
+          "spec_product_variant": "MET DWARSKNIJPER",
+          "application": "MONTAGE MET DWARSKNIJPER"
+        }
+      },
+      {
+        "sku": "MAX21014",
+        "label": "GALVA 2-OOR SLANGKLEMMEN",
+        "page_in_pdf": 3,
+        "properties": {
+          "type": "galva_2_oor_slangklemmen"
+        },
+        "attributes": {
+          "spec_product_variant": "MET DWARSKNIJPER",
+          "application": "MONTAGE MET DWARSKNIJPER"
+        }
+      },
+      {
+        "sku": "MAX21015",
+        "label": "GALVA 2-OOR SLANGKLEMMEN",
+        "page_in_pdf": 3,
+        "properties": {
+          "type": "galva_2_oor_slangklemmen"
+        },
+        "attributes": {
+          "spec_product_variant": "MET DWARSKNIJPER",
+          "application": "MONTAGE MET DWARSKNIJPER"
+        }
+      },
+      {
+        "sku": "MAX21018",
+        "label": "GALVA 2-OOR SLANGKLEMMEN",
+        "page_in_pdf": 3,
+        "properties": {
+          "type": "galva_2_oor_slangklemmen"
+        },
+        "attributes": {
+          "spec_product_variant": "MET DWARSKNIJPER",
+          "application": "MONTAGE MET DWARSKNIJPER"
+        }
+      },
+      {
+        "sku": "MAX21020",
+        "label": "GALVA 2-OOR SLANGKLEMMEN",
+        "page_in_pdf": 3,
+        "properties": {
+          "type": "galva_2_oor_slangklemmen"
+        },
+        "attributes": {
+          "spec_product_variant": "MET DWARSKNIJPER",
+          "application": "MONTAGE MET DWARSKNIJPER"
+        }
+      },
+      {
+        "sku": "MAX21022",
+        "label": "GALVA 2-OOR SLANGKLEMMEN",
+        "page_in_pdf": 3,
+        "properties": {
+          "type": "galva_2_oor_slangklemmen"
+        },
+        "attributes": {
+          "spec_product_variant": "MET DWARSKNIJPER",
+          "application": "MONTAGE MET DWARSKNIJPER"
+        }
+      },
+      {
+        "sku": "MAX21023",
+        "label": "GALVA 2-OOR SLANGKLEMMEN",
+        "page_in_pdf": 3,
+        "properties": {
+          "type": "galva_2_oor_slangklemmen"
+        },
+        "attributes": {
+          "spec_product_variant": "MET DWARSKNIJPER",
+          "application": "MONTAGE MET DWARSKNIJPER"
+        }
+      },
+      {
+        "sku": "MAX21025",
+        "label": "GALVA 2-OOR SLANGKLEMMEN",
+        "page_in_pdf": 3,
+        "properties": {
+          "type": "galva_2_oor_slangklemmen"
+        },
+        "attributes": {
+          "spec_product_variant": "MET DWARSKNIJPER",
+          "application": "MONTAGE MET DWARSKNIJPER"
+        }
+      },
+      {
+        "sku": "MAX21028",
+        "label": "GALVA 2-OOR SLANGKLEMMEN",
+        "page_in_pdf": 3,
+        "properties": {
+          "type": "galva_2_oor_slangklemmen"
+        },
+        "attributes": {
+          "spec_product_variant": "MET DWARSKNIJPER",
+          "application": "MONTAGE MET DWARSKNIJPER"
+        }
+      },
+      {
+        "sku": "MAX21031",
+        "label": "GALVA 2-OOR SLANGKLEMMEN",
+        "page_in_pdf": 3,
+        "properties": {
+          "type": "galva_2_oor_slangklemmen"
+        },
+        "attributes": {
+          "spec_product_variant": "MET DWARSKNIJPER",
+          "application": "MONTAGE MET DWARSKNIJPER"
+        }
+      },
+      {
+        "sku": "MAX21034",
+        "label": "GALVA 2-OOR SLANGKLEMMEN",
+        "page_in_pdf": 3,
+        "properties": {
+          "type": "galva_2_oor_slangklemmen"
+        },
+        "attributes": {
+          "spec_product_variant": "MET DWARSKNIJPER",
+          "application": "MONTAGE MET DWARSKNIJPER"
+        }
+      },
+      {
+        "sku": "MAX21037",
+        "label": "GALVA 2-OOR SLANGKLEMMEN",
+        "page_in_pdf": 3,
+        "properties": {
+          "type": "galva_2_oor_slangklemmen"
+        },
+        "attributes": {
+          "spec_product_variant": "MET DWARSKNIJPER",
+          "application": "MONTAGE MET DWARSKNIJPER"
+        }
+      },
+      {
+        "sku": "MAX21040",
+        "label": "GALVA 2-OOR SLANGKLEMMEN",
+        "page_in_pdf": 3,
+        "properties": {
+          "type": "galva_2_oor_slangklemmen"
+        },
+        "attributes": {
+          "spec_product_variant": "MET DWARSKNIJPER",
+          "application": "MONTAGE MET DWARSKNIJPER"
+        }
+      },
+      {
+        "sku": "MAX21043",
+        "label": "GALVA 2-OOR SLANGKLEMMEN",
+        "page_in_pdf": 3,
+        "properties": {
+          "type": "galva_2_oor_slangklemmen"
+        },
+        "attributes": {
+          "spec_product_variant": "MET DWARSKNIJPER",
+          "application": "MONTAGE MET DWARSKNIJPER"
+        }
+      },
+      {
+        "sku": null,
+        "label": "GALVA 2-OOR SLANGKLEMMEN",
+        "page_in_pdf": 3,
+        "properties": {
+          "type": "galva_2_oor_slangklemmen"
+        },
+        "attributes": {
+          "spec_product_variant": "MET DWARSKNIJPER",
+          "application": "MONTAGE MET DWARSKNIJPER"
+        }
+      }
+    ],
+    "images": [
+      "images/slangklemmen/galva-2-oor-slangklemmen__max21005.webp",
+      "images/slangklemmen/slangklemmen__p3__galva-2-oor-slangklemmen__MAX21005-MAX21007-MAX21009__v1.webp"
+    ],
+    "variant_count": 19,
+    "default_variant_sku": "MAX21005",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/slangklemmen/galva-2-oor-slangklemmen__max21005.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "slangklemmen-inox-1-oor-slangklemmen",
+    "name": "INOX 1-OOR SLANGKLEMMEN",
+    "family": "inox-1-oor-slangklemmen",
+    "catalog": "slangklemmen",
+    "brand": "Various",
+    "category": "MONTAGE MET DWARSKNIJPER",
+    "variants": [
+      {
+        "sku": "MAXI11007",
+        "label": "INOX 1-OOR SLANGKLEMMEN",
+        "page_in_pdf": 2,
+        "properties": {
+          "type": "inox_1_oor_slangklemmen"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 6",
+          "application": "MONTAGE MET DWARSKNIJPER"
+        }
+      },
+      {
+        "sku": "MAXI11008",
+        "label": "INOX 1-OOR SLANGKLEMMEN",
+        "page_in_pdf": 2,
+        "properties": {
+          "type": "inox_1_oor_slangklemmen"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 6",
+          "application": "MONTAGE MET DWARSKNIJPER"
+        }
+      },
+      {
+        "sku": "MAXI11009",
+        "label": "INOX 1-OOR SLANGKLEMMEN",
+        "page_in_pdf": 2,
+        "properties": {
+          "type": "inox_1_oor_slangklemmen"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 6",
+          "application": "MONTAGE MET DWARSKNIJPER"
+        }
+      },
+      {
+        "sku": "MAXI11010",
+        "label": "INOX 1-OOR SLANGKLEMMEN",
+        "page_in_pdf": 2,
+        "properties": {
+          "type": "inox_1_oor_slangklemmen"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 6",
+          "application": "MONTAGE MET DWARSKNIJPER"
+        }
+      },
+      {
+        "sku": "MAXI11011",
+        "label": "INOX 1-OOR SLANGKLEMMEN",
+        "page_in_pdf": 2,
+        "properties": {
+          "type": "inox_1_oor_slangklemmen"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 6",
+          "application": "MONTAGE MET DWARSKNIJPER"
+        }
+      },
+      {
+        "sku": "MAXI11012",
+        "label": "INOX 1-OOR SLANGKLEMMEN",
+        "page_in_pdf": 2,
+        "properties": {
+          "type": "inox_1_oor_slangklemmen"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 6",
+          "application": "MONTAGE MET DWARSKNIJPER"
+        }
+      },
+      {
+        "sku": "MAXI11013",
+        "label": "INOX 1-OOR SLANGKLEMMEN",
+        "page_in_pdf": 2,
+        "properties": {
+          "type": "inox_1_oor_slangklemmen"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 6",
+          "application": "MONTAGE MET DWARSKNIJPER"
+        }
+      },
+      {
+        "sku": "MAXI11014",
+        "label": "INOX 1-OOR SLANGKLEMMEN",
+        "page_in_pdf": 2,
+        "properties": {
+          "type": "inox_1_oor_slangklemmen"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 6",
+          "application": "MONTAGE MET DWARSKNIJPER"
+        }
+      },
+      {
+        "sku": "MAXI11015",
+        "label": "INOX 1-OOR SLANGKLEMMEN",
+        "page_in_pdf": 2,
+        "properties": {
+          "type": "inox_1_oor_slangklemmen"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 6",
+          "application": "MONTAGE MET DWARSKNIJPER"
+        }
+      },
+      {
+        "sku": "MAXI11016",
+        "label": "INOX 1-OOR SLANGKLEMMEN",
+        "page_in_pdf": 2,
+        "properties": {
+          "type": "inox_1_oor_slangklemmen"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 6",
+          "application": "MONTAGE MET DWARSKNIJPER"
+        }
+      },
+      {
+        "sku": "MAXI11017",
+        "label": "INOX 1-OOR SLANGKLEMMEN",
+        "page_in_pdf": 2,
+        "properties": {
+          "type": "inox_1_oor_slangklemmen"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 6",
+          "application": "MONTAGE MET DWARSKNIJPER"
+        }
+      },
+      {
+        "sku": "MAXI11018",
+        "label": "INOX 1-OOR SLANGKLEMMEN",
+        "page_in_pdf": 2,
+        "properties": {
+          "type": "inox_1_oor_slangklemmen"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 6",
+          "application": "MONTAGE MET DWARSKNIJPER"
+        }
+      }
+    ],
+    "images": [
+      "images/slangklemmen/inox-1-oor-slangklemmen__maxi11007.webp",
+      "images/slangklemmen/slangklemmen__p2__inox-1-oor-slangklemmen__MAXI11007-MAXI11008-MAXI11009__v1.webp"
+    ],
+    "variant_count": 12,
+    "default_variant_sku": "MAXI11007",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/slangklemmen/inox-1-oor-slangklemmen__maxi11007.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "slangklemmen-inox-2-oor-slangklemmen",
+    "name": "INOX 2-OOR SLANGKLEMMEN",
+    "family": "inox-2-oor-slangklemmen",
+    "catalog": "slangklemmen",
+    "brand": "Various",
+    "category": "RVS 430 | MONTAGE MET DWARSKNIJPER",
+    "variants": [
+      {
+        "sku": "MAXI21005",
+        "label": "INOX 2-OOR SLANGKLEMMEN",
+        "page_in_pdf": 3,
+        "properties": {
+          "type": "inox_2_oor_slangklemmen"
+        },
+        "attributes": {
+          "spec_product_variant": "MET DWARSKNIJPER",
+          "application": "RVS 430 | MONTAGE MET DWARSKNIJPER"
+        }
+      },
+      {
+        "sku": "MAXI21007",
+        "label": "INOX 2-OOR SLANGKLEMMEN",
+        "page_in_pdf": 3,
+        "properties": {
+          "type": "inox_2_oor_slangklemmen"
+        },
+        "attributes": {
+          "spec_product_variant": "MET DWARSKNIJPER",
+          "application": "RVS 430 | MONTAGE MET DWARSKNIJPER"
+        }
+      },
+      {
+        "sku": "MAXI21009",
+        "label": "INOX 2-OOR SLANGKLEMMEN",
+        "page_in_pdf": 3,
+        "properties": {
+          "type": "inox_2_oor_slangklemmen"
+        },
+        "attributes": {
+          "spec_product_variant": "MET DWARSKNIJPER",
+          "application": "RVS 430 | MONTAGE MET DWARSKNIJPER"
+        }
+      },
+      {
+        "sku": "MAXI21011",
+        "label": "INOX 2-OOR SLANGKLEMMEN",
+        "page_in_pdf": 3,
+        "properties": {
+          "type": "inox_2_oor_slangklemmen"
+        },
+        "attributes": {
+          "spec_product_variant": "MET DWARSKNIJPER",
+          "application": "RVS 430 | MONTAGE MET DWARSKNIJPER"
+        }
+      },
+      {
+        "sku": "MAXI21013",
+        "label": "INOX 2-OOR SLANGKLEMMEN",
+        "page_in_pdf": 3,
+        "properties": {
+          "type": "inox_2_oor_slangklemmen"
+        },
+        "attributes": {
+          "spec_product_variant": "MET DWARSKNIJPER",
+          "application": "RVS 430 | MONTAGE MET DWARSKNIJPER"
+        }
+      },
+      {
+        "sku": "MAXI21014",
+        "label": "INOX 2-OOR SLANGKLEMMEN",
+        "page_in_pdf": 3,
+        "properties": {
+          "type": "inox_2_oor_slangklemmen"
+        },
+        "attributes": {
+          "spec_product_variant": "MET DWARSKNIJPER",
+          "application": "RVS 430 | MONTAGE MET DWARSKNIJPER"
+        }
+      },
+      {
+        "sku": "MAXI21015",
+        "label": "INOX 2-OOR SLANGKLEMMEN",
+        "page_in_pdf": 3,
+        "properties": {
+          "type": "inox_2_oor_slangklemmen"
+        },
+        "attributes": {
+          "spec_product_variant": "MET DWARSKNIJPER",
+          "application": "RVS 430 | MONTAGE MET DWARSKNIJPER"
+        }
+      },
+      {
+        "sku": "MAXI21017",
+        "label": "INOX 2-OOR SLANGKLEMMEN",
+        "page_in_pdf": 3,
+        "properties": {
+          "type": "inox_2_oor_slangklemmen"
+        },
+        "attributes": {
+          "spec_product_variant": "MET DWARSKNIJPER",
+          "application": "RVS 430 | MONTAGE MET DWARSKNIJPER"
+        }
+      },
+      {
+        "sku": "MAXI21018",
+        "label": "INOX 2-OOR SLANGKLEMMEN",
+        "page_in_pdf": 3,
+        "properties": {
+          "type": "inox_2_oor_slangklemmen"
+        },
+        "attributes": {
+          "spec_product_variant": "MET DWARSKNIJPER",
+          "application": "RVS 430 | MONTAGE MET DWARSKNIJPER"
+        }
+      },
+      {
+        "sku": "MAXI21020",
+        "label": "INOX 2-OOR SLANGKLEMMEN",
+        "page_in_pdf": 3,
+        "properties": {
+          "type": "inox_2_oor_slangklemmen"
+        },
+        "attributes": {
+          "spec_product_variant": "MET DWARSKNIJPER",
+          "application": "RVS 430 | MONTAGE MET DWARSKNIJPER"
+        }
+      },
+      {
+        "sku": "MAXI21022",
+        "label": "INOX 2-OOR SLANGKLEMMEN",
+        "page_in_pdf": 3,
+        "properties": {
+          "type": "inox_2_oor_slangklemmen"
+        },
+        "attributes": {
+          "spec_product_variant": "MET DWARSKNIJPER",
+          "application": "RVS 430 | MONTAGE MET DWARSKNIJPER"
+        }
+      },
+      {
+        "sku": "MAXI21025",
+        "label": "INOX 2-OOR SLANGKLEMMEN",
+        "page_in_pdf": 3,
+        "properties": {
+          "type": "inox_2_oor_slangklemmen"
+        },
+        "attributes": {
+          "spec_product_variant": "MET DWARSKNIJPER",
+          "application": "RVS 430 | MONTAGE MET DWARSKNIJPER"
+        }
+      },
+      {
+        "sku": "MAXI21031",
+        "label": "INOX 2-OOR SLANGKLEMMEN",
+        "page_in_pdf": 3,
+        "properties": {
+          "type": "inox_2_oor_slangklemmen"
+        },
+        "attributes": {
+          "spec_product_variant": "MET DWARSKNIJPER",
+          "application": "RVS 430 | MONTAGE MET DWARSKNIJPER"
+        }
+      }
+    ],
+    "images": [
+      "images/slangklemmen/galva-2-oor-slangklemmen__max21005.webp",
+      "images/slangklemmen/slangklemmen__p3__galva-2-oor-slangklemmen__MAX21005-MAX21007-MAX21009__v1.webp"
+    ],
+    "variant_count": 13,
+    "default_variant_sku": "MAXI21005",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/slangklemmen/galva-2-oor-slangklemmen__max21005.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "slangklemmen-mini-clip-slangklemmen",
+    "name": "MINI-CLIP SLANGKLEMMEN",
+    "family": "mini-clip-slangklemmen",
+    "catalog": "slangklemmen",
+    "brand": "Various",
+    "category": "MONTAGE MET 6 MM DOPSCHROEVENDRAAIER",
+    "variants": [
+      {
+        "sku": "MAXM11006",
+        "label": "MINI-CLIP SLANGKLEMMEN",
+        "page_in_pdf": 2,
+        "properties": {
+          "type": "mini_clip_slangklemmen"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 6",
+          "application": "MONTAGE MET 6 MM DOPSCHROEVENDRAAIER"
+        }
+      },
+      {
+        "sku": "MAXM11007",
+        "label": "MINI-CLIP SLANGKLEMMEN",
+        "page_in_pdf": 2,
+        "properties": {
+          "type": "mini_clip_slangklemmen"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 6",
+          "application": "MONTAGE MET 6 MM DOPSCHROEVENDRAAIER"
+        }
+      },
+      {
+        "sku": "MAXM11009",
+        "label": "MINI-CLIP SLANGKLEMMEN",
+        "page_in_pdf": 2,
+        "properties": {
+          "type": "mini_clip_slangklemmen"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 6",
+          "application": "MONTAGE MET 6 MM DOPSCHROEVENDRAAIER"
+        }
+      },
+      {
+        "sku": "MAXM11010",
+        "label": "MINI-CLIP SLANGKLEMMEN",
+        "page_in_pdf": 2,
+        "properties": {
+          "type": "mini_clip_slangklemmen"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 6",
+          "application": "MONTAGE MET 6 MM DOPSCHROEVENDRAAIER"
+        }
+      },
+      {
+        "sku": "MAXM11012",
+        "label": "MINI-CLIP SLANGKLEMMEN",
+        "page_in_pdf": 2,
+        "properties": {
+          "type": "mini_clip_slangklemmen"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 6",
+          "application": "MONTAGE MET 6 MM DOPSCHROEVENDRAAIER"
+        }
+      },
+      {
+        "sku": "MAXM11013",
+        "label": "MINI-CLIP SLANGKLEMMEN",
+        "page_in_pdf": 2,
+        "properties": {
+          "type": "mini_clip_slangklemmen"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 6",
+          "application": "MONTAGE MET 6 MM DOPSCHROEVENDRAAIER"
+        }
+      },
+      {
+        "sku": "MAXM11014",
+        "label": "MINI-CLIP SLANGKLEMMEN",
+        "page_in_pdf": 2,
+        "properties": {
+          "type": "mini_clip_slangklemmen"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 6",
+          "application": "MONTAGE MET 6 MM DOPSCHROEVENDRAAIER"
+        }
+      },
+      {
+        "sku": "MAXM11016",
+        "label": "MINI-CLIP SLANGKLEMMEN",
+        "page_in_pdf": 2,
+        "properties": {
+          "type": "mini_clip_slangklemmen"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 6",
+          "application": "MONTAGE MET 6 MM DOPSCHROEVENDRAAIER"
+        }
+      },
+      {
+        "sku": "MAXM11018",
+        "label": "MINI-CLIP SLANGKLEMMEN",
+        "page_in_pdf": 2,
+        "properties": {
+          "type": "mini_clip_slangklemmen"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 6",
+          "application": "MONTAGE MET 6 MM DOPSCHROEVENDRAAIER"
+        }
+      },
+      {
+        "sku": "MAXM11019",
+        "label": "MINI-CLIP SLANGKLEMMEN",
+        "page_in_pdf": 2,
+        "properties": {
+          "type": "mini_clip_slangklemmen"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 6",
+          "application": "MONTAGE MET 6 MM DOPSCHROEVENDRAAIER"
+        }
+      },
+      {
+        "sku": "MAXM11020",
+        "label": "MINI-CLIP SLANGKLEMMEN",
+        "page_in_pdf": 2,
+        "properties": {
+          "type": "mini_clip_slangklemmen"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 6",
+          "application": "MONTAGE MET 6 MM DOPSCHROEVENDRAAIER"
+        }
+      },
+      {
+        "sku": "MAXM11022",
+        "label": "MINI-CLIP SLANGKLEMMEN",
+        "page_in_pdf": 2,
+        "properties": {
+          "type": "mini_clip_slangklemmen"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 6",
+          "application": "MONTAGE MET 6 MM DOPSCHROEVENDRAAIER"
+        }
+      },
+      {
+        "sku": "MAXM11023",
+        "label": "MINI-CLIP SLANGKLEMMEN",
+        "page_in_pdf": 2,
+        "properties": {
+          "type": "mini_clip_slangklemmen"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 6",
+          "application": "MONTAGE MET 6 MM DOPSCHROEVENDRAAIER"
+        }
+      },
+      {
+        "sku": "MAXM11025",
+        "label": "MINI-CLIP SLANGKLEMMEN",
+        "page_in_pdf": 2,
+        "properties": {
+          "type": "mini_clip_slangklemmen"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 6",
+          "application": "MONTAGE MET 6 MM DOPSCHROEVENDRAAIER"
+        }
+      },
+      {
+        "sku": "MAXM11026",
+        "label": "MINI-CLIP SLANGKLEMMEN",
+        "page_in_pdf": 2,
+        "properties": {
+          "type": "mini_clip_slangklemmen"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 6",
+          "application": "MONTAGE MET 6 MM DOPSCHROEVENDRAAIER"
+        }
+      },
+      {
+        "sku": "MAXM11029",
+        "label": "MINI-CLIP SLANGKLEMMEN",
+        "page_in_pdf": 2,
+        "properties": {
+          "type": "mini_clip_slangklemmen"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 6",
+          "application": "MONTAGE MET 6 MM DOPSCHROEVENDRAAIER"
+        }
+      },
+      {
+        "sku": null,
+        "label": "MINI-CLIP SLANGKLEMMEN",
+        "page_in_pdf": 2,
+        "properties": {
+          "type": "mini_clip_slangklemmen"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 6",
+          "application": "MONTAGE MET 6 MM DOPSCHROEVENDRAAIER"
+        }
+      }
+    ],
+    "images": [
+      "images/slangklemmen/inox-1-oor-slangklemmen__maxi11007.webp",
+      "images/slangklemmen/slangklemmen__p2__inox-1-oor-slangklemmen__MAXI11007-MAXI11008-MAXI11009__v1.webp"
+    ],
+    "variant_count": 17,
+    "default_variant_sku": "MAXM11006",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/slangklemmen/inox-1-oor-slangklemmen__maxi11007.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "slangklemmen-voor-schroefklem-mini-clip-montage",
+    "name": "VOOR SCHROEFKLEM & MINI-CLIP MONTAGE",
+    "family": "voor-schroefklem-mini-clip-montage",
+    "catalog": "slangklemmen",
+    "brand": "Various",
+    "category": "Bestelnr Diameter",
+    "variants": [
+      {
+        "sku": "QDW0341061",
+        "label": "VOOR SCHROEFKLEM & MINI-CLIP MONTAGE",
+        "page_in_pdf": 6,
+        "properties": {
+          "type": "voor_schroefklem_mini_clip_montage"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 7",
+          "application": "Bestelnr Diameter"
+        }
+      }
+    ],
+    "images": [
+      "images/slangklemmen/voor-schroefklem-mini-clip-montage__qdw0341061.webp",
+      "images/slangklemmen/slangklemmen__p6__voor-schroefklem-mini-clip-montage__QDW0341061.webp"
+    ],
+    "variant_count": 1,
+    "default_variant_sku": "QDW0341061",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/slangklemmen/voor-schroefklem-mini-clip-montage__qdw0341061.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "slangklemmen-schroefklemmen-verzinkt",
+    "name": "SCHROEFKLEMMEN VERZINKT",
+    "family": "schroefklemmen-verzinkt",
+    "catalog": "slangklemmen",
+    "brand": "Various",
+    "category": "MONTAGE MET 7 MM DOPSCHROEVENDRAAIER",
+    "variants": [
+      {
+        "sku": "SB110082",
+        "label": "SCHROEFKLEMMEN VERZINKT",
+        "page_in_pdf": 6,
+        "properties": {
+          "type": "schroefklemmen_verzinkt"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 7",
+          "application": "MONTAGE MET 7 MM DOPSCHROEVENDRAAIER"
+        }
+      },
+      {
+        "sku": "SB110121",
+        "label": "SCHROEFKLEMMEN VERZINKT",
+        "page_in_pdf": 6,
+        "properties": {
+          "type": "schroefklemmen_verzinkt"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 7",
+          "application": "MONTAGE MET 7 MM DOPSCHROEVENDRAAIER"
+        }
+      },
+      {
+        "sku": "SB120091",
+        "label": "SCHROEFKLEMMEN VERZINKT",
+        "page_in_pdf": 6,
+        "properties": {
+          "type": "schroefklemmen_verzinkt"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 7",
+          "application": "MONTAGE MET 7 MM DOPSCHROEVENDRAAIER"
+        }
+      },
+      {
+        "sku": "SB120111",
+        "label": "SCHROEFKLEMMEN VERZINKT",
+        "page_in_pdf": 6,
+        "properties": {
+          "type": "schroefklemmen_verzinkt"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 7",
+          "application": "MONTAGE MET 7 MM DOPSCHROEVENDRAAIER"
+        }
+      },
+      {
+        "sku": "SB120163",
+        "label": "SCHROEFKLEMMEN VERZINKT",
+        "page_in_pdf": 6,
+        "properties": {
+          "type": "schroefklemmen_verzinkt"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 7",
+          "application": "MONTAGE MET 7 MM DOPSCHROEVENDRAAIER"
+        }
+      },
+      {
+        "sku": "SB120201",
+        "label": "SCHROEFKLEMMEN VERZINKT",
+        "page_in_pdf": 6,
+        "properties": {
+          "type": "schroefklemmen_verzinkt"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 7",
+          "application": "MONTAGE MET 7 MM DOPSCHROEVENDRAAIER"
+        }
+      },
+      {
+        "sku": "SB120253",
+        "label": "SCHROEFKLEMMEN VERZINKT",
+        "page_in_pdf": 6,
+        "properties": {
+          "type": "schroefklemmen_verzinkt"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 7",
+          "application": "MONTAGE MET 7 MM DOPSCHROEVENDRAAIER"
+        }
+      },
+      {
+        "sku": "SB120322",
+        "label": "SCHROEFKLEMMEN VERZINKT",
+        "page_in_pdf": 6,
+        "properties": {
+          "type": "schroefklemmen_verzinkt"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 7",
+          "application": "MONTAGE MET 7 MM DOPSCHROEVENDRAAIER"
+        }
+      },
+      {
+        "sku": "SB120401",
+        "label": "SCHROEFKLEMMEN VERZINKT",
+        "page_in_pdf": 6,
+        "properties": {
+          "type": "schroefklemmen_verzinkt"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 7",
+          "application": "MONTAGE MET 7 MM DOPSCHROEVENDRAAIER"
+        }
+      },
+      {
+        "sku": "SB120501",
+        "label": "SCHROEFKLEMMEN VERZINKT",
+        "page_in_pdf": 6,
+        "properties": {
+          "type": "schroefklemmen_verzinkt"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 7",
+          "application": "MONTAGE MET 7 MM DOPSCHROEVENDRAAIER"
+        }
+      },
+      {
+        "sku": "SB120601",
+        "label": "SCHROEFKLEMMEN VERZINKT",
+        "page_in_pdf": 6,
+        "properties": {
+          "type": "schroefklemmen_verzinkt"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 7",
+          "application": "MONTAGE MET 7 MM DOPSCHROEVENDRAAIER"
+        }
+      },
+      {
+        "sku": "SB120701",
+        "label": "SCHROEFKLEMMEN VERZINKT",
+        "page_in_pdf": 6,
+        "properties": {
+          "type": "schroefklemmen_verzinkt"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 7",
+          "application": "MONTAGE MET 7 MM DOPSCHROEVENDRAAIER"
+        }
+      },
+      {
+        "sku": "SB120801",
+        "label": "SCHROEFKLEMMEN VERZINKT",
+        "page_in_pdf": 6,
+        "properties": {
+          "type": "schroefklemmen_verzinkt"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 7",
+          "application": "MONTAGE MET 7 MM DOPSCHROEVENDRAAIER"
+        }
+      },
+      {
+        "sku": "SB120901",
+        "label": "SCHROEFKLEMMEN VERZINKT",
+        "page_in_pdf": 6,
+        "properties": {
+          "type": "schroefklemmen_verzinkt"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 7",
+          "application": "MONTAGE MET 7 MM DOPSCHROEVENDRAAIER"
+        }
+      },
+      {
+        "sku": "SB121101",
+        "label": "SCHROEFKLEMMEN VERZINKT",
+        "page_in_pdf": 6,
+        "properties": {
+          "type": "schroefklemmen_verzinkt"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 7",
+          "application": "MONTAGE MET 7 MM DOPSCHROEVENDRAAIER"
+        }
+      },
+      {
+        "sku": "SB121201",
+        "label": "SCHROEFKLEMMEN VERZINKT",
+        "page_in_pdf": 6,
+        "properties": {
+          "type": "schroefklemmen_verzinkt"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 7",
+          "application": "MONTAGE MET 7 MM DOPSCHROEVENDRAAIER"
+        }
+      },
+      {
+        "sku": "SB121301",
+        "label": "SCHROEFKLEMMEN VERZINKT",
+        "page_in_pdf": 6,
+        "properties": {
+          "type": "schroefklemmen_verzinkt"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 7",
+          "application": "MONTAGE MET 7 MM DOPSCHROEVENDRAAIER"
+        }
+      },
+      {
+        "sku": "SB121401",
+        "label": "SCHROEFKLEMMEN VERZINKT",
+        "page_in_pdf": 6,
+        "properties": {
+          "type": "schroefklemmen_verzinkt"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 7",
+          "application": "MONTAGE MET 7 MM DOPSCHROEVENDRAAIER"
+        }
+      },
+      {
+        "sku": "SB121501",
+        "label": "SCHROEFKLEMMEN VERZINKT",
+        "page_in_pdf": 6,
+        "properties": {
+          "type": "schroefklemmen_verzinkt"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 7",
+          "application": "MONTAGE MET 7 MM DOPSCHROEVENDRAAIER"
+        }
+      },
+      {
+        "sku": "SB121601",
+        "label": "SCHROEFKLEMMEN VERZINKT",
+        "page_in_pdf": 6,
+        "properties": {
+          "type": "schroefklemmen_verzinkt"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 7",
+          "application": "MONTAGE MET 7 MM DOPSCHROEVENDRAAIER"
+        }
+      },
+      {
+        "sku": "SB121751",
+        "label": "SCHROEFKLEMMEN VERZINKT",
+        "page_in_pdf": 6,
+        "properties": {
+          "type": "schroefklemmen_verzinkt"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 7",
+          "application": "MONTAGE MET 7 MM DOPSCHROEVENDRAAIER"
+        }
+      },
+      {
+        "sku": "SB121801",
+        "label": "SCHROEFKLEMMEN VERZINKT",
+        "page_in_pdf": 6,
+        "properties": {
+          "type": "schroefklemmen_verzinkt"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 7",
+          "application": "MONTAGE MET 7 MM DOPSCHROEVENDRAAIER"
+        }
+      },
+      {
+        "sku": "SB122001",
+        "label": "SCHROEFKLEMMEN VERZINKT",
+        "page_in_pdf": 6,
+        "properties": {
+          "type": "schroefklemmen_verzinkt"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 7",
+          "application": "MONTAGE MET 7 MM DOPSCHROEVENDRAAIER"
+        }
+      },
+      {
+        "sku": "SB122101",
+        "label": "SCHROEFKLEMMEN VERZINKT",
+        "page_in_pdf": 6,
+        "properties": {
+          "type": "schroefklemmen_verzinkt"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 7",
+          "application": "MONTAGE MET 7 MM DOPSCHROEVENDRAAIER"
+        }
+      },
+      {
+        "sku": "SB122201",
+        "label": "SCHROEFKLEMMEN VERZINKT",
+        "page_in_pdf": 6,
+        "properties": {
+          "type": "schroefklemmen_verzinkt"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 7",
+          "application": "MONTAGE MET 7 MM DOPSCHROEVENDRAAIER"
+        }
+      },
+      {
+        "sku": null,
+        "label": "SCHROEFKLEMMEN VERZINKT",
+        "page_in_pdf": 6,
+        "properties": {
+          "type": "schroefklemmen_verzinkt"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 7",
+          "application": "MONTAGE MET 7 MM DOPSCHROEVENDRAAIER"
+        }
+      },
+      {
+        "sku": null,
+        "label": "SCHROEFKLEMMEN VERZINKT",
+        "page_in_pdf": 6,
+        "properties": {
+          "type": "schroefklemmen_verzinkt"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 7",
+          "application": "MONTAGE MET 7 MM DOPSCHROEVENDRAAIER"
+        }
+      }
+    ],
+    "images": [
+      "images/slangklemmen/schroefklemmen-verzinkt__sb110082.webp",
+      "images/slangklemmen/slangklemmen__p6__schroefklemmen-verzinkt__SB110082-SB110121-SB120091__v1.webp"
+    ],
+    "variant_count": 27,
+    "default_variant_sku": "SB110082",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/slangklemmen/schroefklemmen-verzinkt__sb110082.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "slangklemmen-schroefklemmen-inox-w2",
+    "name": "SCHROEFKLEMMEN INOX W2",
+    "family": "schroefklemmen-inox-w2",
+    "catalog": "slangklemmen",
+    "brand": "Various",
+    "category": "RVS 430 | MONTAGE MET 7 MM DOPSCHROEVENDRAAIER",
+    "variants": [
+      {
+        "sku": "SBI110081",
+        "label": "SCHROEFKLEMMEN INOX W2",
+        "page_in_pdf": 4,
+        "properties": {
+          "type": "schroefklemmen_inox_w2"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 7",
+          "application": "RVS 430 | MONTAGE MET 7 MM DOPSCHROEVENDRAAIER"
+        }
+      },
+      {
+        "sku": "SBI110121",
+        "label": "SCHROEFKLEMMEN INOX W2",
+        "page_in_pdf": 4,
+        "properties": {
+          "type": "schroefklemmen_inox_w2"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 7",
+          "application": "RVS 430 | MONTAGE MET 7 MM DOPSCHROEVENDRAAIER"
+        }
+      },
+      {
+        "sku": "SBI110161",
+        "label": "SCHROEFKLEMMEN INOX W2",
+        "page_in_pdf": 4,
+        "properties": {
+          "type": "schroefklemmen_inox_w2"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 7",
+          "application": "RVS 430 | MONTAGE MET 7 MM DOPSCHROEVENDRAAIER"
+        }
+      },
+      {
+        "sku": "SBI110201",
+        "label": "SCHROEFKLEMMEN INOX W2",
+        "page_in_pdf": 4,
+        "properties": {
+          "type": "schroefklemmen_inox_w2"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 7",
+          "application": "RVS 430 | MONTAGE MET 7 MM DOPSCHROEVENDRAAIER"
+        }
+      },
+      {
+        "sku": "SBI110251",
+        "label": "SCHROEFKLEMMEN INOX W2",
+        "page_in_pdf": 4,
+        "properties": {
+          "type": "schroefklemmen_inox_w2"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 7",
+          "application": "RVS 430 | MONTAGE MET 7 MM DOPSCHROEVENDRAAIER"
+        }
+      },
+      {
+        "sku": "SBI110321",
+        "label": "SCHROEFKLEMMEN INOX W2",
+        "page_in_pdf": 4,
+        "properties": {
+          "type": "schroefklemmen_inox_w2"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 7",
+          "application": "RVS 430 | MONTAGE MET 7 MM DOPSCHROEVENDRAAIER"
+        }
+      },
+      {
+        "sku": "SBI110401",
+        "label": "SCHROEFKLEMMEN INOX W2",
+        "page_in_pdf": 4,
+        "properties": {
+          "type": "schroefklemmen_inox_w2"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 7",
+          "application": "RVS 430 | MONTAGE MET 7 MM DOPSCHROEVENDRAAIER"
+        }
+      },
+      {
+        "sku": "SBI110601",
+        "label": "SCHROEFKLEMMEN INOX W2",
+        "page_in_pdf": 4,
+        "properties": {
+          "type": "schroefklemmen_inox_w2"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 7",
+          "application": "RVS 430 | MONTAGE MET 7 MM DOPSCHROEVENDRAAIER"
+        }
+      },
+      {
+        "sku": "SBI110701",
+        "label": "SCHROEFKLEMMEN INOX W2",
+        "page_in_pdf": 4,
+        "properties": {
+          "type": "schroefklemmen_inox_w2"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 7",
+          "application": "RVS 430 | MONTAGE MET 7 MM DOPSCHROEVENDRAAIER"
+        }
+      },
+      {
+        "sku": "SBI110801",
+        "label": "SCHROEFKLEMMEN INOX W2",
+        "page_in_pdf": 4,
+        "properties": {
+          "type": "schroefklemmen_inox_w2"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 7",
+          "application": "RVS 430 | MONTAGE MET 7 MM DOPSCHROEVENDRAAIER"
+        }
+      },
+      {
+        "sku": "SBI110901",
+        "label": "SCHROEFKLEMMEN INOX W2",
+        "page_in_pdf": 4,
+        "properties": {
+          "type": "schroefklemmen_inox_w2"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 7",
+          "application": "RVS 430 | MONTAGE MET 7 MM DOPSCHROEVENDRAAIER"
+        }
+      },
+      {
+        "sku": "SBI111001",
+        "label": "SCHROEFKLEMMEN INOX W2",
+        "page_in_pdf": 4,
+        "properties": {
+          "type": "schroefklemmen_inox_w2"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 7",
+          "application": "RVS 430 | MONTAGE MET 7 MM DOPSCHROEVENDRAAIER"
+        }
+      },
+      {
+        "sku": "SBI111101",
+        "label": "SCHROEFKLEMMEN INOX W2",
+        "page_in_pdf": 4,
+        "properties": {
+          "type": "schroefklemmen_inox_w2"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 7",
+          "application": "RVS 430 | MONTAGE MET 7 MM DOPSCHROEVENDRAAIER"
+        }
+      },
+      {
+        "sku": "SBI120161",
+        "label": "SCHROEFKLEMMEN INOX W2",
+        "page_in_pdf": 4,
+        "properties": {
+          "type": "schroefklemmen_inox_w2"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 7",
+          "application": "RVS 430 | MONTAGE MET 7 MM DOPSCHROEVENDRAAIER"
+        }
+      },
+      {
+        "sku": "SBI120251",
+        "label": "SCHROEFKLEMMEN INOX W2",
+        "page_in_pdf": 4,
+        "properties": {
+          "type": "schroefklemmen_inox_w2"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 7",
+          "application": "RVS 430 | MONTAGE MET 7 MM DOPSCHROEVENDRAAIER"
+        }
+      },
+      {
+        "sku": "SBI120321",
+        "label": "SCHROEFKLEMMEN INOX W2",
+        "page_in_pdf": 4,
+        "properties": {
+          "type": "schroefklemmen_inox_w2"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 7",
+          "application": "RVS 430 | MONTAGE MET 7 MM DOPSCHROEVENDRAAIER"
+        }
+      },
+      {
+        "sku": "SBI120401",
+        "label": "SCHROEFKLEMMEN INOX W2",
+        "page_in_pdf": 4,
+        "properties": {
+          "type": "schroefklemmen_inox_w2"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 7",
+          "application": "RVS 430 | MONTAGE MET 7 MM DOPSCHROEVENDRAAIER"
+        }
+      },
+      {
+        "sku": "SBI120501",
+        "label": "SCHROEFKLEMMEN INOX W2",
+        "page_in_pdf": 4,
+        "properties": {
+          "type": "schroefklemmen_inox_w2"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 7",
+          "application": "RVS 430 | MONTAGE MET 7 MM DOPSCHROEVENDRAAIER"
+        }
+      },
+      {
+        "sku": "SBI120601",
+        "label": "SCHROEFKLEMMEN INOX W2",
+        "page_in_pdf": 4,
+        "properties": {
+          "type": "schroefklemmen_inox_w2"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 7",
+          "application": "RVS 430 | MONTAGE MET 7 MM DOPSCHROEVENDRAAIER"
+        }
+      },
+      {
+        "sku": "SBI120701",
+        "label": "SCHROEFKLEMMEN INOX W2",
+        "page_in_pdf": 4,
+        "properties": {
+          "type": "schroefklemmen_inox_w2"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 7",
+          "application": "RVS 430 | MONTAGE MET 7 MM DOPSCHROEVENDRAAIER"
+        }
+      },
+      {
+        "sku": "SBI120801",
+        "label": "SCHROEFKLEMMEN INOX W2",
+        "page_in_pdf": 4,
+        "properties": {
+          "type": "schroefklemmen_inox_w2"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 7",
+          "application": "RVS 430 | MONTAGE MET 7 MM DOPSCHROEVENDRAAIER"
+        }
+      },
+      {
+        "sku": "SBI121201",
+        "label": "SCHROEFKLEMMEN INOX W2",
+        "page_in_pdf": 4,
+        "properties": {
+          "type": "schroefklemmen_inox_w2"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 7",
+          "application": "RVS 430 | MONTAGE MET 7 MM DOPSCHROEVENDRAAIER"
+        }
+      },
+      {
+        "sku": "SBI121301",
+        "label": "SCHROEFKLEMMEN INOX W2",
+        "page_in_pdf": 4,
+        "properties": {
+          "type": "schroefklemmen_inox_w2"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 7",
+          "application": "RVS 430 | MONTAGE MET 7 MM DOPSCHROEVENDRAAIER"
+        }
+      },
+      {
+        "sku": "SBI121401",
+        "label": "SCHROEFKLEMMEN INOX W2",
+        "page_in_pdf": 4,
+        "properties": {
+          "type": "schroefklemmen_inox_w2"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 7",
+          "application": "RVS 430 | MONTAGE MET 7 MM DOPSCHROEVENDRAAIER"
+        }
+      },
+      {
+        "sku": "SBI121501",
+        "label": "SCHROEFKLEMMEN INOX W2",
+        "page_in_pdf": 4,
+        "properties": {
+          "type": "schroefklemmen_inox_w2"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 7",
+          "application": "RVS 430 | MONTAGE MET 7 MM DOPSCHROEVENDRAAIER"
+        }
+      },
+      {
+        "sku": "SBI121601",
+        "label": "SCHROEFKLEMMEN INOX W2",
+        "page_in_pdf": 4,
+        "properties": {
+          "type": "schroefklemmen_inox_w2"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 7",
+          "application": "RVS 430 | MONTAGE MET 7 MM DOPSCHROEVENDRAAIER"
+        }
+      },
+      {
+        "sku": "SBI121701",
+        "label": "SCHROEFKLEMMEN INOX W2",
+        "page_in_pdf": 4,
+        "properties": {
+          "type": "schroefklemmen_inox_w2"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 7",
+          "application": "RVS 430 | MONTAGE MET 7 MM DOPSCHROEVENDRAAIER"
+        }
+      },
+      {
+        "sku": "SBI121801",
+        "label": "SCHROEFKLEMMEN INOX W2",
+        "page_in_pdf": 4,
+        "properties": {
+          "type": "schroefklemmen_inox_w2"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 7",
+          "application": "RVS 430 | MONTAGE MET 7 MM DOPSCHROEVENDRAAIER"
+        }
+      },
+      {
+        "sku": "SBI121901",
+        "label": "SCHROEFKLEMMEN INOX W2",
+        "page_in_pdf": 4,
+        "properties": {
+          "type": "schroefklemmen_inox_w2"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 7",
+          "application": "RVS 430 | MONTAGE MET 7 MM DOPSCHROEVENDRAAIER"
+        }
+      },
+      {
+        "sku": "SBI122001",
+        "label": "SCHROEFKLEMMEN INOX W2",
+        "page_in_pdf": 4,
+        "properties": {
+          "type": "schroefklemmen_inox_w2"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 7",
+          "application": "RVS 430 | MONTAGE MET 7 MM DOPSCHROEVENDRAAIER"
+        }
+      },
+      {
+        "sku": "SBI122101",
+        "label": "SCHROEFKLEMMEN INOX W2",
+        "page_in_pdf": 4,
+        "properties": {
+          "type": "schroefklemmen_inox_w2"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 7",
+          "application": "RVS 430 | MONTAGE MET 7 MM DOPSCHROEVENDRAAIER"
+        }
+      },
+      {
+        "sku": "SBI122201",
+        "label": "SCHROEFKLEMMEN INOX W2",
+        "page_in_pdf": 4,
+        "properties": {
+          "type": "schroefklemmen_inox_w2"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 7",
+          "application": "RVS 430 | MONTAGE MET 7 MM DOPSCHROEVENDRAAIER"
+        }
+      },
+      {
+        "sku": null,
+        "label": "SCHROEFKLEMMEN INOX W2",
+        "page_in_pdf": 4,
+        "properties": {
+          "type": "schroefklemmen_inox_w2"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 7",
+          "application": "RVS 430 | MONTAGE MET 7 MM DOPSCHROEVENDRAAIER"
+        }
+      },
+      {
+        "sku": null,
+        "label": "SCHROEFKLEMMEN INOX W2",
+        "page_in_pdf": 4,
+        "properties": {
+          "type": "schroefklemmen_inox_w2"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 7",
+          "application": "RVS 430 | MONTAGE MET 7 MM DOPSCHROEVENDRAAIER"
+        }
+      },
+      {
+        "sku": null,
+        "label": "SCHROEFKLEMMEN INOX W2",
+        "page_in_pdf": 4,
+        "properties": {
+          "type": "schroefklemmen_inox_w2"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 7",
+          "application": "RVS 430 | MONTAGE MET 7 MM DOPSCHROEVENDRAAIER"
+        }
+      }
+    ],
+    "images": [
+      "images/slangklemmen/schroefklemmen-inox-w2__sbi110081.webp",
+      "images/slangklemmen/slangklemmen__p4__schroefklemmen-inox-w2__SBI110081-SBI110121-SBI110161__v1.webp"
+    ],
+    "variant_count": 35,
+    "default_variant_sku": "SBI110081",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/slangklemmen/schroefklemmen-inox-w2__sbi110081.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "slangklemmen-supra-schroefklemmen-inox-w2",
+    "name": "SUPRA SCHROEFKLEMMEN INOX W2",
+    "family": "supra-schroefklemmen-inox-w2",
+    "catalog": "slangklemmen",
+    "brand": "Various",
+    "category": "RVS 430",
+    "variants": [
+      {
+        "sku": "SBI210171",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W2",
+        "page_in_pdf": 4,
+        "properties": {
+          "type": "supra_schroefklemmen_inox_w2"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 7",
+          "application": "RVS 430"
+        }
+      },
+      {
+        "sku": "SBI210191",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W2",
+        "page_in_pdf": 4,
+        "properties": {
+          "type": "supra_schroefklemmen_inox_w2"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 7",
+          "application": "RVS 430"
+        }
+      },
+      {
+        "sku": "SBI210211",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W2",
+        "page_in_pdf": 4,
+        "properties": {
+          "type": "supra_schroefklemmen_inox_w2"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 7",
+          "application": "RVS 430"
+        }
+      },
+      {
+        "sku": "SBI210231",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W2",
+        "page_in_pdf": 4,
+        "properties": {
+          "type": "supra_schroefklemmen_inox_w2"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 7",
+          "application": "RVS 430"
+        }
+      },
+      {
+        "sku": "SBI210251",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W2",
+        "page_in_pdf": 4,
+        "properties": {
+          "type": "supra_schroefklemmen_inox_w2"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 7",
+          "application": "RVS 430"
+        }
+      },
+      {
+        "sku": "SBI210271",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W2",
+        "page_in_pdf": 4,
+        "properties": {
+          "type": "supra_schroefklemmen_inox_w2"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 7",
+          "application": "RVS 430"
+        }
+      },
+      {
+        "sku": "SBI210291",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W2",
+        "page_in_pdf": 4,
+        "properties": {
+          "type": "supra_schroefklemmen_inox_w2"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 7",
+          "application": "RVS 430"
+        }
+      },
+      {
+        "sku": "SBI210341",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W2",
+        "page_in_pdf": 4,
+        "properties": {
+          "type": "supra_schroefklemmen_inox_w2"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 7",
+          "application": "RVS 430"
+        }
+      },
+      {
+        "sku": "SBI210371",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W2",
+        "page_in_pdf": 4,
+        "properties": {
+          "type": "supra_schroefklemmen_inox_w2"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 7",
+          "application": "RVS 430"
+        }
+      },
+      {
+        "sku": "SBI210401",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W2",
+        "page_in_pdf": 4,
+        "properties": {
+          "type": "supra_schroefklemmen_inox_w2"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 7",
+          "application": "RVS 430"
+        }
+      },
+      {
+        "sku": "SBI210431",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W2",
+        "page_in_pdf": 4,
+        "properties": {
+          "type": "supra_schroefklemmen_inox_w2"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 7",
+          "application": "RVS 430"
+        }
+      },
+      {
+        "sku": "SBI210471",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W2",
+        "page_in_pdf": 4,
+        "properties": {
+          "type": "supra_schroefklemmen_inox_w2"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 7",
+          "application": "RVS 430"
+        }
+      },
+      {
+        "sku": "SBI210511",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W2",
+        "page_in_pdf": 4,
+        "properties": {
+          "type": "supra_schroefklemmen_inox_w2"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 7",
+          "application": "RVS 430"
+        }
+      },
+      {
+        "sku": "SBI210551",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W2",
+        "page_in_pdf": 4,
+        "properties": {
+          "type": "supra_schroefklemmen_inox_w2"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 7",
+          "application": "RVS 430"
+        }
+      },
+      {
+        "sku": "SBI210631",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W2",
+        "page_in_pdf": 4,
+        "properties": {
+          "type": "supra_schroefklemmen_inox_w2"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 7",
+          "application": "RVS 430"
+        }
+      },
+      {
+        "sku": "SBI210681",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W2",
+        "page_in_pdf": 4,
+        "properties": {
+          "type": "supra_schroefklemmen_inox_w2"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 7",
+          "application": "RVS 430"
+        }
+      },
+      {
+        "sku": "SBI210731",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W2",
+        "page_in_pdf": 4,
+        "properties": {
+          "type": "supra_schroefklemmen_inox_w2"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 7",
+          "application": "RVS 430"
+        }
+      },
+      {
+        "sku": "SBI210791",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W2",
+        "page_in_pdf": 4,
+        "properties": {
+          "type": "supra_schroefklemmen_inox_w2"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 7",
+          "application": "RVS 430"
+        }
+      },
+      {
+        "sku": "SBI210851",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W2",
+        "page_in_pdf": 4,
+        "properties": {
+          "type": "supra_schroefklemmen_inox_w2"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 7",
+          "application": "RVS 430"
+        }
+      },
+      {
+        "sku": "SBI210911",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W2",
+        "page_in_pdf": 4,
+        "properties": {
+          "type": "supra_schroefklemmen_inox_w2"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 7",
+          "application": "RVS 430"
+        }
+      },
+      {
+        "sku": "SBI210971",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W2",
+        "page_in_pdf": 4,
+        "properties": {
+          "type": "supra_schroefklemmen_inox_w2"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 7",
+          "application": "RVS 430"
+        }
+      },
+      {
+        "sku": "SBI211121",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W2",
+        "page_in_pdf": 4,
+        "properties": {
+          "type": "supra_schroefklemmen_inox_w2"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 7",
+          "application": "RVS 430"
+        }
+      },
+      {
+        "sku": "SBI211211",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W2",
+        "page_in_pdf": 4,
+        "properties": {
+          "type": "supra_schroefklemmen_inox_w2"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 7",
+          "application": "RVS 430"
+        }
+      },
+      {
+        "sku": "SBI211301",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W2",
+        "page_in_pdf": 4,
+        "properties": {
+          "type": "supra_schroefklemmen_inox_w2"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 7",
+          "application": "RVS 430"
+        }
+      },
+      {
+        "sku": "SBI211401",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W2",
+        "page_in_pdf": 4,
+        "properties": {
+          "type": "supra_schroefklemmen_inox_w2"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 7",
+          "application": "RVS 430"
+        }
+      },
+      {
+        "sku": "SBI211501",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W2",
+        "page_in_pdf": 4,
+        "properties": {
+          "type": "supra_schroefklemmen_inox_w2"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 7",
+          "application": "RVS 430"
+        }
+      },
+      {
+        "sku": "SBI211621",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W2",
+        "page_in_pdf": 4,
+        "properties": {
+          "type": "supra_schroefklemmen_inox_w2"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 7",
+          "application": "RVS 430"
+        }
+      },
+      {
+        "sku": "SBI211741",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W2",
+        "page_in_pdf": 4,
+        "properties": {
+          "type": "supra_schroefklemmen_inox_w2"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 7",
+          "application": "RVS 430"
+        }
+      },
+      {
+        "sku": "SBI211871",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W2",
+        "page_in_pdf": 4,
+        "properties": {
+          "type": "supra_schroefklemmen_inox_w2"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 7",
+          "application": "RVS 430"
+        }
+      },
+      {
+        "sku": "SBI212001",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W2",
+        "page_in_pdf": 4,
+        "properties": {
+          "type": "supra_schroefklemmen_inox_w2"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 7",
+          "application": "RVS 430"
+        }
+      },
+      {
+        "sku": "SBI212131",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W2",
+        "page_in_pdf": 4,
+        "properties": {
+          "type": "supra_schroefklemmen_inox_w2"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 7",
+          "application": "RVS 430"
+        }
+      },
+      {
+        "sku": "SBI212261",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W2",
+        "page_in_pdf": 4,
+        "properties": {
+          "type": "supra_schroefklemmen_inox_w2"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 7",
+          "application": "RVS 430"
+        }
+      },
+      {
+        "sku": "SBI212391",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W2",
+        "page_in_pdf": 4,
+        "properties": {
+          "type": "supra_schroefklemmen_inox_w2"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 7",
+          "application": "RVS 430"
+        }
+      },
+      {
+        "sku": null,
+        "label": "SUPRA SCHROEFKLEMMEN INOX W2",
+        "page_in_pdf": 4,
+        "properties": {
+          "type": "supra_schroefklemmen_inox_w2"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 7",
+          "application": "RVS 430"
+        }
+      },
+      {
+        "sku": null,
+        "label": "SUPRA SCHROEFKLEMMEN INOX W2",
+        "page_in_pdf": 4,
+        "properties": {
+          "type": "supra_schroefklemmen_inox_w2"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 7",
+          "application": "RVS 430"
+        }
+      },
+      {
+        "sku": null,
+        "label": "SUPRA SCHROEFKLEMMEN INOX W2",
+        "page_in_pdf": 4,
+        "properties": {
+          "type": "supra_schroefklemmen_inox_w2"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 7",
+          "application": "RVS 430"
+        }
+      }
+    ],
+    "images": [
+      "images/slangklemmen/schroefklemmen-inox-w2__sbi110081.webp",
+      "images/slangklemmen/slangklemmen__p4__schroefklemmen-inox-w2__SBI110081-SBI110121-SBI110161__v1.webp"
+    ],
+    "variant_count": 36,
+    "default_variant_sku": "SBI210171",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/slangklemmen/schroefklemmen-inox-w2__sbi110081.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "slangklemmen-schroefklemmen-inox-w4",
+    "name": "SCHROEFKLEMMEN INOX W4",
+    "family": "schroefklemmen-inox-w4",
+    "catalog": "slangklemmen",
+    "brand": "Various",
+    "category": "RVS 304 | MONTAGE MET 7 MM DOPSCHROEVENDRAAIER",
+    "variants": [
+      {
+        "sku": "SBIV110082",
+        "label": "SCHROEFKLEMMEN INOX W4",
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "schroefklemmen_inox_w4"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 7",
+          "application": "RVS 304 | MONTAGE MET 7 MM DOPSCHROEVENDRAAIER"
+        }
+      },
+      {
+        "sku": "SBIV110121",
+        "label": "SCHROEFKLEMMEN INOX W4",
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "schroefklemmen_inox_w4"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 7",
+          "application": "RVS 304 | MONTAGE MET 7 MM DOPSCHROEVENDRAAIER"
+        }
+      },
+      {
+        "sku": "SBIV110161",
+        "label": "SCHROEFKLEMMEN INOX W4",
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "schroefklemmen_inox_w4"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 7",
+          "application": "RVS 304 | MONTAGE MET 7 MM DOPSCHROEVENDRAAIER"
+        }
+      },
+      {
+        "sku": "SBIV110201",
+        "label": "SCHROEFKLEMMEN INOX W4",
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "schroefklemmen_inox_w4"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 7",
+          "application": "RVS 304 | MONTAGE MET 7 MM DOPSCHROEVENDRAAIER"
+        }
+      },
+      {
+        "sku": "SBIV110251",
+        "label": "SCHROEFKLEMMEN INOX W4",
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "schroefklemmen_inox_w4"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 7",
+          "application": "RVS 304 | MONTAGE MET 7 MM DOPSCHROEVENDRAAIER"
+        }
+      },
+      {
+        "sku": "SBIV110301",
+        "label": "SCHROEFKLEMMEN INOX W4",
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "schroefklemmen_inox_w4"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 7",
+          "application": "RVS 304 | MONTAGE MET 7 MM DOPSCHROEVENDRAAIER"
+        }
+      },
+      {
+        "sku": "SBIV110321",
+        "label": "SCHROEFKLEMMEN INOX W4",
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "schroefklemmen_inox_w4"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 7",
+          "application": "RVS 304 | MONTAGE MET 7 MM DOPSCHROEVENDRAAIER"
+        }
+      },
+      {
+        "sku": "SBIV110401",
+        "label": "SCHROEFKLEMMEN INOX W4",
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "schroefklemmen_inox_w4"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 7",
+          "application": "RVS 304 | MONTAGE MET 7 MM DOPSCHROEVENDRAAIER"
+        }
+      },
+      {
+        "sku": "SBIV110501",
+        "label": "SCHROEFKLEMMEN INOX W4",
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "schroefklemmen_inox_w4"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 7",
+          "application": "RVS 304 | MONTAGE MET 7 MM DOPSCHROEVENDRAAIER"
+        }
+      },
+      {
+        "sku": "SBIV110601",
+        "label": "SCHROEFKLEMMEN INOX W4",
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "schroefklemmen_inox_w4"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 7",
+          "application": "RVS 304 | MONTAGE MET 7 MM DOPSCHROEVENDRAAIER"
+        }
+      },
+      {
+        "sku": "SBIV110701",
+        "label": "SCHROEFKLEMMEN INOX W4",
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "schroefklemmen_inox_w4"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 7",
+          "application": "RVS 304 | MONTAGE MET 7 MM DOPSCHROEVENDRAAIER"
+        }
+      },
+      {
+        "sku": "SBIV110801",
+        "label": "SCHROEFKLEMMEN INOX W4",
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "schroefklemmen_inox_w4"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 7",
+          "application": "RVS 304 | MONTAGE MET 7 MM DOPSCHROEVENDRAAIER"
+        }
+      },
+      {
+        "sku": "SBIV110901",
+        "label": "SCHROEFKLEMMEN INOX W4",
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "schroefklemmen_inox_w4"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 7",
+          "application": "RVS 304 | MONTAGE MET 7 MM DOPSCHROEVENDRAAIER"
+        }
+      },
+      {
+        "sku": "SBIV111001",
+        "label": "SCHROEFKLEMMEN INOX W4",
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "schroefklemmen_inox_w4"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 7",
+          "application": "RVS 304 | MONTAGE MET 7 MM DOPSCHROEVENDRAAIER"
+        }
+      },
+      {
+        "sku": "SBIV111101",
+        "label": "SCHROEFKLEMMEN INOX W4",
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "schroefklemmen_inox_w4"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 7",
+          "application": "RVS 304 | MONTAGE MET 7 MM DOPSCHROEVENDRAAIER"
+        }
+      },
+      {
+        "sku": "SBIV120161",
+        "label": "SCHROEFKLEMMEN INOX W4",
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "schroefklemmen_inox_w4"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 7",
+          "application": "RVS 304 | MONTAGE MET 7 MM DOPSCHROEVENDRAAIER"
+        }
+      },
+      {
+        "sku": "SBIV120171",
+        "label": "SCHROEFKLEMMEN INOX W4",
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "schroefklemmen_inox_w4"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 7",
+          "application": "RVS 304 | MONTAGE MET 7 MM DOPSCHROEVENDRAAIER"
+        }
+      },
+      {
+        "sku": "SBIV120201",
+        "label": "SCHROEFKLEMMEN INOX W4",
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "schroefklemmen_inox_w4"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 7",
+          "application": "RVS 304 | MONTAGE MET 7 MM DOPSCHROEVENDRAAIER"
+        }
+      },
+      {
+        "sku": "SBIV120251",
+        "label": "SCHROEFKLEMMEN INOX W4",
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "schroefklemmen_inox_w4"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 7",
+          "application": "RVS 304 | MONTAGE MET 7 MM DOPSCHROEVENDRAAIER"
+        }
+      },
+      {
+        "sku": "SBIV120301",
+        "label": "SCHROEFKLEMMEN INOX W4",
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "schroefklemmen_inox_w4"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 7",
+          "application": "RVS 304 | MONTAGE MET 7 MM DOPSCHROEVENDRAAIER"
+        }
+      },
+      {
+        "sku": "SBIV120321",
+        "label": "SCHROEFKLEMMEN INOX W4",
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "schroefklemmen_inox_w4"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 7",
+          "application": "RVS 304 | MONTAGE MET 7 MM DOPSCHROEVENDRAAIER"
+        }
+      },
+      {
+        "sku": "SBIV120401",
+        "label": "SCHROEFKLEMMEN INOX W4",
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "schroefklemmen_inox_w4"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 7",
+          "application": "RVS 304 | MONTAGE MET 7 MM DOPSCHROEVENDRAAIER"
+        }
+      },
+      {
+        "sku": "SBIV120501",
+        "label": "SCHROEFKLEMMEN INOX W4",
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "schroefklemmen_inox_w4"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 7",
+          "application": "RVS 304 | MONTAGE MET 7 MM DOPSCHROEVENDRAAIER"
+        }
+      },
+      {
+        "sku": "SBIV120601",
+        "label": "SCHROEFKLEMMEN INOX W4",
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "schroefklemmen_inox_w4"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 7",
+          "application": "RVS 304 | MONTAGE MET 7 MM DOPSCHROEVENDRAAIER"
+        }
+      },
+      {
+        "sku": "SBIV120701",
+        "label": "SCHROEFKLEMMEN INOX W4",
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "schroefklemmen_inox_w4"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 7",
+          "application": "RVS 304 | MONTAGE MET 7 MM DOPSCHROEVENDRAAIER"
+        }
+      },
+      {
+        "sku": "SBIV120801",
+        "label": "SCHROEFKLEMMEN INOX W4",
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "schroefklemmen_inox_w4"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 7",
+          "application": "RVS 304 | MONTAGE MET 7 MM DOPSCHROEVENDRAAIER"
+        }
+      },
+      {
+        "sku": "SBIV120901",
+        "label": "SCHROEFKLEMMEN INOX W4",
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "schroefklemmen_inox_w4"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 7",
+          "application": "RVS 304 | MONTAGE MET 7 MM DOPSCHROEVENDRAAIER"
+        }
+      },
+      {
+        "sku": "SBIV121001",
+        "label": "SCHROEFKLEMMEN INOX W4",
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "schroefklemmen_inox_w4"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 7",
+          "application": "RVS 304 | MONTAGE MET 7 MM DOPSCHROEVENDRAAIER"
+        }
+      },
+      {
+        "sku": "SBIV121101",
+        "label": "SCHROEFKLEMMEN INOX W4",
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "schroefklemmen_inox_w4"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 7",
+          "application": "RVS 304 | MONTAGE MET 7 MM DOPSCHROEVENDRAAIER"
+        }
+      },
+      {
+        "sku": "SBIV121201",
+        "label": "SCHROEFKLEMMEN INOX W4",
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "schroefklemmen_inox_w4"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 7",
+          "application": "RVS 304 | MONTAGE MET 7 MM DOPSCHROEVENDRAAIER"
+        }
+      },
+      {
+        "sku": "SBIV121501",
+        "label": "SCHROEFKLEMMEN INOX W4",
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "schroefklemmen_inox_w4"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 7",
+          "application": "RVS 304 | MONTAGE MET 7 MM DOPSCHROEVENDRAAIER"
+        }
+      }
+    ],
+    "images": [
+      "images/slangklemmen/schroefklemmen-inox-w4__sbiv110082.webp",
+      "images/slangklemmen/slangklemmen__p5__schroefklemmen-inox-w4__SBIV110082-SBIV110121-SBIV110161__v1.webp"
+    ],
+    "variant_count": 31,
+    "default_variant_sku": "SBIV110082",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/slangklemmen/schroefklemmen-inox-w4__sbiv110082.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "slangklemmen-supra-schroefklemmen-inox-w4",
+    "name": "SUPRA SCHROEFKLEMMEN INOX W4",
+    "family": "supra-schroefklemmen-inox-w4",
+    "catalog": "slangklemmen",
+    "brand": "Various",
+    "category": "RVS 304",
+    "variants": [
+      {
+        "sku": "SBIV210171",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W4",
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "supra_schroefklemmen_inox_w4"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 7",
+          "application": "RVS 304"
+        }
+      },
+      {
+        "sku": "SBIV210191",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W4",
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "supra_schroefklemmen_inox_w4"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 7",
+          "application": "RVS 304"
+        }
+      },
+      {
+        "sku": "SBIV210211",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W4",
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "supra_schroefklemmen_inox_w4"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 7",
+          "application": "RVS 304"
+        }
+      },
+      {
+        "sku": "SBIV210231",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W4",
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "supra_schroefklemmen_inox_w4"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 7",
+          "application": "RVS 304"
+        }
+      },
+      {
+        "sku": "SBIV210251",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W4",
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "supra_schroefklemmen_inox_w4"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 7",
+          "application": "RVS 304"
+        }
+      },
+      {
+        "sku": "SBIV210271",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W4",
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "supra_schroefklemmen_inox_w4"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 7",
+          "application": "RVS 304"
+        }
+      },
+      {
+        "sku": "SBIV210291",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W4",
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "supra_schroefklemmen_inox_w4"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 7",
+          "application": "RVS 304"
+        }
+      },
+      {
+        "sku": "SBIV210311",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W4",
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "supra_schroefklemmen_inox_w4"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 7",
+          "application": "RVS 304"
+        }
+      },
+      {
+        "sku": "SBIV210341",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W4",
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "supra_schroefklemmen_inox_w4"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 7",
+          "application": "RVS 304"
+        }
+      },
+      {
+        "sku": "SBIV210401",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W4",
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "supra_schroefklemmen_inox_w4"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 7",
+          "application": "RVS 304"
+        }
+      },
+      {
+        "sku": "SBIV210431",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W4",
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "supra_schroefklemmen_inox_w4"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 7",
+          "application": "RVS 304"
+        }
+      },
+      {
+        "sku": "SBIV210471",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W4",
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "supra_schroefklemmen_inox_w4"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 7",
+          "application": "RVS 304"
+        }
+      },
+      {
+        "sku": "SBIV210511",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W4",
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "supra_schroefklemmen_inox_w4"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 7",
+          "application": "RVS 304"
+        }
+      },
+      {
+        "sku": "SBIV210551",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W4",
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "supra_schroefklemmen_inox_w4"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 7",
+          "application": "RVS 304"
+        }
+      },
+      {
+        "sku": "SBIV210591",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W4",
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "supra_schroefklemmen_inox_w4"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 7",
+          "application": "RVS 304"
+        }
+      },
+      {
+        "sku": "SBIV210631",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W4",
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "supra_schroefklemmen_inox_w4"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 7",
+          "application": "RVS 304"
+        }
+      },
+      {
+        "sku": "SBIV210731",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W4",
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "supra_schroefklemmen_inox_w4"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 7",
+          "application": "RVS 304"
+        }
+      },
+      {
+        "sku": "SBIV210791",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W4",
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "supra_schroefklemmen_inox_w4"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 7",
+          "application": "RVS 304"
+        }
+      },
+      {
+        "sku": "SBIV210851",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W4",
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "supra_schroefklemmen_inox_w4"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 7",
+          "application": "RVS 304"
+        }
+      },
+      {
+        "sku": "SBIV210911",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W4",
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "supra_schroefklemmen_inox_w4"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 7",
+          "application": "RVS 304"
+        }
+      },
+      {
+        "sku": "SBIV210971",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W4",
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "supra_schroefklemmen_inox_w4"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 7",
+          "application": "RVS 304"
+        }
+      },
+      {
+        "sku": "SBIV211041",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W4",
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "supra_schroefklemmen_inox_w4"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 7",
+          "application": "RVS 304"
+        }
+      },
+      {
+        "sku": "SBIV211121",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W4",
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "supra_schroefklemmen_inox_w4"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 7",
+          "application": "RVS 304"
+        }
+      },
+      {
+        "sku": "SBIV211301",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W4",
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "supra_schroefklemmen_inox_w4"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 7",
+          "application": "RVS 304"
+        }
+      },
+      {
+        "sku": "SBIV211401",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W4",
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "supra_schroefklemmen_inox_w4"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 7",
+          "application": "RVS 304"
+        }
+      },
+      {
+        "sku": "SBIV211501",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W4",
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "supra_schroefklemmen_inox_w4"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 7",
+          "application": "RVS 304"
+        }
+      },
+      {
+        "sku": "SBIV211621",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W4",
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "supra_schroefklemmen_inox_w4"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 7",
+          "application": "RVS 304"
+        }
+      },
+      {
+        "sku": "SBIV211741",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W4",
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "supra_schroefklemmen_inox_w4"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 7",
+          "application": "RVS 304"
+        }
+      },
+      {
+        "sku": "SBIV212001",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W4",
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "supra_schroefklemmen_inox_w4"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 7",
+          "application": "RVS 304"
+        }
+      },
+      {
+        "sku": "SBIV212131",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W4",
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "supra_schroefklemmen_inox_w4"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 7",
+          "application": "RVS 304"
+        }
+      },
+      {
+        "sku": "SBIV212271",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W4",
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "supra_schroefklemmen_inox_w4"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 7",
+          "application": "RVS 304"
+        }
+      },
+      {
+        "sku": "SBIV212391",
+        "label": "SUPRA SCHROEFKLEMMEN INOX W4",
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "supra_schroefklemmen_inox_w4"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 7",
+          "application": "RVS 304"
+        }
+      },
+      {
+        "sku": null,
+        "label": "SUPRA SCHROEFKLEMMEN INOX W4",
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "supra_schroefklemmen_inox_w4"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 7",
+          "application": "RVS 304"
+        }
+      },
+      {
+        "sku": null,
+        "label": "SUPRA SCHROEFKLEMMEN INOX W4",
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "supra_schroefklemmen_inox_w4"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 7",
+          "application": "RVS 304"
+        }
+      },
+      {
+        "sku": null,
+        "label": "SUPRA SCHROEFKLEMMEN INOX W4",
+        "page_in_pdf": 5,
+        "properties": {
+          "type": "supra_schroefklemmen_inox_w4"
+        },
+        "attributes": {
+          "spec_product_variant": "MET 7",
+          "application": "RVS 304"
+        }
+      }
+    ],
+    "images": [
+      "images/slangklemmen/schroefklemmen-inox-w4__sbiv110082.webp",
+      "images/slangklemmen/slangklemmen__p5__schroefklemmen-inox-w4__SBIV110082-SBIV110121-SBIV110161__v1.webp"
+    ],
+    "variant_count": 35,
+    "default_variant_sku": "SBIV210171",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/slangklemmen/schroefklemmen-inox-w4__sbiv110082.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "slangklemmen-voor-slangklemband-montage",
+    "name": "VOOR SLANGKLEMBAND MONTAGE",
+    "family": "voor-slangklemband-montage",
+    "catalog": "slangklemmen",
+    "brand": "Various",
+    "category": "Bestelnr Breedte",
+    "variants": [
+      {
+        "sku": "X1371025",
+        "label": "VOOR SLANGKLEMBAND MONTAGE",
+        "page_in_pdf": 7,
+        "properties": {
+          "type": "voor_slangklemband_montage"
+        },
+        "attributes": {
+          "spec_product_variant": "MET SPANAPPARAAT",
+          "application": "Bestelnr Breedte"
+        }
+      }
+    ],
+    "images": [
+      "images/slangklemmen/voor-slangklemband-montage__x1371025.webp",
+      "images/slangklemmen/slangklemmen__p7__voor-slangklemband-montage__X1371025__v1.webp"
+    ],
+    "variant_count": 1,
+    "default_variant_sku": "X1371025",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/slangklemmen/voor-slangklemband-montage__x1371025.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "slangklemmen-bestelnr-breedte",
+    "name": "Bestelnr Breedte",
+    "family": "bestelnr-breedte",
+    "catalog": "slangklemmen",
+    "brand": "Various",
+    "category": "X1371028 12,7 mm",
+    "variants": [
+      {
+        "sku": "X1371026",
+        "label": "Bestelnr Breedte",
+        "page_in_pdf": 7,
+        "properties": {
+          "type": "bestelnr_breedte"
+        },
+        "attributes": {
+          "spec_product_variant": "MET SPANAPPARAAT",
+          "application": "X1371028 12,7 mm"
+        }
+      },
+      {
+        "sku": "X1371039",
+        "label": "Bestelnr Breedte",
+        "page_in_pdf": 7,
+        "properties": {
+          "type": "bestelnr_breedte"
+        },
+        "attributes": {
+          "spec_product_variant": "MET SPANAPPARAAT",
+          "application": "X1371038 12,7 mm"
+        }
+      }
+    ],
+    "images": [
+      "images/slangklemmen/bestelnr-breedte__x1371026.webp",
+      "images/slangklemmen/slangklemmen__p7__bestelnr-breedte__X1371026-X1371039.webp"
+    ],
+    "variant_count": 2,
+    "default_variant_sku": "X1371026",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/slangklemmen/bestelnr-breedte__x1371026.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "slangklemmen-montage-met-spanapparaat",
+    "name": "MONTAGE MET SPANAPPARAAT",
+    "family": "montage-met-spanapparaat",
+    "catalog": "slangklemmen",
+    "brand": "Various",
+    "category": "Bestelnr Breedte",
+    "variants": [
+      {
+        "sku": "X1371042",
+        "label": "MONTAGE MET SPANAPPARAAT",
+        "page_in_pdf": 7,
+        "properties": {
+          "type": "montage_met_spanapparaat"
+        },
+        "attributes": {
+          "spec_product_variant": "MET SPANAPPARAAT",
+          "application": "Bestelnr Breedte"
+        }
+      },
+      {
+        "sku": "X1371043",
+        "label": "MONTAGE MET SPANAPPARAAT",
+        "page_in_pdf": 7,
+        "properties": {
+          "type": "montage_met_spanapparaat"
+        },
+        "attributes": {
+          "spec_product_variant": "MET SPANAPPARAAT",
+          "application": "Bestelnr Breedte"
+        }
+      }
+    ],
+    "images": [
+      "images/slangklemmen/voor-slangklemband-montage__x1371025.webp",
+      "images/slangklemmen/slangklemmen__p7__voor-slangklemband-montage__X1371025__v1.webp"
+    ],
+    "variant_count": 2,
+    "default_variant_sku": "X1371042",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/slangklemmen/voor-slangklemband-montage__x1371025.webp"
+      }
+    ]
+  }
+]

@@ -1,0 +1,292 @@
+{
+  "catalog": "plat-oprolbare-slangen",
+  "generated": "2025-11-30T20:05:35.015068",
+  "total_skus": 13,
+  "total_images": 32,
+  "mapping": {
+    "P52": [
+      {
+        "filename": "P52_p001_i00.webp",
+        "page": 1,
+        "all_skus": [
+          "P52"
+        ]
+      },
+      {
+        "filename": "P51+P52_p001_i01.webp",
+        "page": 1,
+        "all_skus": [
+          "P51",
+          "P52"
+        ]
+      }
+    ],
+    "P51": [
+      {
+        "filename": "P51+P52_p001_i01.webp",
+        "page": 1,
+        "all_skus": [
+          "P51",
+          "P52"
+        ]
+      }
+    ],
+    "P46": [
+      {
+        "filename": "P46+P47_p001_i06.webp",
+        "page": 1,
+        "all_skus": [
+          "P46",
+          "P47"
+        ]
+      }
+    ],
+    "P47": [
+      {
+        "filename": "P46+P47_p001_i06.webp",
+        "page": 1,
+        "all_skus": [
+          "P46",
+          "P47"
+        ]
+      }
+    ],
+    "P137": [
+      {
+        "filename": "P137_p002_i09.webp",
+        "page": 2,
+        "all_skus": [
+          "P137"
+        ]
+      }
+    ],
+    "P184": [
+      {
+        "filename": "P131+P184_p003_i00.webp",
+        "page": 3,
+        "all_skus": [
+          "P131",
+          "P184"
+        ]
+      }
+    ],
+    "P131": [
+      {
+        "filename": "P131+P184_p003_i00.webp",
+        "page": 3,
+        "all_skus": [
+          "P131",
+          "P184"
+        ]
+      },
+      {
+        "filename": "P131+P180_p003_i01.webp",
+        "page": 3,
+        "all_skus": [
+          "P131",
+          "P180"
+        ]
+      },
+      {
+        "filename": "P126+P131_p004_i01.webp",
+        "page": 4,
+        "all_skus": [
+          "P126",
+          "P131"
+        ]
+      },
+      {
+        "filename": "P131+P192_p004_i04.webp",
+        "page": 4,
+        "all_skus": [
+          "P131",
+          "P192"
+        ]
+      }
+    ],
+    "P180": [
+      {
+        "filename": "P131+P180_p003_i01.webp",
+        "page": 3,
+        "all_skus": [
+          "P131",
+          "P180"
+        ]
+      },
+      {
+        "filename": "P180+P192_p003_i02.webp",
+        "page": 3,
+        "all_skus": [
+          "P180",
+          "P192"
+        ]
+      }
+    ],
+    "P192": [
+      {
+        "filename": "P180+P192_p003_i02.webp",
+        "page": 3,
+        "all_skus": [
+          "P180",
+          "P192"
+        ]
+      },
+      {
+        "filename": "P192_p003_i03.webp",
+        "page": 3,
+        "all_skus": [
+          "P192"
+        ]
+      },
+      {
+        "filename": "P192_p004_i02.webp",
+        "page": 4,
+        "all_skus": [
+          "P192"
+        ]
+      },
+      {
+        "filename": "P131+P192_p004_i04.webp",
+        "page": 4,
+        "all_skus": [
+          "P131",
+          "P192"
+        ]
+      },
+      {
+        "filename": "P192_p005_i03.webp",
+        "page": 5,
+        "all_skus": [
+          "P192"
+        ]
+      },
+      {
+        "filename": "P192_p005_i12.webp",
+        "page": 5,
+        "all_skus": [
+          "P192"
+        ]
+      },
+      {
+        "filename": "P192_p006_i03.webp",
+        "page": 6,
+        "all_skus": [
+          "P192"
+        ]
+      },
+      {
+        "filename": "P192_p006_i12.webp",
+        "page": 6,
+        "all_skus": [
+          "P192"
+        ]
+      }
+    ],
+    "P126": [
+      {
+        "filename": "P126+P92_p004_i00.webp",
+        "page": 4,
+        "all_skus": [
+          "P126",
+          "P92"
+        ]
+      },
+      {
+        "filename": "P126+P131_p004_i01.webp",
+        "page": 4,
+        "all_skus": [
+          "P126",
+          "P131"
+        ]
+      },
+      {
+        "filename": "P102+P126_p006_i01.webp",
+        "page": 6,
+        "all_skus": [
+          "P102",
+          "P126"
+        ]
+      },
+      {
+        "filename": "P126_p006_i02.webp",
+        "page": 6,
+        "all_skus": [
+          "P126"
+        ]
+      }
+    ],
+    "P92": [
+      {
+        "filename": "P126+P92_p004_i00.webp",
+        "page": 4,
+        "all_skus": [
+          "P126",
+          "P92"
+        ]
+      },
+      {
+        "filename": "P102+P92_p005_i00.webp",
+        "page": 5,
+        "all_skus": [
+          "P102",
+          "P92"
+        ]
+      },
+      {
+        "filename": "P92_p005_i02.webp",
+        "page": 5,
+        "all_skus": [
+          "P92"
+        ]
+      }
+    ],
+    "P102": [
+      {
+        "filename": "P102+P92_p005_i00.webp",
+        "page": 5,
+        "all_skus": [
+          "P102",
+          "P92"
+        ]
+      },
+      {
+        "filename": "P102+P126_p006_i01.webp",
+        "page": 6,
+        "all_skus": [
+          "P102",
+          "P126"
+        ]
+      }
+    ],
+    "P129": [
+      {
+        "filename": "P129_p007_i00.webp",
+        "page": 7,
+        "all_skus": [
+          "P129"
+        ]
+      },
+      {
+        "filename": "P129_p007_i01.webp",
+        "page": 7,
+        "all_skus": [
+          "P129"
+        ]
+      },
+      {
+        "filename": "P129_p008_i01.webp",
+        "page": 8,
+        "all_skus": [
+          "P129"
+        ]
+      },
+      {
+        "filename": "P129_p008_i02.webp",
+        "page": 8,
+        "all_skus": [
+          "P129"
+        ]
+      }
+    ]
+  }
+}

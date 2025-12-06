@@ -144,7 +144,7 @@ export async function GET(request: NextRequest) {
 
     const employees = await getEmployees();
     const employee = employees.find(
-      (emp) => emp.email === session.user.email && emp.active && emp.verified
+      (emp) => emp.email === session.user!.email && emp.active && emp.verified
     );
 
     if (employee) {

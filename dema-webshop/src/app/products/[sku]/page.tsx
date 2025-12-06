@@ -63,6 +63,10 @@ export default function ProductPage() {
         setLoading(true);
         const res = await fetch(`/api/products?sku=${encodeURIComponent(String(sku))}&limit=1`);
         if (!res.ok) throw new Error(`API ${res.status}`);
+        const contentType = res.headers.get('content-type');
+        if (!contentType || !contentType.includes('application/json')) {
+          throw new Error('Not JSON response');
+        }
         const data = await res.json();
         const productData: Product | undefined = data?.products?.[0];
         if (!productData) {
@@ -95,6 +99,10 @@ export default function ProductPage() {
       try {
         const r = await fetch(`/api/recommendations?sku=${encodeURIComponent(String(sku))}&limit=4`, { cache: 'no-store' });
         if (!r.ok) throw new Error(`REC ${r.status}`);
+        const contentType = r.headers.get('content-type');
+        if (!contentType || !contentType.includes('application/json')) {
+          throw new Error('Not JSON response');
+        }
         const data = await r.json();
         const items = Array.isArray(data?.items) ? data.items : [];
         if (items.length > 0) {
@@ -105,21 +113,27 @@ export default function ProductPage() {
         if (product?.product_category) {
           const r2 = await fetch(`/api/recommendations?category=${encodeURIComponent(product.product_category)}&limit=4`, { cache: 'no-store' });
           if (r2.ok) {
-            const d2 = await r2.json();
-            const catItems = Array.isArray(d2?.items) ? d2.items : [];
-            if (catItems.length > 0) {
-              setRecs(catItems);
-              return;
+            const contentType2 = r2.headers.get('content-type');
+            if (contentType2 && contentType2.includes('application/json')) {
+              const d2 = await r2.json();
+              const catItems = Array.isArray(d2?.items) ? d2.items : [];
+              if (catItems.length > 0) {
+                setRecs(catItems);
+                return;
+              }
             }
           }
         }
         // Final fallback: top-rated/in-stock products
         const r3 = await fetch(`/api/products?limit=4`, { cache: 'no-store' });
         if (r3.ok) {
-          const d3 = await r3.json();
-          const p3 = Array.isArray(d3?.products) ? d3.products : [];
-          setRecs(p3);
-          return;
+          const contentType3 = r3.headers.get('content-type');
+          if (contentType3 && contentType3.includes('application/json')) {
+            const d3 = await r3.json();
+            const p3 = Array.isArray(d3?.products) ? d3.products : [];
+            setRecs(p3);
+            return;
+          }
         }
         setRecs([]);
       } catch {
@@ -128,6 +142,10 @@ export default function ProductPage() {
           fetch(`/api/recommendations?category=${encodeURIComponent(product.product_category)}&limit=4`, { cache: 'no-store' })
             .then(async r2 => {
               if (!r2.ok) throw new Error('REC fallback');
+              const contentType = r2.headers.get('content-type');
+              if (!contentType || !contentType.includes('application/json')) {
+                throw new Error('Not JSON response');
+              }
               const d2 = await r2.json();
               const catItems = Array.isArray(d2?.items) ? d2.items : [];
               if (catItems.length > 0) {
@@ -138,6 +156,10 @@ export default function ProductPage() {
               return fetch(`/api/products?limit=4`, { cache: 'no-store' })
                 .then(async r3 => {
                   if (!r3.ok) throw new Error('REC final');
+                  const contentType3 = r3.headers.get('content-type');
+                  if (!contentType3 || !contentType3.includes('application/json')) {
+                    throw new Error('Not JSON response');
+                  }
                   const d3 = await r3.json();
                   const p3 = Array.isArray(d3?.products) ? d3.products : [];
                   setRecs(p3);

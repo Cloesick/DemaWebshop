@@ -1,0 +1,17 @@
+{
+  "catalog": "abs-persluchtbuizen",
+  "generated": "2025-11-30T19:59:20.680368",
+  "total_skus": 1,
+  "total_images": 22,
+  "mapping": {
+    "PN10": [
+      {
+        "filename": "PN10_p005_i00.webp",
+        "page": 5,
+        "all_skus": [
+          "PN10"
+        ]
+      }
+    ]
+  }
+}

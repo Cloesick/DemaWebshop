@@ -37,11 +37,21 @@ export default function ChangePasswordModal({ isOpen, onClose }: ChangePasswordM
         body: JSON.stringify({ email, phone }),
       });
 
-      const data = await response.json();
-
       if (!response.ok) {
-        throw new Error(data.error || 'Verification failed');
+        const contentType = response.headers.get('content-type');
+        if (contentType && contentType.includes('application/json')) {
+          const data = await response.json();
+          throw new Error(data.error || 'Verification failed');
+        } else {
+          throw new Error('Verification failed');
+        }
       }
+
+      const contentType = response.headers.get('content-type');
+      if (!contentType || !contentType.includes('application/json')) {
+        throw new Error('Not JSON response');
+      }
+      const data = await response.json();
 
       if (data.verified) {
         setStep('change');
@@ -92,11 +102,21 @@ export default function ChangePasswordModal({ isOpen, onClose }: ChangePasswordM
         }),
       });
 
-      const data = await response.json();
-
       if (!response.ok) {
-        throw new Error(data.error || 'Password change failed');
+        const contentType = response.headers.get('content-type');
+        if (contentType && contentType.includes('application/json')) {
+          const data = await response.json();
+          throw new Error(data.error || 'Password change failed');
+        } else {
+          throw new Error('Password change failed');
+        }
       }
+
+      const contentType = response.headers.get('content-type');
+      if (!contentType || !contentType.includes('application/json')) {
+        throw new Error('Not JSON response');
+      }
+      const data = await response.json();
 
       setSuccess('Password changed successfully!');
       

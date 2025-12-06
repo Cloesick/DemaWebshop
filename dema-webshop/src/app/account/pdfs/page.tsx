@@ -38,6 +38,13 @@ export default function PdfManagementPage() {
   async function checkVerification() {
     try {
       const response = await fetch('/api/employee/verify');
+      if (!response.ok) {
+        throw new Error(`HTTP ${response.status}`);
+      }
+      const contentType = response.headers.get('content-type');
+      if (!contentType || !contentType.includes('application/json')) {
+        throw new Error('Not JSON response');
+      }
       const data = await response.json();
       setVerified(data.verified && data.canUploadPdfs);
       
@@ -56,6 +63,13 @@ export default function PdfManagementPage() {
   async function fetchUploads() {
     try {
       const response = await fetch('/api/pdf/upload');
+      if (!response.ok) {
+        throw new Error(`HTTP ${response.status}`);
+      }
+      const contentType = response.headers.get('content-type');
+      if (!contentType || !contentType.includes('application/json')) {
+        throw new Error('Not JSON response');
+      }
       const data = await response.json();
       if (data.uploads) {
         setUploads(data.uploads);
@@ -128,9 +142,23 @@ export default function PdfManagementPage() {
       clearInterval(progressInterval);
       setUploadProgress(100);
 
+      if (!response.ok) {
+        const contentType = response.headers.get('content-type');
+        if (contentType && contentType.includes('application/json')) {
+          const data = await response.json();
+          throw new Error(data.error || 'Upload failed');
+        } else {
+          throw new Error('Upload failed');
+        }
+      }
+
+      const contentType = response.headers.get('content-type');
+      if (!contentType || !contentType.includes('application/json')) {
+        throw new Error('Not JSON response');
+      }
       const data = await response.json();
 
-      if (response.ok && data.success) {
+      if (data.success) {
         setMessage(`✅ ${file.name} uploaded successfully!`);
         await fetchUploads(); // Refresh list
         

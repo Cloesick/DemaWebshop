@@ -108,6 +108,13 @@ export default function Home() {
     const loadCatalog = async () => {
       try {
         const res = await fetch('/api/catalog?limit=8');
+        if (!res.ok) {
+          throw new Error(`HTTP ${res.status}`);
+        }
+        const contentType = res.headers.get('content-type');
+        if (!contentType || !contentType.includes('application/json')) {
+          throw new Error('Not JSON response');
+        }
         const data = await res.json();
         if (!cancelled && data.products) {
           setCatalogProducts(data.products);
@@ -144,11 +151,14 @@ export default function Home() {
           if (clientId) {
             const r = await fetch(`/api/marketing/suggestions?clientId=${encodeURIComponent(clientId)}&limit=4`, { cache: 'no-store' });
             if (r.ok) {
-              const data = await r.json();
-              if (!cancelled && Array.isArray(data.items)) {
-                setHighlightProducts(data.items as Product[]);
-                setPersonalized(Boolean(data.personalized));
-                usedMarketingSuggestions = true;
+              const contentType = r.headers.get('content-type');
+              if (contentType && contentType.includes('application/json')) {
+                const data = await r.json();
+                if (!cancelled && Array.isArray(data.items)) {
+                  setHighlightProducts(data.items as Product[]);
+                  setPersonalized(Boolean(data.personalized));
+                  usedMarketingSuggestions = true;
+                }
               }
             }
           }
@@ -173,6 +183,8 @@ export default function Home() {
         params.set('personalized', preferredCategory ? 'true' : 'false');
         const res = await fetch(`/api/recommendations?${params.toString()}`, { cache: 'no-store' });
         if (!res.ok) return;
+        const contentType = res.headers.get('content-type');
+        if (!contentType || !contentType.includes('application/json')) return;
         const data = await res.json();
         if (cancelled) return;
         if (Array.isArray(data.items) && data.items.length) {
