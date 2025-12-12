@@ -29,7 +29,7 @@ export default function ProductGroupCard({
   // Get selected variant with better fallback
   const selectedVariant = productGroup.variants?.find((v: any) => v.sku === selectedVariantSku) || productGroup.variants?.[0] || {
     sku: 'N/A',
-    label: 'No variants available',
+    label: 'No SKUs available',
     properties: {}
   };
 
@@ -52,9 +52,9 @@ export default function ProductGroupCard({
             isMakita ? 'bg-gradient-to-br from-teal-50 to-teal-100' : 'bg-gradient-to-br from-blue-50 to-blue-100'
           }`}
         >
-          {/* Variant Badge */}
+          {/* SKU Badge */}
           <div className="absolute top-2 left-2 bg-gradient-to-r from-purple-500 to-pink-500 text-white px-3 py-1 rounded-full text-xs font-bold z-10 shadow-lg">
-            {productGroup.variant_count} Variants
+            {productGroup.variant_count} SKUs
           </div>
           
           {imageUrl && !imageError ? (
@@ -88,10 +88,10 @@ export default function ProductGroupCard({
             <p className="text-sm text-gray-600 mb-3">📁 {productGroup.catalog}</p>
           )}
 
-          {/* Variant Selector */}
+          {/* SKU Selector */}
           <div className="mb-3">
             <label className="text-xs font-semibold text-gray-600 mb-1 block">
-              Select Variant:
+              Select SKU:
             </label>
             <div className="relative">
               <button
@@ -119,13 +119,38 @@ export default function ProductGroupCard({
                         variant.sku === selectedVariantSku ? 'bg-blue-100 font-semibold' : ''
                       }`}
                     >
-                      {variant.label || variant.sku || 'Unknown variant'}
+                      {variant.label || variant.sku || 'Unknown SKU'}
                     </button>
                   ))}
                 </div>
               )}
             </div>
           </div>
+
+          {/* PDF Link and Page */}
+          {productGroup.source_pdf && (
+            <div className="mb-3 pb-3 border-b border-gray-200">
+              <div className="flex flex-col gap-1 text-xs">
+                <a
+                  href={`/documents/Product_pdfs/${productGroup.source_pdf}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-1 text-blue-600 hover:text-blue-800 font-medium hover:underline"
+                  onClick={(e) => e.stopPropagation()}
+                >
+                  <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z" />
+                  </svg>
+                  {productGroup.source_pdf}
+                </a>
+                {selectedVariant?.page && (
+                  <span className="text-gray-600">
+                    📖 Page: <span className="font-semibold">{selectedVariant.page}</span>
+                  </span>
+                )}
+              </div>
+            </div>
+          )}
 
           {/* Property Badges - Colorful tags */}
           {selectedVariant && (
@@ -199,9 +224,9 @@ export default function ProductGroupCard({
           isMakita ? 'bg-gradient-to-br from-teal-50 to-teal-100' : 'bg-gradient-to-br from-blue-50 to-blue-100'
         }`}
       >
-        {/* Variant Badge */}
+        {/* SKU Badge */}
         <div className="absolute top-2 left-2 bg-gradient-to-r from-purple-500 to-pink-500 text-white px-3 py-1.5 rounded-full text-xs font-bold z-50 shadow-lg">
-          {productGroup.variant_count} Variants
+          {productGroup.variant_count} SKUs
         </div>
         
         {imageUrl && !imageError ? (
@@ -232,10 +257,10 @@ export default function ProductGroupCard({
           <p className="text-xs text-gray-600 mb-3">📁 {productGroup.catalog}</p>
         )}
 
-        {/* Variant Selector */}
+        {/* SKU Selector */}
         <div className="mb-3">
           <label className="text-xs font-semibold text-gray-600 mb-1 block">
-            Select Variant:
+            Select SKU:
           </label>
           <div className="relative">
             <button
@@ -270,6 +295,31 @@ export default function ProductGroupCard({
             )}
           </div>
         </div>
+
+        {/* PDF Link and Page */}
+        {productGroup.source_pdf && (
+          <div className="mb-3 pb-3 border-b border-gray-200">
+            <div className="flex flex-col gap-1 text-xs">
+              <a
+                href={`/documents/Product_pdfs/${productGroup.source_pdf}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-1 text-blue-600 hover:text-blue-800 font-medium hover:underline"
+                onClick={(e) => e.stopPropagation()}
+              >
+                <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z" />
+                </svg>
+                {productGroup.source_pdf}
+              </a>
+              {selectedVariant?.page && (
+                <span className="text-gray-600">
+                  📖 Page: <span className="font-semibold">{selectedVariant.page}</span>
+                </span>
+              )}
+            </div>
+          </div>
+        )}
 
         {/* Property Badges - Colorful tags */}
         {selectedVariant && (

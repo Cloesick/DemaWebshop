@@ -1,0 +1,11 @@
+ABS Persluchtbuizen (18 groups, 240 variants):
+http://localhost:3000/catalog/abs-grouped
+
+Slangkoppelingen (34 groups, 313 variants):
+http://localhost:3000/catalog/slangkoppelingen-grouped
+
+Pomp Specials (11 groups, 107 variants):
+http://localhost:3000/catalog/pomp-specials-grouped
+
+Aandrijftechniek (14 groups, 54 variants):
+http://localhost:3000/catalog/aandrijftechniek-grouped

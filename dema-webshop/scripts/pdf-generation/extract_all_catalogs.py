@@ -19,7 +19,7 @@ import time
 
 # Paths
 PROJECT_ROOT = Path(__file__).parent.parent.parent
-PDF_INPUT_DIR = Path(r"C:\Users\prova\Documents\Projects\PDF_Analyzer\input_pdfs")
+PDF_INPUT_DIR = PROJECT_ROOT / "documents" / "Product_pdfs"
 OUTPUT_BASE_DIR = PROJECT_ROOT / "public" / "product-images" / "extracted-catalogs"
 
 # SKU pattern for various catalogs

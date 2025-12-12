@@ -1,15 +1,17 @@
 [
   {
-    "group_id": "abs-persluchtbuizen-abs-bocht-90",
+    "group_id": "abs-persluchtbuizen-abs-persluchtbuizen-abs-bocht-90",
     "name": "ABS BOCHT 90°",
-    "family": "abs-bocht-90",
+    "family": "abs-persluchtbuizen__abs-bocht-90",
     "catalog": "abs-persluchtbuizen",
+    "source_pdf": "abs-persluchtbuizen.pdf",
     "brand": "Various",
     "category": "LIJMMOF",
     "variants": [
       {
         "sku": "ABSB02090",
         "label": "ABS BOCHT 90°",
+        "page": 5,
         "page_in_pdf": 5,
         "properties": {
           "type": "compressed_air_pipe"
@@ -22,6 +24,7 @@
       {
         "sku": "ABSB02590",
         "label": "ABS BOCHT 90°",
+        "page": 5,
         "page_in_pdf": 5,
         "properties": {
           "type": "compressed_air_pipe"
@@ -34,6 +37,7 @@
       {
         "sku": "ABSB03290",
         "label": "ABS BOCHT 90°",
+        "page": 5,
         "page_in_pdf": 5,
         "properties": {
           "type": "compressed_air_pipe"
@@ -46,6 +50,7 @@
       {
         "sku": "ABSB04090",
         "label": "ABS BOCHT 90°",
+        "page": 5,
         "page_in_pdf": 5,
         "properties": {
           "type": "compressed_air_pipe"
@@ -58,6 +63,7 @@
       {
         "sku": "ABSB05090",
         "label": "ABS BOCHT 90°",
+        "page": 5,
         "page_in_pdf": 5,
         "properties": {
           "type": "compressed_air_pipe"
@@ -70,6 +76,7 @@
       {
         "sku": "ABSB06390",
         "label": "ABS BOCHT 90°",
+        "page": 5,
         "page_in_pdf": 5,
         "properties": {
           "type": "compressed_air_pipe"
@@ -82,6 +89,7 @@
       {
         "sku": "ABSB07590",
         "label": "ABS BOCHT 90°",
+        "page": 5,
         "page_in_pdf": 5,
         "properties": {
           "type": "compressed_air_pipe"
@@ -94,6 +102,7 @@
       {
         "sku": "ABSB09090",
         "label": "ABS BOCHT 90°",
+        "page": 5,
         "page_in_pdf": 5,
         "properties": {
           "type": "compressed_air_pipe"
@@ -106,6 +115,7 @@
       {
         "sku": "ABSB11090",
         "label": "ABS BOCHT 90°",
+        "page": 5,
         "page_in_pdf": 5,
         "properties": {
           "type": "compressed_air_pipe"
@@ -117,29 +127,30 @@
       }
     ],
     "images": [
-      "images/abs-persluchtbuizen/abs-bocht-90__v1.webp",
-      "images/abs-persluchtbuizen/abs-persluchtbuizen__p5__abs-bocht-90__ABSB02090-ABSB02590-ABSB03290__v1.webp"
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p5__abs-bocht-90__ABSB02090-ABSB02590-ABSB03290__v2.webp"
     ],
     "variant_count": 9,
     "default_variant_sku": "ABSB02090",
     "media": [
       {
         "role": "main",
-        "url": "images/abs-persluchtbuizen/abs-bocht-90__v1.webp"
+        "url": "images/abs-persluchtbuizen/abs-persluchtbuizen__p5__abs-bocht-90__ABSB02090-ABSB02590-ABSB03290__v2.webp"
       }
     ]
   },
   {
-    "group_id": "abs-persluchtbuizen-abs-bolkraan",
+    "group_id": "abs-persluchtbuizen-abs-persluchtbuizen-abs-bolkraan",
     "name": "ABS BOLKRAAN",
-    "family": "abs-bolkraan",
+    "family": "abs-persluchtbuizen__abs-bolkraan",
     "catalog": "abs-persluchtbuizen",
+    "source_pdf": "abs-persluchtbuizen.pdf",
     "brand": "Various",
     "category": "LIJMMOF",
     "variants": [
       {
         "sku": "ABSBK016",
         "label": "ABS BOLKRAAN",
+        "page": 14,
         "page_in_pdf": 14,
         "properties": {
           "type": "compressed_air_pipe"
@@ -151,6 +162,7 @@
       {
         "sku": "ABSBK020",
         "label": "ABS BOLKRAAN",
+        "page": 14,
         "page_in_pdf": 14,
         "properties": {
           "type": "compressed_air_pipe"
@@ -162,6 +174,7 @@
       {
         "sku": "ABSBK032",
         "label": "ABS BOLKRAAN",
+        "page": 14,
         "page_in_pdf": 14,
         "properties": {
           "type": "compressed_air_pipe"
@@ -173,6 +186,7 @@
       {
         "sku": "ABSBK040",
         "label": "ABS BOLKRAAN",
+        "page": 14,
         "page_in_pdf": 14,
         "properties": {
           "type": "compressed_air_pipe"
@@ -184,6 +198,7 @@
       {
         "sku": "ABSBK050",
         "label": "ABS BOLKRAAN",
+        "page": 14,
         "page_in_pdf": 14,
         "properties": {
           "type": "compressed_air_pipe"
@@ -195,6 +210,7 @@
       {
         "sku": "ABSBK063",
         "label": "ABS BOLKRAAN",
+        "page": 14,
         "page_in_pdf": 14,
         "properties": {
           "type": "compressed_air_pipe"
@@ -206,6 +222,7 @@
       {
         "sku": "ABSBK075",
         "label": "ABS BOLKRAAN",
+        "page": 14,
         "page_in_pdf": 14,
         "properties": {
           "type": "compressed_air_pipe"
@@ -217,6 +234,7 @@
       {
         "sku": "ABSBK090",
         "label": "ABS BOLKRAAN",
+        "page": 14,
         "page_in_pdf": 14,
         "properties": {
           "type": "compressed_air_pipe"
@@ -228,6 +246,7 @@
       {
         "sku": "ABSBK110",
         "label": "ABS BOLKRAAN",
+        "page": 14,
         "page_in_pdf": 14,
         "properties": {
           "type": "compressed_air_pipe"
@@ -238,29 +257,30 @@
       }
     ],
     "images": [
-      "images/abs-persluchtbuizen/abs-bolkraan__v1.webp",
-      "images/abs-persluchtbuizen/abs-persluchtbuizen__p14__abs-bolkraan__ABSBK016-ABSBK020-ABSBK032__v1.webp"
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p14__abs-bolkraan__ABSBK016-ABSBK020-ABSBK032__v3.webp"
     ],
     "variant_count": 9,
     "default_variant_sku": "ABSBK016",
     "media": [
       {
         "role": "main",
-        "url": "images/abs-persluchtbuizen/abs-bolkraan__v1.webp"
+        "url": "images/abs-persluchtbuizen/abs-persluchtbuizen__p14__abs-bolkraan__ABSBK016-ABSBK020-ABSBK032__v3.webp"
       }
     ]
   },
   {
-    "group_id": "abs-persluchtbuizen-abs-drukbuis-pn10",
+    "group_id": "abs-persluchtbuizen-abs-persluchtbuizen-abs-drukbuis-pn10",
     "name": "ABS DRUKBUIS PN10",
-    "family": "abs-drukbuis-pn10",
+    "family": "abs-persluchtbuizen__abs-drukbuis-pn10",
     "catalog": "abs-persluchtbuizen",
+    "source_pdf": "abs-persluchtbuizen.pdf",
     "brand": "Various",
     "category": "LIJMMOF - GLAD",
     "variants": [
       {
         "sku": "ABSBU016",
         "label": "ABS DRUKBUIS PN10",
+        "page": 5,
         "page_in_pdf": 5,
         "properties": {
           "type": "compressed_air_pipe",
@@ -274,6 +294,7 @@
       {
         "sku": "ABSBU020",
         "label": "ABS DRUKBUIS PN10",
+        "page": 5,
         "page_in_pdf": 5,
         "properties": {
           "type": "compressed_air_pipe",
@@ -287,6 +308,7 @@
       {
         "sku": "ABSBU025",
         "label": "ABS DRUKBUIS PN10",
+        "page": 5,
         "page_in_pdf": 5,
         "properties": {
           "type": "compressed_air_pipe",
@@ -300,6 +322,7 @@
       {
         "sku": "ABSBU032",
         "label": "ABS DRUKBUIS PN10",
+        "page": 5,
         "page_in_pdf": 5,
         "properties": {
           "type": "compressed_air_pipe",
@@ -313,6 +336,7 @@
       {
         "sku": "ABSBU040",
         "label": "ABS DRUKBUIS PN10",
+        "page": 5,
         "page_in_pdf": 5,
         "properties": {
           "type": "compressed_air_pipe",
@@ -326,6 +350,7 @@
       {
         "sku": "ABSBU050",
         "label": "ABS DRUKBUIS PN10",
+        "page": 5,
         "page_in_pdf": 5,
         "properties": {
           "type": "compressed_air_pipe",
@@ -339,6 +364,7 @@
       {
         "sku": "ABSBU063",
         "label": "ABS DRUKBUIS PN10",
+        "page": 5,
         "page_in_pdf": 5,
         "properties": {
           "type": "compressed_air_pipe",
@@ -352,6 +378,7 @@
       {
         "sku": "ABSBU075",
         "label": "ABS DRUKBUIS PN10",
+        "page": 5,
         "page_in_pdf": 5,
         "properties": {
           "type": "compressed_air_pipe",
@@ -365,6 +392,7 @@
       {
         "sku": "ABSBU090",
         "label": "ABS DRUKBUIS PN10",
+        "page": 5,
         "page_in_pdf": 5,
         "properties": {
           "type": "compressed_air_pipe",
@@ -378,6 +406,7 @@
       {
         "sku": "ABSBU110",
         "label": "ABS DRUKBUIS PN10",
+        "page": 5,
         "page_in_pdf": 5,
         "properties": {
           "type": "compressed_air_pipe",
@@ -391,6 +420,7 @@
       {
         "sku": "ABSBU125",
         "label": "ABS DRUKBUIS PN10",
+        "page": 5,
         "page_in_pdf": 5,
         "properties": {
           "type": "compressed_air_pipe",
@@ -404,6 +434,7 @@
       {
         "sku": "ABSBU140",
         "label": "ABS DRUKBUIS PN10",
+        "page": 5,
         "page_in_pdf": 5,
         "properties": {
           "type": "compressed_air_pipe",
@@ -417,6 +448,7 @@
       {
         "sku": "ABSBU160",
         "label": "ABS DRUKBUIS PN10",
+        "page": 5,
         "page_in_pdf": 5,
         "properties": {
           "type": "compressed_air_pipe",
@@ -430,6 +462,7 @@
       {
         "sku": "ABSBU200",
         "label": "ABS DRUKBUIS PN10",
+        "page": 5,
         "page_in_pdf": 5,
         "properties": {
           "type": "compressed_air_pipe",
@@ -443,6 +476,7 @@
       {
         "sku": "ABSBU225",
         "label": "ABS DRUKBUIS PN10",
+        "page": 5,
         "page_in_pdf": 5,
         "properties": {
           "type": "compressed_air_pipe",
@@ -456,6 +490,7 @@
       {
         "sku": "ABSBU250",
         "label": "ABS DRUKBUIS PN10",
+        "page": 5,
         "page_in_pdf": 5,
         "properties": {
           "type": "compressed_air_pipe",
@@ -467,30 +502,24 @@
         }
       }
     ],
-    "images": [
-      "images/abs-persluchtbuizen/abs-bocht-90__v1.webp",
-      "images/abs-persluchtbuizen/abs-persluchtbuizen__p5__abs-bocht-90__ABSB02090-ABSB02590-ABSB03290__v1.webp"
-    ],
+    "images": [],
     "variant_count": 16,
     "default_variant_sku": "ABSBU016",
-    "media": [
-      {
-        "role": "main",
-        "url": "images/abs-persluchtbuizen/abs-bocht-90__v1.webp"
-      }
-    ]
+    "media": []
   },
   {
-    "group_id": "abs-persluchtbuizen-abs-inljmring",
+    "group_id": "abs-persluchtbuizen-abs-persluchtbuizen-abs-inljmring",
     "name": "ABS INLJMRING",
-    "family": "abs-inljmring",
+    "family": "abs-persluchtbuizen__abs-inljmring",
     "catalog": "abs-persluchtbuizen",
+    "source_pdf": "abs-persluchtbuizen.pdf",
     "brand": "Various",
     "category": "LIJMSPIE",
     "variants": [
       {
         "sku": "ABSI020016",
         "label": "ABS INLJMRING",
+        "page": 11,
         "page_in_pdf": 11,
         "properties": {
           "type": "compressed_air_pipe"
@@ -502,6 +531,7 @@
       {
         "sku": "ABSI025020",
         "label": "ABS INLJMRING",
+        "page": 11,
         "page_in_pdf": 11,
         "properties": {
           "type": "compressed_air_pipe"
@@ -513,6 +543,7 @@
       {
         "sku": "ABSI032016",
         "label": "ABS INLJMRING",
+        "page": 11,
         "page_in_pdf": 11,
         "properties": {
           "type": "compressed_air_pipe"
@@ -524,6 +555,7 @@
       {
         "sku": "ABSI032025",
         "label": "ABS INLJMRING",
+        "page": 11,
         "page_in_pdf": 11,
         "properties": {
           "type": "compressed_air_pipe"
@@ -535,6 +567,7 @@
       {
         "sku": "ABSI040032",
         "label": "ABS INLJMRING",
+        "page": 11,
         "page_in_pdf": 11,
         "properties": {
           "type": "compressed_air_pipe"
@@ -546,6 +579,7 @@
       {
         "sku": "ABSI050020",
         "label": "ABS INLJMRING",
+        "page": 11,
         "page_in_pdf": 11,
         "properties": {
           "type": "compressed_air_pipe"
@@ -557,6 +591,7 @@
       {
         "sku": "ABSI050025",
         "label": "ABS INLJMRING",
+        "page": 11,
         "page_in_pdf": 11,
         "properties": {
           "type": "compressed_air_pipe"
@@ -568,6 +603,7 @@
       {
         "sku": "ABSI050032",
         "label": "ABS INLJMRING",
+        "page": 11,
         "page_in_pdf": 11,
         "properties": {
           "type": "compressed_air_pipe"
@@ -579,6 +615,7 @@
       {
         "sku": "ABSI050040",
         "label": "ABS INLJMRING",
+        "page": 11,
         "page_in_pdf": 11,
         "properties": {
           "type": "compressed_air_pipe"
@@ -590,6 +627,7 @@
       {
         "sku": "ABSI063025",
         "label": "ABS INLJMRING",
+        "page": 11,
         "page_in_pdf": 11,
         "properties": {
           "type": "compressed_air_pipe"
@@ -601,6 +639,7 @@
       {
         "sku": "ABSI063032",
         "label": "ABS INLJMRING",
+        "page": 11,
         "page_in_pdf": 11,
         "properties": {
           "type": "compressed_air_pipe"
@@ -612,6 +651,7 @@
       {
         "sku": "ABSI063050",
         "label": "ABS INLJMRING",
+        "page": 11,
         "page_in_pdf": 11,
         "properties": {
           "type": "compressed_air_pipe"
@@ -623,6 +663,7 @@
       {
         "sku": "ABSI075063",
         "label": "ABS INLJMRING",
+        "page": 11,
         "page_in_pdf": 11,
         "properties": {
           "type": "compressed_air_pipe"
@@ -634,6 +675,7 @@
       {
         "sku": "ABSI090050",
         "label": "ABS INLJMRING",
+        "page": 11,
         "page_in_pdf": 11,
         "properties": {
           "type": "compressed_air_pipe"
@@ -645,6 +687,7 @@
       {
         "sku": "ABSI090063",
         "label": "ABS INLJMRING",
+        "page": 11,
         "page_in_pdf": 11,
         "properties": {
           "type": "compressed_air_pipe"
@@ -656,6 +699,7 @@
       {
         "sku": "ABSI090075",
         "label": "ABS INLJMRING",
+        "page": 11,
         "page_in_pdf": 11,
         "properties": {
           "type": "compressed_air_pipe"
@@ -667,6 +711,7 @@
       {
         "sku": "ABSI110063",
         "label": "ABS INLJMRING",
+        "page": 11,
         "page_in_pdf": 11,
         "properties": {
           "type": "compressed_air_pipe"
@@ -678,6 +723,7 @@
       {
         "sku": "ABSI110090",
         "label": "ABS INLJMRING",
+        "page": 11,
         "page_in_pdf": 11,
         "properties": {
           "type": "compressed_air_pipe"
@@ -689,6 +735,7 @@
       {
         "sku": "ABSI125110",
         "label": "ABS INLJMRING",
+        "page": 11,
         "page_in_pdf": 11,
         "properties": {
           "type": "compressed_air_pipe"
@@ -700,6 +747,7 @@
       {
         "sku": "ABSI140125",
         "label": "ABS INLJMRING",
+        "page": 11,
         "page_in_pdf": 11,
         "properties": {
           "type": "compressed_air_pipe"
@@ -711,6 +759,7 @@
       {
         "sku": "ABSI160090",
         "label": "ABS INLJMRING",
+        "page": 11,
         "page_in_pdf": 11,
         "properties": {
           "type": "compressed_air_pipe"
@@ -722,6 +771,7 @@
       {
         "sku": "ABSI160110",
         "label": "ABS INLJMRING",
+        "page": 11,
         "page_in_pdf": 11,
         "properties": {
           "type": "compressed_air_pipe"
@@ -733,6 +783,7 @@
       {
         "sku": "ABSI160140",
         "label": "ABS INLJMRING",
+        "page": 11,
         "page_in_pdf": 11,
         "properties": {
           "type": "compressed_air_pipe"
@@ -744,6 +795,7 @@
       {
         "sku": "ABSI200160",
         "label": "ABS INLJMRING",
+        "page": 11,
         "page_in_pdf": 11,
         "properties": {
           "type": "compressed_air_pipe"
@@ -755,6 +807,7 @@
       {
         "sku": "ABSI225160",
         "label": "ABS INLJMRING",
+        "page": 11,
         "page_in_pdf": 11,
         "properties": {
           "type": "compressed_air_pipe"
@@ -766,6 +819,7 @@
       {
         "sku": "ABSI225200",
         "label": "ABS INLJMRING",
+        "page": 11,
         "page_in_pdf": 11,
         "properties": {
           "type": "compressed_air_pipe"
@@ -776,29 +830,30 @@
       }
     ],
     "images": [
-      "images/abs-persluchtbuizen/abs-inljmring__v1.webp",
-      "images/abs-persluchtbuizen/abs-persluchtbuizen__p11__abs-inljmring__ABSI020016-ABSI025020-ABSI032016__v1.webp"
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p11__abs-inljmring__ABSI020016-ABSI025020-ABSI032016__v2.webp"
     ],
     "variant_count": 26,
     "default_variant_sku": "ABSI020016",
     "media": [
       {
         "role": "main",
-        "url": "images/abs-persluchtbuizen/abs-inljmring__v1.webp"
+        "url": "images/abs-persluchtbuizen/abs-persluchtbuizen__p11__abs-inljmring__ABSI020016-ABSI025020-ABSI032016__v2.webp"
       }
     ]
   },
   {
-    "group_id": "abs-persluchtbuizen-abs-inzet-draadsok",
+    "group_id": "abs-persluchtbuizen-abs-persluchtbuizen-abs-inzet-draadsok",
     "name": "ABS INZET DRAADSOK",
-    "family": "abs-inzet-draadsok",
+    "family": "abs-persluchtbuizen__abs-inzet-draadsok",
     "catalog": "abs-persluchtbuizen",
+    "source_pdf": "abs-persluchtbuizen.pdf",
     "brand": "Various",
     "category": "LIJMSPIE - BINNENDRAAD",
     "variants": [
       {
         "sku": "ABSID01612",
         "label": "ABS INZET DRAADSOK",
+        "page": 9,
         "page_in_pdf": 9,
         "properties": {
           "type": "compressed_air_pipe"
@@ -810,6 +865,7 @@
       {
         "sku": "ABSID02016",
         "label": "ABS INZET DRAADSOK",
+        "page": 9,
         "page_in_pdf": 9,
         "properties": {
           "type": "compressed_air_pipe"
@@ -821,6 +877,7 @@
       {
         "sku": "ABSID02520",
         "label": "ABS INZET DRAADSOK",
+        "page": 9,
         "page_in_pdf": 9,
         "properties": {
           "type": "compressed_air_pipe"
@@ -832,6 +889,7 @@
       {
         "sku": "ABSID03225",
         "label": "ABS INZET DRAADSOK",
+        "page": 9,
         "page_in_pdf": 9,
         "properties": {
           "type": "compressed_air_pipe"
@@ -843,6 +901,7 @@
       {
         "sku": "ABSID04032",
         "label": "ABS INZET DRAADSOK",
+        "page": 9,
         "page_in_pdf": 9,
         "properties": {
           "type": "compressed_air_pipe"
@@ -854,6 +913,7 @@
       {
         "sku": "ABSID05040",
         "label": "ABS INZET DRAADSOK",
+        "page": 9,
         "page_in_pdf": 9,
         "properties": {
           "type": "compressed_air_pipe"
@@ -865,6 +925,7 @@
       {
         "sku": "ABSID06350",
         "label": "ABS INZET DRAADSOK",
+        "page": 9,
         "page_in_pdf": 9,
         "properties": {
           "type": "compressed_air_pipe"
@@ -875,29 +936,30 @@
       }
     ],
     "images": [
-      "images/abs-persluchtbuizen/abs-inzet-draadsok__v1.webp",
-      "images/abs-persluchtbuizen/abs-persluchtbuizen__p9__abs-inzet-draadsok__ABSID01612-ABSID02016-ABSID02520__v1.webp"
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p9__abs-inzet-draadsok__ABSID01612-ABSID02016-ABSID02520__v2.webp"
     ],
     "variant_count": 7,
     "default_variant_sku": "ABSID01612",
     "media": [
       {
         "role": "main",
-        "url": "images/abs-persluchtbuizen/abs-inzet-draadsok__v1.webp"
+        "url": "images/abs-persluchtbuizen/abs-persluchtbuizen__p9__abs-inzet-draadsok__ABSID01612-ABSID02016-ABSID02520__v2.webp"
       }
     ]
   },
   {
-    "group_id": "abs-persluchtbuizen-abs-knie-45",
+    "group_id": "abs-persluchtbuizen-abs-persluchtbuizen-abs-knie-45",
     "name": "ABS KNIE 45°",
-    "family": "abs-knie-45",
+    "family": "abs-persluchtbuizen__abs-knie-45",
     "catalog": "abs-persluchtbuizen",
+    "source_pdf": "abs-persluchtbuizen.pdf",
     "brand": "Various",
     "category": "LIJMMOF",
     "variants": [
       {
         "sku": "ABSK01645",
         "label": "ABS KNIE 45°",
+        "page": 6,
         "page_in_pdf": 6,
         "properties": {
           "type": "compressed_air_pipe"
@@ -909,6 +971,7 @@
       {
         "sku": "ABSK02045",
         "label": "ABS KNIE 45°",
+        "page": 6,
         "page_in_pdf": 6,
         "properties": {
           "type": "compressed_air_pipe"
@@ -920,6 +983,7 @@
       {
         "sku": "ABSK02545",
         "label": "ABS KNIE 45°",
+        "page": 6,
         "page_in_pdf": 6,
         "properties": {
           "type": "compressed_air_pipe"
@@ -931,6 +995,7 @@
       {
         "sku": "ABSK03245",
         "label": "ABS KNIE 45°",
+        "page": 6,
         "page_in_pdf": 6,
         "properties": {
           "type": "compressed_air_pipe"
@@ -942,6 +1007,7 @@
       {
         "sku": "ABSK04045",
         "label": "ABS KNIE 45°",
+        "page": 6,
         "page_in_pdf": 6,
         "properties": {
           "type": "compressed_air_pipe"
@@ -953,6 +1019,7 @@
       {
         "sku": "ABSK05045",
         "label": "ABS KNIE 45°",
+        "page": 6,
         "page_in_pdf": 6,
         "properties": {
           "type": "compressed_air_pipe"
@@ -964,6 +1031,7 @@
       {
         "sku": "ABSK06345",
         "label": "ABS KNIE 45°",
+        "page": 6,
         "page_in_pdf": 6,
         "properties": {
           "type": "compressed_air_pipe"
@@ -975,6 +1043,7 @@
       {
         "sku": "ABSK07545",
         "label": "ABS KNIE 45°",
+        "page": 6,
         "page_in_pdf": 6,
         "properties": {
           "type": "compressed_air_pipe"
@@ -986,6 +1055,7 @@
       {
         "sku": "ABSK09045",
         "label": "ABS KNIE 45°",
+        "page": 6,
         "page_in_pdf": 6,
         "properties": {
           "type": "compressed_air_pipe"
@@ -997,6 +1067,7 @@
       {
         "sku": "ABSK11045",
         "label": "ABS KNIE 45°",
+        "page": 6,
         "page_in_pdf": 6,
         "properties": {
           "type": "compressed_air_pipe"
@@ -1008,6 +1079,7 @@
       {
         "sku": "ABSK12545",
         "label": "ABS KNIE 45°",
+        "page": 6,
         "page_in_pdf": 6,
         "properties": {
           "type": "compressed_air_pipe"
@@ -1019,6 +1091,7 @@
       {
         "sku": "ABSK14045",
         "label": "ABS KNIE 45°",
+        "page": 6,
         "page_in_pdf": 6,
         "properties": {
           "type": "compressed_air_pipe"
@@ -1030,6 +1103,7 @@
       {
         "sku": "ABSK16045",
         "label": "ABS KNIE 45°",
+        "page": 6,
         "page_in_pdf": 6,
         "properties": {
           "type": "compressed_air_pipe"
@@ -1041,6 +1115,7 @@
       {
         "sku": "ABSK20045",
         "label": "ABS KNIE 45°",
+        "page": 6,
         "page_in_pdf": 6,
         "properties": {
           "type": "compressed_air_pipe"
@@ -1052,6 +1127,7 @@
       {
         "sku": "ABSK22545",
         "label": "ABS KNIE 45°",
+        "page": 6,
         "page_in_pdf": 6,
         "properties": {
           "type": "compressed_air_pipe"
@@ -1063,6 +1139,7 @@
       {
         "sku": "ABSK25045",
         "label": "ABS KNIE 45°",
+        "page": 6,
         "page_in_pdf": 6,
         "properties": {
           "type": "compressed_air_pipe"
@@ -1073,7 +1150,6 @@
       }
     ],
     "images": [
-      "images/abs-persluchtbuizen/abs-knie-45__v1.webp",
       "images/abs-persluchtbuizen/abs-persluchtbuizen__p6__abs-knie-45__ABSK01645-ABSK02045-ABSK02545__v1.webp"
     ],
     "variant_count": 16,
@@ -1081,21 +1157,23 @@
     "media": [
       {
         "role": "main",
-        "url": "images/abs-persluchtbuizen/abs-knie-45__v1.webp"
+        "url": "images/abs-persluchtbuizen/abs-persluchtbuizen__p6__abs-knie-45__ABSK01645-ABSK02045-ABSK02545__v1.webp"
       }
     ]
   },
   {
-    "group_id": "abs-persluchtbuizen-abs-knie-90",
+    "group_id": "abs-persluchtbuizen-abs-persluchtbuizen-abs-knie-90",
     "name": "ABS KNIE 90°",
-    "family": "abs-knie-90",
+    "family": "abs-persluchtbuizen__abs-knie-90",
     "catalog": "abs-persluchtbuizen",
+    "source_pdf": "abs-persluchtbuizen.pdf",
     "brand": "Various",
     "category": "LIJMMOF",
     "variants": [
       {
         "sku": "ABSK01690",
         "label": "ABS KNIE 90°",
+        "page": 6,
         "page_in_pdf": 6,
         "properties": {
           "type": "compressed_air_pipe"
@@ -1107,6 +1185,7 @@
       {
         "sku": "ABSK02090",
         "label": "ABS KNIE 90°",
+        "page": 6,
         "page_in_pdf": 6,
         "properties": {
           "type": "compressed_air_pipe"
@@ -1118,6 +1197,7 @@
       {
         "sku": "ABSK02590",
         "label": "ABS KNIE 90°",
+        "page": 6,
         "page_in_pdf": 6,
         "properties": {
           "type": "compressed_air_pipe"
@@ -1129,6 +1209,7 @@
       {
         "sku": "ABSK03290",
         "label": "ABS KNIE 90°",
+        "page": 6,
         "page_in_pdf": 6,
         "properties": {
           "type": "compressed_air_pipe"
@@ -1140,6 +1221,7 @@
       {
         "sku": "ABSK04090",
         "label": "ABS KNIE 90°",
+        "page": 6,
         "page_in_pdf": 6,
         "properties": {
           "type": "compressed_air_pipe"
@@ -1151,6 +1233,7 @@
       {
         "sku": "ABSK05090",
         "label": "ABS KNIE 90°",
+        "page": 6,
         "page_in_pdf": 6,
         "properties": {
           "type": "compressed_air_pipe"
@@ -1162,6 +1245,7 @@
       {
         "sku": "ABSK06390",
         "label": "ABS KNIE 90°",
+        "page": 6,
         "page_in_pdf": 6,
         "properties": {
           "type": "compressed_air_pipe"
@@ -1173,6 +1257,7 @@
       {
         "sku": "ABSK07590",
         "label": "ABS KNIE 90°",
+        "page": 6,
         "page_in_pdf": 6,
         "properties": {
           "type": "compressed_air_pipe"
@@ -1184,6 +1269,7 @@
       {
         "sku": "ABSK09090",
         "label": "ABS KNIE 90°",
+        "page": 6,
         "page_in_pdf": 6,
         "properties": {
           "type": "compressed_air_pipe"
@@ -1195,6 +1281,7 @@
       {
         "sku": "ABSK11090",
         "label": "ABS KNIE 90°",
+        "page": 6,
         "page_in_pdf": 6,
         "properties": {
           "type": "compressed_air_pipe"
@@ -1206,6 +1293,7 @@
       {
         "sku": "ABSK12590",
         "label": "ABS KNIE 90°",
+        "page": 6,
         "page_in_pdf": 6,
         "properties": {
           "type": "compressed_air_pipe"
@@ -1217,6 +1305,7 @@
       {
         "sku": "ABSK14090",
         "label": "ABS KNIE 90°",
+        "page": 6,
         "page_in_pdf": 6,
         "properties": {
           "type": "compressed_air_pipe"
@@ -1228,6 +1317,7 @@
       {
         "sku": "ABSK16090",
         "label": "ABS KNIE 90°",
+        "page": 6,
         "page_in_pdf": 6,
         "properties": {
           "type": "compressed_air_pipe"
@@ -1239,6 +1329,7 @@
       {
         "sku": "ABSK20090",
         "label": "ABS KNIE 90°",
+        "page": 6,
         "page_in_pdf": 6,
         "properties": {
           "type": "compressed_air_pipe"
@@ -1250,6 +1341,7 @@
       {
         "sku": "ABSK22590",
         "label": "ABS KNIE 90°",
+        "page": 6,
         "page_in_pdf": 6,
         "properties": {
           "type": "compressed_air_pipe"
@@ -1261,6 +1353,7 @@
       {
         "sku": "ABSK25090",
         "label": "ABS KNIE 90°",
+        "page": 6,
         "page_in_pdf": 6,
         "properties": {
           "type": "compressed_air_pipe"
@@ -1270,30 +1363,24 @@
         }
       }
     ],
-    "images": [
-      "images/abs-persluchtbuizen/abs-knie-45__v1.webp",
-      "images/abs-persluchtbuizen/abs-persluchtbuizen__p6__abs-knie-45__ABSK01645-ABSK02045-ABSK02545__v1.webp"
-    ],
+    "images": [],
     "variant_count": 16,
     "default_variant_sku": "ABSK01690",
-    "media": [
-      {
-        "role": "main",
-        "url": "images/abs-persluchtbuizen/abs-knie-45__v1.webp"
-      }
-    ]
+    "media": []
   },
   {
-    "group_id": "abs-persluchtbuizen-abs-kraagbus",
+    "group_id": "abs-persluchtbuizen-abs-persluchtbuizen-abs-kraagbus",
     "name": "ABS KRAAGBUS",
-    "family": "abs-kraagbus",
+    "family": "abs-persluchtbuizen__abs-kraagbus",
     "catalog": "abs-persluchtbuizen",
+    "source_pdf": "abs-persluchtbuizen.pdf",
     "brand": "Various",
     "category": "LIJMMOF",
     "variants": [
       {
         "sku": "ABSKR020",
         "label": "ABS KRAAGBUS",
+        "page": 13,
         "page_in_pdf": 13,
         "properties": {
           "type": "compressed_air_pipe"
@@ -1305,6 +1392,7 @@
       {
         "sku": "ABSKR025",
         "label": "ABS KRAAGBUS",
+        "page": 13,
         "page_in_pdf": 13,
         "properties": {
           "type": "compressed_air_pipe"
@@ -1316,6 +1404,7 @@
       {
         "sku": "ABSKR032",
         "label": "ABS KRAAGBUS",
+        "page": 13,
         "page_in_pdf": 13,
         "properties": {
           "type": "compressed_air_pipe"
@@ -1327,6 +1416,7 @@
       {
         "sku": "ABSKR040",
         "label": "ABS KRAAGBUS",
+        "page": 13,
         "page_in_pdf": 13,
         "properties": {
           "type": "compressed_air_pipe"
@@ -1338,6 +1428,7 @@
       {
         "sku": "ABSKR050",
         "label": "ABS KRAAGBUS",
+        "page": 13,
         "page_in_pdf": 13,
         "properties": {
           "type": "compressed_air_pipe"
@@ -1349,6 +1440,7 @@
       {
         "sku": "ABSKR063",
         "label": "ABS KRAAGBUS",
+        "page": 13,
         "page_in_pdf": 13,
         "properties": {
           "type": "compressed_air_pipe"
@@ -1360,6 +1452,7 @@
       {
         "sku": "ABSKR075",
         "label": "ABS KRAAGBUS",
+        "page": 13,
         "page_in_pdf": 13,
         "properties": {
           "type": "compressed_air_pipe"
@@ -1371,6 +1464,7 @@
       {
         "sku": "ABSKR090",
         "label": "ABS KRAAGBUS",
+        "page": 13,
         "page_in_pdf": 13,
         "properties": {
           "type": "compressed_air_pipe"
@@ -1382,6 +1476,7 @@
       {
         "sku": "ABSKR110",
         "label": "ABS KRAAGBUS",
+        "page": 13,
         "page_in_pdf": 13,
         "properties": {
           "type": "compressed_air_pipe"
@@ -1393,6 +1488,7 @@
       {
         "sku": "ABSKR125",
         "label": "ABS KRAAGBUS",
+        "page": 13,
         "page_in_pdf": 13,
         "properties": {
           "type": "compressed_air_pipe"
@@ -1404,6 +1500,7 @@
       {
         "sku": "ABSKR140",
         "label": "ABS KRAAGBUS",
+        "page": 13,
         "page_in_pdf": 13,
         "properties": {
           "type": "compressed_air_pipe"
@@ -1415,6 +1512,7 @@
       {
         "sku": "ABSKR160",
         "label": "ABS KRAAGBUS",
+        "page": 13,
         "page_in_pdf": 13,
         "properties": {
           "type": "compressed_air_pipe"
@@ -1426,6 +1524,7 @@
       {
         "sku": "ABSKR200",
         "label": "ABS KRAAGBUS",
+        "page": 13,
         "page_in_pdf": 13,
         "properties": {
           "type": "compressed_air_pipe"
@@ -1437,6 +1536,7 @@
       {
         "sku": "ABSKR225",
         "label": "ABS KRAAGBUS",
+        "page": 13,
         "page_in_pdf": 13,
         "properties": {
           "type": "compressed_air_pipe"
@@ -1448,6 +1548,7 @@
       {
         "sku": "ABSKR250",
         "label": "ABS KRAAGBUS",
+        "page": 13,
         "page_in_pdf": 13,
         "properties": {
           "type": "compressed_air_pipe"
@@ -1458,29 +1559,30 @@
       }
     ],
     "images": [
-      "images/abs-persluchtbuizen/abs-kraagbus__v1.webp",
-      "images/abs-persluchtbuizen/abs-persluchtbuizen__p13__abs-kraagbus__ABSKR020-ABSKR025-ABSKR032__v1.webp"
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p13__abs-kraagbus__ABSKR020-ABSKR025-ABSKR032__v2.webp"
     ],
     "variant_count": 15,
     "default_variant_sku": "ABSKR020",
     "media": [
       {
         "role": "main",
-        "url": "images/abs-persluchtbuizen/abs-kraagbus__v1.webp"
+        "url": "images/abs-persluchtbuizen/abs-persluchtbuizen__p13__abs-kraagbus__ABSKR020-ABSKR025-ABSKR032__v2.webp"
       }
     ]
   },
   {
-    "group_id": "abs-persluchtbuizen-abs-lijmkap",
+    "group_id": "abs-persluchtbuizen-abs-persluchtbuizen-abs-lijmkap",
     "name": "ABS LIJMKAP",
-    "family": "abs-lijmkap",
+    "family": "abs-persluchtbuizen__abs-lijmkap",
     "catalog": "abs-persluchtbuizen",
+    "source_pdf": "abs-persluchtbuizen.pdf",
     "brand": "Various",
     "category": "LIJMMOF",
     "variants": [
       {
         "sku": "ABSLK016",
         "label": "ABS LIJMKAP",
+        "page": 10,
         "page_in_pdf": 10,
         "properties": {
           "type": "compressed_air_pipe"
@@ -1493,6 +1595,7 @@
       {
         "sku": "ABSLK020",
         "label": "ABS LIJMKAP",
+        "page": 10,
         "page_in_pdf": 10,
         "properties": {
           "type": "compressed_air_pipe"
@@ -1505,6 +1608,7 @@
       {
         "sku": "ABSLK025",
         "label": "ABS LIJMKAP",
+        "page": 10,
         "page_in_pdf": 10,
         "properties": {
           "type": "compressed_air_pipe"
@@ -1517,6 +1621,7 @@
       {
         "sku": "ABSLK032",
         "label": "ABS LIJMKAP",
+        "page": 10,
         "page_in_pdf": 10,
         "properties": {
           "type": "compressed_air_pipe"
@@ -1529,6 +1634,7 @@
       {
         "sku": "ABSLK040",
         "label": "ABS LIJMKAP",
+        "page": 10,
         "page_in_pdf": 10,
         "properties": {
           "type": "compressed_air_pipe"
@@ -1541,6 +1647,7 @@
       {
         "sku": "ABSLK050",
         "label": "ABS LIJMKAP",
+        "page": 10,
         "page_in_pdf": 10,
         "properties": {
           "type": "compressed_air_pipe"
@@ -1553,6 +1660,7 @@
       {
         "sku": "ABSLK063",
         "label": "ABS LIJMKAP",
+        "page": 10,
         "page_in_pdf": 10,
         "properties": {
           "type": "compressed_air_pipe"
@@ -1565,6 +1673,7 @@
       {
         "sku": "ABSLK075",
         "label": "ABS LIJMKAP",
+        "page": 10,
         "page_in_pdf": 10,
         "properties": {
           "type": "compressed_air_pipe"
@@ -1577,6 +1686,7 @@
       {
         "sku": "ABSLK090",
         "label": "ABS LIJMKAP",
+        "page": 10,
         "page_in_pdf": 10,
         "properties": {
           "type": "compressed_air_pipe"
@@ -1589,6 +1699,7 @@
       {
         "sku": "ABSLK110",
         "label": "ABS LIJMKAP",
+        "page": 10,
         "page_in_pdf": 10,
         "properties": {
           "type": "compressed_air_pipe"
@@ -1600,29 +1711,30 @@
       }
     ],
     "images": [
-      "images/abs-persluchtbuizen/abs-lijmkap__v1.webp",
-      "images/abs-persluchtbuizen/abs-persluchtbuizen__p10__abs-lijmkap__ABSLK016-ABSLK020-ABSLK025__v1.webp"
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p10__abs-lijmkap__ABSLK016-ABSLK020-ABSLK025__v2.webp"
     ],
     "variant_count": 10,
     "default_variant_sku": "ABSLK016",
     "media": [
       {
         "role": "main",
-        "url": "images/abs-persluchtbuizen/abs-lijmkap__v1.webp"
+        "url": "images/abs-persluchtbuizen/abs-persluchtbuizen__p10__abs-lijmkap__ABSLK016-ABSLK020-ABSLK025__v2.webp"
       }
     ]
   },
   {
-    "group_id": "abs-persluchtbuizen-abs-mof",
+    "group_id": "abs-persluchtbuizen-abs-persluchtbuizen-abs-mof",
     "name": "ABS MOF",
-    "family": "abs-mof",
+    "family": "abs-persluchtbuizen__abs-mof",
     "catalog": "abs-persluchtbuizen",
+    "source_pdf": "abs-persluchtbuizen.pdf",
     "brand": "Various",
     "category": "LIJMMOF",
     "variants": [
       {
         "sku": "ABSM016",
         "label": "ABS MOF",
+        "page": 8,
         "page_in_pdf": 8,
         "properties": {
           "type": "compressed_air_pipe"
@@ -1634,6 +1746,7 @@
       {
         "sku": "ABSM020",
         "label": "ABS MOF",
+        "page": 8,
         "page_in_pdf": 8,
         "properties": {
           "type": "compressed_air_pipe"
@@ -1645,6 +1758,7 @@
       {
         "sku": "ABSM025",
         "label": "ABS MOF",
+        "page": 8,
         "page_in_pdf": 8,
         "properties": {
           "type": "compressed_air_pipe"
@@ -1656,6 +1770,7 @@
       {
         "sku": "ABSM032",
         "label": "ABS MOF",
+        "page": 8,
         "page_in_pdf": 8,
         "properties": {
           "type": "compressed_air_pipe"
@@ -1667,6 +1782,7 @@
       {
         "sku": "ABSM040",
         "label": "ABS MOF",
+        "page": 8,
         "page_in_pdf": 8,
         "properties": {
           "type": "compressed_air_pipe"
@@ -1678,6 +1794,7 @@
       {
         "sku": "ABSM050",
         "label": "ABS MOF",
+        "page": 8,
         "page_in_pdf": 8,
         "properties": {
           "type": "compressed_air_pipe"
@@ -1689,6 +1806,7 @@
       {
         "sku": "ABSM063",
         "label": "ABS MOF",
+        "page": 8,
         "page_in_pdf": 8,
         "properties": {
           "type": "compressed_air_pipe"
@@ -1700,6 +1818,7 @@
       {
         "sku": "ABSM075",
         "label": "ABS MOF",
+        "page": 8,
         "page_in_pdf": 8,
         "properties": {
           "type": "compressed_air_pipe"
@@ -1711,6 +1830,7 @@
       {
         "sku": "ABSM090",
         "label": "ABS MOF",
+        "page": 8,
         "page_in_pdf": 8,
         "properties": {
           "type": "compressed_air_pipe"
@@ -1722,6 +1842,7 @@
       {
         "sku": "ABSM110",
         "label": "ABS MOF",
+        "page": 8,
         "page_in_pdf": 8,
         "properties": {
           "type": "compressed_air_pipe"
@@ -1733,6 +1854,7 @@
       {
         "sku": "ABSM125",
         "label": "ABS MOF",
+        "page": 8,
         "page_in_pdf": 8,
         "properties": {
           "type": "compressed_air_pipe"
@@ -1744,6 +1866,7 @@
       {
         "sku": "ABSM140",
         "label": "ABS MOF",
+        "page": 8,
         "page_in_pdf": 8,
         "properties": {
           "type": "compressed_air_pipe"
@@ -1755,6 +1878,7 @@
       {
         "sku": "ABSM160",
         "label": "ABS MOF",
+        "page": 8,
         "page_in_pdf": 8,
         "properties": {
           "type": "compressed_air_pipe"
@@ -1766,6 +1890,7 @@
       {
         "sku": "ABSM200",
         "label": "ABS MOF",
+        "page": 8,
         "page_in_pdf": 8,
         "properties": {
           "type": "compressed_air_pipe"
@@ -1777,6 +1902,7 @@
       {
         "sku": "ABSM225",
         "label": "ABS MOF",
+        "page": 8,
         "page_in_pdf": 8,
         "properties": {
           "type": "compressed_air_pipe"
@@ -1788,6 +1914,7 @@
       {
         "sku": "ABSM250",
         "label": "ABS MOF",
+        "page": 8,
         "page_in_pdf": 8,
         "properties": {
           "type": "compressed_air_pipe"
@@ -1798,29 +1925,30 @@
       }
     ],
     "images": [
-      "images/abs-persluchtbuizen/abs-mof__v1.webp",
-      "images/abs-persluchtbuizen/abs-persluchtbuizen__p8__abs-mof__ABSM016-ABSM020-ABSM025__v1.webp"
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p8__abs-mof__ABSM016-ABSM020-ABSM025__v2.webp"
     ],
     "variant_count": 16,
     "default_variant_sku": "ABSM016",
     "media": [
       {
         "role": "main",
-        "url": "images/abs-persluchtbuizen/abs-mof__v1.webp"
+        "url": "images/abs-persluchtbuizen/abs-persluchtbuizen__p8__abs-mof__ABSM016-ABSM020-ABSM025__v2.webp"
       }
     ]
   },
   {
-    "group_id": "abs-persluchtbuizen-abs-puntstuk",
+    "group_id": "abs-persluchtbuizen-abs-persluchtbuizen-abs-puntstuk",
     "name": "ABS PUNTSTUK",
-    "family": "abs-puntstuk",
+    "family": "abs-persluchtbuizen__abs-puntstuk",
     "catalog": "abs-persluchtbuizen",
+    "source_pdf": "abs-persluchtbuizen.pdf",
     "brand": "Various",
     "category": "LIJMMOF - BUITENDRAAD",
     "variants": [
       {
         "sku": "ABSP020161",
         "label": "ABS PUNTSTUK",
+        "page": 10,
         "page_in_pdf": 10,
         "properties": {
           "type": "compressed_air_pipe"
@@ -1833,6 +1961,7 @@
       {
         "sku": "ABSP020163",
         "label": "ABS PUNTSTUK",
+        "page": 10,
         "page_in_pdf": 10,
         "properties": {
           "type": "compressed_air_pipe"
@@ -1845,6 +1974,7 @@
       {
         "sku": "ABSP025201",
         "label": "ABS PUNTSTUK",
+        "page": 10,
         "page_in_pdf": 10,
         "properties": {
           "type": "compressed_air_pipe"
@@ -1857,6 +1987,7 @@
       {
         "sku": "ABSP025203",
         "label": "ABS PUNTSTUK",
+        "page": 10,
         "page_in_pdf": 10,
         "properties": {
           "type": "compressed_air_pipe"
@@ -1869,6 +2000,7 @@
       {
         "sku": "ABSP032251",
         "label": "ABS PUNTSTUK",
+        "page": 10,
         "page_in_pdf": 10,
         "properties": {
           "type": "compressed_air_pipe"
@@ -1881,6 +2013,7 @@
       {
         "sku": "ABSP032253",
         "label": "ABS PUNTSTUK",
+        "page": 10,
         "page_in_pdf": 10,
         "properties": {
           "type": "compressed_air_pipe"
@@ -1893,6 +2026,7 @@
       {
         "sku": "ABSP040321",
         "label": "ABS PUNTSTUK",
+        "page": 10,
         "page_in_pdf": 10,
         "properties": {
           "type": "compressed_air_pipe"
@@ -1905,6 +2039,7 @@
       {
         "sku": "ABSP040325",
         "label": "ABS PUNTSTUK",
+        "page": 10,
         "page_in_pdf": 10,
         "properties": {
           "type": "compressed_air_pipe"
@@ -1917,6 +2052,7 @@
       {
         "sku": "ABSP050405",
         "label": "ABS PUNTSTUK",
+        "page": 10,
         "page_in_pdf": 10,
         "properties": {
           "type": "compressed_air_pipe"
@@ -1929,6 +2065,7 @@
       {
         "sku": "ABSP050406",
         "label": "ABS PUNTSTUK",
+        "page": 10,
         "page_in_pdf": 10,
         "properties": {
           "type": "compressed_air_pipe"
@@ -1941,6 +2078,7 @@
       {
         "sku": "ABSP063502",
         "label": "ABS PUNTSTUK",
+        "page": 10,
         "page_in_pdf": 10,
         "properties": {
           "type": "compressed_air_pipe"
@@ -1953,6 +2091,7 @@
       {
         "sku": "ABSP063506",
         "label": "ABS PUNTSTUK",
+        "page": 10,
         "page_in_pdf": 10,
         "properties": {
           "type": "compressed_air_pipe"
@@ -1965,6 +2104,7 @@
       {
         "sku": "ABSP075632",
         "label": "ABS PUNTSTUK",
+        "page": 10,
         "page_in_pdf": 10,
         "properties": {
           "type": "compressed_air_pipe"
@@ -1975,30 +2115,24 @@
         }
       }
     ],
-    "images": [
-      "images/abs-persluchtbuizen/abs-lijmkap__v1.webp",
-      "images/abs-persluchtbuizen/abs-persluchtbuizen__p10__abs-lijmkap__ABSLK016-ABSLK020-ABSLK025__v1.webp"
-    ],
+    "images": [],
     "variant_count": 13,
     "default_variant_sku": "ABSP020161",
-    "media": [
-      {
-        "role": "main",
-        "url": "images/abs-persluchtbuizen/abs-lijmkap__v1.webp"
-      }
-    ]
+    "media": []
   },
   {
-    "group_id": "abs-persluchtbuizen-abs-spuitgietkoppeling",
+    "group_id": "abs-persluchtbuizen-abs-persluchtbuizen-abs-spuitgietkoppeling",
     "name": "ABS SPUITGIETKOPPELING",
-    "family": "abs-spuitgietkoppeling",
+    "family": "abs-persluchtbuizen__abs-spuitgietkoppeling",
     "catalog": "abs-persluchtbuizen",
+    "source_pdf": "abs-persluchtbuizen.pdf",
     "brand": "Various",
     "category": "LIJMMOF",
     "variants": [
       {
         "sku": "ABSR016",
         "label": "ABS SPUITGIETKOPPELING",
+        "page": 11,
         "page_in_pdf": 11,
         "properties": {
           "type": "compressed_air_pipe"
@@ -2010,6 +2144,7 @@
       {
         "sku": "ABSR020",
         "label": "ABS SPUITGIETKOPPELING",
+        "page": 11,
         "page_in_pdf": 11,
         "properties": {
           "type": "compressed_air_pipe"
@@ -2021,6 +2156,7 @@
       {
         "sku": "ABSR025",
         "label": "ABS SPUITGIETKOPPELING",
+        "page": 11,
         "page_in_pdf": 11,
         "properties": {
           "type": "compressed_air_pipe"
@@ -2032,6 +2168,7 @@
       {
         "sku": "ABSR032",
         "label": "ABS SPUITGIETKOPPELING",
+        "page": 11,
         "page_in_pdf": 11,
         "properties": {
           "type": "compressed_air_pipe"
@@ -2043,6 +2180,7 @@
       {
         "sku": "ABSR040",
         "label": "ABS SPUITGIETKOPPELING",
+        "page": 11,
         "page_in_pdf": 11,
         "properties": {
           "type": "compressed_air_pipe"
@@ -2054,6 +2192,7 @@
       {
         "sku": "ABSR050",
         "label": "ABS SPUITGIETKOPPELING",
+        "page": 11,
         "page_in_pdf": 11,
         "properties": {
           "type": "compressed_air_pipe"
@@ -2065,6 +2204,7 @@
       {
         "sku": "ABSR063",
         "label": "ABS SPUITGIETKOPPELING",
+        "page": 11,
         "page_in_pdf": 11,
         "properties": {
           "type": "compressed_air_pipe"
@@ -2076,6 +2216,7 @@
       {
         "sku": "ABSR075",
         "label": "ABS SPUITGIETKOPPELING",
+        "page": 11,
         "page_in_pdf": 11,
         "properties": {
           "type": "compressed_air_pipe"
@@ -2087,6 +2228,7 @@
       {
         "sku": "ABSR090",
         "label": "ABS SPUITGIETKOPPELING",
+        "page": 11,
         "page_in_pdf": 11,
         "properties": {
           "type": "compressed_air_pipe"
@@ -2098,6 +2240,7 @@
       {
         "sku": "ABSR110",
         "label": "ABS SPUITGIETKOPPELING",
+        "page": 11,
         "page_in_pdf": 11,
         "properties": {
           "type": "compressed_air_pipe"
@@ -2107,30 +2250,24 @@
         }
       }
     ],
-    "images": [
-      "images/abs-persluchtbuizen/abs-inljmring__v1.webp",
-      "images/abs-persluchtbuizen/abs-persluchtbuizen__p11__abs-inljmring__ABSI020016-ABSI025020-ABSI032016__v1.webp"
-    ],
+    "images": [],
     "variant_count": 10,
     "default_variant_sku": "ABSR016",
-    "media": [
-      {
-        "role": "main",
-        "url": "images/abs-persluchtbuizen/abs-inljmring__v1.webp"
-      }
-    ]
+    "media": []
   },
   {
-    "group_id": "abs-persluchtbuizen-raccord-abs-messing",
+    "group_id": "abs-persluchtbuizen-abs-persluchtbuizen-raccord-abs-messing",
     "name": "RACCORD ABS/MESSING",
-    "family": "raccord-abs-messing",
+    "family": "abs-persluchtbuizen__raccord-abs-messing",
     "catalog": "abs-persluchtbuizen",
+    "source_pdf": "abs-persluchtbuizen.pdf",
     "brand": "Various",
     "category": "LIJMMOF - BINNENDRAAD",
     "variants": [
       {
         "sku": "ABSRI01638",
         "label": "RACCORD ABS/MESSING",
+        "page": 12,
         "page_in_pdf": 12,
         "properties": {
           "type": "compressed_air_pipe"
@@ -2143,6 +2280,7 @@
       {
         "sku": "ABSRI02012",
         "label": "RACCORD ABS/MESSING",
+        "page": 12,
         "page_in_pdf": 12,
         "properties": {
           "type": "compressed_air_pipe"
@@ -2155,6 +2293,7 @@
       {
         "sku": "ABSRI02534",
         "label": "RACCORD ABS/MESSING",
+        "page": 12,
         "page_in_pdf": 12,
         "properties": {
           "type": "compressed_air_pipe"
@@ -2167,6 +2306,7 @@
       {
         "sku": "ABSRI0321",
         "label": "RACCORD ABS/MESSING",
+        "page": 12,
         "page_in_pdf": 12,
         "properties": {
           "type": "compressed_air_pipe"
@@ -2179,6 +2319,7 @@
       {
         "sku": "ABSRI04054",
         "label": "RACCORD ABS/MESSING",
+        "page": 12,
         "page_in_pdf": 12,
         "properties": {
           "type": "compressed_air_pipe"
@@ -2191,6 +2332,7 @@
       {
         "sku": "ABSRI05064",
         "label": "RACCORD ABS/MESSING",
+        "page": 12,
         "page_in_pdf": 12,
         "properties": {
           "type": "compressed_air_pipe"
@@ -2203,6 +2345,7 @@
       {
         "sku": "ABSRI0632",
         "label": "RACCORD ABS/MESSING",
+        "page": 12,
         "page_in_pdf": 12,
         "properties": {
           "type": "compressed_air_pipe"
@@ -2215,6 +2358,7 @@
       {
         "sku": "ABSRU01638",
         "label": "RACCORD ABS/MESSING",
+        "page": 12,
         "page_in_pdf": 12,
         "properties": {
           "type": "compressed_air_pipe"
@@ -2227,6 +2371,7 @@
       {
         "sku": "ABSRU02012",
         "label": "RACCORD ABS/MESSING",
+        "page": 12,
         "page_in_pdf": 12,
         "properties": {
           "type": "compressed_air_pipe"
@@ -2239,6 +2384,7 @@
       {
         "sku": "ABSRU02534",
         "label": "RACCORD ABS/MESSING",
+        "page": 12,
         "page_in_pdf": 12,
         "properties": {
           "type": "compressed_air_pipe"
@@ -2251,6 +2397,7 @@
       {
         "sku": "ABSRU0321",
         "label": "RACCORD ABS/MESSING",
+        "page": 12,
         "page_in_pdf": 12,
         "properties": {
           "type": "compressed_air_pipe"
@@ -2263,6 +2410,7 @@
       {
         "sku": "ABSRU04054",
         "label": "RACCORD ABS/MESSING",
+        "page": 12,
         "page_in_pdf": 12,
         "properties": {
           "type": "compressed_air_pipe"
@@ -2275,6 +2423,7 @@
       {
         "sku": "ABSRU05064",
         "label": "RACCORD ABS/MESSING",
+        "page": 12,
         "page_in_pdf": 12,
         "properties": {
           "type": "compressed_air_pipe"
@@ -2287,6 +2436,7 @@
       {
         "sku": "ABSRU0632",
         "label": "RACCORD ABS/MESSING",
+        "page": 12,
         "page_in_pdf": 12,
         "properties": {
           "type": "compressed_air_pipe"
@@ -2298,29 +2448,30 @@
       }
     ],
     "images": [
-      "images/abs-persluchtbuizen/raccord-abs-messing__v1.webp",
-      "images/abs-persluchtbuizen/abs-persluchtbuizen__p12__raccord-abs-messing__ABSRI01638-ABSRI02012-ABSRI02534__v1.webp"
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p12__raccord-abs-messing__ABSRI01638-ABSRI02012-ABSRI02534__v2.webp"
     ],
     "variant_count": 14,
     "default_variant_sku": "ABSRI01638",
     "media": [
       {
         "role": "main",
-        "url": "images/abs-persluchtbuizen/raccord-abs-messing__v1.webp"
+        "url": "images/abs-persluchtbuizen/abs-persluchtbuizen__p12__raccord-abs-messing__ABSRI01638-ABSRI02012-ABSRI02534__v2.webp"
       }
     ]
   },
   {
-    "group_id": "abs-persluchtbuizen-abs-t-stuk-90",
+    "group_id": "abs-persluchtbuizen-abs-persluchtbuizen-abs-t-stuk-90",
     "name": "ABS T-STUK 90°",
-    "family": "abs-t-stuk-90",
+    "family": "abs-persluchtbuizen__abs-t-stuk-90",
     "catalog": "abs-persluchtbuizen",
+    "source_pdf": "abs-persluchtbuizen.pdf",
     "brand": "Various",
     "category": "LIJMMOF",
     "variants": [
       {
         "sku": "ABST01690",
         "label": "ABS T-STUK 90°",
+        "page": 7,
         "page_in_pdf": 7,
         "properties": {
           "type": "compressed_air_pipe"
@@ -2332,6 +2483,7 @@
       {
         "sku": "ABST02090",
         "label": "ABS T-STUK 90°",
+        "page": 7,
         "page_in_pdf": 7,
         "properties": {
           "type": "compressed_air_pipe"
@@ -2343,6 +2495,7 @@
       {
         "sku": "ABST02590",
         "label": "ABS T-STUK 90°",
+        "page": 7,
         "page_in_pdf": 7,
         "properties": {
           "type": "compressed_air_pipe"
@@ -2354,6 +2507,7 @@
       {
         "sku": "ABST03290",
         "label": "ABS T-STUK 90°",
+        "page": 7,
         "page_in_pdf": 7,
         "properties": {
           "type": "compressed_air_pipe"
@@ -2365,6 +2519,7 @@
       {
         "sku": "ABST04090",
         "label": "ABS T-STUK 90°",
+        "page": 7,
         "page_in_pdf": 7,
         "properties": {
           "type": "compressed_air_pipe"
@@ -2376,6 +2531,7 @@
       {
         "sku": "ABST05090",
         "label": "ABS T-STUK 90°",
+        "page": 7,
         "page_in_pdf": 7,
         "properties": {
           "type": "compressed_air_pipe"
@@ -2387,6 +2543,7 @@
       {
         "sku": "ABST06390",
         "label": "ABS T-STUK 90°",
+        "page": 7,
         "page_in_pdf": 7,
         "properties": {
           "type": "compressed_air_pipe"
@@ -2398,6 +2555,7 @@
       {
         "sku": "ABST07590",
         "label": "ABS T-STUK 90°",
+        "page": 7,
         "page_in_pdf": 7,
         "properties": {
           "type": "compressed_air_pipe"
@@ -2409,6 +2567,7 @@
       {
         "sku": "ABST09090",
         "label": "ABS T-STUK 90°",
+        "page": 7,
         "page_in_pdf": 7,
         "properties": {
           "type": "compressed_air_pipe"
@@ -2420,6 +2579,7 @@
       {
         "sku": "ABST11090",
         "label": "ABS T-STUK 90°",
+        "page": 7,
         "page_in_pdf": 7,
         "properties": {
           "type": "compressed_air_pipe"
@@ -2431,6 +2591,7 @@
       {
         "sku": "ABST12590",
         "label": "ABS T-STUK 90°",
+        "page": 7,
         "page_in_pdf": 7,
         "properties": {
           "type": "compressed_air_pipe"
@@ -2442,6 +2603,7 @@
       {
         "sku": "ABST14090",
         "label": "ABS T-STUK 90°",
+        "page": 7,
         "page_in_pdf": 7,
         "properties": {
           "type": "compressed_air_pipe"
@@ -2453,6 +2615,7 @@
       {
         "sku": "ABST16090",
         "label": "ABS T-STUK 90°",
+        "page": 7,
         "page_in_pdf": 7,
         "properties": {
           "type": "compressed_air_pipe"
@@ -2464,6 +2627,7 @@
       {
         "sku": "ABST20090",
         "label": "ABS T-STUK 90°",
+        "page": 7,
         "page_in_pdf": 7,
         "properties": {
           "type": "compressed_air_pipe"
@@ -2475,6 +2639,7 @@
       {
         "sku": "ABST22590",
         "label": "ABS T-STUK 90°",
+        "page": 7,
         "page_in_pdf": 7,
         "properties": {
           "type": "compressed_air_pipe"
@@ -2486,6 +2651,7 @@
       {
         "sku": "ABST25090",
         "label": "ABS T-STUK 90°",
+        "page": 7,
         "page_in_pdf": 7,
         "properties": {
           "type": "compressed_air_pipe"
@@ -2496,29 +2662,30 @@
       }
     ],
     "images": [
-      "images/abs-persluchtbuizen/abs-t-stuk-90__v1.webp",
-      "images/abs-persluchtbuizen/abs-persluchtbuizen__p7__abs-t-stuk-90__ABST01690-ABST02090-ABST02590__v1.webp"
+      "images/abs-persluchtbuizen/abs-persluchtbuizen__p7__abs-t-stuk-90__ABST01690-ABST02090-ABST02590__v2.webp"
     ],
     "variant_count": 16,
     "default_variant_sku": "ABST01690",
     "media": [
       {
         "role": "main",
-        "url": "images/abs-persluchtbuizen/abs-t-stuk-90__v1.webp"
+        "url": "images/abs-persluchtbuizen/abs-persluchtbuizen__p7__abs-t-stuk-90__ABST01690-ABST02090-ABST02590__v2.webp"
       }
     ]
   },
   {
-    "group_id": "abs-persluchtbuizen-abs-t-stuk-45",
+    "group_id": "abs-persluchtbuizen-abs-persluchtbuizen-abs-t-stuk-45",
     "name": "ABS T-STUK 45°",
-    "family": "abs-t-stuk-45",
+    "family": "abs-persluchtbuizen__abs-t-stuk-45",
     "catalog": "abs-persluchtbuizen",
+    "source_pdf": "abs-persluchtbuizen.pdf",
     "brand": "Various",
     "category": "LIJMMOF",
     "variants": [
       {
         "sku": "ABST02045",
         "label": "ABS T-STUK 45°",
+        "page": 7,
         "page_in_pdf": 7,
         "properties": {
           "type": "compressed_air_pipe"
@@ -2530,6 +2697,7 @@
       {
         "sku": "ABST02545",
         "label": "ABS T-STUK 45°",
+        "page": 7,
         "page_in_pdf": 7,
         "properties": {
           "type": "compressed_air_pipe"
@@ -2541,6 +2709,7 @@
       {
         "sku": "ABST03245",
         "label": "ABS T-STUK 45°",
+        "page": 7,
         "page_in_pdf": 7,
         "properties": {
           "type": "compressed_air_pipe"
@@ -2552,6 +2721,7 @@
       {
         "sku": "ABST04045",
         "label": "ABS T-STUK 45°",
+        "page": 7,
         "page_in_pdf": 7,
         "properties": {
           "type": "compressed_air_pipe"
@@ -2563,6 +2733,7 @@
       {
         "sku": "ABST05045",
         "label": "ABS T-STUK 45°",
+        "page": 7,
         "page_in_pdf": 7,
         "properties": {
           "type": "compressed_air_pipe"
@@ -2574,6 +2745,7 @@
       {
         "sku": "ABST06345",
         "label": "ABS T-STUK 45°",
+        "page": 7,
         "page_in_pdf": 7,
         "properties": {
           "type": "compressed_air_pipe"
@@ -2583,30 +2755,24 @@
         }
       }
     ],
-    "images": [
-      "images/abs-persluchtbuizen/abs-t-stuk-90__v1.webp",
-      "images/abs-persluchtbuizen/abs-persluchtbuizen__p7__abs-t-stuk-90__ABST01690-ABST02090-ABST02590__v1.webp"
-    ],
+    "images": [],
     "variant_count": 6,
     "default_variant_sku": "ABST02045",
-    "media": [
-      {
-        "role": "main",
-        "url": "images/abs-persluchtbuizen/abs-t-stuk-90__v1.webp"
-      }
-    ]
+    "media": []
   },
   {
-    "group_id": "abs-persluchtbuizen-abs-verloop-t-stuk-90",
+    "group_id": "abs-persluchtbuizen-abs-persluchtbuizen-abs-verloop-t-stuk-90",
     "name": "ABS VERLOOP T-STUK 90°",
-    "family": "abs-verloop-t-stuk-90",
+    "family": "abs-persluchtbuizen__abs-verloop-t-stuk-90",
     "catalog": "abs-persluchtbuizen",
+    "source_pdf": "abs-persluchtbuizen.pdf",
     "brand": "Various",
     "category": "LIJMMOF",
     "variants": [
       {
         "sku": "ABST025209",
         "label": "ABS VERLOOP T-STUK 90°",
+        "page": 8,
         "page_in_pdf": 8,
         "properties": {
           "type": "compressed_air_pipe"
@@ -2618,6 +2784,7 @@
       {
         "sku": "ABST032209",
         "label": "ABS VERLOOP T-STUK 90°",
+        "page": 8,
         "page_in_pdf": 8,
         "properties": {
           "type": "compressed_air_pipe"
@@ -2629,6 +2796,7 @@
       {
         "sku": "ABST032259",
         "label": "ABS VERLOOP T-STUK 90°",
+        "page": 8,
         "page_in_pdf": 8,
         "properties": {
           "type": "compressed_air_pipe"
@@ -2640,6 +2808,7 @@
       {
         "sku": "ABST040209",
         "label": "ABS VERLOOP T-STUK 90°",
+        "page": 8,
         "page_in_pdf": 8,
         "properties": {
           "type": "compressed_air_pipe"
@@ -2651,6 +2820,7 @@
       {
         "sku": "ABST040259",
         "label": "ABS VERLOOP T-STUK 90°",
+        "page": 8,
         "page_in_pdf": 8,
         "properties": {
           "type": "compressed_air_pipe"
@@ -2662,6 +2832,7 @@
       {
         "sku": "ABST050209",
         "label": "ABS VERLOOP T-STUK 90°",
+        "page": 8,
         "page_in_pdf": 8,
         "properties": {
           "type": "compressed_air_pipe"
@@ -2673,6 +2844,7 @@
       {
         "sku": "ABST050259",
         "label": "ABS VERLOOP T-STUK 90°",
+        "page": 8,
         "page_in_pdf": 8,
         "properties": {
           "type": "compressed_air_pipe"
@@ -2684,6 +2856,7 @@
       {
         "sku": "ABST050329",
         "label": "ABS VERLOOP T-STUK 90°",
+        "page": 8,
         "page_in_pdf": 8,
         "properties": {
           "type": "compressed_air_pipe"
@@ -2695,6 +2868,7 @@
       {
         "sku": "ABST063259",
         "label": "ABS VERLOOP T-STUK 90°",
+        "page": 8,
         "page_in_pdf": 8,
         "properties": {
           "type": "compressed_air_pipe"
@@ -2706,6 +2880,7 @@
       {
         "sku": "ABST063329",
         "label": "ABS VERLOOP T-STUK 90°",
+        "page": 8,
         "page_in_pdf": 8,
         "properties": {
           "type": "compressed_air_pipe"
@@ -2717,6 +2892,7 @@
       {
         "sku": "ABST075329",
         "label": "ABS VERLOOP T-STUK 90°",
+        "page": 8,
         "page_in_pdf": 8,
         "properties": {
           "type": "compressed_air_pipe"
@@ -2728,6 +2904,7 @@
       {
         "sku": "ABST075409",
         "label": "ABS VERLOOP T-STUK 90°",
+        "page": 8,
         "page_in_pdf": 8,
         "properties": {
           "type": "compressed_air_pipe"
@@ -2739,6 +2916,7 @@
       {
         "sku": "ABST075509",
         "label": "ABS VERLOOP T-STUK 90°",
+        "page": 8,
         "page_in_pdf": 8,
         "properties": {
           "type": "compressed_air_pipe"
@@ -2750,6 +2928,7 @@
       {
         "sku": "ABST075639",
         "label": "ABS VERLOOP T-STUK 90°",
+        "page": 8,
         "page_in_pdf": 8,
         "properties": {
           "type": "compressed_air_pipe"
@@ -2761,6 +2940,7 @@
       {
         "sku": "ABST090409",
         "label": "ABS VERLOOP T-STUK 90°",
+        "page": 8,
         "page_in_pdf": 8,
         "properties": {
           "type": "compressed_air_pipe"
@@ -2772,6 +2952,7 @@
       {
         "sku": "ABST090509",
         "label": "ABS VERLOOP T-STUK 90°",
+        "page": 8,
         "page_in_pdf": 8,
         "properties": {
           "type": "compressed_air_pipe"
@@ -2783,6 +2964,7 @@
       {
         "sku": "ABST090639",
         "label": "ABS VERLOOP T-STUK 90°",
+        "page": 8,
         "page_in_pdf": 8,
         "properties": {
           "type": "compressed_air_pipe"
@@ -2794,6 +2976,7 @@
       {
         "sku": "ABST090759",
         "label": "ABS VERLOOP T-STUK 90°",
+        "page": 8,
         "page_in_pdf": 8,
         "properties": {
           "type": "compressed_air_pipe"
@@ -2805,6 +2988,7 @@
       {
         "sku": "ABST110509",
         "label": "ABS VERLOOP T-STUK 90°",
+        "page": 8,
         "page_in_pdf": 8,
         "properties": {
           "type": "compressed_air_pipe"
@@ -2816,6 +3000,7 @@
       {
         "sku": "ABST110639",
         "label": "ABS VERLOOP T-STUK 90°",
+        "page": 8,
         "page_in_pdf": 8,
         "properties": {
           "type": "compressed_air_pipe"
@@ -2827,6 +3012,7 @@
       {
         "sku": "ABST110759",
         "label": "ABS VERLOOP T-STUK 90°",
+        "page": 8,
         "page_in_pdf": 8,
         "properties": {
           "type": "compressed_air_pipe"
@@ -2838,6 +3024,7 @@
       {
         "sku": "ABST110909",
         "label": "ABS VERLOOP T-STUK 90°",
+        "page": 8,
         "page_in_pdf": 8,
         "properties": {
           "type": "compressed_air_pipe"
@@ -2847,30 +3034,24 @@
         }
       }
     ],
-    "images": [
-      "images/abs-persluchtbuizen/abs-mof__v1.webp",
-      "images/abs-persluchtbuizen/abs-persluchtbuizen__p8__abs-mof__ABSM016-ABSM020-ABSM025__v1.webp"
-    ],
+    "images": [],
     "variant_count": 22,
     "default_variant_sku": "ABST025209",
-    "media": [
-      {
-        "role": "main",
-        "url": "images/abs-persluchtbuizen/abs-mof__v1.webp"
-      }
-    ]
+    "media": []
   },
   {
-    "group_id": "abs-persluchtbuizen-abs-slangpilaar",
+    "group_id": "abs-persluchtbuizen-abs-persluchtbuizen-abs-slangpilaar",
     "name": "ABS SLANGPILAAR",
-    "family": "abs-slangpilaar",
+    "family": "abs-persluchtbuizen__abs-slangpilaar",
     "catalog": "abs-persluchtbuizen",
+    "source_pdf": "abs-persluchtbuizen.pdf",
     "brand": "Various",
     "category": "LIJMSPIE",
     "variants": [
       {
         "sku": "ABSV016",
         "label": "ABS SLANGPILAAR",
+        "page": 13,
         "page_in_pdf": 13,
         "properties": {
           "type": "compressed_air_pipe"
@@ -2882,6 +3063,7 @@
       {
         "sku": "ABSV020",
         "label": "ABS SLANGPILAAR",
+        "page": 13,
         "page_in_pdf": 13,
         "properties": {
           "type": "compressed_air_pipe"
@@ -2893,6 +3075,7 @@
       {
         "sku": "ABSV025",
         "label": "ABS SLANGPILAAR",
+        "page": 13,
         "page_in_pdf": 13,
         "properties": {
           "type": "compressed_air_pipe"
@@ -2904,6 +3087,7 @@
       {
         "sku": "ABSV032",
         "label": "ABS SLANGPILAAR",
+        "page": 13,
         "page_in_pdf": 13,
         "properties": {
           "type": "compressed_air_pipe"
@@ -2913,30 +3097,24 @@
         }
       }
     ],
-    "images": [
-      "images/abs-persluchtbuizen/abs-kraagbus__v1.webp",
-      "images/abs-persluchtbuizen/abs-persluchtbuizen__p13__abs-kraagbus__ABSKR020-ABSKR025-ABSKR032__v1.webp"
-    ],
+    "images": [],
     "variant_count": 4,
     "default_variant_sku": "ABSV016",
-    "media": [
-      {
-        "role": "main",
-        "url": "images/abs-persluchtbuizen/abs-kraagbus__v1.webp"
-      }
-    ]
+    "media": []
   },
   {
-    "group_id": "abs-persluchtbuizen-abs-verloopmof",
+    "group_id": "abs-persluchtbuizen-abs-persluchtbuizen-abs-verloopmof",
     "name": "ABS VERLOOPMOF",
-    "family": "abs-verloopmof",
+    "family": "abs-persluchtbuizen__abs-verloopmof",
     "catalog": "abs-persluchtbuizen",
+    "source_pdf": "abs-persluchtbuizen.pdf",
     "brand": "Various",
     "category": "LIJMMOF",
     "variants": [
       {
         "sku": "ABSVM02520",
         "label": "ABS VERLOOPMOF",
+        "page": 9,
         "page_in_pdf": 9,
         "properties": {
           "type": "compressed_air_pipe"
@@ -2948,6 +3126,7 @@
       {
         "sku": "ABSVM03225",
         "label": "ABS VERLOOPMOF",
+        "page": 9,
         "page_in_pdf": 9,
         "properties": {
           "type": "compressed_air_pipe"
@@ -2959,6 +3138,7 @@
       {
         "sku": "ABSVM04032",
         "label": "ABS VERLOOPMOF",
+        "page": 9,
         "page_in_pdf": 9,
         "properties": {
           "type": "compressed_air_pipe"
@@ -2970,6 +3150,7 @@
       {
         "sku": "ABSVM05040",
         "label": "ABS VERLOOPMOF",
+        "page": 9,
         "page_in_pdf": 9,
         "properties": {
           "type": "compressed_air_pipe"
@@ -2981,6 +3162,7 @@
       {
         "sku": "ABSVM06350",
         "label": "ABS VERLOOPMOF",
+        "page": 9,
         "page_in_pdf": 9,
         "properties": {
           "type": "compressed_air_pipe"
@@ -2992,6 +3174,7 @@
       {
         "sku": "ABSVM07563",
         "label": "ABS VERLOOPMOF",
+        "page": 9,
         "page_in_pdf": 9,
         "properties": {
           "type": "compressed_air_pipe"
@@ -3003,6 +3186,7 @@
       {
         "sku": "ABSVM09075",
         "label": "ABS VERLOOPMOF",
+        "page": 9,
         "page_in_pdf": 9,
         "properties": {
           "type": "compressed_air_pipe"
@@ -3014,6 +3198,7 @@
       {
         "sku": "ABSVM11090",
         "label": "ABS VERLOOPMOF",
+        "page": 9,
         "page_in_pdf": 9,
         "properties": {
           "type": "compressed_air_pipe"
@@ -3025,6 +3210,7 @@
       {
         "sku": "ABSVM12511",
         "label": "ABS VERLOOPMOF",
+        "page": 9,
         "page_in_pdf": 9,
         "properties": {
           "type": "compressed_air_pipe"
@@ -3036,6 +3222,7 @@
       {
         "sku": "ABSVM14012",
         "label": "ABS VERLOOPMOF",
+        "page": 9,
         "page_in_pdf": 9,
         "properties": {
           "type": "compressed_air_pipe"
@@ -3047,6 +3234,7 @@
       {
         "sku": "ABSVM16014",
         "label": "ABS VERLOOPMOF",
+        "page": 9,
         "page_in_pdf": 9,
         "properties": {
           "type": "compressed_air_pipe"
@@ -3058,6 +3246,7 @@
       {
         "sku": "ABSVM20016",
         "label": "ABS VERLOOPMOF",
+        "page": 9,
         "page_in_pdf": 9,
         "properties": {
           "type": "compressed_air_pipe"
@@ -3069,6 +3258,7 @@
       {
         "sku": "ABSVM22520",
         "label": "ABS VERLOOPMOF",
+        "page": 9,
         "page_in_pdf": 9,
         "properties": {
           "type": "compressed_air_pipe"
@@ -3078,17 +3268,9 @@
         }
       }
     ],
-    "images": [
-      "images/abs-persluchtbuizen/abs-inzet-draadsok__v1.webp",
-      "images/abs-persluchtbuizen/abs-persluchtbuizen__p9__abs-inzet-draadsok__ABSID01612-ABSID02016-ABSID02520__v1.webp"
-    ],
+    "images": [],
     "variant_count": 13,
     "default_variant_sku": "ABSVM02520",
-    "media": [
-      {
-        "role": "main",
-        "url": "images/abs-persluchtbuizen/abs-inzet-draadsok__v1.webp"
-      }
-    ]
+    "media": []
   }
 ]

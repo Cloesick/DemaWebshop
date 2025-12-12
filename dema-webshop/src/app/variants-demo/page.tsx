@@ -2,7 +2,22 @@
 
 import { useState } from 'react';
 import ProductVariantCard from '@/components/ProductVariantCard';
-import variantsData from '../../../public/data/product_variants.json';
+import variantsDataRaw from '../../../public/data/product_variants.json';
+
+interface VariantGroup {
+  primary_sku: string;
+  image_url: string;
+  variant_count: number;
+  variants: any[];
+}
+
+interface VariantsData {
+  total_groups: number;
+  total_variants: number;
+  groups: VariantGroup[];
+}
+
+const variantsData = variantsDataRaw as VariantsData;
 
 export default function VariantsDemoPage() {
   const [viewMode, setViewMode] = useState<'grid' | 'list'>('grid');

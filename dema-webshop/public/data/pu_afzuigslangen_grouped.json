@@ -1,15 +1,17 @@
 [
   {
-    "group_id": "pu-afzuigslangen-granulaten",
+    "group_id": "pu-afzuigslangen-pu-afzuigslangen-granulaten",
     "name": "granulaten,",
-    "family": "granulaten",
+    "family": "pu-afzuigslangen__granulaten",
     "catalog": "pu-afzuigslangen",
+    "source_pdf": "pu-afzuigslangen.pdf",
     "brand": "Various",
     "category": "• Afzuigen van gassen",
     "variants": [
       {
         "sku": "ZGPUH025",
         "label": "granulaten,",
+        "page": 5,
         "page_in_pdf": 5,
         "properties": {
           "type": "granulaten"
@@ -23,6 +25,7 @@
       {
         "sku": "ZGPUH025",
         "label": "granulaten,",
+        "page": 5,
         "page_in_pdf": 5,
         "properties": {
           "type": "granulaten"
@@ -36,6 +39,7 @@
       {
         "sku": "ZGPUH038",
         "label": "granulaten,",
+        "page": 5,
         "page_in_pdf": 5,
         "properties": {
           "type": "granulaten"
@@ -49,6 +53,7 @@
       {
         "sku": "ZGPUH038",
         "label": "granulaten,",
+        "page": 5,
         "page_in_pdf": 5,
         "properties": {
           "type": "granulaten"
@@ -62,6 +67,7 @@
       {
         "sku": "ZGPUH045",
         "label": "granulaten,",
+        "page": 5,
         "page_in_pdf": 5,
         "properties": {
           "type": "granulaten"
@@ -75,6 +81,7 @@
       {
         "sku": "ZGPUH045",
         "label": "granulaten,",
+        "page": 5,
         "page_in_pdf": 5,
         "properties": {
           "type": "granulaten"
@@ -88,6 +95,7 @@
       {
         "sku": "ZGPUH055",
         "label": "granulaten,",
+        "page": 5,
         "page_in_pdf": 5,
         "properties": {
           "type": "granulaten"
@@ -101,6 +109,7 @@
       {
         "sku": "ZGPUH055",
         "label": "granulaten,",
+        "page": 5,
         "page_in_pdf": 5,
         "properties": {
           "type": "granulaten"
@@ -114,6 +123,7 @@
       {
         "sku": "ZGPUH065",
         "label": "granulaten,",
+        "page": 5,
         "page_in_pdf": 5,
         "properties": {
           "type": "granulaten"
@@ -127,6 +137,7 @@
       {
         "sku": "ZGPUH070",
         "label": "granulaten,",
+        "page": 5,
         "page_in_pdf": 5,
         "properties": {
           "type": "granulaten"
@@ -140,6 +151,7 @@
       {
         "sku": "ZGPUH075",
         "label": "granulaten,",
+        "page": 5,
         "page_in_pdf": 5,
         "properties": {
           "type": "granulaten"
@@ -153,6 +165,7 @@
       {
         "sku": "ZGPUH080",
         "label": "granulaten,",
+        "page": 5,
         "page_in_pdf": 5,
         "properties": {
           "type": "granulaten"
@@ -166,6 +179,7 @@
       {
         "sku": "ZGPUH090",
         "label": "granulaten,",
+        "page": 5,
         "page_in_pdf": 5,
         "properties": {
           "type": "granulaten"
@@ -179,6 +193,7 @@
       {
         "sku": "ZGPUH110",
         "label": "granulaten,",
+        "page": 5,
         "page_in_pdf": 5,
         "properties": {
           "type": "granulaten"
@@ -192,6 +207,7 @@
       {
         "sku": "ZGPUH115",
         "label": "granulaten,",
+        "page": 5,
         "page_in_pdf": 5,
         "properties": {
           "type": "granulaten"
@@ -205,6 +221,7 @@
       {
         "sku": "ZGPUH120",
         "label": "granulaten,",
+        "page": 5,
         "page_in_pdf": 5,
         "properties": {
           "type": "granulaten"
@@ -218,6 +235,7 @@
       {
         "sku": "ZGPUH125",
         "label": "granulaten,",
+        "page": 5,
         "page_in_pdf": 5,
         "properties": {
           "type": "granulaten"
@@ -231,6 +249,7 @@
       {
         "sku": "ZGPUH150",
         "label": "granulaten,",
+        "page": 5,
         "page_in_pdf": 5,
         "properties": {
           "type": "granulaten"
@@ -244,6 +263,7 @@
       {
         "sku": "ZGPUH160",
         "label": "granulaten,",
+        "page": 5,
         "page_in_pdf": 5,
         "properties": {
           "type": "granulaten"
@@ -257,6 +277,7 @@
       {
         "sku": "ZGPUH170",
         "label": "granulaten,",
+        "page": 5,
         "page_in_pdf": 5,
         "properties": {
           "type": "granulaten"
@@ -270,6 +291,7 @@
       {
         "sku": "ZGPUH200",
         "label": "granulaten,",
+        "page": 5,
         "page_in_pdf": 5,
         "properties": {
           "type": "granulaten"
@@ -283,6 +305,7 @@
       {
         "sku": "ZGPUH250",
         "label": "granulaten,",
+        "page": 5,
         "page_in_pdf": 5,
         "properties": {
           "type": "granulaten"
@@ -296,6 +319,7 @@
       {
         "sku": null,
         "label": "granulaten,",
+        "page": 5,
         "page_in_pdf": 5,
         "properties": {
           "type": "granulaten"
@@ -307,30 +331,24 @@
         }
       }
     ],
-    "images": [
-      "images/pu-afzuigslangen/granulaten__zgpuh025.webp",
-      "images/pu-afzuigslangen/pu-afzuigslangen__p5__granulaten__ZGPUH025-ZGPUH025-ZGPUH038.webp"
-    ],
+    "images": [],
     "variant_count": 23,
     "default_variant_sku": "ZGPUH025",
-    "media": [
-      {
-        "role": "main",
-        "url": "images/pu-afzuigslangen/granulaten__zgpuh025.webp"
-      }
-    ]
+    "media": []
   },
   {
-    "group_id": "pu-afzuigslangen-afzuigen-van-droge",
+    "group_id": "pu-afzuigslangen-pu-afzuigslangen-afzuigen-van-droge",
     "name": "• Afzuigen van droge",
-    "family": "afzuigen-van-droge",
+    "family": "pu-afzuigslangen__afzuigen-van-droge",
     "catalog": "pu-afzuigslangen",
+    "source_pdf": "pu-afzuigslangen.pdf",
     "brand": "Various",
     "category": "• Ventilatie",
     "variants": [
       {
         "sku": "ZGPUL013",
         "label": "• Afzuigen van droge",
+        "page": 2,
         "page_in_pdf": 2,
         "properties": {
           "type": "afzuigen_van_droge"
@@ -344,6 +362,7 @@
       {
         "sku": "ZGPUL013",
         "label": "• Afzuigen van droge",
+        "page": 2,
         "page_in_pdf": 2,
         "properties": {
           "type": "afzuigen_van_droge"
@@ -357,6 +376,7 @@
       {
         "sku": "ZGPUL019",
         "label": "• Afzuigen van droge",
+        "page": 2,
         "page_in_pdf": 2,
         "properties": {
           "type": "afzuigen_van_droge"
@@ -370,6 +390,7 @@
       {
         "sku": "ZGPUL019",
         "label": "• Afzuigen van droge",
+        "page": 2,
         "page_in_pdf": 2,
         "properties": {
           "type": "afzuigen_van_droge"
@@ -383,6 +404,7 @@
       {
         "sku": "ZGPUL032",
         "label": "• Afzuigen van droge",
+        "page": 2,
         "page_in_pdf": 2,
         "properties": {
           "type": "afzuigen_van_droge"
@@ -396,6 +418,7 @@
       {
         "sku": "ZGPUL032",
         "label": "• Afzuigen van droge",
+        "page": 2,
         "page_in_pdf": 2,
         "properties": {
           "type": "afzuigen_van_droge"
@@ -409,6 +432,7 @@
       {
         "sku": "ZGPUL038",
         "label": "• Afzuigen van droge",
+        "page": 2,
         "page_in_pdf": 2,
         "properties": {
           "type": "afzuigen_van_droge"
@@ -422,6 +446,7 @@
       {
         "sku": "ZGPUL038",
         "label": "• Afzuigen van droge",
+        "page": 2,
         "page_in_pdf": 2,
         "properties": {
           "type": "afzuigen_van_droge"
@@ -435,6 +460,7 @@
       {
         "sku": "ZGPUL045",
         "label": "• Afzuigen van droge",
+        "page": 2,
         "page_in_pdf": 2,
         "properties": {
           "type": "afzuigen_van_droge"
@@ -448,6 +474,7 @@
       {
         "sku": "ZGPUL045",
         "label": "• Afzuigen van droge",
+        "page": 2,
         "page_in_pdf": 2,
         "properties": {
           "type": "afzuigen_van_droge"
@@ -461,6 +488,7 @@
       {
         "sku": "ZGPUL055",
         "label": "• Afzuigen van droge",
+        "page": 2,
         "page_in_pdf": 2,
         "properties": {
           "type": "afzuigen_van_droge"
@@ -474,6 +502,7 @@
       {
         "sku": "ZGPUL060",
         "label": "• Afzuigen van droge",
+        "page": 2,
         "page_in_pdf": 2,
         "properties": {
           "type": "afzuigen_van_droge"
@@ -487,6 +516,7 @@
       {
         "sku": "ZGPUL065",
         "label": "• Afzuigen van droge",
+        "page": 2,
         "page_in_pdf": 2,
         "properties": {
           "type": "afzuigen_van_droge"
@@ -500,6 +530,7 @@
       {
         "sku": "ZGPUL070",
         "label": "• Afzuigen van droge",
+        "page": 2,
         "page_in_pdf": 2,
         "properties": {
           "type": "afzuigen_van_droge"
@@ -513,6 +544,7 @@
       {
         "sku": "ZGPUL075",
         "label": "• Afzuigen van droge",
+        "page": 2,
         "page_in_pdf": 2,
         "properties": {
           "type": "afzuigen_van_droge"
@@ -526,6 +558,7 @@
       {
         "sku": "ZGPUL090",
         "label": "• Afzuigen van droge",
+        "page": 2,
         "page_in_pdf": 2,
         "properties": {
           "type": "afzuigen_van_droge"
@@ -539,6 +572,7 @@
       {
         "sku": "ZGPUL110",
         "label": "• Afzuigen van droge",
+        "page": 2,
         "page_in_pdf": 2,
         "properties": {
           "type": "afzuigen_van_droge"
@@ -552,6 +586,7 @@
       {
         "sku": "ZGPUL120",
         "label": "• Afzuigen van droge",
+        "page": 2,
         "page_in_pdf": 2,
         "properties": {
           "type": "afzuigen_van_droge"
@@ -565,6 +600,7 @@
       {
         "sku": "ZGPUL125",
         "label": "• Afzuigen van droge",
+        "page": 2,
         "page_in_pdf": 2,
         "properties": {
           "type": "afzuigen_van_droge"
@@ -578,6 +614,7 @@
       {
         "sku": "ZGPUL130",
         "label": "• Afzuigen van droge",
+        "page": 2,
         "page_in_pdf": 2,
         "properties": {
           "type": "afzuigen_van_droge"
@@ -591,6 +628,7 @@
       {
         "sku": "ZGPUL140",
         "label": "• Afzuigen van droge",
+        "page": 2,
         "page_in_pdf": 2,
         "properties": {
           "type": "afzuigen_van_droge"
@@ -604,6 +642,7 @@
       {
         "sku": "ZGPUL150",
         "label": "• Afzuigen van droge",
+        "page": 2,
         "page_in_pdf": 2,
         "properties": {
           "type": "afzuigen_van_droge"
@@ -617,6 +656,7 @@
       {
         "sku": "ZGPUL160",
         "label": "• Afzuigen van droge",
+        "page": 2,
         "page_in_pdf": 2,
         "properties": {
           "type": "afzuigen_van_droge"
@@ -630,6 +670,7 @@
       {
         "sku": "ZGPUL170",
         "label": "• Afzuigen van droge",
+        "page": 2,
         "page_in_pdf": 2,
         "properties": {
           "type": "afzuigen_van_droge"
@@ -643,6 +684,7 @@
       {
         "sku": "ZGPUL180",
         "label": "• Afzuigen van droge",
+        "page": 2,
         "page_in_pdf": 2,
         "properties": {
           "type": "afzuigen_van_droge"
@@ -656,6 +698,7 @@
       {
         "sku": "ZGPUL200",
         "label": "• Afzuigen van droge",
+        "page": 2,
         "page_in_pdf": 2,
         "properties": {
           "type": "afzuigen_van_droge"
@@ -669,6 +712,7 @@
       {
         "sku": "ZGPUL225",
         "label": "• Afzuigen van droge",
+        "page": 2,
         "page_in_pdf": 2,
         "properties": {
           "type": "afzuigen_van_droge"
@@ -682,6 +726,7 @@
       {
         "sku": null,
         "label": "• Afzuigen van droge",
+        "page": 2,
         "page_in_pdf": 2,
         "properties": {
           "type": "afzuigen_van_droge"
@@ -695,6 +740,7 @@
       {
         "sku": null,
         "label": "• Afzuigen van droge",
+        "page": 2,
         "page_in_pdf": 2,
         "properties": {
           "type": "afzuigen_van_droge"
@@ -706,30 +752,24 @@
         }
       }
     ],
-    "images": [
-      "images/pu-afzuigslangen/afzuigen-van-droge__zgpul013.webp",
-      "images/pu-afzuigslangen/pu-afzuigslangen__p2__afzuigen-van-droge__ZGPUL013-ZGPUL013-ZGPUL019.webp"
-    ],
+    "images": [],
     "variant_count": 29,
     "default_variant_sku": "ZGPUL013",
-    "media": [
-      {
-        "role": "main",
-        "url": "images/pu-afzuigslangen/afzuigen-van-droge__zgpul013.webp"
-      }
-    ]
+    "media": []
   },
   {
-    "group_id": "pu-afzuigslangen-industri-le-slangen",
+    "group_id": "pu-afzuigslangen-pu-afzuigslangen-industriele-slangen",
     "name": "INDUSTRIËLE SLANGEN",
-    "family": "industri-le-slangen",
+    "family": "pu-afzuigslangen__industriele-slangen",
     "catalog": "pu-afzuigslangen",
+    "source_pdf": "pu-afzuigslangen.pdf",
     "brand": "Various",
     "category": "PU AFZUIGSLANGEN",
     "variants": [
       {
         "sku": "ZGPUL250",
         "label": "INDUSTRIËLE SLANGEN",
+        "page": 3,
         "page_in_pdf": 3,
         "properties": {
           "type": "industri_le_slangen"
@@ -741,6 +781,7 @@
       {
         "sku": "ZGPUL250",
         "label": "INDUSTRIËLE SLANGEN",
+        "page": 3,
         "page_in_pdf": 3,
         "properties": {
           "type": "industri_le_slangen"
@@ -752,6 +793,7 @@
       {
         "sku": "ZGPUL300",
         "label": "INDUSTRIËLE SLANGEN",
+        "page": 3,
         "page_in_pdf": 3,
         "properties": {
           "type": "industri_le_slangen"
@@ -763,6 +805,7 @@
       {
         "sku": "ZGPUL320",
         "label": "INDUSTRIËLE SLANGEN",
+        "page": 3,
         "page_in_pdf": 3,
         "properties": {
           "type": "industri_le_slangen"
@@ -774,6 +817,7 @@
       {
         "sku": "ZGPUL350",
         "label": "INDUSTRIËLE SLANGEN",
+        "page": 3,
         "page_in_pdf": 3,
         "properties": {
           "type": "industri_le_slangen"
@@ -785,6 +829,7 @@
       {
         "sku": "ZGPUL400",
         "label": "INDUSTRIËLE SLANGEN",
+        "page": 3,
         "page_in_pdf": 3,
         "properties": {
           "type": "industri_le_slangen"
@@ -796,6 +841,7 @@
       {
         "sku": "ZGPUL450",
         "label": "INDUSTRIËLE SLANGEN",
+        "page": 3,
         "page_in_pdf": 3,
         "properties": {
           "type": "industri_le_slangen"
@@ -807,6 +853,7 @@
       {
         "sku": "ZGPUL500",
         "label": "INDUSTRIËLE SLANGEN",
+        "page": 3,
         "page_in_pdf": 3,
         "properties": {
           "type": "industri_le_slangen"
@@ -818,6 +865,7 @@
       {
         "sku": "ZGPUXL125",
         "label": "INDUSTRIËLE SLANGEN",
+        "page": 7,
         "page_in_pdf": 7,
         "properties": {
           "type": "industri_le_slangen"
@@ -829,6 +877,7 @@
       {
         "sku": "ZGPUXL125",
         "label": "INDUSTRIËLE SLANGEN",
+        "page": 7,
         "page_in_pdf": 7,
         "properties": {
           "type": "industri_le_slangen"
@@ -840,6 +889,7 @@
       {
         "sku": "ZGPUXL140",
         "label": "INDUSTRIËLE SLANGEN",
+        "page": 7,
         "page_in_pdf": 7,
         "properties": {
           "type": "industri_le_slangen"
@@ -851,6 +901,7 @@
       {
         "sku": "ZGPUXL140",
         "label": "INDUSTRIËLE SLANGEN",
+        "page": 7,
         "page_in_pdf": 7,
         "properties": {
           "type": "industri_le_slangen"
@@ -862,6 +913,7 @@
       {
         "sku": "ZGPUXL160",
         "label": "INDUSTRIËLE SLANGEN",
+        "page": 7,
         "page_in_pdf": 7,
         "properties": {
           "type": "industri_le_slangen"
@@ -873,6 +925,7 @@
       {
         "sku": "ZGPUXL160",
         "label": "INDUSTRIËLE SLANGEN",
+        "page": 7,
         "page_in_pdf": 7,
         "properties": {
           "type": "industri_le_slangen"
@@ -884,6 +937,7 @@
       {
         "sku": "ZGPUXL175",
         "label": "INDUSTRIËLE SLANGEN",
+        "page": 7,
         "page_in_pdf": 7,
         "properties": {
           "type": "industri_le_slangen"
@@ -895,6 +949,7 @@
       {
         "sku": "ZGPUXL175",
         "label": "INDUSTRIËLE SLANGEN",
+        "page": 7,
         "page_in_pdf": 7,
         "properties": {
           "type": "industri_le_slangen"
@@ -906,6 +961,7 @@
       {
         "sku": "ZGPUXL200",
         "label": "INDUSTRIËLE SLANGEN",
+        "page": 7,
         "page_in_pdf": 7,
         "properties": {
           "type": "industri_le_slangen"
@@ -917,6 +973,7 @@
       {
         "sku": "ZGPUXL225",
         "label": "INDUSTRIËLE SLANGEN",
+        "page": 7,
         "page_in_pdf": 7,
         "properties": {
           "type": "industri_le_slangen"
@@ -928,6 +985,7 @@
       {
         "sku": "ZGPUXL250",
         "label": "INDUSTRIËLE SLANGEN",
+        "page": 7,
         "page_in_pdf": 7,
         "properties": {
           "type": "industri_le_slangen"
@@ -939,6 +997,7 @@
       {
         "sku": "ZGPUXL255",
         "label": "INDUSTRIËLE SLANGEN",
+        "page": 7,
         "page_in_pdf": 7,
         "properties": {
           "type": "industri_le_slangen"
@@ -950,6 +1009,7 @@
       {
         "sku": "ZGPUXL275",
         "label": "INDUSTRIËLE SLANGEN",
+        "page": 7,
         "page_in_pdf": 7,
         "properties": {
           "type": "industri_le_slangen"
@@ -961,6 +1021,7 @@
       {
         "sku": "ZGPUXL280",
         "label": "INDUSTRIËLE SLANGEN",
+        "page": 7,
         "page_in_pdf": 7,
         "properties": {
           "type": "industri_le_slangen"
@@ -972,6 +1033,7 @@
       {
         "sku": "ZGPUXL300",
         "label": "INDUSTRIËLE SLANGEN",
+        "page": 7,
         "page_in_pdf": 7,
         "properties": {
           "type": "industri_le_slangen"
@@ -983,6 +1045,7 @@
       {
         "sku": "ZGPUXL305",
         "label": "INDUSTRIËLE SLANGEN",
+        "page": 7,
         "page_in_pdf": 7,
         "properties": {
           "type": "industri_le_slangen"
@@ -994,6 +1057,7 @@
       {
         "sku": "ZGPUXL315",
         "label": "INDUSTRIËLE SLANGEN",
+        "page": 7,
         "page_in_pdf": 7,
         "properties": {
           "type": "industri_le_slangen"
@@ -1005,6 +1069,7 @@
       {
         "sku": "ZGPUXL325",
         "label": "INDUSTRIËLE SLANGEN",
+        "page": 7,
         "page_in_pdf": 7,
         "properties": {
           "type": "industri_le_slangen"
@@ -1016,6 +1081,7 @@
       {
         "sku": "ZGPUXL330",
         "label": "INDUSTRIËLE SLANGEN",
+        "page": 7,
         "page_in_pdf": 7,
         "properties": {
           "type": "industri_le_slangen"
@@ -1027,6 +1093,7 @@
       {
         "sku": "ZGPUXL350",
         "label": "INDUSTRIËLE SLANGEN",
+        "page": 7,
         "page_in_pdf": 7,
         "properties": {
           "type": "industri_le_slangen"
@@ -1038,6 +1105,7 @@
       {
         "sku": "ZGPUXL400",
         "label": "INDUSTRIËLE SLANGEN",
+        "page": 7,
         "page_in_pdf": 7,
         "properties": {
           "type": "industri_le_slangen"
@@ -1049,6 +1117,7 @@
       {
         "sku": "ZGPUXL450",
         "label": "INDUSTRIËLE SLANGEN",
+        "page": 7,
         "page_in_pdf": 7,
         "properties": {
           "type": "industri_le_slangen"
@@ -1060,6 +1129,7 @@
       {
         "sku": "ZGPUXL500",
         "label": "INDUSTRIËLE SLANGEN",
+        "page": 7,
         "page_in_pdf": 7,
         "properties": {
           "type": "industri_le_slangen"
@@ -1075,16 +1145,18 @@
     "media": []
   },
   {
-    "group_id": "pu-afzuigslangen-transportslang-in-explosie-stof-en-luchtafzuiging",
+    "group_id": "pu-afzuigslangen-pu-afzuigslangen-transportslang-in-explosie-stof-en-luchtafzuiging",
     "name": "• Transportslang in explosie- • Stof- en luchtafzuiging",
-    "family": "transportslang-in-explosie-stof-en-luchtafzuiging",
+    "family": "pu-afzuigslangen__transportslang-in-explosie-stof-en-luchtafzuiging",
     "catalog": "pu-afzuigslangen",
+    "source_pdf": "pu-afzuigslangen.pdf",
     "brand": "Various",
     "category": "• Doseersystemen",
     "variants": [
       {
         "sku": "ZGPUS020",
         "label": "• Transportslang in explosie- • Stof- en luchtafzuiging",
+        "page": 4,
         "page_in_pdf": 4,
         "properties": {
           "type": "transportslang_in_explosie_stof_en_luchtafzuiging"
@@ -1098,6 +1170,7 @@
       {
         "sku": "ZGPUS020",
         "label": "• Transportslang in explosie- • Stof- en luchtafzuiging",
+        "page": 4,
         "page_in_pdf": 4,
         "properties": {
           "type": "transportslang_in_explosie_stof_en_luchtafzuiging"
@@ -1111,6 +1184,7 @@
       {
         "sku": "ZGPUS030",
         "label": "• Transportslang in explosie- • Stof- en luchtafzuiging",
+        "page": 4,
         "page_in_pdf": 4,
         "properties": {
           "type": "transportslang_in_explosie_stof_en_luchtafzuiging"
@@ -1124,6 +1198,7 @@
       {
         "sku": "ZGPUS030",
         "label": "• Transportslang in explosie- • Stof- en luchtafzuiging",
+        "page": 4,
         "page_in_pdf": 4,
         "properties": {
           "type": "transportslang_in_explosie_stof_en_luchtafzuiging"
@@ -1137,6 +1212,7 @@
       {
         "sku": "ZGPUS035",
         "label": "• Transportslang in explosie- • Stof- en luchtafzuiging",
+        "page": 4,
         "page_in_pdf": 4,
         "properties": {
           "type": "transportslang_in_explosie_stof_en_luchtafzuiging"
@@ -1150,6 +1226,7 @@
       {
         "sku": "ZGPUS035",
         "label": "• Transportslang in explosie- • Stof- en luchtafzuiging",
+        "page": 4,
         "page_in_pdf": 4,
         "properties": {
           "type": "transportslang_in_explosie_stof_en_luchtafzuiging"
@@ -1163,6 +1240,7 @@
       {
         "sku": "ZGPUS040",
         "label": "• Transportslang in explosie- • Stof- en luchtafzuiging",
+        "page": 4,
         "page_in_pdf": 4,
         "properties": {
           "type": "transportslang_in_explosie_stof_en_luchtafzuiging"
@@ -1176,6 +1254,7 @@
       {
         "sku": "ZGPUS045",
         "label": "• Transportslang in explosie- • Stof- en luchtafzuiging",
+        "page": 4,
         "page_in_pdf": 4,
         "properties": {
           "type": "transportslang_in_explosie_stof_en_luchtafzuiging"
@@ -1189,6 +1268,7 @@
       {
         "sku": "ZGPUS050",
         "label": "• Transportslang in explosie- • Stof- en luchtafzuiging",
+        "page": 4,
         "page_in_pdf": 4,
         "properties": {
           "type": "transportslang_in_explosie_stof_en_luchtafzuiging"
@@ -1202,6 +1282,7 @@
       {
         "sku": "ZGPUS060",
         "label": "• Transportslang in explosie- • Stof- en luchtafzuiging",
+        "page": 4,
         "page_in_pdf": 4,
         "properties": {
           "type": "transportslang_in_explosie_stof_en_luchtafzuiging"
@@ -1215,6 +1296,7 @@
       {
         "sku": "ZGPUS063",
         "label": "• Transportslang in explosie- • Stof- en luchtafzuiging",
+        "page": 4,
         "page_in_pdf": 4,
         "properties": {
           "type": "transportslang_in_explosie_stof_en_luchtafzuiging"
@@ -1228,6 +1310,7 @@
       {
         "sku": "ZGPUS075",
         "label": "• Transportslang in explosie- • Stof- en luchtafzuiging",
+        "page": 4,
         "page_in_pdf": 4,
         "properties": {
           "type": "transportslang_in_explosie_stof_en_luchtafzuiging"
@@ -1241,6 +1324,7 @@
       {
         "sku": "ZGPUS080",
         "label": "• Transportslang in explosie- • Stof- en luchtafzuiging",
+        "page": 4,
         "page_in_pdf": 4,
         "properties": {
           "type": "transportslang_in_explosie_stof_en_luchtafzuiging"
@@ -1254,6 +1338,7 @@
       {
         "sku": "ZGPUS090",
         "label": "• Transportslang in explosie- • Stof- en luchtafzuiging",
+        "page": 4,
         "page_in_pdf": 4,
         "properties": {
           "type": "transportslang_in_explosie_stof_en_luchtafzuiging"
@@ -1267,6 +1352,7 @@
       {
         "sku": "ZGPUS100",
         "label": "• Transportslang in explosie- • Stof- en luchtafzuiging",
+        "page": 4,
         "page_in_pdf": 4,
         "properties": {
           "type": "transportslang_in_explosie_stof_en_luchtafzuiging"
@@ -1280,6 +1366,7 @@
       {
         "sku": "ZGPUS125",
         "label": "• Transportslang in explosie- • Stof- en luchtafzuiging",
+        "page": 4,
         "page_in_pdf": 4,
         "properties": {
           "type": "transportslang_in_explosie_stof_en_luchtafzuiging"
@@ -1293,6 +1380,7 @@
       {
         "sku": "ZGPUS150",
         "label": "• Transportslang in explosie- • Stof- en luchtafzuiging",
+        "page": 4,
         "page_in_pdf": 4,
         "properties": {
           "type": "transportslang_in_explosie_stof_en_luchtafzuiging"
@@ -1306,6 +1394,7 @@
       {
         "sku": "ZGPUS180",
         "label": "• Transportslang in explosie- • Stof- en luchtafzuiging",
+        "page": 4,
         "page_in_pdf": 4,
         "properties": {
           "type": "transportslang_in_explosie_stof_en_luchtafzuiging"
@@ -1317,30 +1406,24 @@
         }
       }
     ],
-    "images": [
-      "images/pu-afzuigslangen/afzuigen-van-droge__zgpul013.webp",
-      "images/pu-afzuigslangen/pu-afzuigslangen__p2__afzuigen-van-droge__ZGPUL013-ZGPUL013-ZGPUL019.webp"
-    ],
+    "images": [],
     "variant_count": 18,
     "default_variant_sku": "ZGPUS020",
-    "media": [
-      {
-        "role": "main",
-        "url": "images/pu-afzuigslangen/afzuigen-van-droge__zgpul013.webp"
-      }
-    ]
+    "media": []
   },
   {
-    "group_id": "pu-afzuigslangen-granulaat-en-poeder-straatvegers-vacu-m-pompen",
+    "group_id": "pu-afzuigslangen-pu-afzuigslangen-granulaat-en-poeder-straatvegers-vacuum-pompen",
     "name": "• Granulaat en poeder • Straatvegers • Vacuüm pompen",
-    "family": "granulaat-en-poeder-straatvegers-vacu-m-pompen",
+    "family": "pu-afzuigslangen__granulaat-en-poeder-straatvegers-vacuum-pompen",
     "catalog": "pu-afzuigslangen",
+    "source_pdf": "pu-afzuigslangen.pdf",
     "brand": "Various",
     "category": "• Luchttoevoer",
     "variants": [
       {
         "sku": "ZGPUXL013",
         "label": "• Granulaat en poeder • Straatvegers • Vacuüm pompen",
+        "page": 6,
         "page_in_pdf": 6,
         "properties": {
           "type": "granulaat_en_poeder_straatvegers_vacu_m_pompen"
@@ -1354,6 +1437,7 @@
       {
         "sku": "ZGPUXL013",
         "label": "• Granulaat en poeder • Straatvegers • Vacuüm pompen",
+        "page": 6,
         "page_in_pdf": 6,
         "properties": {
           "type": "granulaat_en_poeder_straatvegers_vacu_m_pompen"
@@ -1367,6 +1451,7 @@
       {
         "sku": "ZGPUXL018",
         "label": "• Granulaat en poeder • Straatvegers • Vacuüm pompen",
+        "page": 6,
         "page_in_pdf": 6,
         "properties": {
           "type": "granulaat_en_poeder_straatvegers_vacu_m_pompen"
@@ -1380,6 +1465,7 @@
       {
         "sku": "ZGPUXL018",
         "label": "• Granulaat en poeder • Straatvegers • Vacuüm pompen",
+        "page": 6,
         "page_in_pdf": 6,
         "properties": {
           "type": "granulaat_en_poeder_straatvegers_vacu_m_pompen"
@@ -1393,6 +1479,7 @@
       {
         "sku": "ZGPUXL022",
         "label": "• Granulaat en poeder • Straatvegers • Vacuüm pompen",
+        "page": 6,
         "page_in_pdf": 6,
         "properties": {
           "type": "granulaat_en_poeder_straatvegers_vacu_m_pompen"
@@ -1406,6 +1493,7 @@
       {
         "sku": "ZGPUXL022",
         "label": "• Granulaat en poeder • Straatvegers • Vacuüm pompen",
+        "page": 6,
         "page_in_pdf": 6,
         "properties": {
           "type": "granulaat_en_poeder_straatvegers_vacu_m_pompen"
@@ -1419,6 +1507,7 @@
       {
         "sku": "ZGPUXL030",
         "label": "• Granulaat en poeder • Straatvegers • Vacuüm pompen",
+        "page": 6,
         "page_in_pdf": 6,
         "properties": {
           "type": "granulaat_en_poeder_straatvegers_vacu_m_pompen"
@@ -1432,6 +1521,7 @@
       {
         "sku": "ZGPUXL030",
         "label": "• Granulaat en poeder • Straatvegers • Vacuüm pompen",
+        "page": 6,
         "page_in_pdf": 6,
         "properties": {
           "type": "granulaat_en_poeder_straatvegers_vacu_m_pompen"
@@ -1445,6 +1535,7 @@
       {
         "sku": "ZGPUXL035",
         "label": "• Granulaat en poeder • Straatvegers • Vacuüm pompen",
+        "page": 6,
         "page_in_pdf": 6,
         "properties": {
           "type": "granulaat_en_poeder_straatvegers_vacu_m_pompen"
@@ -1458,6 +1549,7 @@
       {
         "sku": "ZGPUXL038",
         "label": "• Granulaat en poeder • Straatvegers • Vacuüm pompen",
+        "page": 6,
         "page_in_pdf": 6,
         "properties": {
           "type": "granulaat_en_poeder_straatvegers_vacu_m_pompen"
@@ -1471,6 +1563,7 @@
       {
         "sku": "ZGPUXL040",
         "label": "• Granulaat en poeder • Straatvegers • Vacuüm pompen",
+        "page": 6,
         "page_in_pdf": 6,
         "properties": {
           "type": "granulaat_en_poeder_straatvegers_vacu_m_pompen"
@@ -1484,6 +1577,7 @@
       {
         "sku": "ZGPUXL042",
         "label": "• Granulaat en poeder • Straatvegers • Vacuüm pompen",
+        "page": 6,
         "page_in_pdf": 6,
         "properties": {
           "type": "granulaat_en_poeder_straatvegers_vacu_m_pompen"
@@ -1497,6 +1591,7 @@
       {
         "sku": "ZGPUXL045",
         "label": "• Granulaat en poeder • Straatvegers • Vacuüm pompen",
+        "page": 6,
         "page_in_pdf": 6,
         "properties": {
           "type": "granulaat_en_poeder_straatvegers_vacu_m_pompen"
@@ -1510,6 +1605,7 @@
       {
         "sku": "ZGPUXL050",
         "label": "• Granulaat en poeder • Straatvegers • Vacuüm pompen",
+        "page": 6,
         "page_in_pdf": 6,
         "properties": {
           "type": "granulaat_en_poeder_straatvegers_vacu_m_pompen"
@@ -1523,6 +1619,7 @@
       {
         "sku": "ZGPUXL055",
         "label": "• Granulaat en poeder • Straatvegers • Vacuüm pompen",
+        "page": 6,
         "page_in_pdf": 6,
         "properties": {
           "type": "granulaat_en_poeder_straatvegers_vacu_m_pompen"
@@ -1536,6 +1633,7 @@
       {
         "sku": "ZGPUXL060",
         "label": "• Granulaat en poeder • Straatvegers • Vacuüm pompen",
+        "page": 6,
         "page_in_pdf": 6,
         "properties": {
           "type": "granulaat_en_poeder_straatvegers_vacu_m_pompen"
@@ -1549,6 +1647,7 @@
       {
         "sku": "ZGPUXL065",
         "label": "• Granulaat en poeder • Straatvegers • Vacuüm pompen",
+        "page": 6,
         "page_in_pdf": 6,
         "properties": {
           "type": "granulaat_en_poeder_straatvegers_vacu_m_pompen"
@@ -1562,6 +1661,7 @@
       {
         "sku": "ZGPUXL070",
         "label": "• Granulaat en poeder • Straatvegers • Vacuüm pompen",
+        "page": 6,
         "page_in_pdf": 6,
         "properties": {
           "type": "granulaat_en_poeder_straatvegers_vacu_m_pompen"
@@ -1575,6 +1675,7 @@
       {
         "sku": "ZGPUXL075",
         "label": "• Granulaat en poeder • Straatvegers • Vacuüm pompen",
+        "page": 6,
         "page_in_pdf": 6,
         "properties": {
           "type": "granulaat_en_poeder_straatvegers_vacu_m_pompen"
@@ -1588,6 +1689,7 @@
       {
         "sku": "ZGPUXL080",
         "label": "• Granulaat en poeder • Straatvegers • Vacuüm pompen",
+        "page": 6,
         "page_in_pdf": 6,
         "properties": {
           "type": "granulaat_en_poeder_straatvegers_vacu_m_pompen"
@@ -1601,6 +1703,7 @@
       {
         "sku": "ZGPUXL090",
         "label": "• Granulaat en poeder • Straatvegers • Vacuüm pompen",
+        "page": 6,
         "page_in_pdf": 6,
         "properties": {
           "type": "granulaat_en_poeder_straatvegers_vacu_m_pompen"
@@ -1614,6 +1717,7 @@
       {
         "sku": "ZGPUXL100",
         "label": "• Granulaat en poeder • Straatvegers • Vacuüm pompen",
+        "page": 6,
         "page_in_pdf": 6,
         "properties": {
           "type": "granulaat_en_poeder_straatvegers_vacu_m_pompen"
@@ -1627,6 +1731,7 @@
       {
         "sku": "ZGPUXL110",
         "label": "• Granulaat en poeder • Straatvegers • Vacuüm pompen",
+        "page": 6,
         "page_in_pdf": 6,
         "properties": {
           "type": "granulaat_en_poeder_straatvegers_vacu_m_pompen"
@@ -1640,6 +1745,7 @@
       {
         "sku": "ZGPUXL115",
         "label": "• Granulaat en poeder • Straatvegers • Vacuüm pompen",
+        "page": 6,
         "page_in_pdf": 6,
         "properties": {
           "type": "granulaat_en_poeder_straatvegers_vacu_m_pompen"
@@ -1653,6 +1759,7 @@
       {
         "sku": "ZGPUXL120",
         "label": "• Granulaat en poeder • Straatvegers • Vacuüm pompen",
+        "page": 6,
         "page_in_pdf": 6,
         "properties": {
           "type": "granulaat_en_poeder_straatvegers_vacu_m_pompen"
@@ -1664,17 +1771,9 @@
         }
       }
     ],
-    "images": [
-      "images/pu-afzuigslangen/granulaat-en-poeder-straatvegers-vacu-m-pompen__zgpuxl013.webp",
-      "images/pu-afzuigslangen/pu-afzuigslangen__p6__granulaat-en-poeder-straatvegers-vacu-m-__ZGPUXL013-ZGPUXL013-ZGPUXL018.webp"
-    ],
+    "images": [],
     "variant_count": 25,
     "default_variant_sku": "ZGPUXL013",
-    "media": [
-      {
-        "role": "main",
-        "url": "images/pu-afzuigslangen/granulaat-en-poeder-straatvegers-vacu-m-pompen__zgpuxl013.webp"
-      }
-    ]
+    "media": []
   }
 ]

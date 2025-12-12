@@ -109,7 +109,7 @@ export default function FeaturedProductsPage() {
     }
   };
 
-  const categories = ['all', ...new Set(featuredProducts.map(p => p.category))];
+  const categories = ['all', ...Array.from(new Set(featuredProducts.map(p => p.category).filter((c): c is string => c !== undefined)))];
   const filteredProducts = selectedCategory === 'all' 
     ? featuredProducts 
     : featuredProducts.filter(p => p.category === selectedCategory);

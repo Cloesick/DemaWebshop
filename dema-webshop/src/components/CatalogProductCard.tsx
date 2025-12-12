@@ -1,9 +1,10 @@
 'use client';
 
 import Link from 'next/link';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { useQuote } from '@/contexts/QuoteContext';
 import { useProductTranslation } from '@/hooks/useProductTranslation';
+import { getSkuImagePath } from '@/lib/skuImageMap';
 import UniversalSpecifications from './UniversalSpecifications';
 
 interface CatalogProductCardProps {
@@ -19,11 +20,23 @@ export default function CatalogProductCard({
 }: CatalogProductCardProps) {
   const [imageError, setImageError] = useState(false);
   const [justAdded, setJustAdded] = useState(false);
+  const [skuImagePath, setSkuImagePath] = useState<string | null>(null);
   const { addToQuote } = useQuote();
   const { productName: getProductName, categoryName, uiText } = useProductTranslation();
 
-  // Get image URL from various possible sources
-  const imageUrl = product.imageUrl || 
+  // Load SKU-specific image from extracted PDFs
+  useEffect(() => {
+    if (product?.sku) {
+      getSkuImagePath(product.sku).then(path => {
+        setSkuImagePath(path);
+        if (path) setImageError(false);
+      });
+    }
+  }, [product?.sku]);
+
+  // Get image URL from various possible sources (SKU image takes priority)
+  const imageUrl = skuImagePath ||
+                   product.imageUrl || 
                    product.media?.find((m: any) => m.role === 'main')?.url ||
                    product.image_paths?.[0];
 

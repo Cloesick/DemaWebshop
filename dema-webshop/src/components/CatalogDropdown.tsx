@@ -77,15 +77,6 @@ export default function CatalogDropdown({ currentCatalog }: CatalogDropdownProps
               </Link>
             ))}
           </div>
-          <div className="border-t p-3">
-            <Link
-              href="/catalogs"
-              onClick={() => setIsOpen(false)}
-              className="block text-center text-sm font-medium text-[#00ADEF] hover:underline"
-            >
-              View All Catalog Details →
-            </Link>
-          </div>
         </div>
       )}
     </div>

@@ -61,6 +61,7 @@ function groupProducts(products, catalogName) {
         name: product.series_name || product.type || seriesId,
         family: product.family_id || product.series_id || 'General',
         catalog: catalogName.replace('.json', ''),
+        source_pdf: product.source_pdf || catalogName,
         brand: extractBrand(catalogName),
         category: product.catalog_group || product.application || 'Products',
         variants: [],
@@ -72,6 +73,7 @@ function groupProducts(products, catalogName) {
     const variant = {
       sku: product.sku,
       label: product.series_name || product.type || product.sku,
+      page: product.page,
       page_in_pdf: product.page,
       properties: extractProperties(product),
       attributes: extractAttributes(product)

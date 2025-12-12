@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { FileText, ExternalLink } from 'lucide-react';
 import { useQuote } from '@/contexts/QuoteContext';
@@ -11,6 +11,7 @@ import {
   type CategorizedProperties 
 } from '@/lib/propertyCategories';
 import { getImageDisplayInfo } from '@/lib/imageBrandFilter';
+import { getSkuImagePath } from '@/lib/skuImageMap';
 
 interface ImageBasedProductCardProps {
   productGroup: {
@@ -37,15 +38,29 @@ export default function ImageBasedProductCard({
 }: ImageBasedProductCardProps) {
   const [selectedProductIndex, setSelectedProductIndex] = useState(0);
   const [imageError, setImageError] = useState(false);
+  const [skuImagePath, setSkuImagePath] = useState<string | null>(null);
   const { addToQuote } = useQuote();
 
   const selectedProduct = productGroup.products[selectedProductIndex] || productGroup.products[0];
   
+  // Load SKU-specific image from extracted PDFs
+  useEffect(() => {
+    if (selectedProduct?.sku) {
+      getSkuImagePath(selectedProduct.sku).then(path => {
+        setSkuImagePath(path);
+        setImageError(false);
+      });
+    }
+  }, [selectedProduct?.sku]);
+  
   // Check if image contains brand name - only show if it doesn't
   const imageDisplayInfo = getImageDisplayInfo(productGroup);
-  const imageUrl = imageDisplayInfo.shouldDisplay && imageDisplayInfo.imagePath 
+  const fallbackImageUrl = imageDisplayInfo.shouldDisplay && imageDisplayInfo.imagePath 
     ? `/${imageDisplayInfo.imagePath}` 
     : null;
+  
+  // Prefer SKU-specific image, fallback to group image
+  const imageUrl = skuImagePath || fallbackImageUrl;
   
   // Categorize properties
   const categorizedProps: CategorizedProperties[] = groupPropertiesByCategory(

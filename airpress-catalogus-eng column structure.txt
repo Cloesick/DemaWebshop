@@ -1,1 +1,31 @@
 the table of the airpress-catalogus-eng are not read correctly : HL 150-24 36744-E 150 L/min 120 L/min 24 L 1,5 hp / 1,1 kW 6 bar 8 bar 1 1 2800 rpm 93 dB(A) 230V / 50 Hz / 1 580 x 255 x 580 mm 25 kg HL 310-25 36839-1 196 L/min 157 L/min 24 L 2 hp / 1,5 kW 6 bar 8 bar 1 1 2850 rpm 96 dB(A) 230V / 50 Hz / 1 600 x 330 x 560 mm 27 kg HL 155-50 36830 155 L/min 124 L/min 50 L 1,5 hp / 1,1 kW 6 bar 8 bar 1 1 2850 rpm 93 dB(A) 230V / 50 Hz / 1 720 x 420 x 690 mm 31 kg HL 275-50 36856 275 L/min 220 L/min 50 L 2 hp / 1,5 kW 6 bar 8 bar 1 1 2850 rpm 96 dB(A) 230V / 50 Hz / 1 720 x 420 x 690 mm 33 kg HL 325-50 36832 325 L/min 260 L/min 50 L 2,5 hp / 1,8 kW 6 bar 8 bar 1 1 2850 rpm 93 dB(A) 230V / 50 Hz / 1 770 x 330 x 730 mm 36,5 kg HL 360-50 36852 288 L/min 231 L/min 50 L 2,5 hp / 1,8 kW 6 bar 8 bar 1 1 2850 rpm 97 dB(A) 230V / 50 Hz / 1 480 x 410 x 1050 mm 35 kg HL 340-90 36844-E 340 L/min 272 L/min 90 L 3 hp / 2,2 kW 8 bar 10 bar 2 1 1400 rpm 97 dB(A) 230V / 50 Hz / 1 1230 x 440 x 740 mm 63 kg , find the structure and assign headers to the columns, first column depicts a code saying "HL 150-24" , the 150 refers to column 3 meaning intake of air per minute, while 24 refers to column 5 meaning the capacity of the airpress. column 2 is the sku/product , column 4 is outtake of volume per minute, column 6 is horsepower and kilowats , column 7 is minimal pressure in bar , column 8 is max pressure in bar, column 9 is pistons amount, column 10 is not relevant, column 12 is engine rounds per minute (rpm), column 13 is voltage (V) / Hertz (Hz), column 14 is diameters : length * width * height, column 15 is weight. 
+
+┌─────────────────────────────┐
+│ SKU: 36744-E                │
+│ Code: HL 150-24             │
+│                             │
+│ 💨 150 L/min intake        │
+│ 💨 120 L/min outtake       │
+│ 📦 24 L volume             │
+│ ⚡ 1.5 hp / 1.1 kW         │
+│ 🔧 6-8 bar                 │
+│ 🔄 2800 rpm                │
+│ 🔊 93 dB(A)                │
+│ 🔌 230V / 50Hz / 1φ        │
+│ 📏 580 × 255 × 580 mm      │
+│ ⚖️ 25 kg                   │
+└─────────────────────────────┘
+
+Property	Badge	Example
+Product Code	🏷️	HL 150-24
+Power	⚡	1.5 hp / 1.1 kW
+Intake Flow	🌬️	150 L/min intake
+Outtake Flow	💨	120 L/min output
+Tank Volume	🗜️	24 L tank
+Pressure Range	🔧	6-8 bar
+Piston Count	🔩	1 piston
+RPM	🔄	2800 rpm
+Noise Level	🔊	93 dB(A)
+Electrical	🔌	230V / 50Hz / 1φ
+Dimensions	📏	580 × 255 × 580 mm
+Weight	⚖️	25 kg

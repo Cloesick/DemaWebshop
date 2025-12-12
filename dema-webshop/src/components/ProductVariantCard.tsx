@@ -1,10 +1,11 @@
 'use client';
 
-import { useState, useMemo } from 'react';
+import { useState, useMemo, useEffect } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { FiChevronDown } from 'react-icons/fi';
 import { useQuote } from '@/contexts/QuoteContext';
+import { getSkuImagePath } from '@/lib/skuImageMap';
 import UniversalSpecifications from '@/components/UniversalSpecifications';
 
 // Use full Product type - no modifications to data
@@ -45,7 +46,17 @@ export default function ProductVariantCard({
 }: ProductVariantCardProps) {
   const [selectedSku, setSelectedSku] = useState(primarySku);
   const [justAdded, setJustAdded] = useState(false);
+  const [skuImagePath, setSkuImagePath] = useState<string | null>(null);
   const { addToQuote } = useQuote();
+  
+  // Load SKU-specific image from extracted PDFs
+  useEffect(() => {
+    if (selectedSku) {
+      getSkuImagePath(selectedSku).then(path => {
+        setSkuImagePath(path);
+      });
+    }
+  }, [selectedSku]);
   
   // Find selected product
   const selectedVariant = useMemo(
@@ -57,6 +68,9 @@ export default function ProductVariantCard({
   const getVariantLabel = (product: Product) => {
     return `${product.sku}${product.name !== product.sku ? ` - ${product.name}` : ''}`;
   };
+  
+  // Use SKU-specific image if available, otherwise fallback to passed imageUrl
+  const displayImageUrl = skuImagePath || imageUrl;
   
   const formatPrice = (priceObj?: { amount?: number; display?: string } | null) => {
     if (!priceObj) return 'Price on request';
@@ -77,7 +91,7 @@ export default function ProductVariantCard({
       <div className="flex flex-col sm:flex-row bg-white border-2 border-teal-100 rounded-lg overflow-hidden shadow-sm hover:shadow-lg transition-all duration-200">
         <div className="w-full sm:w-56 h-56 sm:h-full flex-shrink-0 bg-gradient-to-br from-teal-50 to-teal-100 flex items-center justify-center p-4 relative">
           <Image
-            src={imageUrl}
+            src={displayImageUrl}
             alt={selectedVariant.name || 'Product'}
             width={200}
             height={200}

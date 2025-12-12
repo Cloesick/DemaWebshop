@@ -1,15 +1,17 @@
 [
   {
-    "group_id": "catalogus-aandrijftechniek-150922-buitenring-met-smeergroef-en-3-smeergaten",
+    "group_id": "catalogus-aandrijftechniek-150922-catalogus-aandrijftechniek-150922-buitenring-met-smeergroef-en-3-smeergaten",
     "name": "• Buitenring: met smeergroef en 3 smeergaten",
-    "family": "buitenring-met-smeergroef-en-3-smeergaten",
+    "family": "catalogus-aandrijftechniek-150922__buitenring-met-smeergroef-en-3-smeergaten",
     "catalog": "catalogus-aandrijftechniek-150922",
+    "source_pdf": "catalogus-aandrijftechniek-150922.pdf",
     "brand": "Various",
     "category": "Products",
     "variants": [
       {
         "sku": "11050583",
         "label": "• Buitenring: met smeergroef en 3 smeergaten",
+        "page": 40,
         "page_in_pdf": 40,
         "properties": {
           "type": "drive_component"
@@ -21,6 +23,7 @@
       {
         "sku": "17900007",
         "label": "• Buitenring: met smeergroef en 3 smeergaten",
+        "page": 40,
         "page_in_pdf": 40,
         "properties": {
           "type": "drive_component"
@@ -32,6 +35,7 @@
       {
         "sku": "RKKASA100",
         "label": "• Buitenring: met smeergroef en 3 smeergaten",
+        "page": 48,
         "page_in_pdf": 48,
         "properties": {
           "type": "drive_component"
@@ -43,6 +47,7 @@
       {
         "sku": "RKKASA1003",
         "label": "• Buitenring: met smeergroef en 3 smeergaten",
+        "page": 50,
         "page_in_pdf": 50,
         "properties": {
           "type": "drive_component"
@@ -54,6 +59,7 @@
       {
         "sku": "RKKASA120",
         "label": "• Buitenring: met smeergroef en 3 smeergaten",
+        "page": 48,
         "page_in_pdf": 48,
         "properties": {
           "type": "drive_component"
@@ -65,6 +71,7 @@
       {
         "sku": "RKKASA1202",
         "label": "• Buitenring: met smeergroef en 3 smeergaten",
+        "page": 49,
         "page_in_pdf": 49,
         "properties": {
           "type": "drive_component"
@@ -76,6 +83,7 @@
       {
         "sku": "RKKASA1203",
         "label": "• Buitenring: met smeergroef en 3 smeergaten",
+        "page": 50,
         "page_in_pdf": 50,
         "properties": {
           "type": "drive_component"
@@ -87,6 +95,7 @@
       {
         "sku": "RKKASA140",
         "label": "• Buitenring: met smeergroef en 3 smeergaten",
+        "page": 48,
         "page_in_pdf": 48,
         "properties": {
           "type": "drive_component"
@@ -98,6 +107,7 @@
       {
         "sku": "RKKASA1402",
         "label": "• Buitenring: met smeergroef en 3 smeergaten",
+        "page": 49,
         "page_in_pdf": 49,
         "properties": {
           "type": "drive_component"
@@ -109,6 +119,7 @@
       {
         "sku": "RKKASA1403",
         "label": "• Buitenring: met smeergroef en 3 smeergaten",
+        "page": 50,
         "page_in_pdf": 50,
         "properties": {
           "type": "drive_component"
@@ -120,6 +131,7 @@
       {
         "sku": "RKKASA160",
         "label": "• Buitenring: met smeergroef en 3 smeergaten",
+        "page": 48,
         "page_in_pdf": 48,
         "properties": {
           "type": "drive_component"
@@ -131,6 +143,7 @@
       {
         "sku": "RKKASA1602",
         "label": "• Buitenring: met smeergroef en 3 smeergaten",
+        "page": 49,
         "page_in_pdf": 49,
         "properties": {
           "type": "drive_component"
@@ -142,6 +155,7 @@
       {
         "sku": "RKKASA1603",
         "label": "• Buitenring: met smeergroef en 3 smeergaten",
+        "page": 50,
         "page_in_pdf": 50,
         "properties": {
           "type": "drive_component"
@@ -153,6 +167,7 @@
       {
         "sku": "RKKASA200",
         "label": "• Buitenring: met smeergroef en 3 smeergaten",
+        "page": 48,
         "page_in_pdf": 48,
         "properties": {
           "type": "drive_component"
@@ -164,6 +179,7 @@
       {
         "sku": "RKKASA2002",
         "label": "• Buitenring: met smeergroef en 3 smeergaten",
+        "page": 49,
         "page_in_pdf": 49,
         "properties": {
           "type": "drive_component"
@@ -175,6 +191,7 @@
       {
         "sku": "RKKASA352",
         "label": "• Buitenring: met smeergroef en 3 smeergaten",
+        "page": 49,
         "page_in_pdf": 49,
         "properties": {
           "type": "drive_component"
@@ -186,6 +203,7 @@
       {
         "sku": "RKKASA352",
         "label": "• Buitenring: met smeergroef en 3 smeergaten",
+        "page": 49,
         "page_in_pdf": 49,
         "properties": {
           "type": "drive_component"
@@ -197,6 +215,7 @@
       {
         "sku": "RKKASA403",
         "label": "• Buitenring: met smeergroef en 3 smeergaten",
+        "page": 50,
         "page_in_pdf": 50,
         "properties": {
           "type": "drive_component"
@@ -208,6 +227,7 @@
       {
         "sku": "RKKASA403",
         "label": "• Buitenring: met smeergroef en 3 smeergaten",
+        "page": 50,
         "page_in_pdf": 50,
         "properties": {
           "type": "drive_component"
@@ -219,6 +239,7 @@
       {
         "sku": "RKKASA502",
         "label": "• Buitenring: met smeergroef en 3 smeergaten",
+        "page": 49,
         "page_in_pdf": 49,
         "properties": {
           "type": "drive_component"
@@ -230,6 +251,7 @@
       {
         "sku": "RKKASA502",
         "label": "• Buitenring: met smeergroef en 3 smeergaten",
+        "page": 49,
         "page_in_pdf": 49,
         "properties": {
           "type": "drive_component"
@@ -241,6 +263,7 @@
       {
         "sku": "RKKASA603",
         "label": "• Buitenring: met smeergroef en 3 smeergaten",
+        "page": 50,
         "page_in_pdf": 50,
         "properties": {
           "type": "drive_component"
@@ -252,6 +275,7 @@
       {
         "sku": "RKKASA603",
         "label": "• Buitenring: met smeergroef en 3 smeergaten",
+        "page": 50,
         "page_in_pdf": 50,
         "properties": {
           "type": "drive_component"
@@ -263,6 +287,7 @@
       {
         "sku": "RKKASA802",
         "label": "• Buitenring: met smeergroef en 3 smeergaten",
+        "page": 49,
         "page_in_pdf": 49,
         "properties": {
           "type": "drive_component"
@@ -274,6 +299,7 @@
       {
         "sku": "RKKASA802",
         "label": "• Buitenring: met smeergroef en 3 smeergaten",
+        "page": 49,
         "page_in_pdf": 49,
         "properties": {
           "type": "drive_component"
@@ -285,6 +311,7 @@
       {
         "sku": "RKKBS081",
         "label": "• Buitenring: met smeergroef en 3 smeergaten",
+        "page": 47,
         "page_in_pdf": 47,
         "properties": {
           "type": "drive_component"
@@ -296,6 +323,7 @@
       {
         "sku": "RKKBS083",
         "label": "• Buitenring: met smeergroef en 3 smeergaten",
+        "page": 47,
         "page_in_pdf": 47,
         "properties": {
           "type": "drive_component"
@@ -307,6 +335,7 @@
       {
         "sku": "RKKBS08B050",
         "label": "• Buitenring: met smeergroef en 3 smeergaten",
+        "page": 44,
         "page_in_pdf": 44,
         "properties": {
           "type": "drive_component"
@@ -318,6 +347,7 @@
       {
         "sku": "RKKBS08B050",
         "label": "• Buitenring: met smeergroef en 3 smeergaten",
+        "page": 44,
         "page_in_pdf": 44,
         "properties": {
           "type": "drive_component"
@@ -329,6 +359,7 @@
       {
         "sku": "RKKBS08B050",
         "label": "• Buitenring: met smeergroef en 3 smeergaten",
+        "page": 44,
         "page_in_pdf": 44,
         "properties": {
           "type": "drive_component"
@@ -340,6 +371,7 @@
       {
         "sku": "RKKBS332",
         "label": "• Buitenring: met smeergroef en 3 smeergaten",
+        "page": 47,
         "page_in_pdf": 47,
         "properties": {
           "type": "drive_component"
@@ -351,6 +383,7 @@
       {
         "sku": "RKKBS332",
         "label": "• Buitenring: met smeergroef en 3 smeergaten",
+        "page": 47,
         "page_in_pdf": 47,
         "properties": {
           "type": "drive_component"
@@ -362,6 +395,7 @@
       {
         "sku": "RKKBSRE317",
         "label": "• Buitenring: met smeergroef en 3 smeergaten",
+        "page": 47,
         "page_in_pdf": 47,
         "properties": {
           "type": "drive_component"
@@ -373,6 +407,7 @@
       {
         "sku": "RKKBSRE425",
         "label": "• Buitenring: met smeergroef en 3 smeergaten",
+        "page": 47,
         "page_in_pdf": 47,
         "properties": {
           "type": "drive_component"
@@ -384,6 +419,7 @@
       {
         "sku": "RKKBSRE516",
         "label": "• Buitenring: met smeergroef en 3 smeergaten",
+        "page": 47,
         "page_in_pdf": 47,
         "properties": {
           "type": "drive_component"
@@ -395,6 +431,7 @@
       {
         "sku": "RLH2305",
         "label": "• Buitenring: met smeergroef en 3 smeergaten",
+        "page": 41,
         "page_in_pdf": 41,
         "properties": {
           "type": "drive_component"
@@ -406,6 +443,7 @@
       {
         "sku": "RLH2306",
         "label": "• Buitenring: met smeergroef en 3 smeergaten",
+        "page": 41,
         "page_in_pdf": 41,
         "properties": {
           "type": "drive_component"
@@ -417,6 +455,7 @@
       {
         "sku": "RLH2307",
         "label": "• Buitenring: met smeergroef en 3 smeergaten",
+        "page": 41,
         "page_in_pdf": 41,
         "properties": {
           "type": "drive_component"
@@ -428,6 +467,7 @@
       {
         "sku": "RLH2308",
         "label": "• Buitenring: met smeergroef en 3 smeergaten",
+        "page": 41,
         "page_in_pdf": 41,
         "properties": {
           "type": "drive_component"
@@ -439,6 +479,7 @@
       {
         "sku": "RLH2309",
         "label": "• Buitenring: met smeergroef en 3 smeergaten",
+        "page": 41,
         "page_in_pdf": 41,
         "properties": {
           "type": "drive_component"
@@ -450,6 +491,7 @@
       {
         "sku": "RLH2311",
         "label": "• Buitenring: met smeergroef en 3 smeergaten",
+        "page": 41,
         "page_in_pdf": 41,
         "properties": {
           "type": "drive_component"
@@ -461,6 +503,7 @@
       {
         "sku": "RLH2312",
         "label": "• Buitenring: met smeergroef en 3 smeergaten",
+        "page": 41,
         "page_in_pdf": 41,
         "properties": {
           "type": "drive_component"
@@ -472,6 +515,7 @@
       {
         "sku": "RLH2313",
         "label": "• Buitenring: met smeergroef en 3 smeergaten",
+        "page": 41,
         "page_in_pdf": 41,
         "properties": {
           "type": "drive_component"
@@ -483,6 +527,7 @@
       {
         "sku": "RLH2316",
         "label": "• Buitenring: met smeergroef en 3 smeergaten",
+        "page": 41,
         "page_in_pdf": 41,
         "properties": {
           "type": "drive_component"
@@ -494,6 +539,7 @@
       {
         "sku": "RLH308",
         "label": "• Buitenring: met smeergroef en 3 smeergaten",
+        "page": 41,
         "page_in_pdf": 41,
         "properties": {
           "type": "drive_component"
@@ -505,6 +551,7 @@
       {
         "sku": "RLH309",
         "label": "• Buitenring: met smeergroef en 3 smeergaten",
+        "page": 41,
         "page_in_pdf": 41,
         "properties": {
           "type": "drive_component"
@@ -516,6 +563,7 @@
       {
         "sku": "RLH310",
         "label": "• Buitenring: met smeergroef en 3 smeergaten",
+        "page": 41,
         "page_in_pdf": 41,
         "properties": {
           "type": "drive_component"
@@ -527,6 +575,7 @@
       {
         "sku": "RLH310",
         "label": "• Buitenring: met smeergroef en 3 smeergaten",
+        "page": 41,
         "page_in_pdf": 41,
         "properties": {
           "type": "drive_component"
@@ -538,6 +587,7 @@
       {
         "sku": "RLH311",
         "label": "• Buitenring: met smeergroef en 3 smeergaten",
+        "page": 41,
         "page_in_pdf": 41,
         "properties": {
           "type": "drive_component"
@@ -549,6 +599,7 @@
       {
         "sku": "RLH312",
         "label": "• Buitenring: met smeergroef en 3 smeergaten",
+        "page": 41,
         "page_in_pdf": 41,
         "properties": {
           "type": "drive_component"
@@ -560,6 +611,7 @@
       {
         "sku": "RLH313",
         "label": "• Buitenring: met smeergroef en 3 smeergaten",
+        "page": 41,
         "page_in_pdf": 41,
         "properties": {
           "type": "drive_component"
@@ -571,6 +623,7 @@
       {
         "sku": "RLH315",
         "label": "• Buitenring: met smeergroef en 3 smeergaten",
+        "page": 41,
         "page_in_pdf": 41,
         "properties": {
           "type": "drive_component"
@@ -582,6 +635,7 @@
       {
         "sku": "RLH318",
         "label": "• Buitenring: met smeergroef en 3 smeergaten",
+        "page": 41,
         "page_in_pdf": 41,
         "properties": {
           "type": "drive_component"
@@ -593,6 +647,7 @@
       {
         "sku": "RLH320",
         "label": "• Buitenring: met smeergroef en 3 smeergaten",
+        "page": 41,
         "page_in_pdf": 41,
         "properties": {
           "type": "drive_component"
@@ -604,6 +659,7 @@
       {
         "sku": "RLS22206",
         "label": "• Buitenring: met smeergroef en 3 smeergaten",
+        "page": 39,
         "page_in_pdf": 39,
         "properties": {
           "type": "drive_component"
@@ -618,6 +674,7 @@
       {
         "sku": "RLS22206",
         "label": "• Buitenring: met smeergroef en 3 smeergaten",
+        "page": 39,
         "page_in_pdf": 39,
         "properties": {
           "type": "drive_component"
@@ -632,6 +689,7 @@
       {
         "sku": "RLS22208",
         "label": "• Buitenring: met smeergroef en 3 smeergaten",
+        "page": 39,
         "page_in_pdf": 39,
         "properties": {
           "type": "drive_component"
@@ -646,6 +704,7 @@
       {
         "sku": "RLS22208",
         "label": "• Buitenring: met smeergroef en 3 smeergaten",
+        "page": 39,
         "page_in_pdf": 39,
         "properties": {
           "type": "drive_component"
@@ -660,6 +719,7 @@
       {
         "sku": "RLS22209",
         "label": "• Buitenring: met smeergroef en 3 smeergaten",
+        "page": 39,
         "page_in_pdf": 39,
         "properties": {
           "type": "drive_component"
@@ -674,6 +734,7 @@
       {
         "sku": "RLS22209",
         "label": "• Buitenring: met smeergroef en 3 smeergaten",
+        "page": 39,
         "page_in_pdf": 39,
         "properties": {
           "type": "drive_component"
@@ -688,6 +749,7 @@
       {
         "sku": "RLS22210",
         "label": "• Buitenring: met smeergroef en 3 smeergaten",
+        "page": 39,
         "page_in_pdf": 39,
         "properties": {
           "type": "drive_component"
@@ -702,6 +764,7 @@
       {
         "sku": "RLS22210",
         "label": "• Buitenring: met smeergroef en 3 smeergaten",
+        "page": 39,
         "page_in_pdf": 39,
         "properties": {
           "type": "drive_component"
@@ -716,6 +779,7 @@
       {
         "sku": "RLS22211",
         "label": "• Buitenring: met smeergroef en 3 smeergaten",
+        "page": 39,
         "page_in_pdf": 39,
         "properties": {
           "type": "drive_component"
@@ -730,6 +794,7 @@
       {
         "sku": "RLS22212",
         "label": "• Buitenring: met smeergroef en 3 smeergaten",
+        "page": 39,
         "page_in_pdf": 39,
         "properties": {
           "type": "drive_component"
@@ -744,6 +809,7 @@
       {
         "sku": "RLS22214",
         "label": "• Buitenring: met smeergroef en 3 smeergaten",
+        "page": 39,
         "page_in_pdf": 39,
         "properties": {
           "type": "drive_component"
@@ -758,6 +824,7 @@
       {
         "sku": "RLS22215",
         "label": "• Buitenring: met smeergroef en 3 smeergaten",
+        "page": 39,
         "page_in_pdf": 39,
         "properties": {
           "type": "drive_component"
@@ -772,6 +839,7 @@
       {
         "sku": "RLS22311",
         "label": "• Buitenring: met smeergroef en 3 smeergaten",
+        "page": 39,
         "page_in_pdf": 39,
         "properties": {
           "type": "drive_component"
@@ -786,6 +854,7 @@
       {
         "sku": "RLS22312",
         "label": "• Buitenring: met smeergroef en 3 smeergaten",
+        "page": 39,
         "page_in_pdf": 39,
         "properties": {
           "type": "drive_component"
@@ -799,30 +868,30 @@
       }
     ],
     "images": [
-      "images/catalogus-aandrijftechniek-150922/elektrolytisch-verzinkt__rkks55rh1712.webp",
-      "images/catalogus-aandrijftechniek-150922/buitenring-zonder-groef-of-flens__rln6001.webp",
-      "images/catalogus-aandrijftechniek-150922/catalogus-aandrijftechniek-150__p25__binnenring__RLNUK206-RLNUK206-RLNUK208__v3.webp"
+      "images/catalogus-aandrijftechniek-150922/catalogus-aandrijftechniek-150__p39__buitenring-met-smeergroef-en-3-smeergate__RLS22206-RLS22206-RLS22208.webp"
     ],
     "variant_count": 68,
     "default_variant_sku": "11050583",
     "media": [
       {
         "role": "main",
-        "url": "images/catalogus-aandrijftechniek-150922/elektrolytisch-verzinkt__rkks55rh1712.webp"
+        "url": "images/catalogus-aandrijftechniek-150922/catalogus-aandrijftechniek-150__p39__buitenring-met-smeergroef-en-3-smeergate__RLS22206-RLS22206-RLS22208.webp"
       }
     ]
   },
   {
-    "group_id": "catalogus-aandrijftechniek-150922-temperatuurbereik-40-c-tot-70-c",
+    "group_id": "catalogus-aandrijftechniek-150922-catalogus-aandrijftechniek-150922-temperatuurbereik-40-c-tot-70-c",
     "name": "• Temperatuurbereik: -40°C tot +70°C",
-    "family": "temperatuurbereik-40-c-tot-70-c",
+    "family": "catalogus-aandrijftechniek-150922__temperatuurbereik-40-c-tot-70-c",
     "catalog": "catalogus-aandrijftechniek-150922",
+    "source_pdf": "catalogus-aandrijftechniek-150922.pdf",
     "brand": "Various",
     "category": "Products",
     "variants": [
       {
         "sku": "14210002",
         "label": "• Temperatuurbereik: -40°C tot +70°C",
+        "page": 88,
         "page_in_pdf": 88,
         "properties": {
           "type": "drive_component",
@@ -835,6 +904,7 @@
       {
         "sku": "14210002",
         "label": "• Temperatuurbereik: -40°C tot +70°C",
+        "page": 88,
         "page_in_pdf": 88,
         "properties": {
           "type": "drive_component",
@@ -847,6 +917,7 @@
       {
         "sku": "14210004",
         "label": "• Temperatuurbereik: -40°C tot +70°C",
+        "page": 88,
         "page_in_pdf": 88,
         "properties": {
           "type": "drive_component",
@@ -859,6 +930,7 @@
       {
         "sku": "14210004",
         "label": "• Temperatuurbereik: -40°C tot +70°C",
+        "page": 88,
         "page_in_pdf": 88,
         "properties": {
           "type": "drive_component",
@@ -871,6 +943,7 @@
       {
         "sku": "14210006",
         "label": "• Temperatuurbereik: -40°C tot +70°C",
+        "page": 88,
         "page_in_pdf": 88,
         "properties": {
           "type": "drive_component",
@@ -883,6 +956,7 @@
       {
         "sku": "14210006",
         "label": "• Temperatuurbereik: -40°C tot +70°C",
+        "page": 88,
         "page_in_pdf": 88,
         "properties": {
           "type": "drive_component",
@@ -895,6 +969,7 @@
       {
         "sku": "14210008",
         "label": "• Temperatuurbereik: -40°C tot +70°C",
+        "page": 88,
         "page_in_pdf": 88,
         "properties": {
           "type": "drive_component",
@@ -907,6 +982,7 @@
       {
         "sku": "14210010",
         "label": "• Temperatuurbereik: -40°C tot +70°C",
+        "page": 88,
         "page_in_pdf": 88,
         "properties": {
           "type": "drive_component",
@@ -919,6 +995,7 @@
       {
         "sku": "14210012",
         "label": "• Temperatuurbereik: -40°C tot +70°C",
+        "page": 88,
         "page_in_pdf": 88,
         "properties": {
           "type": "drive_component",
@@ -931,6 +1008,7 @@
       {
         "sku": "14210014",
         "label": "• Temperatuurbereik: -40°C tot +70°C",
+        "page": 88,
         "page_in_pdf": 88,
         "properties": {
           "type": "drive_component",
@@ -943,6 +1021,7 @@
       {
         "sku": "14210016",
         "label": "• Temperatuurbereik: -40°C tot +70°C",
+        "page": 88,
         "page_in_pdf": 88,
         "properties": {
           "type": "drive_component",
@@ -955,6 +1034,7 @@
       {
         "sku": "14210018",
         "label": "• Temperatuurbereik: -40°C tot +70°C",
+        "page": 88,
         "page_in_pdf": 88,
         "properties": {
           "type": "drive_component",
@@ -967,6 +1047,7 @@
       {
         "sku": "14210020",
         "label": "• Temperatuurbereik: -40°C tot +70°C",
+        "page": 88,
         "page_in_pdf": 88,
         "properties": {
           "type": "drive_component",
@@ -979,6 +1060,7 @@
       {
         "sku": "14210022",
         "label": "• Temperatuurbereik: -40°C tot +70°C",
+        "page": 88,
         "page_in_pdf": 88,
         "properties": {
           "type": "drive_component",
@@ -991,6 +1073,7 @@
       {
         "sku": "14210023",
         "label": "• Temperatuurbereik: -40°C tot +70°C",
+        "page": 88,
         "page_in_pdf": 88,
         "properties": {
           "type": "drive_component",
@@ -1003,6 +1086,7 @@
       {
         "sku": "14210024",
         "label": "• Temperatuurbereik: -40°C tot +70°C",
+        "page": 88,
         "page_in_pdf": 88,
         "properties": {
           "type": "drive_component",
@@ -1015,6 +1099,7 @@
       {
         "sku": "14210025",
         "label": "• Temperatuurbereik: -40°C tot +70°C",
+        "page": 88,
         "page_in_pdf": 88,
         "properties": {
           "type": "drive_component",
@@ -1027,6 +1112,7 @@
       {
         "sku": "VRA405",
         "label": "• Temperatuurbereik: -40°C tot +70°C",
+        "page": 74,
         "page_in_pdf": 74,
         "properties": {
           "type": "drive_component"
@@ -1040,6 +1126,7 @@
       {
         "sku": "VRAVX100735",
         "label": "• Temperatuurbereik: -40°C tot +70°C",
+        "page": 78,
         "page_in_pdf": 78,
         "properties": {
           "type": "drive_component"
@@ -1053,6 +1140,7 @@
       {
         "sku": "VRAVX100825",
         "label": "• Temperatuurbereik: -40°C tot +70°C",
+        "page": 78,
         "page_in_pdf": 78,
         "properties": {
           "type": "drive_component"
@@ -1066,6 +1154,7 @@
       {
         "sku": "VRAVX100950",
         "label": "• Temperatuurbereik: -40°C tot +70°C",
+        "page": 78,
         "page_in_pdf": 78,
         "properties": {
           "type": "drive_component"
@@ -1079,6 +1168,7 @@
       {
         "sku": "VRAVX100975",
         "label": "• Temperatuurbereik: -40°C tot +70°C",
+        "page": 78,
         "page_in_pdf": 78,
         "properties": {
           "type": "drive_component"
@@ -1092,6 +1182,7 @@
       {
         "sku": "VRAVX101000",
         "label": "• Temperatuurbereik: -40°C tot +70°C",
+        "page": 78,
         "page_in_pdf": 78,
         "properties": {
           "type": "drive_component"
@@ -1105,6 +1196,7 @@
       {
         "sku": "VRAVX101100",
         "label": "• Temperatuurbereik: -40°C tot +70°C",
+        "page": 78,
         "page_in_pdf": 78,
         "properties": {
           "type": "drive_component"
@@ -1118,6 +1210,7 @@
       {
         "sku": "VRAVX101125",
         "label": "• Temperatuurbereik: -40°C tot +70°C",
+        "page": 78,
         "page_in_pdf": 78,
         "properties": {
           "type": "drive_component"
@@ -1131,6 +1224,7 @@
       {
         "sku": "VRAVX101150",
         "label": "• Temperatuurbereik: -40°C tot +70°C",
+        "page": 78,
         "page_in_pdf": 78,
         "properties": {
           "type": "drive_component"
@@ -1144,6 +1238,7 @@
       {
         "sku": "VRAVX101175",
         "label": "• Temperatuurbereik: -40°C tot +70°C",
+        "page": 78,
         "page_in_pdf": 78,
         "properties": {
           "type": "drive_component"
@@ -1157,6 +1252,7 @@
       {
         "sku": "VRAVX101250",
         "label": "• Temperatuurbereik: -40°C tot +70°C",
+        "page": 78,
         "page_in_pdf": 78,
         "properties": {
           "type": "drive_component"
@@ -1170,6 +1266,7 @@
       {
         "sku": "VRAVX101275",
         "label": "• Temperatuurbereik: -40°C tot +70°C",
+        "page": 78,
         "page_in_pdf": 78,
         "properties": {
           "type": "drive_component"
@@ -1183,6 +1280,7 @@
       {
         "sku": "VRAVX101325",
         "label": "• Temperatuurbereik: -40°C tot +70°C",
+        "page": 78,
         "page_in_pdf": 78,
         "properties": {
           "type": "drive_component"
@@ -1196,6 +1294,7 @@
       {
         "sku": "VRAVX101400",
         "label": "• Temperatuurbereik: -40°C tot +70°C",
+        "page": 78,
         "page_in_pdf": 78,
         "properties": {
           "type": "drive_component"
@@ -1209,6 +1308,7 @@
       {
         "sku": "VRAVX101450",
         "label": "• Temperatuurbereik: -40°C tot +70°C",
+        "page": 78,
         "page_in_pdf": 78,
         "properties": {
           "type": "drive_component"
@@ -1222,6 +1322,7 @@
       {
         "sku": "VRAVX130775",
         "label": "• Temperatuurbereik: -40°C tot +70°C",
+        "page": 79,
         "page_in_pdf": 79,
         "properties": {
           "type": "drive_component"
@@ -1235,6 +1336,7 @@
       {
         "sku": "VRAVX130775",
         "label": "• Temperatuurbereik: -40°C tot +70°C",
+        "page": 79,
         "page_in_pdf": 79,
         "properties": {
           "type": "drive_component"
@@ -1248,6 +1350,7 @@
       {
         "sku": "VRAVX130925",
         "label": "• Temperatuurbereik: -40°C tot +70°C",
+        "page": 79,
         "page_in_pdf": 79,
         "properties": {
           "type": "drive_component"
@@ -1261,6 +1364,7 @@
       {
         "sku": "VRAVX130925",
         "label": "• Temperatuurbereik: -40°C tot +70°C",
+        "page": 79,
         "page_in_pdf": 79,
         "properties": {
           "type": "drive_component"
@@ -1274,6 +1378,7 @@
       {
         "sku": "VRAVX131100",
         "label": "• Temperatuurbereik: -40°C tot +70°C",
+        "page": 79,
         "page_in_pdf": 79,
         "properties": {
           "type": "drive_component"
@@ -1287,6 +1392,7 @@
       {
         "sku": "VRAVX131225",
         "label": "• Temperatuurbereik: -40°C tot +70°C",
+        "page": 79,
         "page_in_pdf": 79,
         "properties": {
           "type": "drive_component"
@@ -1300,6 +1406,7 @@
       {
         "sku": "VRAVX131250",
         "label": "• Temperatuurbereik: -40°C tot +70°C",
+        "page": 79,
         "page_in_pdf": 79,
         "properties": {
           "type": "drive_component"
@@ -1313,6 +1420,7 @@
       {
         "sku": "VRAVX131275",
         "label": "• Temperatuurbereik: -40°C tot +70°C",
+        "page": 79,
         "page_in_pdf": 79,
         "properties": {
           "type": "drive_component"
@@ -1326,6 +1434,7 @@
       {
         "sku": "VRAVX131300",
         "label": "• Temperatuurbereik: -40°C tot +70°C",
+        "page": 79,
         "page_in_pdf": 79,
         "properties": {
           "type": "drive_component"
@@ -1339,6 +1448,7 @@
       {
         "sku": "VRAVX131350",
         "label": "• Temperatuurbereik: -40°C tot +70°C",
+        "page": 79,
         "page_in_pdf": 79,
         "properties": {
           "type": "drive_component"
@@ -1352,6 +1462,7 @@
       {
         "sku": "VRAVX131375",
         "label": "• Temperatuurbereik: -40°C tot +70°C",
+        "page": 79,
         "page_in_pdf": 79,
         "properties": {
           "type": "drive_component"
@@ -1365,6 +1476,7 @@
       {
         "sku": "VRAVX131450",
         "label": "• Temperatuurbereik: -40°C tot +70°C",
+        "page": 79,
         "page_in_pdf": 79,
         "properties": {
           "type": "drive_component"
@@ -1378,6 +1490,7 @@
       {
         "sku": "VRAVX131475",
         "label": "• Temperatuurbereik: -40°C tot +70°C",
+        "page": 79,
         "page_in_pdf": 79,
         "properties": {
           "type": "drive_component"
@@ -1390,30 +1503,30 @@
       }
     ],
     "images": [
-      "images/catalogus-aandrijftechniek-150922/temperatuurbereik-40-c-tot-70-c__vra405.webp",
-      "images/catalogus-aandrijftechniek-150922/catalogus-aandrijftechniek-150__p88__temperatuurbereik-40-c-tot-70-c.webp",
-      "images/catalogus-aandrijftechniek-150922/catalogus-aandrijftechniek-150__p74__temperatuurbereik-40-c-tot-70-c__VRA405__v1.webp"
+      "images/catalogus-aandrijftechniek-150922/catalogus-aandrijftechniek-150__p79__temperatuurbereik-40-c-tot-70-c__VRAVX130775-VRAVX130775-VRAVX130925__v3.webp"
     ],
     "variant_count": 45,
     "default_variant_sku": "14210002",
     "media": [
       {
         "role": "main",
-        "url": "images/catalogus-aandrijftechniek-150922/temperatuurbereik-40-c-tot-70-c__vra405.webp"
+        "url": "images/catalogus-aandrijftechniek-150922/catalogus-aandrijftechniek-150__p79__temperatuurbereik-40-c-tot-70-c__VRAVX130775-VRAVX130775-VRAVX130925__v3.webp"
       }
     ]
   },
   {
-    "group_id": "catalogus-aandrijftechniek-150922-spitmachine-ploegen-grondfrees",
+    "group_id": "catalogus-aandrijftechniek-150922-catalogus-aandrijftechniek-150922-spitmachine-ploegen-grondfrees",
     "name": "spitmachine, ploegen, grondfrees,",
-    "family": "spitmachine-ploegen-grondfrees",
+    "family": "catalogus-aandrijftechniek-150922__spitmachine-ploegen-grondfrees",
     "catalog": "catalogus-aandrijftechniek-150922",
+    "source_pdf": "catalogus-aandrijftechniek-150922.pdf",
     "brand": "Various",
     "category": "Products",
     "variants": [
       {
         "sku": "CARBU11395290",
         "label": "spitmachine, ploegen, grondfrees,",
+        "page": 69,
         "page_in_pdf": 69,
         "properties": {
           "type": "drive_component"
@@ -1425,6 +1538,7 @@
       {
         "sku": "CARBU12300290",
         "label": "spitmachine, ploegen, grondfrees,",
+        "page": 69,
         "page_in_pdf": 69,
         "properties": {
           "type": "drive_component",
@@ -1437,6 +1551,7 @@
       {
         "sku": "CARBU12413290",
         "label": "spitmachine, ploegen, grondfrees,",
+        "page": 69,
         "page_in_pdf": 69,
         "properties": {
           "type": "drive_component",
@@ -1449,6 +1564,7 @@
       {
         "sku": "CARBU12480290",
         "label": "spitmachine, ploegen, grondfrees,",
+        "page": 69,
         "page_in_pdf": 69,
         "properties": {
           "type": "drive_component",
@@ -1461,6 +1577,7 @@
       {
         "sku": "CARBU12S5290",
         "label": "spitmachine, ploegen, grondfrees,",
+        "page": 70,
         "page_in_pdf": 70,
         "properties": {
           "type": "drive_component",
@@ -1473,6 +1590,7 @@
       {
         "sku": "CARBU12S6290",
         "label": "spitmachine, ploegen, grondfrees,",
+        "page": 70,
         "page_in_pdf": 70,
         "properties": {
           "type": "drive_component",
@@ -1485,6 +1603,7 @@
       {
         "sku": "CARBU312653300",
         "label": "spitmachine, ploegen, grondfrees,",
+        "page": 71,
         "page_in_pdf": 71,
         "properties": {
           "type": "drive_component",
@@ -1497,6 +1616,7 @@
       {
         "sku": "CARBU312904300",
         "label": "spitmachine, ploegen, grondfrees,",
+        "page": 71,
         "page_in_pdf": 71,
         "properties": {
           "type": "drive_component",
@@ -1509,6 +1629,7 @@
       {
         "sku": "CARBU313604300",
         "label": "spitmachine, ploegen, grondfrees,",
+        "page": 71,
         "page_in_pdf": 71,
         "properties": {
           "type": "drive_component",
@@ -1521,6 +1642,7 @@
       {
         "sku": "CARBU314504300",
         "label": "spitmachine, ploegen, grondfrees,",
+        "page": 71,
         "page_in_pdf": 71,
         "properties": {
           "type": "drive_component",
@@ -1533,6 +1655,7 @@
       {
         "sku": "CARBU314505300",
         "label": "spitmachine, ploegen, grondfrees,",
+        "page": 71,
         "page_in_pdf": 71,
         "properties": {
           "type": "drive_component",
@@ -1545,6 +1668,7 @@
       {
         "sku": "CARBU315405300",
         "label": "spitmachine, ploegen, grondfrees,",
+        "page": 71,
         "page_in_pdf": 71,
         "properties": {
           "type": "drive_component",
@@ -1557,6 +1681,7 @@
       {
         "sku": "CARBU323252300",
         "label": "spitmachine, ploegen, grondfrees,",
+        "page": 71,
         "page_in_pdf": 71,
         "properties": {
           "type": "drive_component",
@@ -1569,6 +1694,7 @@
       {
         "sku": "CARBU323603300",
         "label": "spitmachine, ploegen, grondfrees,",
+        "page": 71,
         "page_in_pdf": 71,
         "properties": {
           "type": "drive_component",
@@ -1581,6 +1707,7 @@
       {
         "sku": "CARBU324353300",
         "label": "spitmachine, ploegen, grondfrees,",
+        "page": 71,
         "page_in_pdf": 71,
         "properties": {
           "type": "drive_component",
@@ -1593,6 +1720,7 @@
       {
         "sku": "CARBU325153300",
         "label": "spitmachine, ploegen, grondfrees,",
+        "page": 71,
         "page_in_pdf": 71,
         "properties": {
           "type": "drive_component",
@@ -1605,6 +1733,7 @@
       {
         "sku": "CARBU325404300",
         "label": "spitmachine, ploegen, grondfrees,",
+        "page": 71,
         "page_in_pdf": 71,
         "properties": {
           "type": "drive_component"
@@ -1616,6 +1745,7 @@
       {
         "sku": "CARBU326304300",
         "label": "spitmachine, ploegen, grondfrees,",
+        "page": 71,
         "page_in_pdf": 71,
         "properties": {
           "type": "drive_component",
@@ -1628,6 +1758,7 @@
       {
         "sku": "CARG5713518",
         "label": "spitmachine, ploegen, grondfrees,",
+        "page": 63,
         "page_in_pdf": 63,
         "properties": {
           "type": "drive_component"
@@ -1641,6 +1772,7 @@
       {
         "sku": "CARG5713518",
         "label": "spitmachine, ploegen, grondfrees,",
+        "page": 63,
         "page_in_pdf": 63,
         "properties": {
           "type": "drive_component"
@@ -1654,6 +1786,7 @@
       {
         "sku": "CARG5714918",
         "label": "spitmachine, ploegen, grondfrees,",
+        "page": 63,
         "page_in_pdf": 63,
         "properties": {
           "type": "drive_component"
@@ -1667,6 +1800,7 @@
       {
         "sku": "CARK104800",
         "label": "spitmachine, ploegen, grondfrees,",
+        "page": 65,
         "page_in_pdf": 65,
         "properties": {
           "type": "drive_component"
@@ -1678,6 +1812,7 @@
       {
         "sku": "CARK104900",
         "label": "spitmachine, ploegen, grondfrees,",
+        "page": 65,
         "page_in_pdf": 65,
         "properties": {
           "type": "drive_component"
@@ -1689,6 +1824,7 @@
       {
         "sku": "CARK211200",
         "label": "spitmachine, ploegen, grondfrees,",
+        "page": 65,
         "page_in_pdf": 65,
         "properties": {
           "type": "drive_component"
@@ -1700,6 +1836,7 @@
       {
         "sku": "CARK211200",
         "label": "spitmachine, ploegen, grondfrees,",
+        "page": 65,
         "page_in_pdf": 65,
         "properties": {
           "type": "drive_component"
@@ -1711,6 +1848,7 @@
       {
         "sku": "CARK351300",
         "label": "spitmachine, ploegen, grondfrees,",
+        "page": 65,
         "page_in_pdf": 65,
         "properties": {
           "type": "drive_component"
@@ -1722,6 +1860,7 @@
       {
         "sku": "CARK351300",
         "label": "spitmachine, ploegen, grondfrees,",
+        "page": 65,
         "page_in_pdf": 65,
         "properties": {
           "type": "drive_component"
@@ -1733,6 +1872,7 @@
       {
         "sku": "CARK361310",
         "label": "spitmachine, ploegen, grondfrees,",
+        "page": 65,
         "page_in_pdf": 65,
         "properties": {
           "type": "drive_component"
@@ -1744,6 +1884,7 @@
       {
         "sku": "CARK361410",
         "label": "spitmachine, ploegen, grondfrees,",
+        "page": 65,
         "page_in_pdf": 65,
         "properties": {
           "type": "drive_component"
@@ -1755,6 +1896,7 @@
       {
         "sku": "CARS100100",
         "label": "spitmachine, ploegen, grondfrees,",
+        "page": 66,
         "page_in_pdf": 66,
         "properties": {
           "type": "drive_component"
@@ -1767,6 +1909,7 @@
       {
         "sku": "CARS210000",
         "label": "spitmachine, ploegen, grondfrees,",
+        "page": 66,
         "page_in_pdf": 66,
         "properties": {
           "type": "drive_component"
@@ -1779,6 +1922,7 @@
       {
         "sku": "CARS2100141",
         "label": "spitmachine, ploegen, grondfrees,",
+        "page": 68,
         "page_in_pdf": 68,
         "properties": {
           "type": "drive_component",
@@ -1792,6 +1936,7 @@
       {
         "sku": "CARS210600",
         "label": "spitmachine, ploegen, grondfrees,",
+        "page": 66,
         "page_in_pdf": 66,
         "properties": {
           "type": "drive_component",
@@ -1805,6 +1950,7 @@
       {
         "sku": "CARS240100",
         "label": "spitmachine, ploegen, grondfrees,",
+        "page": 66,
         "page_in_pdf": 66,
         "properties": {
           "type": "drive_component"
@@ -1817,6 +1963,7 @@
       {
         "sku": "CARS350000",
         "label": "spitmachine, ploegen, grondfrees,",
+        "page": 66,
         "page_in_pdf": 66,
         "properties": {
           "type": "drive_component"
@@ -1829,6 +1976,7 @@
       {
         "sku": "CARS3500141",
         "label": "spitmachine, ploegen, grondfrees,",
+        "page": 68,
         "page_in_pdf": 68,
         "properties": {
           "type": "drive_component",
@@ -1842,6 +1990,7 @@
       {
         "sku": "CARS350600",
         "label": "spitmachine, ploegen, grondfrees,",
+        "page": 66,
         "page_in_pdf": 66,
         "properties": {
           "type": "drive_component",
@@ -1855,6 +2004,7 @@
       {
         "sku": "CARS360000",
         "label": "spitmachine, ploegen, grondfrees,",
+        "page": 66,
         "page_in_pdf": 66,
         "properties": {
           "type": "drive_component"
@@ -1867,6 +2017,7 @@
       {
         "sku": "CARS3600141",
         "label": "spitmachine, ploegen, grondfrees,",
+        "page": 68,
         "page_in_pdf": 68,
         "properties": {
           "type": "drive_component",
@@ -1880,6 +2031,7 @@
       {
         "sku": "CARS360600",
         "label": "spitmachine, ploegen, grondfrees,",
+        "page": 66,
         "page_in_pdf": 66,
         "properties": {
           "type": "drive_component",
@@ -1892,31 +2044,30 @@
       }
     ],
     "images": [
-      "images/catalogus-aandrijftechniek-150922/spitmachine-ploegen-grondfrees__carg5713518.webp",
-      "images/catalogus-aandrijftechniek-150922/catalogus-aandrijftechniek-150__p71__spitmachine-ploegen-grondfrees.webp",
-      "images/catalogus-aandrijftechniek-150922/smeerinterval-8-uur__cardwwe24801210.webp",
-      "images/catalogus-aandrijftechniek-150922/catalogus-aandrijftechniek-150__p63__spitmachine-ploegen-grondfrees__CARG5713518-CARG5713518-CARG5714918.webp"
+      "images/catalogus-aandrijftechniek-150922/catalogus-aandrijftechniek-150__p71__spitmachine-ploegen-grondfrees__CARBU312653300-CARBU312904300-CARBU313604300__v18.webp"
     ],
     "variant_count": 40,
     "default_variant_sku": "CARBU11395290",
     "media": [
       {
         "role": "main",
-        "url": "images/catalogus-aandrijftechniek-150922/spitmachine-ploegen-grondfrees__carg5713518.webp"
+        "url": "images/catalogus-aandrijftechniek-150922/catalogus-aandrijftechniek-150__p71__spitmachine-ploegen-grondfrees__CARBU312653300-CARBU312904300-CARBU313604300__v18.webp"
       }
     ]
   },
   {
-    "group_id": "catalogus-aandrijftechniek-150922-toepassing-hooiharken-hooipersen",
+    "group_id": "catalogus-aandrijftechniek-150922-catalogus-aandrijftechniek-150922-toepassing-hooiharken-hooipersen",
     "name": "• Toepassing: hooiharken, hooipersen,",
-    "family": "toepassing-hooiharken-hooipersen",
+    "family": "catalogus-aandrijftechniek-150922__toepassing-hooiharken-hooipersen",
     "catalog": "catalogus-aandrijftechniek-150922",
+    "source_pdf": "catalogus-aandrijftechniek-150922.pdf",
     "brand": "Various",
     "category": "maaimachine, rooimachine, cirkelharken",
     "variants": [
       {
         "sku": "CARDW21001210",
         "label": "• Toepassing: hooiharken, hooipersen,",
+        "page": 54,
         "page_in_pdf": 54,
         "properties": {
           "type": "drive_component"
@@ -1930,6 +2081,7 @@
       {
         "sku": "CARDW21001210",
         "label": "• Toepassing: hooiharken, hooipersen,",
+        "page": 54,
         "page_in_pdf": 54,
         "properties": {
           "type": "drive_component"
@@ -1943,6 +2095,7 @@
       {
         "sku": "CARDW2400",
         "label": "• Toepassing: hooiharken, hooipersen,",
+        "page": 54,
         "page_in_pdf": 54,
         "properties": {
           "type": "drive_component"
@@ -1956,6 +2109,7 @@
       {
         "sku": "CARDW24000860",
         "label": "• Toepassing: hooiharken, hooipersen,",
+        "page": 54,
         "page_in_pdf": 54,
         "properties": {
           "type": "drive_component"
@@ -1969,6 +2123,7 @@
       {
         "sku": "CARDW24000860138134",
         "label": "• Toepassing: hooiharken, hooipersen,",
+        "page": 54,
         "page_in_pdf": 54,
         "properties": {
           "type": "drive_component"
@@ -1982,6 +2137,7 @@
       {
         "sku": "CARDW24001210",
         "label": "• Toepassing: hooiharken, hooipersen,",
+        "page": 54,
         "page_in_pdf": 54,
         "properties": {
           "type": "drive_component"
@@ -1995,6 +2151,7 @@
       {
         "sku": "CARDW25001210",
         "label": "• Toepassing: hooiharken, hooipersen,",
+        "page": 54,
         "page_in_pdf": 54,
         "properties": {
           "type": "drive_component"
@@ -2007,29 +2164,30 @@
       }
     ],
     "images": [
-      "images/catalogus-aandrijftechniek-150922/smeerinterval-8-uur__cardwwe24801210.webp",
-      "images/catalogus-aandrijftechniek-150922/catalogus-aandrijftechniek-150__p63__smeerinterval-8-uur__CARG5614440__v11.webp"
+      "images/catalogus-aandrijftechniek-150922/catalogus-aandrijftechniek-150__p54__toepassing-hooiharken-hooipersen__CARDW21001210-CARDW21001210-CARDW2400.webp"
     ],
     "variant_count": 7,
     "default_variant_sku": "CARDW21001210",
     "media": [
       {
         "role": "main",
-        "url": "images/catalogus-aandrijftechniek-150922/smeerinterval-8-uur__cardwwe24801210.webp"
+        "url": "images/catalogus-aandrijftechniek-150922/catalogus-aandrijftechniek-150__p54__toepassing-hooiharken-hooipersen__CARDW21001210-CARDW21001210-CARDW2400.webp"
       }
     ]
   },
   {
-    "group_id": "catalogus-aandrijftechniek-150922-smeerinterval-50-100-uur",
+    "group_id": "catalogus-aandrijftechniek-150922-catalogus-aandrijftechniek-150922-smeerinterval-50-100-uur",
     "name": "• Smeerinterval: 50-100 uur",
-    "family": "smeerinterval-50-100-uur",
+    "family": "catalogus-aandrijftechniek-150922__smeerinterval-50-100-uur",
     "catalog": "catalogus-aandrijftechniek-150922",
+    "source_pdf": "catalogus-aandrijftechniek-150922.pdf",
     "brand": "Various",
     "category": "mestpompen, lichte balenpersen",
     "variants": [
       {
         "sku": "CARDW2400B138",
         "label": "• Smeerinterval: 50-100 uur",
+        "page": 56,
         "page_in_pdf": 56,
         "properties": {
           "type": "drive_component"
@@ -2042,6 +2200,7 @@
       {
         "sku": "CARDW2400B138",
         "label": "• Smeerinterval: 50-100 uur",
+        "page": 56,
         "page_in_pdf": 56,
         "properties": {
           "type": "drive_component"
@@ -2054,6 +2213,7 @@
       {
         "sku": "CARDW2500B134",
         "label": "• Smeerinterval: 50-100 uur",
+        "page": 56,
         "page_in_pdf": 56,
         "properties": {
           "type": "drive_component"
@@ -2066,6 +2226,7 @@
       {
         "sku": "CARDW2500B138",
         "label": "• Smeerinterval: 50-100 uur",
+        "page": 56,
         "page_in_pdf": 56,
         "properties": {
           "type": "drive_component"
@@ -2077,29 +2238,30 @@
       }
     ],
     "images": [
-      "images/catalogus-aandrijftechniek-150922/smeerinterval-8-uur__cardwwe24801210.webp",
-      "images/catalogus-aandrijftechniek-150922/catalogus-aandrijftechniek-150__p63__smeerinterval-8-uur__CARG5614440__v11.webp"
+      "images/catalogus-aandrijftechniek-150922/catalogus-aandrijftechniek-150__p56__smeerinterval-50-100-uur__CARDW2400B138-CARDW2400B138-CARDW2500B134__v2.webp"
     ],
     "variant_count": 4,
     "default_variant_sku": "CARDW2400B138",
     "media": [
       {
         "role": "main",
-        "url": "images/catalogus-aandrijftechniek-150922/smeerinterval-8-uur__cardwwe24801210.webp"
+        "url": "images/catalogus-aandrijftechniek-150922/catalogus-aandrijftechniek-150__p56__smeerinterval-50-100-uur__CARDW2400B138-CARDW2400B138-CARDW2500B134__v2.webp"
       }
     ]
   },
   {
-    "group_id": "catalogus-aandrijftechniek-150922-smeerinterval-8-uur",
+    "group_id": "catalogus-aandrijftechniek-150922-catalogus-aandrijftechniek-150922-smeerinterval-8-uur",
     "name": "• Smeerinterval: 8 uur",
-    "family": "smeerinterval-8-uur",
+    "family": "catalogus-aandrijftechniek-150922__smeerinterval-8-uur",
     "catalog": "catalogus-aandrijftechniek-150922",
+    "source_pdf": "catalogus-aandrijftechniek-150922.pdf",
     "brand": "Various",
     "category": "vermengwagen, bemester, grootpakpers",
     "variants": [
       {
         "sku": "CARDWWE24801210",
         "label": "• Smeerinterval: 8 uur",
+        "page": 57,
         "page_in_pdf": 57,
         "properties": {
           "type": "drive_component"
@@ -2112,6 +2274,7 @@
       {
         "sku": "CARDWWE25801210",
         "label": "• Smeerinterval: 8 uur",
+        "page": 57,
         "page_in_pdf": 57,
         "properties": {
           "type": "drive_component"
@@ -2124,6 +2287,7 @@
       {
         "sku": "CARDWWZ24801210",
         "label": "• Smeerinterval: 8 uur",
+        "page": 60,
         "page_in_pdf": 60,
         "properties": {
           "type": "drive_component"
@@ -2136,6 +2300,7 @@
       {
         "sku": "CARG104800",
         "label": "• Smeerinterval: 8 uur",
+        "page": 62,
         "page_in_pdf": 62,
         "properties": {
           "type": "drive_component"
@@ -2148,6 +2313,7 @@
       {
         "sku": "CARG104900",
         "label": "• Smeerinterval: 8 uur",
+        "page": 62,
         "page_in_pdf": 62,
         "properties": {
           "type": "drive_component"
@@ -2160,6 +2326,7 @@
       {
         "sku": "CARG211000",
         "label": "• Smeerinterval: 8 uur",
+        "page": 61,
         "page_in_pdf": 61,
         "properties": {
           "type": "drive_component"
@@ -2172,6 +2339,7 @@
       {
         "sku": "CARG211200",
         "label": "• Smeerinterval: 8 uur",
+        "page": 62,
         "page_in_pdf": 62,
         "properties": {
           "type": "drive_component"
@@ -2184,6 +2352,7 @@
       {
         "sku": "CARG211200",
         "label": "• Smeerinterval: 8 uur",
+        "page": 62,
         "page_in_pdf": 62,
         "properties": {
           "type": "drive_component"
@@ -2196,6 +2365,7 @@
       {
         "sku": "CARG351000",
         "label": "• Smeerinterval: 8 uur",
+        "page": 61,
         "page_in_pdf": 61,
         "properties": {
           "type": "drive_component"
@@ -2208,6 +2378,7 @@
       {
         "sku": "CARG351010",
         "label": "• Smeerinterval: 8 uur",
+        "page": 61,
         "page_in_pdf": 61,
         "properties": {
           "type": "drive_component"
@@ -2220,6 +2391,7 @@
       {
         "sku": "CARG351400",
         "label": "• Smeerinterval: 8 uur",
+        "page": 62,
         "page_in_pdf": 62,
         "properties": {
           "type": "drive_component"
@@ -2232,6 +2404,7 @@
       {
         "sku": "CARG351400",
         "label": "• Smeerinterval: 8 uur",
+        "page": 62,
         "page_in_pdf": 62,
         "properties": {
           "type": "drive_component"
@@ -2244,6 +2417,7 @@
       {
         "sku": "CARG351410",
         "label": "• Smeerinterval: 8 uur",
+        "page": 62,
         "page_in_pdf": 62,
         "properties": {
           "type": "drive_component"
@@ -2256,6 +2430,7 @@
       {
         "sku": "CARG351802",
         "label": "• Smeerinterval: 8 uur",
+        "page": 61,
         "page_in_pdf": 61,
         "properties": {
           "type": "drive_component"
@@ -2268,6 +2443,7 @@
       {
         "sku": "CARG358310",
         "label": "• Smeerinterval: 8 uur",
+        "page": 61,
         "page_in_pdf": 61,
         "properties": {
           "type": "drive_component"
@@ -2280,6 +2456,7 @@
       {
         "sku": "CARG361000",
         "label": "• Smeerinterval: 8 uur",
+        "page": 61,
         "page_in_pdf": 61,
         "properties": {
           "type": "drive_component"
@@ -2292,6 +2469,7 @@
       {
         "sku": "CARG361410",
         "label": "• Smeerinterval: 8 uur",
+        "page": 62,
         "page_in_pdf": 62,
         "properties": {
           "type": "drive_component"
@@ -2304,6 +2482,7 @@
       {
         "sku": "CARG5614440",
         "label": "• Smeerinterval: 8 uur",
+        "page": 63,
         "page_in_pdf": 63,
         "properties": {
           "type": "drive_component"
@@ -2315,7 +2494,6 @@
       }
     ],
     "images": [
-      "images/catalogus-aandrijftechniek-150922/smeerinterval-8-uur__cardwwe24801210.webp",
       "images/catalogus-aandrijftechniek-150922/catalogus-aandrijftechniek-150__p63__smeerinterval-8-uur__CARG5614440__v11.webp"
     ],
     "variant_count": 18,
@@ -2323,21 +2501,23 @@
     "media": [
       {
         "role": "main",
-        "url": "images/catalogus-aandrijftechniek-150922/smeerinterval-8-uur__cardwwe24801210.webp"
+        "url": "images/catalogus-aandrijftechniek-150922/catalogus-aandrijftechniek-150__p63__smeerinterval-8-uur__CARG5614440__v11.webp"
       }
     ]
   },
   {
-    "group_id": "catalogus-aandrijftechniek-150922-elektrolytisch-verzinkt",
+    "group_id": "catalogus-aandrijftechniek-150922-catalogus-aandrijftechniek-150922-elektrolytisch-verzinkt",
     "name": "elektrolytisch verzinkt",
-    "family": "elektrolytisch-verzinkt",
+    "family": "catalogus-aandrijftechniek-150922__elektrolytisch-verzinkt",
     "catalog": "catalogus-aandrijftechniek-150922",
+    "source_pdf": "catalogus-aandrijftechniek-150922.pdf",
     "brand": "Various",
     "category": "landbouw",
     "variants": [
       {
         "sku": "RKKS55RH1712",
         "label": "elektrolytisch verzinkt",
+        "page": 52,
         "page_in_pdf": 52,
         "properties": {
           "type": "drive_component"
@@ -2350,6 +2530,7 @@
       {
         "sku": "RKKS55RH2511",
         "label": "elektrolytisch verzinkt",
+        "page": 52,
         "page_in_pdf": 52,
         "properties": {
           "type": "drive_component"
@@ -2362,6 +2543,7 @@
       {
         "sku": "RKKS55RH2512",
         "label": "elektrolytisch verzinkt",
+        "page": 52,
         "page_in_pdf": 52,
         "properties": {
           "type": "drive_component"
@@ -2373,29 +2555,30 @@
       }
     ],
     "images": [
-      "images/catalogus-aandrijftechniek-150922/elektrolytisch-verzinkt__rkks55rh1712.webp",
-      "images/catalogus-aandrijftechniek-150922/catalogus-aandrijftechniek-150__p52__elektrolytisch-verzinkt__RKKS55RH1712-RKKS55RH2511-RKKS55RH2512__v1.webp"
+      "images/catalogus-aandrijftechniek-150922/catalogus-aandrijftechniek-150__p52__elektrolytisch-verzinkt__RKKS55RH1712-RKKS55RH2511-RKKS55RH2512__v4.webp"
     ],
     "variant_count": 3,
     "default_variant_sku": "RKKS55RH1712",
     "media": [
       {
         "role": "main",
-        "url": "images/catalogus-aandrijftechniek-150922/elektrolytisch-verzinkt__rkks55rh1712.webp"
+        "url": "images/catalogus-aandrijftechniek-150922/catalogus-aandrijftechniek-150__p52__elektrolytisch-verzinkt__RKKS55RH1712-RKKS55RH2511-RKKS55RH2512__v4.webp"
       }
     ]
   },
   {
-    "group_id": "catalogus-aandrijftechniek-150922-materiaal-lagerblok-plaatstaal",
+    "group_id": "catalogus-aandrijftechniek-150922-catalogus-aandrijftechniek-150922-materiaal-lagerblok-plaatstaal",
     "name": "• Materiaal lagerblok: plaatstaal",
-    "family": "materiaal-lagerblok-plaatstaal",
+    "family": "catalogus-aandrijftechniek-150922__materiaal-lagerblok-plaatstaal",
     "catalog": "catalogus-aandrijftechniek-150922",
+    "source_pdf": "catalogus-aandrijftechniek-150922.pdf",
     "brand": "Various",
     "category": "• Asbevestiging: met stelschroeven",
     "variants": [
       {
         "sku": "RLASPF202",
         "label": "• Materiaal lagerblok: plaatstaal",
+        "page": 19,
         "page_in_pdf": 19,
         "properties": {
           "type": "drive_component"
@@ -2410,6 +2593,7 @@
       {
         "sku": "RLASPF204",
         "label": "• Materiaal lagerblok: plaatstaal",
+        "page": 19,
         "page_in_pdf": 19,
         "properties": {
           "type": "drive_component"
@@ -2424,6 +2608,7 @@
       {
         "sku": "RLASPF205",
         "label": "• Materiaal lagerblok: plaatstaal",
+        "page": 19,
         "page_in_pdf": 19,
         "properties": {
           "type": "drive_component"
@@ -2438,6 +2623,7 @@
       {
         "sku": "RLASPF206",
         "label": "• Materiaal lagerblok: plaatstaal",
+        "page": 19,
         "page_in_pdf": 19,
         "properties": {
           "type": "drive_component"
@@ -2452,6 +2638,7 @@
       {
         "sku": "RLASPF207",
         "label": "• Materiaal lagerblok: plaatstaal",
+        "page": 19,
         "page_in_pdf": 19,
         "properties": {
           "type": "drive_component"
@@ -2466,6 +2653,7 @@
       {
         "sku": "RLASPF208",
         "label": "• Materiaal lagerblok: plaatstaal",
+        "page": 19,
         "page_in_pdf": 19,
         "properties": {
           "type": "drive_component"
@@ -2480,6 +2668,7 @@
       {
         "sku": "RLASPF209",
         "label": "• Materiaal lagerblok: plaatstaal",
+        "page": 19,
         "page_in_pdf": 19,
         "properties": {
           "type": "drive_component"
@@ -2494,6 +2683,7 @@
       {
         "sku": "RLASPP204",
         "label": "• Materiaal lagerblok: plaatstaal",
+        "page": 18,
         "page_in_pdf": 18,
         "properties": {
           "type": "drive_component"
@@ -2508,6 +2698,7 @@
       {
         "sku": "RLASPP205",
         "label": "• Materiaal lagerblok: plaatstaal",
+        "page": 18,
         "page_in_pdf": 18,
         "properties": {
           "type": "drive_component"
@@ -2522,6 +2713,7 @@
       {
         "sku": "RLASPP206",
         "label": "• Materiaal lagerblok: plaatstaal",
+        "page": 18,
         "page_in_pdf": 18,
         "properties": {
           "type": "drive_component"
@@ -2536,6 +2728,7 @@
       {
         "sku": "RLASPP207",
         "label": "• Materiaal lagerblok: plaatstaal",
+        "page": 18,
         "page_in_pdf": 18,
         "properties": {
           "type": "drive_component"
@@ -2549,30 +2742,30 @@
       }
     ],
     "images": [
-      "images/catalogus-aandrijftechniek-150922/materiaal-lagerblok-plaatstaal__rlaspp204.webp",
-      "images/catalogus-aandrijftechniek-150922/materiaal-lagerblok-gietijzer__rlfucp204.webp",
-      "images/catalogus-aandrijftechniek-150922/catalogus-aandrijftechniek-150__p18__materiaal-lagerblok-plaatstaal__RLASPP204-RLASPP205-RLASPP206.webp"
+      "images/catalogus-aandrijftechniek-150922/catalogus-aandrijftechniek-150__p19__materiaal-lagerblok-plaatstaal__RLASPF202-RLASPF204-RLASPF205__v2.webp"
     ],
     "variant_count": 11,
     "default_variant_sku": "RLASPF202",
     "media": [
       {
         "role": "main",
-        "url": "images/catalogus-aandrijftechniek-150922/materiaal-lagerblok-plaatstaal__rlaspp204.webp"
+        "url": "images/catalogus-aandrijftechniek-150922/catalogus-aandrijftechniek-150__p19__materiaal-lagerblok-plaatstaal__RLASPF202-RLASPF204-RLASPF205__v2.webp"
       }
     ]
   },
   {
-    "group_id": "catalogus-aandrijftechniek-150922-temperatuurbereik-20-tot-100-c",
+    "group_id": "catalogus-aandrijftechniek-150922-catalogus-aandrijftechniek-150922-temperatuurbereik-20-tot-100-c",
     "name": "• Temperatuurbereik: -20° tot +100°C",
-    "family": "temperatuurbereik-20-tot-100-c",
+    "family": "catalogus-aandrijftechniek-150922__temperatuurbereik-20-tot-100-c",
     "catalog": "catalogus-aandrijftechniek-150922",
+    "source_pdf": "catalogus-aandrijftechniek-150922.pdf",
     "brand": "Various",
     "category": "• Asbevestiging: met stelschroeven",
     "variants": [
       {
         "sku": "RLASPFL204",
         "label": "• Temperatuurbereik: -20° tot +100°C",
+        "page": 19,
         "page_in_pdf": 19,
         "properties": {
           "type": "drive_component"
@@ -2587,6 +2780,7 @@
       {
         "sku": "RLASPFL205",
         "label": "• Temperatuurbereik: -20° tot +100°C",
+        "page": 19,
         "page_in_pdf": 19,
         "properties": {
           "type": "drive_component"
@@ -2601,6 +2795,7 @@
       {
         "sku": "RLASPFL206",
         "label": "• Temperatuurbereik: -20° tot +100°C",
+        "page": 19,
         "page_in_pdf": 19,
         "properties": {
           "type": "drive_component"
@@ -2615,6 +2810,7 @@
       {
         "sku": "RLASPFL207",
         "label": "• Temperatuurbereik: -20° tot +100°C",
+        "page": 19,
         "page_in_pdf": 19,
         "properties": {
           "type": "drive_component"
@@ -2629,6 +2825,7 @@
       {
         "sku": "RLASPFL208",
         "label": "• Temperatuurbereik: -20° tot +100°C",
+        "page": 19,
         "page_in_pdf": 19,
         "properties": {
           "type": "drive_component"
@@ -2643,6 +2840,7 @@
       {
         "sku": "RLNUCFA205",
         "label": "• Temperatuurbereik: -20° tot +100°C",
+        "page": 17,
         "page_in_pdf": 17,
         "properties": {
           "type": "drive_component"
@@ -2657,6 +2855,7 @@
       {
         "sku": "RLNUCFA207",
         "label": "• Temperatuurbereik: -20° tot +100°C",
+        "page": 17,
         "page_in_pdf": 17,
         "properties": {
           "type": "drive_component"
@@ -2670,30 +2869,30 @@
       }
     ],
     "images": [
-      "images/catalogus-aandrijftechniek-150922/materiaal-lagerblok-gietijzer__rlfucp204.webp",
-      "images/catalogus-aandrijftechniek-150922/temperatuurbereik-20-tot-100-c__rlaspfl204__img3.webp",
-      "images/catalogus-aandrijftechniek-150922/catalogus-aandrijftechniek-150__p17__temperatuurbereik-20-tot-100-c__RLNUCFA205-RLNUCFA207__v1.webp"
+      "images/catalogus-aandrijftechniek-150922/catalogus-aandrijftechniek-150__p19__temperatuurbereik-20-tot-100-c__RLASPFL204-RLASPFL205-RLASPFL206__v2.webp"
     ],
     "variant_count": 7,
     "default_variant_sku": "RLASPFL204",
     "media": [
       {
         "role": "main",
-        "url": "images/catalogus-aandrijftechniek-150922/materiaal-lagerblok-gietijzer__rlfucp204.webp"
+        "url": "images/catalogus-aandrijftechniek-150922/catalogus-aandrijftechniek-150__p19__temperatuurbereik-20-tot-100-c__RLASPFL204-RLASPFL205-RLASPFL206__v2.webp"
       }
     ]
   },
   {
-    "group_id": "catalogus-aandrijftechniek-150922-materiaal-lagerblok-gietijzer",
+    "group_id": "catalogus-aandrijftechniek-150922-catalogus-aandrijftechniek-150922-materiaal-lagerblok-gietijzer",
     "name": "• Materiaal lagerblok: gietijzer",
-    "family": "materiaal-lagerblok-gietijzer",
+    "family": "catalogus-aandrijftechniek-150922__materiaal-lagerblok-gietijzer",
     "catalog": "catalogus-aandrijftechniek-150922",
+    "source_pdf": "catalogus-aandrijftechniek-150922.pdf",
     "brand": "Various",
     "category": "• Temperatuurbereik: -20° tot +100°C",
     "variants": [
       {
         "sku": "RLFUCF205",
         "label": "• Materiaal lagerblok: gietijzer",
+        "page": 15,
         "page_in_pdf": 15,
         "properties": {
           "type": "drive_component"
@@ -2707,6 +2906,7 @@
       {
         "sku": "RLFUCF206",
         "label": "• Materiaal lagerblok: gietijzer",
+        "page": 15,
         "page_in_pdf": 15,
         "properties": {
           "type": "drive_component"
@@ -2720,6 +2920,7 @@
       {
         "sku": "RLFUCF207",
         "label": "• Materiaal lagerblok: gietijzer",
+        "page": 15,
         "page_in_pdf": 15,
         "properties": {
           "type": "drive_component"
@@ -2733,6 +2934,7 @@
       {
         "sku": "RLFUCF208",
         "label": "• Materiaal lagerblok: gietijzer",
+        "page": 15,
         "page_in_pdf": 15,
         "properties": {
           "type": "drive_component"
@@ -2746,6 +2948,7 @@
       {
         "sku": "RLFUCF209",
         "label": "• Materiaal lagerblok: gietijzer",
+        "page": 15,
         "page_in_pdf": 15,
         "properties": {
           "type": "drive_component"
@@ -2759,6 +2962,7 @@
       {
         "sku": "RLFUCF210",
         "label": "• Materiaal lagerblok: gietijzer",
+        "page": 15,
         "page_in_pdf": 15,
         "properties": {
           "type": "drive_component"
@@ -2772,6 +2976,7 @@
       {
         "sku": "RLFUCF211",
         "label": "• Materiaal lagerblok: gietijzer",
+        "page": 15,
         "page_in_pdf": 15,
         "properties": {
           "type": "drive_component"
@@ -2785,6 +2990,7 @@
       {
         "sku": "RLFUCF212",
         "label": "• Materiaal lagerblok: gietijzer",
+        "page": 15,
         "page_in_pdf": 15,
         "properties": {
           "type": "drive_component"
@@ -2798,6 +3004,7 @@
       {
         "sku": "RLFUCFL204",
         "label": "• Materiaal lagerblok: gietijzer",
+        "page": 17,
         "page_in_pdf": 17,
         "properties": {
           "type": "drive_component"
@@ -2812,6 +3019,7 @@
       {
         "sku": "RLFUCFL205",
         "label": "• Materiaal lagerblok: gietijzer",
+        "page": 17,
         "page_in_pdf": 17,
         "properties": {
           "type": "drive_component"
@@ -2826,6 +3034,7 @@
       {
         "sku": "RLFUCFL206",
         "label": "• Materiaal lagerblok: gietijzer",
+        "page": 17,
         "page_in_pdf": 17,
         "properties": {
           "type": "drive_component"
@@ -2840,6 +3049,7 @@
       {
         "sku": "RLFUCFL207",
         "label": "• Materiaal lagerblok: gietijzer",
+        "page": 17,
         "page_in_pdf": 17,
         "properties": {
           "type": "drive_component"
@@ -2854,6 +3064,7 @@
       {
         "sku": "RLFUCFL208",
         "label": "• Materiaal lagerblok: gietijzer",
+        "page": 17,
         "page_in_pdf": 17,
         "properties": {
           "type": "drive_component"
@@ -2868,6 +3079,7 @@
       {
         "sku": "RLFUCFL209",
         "label": "• Materiaal lagerblok: gietijzer",
+        "page": 17,
         "page_in_pdf": 17,
         "properties": {
           "type": "drive_component"
@@ -2882,6 +3094,7 @@
       {
         "sku": "RLFUCFL210",
         "label": "• Materiaal lagerblok: gietijzer",
+        "page": 17,
         "page_in_pdf": 17,
         "properties": {
           "type": "drive_component"
@@ -2896,6 +3109,7 @@
       {
         "sku": "RLFUCFL211",
         "label": "• Materiaal lagerblok: gietijzer",
+        "page": 17,
         "page_in_pdf": 17,
         "properties": {
           "type": "drive_component"
@@ -2910,6 +3124,7 @@
       {
         "sku": "RLFUCFL212",
         "label": "• Materiaal lagerblok: gietijzer",
+        "page": 17,
         "page_in_pdf": 17,
         "properties": {
           "type": "drive_component"
@@ -2924,6 +3139,7 @@
       {
         "sku": "RLFUCP204",
         "label": "• Materiaal lagerblok: gietijzer",
+        "page": 12,
         "page_in_pdf": 12,
         "properties": {
           "type": "drive_component"
@@ -2938,6 +3154,7 @@
       {
         "sku": "RLFUCP205",
         "label": "• Materiaal lagerblok: gietijzer",
+        "page": 12,
         "page_in_pdf": 12,
         "properties": {
           "type": "drive_component"
@@ -2952,6 +3169,7 @@
       {
         "sku": "RLFUCP206",
         "label": "• Materiaal lagerblok: gietijzer",
+        "page": 12,
         "page_in_pdf": 12,
         "properties": {
           "type": "drive_component"
@@ -2966,6 +3184,7 @@
       {
         "sku": "RLFUCP207",
         "label": "• Materiaal lagerblok: gietijzer",
+        "page": 12,
         "page_in_pdf": 12,
         "properties": {
           "type": "drive_component"
@@ -2980,6 +3199,7 @@
       {
         "sku": "RLFUCP208",
         "label": "• Materiaal lagerblok: gietijzer",
+        "page": 12,
         "page_in_pdf": 12,
         "properties": {
           "type": "drive_component"
@@ -2994,6 +3214,7 @@
       {
         "sku": "RLFUCP209",
         "label": "• Materiaal lagerblok: gietijzer",
+        "page": 12,
         "page_in_pdf": 12,
         "properties": {
           "type": "drive_component"
@@ -3008,6 +3229,7 @@
       {
         "sku": "RLFUCP210",
         "label": "• Materiaal lagerblok: gietijzer",
+        "page": 12,
         "page_in_pdf": 12,
         "properties": {
           "type": "drive_component"
@@ -3022,6 +3244,7 @@
       {
         "sku": "RLFUCP211",
         "label": "• Materiaal lagerblok: gietijzer",
+        "page": 12,
         "page_in_pdf": 12,
         "properties": {
           "type": "drive_component"
@@ -3036,6 +3259,7 @@
       {
         "sku": "RLFUCP212",
         "label": "• Materiaal lagerblok: gietijzer",
+        "page": 12,
         "page_in_pdf": 12,
         "properties": {
           "type": "drive_component"
@@ -3050,6 +3274,7 @@
       {
         "sku": "RLFUCPW204",
         "label": "• Materiaal lagerblok: gietijzer",
+        "page": 13,
         "page_in_pdf": 13,
         "properties": {
           "type": "drive_component"
@@ -3064,6 +3289,7 @@
       {
         "sku": "RLFUCPW205",
         "label": "• Materiaal lagerblok: gietijzer",
+        "page": 13,
         "page_in_pdf": 13,
         "properties": {
           "type": "drive_component"
@@ -3078,6 +3304,7 @@
       {
         "sku": "RLFUCPW206",
         "label": "• Materiaal lagerblok: gietijzer",
+        "page": 13,
         "page_in_pdf": 13,
         "properties": {
           "type": "drive_component"
@@ -3092,6 +3319,7 @@
       {
         "sku": "RLFUCPW207",
         "label": "• Materiaal lagerblok: gietijzer",
+        "page": 13,
         "page_in_pdf": 13,
         "properties": {
           "type": "drive_component"
@@ -3106,6 +3334,7 @@
       {
         "sku": "RLFUCPW208",
         "label": "• Materiaal lagerblok: gietijzer",
+        "page": 13,
         "page_in_pdf": 13,
         "properties": {
           "type": "drive_component"
@@ -3120,6 +3349,7 @@
       {
         "sku": "RLNUCF205",
         "label": "• Materiaal lagerblok: gietijzer",
+        "page": 14,
         "page_in_pdf": 14,
         "properties": {
           "type": "drive_component"
@@ -3133,6 +3363,7 @@
       {
         "sku": "RLNUCF206",
         "label": "• Materiaal lagerblok: gietijzer",
+        "page": 14,
         "page_in_pdf": 14,
         "properties": {
           "type": "drive_component"
@@ -3146,6 +3377,7 @@
       {
         "sku": "RLNUCF207",
         "label": "• Materiaal lagerblok: gietijzer",
+        "page": 14,
         "page_in_pdf": 14,
         "properties": {
           "type": "drive_component"
@@ -3159,6 +3391,7 @@
       {
         "sku": "RLNUCF208",
         "label": "• Materiaal lagerblok: gietijzer",
+        "page": 14,
         "page_in_pdf": 14,
         "properties": {
           "type": "drive_component"
@@ -3172,6 +3405,7 @@
       {
         "sku": "RLNUCF209",
         "label": "• Materiaal lagerblok: gietijzer",
+        "page": 14,
         "page_in_pdf": 14,
         "properties": {
           "type": "drive_component"
@@ -3185,6 +3419,7 @@
       {
         "sku": "RLNUCF210",
         "label": "• Materiaal lagerblok: gietijzer",
+        "page": 14,
         "page_in_pdf": 14,
         "properties": {
           "type": "drive_component"
@@ -3198,6 +3433,7 @@
       {
         "sku": "RLNUCF211",
         "label": "• Materiaal lagerblok: gietijzer",
+        "page": 14,
         "page_in_pdf": 14,
         "properties": {
           "type": "drive_component"
@@ -3211,6 +3447,7 @@
       {
         "sku": "RLNUCF212",
         "label": "• Materiaal lagerblok: gietijzer",
+        "page": 14,
         "page_in_pdf": 14,
         "properties": {
           "type": "drive_component"
@@ -3224,6 +3461,7 @@
       {
         "sku": "RLNUCF213",
         "label": "• Materiaal lagerblok: gietijzer",
+        "page": 14,
         "page_in_pdf": 14,
         "properties": {
           "type": "drive_component"
@@ -3237,6 +3475,7 @@
       {
         "sku": "RLNUCF214",
         "label": "• Materiaal lagerblok: gietijzer",
+        "page": 14,
         "page_in_pdf": 14,
         "properties": {
           "type": "drive_component"
@@ -3250,6 +3489,7 @@
       {
         "sku": "RLNUCF216",
         "label": "• Materiaal lagerblok: gietijzer",
+        "page": 14,
         "page_in_pdf": 14,
         "properties": {
           "type": "drive_component"
@@ -3263,6 +3503,7 @@
       {
         "sku": "RLNUCF309",
         "label": "• Materiaal lagerblok: gietijzer",
+        "page": 14,
         "page_in_pdf": 14,
         "properties": {
           "type": "drive_component"
@@ -3276,6 +3517,7 @@
       {
         "sku": "RLNUCFC205",
         "label": "• Materiaal lagerblok: gietijzer",
+        "page": 15,
         "page_in_pdf": 15,
         "properties": {
           "type": "drive_component"
@@ -3290,6 +3532,7 @@
       {
         "sku": "RLNUCFC206",
         "label": "• Materiaal lagerblok: gietijzer",
+        "page": 15,
         "page_in_pdf": 15,
         "properties": {
           "type": "drive_component"
@@ -3304,6 +3547,7 @@
       {
         "sku": "RLNUCFC207",
         "label": "• Materiaal lagerblok: gietijzer",
+        "page": 15,
         "page_in_pdf": 15,
         "properties": {
           "type": "drive_component"
@@ -3318,6 +3562,7 @@
       {
         "sku": "RLNUCFC208",
         "label": "• Materiaal lagerblok: gietijzer",
+        "page": 15,
         "page_in_pdf": 15,
         "properties": {
           "type": "drive_component"
@@ -3332,6 +3577,7 @@
       {
         "sku": "RLNUCFC209",
         "label": "• Materiaal lagerblok: gietijzer",
+        "page": 15,
         "page_in_pdf": 15,
         "properties": {
           "type": "drive_component"
@@ -3346,6 +3592,7 @@
       {
         "sku": "RLNUCFC210",
         "label": "• Materiaal lagerblok: gietijzer",
+        "page": 15,
         "page_in_pdf": 15,
         "properties": {
           "type": "drive_component"
@@ -3360,6 +3607,7 @@
       {
         "sku": "RLNUCFC211",
         "label": "• Materiaal lagerblok: gietijzer",
+        "page": 15,
         "page_in_pdf": 15,
         "properties": {
           "type": "drive_component"
@@ -3374,6 +3622,7 @@
       {
         "sku": "RLNUCFC212",
         "label": "• Materiaal lagerblok: gietijzer",
+        "page": 15,
         "page_in_pdf": 15,
         "properties": {
           "type": "drive_component"
@@ -3388,6 +3637,7 @@
       {
         "sku": "RLNUCFC214",
         "label": "• Materiaal lagerblok: gietijzer",
+        "page": 15,
         "page_in_pdf": 15,
         "properties": {
           "type": "drive_component"
@@ -3402,6 +3652,7 @@
       {
         "sku": "RLNUCFL204",
         "label": "• Materiaal lagerblok: gietijzer",
+        "page": 16,
         "page_in_pdf": 16,
         "properties": {
           "type": "drive_component"
@@ -3416,6 +3667,7 @@
       {
         "sku": "RLNUCFL205",
         "label": "• Materiaal lagerblok: gietijzer",
+        "page": 16,
         "page_in_pdf": 16,
         "properties": {
           "type": "drive_component"
@@ -3430,6 +3682,7 @@
       {
         "sku": "RLNUCFL206",
         "label": "• Materiaal lagerblok: gietijzer",
+        "page": 16,
         "page_in_pdf": 16,
         "properties": {
           "type": "drive_component"
@@ -3444,6 +3697,7 @@
       {
         "sku": "RLNUCFL207",
         "label": "• Materiaal lagerblok: gietijzer",
+        "page": 16,
         "page_in_pdf": 16,
         "properties": {
           "type": "drive_component"
@@ -3458,6 +3712,7 @@
       {
         "sku": "RLNUCFL208",
         "label": "• Materiaal lagerblok: gietijzer",
+        "page": 16,
         "page_in_pdf": 16,
         "properties": {
           "type": "drive_component"
@@ -3472,6 +3727,7 @@
       {
         "sku": "RLNUCFL209",
         "label": "• Materiaal lagerblok: gietijzer",
+        "page": 16,
         "page_in_pdf": 16,
         "properties": {
           "type": "drive_component"
@@ -3486,6 +3742,7 @@
       {
         "sku": "RLNUCFL210",
         "label": "• Materiaal lagerblok: gietijzer",
+        "page": 16,
         "page_in_pdf": 16,
         "properties": {
           "type": "drive_component"
@@ -3500,6 +3757,7 @@
       {
         "sku": "RLNUCFL211",
         "label": "• Materiaal lagerblok: gietijzer",
+        "page": 16,
         "page_in_pdf": 16,
         "properties": {
           "type": "drive_component"
@@ -3514,6 +3772,7 @@
       {
         "sku": "RLNUCFL212",
         "label": "• Materiaal lagerblok: gietijzer",
+        "page": 16,
         "page_in_pdf": 16,
         "properties": {
           "type": "drive_component"
@@ -3528,6 +3787,7 @@
       {
         "sku": "RLNUCFL307",
         "label": "• Materiaal lagerblok: gietijzer",
+        "page": 16,
         "page_in_pdf": 16,
         "properties": {
           "type": "drive_component"
@@ -3542,6 +3802,7 @@
       {
         "sku": "RLNUCP204",
         "label": "• Materiaal lagerblok: gietijzer",
+        "page": 12,
         "page_in_pdf": 12,
         "properties": {
           "type": "drive_component"
@@ -3556,6 +3817,7 @@
       {
         "sku": "RLNUCP205",
         "label": "• Materiaal lagerblok: gietijzer",
+        "page": 12,
         "page_in_pdf": 12,
         "properties": {
           "type": "drive_component"
@@ -3570,6 +3832,7 @@
       {
         "sku": "RLNUCP206",
         "label": "• Materiaal lagerblok: gietijzer",
+        "page": 12,
         "page_in_pdf": 12,
         "properties": {
           "type": "drive_component"
@@ -3584,6 +3847,7 @@
       {
         "sku": "RLNUCP207",
         "label": "• Materiaal lagerblok: gietijzer",
+        "page": 12,
         "page_in_pdf": 12,
         "properties": {
           "type": "drive_component"
@@ -3598,6 +3862,7 @@
       {
         "sku": "RLNUCP208",
         "label": "• Materiaal lagerblok: gietijzer",
+        "page": 12,
         "page_in_pdf": 12,
         "properties": {
           "type": "drive_component"
@@ -3612,6 +3877,7 @@
       {
         "sku": "RLNUCP209",
         "label": "• Materiaal lagerblok: gietijzer",
+        "page": 12,
         "page_in_pdf": 12,
         "properties": {
           "type": "drive_component"
@@ -3626,6 +3892,7 @@
       {
         "sku": "RLNUCP210",
         "label": "• Materiaal lagerblok: gietijzer",
+        "page": 12,
         "page_in_pdf": 12,
         "properties": {
           "type": "drive_component"
@@ -3640,6 +3907,7 @@
       {
         "sku": "RLNUCP211",
         "label": "• Materiaal lagerblok: gietijzer",
+        "page": 12,
         "page_in_pdf": 12,
         "properties": {
           "type": "drive_component"
@@ -3654,6 +3922,7 @@
       {
         "sku": "RLNUCP212",
         "label": "• Materiaal lagerblok: gietijzer",
+        "page": 12,
         "page_in_pdf": 12,
         "properties": {
           "type": "drive_component"
@@ -3668,6 +3937,7 @@
       {
         "sku": "RLNUCP214",
         "label": "• Materiaal lagerblok: gietijzer",
+        "page": 12,
         "page_in_pdf": 12,
         "properties": {
           "type": "drive_component"
@@ -3682,6 +3952,7 @@
       {
         "sku": "RLNUCP311",
         "label": "• Materiaal lagerblok: gietijzer",
+        "page": 12,
         "page_in_pdf": 12,
         "properties": {
           "type": "drive_component"
@@ -3696,6 +3967,7 @@
       {
         "sku": "RLNUCPW204",
         "label": "• Materiaal lagerblok: gietijzer",
+        "page": 13,
         "page_in_pdf": 13,
         "properties": {
           "type": "drive_component"
@@ -3710,6 +3982,7 @@
       {
         "sku": "RLNUCPW205",
         "label": "• Materiaal lagerblok: gietijzer",
+        "page": 13,
         "page_in_pdf": 13,
         "properties": {
           "type": "drive_component"
@@ -3724,6 +3997,7 @@
       {
         "sku": "RLNUCPW206",
         "label": "• Materiaal lagerblok: gietijzer",
+        "page": 13,
         "page_in_pdf": 13,
         "properties": {
           "type": "drive_component"
@@ -3738,6 +4012,7 @@
       {
         "sku": "RLNUCPW207",
         "label": "• Materiaal lagerblok: gietijzer",
+        "page": 13,
         "page_in_pdf": 13,
         "properties": {
           "type": "drive_component"
@@ -3752,6 +4027,7 @@
       {
         "sku": "RLNUCPW208",
         "label": "• Materiaal lagerblok: gietijzer",
+        "page": 13,
         "page_in_pdf": 13,
         "properties": {
           "type": "drive_component"
@@ -3766,6 +4042,7 @@
       {
         "sku": "RLNUCPW209",
         "label": "• Materiaal lagerblok: gietijzer",
+        "page": 13,
         "page_in_pdf": 13,
         "properties": {
           "type": "drive_component"
@@ -3780,6 +4057,7 @@
       {
         "sku": "RLNUCPW210",
         "label": "• Materiaal lagerblok: gietijzer",
+        "page": 13,
         "page_in_pdf": 13,
         "properties": {
           "type": "drive_component"
@@ -3794,6 +4072,7 @@
       {
         "sku": "RLNUCT204",
         "label": "• Materiaal lagerblok: gietijzer",
+        "page": 18,
         "page_in_pdf": 18,
         "properties": {
           "type": "drive_component"
@@ -3808,6 +4087,7 @@
       {
         "sku": "RLNUCT205",
         "label": "• Materiaal lagerblok: gietijzer",
+        "page": 18,
         "page_in_pdf": 18,
         "properties": {
           "type": "drive_component"
@@ -3822,6 +4102,7 @@
       {
         "sku": "RLNUCT206",
         "label": "• Materiaal lagerblok: gietijzer",
+        "page": 18,
         "page_in_pdf": 18,
         "properties": {
           "type": "drive_component"
@@ -3836,6 +4117,7 @@
       {
         "sku": "RLNUCT207",
         "label": "• Materiaal lagerblok: gietijzer",
+        "page": 18,
         "page_in_pdf": 18,
         "properties": {
           "type": "drive_component"
@@ -3850,6 +4132,7 @@
       {
         "sku": "RLNUCT208",
         "label": "• Materiaal lagerblok: gietijzer",
+        "page": 18,
         "page_in_pdf": 18,
         "properties": {
           "type": "drive_component"
@@ -3864,6 +4147,7 @@
       {
         "sku": "RLNUCT209",
         "label": "• Materiaal lagerblok: gietijzer",
+        "page": 18,
         "page_in_pdf": 18,
         "properties": {
           "type": "drive_component"
@@ -3878,6 +4162,7 @@
       {
         "sku": "RLNUCT210",
         "label": "• Materiaal lagerblok: gietijzer",
+        "page": 18,
         "page_in_pdf": 18,
         "properties": {
           "type": "drive_component"
@@ -3892,6 +4177,7 @@
       {
         "sku": "RLNUKF211",
         "label": "• Materiaal lagerblok: gietijzer",
+        "page": 14,
         "page_in_pdf": 14,
         "properties": {
           "type": "drive_component"
@@ -3905,6 +4191,7 @@
       {
         "sku": "RLNUKF213",
         "label": "• Materiaal lagerblok: gietijzer",
+        "page": 14,
         "page_in_pdf": 14,
         "properties": {
           "type": "drive_component"
@@ -3918,6 +4205,7 @@
       {
         "sku": "RLNUKF312",
         "label": "• Materiaal lagerblok: gietijzer",
+        "page": 14,
         "page_in_pdf": 14,
         "properties": {
           "type": "drive_component"
@@ -3931,6 +4219,7 @@
       {
         "sku": "RLSUCF306",
         "label": "• Materiaal lagerblok: gietijzer",
+        "page": 14,
         "page_in_pdf": 14,
         "properties": {
           "type": "drive_component"
@@ -3944,6 +4233,7 @@
       {
         "sku": "RLSUCF310",
         "label": "• Materiaal lagerblok: gietijzer",
+        "page": 14,
         "page_in_pdf": 14,
         "properties": {
           "type": "drive_component"
@@ -3957,6 +4247,7 @@
       {
         "sku": "RLSUCPAE208",
         "label": "• Materiaal lagerblok: gietijzer",
+        "page": 13,
         "page_in_pdf": 13,
         "properties": {
           "type": "drive_component"
@@ -3970,31 +4261,30 @@
       }
     ],
     "images": [
-      "images/catalogus-aandrijftechniek-150922/buitenring-zonder-groef-of-flens__rln6001.webp",
-      "images/catalogus-aandrijftechniek-150922/materiaal-lagerblok-gietijzer__rlfucp204.webp",
-      "images/catalogus-aandrijftechniek-150922/catalogus-aandrijftechniek-150__p15__materiaal-lagerblok-gietijzer.webp",
-      "images/catalogus-aandrijftechniek-150922/catalogus-aandrijftechniek-150__p17__temperatuurbereik-20-tot-100-c__RLNUCFA205-RLNUCFA207__v1.webp"
+      "images/catalogus-aandrijftechniek-150922/catalogus-aandrijftechniek-150__p18__materiaal-lagerblok-gietijzer__RLNUCT204-RLNUCT205-RLNUCT206__v15.webp"
     ],
     "variant_count": 93,
     "default_variant_sku": "RLFUCF205",
     "media": [
       {
         "role": "main",
-        "url": "images/catalogus-aandrijftechniek-150922/buitenring-zonder-groef-of-flens__rln6001.webp"
+        "url": "images/catalogus-aandrijftechniek-150922/catalogus-aandrijftechniek-150__p18__materiaal-lagerblok-gietijzer__RLNUCT204-RLNUCT205-RLNUCT206__v15.webp"
       }
     ]
   },
   {
-    "group_id": "catalogus-aandrijftechniek-150922-buitenring-zonder-groef-of-flens",
+    "group_id": "catalogus-aandrijftechniek-150922-catalogus-aandrijftechniek-150922-buitenring-zonder-groef-of-flens",
     "name": "• Buitenring: zonder groef of flens",
-    "family": "buitenring-zonder-groef-of-flens",
+    "family": "catalogus-aandrijftechniek-150922__buitenring-zonder-groef-of-flens",
     "catalog": "catalogus-aandrijftechniek-150922",
+    "source_pdf": "catalogus-aandrijftechniek-150922.pdf",
     "brand": "Various",
     "category": "• Temperatuurbereik: -40° tot +120°C",
     "variants": [
       {
         "sku": "RLN30202",
         "label": "• Buitenring: zonder groef of flens",
+        "page": 37,
         "page_in_pdf": 37,
         "properties": {
           "type": "drive_component"
@@ -4009,6 +4299,7 @@
       {
         "sku": "RLN30204",
         "label": "• Buitenring: zonder groef of flens",
+        "page": 37,
         "page_in_pdf": 37,
         "properties": {
           "type": "drive_component"
@@ -4023,6 +4314,7 @@
       {
         "sku": "RLN30204",
         "label": "• Buitenring: zonder groef of flens",
+        "page": 37,
         "page_in_pdf": 37,
         "properties": {
           "type": "drive_component"
@@ -4037,6 +4329,7 @@
       {
         "sku": "RLN30206",
         "label": "• Buitenring: zonder groef of flens",
+        "page": 37,
         "page_in_pdf": 37,
         "properties": {
           "type": "drive_component"
@@ -4051,6 +4344,7 @@
       {
         "sku": "RLN30206",
         "label": "• Buitenring: zonder groef of flens",
+        "page": 37,
         "page_in_pdf": 37,
         "properties": {
           "type": "drive_component"
@@ -4065,6 +4359,7 @@
       {
         "sku": "RLN30207",
         "label": "• Buitenring: zonder groef of flens",
+        "page": 37,
         "page_in_pdf": 37,
         "properties": {
           "type": "drive_component"
@@ -4079,6 +4374,7 @@
       {
         "sku": "RLN30208",
         "label": "• Buitenring: zonder groef of flens",
+        "page": 37,
         "page_in_pdf": 37,
         "properties": {
           "type": "drive_component"
@@ -4093,6 +4389,7 @@
       {
         "sku": "RLN30302",
         "label": "• Buitenring: zonder groef of flens",
+        "page": 37,
         "page_in_pdf": 37,
         "properties": {
           "type": "drive_component"
@@ -4107,6 +4404,7 @@
       {
         "sku": "RLN30303",
         "label": "• Buitenring: zonder groef of flens",
+        "page": 37,
         "page_in_pdf": 37,
         "properties": {
           "type": "drive_component"
@@ -4121,6 +4419,7 @@
       {
         "sku": "RLN30303",
         "label": "• Buitenring: zonder groef of flens",
+        "page": 37,
         "page_in_pdf": 37,
         "properties": {
           "type": "drive_component"
@@ -4135,6 +4434,7 @@
       {
         "sku": "RLN30304",
         "label": "• Buitenring: zonder groef of flens",
+        "page": 37,
         "page_in_pdf": 37,
         "properties": {
           "type": "drive_component"
@@ -4149,6 +4449,7 @@
       {
         "sku": "RLN30304",
         "label": "• Buitenring: zonder groef of flens",
+        "page": 37,
         "page_in_pdf": 37,
         "properties": {
           "type": "drive_component"
@@ -4163,6 +4464,7 @@
       {
         "sku": "RLN30305",
         "label": "• Buitenring: zonder groef of flens",
+        "page": 37,
         "page_in_pdf": 37,
         "properties": {
           "type": "drive_component"
@@ -4177,6 +4479,7 @@
       {
         "sku": "RLN30305",
         "label": "• Buitenring: zonder groef of flens",
+        "page": 37,
         "page_in_pdf": 37,
         "properties": {
           "type": "drive_component"
@@ -4191,6 +4494,7 @@
       {
         "sku": "RLN30306",
         "label": "• Buitenring: zonder groef of flens",
+        "page": 37,
         "page_in_pdf": 37,
         "properties": {
           "type": "drive_component"
@@ -4205,6 +4509,7 @@
       {
         "sku": "RLN30306",
         "label": "• Buitenring: zonder groef of flens",
+        "page": 37,
         "page_in_pdf": 37,
         "properties": {
           "type": "drive_component"
@@ -4219,6 +4524,7 @@
       {
         "sku": "RLN30308",
         "label": "• Buitenring: zonder groef of flens",
+        "page": 37,
         "page_in_pdf": 37,
         "properties": {
           "type": "drive_component"
@@ -4233,6 +4539,7 @@
       {
         "sku": "RLN32005",
         "label": "• Buitenring: zonder groef of flens",
+        "page": 37,
         "page_in_pdf": 37,
         "properties": {
           "type": "drive_component"
@@ -4247,6 +4554,7 @@
       {
         "sku": "RLN32007",
         "label": "• Buitenring: zonder groef of flens",
+        "page": 37,
         "page_in_pdf": 37,
         "properties": {
           "type": "drive_component"
@@ -4261,6 +4569,7 @@
       {
         "sku": "RLN32008",
         "label": "• Buitenring: zonder groef of flens",
+        "page": 37,
         "page_in_pdf": 37,
         "properties": {
           "type": "drive_component"
@@ -4275,6 +4584,7 @@
       {
         "sku": "RLN32009",
         "label": "• Buitenring: zonder groef of flens",
+        "page": 37,
         "page_in_pdf": 37,
         "properties": {
           "type": "drive_component"
@@ -4289,6 +4599,7 @@
       {
         "sku": "RLN32205",
         "label": "• Buitenring: zonder groef of flens",
+        "page": 37,
         "page_in_pdf": 37,
         "properties": {
           "type": "drive_component"
@@ -4303,6 +4614,7 @@
       {
         "sku": "RLN32205",
         "label": "• Buitenring: zonder groef of flens",
+        "page": 37,
         "page_in_pdf": 37,
         "properties": {
           "type": "drive_component"
@@ -4317,6 +4629,7 @@
       {
         "sku": "RLN32207",
         "label": "• Buitenring: zonder groef of flens",
+        "page": 37,
         "page_in_pdf": 37,
         "properties": {
           "type": "drive_component"
@@ -4331,6 +4644,7 @@
       {
         "sku": "RLN32207",
         "label": "• Buitenring: zonder groef of flens",
+        "page": 37,
         "page_in_pdf": 37,
         "properties": {
           "type": "drive_component"
@@ -4345,6 +4659,7 @@
       {
         "sku": "RLN32208",
         "label": "• Buitenring: zonder groef of flens",
+        "page": 37,
         "page_in_pdf": 37,
         "properties": {
           "type": "drive_component"
@@ -4359,6 +4674,7 @@
       {
         "sku": "RLN32304",
         "label": "• Buitenring: zonder groef of flens",
+        "page": 37,
         "page_in_pdf": 37,
         "properties": {
           "type": "drive_component"
@@ -4373,6 +4689,7 @@
       {
         "sku": "RLN32305",
         "label": "• Buitenring: zonder groef of flens",
+        "page": 37,
         "page_in_pdf": 37,
         "properties": {
           "type": "drive_component"
@@ -4387,6 +4704,7 @@
       {
         "sku": "RLN32305",
         "label": "• Buitenring: zonder groef of flens",
+        "page": 37,
         "page_in_pdf": 37,
         "properties": {
           "type": "drive_component"
@@ -4401,6 +4719,7 @@
       {
         "sku": "RLN32307",
         "label": "• Buitenring: zonder groef of flens",
+        "page": 37,
         "page_in_pdf": 37,
         "properties": {
           "type": "drive_component"
@@ -4415,6 +4734,7 @@
       {
         "sku": "RLN32308",
         "label": "• Buitenring: zonder groef of flens",
+        "page": 37,
         "page_in_pdf": 37,
         "properties": {
           "type": "drive_component"
@@ -4429,6 +4749,7 @@
       {
         "sku": "RLN6001",
         "label": "• Buitenring: zonder groef of flens",
+        "page": 27,
         "page_in_pdf": 27,
         "properties": {
           "type": "drive_component"
@@ -4443,6 +4764,7 @@
       {
         "sku": "RLN6001",
         "label": "• Buitenring: zonder groef of flens",
+        "page": 27,
         "page_in_pdf": 27,
         "properties": {
           "type": "drive_component"
@@ -4457,6 +4779,7 @@
       {
         "sku": "RLN6002",
         "label": "• Buitenring: zonder groef of flens",
+        "page": 27,
         "page_in_pdf": 27,
         "properties": {
           "type": "drive_component"
@@ -4471,6 +4794,7 @@
       {
         "sku": "RLN6003",
         "label": "• Buitenring: zonder groef of flens",
+        "page": 27,
         "page_in_pdf": 27,
         "properties": {
           "type": "drive_component"
@@ -4485,6 +4809,7 @@
       {
         "sku": "RLN6004",
         "label": "• Buitenring: zonder groef of flens",
+        "page": 27,
         "page_in_pdf": 27,
         "properties": {
           "type": "drive_component"
@@ -4499,6 +4824,7 @@
       {
         "sku": "RLN607",
         "label": "• Buitenring: zonder groef of flens",
+        "page": 27,
         "page_in_pdf": 27,
         "properties": {
           "type": "drive_component"
@@ -4513,6 +4839,7 @@
       {
         "sku": "RLN608",
         "label": "• Buitenring: zonder groef of flens",
+        "page": 27,
         "page_in_pdf": 27,
         "properties": {
           "type": "drive_component"
@@ -4527,6 +4854,7 @@
       {
         "sku": "RLN6201",
         "label": "• Buitenring: zonder groef of flens",
+        "page": 27,
         "page_in_pdf": 27,
         "properties": {
           "type": "drive_component"
@@ -4541,6 +4869,7 @@
       {
         "sku": "RLN6201",
         "label": "• Buitenring: zonder groef of flens",
+        "page": 27,
         "page_in_pdf": 27,
         "properties": {
           "type": "drive_component"
@@ -4555,6 +4884,7 @@
       {
         "sku": "RLN6202",
         "label": "• Buitenring: zonder groef of flens",
+        "page": 27,
         "page_in_pdf": 27,
         "properties": {
           "type": "drive_component"
@@ -4569,6 +4899,7 @@
       {
         "sku": "RLN628",
         "label": "• Buitenring: zonder groef of flens",
+        "page": 27,
         "page_in_pdf": 27,
         "properties": {
           "type": "drive_component"
@@ -4583,6 +4914,7 @@
       {
         "sku": "RLN6301",
         "label": "• Buitenring: zonder groef of flens",
+        "page": 27,
         "page_in_pdf": 27,
         "properties": {
           "type": "drive_component"
@@ -4597,6 +4929,7 @@
       {
         "sku": "RLN6301",
         "label": "• Buitenring: zonder groef of flens",
+        "page": 27,
         "page_in_pdf": 27,
         "properties": {
           "type": "drive_component"
@@ -4611,6 +4944,7 @@
       {
         "sku": "RLN6302",
         "label": "• Buitenring: zonder groef of flens",
+        "page": 27,
         "page_in_pdf": 27,
         "properties": {
           "type": "drive_component"
@@ -4625,6 +4959,7 @@
       {
         "sku": "RLN6303",
         "label": "• Buitenring: zonder groef of flens",
+        "page": 27,
         "page_in_pdf": 27,
         "properties": {
           "type": "drive_component"
@@ -4639,6 +4974,7 @@
       {
         "sku": "RLN6900",
         "label": "• Buitenring: zonder groef of flens",
+        "page": 27,
         "page_in_pdf": 27,
         "properties": {
           "type": "drive_component"
@@ -4653,6 +4989,7 @@
       {
         "sku": "RLN6900",
         "label": "• Buitenring: zonder groef of flens",
+        "page": 27,
         "page_in_pdf": 27,
         "properties": {
           "type": "drive_component"
@@ -4667,6 +5004,7 @@
       {
         "sku": "RLS1211",
         "label": "• Buitenring: zonder groef of flens",
+        "page": 34,
         "page_in_pdf": 34,
         "properties": {
           "type": "drive_component"
@@ -4681,6 +5019,7 @@
       {
         "sku": "RLS1302",
         "label": "• Buitenring: zonder groef of flens",
+        "page": 34,
         "page_in_pdf": 34,
         "properties": {
           "type": "drive_component"
@@ -4695,6 +5034,7 @@
       {
         "sku": "RLS1302",
         "label": "• Buitenring: zonder groef of flens",
+        "page": 34,
         "page_in_pdf": 34,
         "properties": {
           "type": "drive_component"
@@ -4709,6 +5049,7 @@
       {
         "sku": "RLS1303",
         "label": "• Buitenring: zonder groef of flens",
+        "page": 34,
         "page_in_pdf": 34,
         "properties": {
           "type": "drive_component"
@@ -4723,6 +5064,7 @@
       {
         "sku": "RLS1303",
         "label": "• Buitenring: zonder groef of flens",
+        "page": 34,
         "page_in_pdf": 34,
         "properties": {
           "type": "drive_component"
@@ -4737,6 +5079,7 @@
       {
         "sku": "RLS1304",
         "label": "• Buitenring: zonder groef of flens",
+        "page": 34,
         "page_in_pdf": 34,
         "properties": {
           "type": "drive_component"
@@ -4751,6 +5094,7 @@
       {
         "sku": "RLS1304",
         "label": "• Buitenring: zonder groef of flens",
+        "page": 34,
         "page_in_pdf": 34,
         "properties": {
           "type": "drive_component"
@@ -4765,6 +5109,7 @@
       {
         "sku": "RLS1304",
         "label": "• Buitenring: zonder groef of flens",
+        "page": 34,
         "page_in_pdf": 34,
         "properties": {
           "type": "drive_component"
@@ -4779,6 +5124,7 @@
       {
         "sku": "RLS16005",
         "label": "• Buitenring: zonder groef of flens",
+        "page": 31,
         "page_in_pdf": 31,
         "properties": {
           "type": "drive_component"
@@ -4793,6 +5139,7 @@
       {
         "sku": "RLS16005",
         "label": "• Buitenring: zonder groef of flens",
+        "page": 31,
         "page_in_pdf": 31,
         "properties": {
           "type": "drive_component"
@@ -4807,6 +5154,7 @@
       {
         "sku": "RLS16007",
         "label": "• Buitenring: zonder groef of flens",
+        "page": 31,
         "page_in_pdf": 31,
         "properties": {
           "type": "drive_component"
@@ -4821,6 +5169,7 @@
       {
         "sku": "RLS16007",
         "label": "• Buitenring: zonder groef of flens",
+        "page": 31,
         "page_in_pdf": 31,
         "properties": {
           "type": "drive_component"
@@ -4835,6 +5184,7 @@
       {
         "sku": "RLS16009",
         "label": "• Buitenring: zonder groef of flens",
+        "page": 31,
         "page_in_pdf": 31,
         "properties": {
           "type": "drive_component"
@@ -4849,6 +5199,7 @@
       {
         "sku": "RLS16010",
         "label": "• Buitenring: zonder groef of flens",
+        "page": 31,
         "page_in_pdf": 31,
         "properties": {
           "type": "drive_component"
@@ -4863,6 +5214,7 @@
       {
         "sku": "RLS2200",
         "label": "• Buitenring: zonder groef of flens",
+        "page": 34,
         "page_in_pdf": 34,
         "properties": {
           "type": "drive_component"
@@ -4877,6 +5229,7 @@
       {
         "sku": "RLS2202",
         "label": "• Buitenring: zonder groef of flens",
+        "page": 36,
         "page_in_pdf": 36,
         "properties": {
           "type": "drive_component"
@@ -4891,6 +5244,7 @@
       {
         "sku": "RLS2202",
         "label": "• Buitenring: zonder groef of flens",
+        "page": 36,
         "page_in_pdf": 36,
         "properties": {
           "type": "drive_component"
@@ -4905,6 +5259,7 @@
       {
         "sku": "RLS2208",
         "label": "• Buitenring: zonder groef of flens",
+        "page": 36,
         "page_in_pdf": 36,
         "properties": {
           "type": "drive_component"
@@ -4919,6 +5274,7 @@
       {
         "sku": "RLS2210",
         "label": "• Buitenring: zonder groef of flens",
+        "page": 36,
         "page_in_pdf": 36,
         "properties": {
           "type": "drive_component"
@@ -4933,6 +5289,7 @@
       {
         "sku": "RLS2212",
         "label": "• Buitenring: zonder groef of flens",
+        "page": 36,
         "page_in_pdf": 36,
         "properties": {
           "type": "drive_component"
@@ -4947,6 +5304,7 @@
       {
         "sku": "RLS2303",
         "label": "• Buitenring: zonder groef of flens",
+        "page": 36,
         "page_in_pdf": 36,
         "properties": {
           "type": "drive_component"
@@ -4961,6 +5319,7 @@
       {
         "sku": "RLS2303",
         "label": "• Buitenring: zonder groef of flens",
+        "page": 36,
         "page_in_pdf": 36,
         "properties": {
           "type": "drive_component"
@@ -4975,6 +5334,7 @@
       {
         "sku": "RLS2304",
         "label": "• Buitenring: zonder groef of flens",
+        "page": 36,
         "page_in_pdf": 36,
         "properties": {
           "type": "drive_component"
@@ -4989,6 +5349,7 @@
       {
         "sku": "RLS2304",
         "label": "• Buitenring: zonder groef of flens",
+        "page": 36,
         "page_in_pdf": 36,
         "properties": {
           "type": "drive_component"
@@ -5003,6 +5364,7 @@
       {
         "sku": "RLS2305",
         "label": "• Buitenring: zonder groef of flens",
+        "page": 36,
         "page_in_pdf": 36,
         "properties": {
           "type": "drive_component"
@@ -5017,6 +5379,7 @@
       {
         "sku": "RLS2305",
         "label": "• Buitenring: zonder groef of flens",
+        "page": 36,
         "page_in_pdf": 36,
         "properties": {
           "type": "drive_component"
@@ -5031,6 +5394,7 @@
       {
         "sku": "RLS2306",
         "label": "• Buitenring: zonder groef of flens",
+        "page": 36,
         "page_in_pdf": 36,
         "properties": {
           "type": "drive_component"
@@ -5045,6 +5409,7 @@
       {
         "sku": "RLS2306",
         "label": "• Buitenring: zonder groef of flens",
+        "page": 36,
         "page_in_pdf": 36,
         "properties": {
           "type": "drive_component"
@@ -5059,6 +5424,7 @@
       {
         "sku": "RLS2307",
         "label": "• Buitenring: zonder groef of flens",
+        "page": 36,
         "page_in_pdf": 36,
         "properties": {
           "type": "drive_component"
@@ -5073,6 +5439,7 @@
       {
         "sku": "RLS2308",
         "label": "• Buitenring: zonder groef of flens",
+        "page": 36,
         "page_in_pdf": 36,
         "properties": {
           "type": "drive_component"
@@ -5087,6 +5454,7 @@
       {
         "sku": "RLS2308",
         "label": "• Buitenring: zonder groef of flens",
+        "page": 36,
         "page_in_pdf": 36,
         "properties": {
           "type": "drive_component"
@@ -5101,6 +5469,7 @@
       {
         "sku": "RLS2309",
         "label": "• Buitenring: zonder groef of flens",
+        "page": 36,
         "page_in_pdf": 36,
         "properties": {
           "type": "drive_component"
@@ -5115,6 +5484,7 @@
       {
         "sku": "RLS2310",
         "label": "• Buitenring: zonder groef of flens",
+        "page": 36,
         "page_in_pdf": 36,
         "properties": {
           "type": "drive_component"
@@ -5129,6 +5499,7 @@
       {
         "sku": "RLS5201",
         "label": "• Buitenring: zonder groef of flens",
+        "page": 33,
         "page_in_pdf": 33,
         "properties": {
           "type": "drive_component"
@@ -5143,6 +5514,7 @@
       {
         "sku": "RLS5202",
         "label": "• Buitenring: zonder groef of flens",
+        "page": 33,
         "page_in_pdf": 33,
         "properties": {
           "type": "drive_component"
@@ -5157,6 +5529,7 @@
       {
         "sku": "RLS5203",
         "label": "• Buitenring: zonder groef of flens",
+        "page": 33,
         "page_in_pdf": 33,
         "properties": {
           "type": "drive_component"
@@ -5171,6 +5544,7 @@
       {
         "sku": "RLS5203",
         "label": "• Buitenring: zonder groef of flens",
+        "page": 33,
         "page_in_pdf": 33,
         "properties": {
           "type": "drive_component"
@@ -5185,6 +5559,7 @@
       {
         "sku": "RLS5204",
         "label": "• Buitenring: zonder groef of flens",
+        "page": 33,
         "page_in_pdf": 33,
         "properties": {
           "type": "drive_component"
@@ -5199,6 +5574,7 @@
       {
         "sku": "RLS5204",
         "label": "• Buitenring: zonder groef of flens",
+        "page": 33,
         "page_in_pdf": 33,
         "properties": {
           "type": "drive_component"
@@ -5213,6 +5589,7 @@
       {
         "sku": "RLS5205",
         "label": "• Buitenring: zonder groef of flens",
+        "page": 33,
         "page_in_pdf": 33,
         "properties": {
           "type": "drive_component"
@@ -5227,6 +5604,7 @@
       {
         "sku": "RLS5205",
         "label": "• Buitenring: zonder groef of flens",
+        "page": 33,
         "page_in_pdf": 33,
         "properties": {
           "type": "drive_component"
@@ -5241,6 +5619,7 @@
       {
         "sku": "RLS5206",
         "label": "• Buitenring: zonder groef of flens",
+        "page": 33,
         "page_in_pdf": 33,
         "properties": {
           "type": "drive_component"
@@ -5255,6 +5634,7 @@
       {
         "sku": "RLS5206",
         "label": "• Buitenring: zonder groef of flens",
+        "page": 33,
         "page_in_pdf": 33,
         "properties": {
           "type": "drive_component"
@@ -5269,6 +5649,7 @@
       {
         "sku": "RLS5207",
         "label": "• Buitenring: zonder groef of flens",
+        "page": 33,
         "page_in_pdf": 33,
         "properties": {
           "type": "drive_component"
@@ -5283,6 +5664,7 @@
       {
         "sku": "RLS5207",
         "label": "• Buitenring: zonder groef of flens",
+        "page": 33,
         "page_in_pdf": 33,
         "properties": {
           "type": "drive_component"
@@ -5297,6 +5679,7 @@
       {
         "sku": "RLS5208",
         "label": "• Buitenring: zonder groef of flens",
+        "page": 33,
         "page_in_pdf": 33,
         "properties": {
           "type": "drive_component"
@@ -5311,6 +5694,7 @@
       {
         "sku": "RLS5208",
         "label": "• Buitenring: zonder groef of flens",
+        "page": 33,
         "page_in_pdf": 33,
         "properties": {
           "type": "drive_component"
@@ -5325,6 +5709,7 @@
       {
         "sku": "RLS5209",
         "label": "• Buitenring: zonder groef of flens",
+        "page": 33,
         "page_in_pdf": 33,
         "properties": {
           "type": "drive_component"
@@ -5339,6 +5724,7 @@
       {
         "sku": "RLS5210",
         "label": "• Buitenring: zonder groef of flens",
+        "page": 33,
         "page_in_pdf": 33,
         "properties": {
           "type": "drive_component"
@@ -5353,6 +5739,7 @@
       {
         "sku": "RLS5211",
         "label": "• Buitenring: zonder groef of flens",
+        "page": 33,
         "page_in_pdf": 33,
         "properties": {
           "type": "drive_component"
@@ -5367,6 +5754,7 @@
       {
         "sku": "RLS5212",
         "label": "• Buitenring: zonder groef of flens",
+        "page": 33,
         "page_in_pdf": 33,
         "properties": {
           "type": "drive_component"
@@ -5381,6 +5769,7 @@
       {
         "sku": "RLS5309",
         "label": "• Buitenring: zonder groef of flens",
+        "page": 33,
         "page_in_pdf": 33,
         "properties": {
           "type": "drive_component"
@@ -5395,6 +5784,7 @@
       {
         "sku": "RLS5310",
         "label": "• Buitenring: zonder groef of flens",
+        "page": 33,
         "page_in_pdf": 33,
         "properties": {
           "type": "drive_component"
@@ -5409,6 +5799,7 @@
       {
         "sku": "RLS62200",
         "label": "• Buitenring: zonder groef of flens",
+        "page": 27,
         "page_in_pdf": 27,
         "properties": {
           "type": "drive_component"
@@ -5423,6 +5814,7 @@
       {
         "sku": "RLS62200",
         "label": "• Buitenring: zonder groef of flens",
+        "page": 27,
         "page_in_pdf": 27,
         "properties": {
           "type": "drive_component"
@@ -5437,6 +5829,7 @@
       {
         "sku": "RLS62202",
         "label": "• Buitenring: zonder groef of flens",
+        "page": 27,
         "page_in_pdf": 27,
         "properties": {
           "type": "drive_component"
@@ -5451,6 +5844,7 @@
       {
         "sku": "RLS62203",
         "label": "• Buitenring: zonder groef of flens",
+        "page": 27,
         "page_in_pdf": 27,
         "properties": {
           "type": "drive_component"
@@ -5465,6 +5859,7 @@
       {
         "sku": "RLS62303",
         "label": "• Buitenring: zonder groef of flens",
+        "page": 27,
         "page_in_pdf": 27,
         "properties": {
           "type": "drive_component"
@@ -5479,6 +5874,7 @@
       {
         "sku": "RLS625",
         "label": "• Buitenring: zonder groef of flens",
+        "page": 27,
         "page_in_pdf": 27,
         "properties": {
           "type": "drive_component"
@@ -5493,6 +5889,7 @@
       {
         "sku": "RLS625",
         "label": "• Buitenring: zonder groef of flens",
+        "page": 27,
         "page_in_pdf": 27,
         "properties": {
           "type": "drive_component"
@@ -5507,6 +5904,7 @@
       {
         "sku": "RLS629",
         "label": "• Buitenring: zonder groef of flens",
+        "page": 27,
         "page_in_pdf": 27,
         "properties": {
           "type": "drive_component"
@@ -5521,6 +5919,7 @@
       {
         "sku": "RLS63000",
         "label": "• Buitenring: zonder groef of flens",
+        "page": 27,
         "page_in_pdf": 27,
         "properties": {
           "type": "drive_component"
@@ -5535,6 +5934,7 @@
       {
         "sku": "RLS63000",
         "label": "• Buitenring: zonder groef of flens",
+        "page": 27,
         "page_in_pdf": 27,
         "properties": {
           "type": "drive_component"
@@ -5549,6 +5949,7 @@
       {
         "sku": "RLS63002",
         "label": "• Buitenring: zonder groef of flens",
+        "page": 27,
         "page_in_pdf": 27,
         "properties": {
           "type": "drive_component"
@@ -5563,6 +5964,7 @@
       {
         "sku": "RLS63003",
         "label": "• Buitenring: zonder groef of flens",
+        "page": 27,
         "page_in_pdf": 27,
         "properties": {
           "type": "drive_component"
@@ -5577,6 +5979,7 @@
       {
         "sku": "RLS63004",
         "label": "• Buitenring: zonder groef of flens",
+        "page": 27,
         "page_in_pdf": 27,
         "properties": {
           "type": "drive_component"
@@ -5590,29 +5993,30 @@
       }
     ],
     "images": [
-      "images/catalogus-aandrijftechniek-150922/buitenring-zonder-groef-of-flens__rln6001.webp",
-      "images/catalogus-aandrijftechniek-150922/catalogus-aandrijftechniek-150__p25__binnenring__RLNUK206-RLNUK206-RLNUK208__v3.webp"
+      "images/catalogus-aandrijftechniek-150922/catalogus-aandrijftechniek-150__p37__buitenring-zonder-groef-of-flens__RLN30202-RLN30204-RLN30204__v7.webp"
     ],
     "variant_count": 114,
     "default_variant_sku": "RLN30202",
     "media": [
       {
         "role": "main",
-        "url": "images/catalogus-aandrijftechniek-150922/buitenring-zonder-groef-of-flens__rln6001.webp"
+        "url": "images/catalogus-aandrijftechniek-150922/catalogus-aandrijftechniek-150__p37__buitenring-zonder-groef-of-flens__RLN30202-RLN30204-RLN30204__v7.webp"
       }
     ]
   },
   {
-    "group_id": "catalogus-aandrijftechniek-150922-kegellagers",
+    "group_id": "catalogus-aandrijftechniek-150922-catalogus-aandrijftechniek-150922-kegellagers",
     "name": "KEGELLAGERS",
-    "family": "kegellagers",
+    "family": "catalogus-aandrijftechniek-150922__kegellagers",
     "catalog": "catalogus-aandrijftechniek-150922",
+    "source_pdf": "catalogus-aandrijftechniek-150922.pdf",
     "brand": "Various",
     "category": "KEGELLAGERS",
     "variants": [
       {
         "sku": "RLN30210",
         "label": "KEGELLAGERS",
+        "page": 38,
         "page_in_pdf": 38,
         "properties": {
           "type": "drive_component"
@@ -5624,6 +6028,7 @@
       {
         "sku": "RLN30210",
         "label": "KEGELLAGERS",
+        "page": 38,
         "page_in_pdf": 38,
         "properties": {
           "type": "drive_component"
@@ -5635,6 +6040,7 @@
       {
         "sku": "RLN30212",
         "label": "KEGELLAGERS",
+        "page": 38,
         "page_in_pdf": 38,
         "properties": {
           "type": "drive_component"
@@ -5646,6 +6052,7 @@
       {
         "sku": "RLN30212",
         "label": "KEGELLAGERS",
+        "page": 38,
         "page_in_pdf": 38,
         "properties": {
           "type": "drive_component"
@@ -5657,6 +6064,7 @@
       {
         "sku": "RLN30214",
         "label": "KEGELLAGERS",
+        "page": 38,
         "page_in_pdf": 38,
         "properties": {
           "type": "drive_component"
@@ -5668,6 +6076,7 @@
       {
         "sku": "RLN30214",
         "label": "KEGELLAGERS",
+        "page": 38,
         "page_in_pdf": 38,
         "properties": {
           "type": "drive_component"
@@ -5679,6 +6088,7 @@
       {
         "sku": "RLN30309",
         "label": "KEGELLAGERS",
+        "page": 38,
         "page_in_pdf": 38,
         "properties": {
           "type": "drive_component"
@@ -5690,6 +6100,7 @@
       {
         "sku": "RLN30312",
         "label": "KEGELLAGERS",
+        "page": 38,
         "page_in_pdf": 38,
         "properties": {
           "type": "drive_component"
@@ -5701,6 +6112,7 @@
       {
         "sku": "RLN30312",
         "label": "KEGELLAGERS",
+        "page": 38,
         "page_in_pdf": 38,
         "properties": {
           "type": "drive_component"
@@ -5712,6 +6124,7 @@
       {
         "sku": "RLN30314",
         "label": "KEGELLAGERS",
+        "page": 38,
         "page_in_pdf": 38,
         "properties": {
           "type": "drive_component"
@@ -5723,6 +6136,7 @@
       {
         "sku": "RLN30315",
         "label": "KEGELLAGERS",
+        "page": 38,
         "page_in_pdf": 38,
         "properties": {
           "type": "drive_component"
@@ -5734,6 +6148,7 @@
       {
         "sku": "RLN31310",
         "label": "KEGELLAGERS",
+        "page": 38,
         "page_in_pdf": 38,
         "properties": {
           "type": "drive_component"
@@ -5745,6 +6160,7 @@
       {
         "sku": "RLN31310",
         "label": "KEGELLAGERS",
+        "page": 38,
         "page_in_pdf": 38,
         "properties": {
           "type": "drive_component"
@@ -5756,6 +6172,7 @@
       {
         "sku": "RLN32011",
         "label": "KEGELLAGERS",
+        "page": 38,
         "page_in_pdf": 38,
         "properties": {
           "type": "drive_component"
@@ -5767,6 +6184,7 @@
       {
         "sku": "RLN32013",
         "label": "KEGELLAGERS",
+        "page": 38,
         "page_in_pdf": 38,
         "properties": {
           "type": "drive_component"
@@ -5778,6 +6196,7 @@
       {
         "sku": "RLN32013",
         "label": "KEGELLAGERS",
+        "page": 38,
         "page_in_pdf": 38,
         "properties": {
           "type": "drive_component"
@@ -5789,6 +6208,7 @@
       {
         "sku": "RLN32015",
         "label": "KEGELLAGERS",
+        "page": 38,
         "page_in_pdf": 38,
         "properties": {
           "type": "drive_component"
@@ -5800,6 +6220,7 @@
       {
         "sku": "RLN32209",
         "label": "KEGELLAGERS",
+        "page": 38,
         "page_in_pdf": 38,
         "properties": {
           "type": "drive_component"
@@ -5811,6 +6232,7 @@
       {
         "sku": "RLN32211",
         "label": "KEGELLAGERS",
+        "page": 38,
         "page_in_pdf": 38,
         "properties": {
           "type": "drive_component"
@@ -5822,6 +6244,7 @@
       {
         "sku": "RLN32211",
         "label": "KEGELLAGERS",
+        "page": 38,
         "page_in_pdf": 38,
         "properties": {
           "type": "drive_component"
@@ -5833,6 +6256,7 @@
       {
         "sku": "RLN32213",
         "label": "KEGELLAGERS",
+        "page": 38,
         "page_in_pdf": 38,
         "properties": {
           "type": "drive_component"
@@ -5844,6 +6268,7 @@
       {
         "sku": "RLN32213",
         "label": "KEGELLAGERS",
+        "page": 38,
         "page_in_pdf": 38,
         "properties": {
           "type": "drive_component"
@@ -5855,6 +6280,7 @@
       {
         "sku": "RLN32215",
         "label": "KEGELLAGERS",
+        "page": 38,
         "page_in_pdf": 38,
         "properties": {
           "type": "drive_component"
@@ -5866,6 +6292,7 @@
       {
         "sku": "RLN32216",
         "label": "KEGELLAGERS",
+        "page": 38,
         "page_in_pdf": 38,
         "properties": {
           "type": "drive_component"
@@ -5877,6 +6304,7 @@
       {
         "sku": "RLN32217",
         "label": "KEGELLAGERS",
+        "page": 38,
         "page_in_pdf": 38,
         "properties": {
           "type": "drive_component"
@@ -5888,6 +6316,7 @@
       {
         "sku": "RLN32309",
         "label": "KEGELLAGERS",
+        "page": 38,
         "page_in_pdf": 38,
         "properties": {
           "type": "drive_component"
@@ -5899,6 +6328,7 @@
       {
         "sku": "RLN32311",
         "label": "KEGELLAGERS",
+        "page": 38,
         "page_in_pdf": 38,
         "properties": {
           "type": "drive_component"
@@ -5910,6 +6340,7 @@
       {
         "sku": "RLN32311",
         "label": "KEGELLAGERS",
+        "page": 38,
         "page_in_pdf": 38,
         "properties": {
           "type": "drive_component"
@@ -5921,6 +6352,7 @@
       {
         "sku": "RLN32313",
         "label": "KEGELLAGERS",
+        "page": 38,
         "page_in_pdf": 38,
         "properties": {
           "type": "drive_component"
@@ -5932,6 +6364,7 @@
       {
         "sku": "RLN32313",
         "label": "KEGELLAGERS",
+        "page": 38,
         "page_in_pdf": 38,
         "properties": {
           "type": "drive_component"
@@ -5943,6 +6376,7 @@
       {
         "sku": "RLN32314",
         "label": "KEGELLAGERS",
+        "page": 38,
         "page_in_pdf": 38,
         "properties": {
           "type": "drive_component"
@@ -5954,6 +6388,7 @@
       {
         "sku": "RLN32315",
         "label": "KEGELLAGERS",
+        "page": 38,
         "page_in_pdf": 38,
         "properties": {
           "type": "drive_component"
@@ -5965,6 +6400,7 @@
       {
         "sku": "RLN33020",
         "label": "KEGELLAGERS",
+        "page": 38,
         "page_in_pdf": 38,
         "properties": {
           "type": "drive_component"
@@ -5976,6 +6412,7 @@
       {
         "sku": "RLN33210",
         "label": "KEGELLAGERS",
+        "page": 38,
         "page_in_pdf": 38,
         "properties": {
           "type": "drive_component"
@@ -5987,6 +6424,7 @@
       {
         "sku": "RLN33210",
         "label": "KEGELLAGERS",
+        "page": 38,
         "page_in_pdf": 38,
         "properties": {
           "type": "drive_component"
@@ -5998,6 +6436,7 @@
       {
         "sku": "RLN33215",
         "label": "KEGELLAGERS",
+        "page": 38,
         "page_in_pdf": 38,
         "properties": {
           "type": "drive_component"
@@ -6009,6 +6448,7 @@
       {
         "sku": "RLS33216",
         "label": "KEGELLAGERS",
+        "page": 38,
         "page_in_pdf": 38,
         "properties": {
           "type": "drive_component"
@@ -6024,16 +6464,18 @@
     "media": []
   },
   {
-    "group_id": "catalogus-aandrijftechniek-150922-kogellagers",
+    "group_id": "catalogus-aandrijftechniek-150922-catalogus-aandrijftechniek-150922-kogellagers",
     "name": "KOGELLAGERS",
-    "family": "kogellagers",
+    "family": "catalogus-aandrijftechniek-150922__kogellagers",
     "catalog": "catalogus-aandrijftechniek-150922",
+    "source_pdf": "catalogus-aandrijftechniek-150922.pdf",
     "brand": "Various",
     "category": "KOGELLAGERS",
     "variants": [
       {
         "sku": "RLN6005",
         "label": "KOGELLAGERS",
+        "page": 28,
         "page_in_pdf": 28,
         "properties": {
           "type": "drive_component"
@@ -6045,6 +6487,7 @@
       {
         "sku": "RLN6008",
         "label": "KOGELLAGERS",
+        "page": 28,
         "page_in_pdf": 28,
         "properties": {
           "type": "drive_component"
@@ -6056,6 +6499,7 @@
       {
         "sku": "RLN6008",
         "label": "KOGELLAGERS",
+        "page": 28,
         "page_in_pdf": 28,
         "properties": {
           "type": "drive_component"
@@ -6067,6 +6511,7 @@
       {
         "sku": "RLN6009",
         "label": "KOGELLAGERS",
+        "page": 28,
         "page_in_pdf": 28,
         "properties": {
           "type": "drive_component"
@@ -6078,6 +6523,7 @@
       {
         "sku": "RLN6009",
         "label": "KOGELLAGERS",
+        "page": 28,
         "page_in_pdf": 28,
         "properties": {
           "type": "drive_component"
@@ -6089,6 +6535,7 @@
       {
         "sku": "RLN6011",
         "label": "KOGELLAGERS",
+        "page": 28,
         "page_in_pdf": 28,
         "properties": {
           "type": "drive_component"
@@ -6100,6 +6547,7 @@
       {
         "sku": "RLN6012",
         "label": "KOGELLAGERS",
+        "page": 28,
         "page_in_pdf": 28,
         "properties": {
           "type": "drive_component"
@@ -6111,6 +6559,7 @@
       {
         "sku": "RLN6013",
         "label": "KOGELLAGERS",
+        "page": 28,
         "page_in_pdf": 28,
         "properties": {
           "type": "drive_component"
@@ -6122,6 +6571,7 @@
       {
         "sku": "RLN6015",
         "label": "KOGELLAGERS",
+        "page": 28,
         "page_in_pdf": 28,
         "properties": {
           "type": "drive_component"
@@ -6133,6 +6583,7 @@
       {
         "sku": "RLN6016",
         "label": "KOGELLAGERS",
+        "page": 28,
         "page_in_pdf": 28,
         "properties": {
           "type": "drive_component"
@@ -6144,6 +6595,7 @@
       {
         "sku": "RLN6204",
         "label": "KOGELLAGERS",
+        "page": 28,
         "page_in_pdf": 28,
         "properties": {
           "type": "drive_component"
@@ -6155,6 +6607,7 @@
       {
         "sku": "RLN6205",
         "label": "KOGELLAGERS",
+        "page": 28,
         "page_in_pdf": 28,
         "properties": {
           "type": "drive_component"
@@ -6166,6 +6619,7 @@
       {
         "sku": "RLN6210",
         "label": "KOGELLAGERS",
+        "page": 28,
         "page_in_pdf": 28,
         "properties": {
           "type": "drive_component"
@@ -6177,6 +6631,7 @@
       {
         "sku": "RLN6210",
         "label": "KOGELLAGERS",
+        "page": 28,
         "page_in_pdf": 28,
         "properties": {
           "type": "drive_component"
@@ -6188,6 +6643,7 @@
       {
         "sku": "RLN6211",
         "label": "KOGELLAGERS",
+        "page": 28,
         "page_in_pdf": 28,
         "properties": {
           "type": "drive_component"
@@ -6199,6 +6655,7 @@
       {
         "sku": "RLN6212",
         "label": "KOGELLAGERS",
+        "page": 28,
         "page_in_pdf": 28,
         "properties": {
           "type": "drive_component"
@@ -6210,6 +6667,7 @@
       {
         "sku": "RLN6213",
         "label": "KOGELLAGERS",
+        "page": 28,
         "page_in_pdf": 28,
         "properties": {
           "type": "drive_component"
@@ -6221,6 +6679,7 @@
       {
         "sku": "RLN6214",
         "label": "KOGELLAGERS",
+        "page": 28,
         "page_in_pdf": 28,
         "properties": {
           "type": "drive_component"
@@ -6232,6 +6691,7 @@
       {
         "sku": "RLN6215",
         "label": "KOGELLAGERS",
+        "page": 28,
         "page_in_pdf": 28,
         "properties": {
           "type": "drive_component"
@@ -6243,6 +6703,7 @@
       {
         "sku": "RLN6216",
         "label": "KOGELLAGERS",
+        "page": 28,
         "page_in_pdf": 28,
         "properties": {
           "type": "drive_component"
@@ -6254,6 +6715,7 @@
       {
         "sku": "RLN6304",
         "label": "KOGELLAGERS",
+        "page": 28,
         "page_in_pdf": 28,
         "properties": {
           "type": "drive_component"
@@ -6265,6 +6727,7 @@
       {
         "sku": "RLN6306",
         "label": "KOGELLAGERS",
+        "page": 28,
         "page_in_pdf": 28,
         "properties": {
           "type": "drive_component"
@@ -6276,6 +6739,7 @@
       {
         "sku": "RLN6309",
         "label": "KOGELLAGERS",
+        "page": 28,
         "page_in_pdf": 28,
         "properties": {
           "type": "drive_component"
@@ -6287,6 +6751,7 @@
       {
         "sku": "RLN6309",
         "label": "KOGELLAGERS",
+        "page": 28,
         "page_in_pdf": 28,
         "properties": {
           "type": "drive_component"
@@ -6298,6 +6763,7 @@
       {
         "sku": "RLN6311",
         "label": "KOGELLAGERS",
+        "page": 28,
         "page_in_pdf": 28,
         "properties": {
           "type": "drive_component"
@@ -6309,6 +6775,7 @@
       {
         "sku": "RLN6312",
         "label": "KOGELLAGERS",
+        "page": 28,
         "page_in_pdf": 28,
         "properties": {
           "type": "drive_component"
@@ -6320,6 +6787,7 @@
       {
         "sku": "RLN6313",
         "label": "KOGELLAGERS",
+        "page": 28,
         "page_in_pdf": 28,
         "properties": {
           "type": "drive_component"
@@ -6331,6 +6799,7 @@
       {
         "sku": "RLN6314",
         "label": "KOGELLAGERS",
+        "page": 28,
         "page_in_pdf": 28,
         "properties": {
           "type": "drive_component"
@@ -6342,6 +6811,7 @@
       {
         "sku": "RLN6315",
         "label": "KOGELLAGERS",
+        "page": 28,
         "page_in_pdf": 28,
         "properties": {
           "type": "drive_component"
@@ -6353,6 +6823,7 @@
       {
         "sku": "RLN6316",
         "label": "KOGELLAGERS",
+        "page": 28,
         "page_in_pdf": 28,
         "properties": {
           "type": "drive_component"
@@ -6364,6 +6835,7 @@
       {
         "sku": "RLS62204",
         "label": "KOGELLAGERS",
+        "page": 28,
         "page_in_pdf": 28,
         "properties": {
           "type": "drive_component"
@@ -6375,6 +6847,7 @@
       {
         "sku": "RLS62205",
         "label": "KOGELLAGERS",
+        "page": 28,
         "page_in_pdf": 28,
         "properties": {
           "type": "drive_component"
@@ -6386,6 +6859,7 @@
       {
         "sku": "RLS62206",
         "label": "KOGELLAGERS",
+        "page": 28,
         "page_in_pdf": 28,
         "properties": {
           "type": "drive_component"
@@ -6397,6 +6871,7 @@
       {
         "sku": "RLS62206",
         "label": "KOGELLAGERS",
+        "page": 28,
         "page_in_pdf": 28,
         "properties": {
           "type": "drive_component"
@@ -6408,6 +6883,7 @@
       {
         "sku": "RLS62207",
         "label": "KOGELLAGERS",
+        "page": 28,
         "page_in_pdf": 28,
         "properties": {
           "type": "drive_component"
@@ -6419,6 +6895,7 @@
       {
         "sku": "RLS62207",
         "label": "KOGELLAGERS",
+        "page": 28,
         "page_in_pdf": 28,
         "properties": {
           "type": "drive_component"
@@ -6430,6 +6907,7 @@
       {
         "sku": "RLS62208",
         "label": "KOGELLAGERS",
+        "page": 28,
         "page_in_pdf": 28,
         "properties": {
           "type": "drive_component"
@@ -6441,6 +6919,7 @@
       {
         "sku": "RLS62208",
         "label": "KOGELLAGERS",
+        "page": 28,
         "page_in_pdf": 28,
         "properties": {
           "type": "drive_component"
@@ -6452,6 +6931,7 @@
       {
         "sku": "RLS62304",
         "label": "KOGELLAGERS",
+        "page": 28,
         "page_in_pdf": 28,
         "properties": {
           "type": "drive_component"
@@ -6463,6 +6943,7 @@
       {
         "sku": "RLS62305",
         "label": "KOGELLAGERS",
+        "page": 28,
         "page_in_pdf": 28,
         "properties": {
           "type": "drive_component"
@@ -6474,6 +6955,7 @@
       {
         "sku": "RLS62306",
         "label": "KOGELLAGERS",
+        "page": 28,
         "page_in_pdf": 28,
         "properties": {
           "type": "drive_component"
@@ -6485,6 +6967,7 @@
       {
         "sku": "RLS63005",
         "label": "KOGELLAGERS",
+        "page": 28,
         "page_in_pdf": 28,
         "properties": {
           "type": "drive_component"
@@ -6496,6 +6979,7 @@
       {
         "sku": "RLS63006",
         "label": "KOGELLAGERS",
+        "page": 28,
         "page_in_pdf": 28,
         "properties": {
           "type": "drive_component"
@@ -6507,6 +6991,7 @@
       {
         "sku": "RLS63006",
         "label": "KOGELLAGERS",
+        "page": 28,
         "page_in_pdf": 28,
         "properties": {
           "type": "drive_component"
@@ -6518,6 +7003,7 @@
       {
         "sku": "RLS63007",
         "label": "KOGELLAGERS",
+        "page": 28,
         "page_in_pdf": 28,
         "properties": {
           "type": "drive_component"
@@ -6529,6 +7015,7 @@
       {
         "sku": "RLS63007",
         "label": "KOGELLAGERS",
+        "page": 28,
         "page_in_pdf": 28,
         "properties": {
           "type": "drive_component"
@@ -6544,16 +7031,18 @@
     "media": []
   },
   {
-    "group_id": "catalogus-aandrijftechniek-150922-binnenring-temperatuurbereik-20-tot-100-c",
+    "group_id": "catalogus-aandrijftechniek-150922-catalogus-aandrijftechniek-150922-binnenring-temperatuurbereik-20-tot-100-c",
     "name": "binnenring • Temperatuurbereik: -20° tot +100°C",
-    "family": "binnenring-temperatuurbereik-20-tot-100-c",
+    "family": "catalogus-aandrijftechniek-150922__binnenring-temperatuurbereik-20-tot-100-c",
     "catalog": "catalogus-aandrijftechniek-150922",
+    "source_pdf": "catalogus-aandrijftechniek-150922.pdf",
     "brand": "Various",
     "category": "• Kooi: plaatstalen kooi",
     "variants": [
       {
         "sku": "RLNAEL205",
         "label": "binnenring • Temperatuurbereik: -20° tot +100°C",
+        "page": 23,
         "page_in_pdf": 23,
         "properties": {
           "type": "drive_component"
@@ -6568,6 +7057,7 @@
       {
         "sku": "RLNAEL205",
         "label": "binnenring • Temperatuurbereik: -20° tot +100°C",
+        "page": 23,
         "page_in_pdf": 23,
         "properties": {
           "type": "drive_component"
@@ -6582,6 +7072,7 @@
       {
         "sku": "RLNAEL207",
         "label": "binnenring • Temperatuurbereik: -20° tot +100°C",
+        "page": 23,
         "page_in_pdf": 23,
         "properties": {
           "type": "drive_component"
@@ -6596,6 +7087,7 @@
       {
         "sku": "RLNAEL208",
         "label": "binnenring • Temperatuurbereik: -20° tot +100°C",
+        "page": 23,
         "page_in_pdf": 23,
         "properties": {
           "type": "drive_component"
@@ -6610,6 +7102,7 @@
       {
         "sku": "RLNAEL209",
         "label": "binnenring • Temperatuurbereik: -20° tot +100°C",
+        "page": 23,
         "page_in_pdf": 23,
         "properties": {
           "type": "drive_component"
@@ -6624,6 +7117,7 @@
       {
         "sku": "RLNAEL210",
         "label": "binnenring • Temperatuurbereik: -20° tot +100°C",
+        "page": 23,
         "page_in_pdf": 23,
         "properties": {
           "type": "drive_component"
@@ -6638,6 +7132,7 @@
       {
         "sku": "RLNUEL205",
         "label": "binnenring • Temperatuurbereik: -20° tot +100°C",
+        "page": 24,
         "page_in_pdf": 24,
         "properties": {
           "type": "drive_component"
@@ -6652,6 +7147,7 @@
       {
         "sku": "RLNUEL205",
         "label": "binnenring • Temperatuurbereik: -20° tot +100°C",
+        "page": 24,
         "page_in_pdf": 24,
         "properties": {
           "type": "drive_component"
@@ -6666,6 +7162,7 @@
       {
         "sku": "RLNUEL207",
         "label": "binnenring • Temperatuurbereik: -20° tot +100°C",
+        "page": 24,
         "page_in_pdf": 24,
         "properties": {
           "type": "drive_component"
@@ -6680,6 +7177,7 @@
       {
         "sku": "RLNUEL207",
         "label": "binnenring • Temperatuurbereik: -20° tot +100°C",
+        "page": 24,
         "page_in_pdf": 24,
         "properties": {
           "type": "drive_component"
@@ -6694,6 +7192,7 @@
       {
         "sku": "RLNUEL209",
         "label": "binnenring • Temperatuurbereik: -20° tot +100°C",
+        "page": 24,
         "page_in_pdf": 24,
         "properties": {
           "type": "drive_component"
@@ -6708,6 +7207,7 @@
       {
         "sku": "RLNUEL210",
         "label": "binnenring • Temperatuurbereik: -20° tot +100°C",
+        "page": 24,
         "page_in_pdf": 24,
         "properties": {
           "type": "drive_component"
@@ -6722,6 +7222,7 @@
       {
         "sku": "RLNUEL211",
         "label": "binnenring • Temperatuurbereik: -20° tot +100°C",
+        "page": 24,
         "page_in_pdf": 24,
         "properties": {
           "type": "drive_component"
@@ -6736,6 +7237,7 @@
       {
         "sku": "RLNUEL212",
         "label": "binnenring • Temperatuurbereik: -20° tot +100°C",
+        "page": 24,
         "page_in_pdf": 24,
         "properties": {
           "type": "drive_component"
@@ -6749,29 +7251,30 @@
       }
     ],
     "images": [
-      "images/catalogus-aandrijftechniek-150922/buitenring-zonder-groef-of-flens__rln6001.webp",
-      "images/catalogus-aandrijftechniek-150922/catalogus-aandrijftechniek-150__p25__binnenring__RLNUK206-RLNUK206-RLNUK208__v3.webp"
+      "images/catalogus-aandrijftechniek-150922/catalogus-aandrijftechniek-150__p23__binnenring-temperatuurbereik-20-tot-100-__RLNAEL205-RLNAEL205-RLNAEL207.webp"
     ],
     "variant_count": 14,
     "default_variant_sku": "RLNAEL205",
     "media": [
       {
         "role": "main",
-        "url": "images/catalogus-aandrijftechniek-150922/buitenring-zonder-groef-of-flens__rln6001.webp"
+        "url": "images/catalogus-aandrijftechniek-150922/catalogus-aandrijftechniek-150__p23__binnenring-temperatuurbereik-20-tot-100-__RLNAEL205-RLNAEL205-RLNAEL207.webp"
       }
     ]
   },
   {
-    "group_id": "catalogus-aandrijftechniek-150922-productreeks-fabrikant-cs200-rubberafdichting-2rs",
+    "group_id": "catalogus-aandrijftechniek-150922-catalogus-aandrijftechniek-150922-productreeks-fabrikant-cs200-rubberafdichting-2rs",
     "name": "• Productreeks fabrikant: CS200- rubberafdichting (2RS)",
-    "family": "productreeks-fabrikant-cs200-rubberafdichting-2rs",
+    "family": "catalogus-aandrijftechniek-150922__productreeks-fabrikant-cs200-rubberafdichting-2rs",
     "catalog": "catalogus-aandrijftechniek-150922",
+    "source_pdf": "catalogus-aandrijftechniek-150922.pdf",
     "brand": "Various",
     "category": "• Binnenring: geen verbrede • Temperatuurbereik: -20° tot +100°C",
     "variants": [
       {
         "sku": "RLNCS203",
         "label": "• Productreeks fabrikant: CS200- rubberafdichting (2RS)",
+        "page": 22,
         "page_in_pdf": 22,
         "properties": {
           "type": "drive_component"
@@ -6786,6 +7289,7 @@
       {
         "sku": "RLNCS204",
         "label": "• Productreeks fabrikant: CS200- rubberafdichting (2RS)",
+        "page": 22,
         "page_in_pdf": 22,
         "properties": {
           "type": "drive_component"
@@ -6800,6 +7304,7 @@
       {
         "sku": "RLNCS206",
         "label": "• Productreeks fabrikant: CS200- rubberafdichting (2RS)",
+        "page": 22,
         "page_in_pdf": 22,
         "properties": {
           "type": "drive_component"
@@ -6814,6 +7319,7 @@
       {
         "sku": "RLNCS206",
         "label": "• Productreeks fabrikant: CS200- rubberafdichting (2RS)",
+        "page": 22,
         "page_in_pdf": 22,
         "properties": {
           "type": "drive_component"
@@ -6828,6 +7334,7 @@
       {
         "sku": "RLNCS208",
         "label": "• Productreeks fabrikant: CS200- rubberafdichting (2RS)",
+        "page": 22,
         "page_in_pdf": 22,
         "properties": {
           "type": "drive_component"
@@ -6842,6 +7349,7 @@
       {
         "sku": "RLNCS208",
         "label": "• Productreeks fabrikant: CS200- rubberafdichting (2RS)",
+        "page": 22,
         "page_in_pdf": 22,
         "properties": {
           "type": "drive_component"
@@ -6856,6 +7364,7 @@
       {
         "sku": "RLNCS210",
         "label": "• Productreeks fabrikant: CS200- rubberafdichting (2RS)",
+        "page": 22,
         "page_in_pdf": 22,
         "properties": {
           "type": "drive_component"
@@ -6869,7 +7378,6 @@
       }
     ],
     "images": [
-      "images/catalogus-aandrijftechniek-150922/productreeks-fabrikant-cs200-rubberafdichting-2rs__rlncs203.webp",
       "images/catalogus-aandrijftechniek-150922/catalogus-aandrijftechniek-150__p22__productreeks-fabrikant-cs200-rubberafdic__RLNCS203-RLNCS204-RLNCS206.webp"
     ],
     "variant_count": 7,
@@ -6877,21 +7385,23 @@
     "media": [
       {
         "role": "main",
-        "url": "images/catalogus-aandrijftechniek-150922/productreeks-fabrikant-cs200-rubberafdichting-2rs__rlncs203.webp"
+        "url": "images/catalogus-aandrijftechniek-150922/catalogus-aandrijftechniek-150__p22__productreeks-fabrikant-cs200-rubberafdic__RLNCS203-RLNCS204-RLNCS206.webp"
       }
     ]
   },
   {
-    "group_id": "catalogus-aandrijftechniek-150922-binnenring-tweezijdig-verbrede-temperatuurbereik-20-tot-120-c",
+    "group_id": "catalogus-aandrijftechniek-150922-catalogus-aandrijftechniek-150922-binnenring-tweezijdig-verbrede-temperatuurbereik-20-tot-120-c",
     "name": "• Binnenring: tweezijdig verbrede • Temperatuurbereik: -20° tot +120°C",
-    "family": "binnenring-tweezijdig-verbrede-temperatuurbereik-20-tot-120-c",
+    "family": "catalogus-aandrijftechniek-150922__binnenring-tweezijdig-verbrede-temperatuurbereik-20-tot-120-c",
     "catalog": "catalogus-aandrijftechniek-150922",
+    "source_pdf": "catalogus-aandrijftechniek-150922.pdf",
     "brand": "Various",
     "category": "binnenring",
     "variants": [
       {
         "sku": "RLNUC205",
         "label": "• Binnenring: tweezijdig verbrede • Temperatuurbereik: -20° tot +120°C",
+        "page": 20,
         "page_in_pdf": 20,
         "properties": {
           "type": "drive_component"
@@ -6906,6 +7416,7 @@
       {
         "sku": "RLNUC205",
         "label": "• Binnenring: tweezijdig verbrede • Temperatuurbereik: -20° tot +120°C",
+        "page": 20,
         "page_in_pdf": 20,
         "properties": {
           "type": "drive_component"
@@ -6920,6 +7431,7 @@
       {
         "sku": "RLNUC207",
         "label": "• Binnenring: tweezijdig verbrede • Temperatuurbereik: -20° tot +120°C",
+        "page": 20,
         "page_in_pdf": 20,
         "properties": {
           "type": "drive_component"
@@ -6934,6 +7446,7 @@
       {
         "sku": "RLNUC207",
         "label": "• Binnenring: tweezijdig verbrede • Temperatuurbereik: -20° tot +120°C",
+        "page": 20,
         "page_in_pdf": 20,
         "properties": {
           "type": "drive_component"
@@ -6948,6 +7461,7 @@
       {
         "sku": "RLNUC209",
         "label": "• Binnenring: tweezijdig verbrede • Temperatuurbereik: -20° tot +120°C",
+        "page": 20,
         "page_in_pdf": 20,
         "properties": {
           "type": "drive_component"
@@ -6962,6 +7476,7 @@
       {
         "sku": "RLNUC209",
         "label": "• Binnenring: tweezijdig verbrede • Temperatuurbereik: -20° tot +120°C",
+        "page": 20,
         "page_in_pdf": 20,
         "properties": {
           "type": "drive_component"
@@ -6976,6 +7491,7 @@
       {
         "sku": "RLNUC211",
         "label": "• Binnenring: tweezijdig verbrede • Temperatuurbereik: -20° tot +120°C",
+        "page": 20,
         "page_in_pdf": 20,
         "properties": {
           "type": "drive_component"
@@ -6990,6 +7506,7 @@
       {
         "sku": "RLNUC211",
         "label": "• Binnenring: tweezijdig verbrede • Temperatuurbereik: -20° tot +120°C",
+        "page": 20,
         "page_in_pdf": 20,
         "properties": {
           "type": "drive_component"
@@ -7004,6 +7521,7 @@
       {
         "sku": "RLNUC214",
         "label": "• Binnenring: tweezijdig verbrede • Temperatuurbereik: -20° tot +120°C",
+        "page": 20,
         "page_in_pdf": 20,
         "properties": {
           "type": "drive_component"
@@ -7018,6 +7536,7 @@
       {
         "sku": "RLNUC216",
         "label": "• Binnenring: tweezijdig verbrede • Temperatuurbereik: -20° tot +120°C",
+        "page": 20,
         "page_in_pdf": 20,
         "properties": {
           "type": "drive_component"
@@ -7031,29 +7550,30 @@
       }
     ],
     "images": [
-      "images/catalogus-aandrijftechniek-150922/buitenring-zonder-groef-of-flens__rln6001.webp",
-      "images/catalogus-aandrijftechniek-150922/catalogus-aandrijftechniek-150__p25__binnenring__RLNUK206-RLNUK206-RLNUK208__v3.webp"
+      "images/catalogus-aandrijftechniek-150922/catalogus-aandrijftechniek-150__p20__binnenring-tweezijdig-verbrede-temperatu__RLNUC205-RLNUC205-RLNUC207__v1.webp"
     ],
     "variant_count": 10,
     "default_variant_sku": "RLNUC205",
     "media": [
       {
         "role": "main",
-        "url": "images/catalogus-aandrijftechniek-150922/buitenring-zonder-groef-of-flens__rln6001.webp"
+        "url": "images/catalogus-aandrijftechniek-150922/catalogus-aandrijftechniek-150__p20__binnenring-tweezijdig-verbrede-temperatu__RLNUC205-RLNUC205-RLNUC207__v1.webp"
       }
     ]
   },
   {
-    "group_id": "catalogus-aandrijftechniek-150922-binnenring-temperatuurbereik-20-tot-120-c",
+    "group_id": "catalogus-aandrijftechniek-150922-catalogus-aandrijftechniek-150922-binnenring-temperatuurbereik-20-tot-120-c",
     "name": "binnenring • Temperatuurbereik: -20° tot +120°C",
-    "family": "binnenring-temperatuurbereik-20-tot-120-c",
+    "family": "catalogus-aandrijftechniek-150922__binnenring-temperatuurbereik-20-tot-120-c",
     "catalog": "catalogus-aandrijftechniek-150922",
+    "source_pdf": "catalogus-aandrijftechniek-150922.pdf",
     "brand": "Various",
     "category": "binnenring • Temperatuurbereik: -20° tot +120°C",
     "variants": [
       {
         "sku": "RLNUC310",
         "label": "binnenring • Temperatuurbereik: -20° tot +120°C",
+        "page": 25,
         "page_in_pdf": 25,
         "properties": {
           "type": "drive_component"
@@ -7067,7 +7587,6 @@
       }
     ],
     "images": [
-      "images/catalogus-aandrijftechniek-150922/binnenring-temperatuurbereik-20-tot-120-c__rlnuc310.webp",
       "images/catalogus-aandrijftechniek-150922/catalogus-aandrijftechniek-150__p25__binnenring-temperatuurbereik-20-tot-120-__RLNUC310.webp"
     ],
     "variant_count": 1,
@@ -7075,21 +7594,23 @@
     "media": [
       {
         "role": "main",
-        "url": "images/catalogus-aandrijftechniek-150922/binnenring-temperatuurbereik-20-tot-120-c__rlnuc310.webp"
+        "url": "images/catalogus-aandrijftechniek-150922/catalogus-aandrijftechniek-150__p25__binnenring-temperatuurbereik-20-tot-120-__RLNUC310.webp"
       }
     ]
   },
   {
-    "group_id": "catalogus-aandrijftechniek-150922-binnenring",
+    "group_id": "catalogus-aandrijftechniek-150922-catalogus-aandrijftechniek-150922-binnenring",
     "name": "binnenring",
-    "family": "binnenring",
+    "family": "catalogus-aandrijftechniek-150922__binnenring",
     "catalog": "catalogus-aandrijftechniek-150922",
+    "source_pdf": "catalogus-aandrijftechniek-150922.pdf",
     "brand": "Various",
     "category": "• Kooi: plaatstalen kooi",
     "variants": [
       {
         "sku": "RLNUK206",
         "label": "binnenring",
+        "page": 25,
         "page_in_pdf": 25,
         "properties": {
           "type": "drive_component"
@@ -7104,6 +7625,7 @@
       {
         "sku": "RLNUK206",
         "label": "binnenring",
+        "page": 25,
         "page_in_pdf": 25,
         "properties": {
           "type": "drive_component"
@@ -7118,6 +7640,7 @@
       {
         "sku": "RLNUK208",
         "label": "binnenring",
+        "page": 25,
         "page_in_pdf": 25,
         "properties": {
           "type": "drive_component"
@@ -7132,6 +7655,7 @@
       {
         "sku": "RLNUK208",
         "label": "binnenring",
+        "page": 25,
         "page_in_pdf": 25,
         "properties": {
           "type": "drive_component"
@@ -7146,6 +7670,7 @@
       {
         "sku": "RLNUK210",
         "label": "binnenring",
+        "page": 25,
         "page_in_pdf": 25,
         "properties": {
           "type": "drive_component"
@@ -7160,6 +7685,7 @@
       {
         "sku": "RLNUK211",
         "label": "binnenring",
+        "page": 25,
         "page_in_pdf": 25,
         "properties": {
           "type": "drive_component"
@@ -7174,6 +7700,7 @@
       {
         "sku": "RLNUK212",
         "label": "binnenring",
+        "page": 25,
         "page_in_pdf": 25,
         "properties": {
           "type": "drive_component"
@@ -7188,6 +7715,7 @@
       {
         "sku": "RLNUK216",
         "label": "binnenring",
+        "page": 25,
         "page_in_pdf": 25,
         "properties": {
           "type": "drive_component"
@@ -7202,6 +7730,7 @@
       {
         "sku": "RLNUK310",
         "label": "binnenring",
+        "page": 26,
         "page_in_pdf": 26,
         "properties": {
           "type": "drive_component"
@@ -7216,6 +7745,7 @@
       {
         "sku": "RLNUK312",
         "label": "binnenring",
+        "page": 26,
         "page_in_pdf": 26,
         "properties": {
           "type": "drive_component"
@@ -7230,6 +7760,7 @@
       {
         "sku": "RLNUK313",
         "label": "binnenring",
+        "page": 26,
         "page_in_pdf": 26,
         "properties": {
           "type": "drive_component"
@@ -7244,6 +7775,7 @@
       {
         "sku": "SKFYEL207",
         "label": "binnenring",
+        "page": 24,
         "page_in_pdf": 24,
         "properties": {
           "type": "drive_component"
@@ -7257,6 +7789,7 @@
       {
         "sku": "SKFYET204",
         "label": "binnenring",
+        "page": 23,
         "page_in_pdf": 23,
         "properties": {
           "type": "drive_component"
@@ -7270,6 +7803,7 @@
       {
         "sku": "SKFYET205",
         "label": "binnenring",
+        "page": 23,
         "page_in_pdf": 23,
         "properties": {
           "type": "drive_component"
@@ -7283,6 +7817,7 @@
       {
         "sku": "SKFYET207",
         "label": "binnenring",
+        "page": 23,
         "page_in_pdf": 23,
         "properties": {
           "type": "drive_component"
@@ -7296,6 +7831,7 @@
       {
         "sku": "SKFYET207",
         "label": "binnenring",
+        "page": 23,
         "page_in_pdf": 23,
         "properties": {
           "type": "drive_component"
@@ -7309,6 +7845,7 @@
       {
         "sku": "SKFYET209",
         "label": "binnenring",
+        "page": 23,
         "page_in_pdf": 23,
         "properties": {
           "type": "drive_component"
@@ -7322,6 +7859,7 @@
       {
         "sku": "SKFYET209",
         "label": "binnenring",
+        "page": 23,
         "page_in_pdf": 23,
         "properties": {
           "type": "drive_component"
@@ -7335,6 +7873,7 @@
       {
         "sku": "SKFYET211",
         "label": "binnenring",
+        "page": 23,
         "page_in_pdf": 23,
         "properties": {
           "type": "drive_component"
@@ -7347,31 +7886,30 @@
       }
     ],
     "images": [
-      "images/catalogus-aandrijftechniek-150922/binnenring__skfyet204.webp",
-      "images/catalogus-aandrijftechniek-150922/binnenring__skfyel207__img2.webp",
-      "images/catalogus-aandrijftechniek-150922/buitenring-zonder-groef-of-flens__rln6001.webp",
-      "images/catalogus-aandrijftechniek-150922/catalogus-aandrijftechniek-150__p23__binnenring__SKFYET204-SKFYET205-SKFYET207.webp"
+      "images/catalogus-aandrijftechniek-150922/catalogus-aandrijftechniek-150__p26__binnenring__RLNUK310-RLNUK312-RLNUK313__v4.webp"
     ],
     "variant_count": 19,
     "default_variant_sku": "RLNUK206",
     "media": [
       {
         "role": "main",
-        "url": "images/catalogus-aandrijftechniek-150922/binnenring__skfyet204.webp"
+        "url": "images/catalogus-aandrijftechniek-150922/catalogus-aandrijftechniek-150__p26__binnenring__RLNUK310-RLNUK312-RLNUK313__v4.webp"
       }
     ]
   },
   {
-    "group_id": "catalogus-aandrijftechniek-150922-buitenring-bol-en-voorzien-van",
+    "group_id": "catalogus-aandrijftechniek-150922-catalogus-aandrijftechniek-150922-buitenring-bol-en-voorzien-van",
     "name": "• Buitenring: bol en voorzien van",
-    "family": "buitenring-bol-en-voorzien-van",
+    "family": "catalogus-aandrijftechniek-150922__buitenring-bol-en-voorzien-van",
     "catalog": "catalogus-aandrijftechniek-150922",
+    "source_pdf": "catalogus-aandrijftechniek-150922.pdf",
     "brand": "Various",
     "category": "smeergaten",
     "variants": [
       {
         "sku": "SKFYAR205",
         "label": "• Buitenring: bol en voorzien van",
+        "page": 21,
         "page_in_pdf": 21,
         "properties": {
           "type": "drive_component"
@@ -7385,6 +7923,7 @@
       {
         "sku": "SKFYAR205",
         "label": "• Buitenring: bol en voorzien van",
+        "page": 21,
         "page_in_pdf": 21,
         "properties": {
           "type": "drive_component"
@@ -7398,6 +7937,7 @@
       {
         "sku": "SKFYAR207",
         "label": "• Buitenring: bol en voorzien van",
+        "page": 21,
         "page_in_pdf": 21,
         "properties": {
           "type": "drive_component"
@@ -7411,6 +7951,7 @@
       {
         "sku": "SKFYAR207",
         "label": "• Buitenring: bol en voorzien van",
+        "page": 21,
         "page_in_pdf": 21,
         "properties": {
           "type": "drive_component"
@@ -7424,6 +7965,7 @@
       {
         "sku": "SKFYAR210",
         "label": "• Buitenring: bol en voorzien van",
+        "page": 21,
         "page_in_pdf": 21,
         "properties": {
           "type": "drive_component"
@@ -7437,6 +7979,7 @@
       {
         "sku": "SKFYAR211",
         "label": "• Buitenring: bol en voorzien van",
+        "page": 21,
         "page_in_pdf": 21,
         "properties": {
           "type": "drive_component"
@@ -7450,6 +7993,7 @@
       {
         "sku": "SKFYAR212",
         "label": "• Buitenring: bol en voorzien van",
+        "page": 21,
         "page_in_pdf": 21,
         "properties": {
           "type": "drive_component"
@@ -7463,6 +8007,7 @@
       {
         "sku": "SKFYAR213",
         "label": "• Buitenring: bol en voorzien van",
+        "page": 21,
         "page_in_pdf": 21,
         "properties": {
           "type": "drive_component"
@@ -7476,6 +8021,7 @@
       {
         "sku": "SKFYAT209",
         "label": "• Buitenring: bol en voorzien van",
+        "page": 22,
         "page_in_pdf": 22,
         "properties": {
           "type": "drive_component"
@@ -7488,29 +8034,30 @@
       }
     ],
     "images": [
-      "images/catalogus-aandrijftechniek-150922/buitenring-bol-en-voorzien-van__skfyar205.webp",
-      "images/catalogus-aandrijftechniek-150922/catalogus-aandrijftechniek-150__p22__buitenring-bol-en-voorzien-van__SKFYAT209__v5.webp"
+      "images/catalogus-aandrijftechniek-150922/catalogus-aandrijftechniek-150__p22__buitenring-bol-en-voorzien-van__SKFYAT209__v3.webp"
     ],
     "variant_count": 9,
     "default_variant_sku": "SKFYAR205",
     "media": [
       {
         "role": "main",
-        "url": "images/catalogus-aandrijftechniek-150922/buitenring-bol-en-voorzien-van__skfyar205.webp"
+        "url": "images/catalogus-aandrijftechniek-150922/catalogus-aandrijftechniek-150__p22__buitenring-bol-en-voorzien-van__SKFYAT209__v3.webp"
       }
     ]
   },
   {
-    "group_id": "catalogus-aandrijftechniek-150922-materiaal-koordinlage-polyester",
+    "group_id": "catalogus-aandrijftechniek-150922-catalogus-aandrijftechniek-150922-materiaal-koordinlage-polyester",
     "name": "• Materiaal koordinlage: polyester",
-    "family": "materiaal-koordinlage-polyester",
+    "family": "catalogus-aandrijftechniek-150922__materiaal-koordinlage-polyester",
     "catalog": "catalogus-aandrijftechniek-150922",
+    "source_pdf": "catalogus-aandrijftechniek-150922.pdf",
     "brand": "Various",
     "category": "• Norm: DIN7753",
     "variants": [
       {
         "sku": "VRSPB2120",
         "label": "• Materiaal koordinlage: polyester",
+        "page": 77,
         "page_in_pdf": 77,
         "properties": {
           "type": "drive_component"
@@ -7524,6 +8071,7 @@
       {
         "sku": "VRSPB3150",
         "label": "• Materiaal koordinlage: polyester",
+        "page": 77,
         "page_in_pdf": 77,
         "properties": {
           "type": "drive_component"
@@ -7537,6 +8085,7 @@
       {
         "sku": "VRSPB3750",
         "label": "• Materiaal koordinlage: polyester",
+        "page": 77,
         "page_in_pdf": 77,
         "properties": {
           "type": "drive_component"
@@ -7550,6 +8099,7 @@
       {
         "sku": "VRSPZ1587",
         "label": "• Materiaal koordinlage: polyester",
+        "page": 77,
         "page_in_pdf": 77,
         "properties": {
           "type": "drive_component"
@@ -7563,6 +8113,7 @@
       {
         "sku": "VRSPZ1937",
         "label": "• Materiaal koordinlage: polyester",
+        "page": 77,
         "page_in_pdf": 77,
         "properties": {
           "type": "drive_component"
@@ -7575,15 +8126,14 @@
       }
     ],
     "images": [
-      "images/catalogus-aandrijftechniek-150922/temperatuurbereik-40-c-tot-70-c__vra405.webp",
-      "images/catalogus-aandrijftechniek-150922/catalogus-aandrijftechniek-150__p74__temperatuurbereik-40-c-tot-70-c__VRA405__v1.webp"
+      "images/catalogus-aandrijftechniek-150922/catalogus-aandrijftechniek-150__p77__materiaal-koordinlage-polyester__VRSPB2120-VRSPB3150-VRSPB3750__v1.webp"
     ],
     "variant_count": 5,
     "default_variant_sku": "VRSPB2120",
     "media": [
       {
         "role": "main",
-        "url": "images/catalogus-aandrijftechniek-150922/temperatuurbereik-40-c-tot-70-c__vra405.webp"
+        "url": "images/catalogus-aandrijftechniek-150922/catalogus-aandrijftechniek-150__p77__materiaal-koordinlage-polyester__VRSPB2120-VRSPB3150-VRSPB3750__v1.webp"
       }
     ]
   }

@@ -1,7 +1,6 @@
 [
   {
     "image": "images/pomp-specials/pomp-specials__p18__huishoudelijk-landbouw-industrie__02350025-X1106034.webp",
-    "series_image": "images/pomp-specials/huishoudelijk-landbouw-industrie__02350025.webp",
     "all_images": [],
     "catalog": "pomp-specials",
     "source_pdf": "pomp-specials.pdf",
@@ -28,7 +27,7 @@
         },
         "raw": {
           "sku": "02350025",
-          "series_id": "huishoudelijk-landbouw-industrie",
+          "series_id": "pomp-specials__huishoudelijk-landbouw-industrie",
           "series_name": "huishoudelijk, landbouw, industrie",
           "source_pdf": "pomp-specials.pdf",
           "page": 18,
@@ -55,7 +54,6 @@
             "family_id": null,
             "sku_series": null
           },
-          "series_image": "images/pomp-specials/huishoudelijk-landbouw-industrie__02350025.webp",
           "image": "images/pomp-specials/pomp-specials__p18__huishoudelijk-landbouw-industrie__02350025-X1106034.webp"
         }
       },
@@ -80,7 +78,7 @@
         },
         "raw": {
           "sku": "X1106034",
-          "series_id": "huishoudelijk-landbouw-industrie",
+          "series_id": "pomp-specials__huishoudelijk-landbouw-industrie",
           "series_name": "huishoudelijk, landbouw, industrie",
           "source_pdf": "pomp-specials.pdf",
           "page": 18,
@@ -107,7 +105,6 @@
             "family_id": null,
             "sku_series": null
           },
-          "series_image": "images/pomp-specials/huishoudelijk-landbouw-industrie__02350025.webp",
           "image": "images/pomp-specials/pomp-specials__p18__huishoudelijk-landbouw-industrie__02350025-X1106034.webp"
         }
       },
@@ -131,7 +128,7 @@
         },
         "raw": {
           "sku": null,
-          "series_id": "huishoudelijk-landbouw-industrie",
+          "series_id": "pomp-specials__huishoudelijk-landbouw-industrie",
           "series_name": "huishoudelijk, landbouw, industrie",
           "source_pdf": "pomp-specials.pdf",
           "page": 18,
@@ -158,7 +155,6 @@
             "family_id": null,
             "sku_series": null
           },
-          "series_image": "images/pomp-specials/huishoudelijk-landbouw-industrie__02350025.webp",
           "image": "images/pomp-specials/pomp-specials__p18__huishoudelijk-landbouw-industrie__02350025-X1106034.webp"
         }
       },
@@ -182,7 +178,7 @@
         },
         "raw": {
           "sku": null,
-          "series_id": "huishoudelijk-landbouw-industrie",
+          "series_id": "pomp-specials__huishoudelijk-landbouw-industrie",
           "series_name": "huishoudelijk, landbouw, industrie",
           "source_pdf": "pomp-specials.pdf",
           "page": 18,
@@ -209,7 +205,6 @@
             "family_id": null,
             "sku_series": null
           },
-          "series_image": "images/pomp-specials/huishoudelijk-landbouw-industrie__02350025.webp",
           "image": "images/pomp-specials/pomp-specials__p18__huishoudelijk-landbouw-industrie__02350025-X1106034.webp"
         }
       }
@@ -217,7 +212,6 @@
   },
   {
     "image": "images/pomp-specials/pomp-specials__p18__variaties__09050229.webp",
-    "series_image": "images/pomp-specials/variaties__09050229.webp",
     "all_images": [],
     "catalog": "pomp-specials",
     "source_pdf": "pomp-specials.pdf",
@@ -246,7 +240,7 @@
         },
         "raw": {
           "sku": "09050229",
-          "series_id": "variaties",
+          "series_id": "pomp-specials__variaties",
           "series_name": "VARIATIES",
           "source_pdf": "pomp-specials.pdf",
           "page": 18,
@@ -275,7 +269,6 @@
             "family_id": null,
             "sku_series": "s"
           },
-          "series_image": "images/pomp-specials/variaties__09050229.webp",
           "image": "images/pomp-specials/pomp-specials__p18__variaties__09050229.webp"
         }
       },
@@ -301,7 +294,7 @@
         },
         "raw": {
           "sku": null,
-          "series_id": "variaties",
+          "series_id": "pomp-specials__variaties",
           "series_name": "VARIATIES",
           "source_pdf": "pomp-specials.pdf",
           "page": 18,
@@ -330,7 +323,6 @@
             "family_id": null,
             "sku_series": "s"
           },
-          "series_image": "images/pomp-specials/variaties__09050229.webp",
           "image": "images/pomp-specials/pomp-specials__p18__variaties__09050229.webp"
         }
       }
@@ -338,7 +330,6 @@
   },
   {
     "image": "images/pomp-specials/pomp-specials__p17__auto-motor-boot__13520104.webp",
-    "series_image": "images/pomp-specials/landbouw-industrie-maritie__1-5-m3-h.webp",
     "all_images": [],
     "catalog": "pomp-specials",
     "source_pdf": "pomp-specials.pdf",
@@ -361,7 +352,7 @@
         },
         "raw": {
           "sku": "1,5 m3/h",
-          "series_id": "landbouw-industrie-maritie",
+          "series_id": "pomp-specials__landbouw-industrie-maritie",
           "series_name": "landbouw, industrie, maritie",
           "source_pdf": "pomp-specials.pdf",
           "page": 17,
@@ -384,7 +375,6 @@
             "family_id": null,
             "sku_series": null
           },
-          "series_image": "images/pomp-specials/landbouw-industrie-maritie__1-5-m3-h.webp",
           "image": "images/pomp-specials/pomp-specials__p17__auto-motor-boot__13520104.webp"
         }
       },
@@ -406,7 +396,7 @@
         },
         "raw": {
           "sku": "13520104",
-          "series_id": "auto-motor-boot",
+          "series_id": "pomp-specials__auto-motor-boot",
           "series_name": "auto, motor, boot",
           "source_pdf": "pomp-specials.pdf",
           "page": 17,
@@ -430,7 +420,6 @@
             "family_id": null,
             "sku_series": null
           },
-          "series_image": "images/pomp-specials/auto-motor-boot__13520104.webp",
           "image": "images/pomp-specials/pomp-specials__p17__auto-motor-boot__13520104.webp"
         }
       },
@@ -451,7 +440,7 @@
         },
         "raw": {
           "sku": "Debiet\nm3/h",
-          "series_id": "landbouw-industrie-maritie",
+          "series_id": "pomp-specials__landbouw-industrie-maritie",
           "series_name": "landbouw, industrie, maritie",
           "source_pdf": "pomp-specials.pdf",
           "page": 17,
@@ -474,7 +463,6 @@
             "family_id": null,
             "sku_series": null
           },
-          "series_image": "images/pomp-specials/landbouw-industrie-maritie__1-5-m3-h.webp",
           "image": "images/pomp-specials/pomp-specials__p17__auto-motor-boot__13520104.webp"
         }
       },
@@ -494,7 +482,7 @@
         },
         "raw": {
           "sku": null,
-          "series_id": "auto-motor-boot",
+          "series_id": "pomp-specials__auto-motor-boot",
           "series_name": "auto, motor, boot",
           "source_pdf": "pomp-specials.pdf",
           "page": 17,
@@ -518,7 +506,6 @@
             "family_id": null,
             "sku_series": null
           },
-          "series_image": "images/pomp-specials/auto-motor-boot__13520104.webp",
           "image": "images/pomp-specials/pomp-specials__p17__auto-motor-boot__13520104.webp"
         }
       },
@@ -538,7 +525,7 @@
         },
         "raw": {
           "sku": null,
-          "series_id": "auto-motor-boot",
+          "series_id": "pomp-specials__auto-motor-boot",
           "series_name": "auto, motor, boot",
           "source_pdf": "pomp-specials.pdf",
           "page": 17,
@@ -562,23 +549,18 @@
             "family_id": null,
             "sku_series": null
           },
-          "series_image": "images/pomp-specials/auto-motor-boot__13520104.webp",
           "image": "images/pomp-specials/pomp-specials__p17__auto-motor-boot__13520104.webp"
         }
       }
     ]
   },
   {
-    "image": "images/pomp-specials/pomp-specials__p12__industrie-bouw-landbouw-maritiem__13520047.webp",
-    "series_image": "images/pomp-specials/pomp-specials__p16__industrie-bouw-landbouw-maritiem__1__13520005-13730115-19220101.webp",
+    "image": "images/pomp-specials/pomp-specials__p16__industrie-bouw-landbouw-maritiem__13520005-13730115-19220101__v4.webp",
     "all_images": [
       "images/pomp-specials/pomp-specials__p12__industrie-bouw-landbouw-maritiem__13520047.webp",
-      "images/pomp-specials/pomp-specials__p12__industrie-bouw-landbouw__13520108-13520109__v2.webp",
-      "images/pomp-specials/pomp-specials__p13__industrie-bouw-landbouw-maritiem__13520048__v3.webp",
-      "images/pomp-specials/pomp-specials__p13__industrie-bouw-landbouw-maritiem__13520048__v4.webp",
-      "images/pomp-specials/pomp-specials__p13__industrie-bouw-landbouw-maritiem__13520048__v5.webp",
-      "images/pomp-specials/pomp-specials__p16__industrie-bouw-landbouw-maritiem__13520005-13730115-19220101__v6.webp",
-      "images/pomp-specials/pomp-specials__p16__industrie-bouw-landbouw-maritiem__13520005-13730115-19220101__v7.webp"
+      "images/pomp-specials/pomp-specials__p13__industrie-bouw-landbouw-maritiem__13520048__v2.webp",
+      "images/pomp-specials/pomp-specials__p16__industrie-bouw-landbouw-maritiem__13520005-13730115-19220101__v3.webp",
+      "images/pomp-specials/pomp-specials__p16__industrie-bouw-landbouw-maritiem__13520005-13730115-19220101__v4.webp"
     ],
     "catalog": "pomp-specials",
     "source_pdf": "pomp-specials.pdf",
@@ -605,7 +587,7 @@
         },
         "raw": {
           "sku": "13520005",
-          "series_id": "industrie-bouw-landbouw-maritiem",
+          "series_id": "pomp-specials__industrie-bouw-landbouw-maritiem",
           "series_name": "industrie, bouw, landbouw, maritiem",
           "source_pdf": "pomp-specials.pdf",
           "page": 16,
@@ -632,16 +614,12 @@
             "family_id": null,
             "sku_series": "k"
           },
-          "series_image": "images/pomp-specials/pomp-specials__p16__industrie-bouw-landbouw-maritiem__1__13520005-13730115-19220101.webp",
-          "image": "images/pomp-specials/pomp-specials__p12__industrie-bouw-landbouw-maritiem__13520047.webp",
+          "image": "images/pomp-specials/pomp-specials__p16__industrie-bouw-landbouw-maritiem__13520005-13730115-19220101__v4.webp",
           "images": [
             "images/pomp-specials/pomp-specials__p12__industrie-bouw-landbouw-maritiem__13520047.webp",
-            "images/pomp-specials/pomp-specials__p12__industrie-bouw-landbouw__13520108-13520109__v2.webp",
-            "images/pomp-specials/pomp-specials__p13__industrie-bouw-landbouw-maritiem__13520048__v3.webp",
-            "images/pomp-specials/pomp-specials__p13__industrie-bouw-landbouw-maritiem__13520048__v4.webp",
-            "images/pomp-specials/pomp-specials__p13__industrie-bouw-landbouw-maritiem__13520048__v5.webp",
-            "images/pomp-specials/pomp-specials__p16__industrie-bouw-landbouw-maritiem__13520005-13730115-19220101__v6.webp",
-            "images/pomp-specials/pomp-specials__p16__industrie-bouw-landbouw-maritiem__13520005-13730115-19220101__v7.webp"
+            "images/pomp-specials/pomp-specials__p13__industrie-bouw-landbouw-maritiem__13520048__v2.webp",
+            "images/pomp-specials/pomp-specials__p16__industrie-bouw-landbouw-maritiem__13520005-13730115-19220101__v3.webp",
+            "images/pomp-specials/pomp-specials__p16__industrie-bouw-landbouw-maritiem__13520005-13730115-19220101__v4.webp"
           ]
         }
       },
@@ -662,7 +640,7 @@
         },
         "raw": {
           "sku": "13520047",
-          "series_id": "industrie-bouw-landbouw-maritiem",
+          "series_id": "pomp-specials__industrie-bouw-landbouw-maritiem",
           "series_name": "industrie, bouw, landbouw, maritiem",
           "source_pdf": "pomp-specials.pdf",
           "page": 12,
@@ -686,16 +664,12 @@
             "family_id": null,
             "sku_series": null
           },
-          "series_image": "images/pomp-specials/industrie-bouw-landbouw-maritiem__13520047.webp",
-          "image": "images/pomp-specials/pomp-specials__p12__industrie-bouw-landbouw-maritiem__13520047.webp",
+          "image": "images/pomp-specials/pomp-specials__p16__industrie-bouw-landbouw-maritiem__13520005-13730115-19220101__v4.webp",
           "images": [
             "images/pomp-specials/pomp-specials__p12__industrie-bouw-landbouw-maritiem__13520047.webp",
-            "images/pomp-specials/pomp-specials__p12__industrie-bouw-landbouw__13520108-13520109__v2.webp",
-            "images/pomp-specials/pomp-specials__p13__industrie-bouw-landbouw-maritiem__13520048__v3.webp",
-            "images/pomp-specials/pomp-specials__p13__industrie-bouw-landbouw-maritiem__13520048__v4.webp",
-            "images/pomp-specials/pomp-specials__p13__industrie-bouw-landbouw-maritiem__13520048__v5.webp",
-            "images/pomp-specials/pomp-specials__p16__industrie-bouw-landbouw-maritiem__13520005-13730115-19220101__v6.webp",
-            "images/pomp-specials/pomp-specials__p16__industrie-bouw-landbouw-maritiem__13520005-13730115-19220101__v7.webp"
+            "images/pomp-specials/pomp-specials__p13__industrie-bouw-landbouw-maritiem__13520048__v2.webp",
+            "images/pomp-specials/pomp-specials__p16__industrie-bouw-landbouw-maritiem__13520005-13730115-19220101__v3.webp",
+            "images/pomp-specials/pomp-specials__p16__industrie-bouw-landbouw-maritiem__13520005-13730115-19220101__v4.webp"
           ]
         }
       },
@@ -720,7 +694,7 @@
         },
         "raw": {
           "sku": "13520048",
-          "series_id": "industrie-bouw-landbouw-maritiem",
+          "series_id": "pomp-specials__industrie-bouw-landbouw-maritiem",
           "series_name": "industrie, bouw, landbouw, maritiem",
           "source_pdf": "pomp-specials.pdf",
           "page": 13,
@@ -747,16 +721,12 @@
             "family_id": null,
             "sku_series": null
           },
-          "series_image": "images/pomp-specials/pomp-specials__p13__industrie-bouw-landbouw-maritiem__13520048__13520048.webp",
-          "image": "images/pomp-specials/pomp-specials__p12__industrie-bouw-landbouw-maritiem__13520047.webp",
+          "image": "images/pomp-specials/pomp-specials__p16__industrie-bouw-landbouw-maritiem__13520005-13730115-19220101__v4.webp",
           "images": [
             "images/pomp-specials/pomp-specials__p12__industrie-bouw-landbouw-maritiem__13520047.webp",
-            "images/pomp-specials/pomp-specials__p12__industrie-bouw-landbouw__13520108-13520109__v2.webp",
-            "images/pomp-specials/pomp-specials__p13__industrie-bouw-landbouw-maritiem__13520048__v3.webp",
-            "images/pomp-specials/pomp-specials__p13__industrie-bouw-landbouw-maritiem__13520048__v4.webp",
-            "images/pomp-specials/pomp-specials__p13__industrie-bouw-landbouw-maritiem__13520048__v5.webp",
-            "images/pomp-specials/pomp-specials__p16__industrie-bouw-landbouw-maritiem__13520005-13730115-19220101__v6.webp",
-            "images/pomp-specials/pomp-specials__p16__industrie-bouw-landbouw-maritiem__13520005-13730115-19220101__v7.webp"
+            "images/pomp-specials/pomp-specials__p13__industrie-bouw-landbouw-maritiem__13520048__v2.webp",
+            "images/pomp-specials/pomp-specials__p16__industrie-bouw-landbouw-maritiem__13520005-13730115-19220101__v3.webp",
+            "images/pomp-specials/pomp-specials__p16__industrie-bouw-landbouw-maritiem__13520005-13730115-19220101__v4.webp"
           ]
         }
       },
@@ -781,7 +751,7 @@
         },
         "raw": {
           "sku": "13730115",
-          "series_id": "industrie-bouw-landbouw-maritiem",
+          "series_id": "pomp-specials__industrie-bouw-landbouw-maritiem",
           "series_name": "industrie, bouw, landbouw, maritiem",
           "source_pdf": "pomp-specials.pdf",
           "page": 16,
@@ -808,16 +778,12 @@
             "family_id": null,
             "sku_series": "k"
           },
-          "series_image": "images/pomp-specials/pomp-specials__p16__industrie-bouw-landbouw-maritiem__1__13520005-13730115-19220101.webp",
-          "image": "images/pomp-specials/pomp-specials__p12__industrie-bouw-landbouw-maritiem__13520047.webp",
+          "image": "images/pomp-specials/pomp-specials__p16__industrie-bouw-landbouw-maritiem__13520005-13730115-19220101__v4.webp",
           "images": [
             "images/pomp-specials/pomp-specials__p12__industrie-bouw-landbouw-maritiem__13520047.webp",
-            "images/pomp-specials/pomp-specials__p12__industrie-bouw-landbouw__13520108-13520109__v2.webp",
-            "images/pomp-specials/pomp-specials__p13__industrie-bouw-landbouw-maritiem__13520048__v3.webp",
-            "images/pomp-specials/pomp-specials__p13__industrie-bouw-landbouw-maritiem__13520048__v4.webp",
-            "images/pomp-specials/pomp-specials__p13__industrie-bouw-landbouw-maritiem__13520048__v5.webp",
-            "images/pomp-specials/pomp-specials__p16__industrie-bouw-landbouw-maritiem__13520005-13730115-19220101__v6.webp",
-            "images/pomp-specials/pomp-specials__p16__industrie-bouw-landbouw-maritiem__13520005-13730115-19220101__v7.webp"
+            "images/pomp-specials/pomp-specials__p13__industrie-bouw-landbouw-maritiem__13520048__v2.webp",
+            "images/pomp-specials/pomp-specials__p16__industrie-bouw-landbouw-maritiem__13520005-13730115-19220101__v3.webp",
+            "images/pomp-specials/pomp-specials__p16__industrie-bouw-landbouw-maritiem__13520005-13730115-19220101__v4.webp"
           ]
         }
       },
@@ -842,7 +808,7 @@
         },
         "raw": {
           "sku": "19220101",
-          "series_id": "industrie-bouw-landbouw-maritiem",
+          "series_id": "pomp-specials__industrie-bouw-landbouw-maritiem",
           "series_name": "industrie, bouw, landbouw, maritiem",
           "source_pdf": "pomp-specials.pdf",
           "page": 16,
@@ -869,16 +835,12 @@
             "family_id": null,
             "sku_series": "k"
           },
-          "series_image": "images/pomp-specials/pomp-specials__p16__industrie-bouw-landbouw-maritiem__1__13520005-13730115-19220101.webp",
-          "image": "images/pomp-specials/pomp-specials__p12__industrie-bouw-landbouw-maritiem__13520047.webp",
+          "image": "images/pomp-specials/pomp-specials__p16__industrie-bouw-landbouw-maritiem__13520005-13730115-19220101__v4.webp",
           "images": [
             "images/pomp-specials/pomp-specials__p12__industrie-bouw-landbouw-maritiem__13520047.webp",
-            "images/pomp-specials/pomp-specials__p12__industrie-bouw-landbouw__13520108-13520109__v2.webp",
-            "images/pomp-specials/pomp-specials__p13__industrie-bouw-landbouw-maritiem__13520048__v3.webp",
-            "images/pomp-specials/pomp-specials__p13__industrie-bouw-landbouw-maritiem__13520048__v4.webp",
-            "images/pomp-specials/pomp-specials__p13__industrie-bouw-landbouw-maritiem__13520048__v5.webp",
-            "images/pomp-specials/pomp-specials__p16__industrie-bouw-landbouw-maritiem__13520005-13730115-19220101__v6.webp",
-            "images/pomp-specials/pomp-specials__p16__industrie-bouw-landbouw-maritiem__13520005-13730115-19220101__v7.webp"
+            "images/pomp-specials/pomp-specials__p13__industrie-bouw-landbouw-maritiem__13520048__v2.webp",
+            "images/pomp-specials/pomp-specials__p16__industrie-bouw-landbouw-maritiem__13520005-13730115-19220101__v3.webp",
+            "images/pomp-specials/pomp-specials__p16__industrie-bouw-landbouw-maritiem__13520005-13730115-19220101__v4.webp"
           ]
         }
       },
@@ -898,7 +860,7 @@
         },
         "raw": {
           "sku": null,
-          "series_id": "industrie-bouw-landbouw-maritiem",
+          "series_id": "pomp-specials__industrie-bouw-landbouw-maritiem",
           "series_name": "industrie, bouw, landbouw, maritiem",
           "source_pdf": "pomp-specials.pdf",
           "page": 12,
@@ -922,16 +884,12 @@
             "family_id": null,
             "sku_series": null
           },
-          "series_image": "images/pomp-specials/industrie-bouw-landbouw-maritiem__13520047.webp",
-          "image": "images/pomp-specials/pomp-specials__p12__industrie-bouw-landbouw-maritiem__13520047.webp",
+          "image": "images/pomp-specials/pomp-specials__p16__industrie-bouw-landbouw-maritiem__13520005-13730115-19220101__v4.webp",
           "images": [
             "images/pomp-specials/pomp-specials__p12__industrie-bouw-landbouw-maritiem__13520047.webp",
-            "images/pomp-specials/pomp-specials__p12__industrie-bouw-landbouw__13520108-13520109__v2.webp",
-            "images/pomp-specials/pomp-specials__p13__industrie-bouw-landbouw-maritiem__13520048__v3.webp",
-            "images/pomp-specials/pomp-specials__p13__industrie-bouw-landbouw-maritiem__13520048__v4.webp",
-            "images/pomp-specials/pomp-specials__p13__industrie-bouw-landbouw-maritiem__13520048__v5.webp",
-            "images/pomp-specials/pomp-specials__p16__industrie-bouw-landbouw-maritiem__13520005-13730115-19220101__v6.webp",
-            "images/pomp-specials/pomp-specials__p16__industrie-bouw-landbouw-maritiem__13520005-13730115-19220101__v7.webp"
+            "images/pomp-specials/pomp-specials__p13__industrie-bouw-landbouw-maritiem__13520048__v2.webp",
+            "images/pomp-specials/pomp-specials__p16__industrie-bouw-landbouw-maritiem__13520005-13730115-19220101__v3.webp",
+            "images/pomp-specials/pomp-specials__p16__industrie-bouw-landbouw-maritiem__13520005-13730115-19220101__v4.webp"
           ]
         }
       },
@@ -954,7 +912,7 @@
         },
         "raw": {
           "sku": null,
-          "series_id": "industrie-bouw-landbouw-maritiem",
+          "series_id": "pomp-specials__industrie-bouw-landbouw-maritiem",
           "series_name": "industrie, bouw, landbouw, maritiem",
           "source_pdf": "pomp-specials.pdf",
           "page": 13,
@@ -981,16 +939,12 @@
             "family_id": null,
             "sku_series": null
           },
-          "series_image": "images/pomp-specials/industrie-bouw-landbouw-maritiem__13520047.webp",
-          "image": "images/pomp-specials/pomp-specials__p12__industrie-bouw-landbouw-maritiem__13520047.webp",
+          "image": "images/pomp-specials/pomp-specials__p16__industrie-bouw-landbouw-maritiem__13520005-13730115-19220101__v4.webp",
           "images": [
             "images/pomp-specials/pomp-specials__p12__industrie-bouw-landbouw-maritiem__13520047.webp",
-            "images/pomp-specials/pomp-specials__p12__industrie-bouw-landbouw__13520108-13520109__v2.webp",
-            "images/pomp-specials/pomp-specials__p13__industrie-bouw-landbouw-maritiem__13520048__v3.webp",
-            "images/pomp-specials/pomp-specials__p13__industrie-bouw-landbouw-maritiem__13520048__v4.webp",
-            "images/pomp-specials/pomp-specials__p13__industrie-bouw-landbouw-maritiem__13520048__v5.webp",
-            "images/pomp-specials/pomp-specials__p16__industrie-bouw-landbouw-maritiem__13520005-13730115-19220101__v6.webp",
-            "images/pomp-specials/pomp-specials__p16__industrie-bouw-landbouw-maritiem__13520005-13730115-19220101__v7.webp"
+            "images/pomp-specials/pomp-specials__p13__industrie-bouw-landbouw-maritiem__13520048__v2.webp",
+            "images/pomp-specials/pomp-specials__p16__industrie-bouw-landbouw-maritiem__13520005-13730115-19220101__v3.webp",
+            "images/pomp-specials/pomp-specials__p16__industrie-bouw-landbouw-maritiem__13520005-13730115-19220101__v4.webp"
           ]
         }
       },
@@ -1013,7 +967,7 @@
         },
         "raw": {
           "sku": null,
-          "series_id": "industrie-bouw-landbouw-maritiem",
+          "series_id": "pomp-specials__industrie-bouw-landbouw-maritiem",
           "series_name": "industrie, bouw, landbouw, maritiem",
           "source_pdf": "pomp-specials.pdf",
           "page": 13,
@@ -1040,16 +994,12 @@
             "family_id": null,
             "sku_series": null
           },
-          "series_image": "images/pomp-specials/industrie-bouw-landbouw-maritiem__13520047.webp",
-          "image": "images/pomp-specials/pomp-specials__p12__industrie-bouw-landbouw-maritiem__13520047.webp",
+          "image": "images/pomp-specials/pomp-specials__p16__industrie-bouw-landbouw-maritiem__13520005-13730115-19220101__v4.webp",
           "images": [
             "images/pomp-specials/pomp-specials__p12__industrie-bouw-landbouw-maritiem__13520047.webp",
-            "images/pomp-specials/pomp-specials__p12__industrie-bouw-landbouw__13520108-13520109__v2.webp",
-            "images/pomp-specials/pomp-specials__p13__industrie-bouw-landbouw-maritiem__13520048__v3.webp",
-            "images/pomp-specials/pomp-specials__p13__industrie-bouw-landbouw-maritiem__13520048__v4.webp",
-            "images/pomp-specials/pomp-specials__p13__industrie-bouw-landbouw-maritiem__13520048__v5.webp",
-            "images/pomp-specials/pomp-specials__p16__industrie-bouw-landbouw-maritiem__13520005-13730115-19220101__v6.webp",
-            "images/pomp-specials/pomp-specials__p16__industrie-bouw-landbouw-maritiem__13520005-13730115-19220101__v7.webp"
+            "images/pomp-specials/pomp-specials__p13__industrie-bouw-landbouw-maritiem__13520048__v2.webp",
+            "images/pomp-specials/pomp-specials__p16__industrie-bouw-landbouw-maritiem__13520005-13730115-19220101__v3.webp",
+            "images/pomp-specials/pomp-specials__p16__industrie-bouw-landbouw-maritiem__13520005-13730115-19220101__v4.webp"
           ]
         }
       },
@@ -1073,7 +1023,7 @@
         },
         "raw": {
           "sku": null,
-          "series_id": "industrie-bouw-landbouw-maritiem",
+          "series_id": "pomp-specials__industrie-bouw-landbouw-maritiem",
           "series_name": "industrie, bouw, landbouw, maritiem",
           "source_pdf": "pomp-specials.pdf",
           "page": 16,
@@ -1100,16 +1050,12 @@
             "family_id": null,
             "sku_series": "k"
           },
-          "series_image": "images/pomp-specials/industrie-bouw-landbouw-maritiem__13520047.webp",
-          "image": "images/pomp-specials/pomp-specials__p12__industrie-bouw-landbouw-maritiem__13520047.webp",
+          "image": "images/pomp-specials/pomp-specials__p16__industrie-bouw-landbouw-maritiem__13520005-13730115-19220101__v4.webp",
           "images": [
             "images/pomp-specials/pomp-specials__p12__industrie-bouw-landbouw-maritiem__13520047.webp",
-            "images/pomp-specials/pomp-specials__p12__industrie-bouw-landbouw__13520108-13520109__v2.webp",
-            "images/pomp-specials/pomp-specials__p13__industrie-bouw-landbouw-maritiem__13520048__v3.webp",
-            "images/pomp-specials/pomp-specials__p13__industrie-bouw-landbouw-maritiem__13520048__v4.webp",
-            "images/pomp-specials/pomp-specials__p13__industrie-bouw-landbouw-maritiem__13520048__v5.webp",
-            "images/pomp-specials/pomp-specials__p16__industrie-bouw-landbouw-maritiem__13520005-13730115-19220101__v6.webp",
-            "images/pomp-specials/pomp-specials__p16__industrie-bouw-landbouw-maritiem__13520005-13730115-19220101__v7.webp"
+            "images/pomp-specials/pomp-specials__p13__industrie-bouw-landbouw-maritiem__13520048__v2.webp",
+            "images/pomp-specials/pomp-specials__p16__industrie-bouw-landbouw-maritiem__13520005-13730115-19220101__v3.webp",
+            "images/pomp-specials/pomp-specials__p16__industrie-bouw-landbouw-maritiem__13520005-13730115-19220101__v4.webp"
           ]
         }
       },
@@ -1133,7 +1079,7 @@
         },
         "raw": {
           "sku": null,
-          "series_id": "industrie-bouw-landbouw-maritiem",
+          "series_id": "pomp-specials__industrie-bouw-landbouw-maritiem",
           "series_name": "industrie, bouw, landbouw, maritiem",
           "source_pdf": "pomp-specials.pdf",
           "page": 16,
@@ -1160,16 +1106,12 @@
             "family_id": null,
             "sku_series": "k"
           },
-          "series_image": "images/pomp-specials/industrie-bouw-landbouw-maritiem__13520047.webp",
-          "image": "images/pomp-specials/pomp-specials__p12__industrie-bouw-landbouw-maritiem__13520047.webp",
+          "image": "images/pomp-specials/pomp-specials__p16__industrie-bouw-landbouw-maritiem__13520005-13730115-19220101__v4.webp",
           "images": [
             "images/pomp-specials/pomp-specials__p12__industrie-bouw-landbouw-maritiem__13520047.webp",
-            "images/pomp-specials/pomp-specials__p12__industrie-bouw-landbouw__13520108-13520109__v2.webp",
-            "images/pomp-specials/pomp-specials__p13__industrie-bouw-landbouw-maritiem__13520048__v3.webp",
-            "images/pomp-specials/pomp-specials__p13__industrie-bouw-landbouw-maritiem__13520048__v4.webp",
-            "images/pomp-specials/pomp-specials__p13__industrie-bouw-landbouw-maritiem__13520048__v5.webp",
-            "images/pomp-specials/pomp-specials__p16__industrie-bouw-landbouw-maritiem__13520005-13730115-19220101__v6.webp",
-            "images/pomp-specials/pomp-specials__p16__industrie-bouw-landbouw-maritiem__13520005-13730115-19220101__v7.webp"
+            "images/pomp-specials/pomp-specials__p13__industrie-bouw-landbouw-maritiem__13520048__v2.webp",
+            "images/pomp-specials/pomp-specials__p16__industrie-bouw-landbouw-maritiem__13520005-13730115-19220101__v3.webp",
+            "images/pomp-specials/pomp-specials__p16__industrie-bouw-landbouw-maritiem__13520005-13730115-19220101__v4.webp"
           ]
         }
       },
@@ -1193,7 +1135,7 @@
         },
         "raw": {
           "sku": null,
-          "series_id": "industrie-bouw-landbouw-maritiem",
+          "series_id": "pomp-specials__industrie-bouw-landbouw-maritiem",
           "series_name": "industrie, bouw, landbouw, maritiem",
           "source_pdf": "pomp-specials.pdf",
           "page": 16,
@@ -1220,28 +1162,20 @@
             "family_id": null,
             "sku_series": "k"
           },
-          "series_image": "images/pomp-specials/industrie-bouw-landbouw-maritiem__13520047.webp",
-          "image": "images/pomp-specials/pomp-specials__p12__industrie-bouw-landbouw-maritiem__13520047.webp",
+          "image": "images/pomp-specials/pomp-specials__p16__industrie-bouw-landbouw-maritiem__13520005-13730115-19220101__v4.webp",
           "images": [
             "images/pomp-specials/pomp-specials__p12__industrie-bouw-landbouw-maritiem__13520047.webp",
-            "images/pomp-specials/pomp-specials__p12__industrie-bouw-landbouw__13520108-13520109__v2.webp",
-            "images/pomp-specials/pomp-specials__p13__industrie-bouw-landbouw-maritiem__13520048__v3.webp",
-            "images/pomp-specials/pomp-specials__p13__industrie-bouw-landbouw-maritiem__13520048__v4.webp",
-            "images/pomp-specials/pomp-specials__p13__industrie-bouw-landbouw-maritiem__13520048__v5.webp",
-            "images/pomp-specials/pomp-specials__p16__industrie-bouw-landbouw-maritiem__13520005-13730115-19220101__v6.webp",
-            "images/pomp-specials/pomp-specials__p16__industrie-bouw-landbouw-maritiem__13520005-13730115-19220101__v7.webp"
+            "images/pomp-specials/pomp-specials__p13__industrie-bouw-landbouw-maritiem__13520048__v2.webp",
+            "images/pomp-specials/pomp-specials__p16__industrie-bouw-landbouw-maritiem__13520005-13730115-19220101__v3.webp",
+            "images/pomp-specials/pomp-specials__p16__industrie-bouw-landbouw-maritiem__13520005-13730115-19220101__v4.webp"
           ]
         }
       }
     ]
   },
   {
-    "image": "images/pomp-specials/pomp-specials__p12__industrie-bouw-landbouw__13520108-13520109__v1.webp",
-    "series_image": "images/pomp-specials/industrie-bouw-landbouw__13520108.webp",
-    "all_images": [
-      "images/pomp-specials/pomp-specials__p12__industrie-bouw-landbouw__13520108-13520109__v1.webp",
-      "images/pomp-specials/pomp-specials__p12__industrie-bouw-landbouw__13520108-13520109__v2.webp"
-    ],
+    "image": "images/pomp-specials/pomp-specials__p12__industrie-bouw-landbouw__13520108-13520109.webp",
+    "all_images": [],
     "catalog": "pomp-specials",
     "source_pdf": "pomp-specials.pdf",
     "page": 12,
@@ -1269,7 +1203,7 @@
         },
         "raw": {
           "sku": "13520108",
-          "series_id": "industrie-bouw-landbouw",
+          "series_id": "pomp-specials__industrie-bouw-landbouw",
           "series_name": "industrie, bouw, landbouw",
           "source_pdf": "pomp-specials.pdf",
           "page": 12,
@@ -1298,12 +1232,7 @@
             "family_id": null,
             "sku_series": null
           },
-          "series_image": "images/pomp-specials/industrie-bouw-landbouw__13520108.webp",
-          "image": "images/pomp-specials/pomp-specials__p12__industrie-bouw-landbouw__13520108-13520109__v1.webp",
-          "images": [
-            "images/pomp-specials/pomp-specials__p12__industrie-bouw-landbouw__13520108-13520109__v1.webp",
-            "images/pomp-specials/pomp-specials__p12__industrie-bouw-landbouw__13520108-13520109__v2.webp"
-          ]
+          "image": "images/pomp-specials/pomp-specials__p12__industrie-bouw-landbouw__13520108-13520109.webp"
         }
       },
       {
@@ -1329,7 +1258,7 @@
         },
         "raw": {
           "sku": "13520109",
-          "series_id": "industrie-bouw-landbouw",
+          "series_id": "pomp-specials__industrie-bouw-landbouw",
           "series_name": "industrie, bouw, landbouw",
           "source_pdf": "pomp-specials.pdf",
           "page": 12,
@@ -1358,12 +1287,7 @@
             "family_id": null,
             "sku_series": null
           },
-          "series_image": "images/pomp-specials/industrie-bouw-landbouw__13520108.webp",
-          "image": "images/pomp-specials/pomp-specials__p12__industrie-bouw-landbouw__13520108-13520109__v1.webp",
-          "images": [
-            "images/pomp-specials/pomp-specials__p12__industrie-bouw-landbouw__13520108-13520109__v1.webp",
-            "images/pomp-specials/pomp-specials__p12__industrie-bouw-landbouw__13520108-13520109__v2.webp"
-          ]
+          "image": "images/pomp-specials/pomp-specials__p12__industrie-bouw-landbouw__13520108-13520109.webp"
         }
       },
       {
@@ -1391,7 +1315,7 @@
         },
         "raw": {
           "sku": null,
-          "series_id": "industrie-bouw-landbouw",
+          "series_id": "pomp-specials__industrie-bouw-landbouw",
           "series_name": "industrie, bouw, landbouw",
           "source_pdf": "pomp-specials.pdf",
           "page": 11,
@@ -1422,12 +1346,7 @@
             "family_id": null,
             "sku_series": null
           },
-          "series_image": "images/pomp-specials/industrie-bouw-landbouw__13520108.webp",
-          "image": "images/pomp-specials/pomp-specials__p12__industrie-bouw-landbouw__13520108-13520109__v1.webp",
-          "images": [
-            "images/pomp-specials/pomp-specials__p12__industrie-bouw-landbouw__13520108-13520109__v1.webp",
-            "images/pomp-specials/pomp-specials__p12__industrie-bouw-landbouw__13520108-13520109__v2.webp"
-          ]
+          "image": "images/pomp-specials/pomp-specials__p12__industrie-bouw-landbouw__13520108-13520109.webp"
         }
       },
       {
@@ -1452,7 +1371,7 @@
         },
         "raw": {
           "sku": null,
-          "series_id": "industrie-bouw-landbouw",
+          "series_id": "pomp-specials__industrie-bouw-landbouw",
           "series_name": "industrie, bouw, landbouw",
           "source_pdf": "pomp-specials.pdf",
           "page": 12,
@@ -1481,12 +1400,7 @@
             "family_id": null,
             "sku_series": null
           },
-          "series_image": "images/pomp-specials/industrie-bouw-landbouw__13520108.webp",
-          "image": "images/pomp-specials/pomp-specials__p12__industrie-bouw-landbouw__13520108-13520109__v1.webp",
-          "images": [
-            "images/pomp-specials/pomp-specials__p12__industrie-bouw-landbouw__13520108-13520109__v1.webp",
-            "images/pomp-specials/pomp-specials__p12__industrie-bouw-landbouw__13520108-13520109__v2.webp"
-          ]
+          "image": "images/pomp-specials/pomp-specials__p12__industrie-bouw-landbouw__13520108-13520109.webp"
         }
       },
       {
@@ -1506,7 +1420,7 @@
         },
         "raw": {
           "sku": null,
-          "series_id": "industrie-bouw-landbouw",
+          "series_id": "pomp-specials__industrie-bouw-landbouw",
           "series_name": "industrie, bouw, landbouw,",
           "source_pdf": "pomp-specials.pdf",
           "page": 16,
@@ -1529,26 +1443,17 @@
             "family_id": null,
             "sku_series": null
           },
-          "series_image": "images/pomp-specials/industrie-bouw-landbouw__13520108.webp",
-          "image": "images/pomp-specials/pomp-specials__p12__industrie-bouw-landbouw__13520108-13520109__v1.webp",
-          "images": [
-            "images/pomp-specials/pomp-specials__p12__industrie-bouw-landbouw__13520108-13520109__v1.webp",
-            "images/pomp-specials/pomp-specials__p12__industrie-bouw-landbouw__13520108-13520109__v2.webp"
-          ]
+          "image": "images/pomp-specials/pomp-specials__p12__industrie-bouw-landbouw__13520108-13520109.webp"
         }
       }
     ]
   },
   {
-    "image": "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130004-17130014-17130028__v1.webp",
-    "series_image": "images/pomp-specials/irrigatie-landbouw__17130004.webp",
+    "image": "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v3.webp",
     "all_images": [
-      "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130004-17130014-17130028__v1.webp",
-      "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130004-17130014-17130028__v2.webp",
-      "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130004-17130014-17130028__v3.webp",
-      "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v4.webp",
-      "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v6.webp",
-      "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v7.webp"
+      "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130004-17130014-17130028.webp",
+      "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v2.webp",
+      "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v3.webp"
     ],
     "catalog": "pomp-specials",
     "source_pdf": "pomp-specials.pdf",
@@ -1578,7 +1483,7 @@
         },
         "raw": {
           "sku": "17130004",
-          "series_id": "irrigatie-landbouw",
+          "series_id": "pomp-specials__irrigatie-landbouw",
           "series_name": "irrigatie, landbouw",
           "source_pdf": "pomp-specials.pdf",
           "page": 4,
@@ -1608,15 +1513,11 @@
             "family_id": null,
             "sku_series": "t"
           },
-          "series_image": "images/pomp-specials/irrigatie-landbouw__17130004.webp",
-          "image": "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130004-17130014-17130028__v1.webp",
+          "image": "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v3.webp",
           "images": [
-            "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130004-17130014-17130028__v1.webp",
-            "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130004-17130014-17130028__v2.webp",
-            "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130004-17130014-17130028__v3.webp",
-            "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v4.webp",
-            "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v6.webp",
-            "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v7.webp"
+            "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130004-17130014-17130028.webp",
+            "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v2.webp",
+            "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v3.webp"
           ]
         }
       },
@@ -1644,7 +1545,7 @@
         },
         "raw": {
           "sku": "17130014",
-          "series_id": "irrigatie-landbouw",
+          "series_id": "pomp-specials__irrigatie-landbouw",
           "series_name": "irrigatie, landbouw",
           "source_pdf": "pomp-specials.pdf",
           "page": 4,
@@ -1674,15 +1575,11 @@
             "family_id": null,
             "sku_series": "t"
           },
-          "series_image": "images/pomp-specials/irrigatie-landbouw__17130004.webp",
-          "image": "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130004-17130014-17130028__v1.webp",
+          "image": "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v3.webp",
           "images": [
-            "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130004-17130014-17130028__v1.webp",
-            "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130004-17130014-17130028__v2.webp",
-            "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130004-17130014-17130028__v3.webp",
-            "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v4.webp",
-            "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v6.webp",
-            "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v7.webp"
+            "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130004-17130014-17130028.webp",
+            "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v2.webp",
+            "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v3.webp"
           ]
         }
       },
@@ -1710,7 +1607,7 @@
         },
         "raw": {
           "sku": "17130028",
-          "series_id": "irrigatie-landbouw",
+          "series_id": "pomp-specials__irrigatie-landbouw",
           "series_name": "irrigatie, landbouw",
           "source_pdf": "pomp-specials.pdf",
           "page": 4,
@@ -1740,15 +1637,11 @@
             "family_id": null,
             "sku_series": "t"
           },
-          "series_image": "images/pomp-specials/irrigatie-landbouw__17130004.webp",
-          "image": "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130004-17130014-17130028__v1.webp",
+          "image": "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v3.webp",
           "images": [
-            "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130004-17130014-17130028__v1.webp",
-            "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130004-17130014-17130028__v2.webp",
-            "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130004-17130014-17130028__v3.webp",
-            "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v4.webp",
-            "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v6.webp",
-            "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v7.webp"
+            "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130004-17130014-17130028.webp",
+            "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v2.webp",
+            "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v3.webp"
           ]
         }
       },
@@ -1776,7 +1669,7 @@
         },
         "raw": {
           "sku": "17130227",
-          "series_id": "irrigatie-landbouw",
+          "series_id": "pomp-specials__irrigatie-landbouw",
           "series_name": "irrigatie, landbouw",
           "source_pdf": "pomp-specials.pdf",
           "page": 4,
@@ -1806,15 +1699,11 @@
             "family_id": null,
             "sku_series": "t"
           },
-          "series_image": "images/pomp-specials/irrigatie-landbouw__17130004.webp",
-          "image": "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130004-17130014-17130028__v1.webp",
+          "image": "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v3.webp",
           "images": [
-            "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130004-17130014-17130028__v1.webp",
-            "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130004-17130014-17130028__v2.webp",
-            "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130004-17130014-17130028__v3.webp",
-            "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v4.webp",
-            "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v6.webp",
-            "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v7.webp"
+            "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130004-17130014-17130028.webp",
+            "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v2.webp",
+            "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v3.webp"
           ]
         }
       },
@@ -1842,7 +1731,7 @@
         },
         "raw": {
           "sku": "17130233",
-          "series_id": "irrigatie-landbouw",
+          "series_id": "pomp-specials__irrigatie-landbouw",
           "series_name": "irrigatie, landbouw",
           "source_pdf": "pomp-specials.pdf",
           "page": 4,
@@ -1872,15 +1761,11 @@
             "family_id": null,
             "sku_series": "t"
           },
-          "series_image": "images/pomp-specials/irrigatie-landbouw__17130004.webp",
-          "image": "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130004-17130014-17130028__v1.webp",
+          "image": "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v3.webp",
           "images": [
-            "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130004-17130014-17130028__v1.webp",
-            "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130004-17130014-17130028__v2.webp",
-            "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130004-17130014-17130028__v3.webp",
-            "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v4.webp",
-            "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v6.webp",
-            "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v7.webp"
+            "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130004-17130014-17130028.webp",
+            "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v2.webp",
+            "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v3.webp"
           ]
         }
       },
@@ -1908,7 +1793,7 @@
         },
         "raw": {
           "sku": "17130290",
-          "series_id": "irrigatie-landbouw",
+          "series_id": "pomp-specials__irrigatie-landbouw",
           "series_name": "irrigatie, landbouw",
           "source_pdf": "pomp-specials.pdf",
           "page": 4,
@@ -1938,15 +1823,11 @@
             "family_id": null,
             "sku_series": "t"
           },
-          "series_image": "images/pomp-specials/irrigatie-landbouw__17130004.webp",
-          "image": "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130004-17130014-17130028__v1.webp",
+          "image": "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v3.webp",
           "images": [
-            "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130004-17130014-17130028__v1.webp",
-            "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130004-17130014-17130028__v2.webp",
-            "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130004-17130014-17130028__v3.webp",
-            "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v4.webp",
-            "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v6.webp",
-            "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v7.webp"
+            "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130004-17130014-17130028.webp",
+            "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v2.webp",
+            "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v3.webp"
           ]
         }
       },
@@ -1974,7 +1855,7 @@
         },
         "raw": {
           "sku": "17130292",
-          "series_id": "irrigatie-landbouw",
+          "series_id": "pomp-specials__irrigatie-landbouw",
           "series_name": "irrigatie, landbouw",
           "source_pdf": "pomp-specials.pdf",
           "page": 4,
@@ -2004,15 +1885,11 @@
             "family_id": null,
             "sku_series": "t"
           },
-          "series_image": "images/pomp-specials/irrigatie-landbouw__17130004.webp",
-          "image": "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130004-17130014-17130028__v1.webp",
+          "image": "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v3.webp",
           "images": [
-            "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130004-17130014-17130028__v1.webp",
-            "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130004-17130014-17130028__v2.webp",
-            "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130004-17130014-17130028__v3.webp",
-            "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v4.webp",
-            "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v6.webp",
-            "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v7.webp"
+            "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130004-17130014-17130028.webp",
+            "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v2.webp",
+            "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v3.webp"
           ]
         }
       },
@@ -2040,7 +1917,7 @@
         },
         "raw": {
           "sku": "17130294",
-          "series_id": "irrigatie-landbouw",
+          "series_id": "pomp-specials__irrigatie-landbouw",
           "series_name": "irrigatie, landbouw",
           "source_pdf": "pomp-specials.pdf",
           "page": 4,
@@ -2070,15 +1947,11 @@
             "family_id": null,
             "sku_series": "t"
           },
-          "series_image": "images/pomp-specials/irrigatie-landbouw__17130004.webp",
-          "image": "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130004-17130014-17130028__v1.webp",
+          "image": "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v3.webp",
           "images": [
-            "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130004-17130014-17130028__v1.webp",
-            "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130004-17130014-17130028__v2.webp",
-            "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130004-17130014-17130028__v3.webp",
-            "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v4.webp",
-            "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v6.webp",
-            "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v7.webp"
+            "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130004-17130014-17130028.webp",
+            "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v2.webp",
+            "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v3.webp"
           ]
         }
       },
@@ -2106,7 +1979,7 @@
         },
         "raw": {
           "sku": "17130297",
-          "series_id": "irrigatie-landbouw",
+          "series_id": "pomp-specials__irrigatie-landbouw",
           "series_name": "irrigatie, landbouw",
           "source_pdf": "pomp-specials.pdf",
           "page": 4,
@@ -2136,15 +2009,11 @@
             "family_id": null,
             "sku_series": "t"
           },
-          "series_image": "images/pomp-specials/irrigatie-landbouw__17130004.webp",
-          "image": "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130004-17130014-17130028__v1.webp",
+          "image": "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v3.webp",
           "images": [
-            "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130004-17130014-17130028__v1.webp",
-            "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130004-17130014-17130028__v2.webp",
-            "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130004-17130014-17130028__v3.webp",
-            "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v4.webp",
-            "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v6.webp",
-            "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v7.webp"
+            "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130004-17130014-17130028.webp",
+            "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v2.webp",
+            "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v3.webp"
           ]
         }
       },
@@ -2172,7 +2041,7 @@
         },
         "raw": {
           "sku": "17130302",
-          "series_id": "irrigatie-landbouw",
+          "series_id": "pomp-specials__irrigatie-landbouw",
           "series_name": "irrigatie, landbouw",
           "source_pdf": "pomp-specials.pdf",
           "page": 4,
@@ -2202,15 +2071,11 @@
             "family_id": null,
             "sku_series": "t"
           },
-          "series_image": "images/pomp-specials/irrigatie-landbouw__17130004.webp",
-          "image": "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130004-17130014-17130028__v1.webp",
+          "image": "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v3.webp",
           "images": [
-            "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130004-17130014-17130028__v1.webp",
-            "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130004-17130014-17130028__v2.webp",
-            "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130004-17130014-17130028__v3.webp",
-            "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v4.webp",
-            "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v6.webp",
-            "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v7.webp"
+            "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130004-17130014-17130028.webp",
+            "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v2.webp",
+            "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v3.webp"
           ]
         }
       },
@@ -2238,7 +2103,7 @@
         },
         "raw": {
           "sku": "17130304",
-          "series_id": "irrigatie-landbouw",
+          "series_id": "pomp-specials__irrigatie-landbouw",
           "series_name": "irrigatie, landbouw",
           "source_pdf": "pomp-specials.pdf",
           "page": 4,
@@ -2268,15 +2133,11 @@
             "family_id": null,
             "sku_series": "t"
           },
-          "series_image": "images/pomp-specials/irrigatie-landbouw__17130004.webp",
-          "image": "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130004-17130014-17130028__v1.webp",
+          "image": "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v3.webp",
           "images": [
-            "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130004-17130014-17130028__v1.webp",
-            "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130004-17130014-17130028__v2.webp",
-            "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130004-17130014-17130028__v3.webp",
-            "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v4.webp",
-            "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v6.webp",
-            "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v7.webp"
+            "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130004-17130014-17130028.webp",
+            "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v2.webp",
+            "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v3.webp"
           ]
         }
       },
@@ -2304,7 +2165,7 @@
         },
         "raw": {
           "sku": "17130306",
-          "series_id": "irrigatie-landbouw",
+          "series_id": "pomp-specials__irrigatie-landbouw",
           "series_name": "irrigatie, landbouw",
           "source_pdf": "pomp-specials.pdf",
           "page": 4,
@@ -2334,15 +2195,11 @@
             "family_id": null,
             "sku_series": "t"
           },
-          "series_image": "images/pomp-specials/irrigatie-landbouw__17130004.webp",
-          "image": "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130004-17130014-17130028__v1.webp",
+          "image": "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v3.webp",
           "images": [
-            "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130004-17130014-17130028__v1.webp",
-            "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130004-17130014-17130028__v2.webp",
-            "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130004-17130014-17130028__v3.webp",
-            "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v4.webp",
-            "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v6.webp",
-            "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v7.webp"
+            "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130004-17130014-17130028.webp",
+            "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v2.webp",
+            "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v3.webp"
           ]
         }
       },
@@ -2370,7 +2227,7 @@
         },
         "raw": {
           "sku": "17130308",
-          "series_id": "irrigatie-landbouw",
+          "series_id": "pomp-specials__irrigatie-landbouw",
           "series_name": "irrigatie, landbouw",
           "source_pdf": "pomp-specials.pdf",
           "page": 4,
@@ -2400,15 +2257,11 @@
             "family_id": null,
             "sku_series": "t"
           },
-          "series_image": "images/pomp-specials/irrigatie-landbouw__17130004.webp",
-          "image": "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130004-17130014-17130028__v1.webp",
+          "image": "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v3.webp",
           "images": [
-            "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130004-17130014-17130028__v1.webp",
-            "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130004-17130014-17130028__v2.webp",
-            "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130004-17130014-17130028__v3.webp",
-            "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v4.webp",
-            "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v6.webp",
-            "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v7.webp"
+            "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130004-17130014-17130028.webp",
+            "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v2.webp",
+            "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v3.webp"
           ]
         }
       },
@@ -2436,7 +2289,7 @@
         },
         "raw": {
           "sku": "17130310",
-          "series_id": "irrigatie-landbouw",
+          "series_id": "pomp-specials__irrigatie-landbouw",
           "series_name": "irrigatie, landbouw",
           "source_pdf": "pomp-specials.pdf",
           "page": 4,
@@ -2466,15 +2319,11 @@
             "family_id": null,
             "sku_series": "t"
           },
-          "series_image": "images/pomp-specials/irrigatie-landbouw__17130004.webp",
-          "image": "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130004-17130014-17130028__v1.webp",
+          "image": "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v3.webp",
           "images": [
-            "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130004-17130014-17130028__v1.webp",
-            "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130004-17130014-17130028__v2.webp",
-            "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130004-17130014-17130028__v3.webp",
-            "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v4.webp",
-            "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v6.webp",
-            "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v7.webp"
+            "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130004-17130014-17130028.webp",
+            "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v2.webp",
+            "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v3.webp"
           ]
         }
       },
@@ -2502,7 +2351,7 @@
         },
         "raw": {
           "sku": "17130312",
-          "series_id": "irrigatie-landbouw",
+          "series_id": "pomp-specials__irrigatie-landbouw",
           "series_name": "irrigatie, landbouw",
           "source_pdf": "pomp-specials.pdf",
           "page": 4,
@@ -2532,15 +2381,11 @@
             "family_id": null,
             "sku_series": "t"
           },
-          "series_image": "images/pomp-specials/irrigatie-landbouw__17130004.webp",
-          "image": "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130004-17130014-17130028__v1.webp",
+          "image": "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v3.webp",
           "images": [
-            "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130004-17130014-17130028__v1.webp",
-            "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130004-17130014-17130028__v2.webp",
-            "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130004-17130014-17130028__v3.webp",
-            "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v4.webp",
-            "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v6.webp",
-            "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v7.webp"
+            "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130004-17130014-17130028.webp",
+            "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v2.webp",
+            "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v3.webp"
           ]
         }
       },
@@ -2571,7 +2416,7 @@
         },
         "raw": {
           "sku": "18540001",
-          "series_id": "irrigatie-landbouw",
+          "series_id": "pomp-specials__irrigatie-landbouw",
           "series_name": "irrigatie, landbouw",
           "source_pdf": "pomp-specials.pdf",
           "page": 6,
@@ -2604,15 +2449,11 @@
             "family_id": null,
             "sku_series": null
           },
-          "series_image": "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__18540001.webp",
-          "image": "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130004-17130014-17130028__v1.webp",
+          "image": "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v3.webp",
           "images": [
-            "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130004-17130014-17130028__v1.webp",
-            "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130004-17130014-17130028__v2.webp",
-            "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130004-17130014-17130028__v3.webp",
-            "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v4.webp",
-            "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v6.webp",
-            "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v7.webp"
+            "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130004-17130014-17130028.webp",
+            "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v2.webp",
+            "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v3.webp"
           ]
         }
       },
@@ -2638,7 +2479,7 @@
         },
         "raw": {
           "sku": null,
-          "series_id": "irrigatie-landbouw",
+          "series_id": "pomp-specials__irrigatie-landbouw",
           "series_name": "irrigatie, landbouw",
           "source_pdf": "pomp-specials.pdf",
           "page": 4,
@@ -2668,15 +2509,11 @@
             "family_id": null,
             "sku_series": "t"
           },
-          "series_image": "images/pomp-specials/irrigatie-landbouw__17130004.webp",
-          "image": "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130004-17130014-17130028__v1.webp",
+          "image": "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v3.webp",
           "images": [
-            "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130004-17130014-17130028__v1.webp",
-            "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130004-17130014-17130028__v2.webp",
-            "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130004-17130014-17130028__v3.webp",
-            "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v4.webp",
-            "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v6.webp",
-            "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v7.webp"
+            "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130004-17130014-17130028.webp",
+            "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v2.webp",
+            "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v3.webp"
           ]
         }
       },
@@ -2702,7 +2539,7 @@
         },
         "raw": {
           "sku": null,
-          "series_id": "irrigatie-landbouw",
+          "series_id": "pomp-specials__irrigatie-landbouw",
           "series_name": "irrigatie, landbouw",
           "source_pdf": "pomp-specials.pdf",
           "page": 4,
@@ -2732,15 +2569,11 @@
             "family_id": null,
             "sku_series": "t"
           },
-          "series_image": "images/pomp-specials/irrigatie-landbouw__17130004.webp",
-          "image": "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130004-17130014-17130028__v1.webp",
+          "image": "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v3.webp",
           "images": [
-            "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130004-17130014-17130028__v1.webp",
-            "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130004-17130014-17130028__v2.webp",
-            "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130004-17130014-17130028__v3.webp",
-            "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v4.webp",
-            "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v6.webp",
-            "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v7.webp"
+            "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130004-17130014-17130028.webp",
+            "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v2.webp",
+            "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v3.webp"
           ]
         }
       },
@@ -2766,7 +2599,7 @@
         },
         "raw": {
           "sku": null,
-          "series_id": "irrigatie-landbouw",
+          "series_id": "pomp-specials__irrigatie-landbouw",
           "series_name": "irrigatie, landbouw",
           "source_pdf": "pomp-specials.pdf",
           "page": 4,
@@ -2796,15 +2629,11 @@
             "family_id": null,
             "sku_series": "t"
           },
-          "series_image": "images/pomp-specials/irrigatie-landbouw__17130004.webp",
-          "image": "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130004-17130014-17130028__v1.webp",
+          "image": "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v3.webp",
           "images": [
-            "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130004-17130014-17130028__v1.webp",
-            "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130004-17130014-17130028__v2.webp",
-            "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130004-17130014-17130028__v3.webp",
-            "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v4.webp",
-            "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v6.webp",
-            "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v7.webp"
+            "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130004-17130014-17130028.webp",
+            "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v2.webp",
+            "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v3.webp"
           ]
         }
       },
@@ -2830,7 +2659,7 @@
         },
         "raw": {
           "sku": null,
-          "series_id": "irrigatie-landbouw",
+          "series_id": "pomp-specials__irrigatie-landbouw",
           "series_name": "irrigatie, landbouw",
           "source_pdf": "pomp-specials.pdf",
           "page": 4,
@@ -2860,15 +2689,11 @@
             "family_id": null,
             "sku_series": "t"
           },
-          "series_image": "images/pomp-specials/irrigatie-landbouw__17130004.webp",
-          "image": "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130004-17130014-17130028__v1.webp",
+          "image": "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v3.webp",
           "images": [
-            "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130004-17130014-17130028__v1.webp",
-            "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130004-17130014-17130028__v2.webp",
-            "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130004-17130014-17130028__v3.webp",
-            "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v4.webp",
-            "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v6.webp",
-            "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v7.webp"
+            "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130004-17130014-17130028.webp",
+            "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v2.webp",
+            "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v3.webp"
           ]
         }
       },
@@ -2894,7 +2719,7 @@
         },
         "raw": {
           "sku": null,
-          "series_id": "irrigatie-landbouw",
+          "series_id": "pomp-specials__irrigatie-landbouw",
           "series_name": "irrigatie, landbouw",
           "source_pdf": "pomp-specials.pdf",
           "page": 4,
@@ -2924,15 +2749,11 @@
             "family_id": null,
             "sku_series": "t"
           },
-          "series_image": "images/pomp-specials/irrigatie-landbouw__17130004.webp",
-          "image": "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130004-17130014-17130028__v1.webp",
+          "image": "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v3.webp",
           "images": [
-            "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130004-17130014-17130028__v1.webp",
-            "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130004-17130014-17130028__v2.webp",
-            "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130004-17130014-17130028__v3.webp",
-            "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v4.webp",
-            "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v6.webp",
-            "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v7.webp"
+            "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130004-17130014-17130028.webp",
+            "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v2.webp",
+            "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v3.webp"
           ]
         }
       },
@@ -2958,7 +2779,7 @@
         },
         "raw": {
           "sku": null,
-          "series_id": "irrigatie-landbouw",
+          "series_id": "pomp-specials__irrigatie-landbouw",
           "series_name": "irrigatie, landbouw",
           "source_pdf": "pomp-specials.pdf",
           "page": 4,
@@ -2988,15 +2809,11 @@
             "family_id": null,
             "sku_series": "t"
           },
-          "series_image": "images/pomp-specials/irrigatie-landbouw__17130004.webp",
-          "image": "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130004-17130014-17130028__v1.webp",
+          "image": "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v3.webp",
           "images": [
-            "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130004-17130014-17130028__v1.webp",
-            "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130004-17130014-17130028__v2.webp",
-            "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130004-17130014-17130028__v3.webp",
-            "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v4.webp",
-            "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v6.webp",
-            "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v7.webp"
+            "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130004-17130014-17130028.webp",
+            "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v2.webp",
+            "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v3.webp"
           ]
         }
       },
@@ -3022,7 +2839,7 @@
         },
         "raw": {
           "sku": null,
-          "series_id": "irrigatie-landbouw",
+          "series_id": "pomp-specials__irrigatie-landbouw",
           "series_name": "irrigatie, landbouw",
           "source_pdf": "pomp-specials.pdf",
           "page": 4,
@@ -3052,15 +2869,11 @@
             "family_id": null,
             "sku_series": "t"
           },
-          "series_image": "images/pomp-specials/irrigatie-landbouw__17130004.webp",
-          "image": "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130004-17130014-17130028__v1.webp",
+          "image": "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v3.webp",
           "images": [
-            "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130004-17130014-17130028__v1.webp",
-            "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130004-17130014-17130028__v2.webp",
-            "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130004-17130014-17130028__v3.webp",
-            "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v4.webp",
-            "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v6.webp",
-            "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v7.webp"
+            "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130004-17130014-17130028.webp",
+            "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v2.webp",
+            "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v3.webp"
           ]
         }
       },
@@ -3086,7 +2899,7 @@
         },
         "raw": {
           "sku": null,
-          "series_id": "irrigatie-landbouw",
+          "series_id": "pomp-specials__irrigatie-landbouw",
           "series_name": "irrigatie, landbouw",
           "source_pdf": "pomp-specials.pdf",
           "page": 4,
@@ -3116,15 +2929,11 @@
             "family_id": null,
             "sku_series": "t"
           },
-          "series_image": "images/pomp-specials/irrigatie-landbouw__17130004.webp",
-          "image": "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130004-17130014-17130028__v1.webp",
+          "image": "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v3.webp",
           "images": [
-            "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130004-17130014-17130028__v1.webp",
-            "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130004-17130014-17130028__v2.webp",
-            "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130004-17130014-17130028__v3.webp",
-            "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v4.webp",
-            "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v6.webp",
-            "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v7.webp"
+            "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130004-17130014-17130028.webp",
+            "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v2.webp",
+            "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v3.webp"
           ]
         }
       },
@@ -3150,7 +2959,7 @@
         },
         "raw": {
           "sku": null,
-          "series_id": "irrigatie-landbouw",
+          "series_id": "pomp-specials__irrigatie-landbouw",
           "series_name": "irrigatie, landbouw",
           "source_pdf": "pomp-specials.pdf",
           "page": 4,
@@ -3180,15 +2989,11 @@
             "family_id": null,
             "sku_series": "t"
           },
-          "series_image": "images/pomp-specials/irrigatie-landbouw__17130004.webp",
-          "image": "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130004-17130014-17130028__v1.webp",
+          "image": "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v3.webp",
           "images": [
-            "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130004-17130014-17130028__v1.webp",
-            "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130004-17130014-17130028__v2.webp",
-            "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130004-17130014-17130028__v3.webp",
-            "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v4.webp",
-            "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v6.webp",
-            "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v7.webp"
+            "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130004-17130014-17130028.webp",
+            "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v2.webp",
+            "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v3.webp"
           ]
         }
       },
@@ -3214,7 +3019,7 @@
         },
         "raw": {
           "sku": null,
-          "series_id": "irrigatie-landbouw",
+          "series_id": "pomp-specials__irrigatie-landbouw",
           "series_name": "irrigatie, landbouw",
           "source_pdf": "pomp-specials.pdf",
           "page": 4,
@@ -3244,15 +3049,11 @@
             "family_id": null,
             "sku_series": "t"
           },
-          "series_image": "images/pomp-specials/irrigatie-landbouw__17130004.webp",
-          "image": "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130004-17130014-17130028__v1.webp",
+          "image": "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v3.webp",
           "images": [
-            "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130004-17130014-17130028__v1.webp",
-            "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130004-17130014-17130028__v2.webp",
-            "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130004-17130014-17130028__v3.webp",
-            "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v4.webp",
-            "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v6.webp",
-            "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v7.webp"
+            "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130004-17130014-17130028.webp",
+            "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v2.webp",
+            "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v3.webp"
           ]
         }
       },
@@ -3278,7 +3079,7 @@
         },
         "raw": {
           "sku": null,
-          "series_id": "irrigatie-landbouw",
+          "series_id": "pomp-specials__irrigatie-landbouw",
           "series_name": "irrigatie, landbouw",
           "source_pdf": "pomp-specials.pdf",
           "page": 4,
@@ -3308,15 +3109,11 @@
             "family_id": null,
             "sku_series": "t"
           },
-          "series_image": "images/pomp-specials/irrigatie-landbouw__17130004.webp",
-          "image": "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130004-17130014-17130028__v1.webp",
+          "image": "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v3.webp",
           "images": [
-            "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130004-17130014-17130028__v1.webp",
-            "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130004-17130014-17130028__v2.webp",
-            "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130004-17130014-17130028__v3.webp",
-            "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v4.webp",
-            "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v6.webp",
-            "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v7.webp"
+            "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130004-17130014-17130028.webp",
+            "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v2.webp",
+            "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v3.webp"
           ]
         }
       },
@@ -3342,7 +3139,7 @@
         },
         "raw": {
           "sku": null,
-          "series_id": "irrigatie-landbouw",
+          "series_id": "pomp-specials__irrigatie-landbouw",
           "series_name": "irrigatie, landbouw",
           "source_pdf": "pomp-specials.pdf",
           "page": 4,
@@ -3372,15 +3169,11 @@
             "family_id": null,
             "sku_series": "t"
           },
-          "series_image": "images/pomp-specials/irrigatie-landbouw__17130004.webp",
-          "image": "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130004-17130014-17130028__v1.webp",
+          "image": "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v3.webp",
           "images": [
-            "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130004-17130014-17130028__v1.webp",
-            "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130004-17130014-17130028__v2.webp",
-            "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130004-17130014-17130028__v3.webp",
-            "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v4.webp",
-            "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v6.webp",
-            "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v7.webp"
+            "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130004-17130014-17130028.webp",
+            "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v2.webp",
+            "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v3.webp"
           ]
         }
       },
@@ -3406,7 +3199,7 @@
         },
         "raw": {
           "sku": null,
-          "series_id": "irrigatie-landbouw",
+          "series_id": "pomp-specials__irrigatie-landbouw",
           "series_name": "irrigatie, landbouw",
           "source_pdf": "pomp-specials.pdf",
           "page": 4,
@@ -3436,15 +3229,11 @@
             "family_id": null,
             "sku_series": "t"
           },
-          "series_image": "images/pomp-specials/irrigatie-landbouw__17130004.webp",
-          "image": "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130004-17130014-17130028__v1.webp",
+          "image": "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v3.webp",
           "images": [
-            "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130004-17130014-17130028__v1.webp",
-            "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130004-17130014-17130028__v2.webp",
-            "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130004-17130014-17130028__v3.webp",
-            "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v4.webp",
-            "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v6.webp",
-            "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v7.webp"
+            "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130004-17130014-17130028.webp",
+            "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v2.webp",
+            "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v3.webp"
           ]
         }
       },
@@ -3470,7 +3259,7 @@
         },
         "raw": {
           "sku": null,
-          "series_id": "irrigatie-landbouw",
+          "series_id": "pomp-specials__irrigatie-landbouw",
           "series_name": "irrigatie, landbouw",
           "source_pdf": "pomp-specials.pdf",
           "page": 4,
@@ -3500,15 +3289,11 @@
             "family_id": null,
             "sku_series": "t"
           },
-          "series_image": "images/pomp-specials/irrigatie-landbouw__17130004.webp",
-          "image": "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130004-17130014-17130028__v1.webp",
+          "image": "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v3.webp",
           "images": [
-            "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130004-17130014-17130028__v1.webp",
-            "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130004-17130014-17130028__v2.webp",
-            "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130004-17130014-17130028__v3.webp",
-            "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v4.webp",
-            "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v6.webp",
-            "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v7.webp"
+            "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130004-17130014-17130028.webp",
+            "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v2.webp",
+            "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v3.webp"
           ]
         }
       },
@@ -3534,7 +3319,7 @@
         },
         "raw": {
           "sku": null,
-          "series_id": "irrigatie-landbouw",
+          "series_id": "pomp-specials__irrigatie-landbouw",
           "series_name": "irrigatie, landbouw",
           "source_pdf": "pomp-specials.pdf",
           "page": 4,
@@ -3564,15 +3349,11 @@
             "family_id": null,
             "sku_series": "t"
           },
-          "series_image": "images/pomp-specials/irrigatie-landbouw__17130004.webp",
-          "image": "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130004-17130014-17130028__v1.webp",
+          "image": "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v3.webp",
           "images": [
-            "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130004-17130014-17130028__v1.webp",
-            "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130004-17130014-17130028__v2.webp",
-            "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130004-17130014-17130028__v3.webp",
-            "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v4.webp",
-            "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v6.webp",
-            "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v7.webp"
+            "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130004-17130014-17130028.webp",
+            "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v2.webp",
+            "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v3.webp"
           ]
         }
       },
@@ -3598,7 +3379,7 @@
         },
         "raw": {
           "sku": null,
-          "series_id": "irrigatie-landbouw",
+          "series_id": "pomp-specials__irrigatie-landbouw",
           "series_name": "irrigatie, landbouw",
           "source_pdf": "pomp-specials.pdf",
           "page": 4,
@@ -3628,15 +3409,11 @@
             "family_id": null,
             "sku_series": "t"
           },
-          "series_image": "images/pomp-specials/irrigatie-landbouw__17130004.webp",
-          "image": "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130004-17130014-17130028__v1.webp",
+          "image": "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v3.webp",
           "images": [
-            "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130004-17130014-17130028__v1.webp",
-            "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130004-17130014-17130028__v2.webp",
-            "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130004-17130014-17130028__v3.webp",
-            "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v4.webp",
-            "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v6.webp",
-            "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v7.webp"
+            "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130004-17130014-17130028.webp",
+            "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v2.webp",
+            "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v3.webp"
           ]
         }
       },
@@ -3665,7 +3442,7 @@
         },
         "raw": {
           "sku": null,
-          "series_id": "irrigatie-landbouw",
+          "series_id": "pomp-specials__irrigatie-landbouw",
           "series_name": "irrigatie, landbouw",
           "source_pdf": "pomp-specials.pdf",
           "page": 6,
@@ -3698,27 +3475,21 @@
             "family_id": null,
             "sku_series": null
           },
-          "series_image": "images/pomp-specials/irrigatie-landbouw__17130004.webp",
-          "image": "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130004-17130014-17130028__v1.webp",
+          "image": "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v3.webp",
           "images": [
-            "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130004-17130014-17130028__v1.webp",
-            "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130004-17130014-17130028__v2.webp",
-            "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130004-17130014-17130028__v3.webp",
-            "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v4.webp",
-            "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v6.webp",
-            "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v7.webp"
+            "images/pomp-specials/pomp-specials__p4__irrigatie-landbouw__17130004-17130014-17130028.webp",
+            "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v2.webp",
+            "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v3.webp"
           ]
         }
       }
     ]
   },
   {
-    "image": "images/pomp-specials/pomp-specials__p11__industrie-bouw-landbouw-modder__18480021__v1.webp",
-    "series_image": "images/pomp-specials/industrie-bouw-landbouw-modder__18480021.webp",
+    "image": "images/pomp-specials/pomp-specials__p10__huishoudelijk-semi-industrieel-bouw-land__18480018-18480023__v2.webp",
     "all_images": [
-      "images/pomp-specials/pomp-specials__p11__industrie-bouw-landbouw-modder__18480021__v1.webp",
-      "images/pomp-specials/pomp-specials__p10__huishoudelijk-semi-industrieel-bouw-land__18480018-18480023__v3.webp",
-      "images/pomp-specials/pomp-specials__p10__huishoudelijk-semi-industrieel-bouw-land__18480018-18480023__v4.webp"
+      "images/pomp-specials/pomp-specials__p10__huishoudelijk-semi-industrieel-bouw-land__18480018-18480023__v1.webp",
+      "images/pomp-specials/pomp-specials__p10__huishoudelijk-semi-industrieel-bouw-land__18480018-18480023__v2.webp"
     ],
     "catalog": "pomp-specials",
     "source_pdf": "pomp-specials.pdf",
@@ -3752,7 +3523,7 @@
         },
         "raw": {
           "sku": "18480018",
-          "series_id": "huishoudelijk-semi-industrieel-bouw-land",
+          "series_id": "pomp-specials__huishoudelijk-semi-industrieel-bouw-land",
           "series_name": "huishoudelijk, semi-industrieel, bouw, land-",
           "source_pdf": "pomp-specials.pdf",
           "page": 10,
@@ -3786,15 +3557,162 @@
             "family_id": null,
             "sku_series": null
           },
-          "series_image": "images/pomp-specials/industrie-bouw-landbouw-modder__18480021.webp",
-          "image": "images/pomp-specials/pomp-specials__p11__industrie-bouw-landbouw-modder__18480021__v1.webp",
+          "image": "images/pomp-specials/pomp-specials__p10__huishoudelijk-semi-industrieel-bouw-land__18480018-18480023__v2.webp",
           "images": [
-            "images/pomp-specials/pomp-specials__p11__industrie-bouw-landbouw-modder__18480021__v1.webp",
-            "images/pomp-specials/pomp-specials__p10__huishoudelijk-semi-industrieel-bouw-land__18480018-18480023__v3.webp",
-            "images/pomp-specials/pomp-specials__p10__huishoudelijk-semi-industrieel-bouw-land__18480018-18480023__v4.webp"
+            "images/pomp-specials/pomp-specials__p10__huishoudelijk-semi-industrieel-bouw-land__18480018-18480023__v1.webp",
+            "images/pomp-specials/pomp-specials__p10__huishoudelijk-semi-industrieel-bouw-land__18480018-18480023__v2.webp"
           ]
         }
       },
+      {
+        "sku": "18480023",
+        "page": 10,
+        "properties": {
+          "brand": "Honda",
+          "col_0": "18480023",
+          "type_intens_st_2_36_h": "INTENS TR 3.60 H",
+          "type_motor_gx_120": "GX 160",
+          "brandstof_benzine": "benzine",
+          "debiet_m3_h_36": "54",
+          "opv_hoogte_29_m": "26 m",
+          "aansluiting_2_50_mm": "3” - 80 mm",
+          "gebruiks_duur_2_u": "3,4 u",
+          "korrelgrootte_mm_8_mm": "8 mm",
+          "lengte": "29 kg",
+          "type": "huishoudelijk_semi_industrieel_bouw_land",
+          "spec_liquid_temp_range": "maximum 40°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "2,6 bar",
+          "spec_water_pollution": "proper, licht vervuild (type TR = vuil)",
+          "spec_application_desc": "huishoudelijk, semi-industrieel, bouw, land-",
+          "spec_product_type": "TR = vuil)",
+          "spec_impeller_material": "Gietijzer",
+          "spec_material": "waaier Gietijzer",
+          "application": "VARIATIES"
+        },
+        "raw": {
+          "sku": "18480023",
+          "series_id": "pomp-specials__huishoudelijk-semi-industrieel-bouw-land",
+          "series_name": "huishoudelijk, semi-industrieel, bouw, land-",
+          "source_pdf": "pomp-specials.pdf",
+          "page": 10,
+          "brand": "Honda",
+          "col_0": "18480023",
+          "type_intens_st_2_36_h": "INTENS TR 3.60 H",
+          "type_motor_gx_120": "GX 160",
+          "brandstof_benzine": "benzine",
+          "debiet_m3_h_36": "54",
+          "opv_hoogte_29_m": "26 m",
+          "aansluiting_2_50_mm": "3” - 80 mm",
+          "gebruiks_duur_2_u": "3,4 u",
+          "korrelgrootte_mm_8_mm": "8 mm",
+          "lengte": "29 kg",
+          "type": "huishoudelijk_semi_industrieel_bouw_land",
+          "spec_liquid_temp_range": "maximum 40°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "2,6 bar",
+          "spec_water_pollution": "proper, licht vervuild (type TR = vuil)",
+          "spec_application_desc": "huishoudelijk, semi-industrieel, bouw, land-",
+          "spec_product_type": "TR = vuil)",
+          "spec_impeller_material": "Gietijzer",
+          "spec_material": "waaier Gietijzer",
+          "application": "VARIATIES",
+          "_enriched": {
+            "series_raw": "huishoudelijk, semi-industrieel, bouw, land-",
+            "series": "huishoudelijk-semi-industrieel-bouw-land",
+            "catalog_group": null,
+            "product_type": null,
+            "material": null,
+            "family_id": null,
+            "sku_series": null
+          },
+          "image": "images/pomp-specials/pomp-specials__p10__huishoudelijk-semi-industrieel-bouw-land__18480018-18480023__v2.webp",
+          "images": [
+            "images/pomp-specials/pomp-specials__p10__huishoudelijk-semi-industrieel-bouw-land__18480018-18480023__v1.webp",
+            "images/pomp-specials/pomp-specials__p10__huishoudelijk-semi-industrieel-bouw-land__18480018-18480023__v2.webp"
+          ]
+        }
+      },
+      {
+        "sku": null,
+        "page": 10,
+        "properties": {
+          "brand": "Honda",
+          "type_intens_st_2_36_h": "INTENS TR 2.36 H",
+          "type_motor_gx_120": "GX 120",
+          "brandstof_benzine": "benzine",
+          "debiet_m3_h_36": "36",
+          "opv_hoogte_29_m": "26 m",
+          "aansluiting_2_50_mm": "2” - 50 mm",
+          "gebruiks_duur_2_u": "2 u",
+          "korrelgrootte_mm_8_mm": "8 mm",
+          "lengte": "26 m",
+          "type": "huishoudelijk_semi_industrieel_bouw_land",
+          "spec_liquid_temp_range": "maximum 40°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "2,6 bar",
+          "spec_water_pollution": "proper, licht vervuild (type TR = vuil)",
+          "spec_application_desc": "huishoudelijk, semi-industrieel, bouw, land-",
+          "spec_product_type": "TR = vuil)",
+          "spec_impeller_material": "Gietijzer",
+          "spec_material": "waaier Gietijzer",
+          "application": "VARIATIES"
+        },
+        "raw": {
+          "sku": null,
+          "series_id": "pomp-specials__huishoudelijk-semi-industrieel-bouw-land",
+          "series_name": "huishoudelijk, semi-industrieel, bouw, land-",
+          "source_pdf": "pomp-specials.pdf",
+          "page": 10,
+          "brand": "Honda",
+          "col_0": null,
+          "type_intens_st_2_36_h": "INTENS TR 2.36 H",
+          "type_motor_gx_120": "GX 120",
+          "brandstof_benzine": "benzine",
+          "debiet_m3_h_36": "36",
+          "opv_hoogte_29_m": "26 m",
+          "aansluiting_2_50_mm": "2” - 50 mm",
+          "gebruiks_duur_2_u": "2 u",
+          "korrelgrootte_mm_8_mm": "8 mm",
+          "lengte": "26 m",
+          "type": "huishoudelijk_semi_industrieel_bouw_land",
+          "spec_liquid_temp_range": "maximum 40°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "2,6 bar",
+          "spec_water_pollution": "proper, licht vervuild (type TR = vuil)",
+          "spec_application_desc": "huishoudelijk, semi-industrieel, bouw, land-",
+          "spec_product_type": "TR = vuil)",
+          "spec_impeller_material": "Gietijzer",
+          "spec_material": "waaier Gietijzer",
+          "application": "VARIATIES",
+          "_enriched": {
+            "series_raw": "huishoudelijk, semi-industrieel, bouw, land-",
+            "series": "huishoudelijk-semi-industrieel-bouw-land",
+            "catalog_group": null,
+            "product_type": null,
+            "material": null,
+            "family_id": null,
+            "sku_series": null
+          },
+          "image": "images/pomp-specials/pomp-specials__p10__huishoudelijk-semi-industrieel-bouw-land__18480018-18480023__v2.webp",
+          "images": [
+            "images/pomp-specials/pomp-specials__p10__huishoudelijk-semi-industrieel-bouw-land__18480018-18480023__v1.webp",
+            "images/pomp-specials/pomp-specials__p10__huishoudelijk-semi-industrieel-bouw-land__18480018-18480023__v2.webp"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "image": "images/pomp-specials/pomp-specials__p11__industrie-bouw-landbouw-modder__18480021__v2.webp",
+    "all_images": [
+      "images/pomp-specials/pomp-specials__p11__industrie-bouw-landbouw-modder__18480021__v1.webp",
+      "images/pomp-specials/pomp-specials__p11__industrie-bouw-landbouw-modder__18480021__v2.webp"
+    ],
+    "catalog": "pomp-specials",
+    "source_pdf": "pomp-specials.pdf",
+    "page": 11,
+    "products": [
       {
         "sku": "18480021",
         "page": 11,
@@ -3822,7 +3740,7 @@
         },
         "raw": {
           "sku": "18480021",
-          "series_id": "industrie-bouw-landbouw-modder",
+          "series_id": "pomp-specials__industrie-bouw-landbouw-modder",
           "series_name": "industrie, bouw, landbouw, modder",
           "source_pdf": "pomp-specials.pdf",
           "page": 11,
@@ -3855,228 +3773,18 @@
             "family_id": null,
             "sku_series": null
           },
-          "series_image": "images/pomp-specials/industrie-bouw-landbouw-modder__18480021.webp",
-          "image": "images/pomp-specials/pomp-specials__p11__industrie-bouw-landbouw-modder__18480021__v1.webp",
+          "image": "images/pomp-specials/pomp-specials__p11__industrie-bouw-landbouw-modder__18480021__v2.webp",
           "images": [
             "images/pomp-specials/pomp-specials__p11__industrie-bouw-landbouw-modder__18480021__v1.webp",
-            "images/pomp-specials/pomp-specials__p11__industrie-bouw-landbouw-modder__18480021__v3.webp",
-            "images/pomp-specials/pomp-specials__p11__industrie-bouw-landbouw-modder__18480021__v4.webp"
-          ]
-        }
-      },
-      {
-        "sku": "18480023",
-        "page": 10,
-        "properties": {
-          "brand": "Honda",
-          "col_0": "18480023",
-          "type_intens_st_2_36_h": "INTENS TR 3.60 H",
-          "type_motor_gx_120": "GX 160",
-          "brandstof_benzine": "benzine",
-          "debiet_m3_h_36": "54",
-          "opv_hoogte_29_m": "26 m",
-          "aansluiting_2_50_mm": "3” - 80 mm",
-          "gebruiks_duur_2_u": "3,4 u",
-          "korrelgrootte_mm_8_mm": "8 mm",
-          "lengte": "29 kg",
-          "type": "huishoudelijk_semi_industrieel_bouw_land",
-          "spec_liquid_temp_range": "maximum 40°C",
-          "spec_temp_range": "vloeistof",
-          "spec_max_pressure": "2,6 bar",
-          "spec_water_pollution": "proper, licht vervuild (type TR = vuil)",
-          "spec_application_desc": "huishoudelijk, semi-industrieel, bouw, land-",
-          "spec_product_type": "TR = vuil)",
-          "spec_impeller_material": "Gietijzer",
-          "spec_material": "waaier Gietijzer",
-          "application": "VARIATIES"
-        },
-        "raw": {
-          "sku": "18480023",
-          "series_id": "huishoudelijk-semi-industrieel-bouw-land",
-          "series_name": "huishoudelijk, semi-industrieel, bouw, land-",
-          "source_pdf": "pomp-specials.pdf",
-          "page": 10,
-          "brand": "Honda",
-          "col_0": "18480023",
-          "type_intens_st_2_36_h": "INTENS TR 3.60 H",
-          "type_motor_gx_120": "GX 160",
-          "brandstof_benzine": "benzine",
-          "debiet_m3_h_36": "54",
-          "opv_hoogte_29_m": "26 m",
-          "aansluiting_2_50_mm": "3” - 80 mm",
-          "gebruiks_duur_2_u": "3,4 u",
-          "korrelgrootte_mm_8_mm": "8 mm",
-          "lengte": "29 kg",
-          "type": "huishoudelijk_semi_industrieel_bouw_land",
-          "spec_liquid_temp_range": "maximum 40°C",
-          "spec_temp_range": "vloeistof",
-          "spec_max_pressure": "2,6 bar",
-          "spec_water_pollution": "proper, licht vervuild (type TR = vuil)",
-          "spec_application_desc": "huishoudelijk, semi-industrieel, bouw, land-",
-          "spec_product_type": "TR = vuil)",
-          "spec_impeller_material": "Gietijzer",
-          "spec_material": "waaier Gietijzer",
-          "application": "VARIATIES",
-          "_enriched": {
-            "series_raw": "huishoudelijk, semi-industrieel, bouw, land-",
-            "series": "huishoudelijk-semi-industrieel-bouw-land",
-            "catalog_group": null,
-            "product_type": null,
-            "material": null,
-            "family_id": null,
-            "sku_series": null
-          },
-          "series_image": "images/pomp-specials/industrie-bouw-landbouw-modder__18480021.webp",
-          "image": "images/pomp-specials/pomp-specials__p11__industrie-bouw-landbouw-modder__18480021__v1.webp",
-          "images": [
-            "images/pomp-specials/pomp-specials__p11__industrie-bouw-landbouw-modder__18480021__v1.webp",
-            "images/pomp-specials/pomp-specials__p10__huishoudelijk-semi-industrieel-bouw-land__18480018-18480023__v3.webp",
-            "images/pomp-specials/pomp-specials__p10__huishoudelijk-semi-industrieel-bouw-land__18480018-18480023__v4.webp"
-          ]
-        }
-      },
-      {
-        "sku": null,
-        "page": 10,
-        "properties": {
-          "brand": "Honda",
-          "type_motor": "GX 160",
-          "brandstof": "benzine",
-          "debiet_m3_h": "26,4",
-          "opv_hoogte": "57 m",
-          "aansluiting": "2” - 50 mm",
-          "gebruiks_duur": "3,4 u",
-          "korrelgroot_te_mm": "8 mm",
-          "type": "bouw_landbouw",
-          "spec_liquid_temp_range": "maximum 40°C",
-          "spec_temp_range": "vloeistof",
-          "spec_max_pressure": "5,7 bar",
-          "spec_water_pollution": "proper",
-          "spec_application_desc": "bouw, landbouw",
-          "spec_impeller_material": "Gietijzer",
-          "spec_material": "waaier Gietijzer",
-          "application": "VARIATIES"
-        },
-        "raw": {
-          "sku": null,
-          "series_id": "bouw-landbouw",
-          "series_name": "bouw, landbouw",
-          "source_pdf": "pomp-specials.pdf",
-          "page": 10,
-          "brand": "Honda",
-          "type_motor": "GX 160",
-          "brandstof": "benzine",
-          "debiet_m3_h": "26,4",
-          "opv_hoogte": "57 m",
-          "aansluiting": "2” - 50 mm",
-          "gebruiks_duur": "3,4 u",
-          "korrelgroot_te_mm": "8 mm",
-          "type": "bouw_landbouw",
-          "spec_liquid_temp_range": "maximum 40°C",
-          "spec_temp_range": "vloeistof",
-          "spec_max_pressure": "5,7 bar",
-          "spec_water_pollution": "proper",
-          "spec_application_desc": "bouw, landbouw",
-          "spec_impeller_material": "Gietijzer",
-          "spec_material": "waaier Gietijzer",
-          "application": "VARIATIES",
-          "_enriched": {
-            "series_raw": "bouw, landbouw",
-            "series": "bouw-landbouw",
-            "catalog_group": null,
-            "product_type": null,
-            "material": null,
-            "family_id": null,
-            "sku_series": null
-          },
-          "series_image": "images/pomp-specials/industrie-bouw-landbouw-modder__18480021.webp",
-          "image": "images/pomp-specials/pomp-specials__p11__industrie-bouw-landbouw-modder__18480021__v1.webp",
-          "images": [
-            "images/pomp-specials/pomp-specials__p11__industrie-bouw-landbouw-modder__18480021__v1.webp",
-            "images/pomp-specials/pomp-specials__p10__huishoudelijk-semi-industrieel-bouw-land__18480018-18480023__v3.webp",
-            "images/pomp-specials/pomp-specials__p10__huishoudelijk-semi-industrieel-bouw-land__18480018-18480023__v4.webp"
-          ]
-        }
-      },
-      {
-        "sku": null,
-        "page": 10,
-        "properties": {
-          "brand": "Honda",
-          "type_intens_st_2_36_h": "INTENS TR 2.36 H",
-          "type_motor_gx_120": "GX 120",
-          "brandstof_benzine": "benzine",
-          "debiet_m3_h_36": "36",
-          "opv_hoogte_29_m": "26 m",
-          "aansluiting_2_50_mm": "2” - 50 mm",
-          "gebruiks_duur_2_u": "2 u",
-          "korrelgrootte_mm_8_mm": "8 mm",
-          "lengte": "26 m",
-          "type": "huishoudelijk_semi_industrieel_bouw_land",
-          "spec_liquid_temp_range": "maximum 40°C",
-          "spec_temp_range": "vloeistof",
-          "spec_max_pressure": "2,6 bar",
-          "spec_water_pollution": "proper, licht vervuild (type TR = vuil)",
-          "spec_application_desc": "huishoudelijk, semi-industrieel, bouw, land-",
-          "spec_product_type": "TR = vuil)",
-          "spec_impeller_material": "Gietijzer",
-          "spec_material": "waaier Gietijzer",
-          "application": "VARIATIES"
-        },
-        "raw": {
-          "sku": null,
-          "series_id": "huishoudelijk-semi-industrieel-bouw-land",
-          "series_name": "huishoudelijk, semi-industrieel, bouw, land-",
-          "source_pdf": "pomp-specials.pdf",
-          "page": 10,
-          "brand": "Honda",
-          "col_0": null,
-          "type_intens_st_2_36_h": "INTENS TR 2.36 H",
-          "type_motor_gx_120": "GX 120",
-          "brandstof_benzine": "benzine",
-          "debiet_m3_h_36": "36",
-          "opv_hoogte_29_m": "26 m",
-          "aansluiting_2_50_mm": "2” - 50 mm",
-          "gebruiks_duur_2_u": "2 u",
-          "korrelgrootte_mm_8_mm": "8 mm",
-          "lengte": "26 m",
-          "type": "huishoudelijk_semi_industrieel_bouw_land",
-          "spec_liquid_temp_range": "maximum 40°C",
-          "spec_temp_range": "vloeistof",
-          "spec_max_pressure": "2,6 bar",
-          "spec_water_pollution": "proper, licht vervuild (type TR = vuil)",
-          "spec_application_desc": "huishoudelijk, semi-industrieel, bouw, land-",
-          "spec_product_type": "TR = vuil)",
-          "spec_impeller_material": "Gietijzer",
-          "spec_material": "waaier Gietijzer",
-          "application": "VARIATIES",
-          "_enriched": {
-            "series_raw": "huishoudelijk, semi-industrieel, bouw, land-",
-            "series": "huishoudelijk-semi-industrieel-bouw-land",
-            "catalog_group": null,
-            "product_type": null,
-            "material": null,
-            "family_id": null,
-            "sku_series": null
-          },
-          "series_image": "images/pomp-specials/industrie-bouw-landbouw-modder__18480021.webp",
-          "image": "images/pomp-specials/pomp-specials__p11__industrie-bouw-landbouw-modder__18480021__v1.webp",
-          "images": [
-            "images/pomp-specials/pomp-specials__p11__industrie-bouw-landbouw-modder__18480021__v1.webp",
-            "images/pomp-specials/pomp-specials__p10__huishoudelijk-semi-industrieel-bouw-land__18480018-18480023__v3.webp",
-            "images/pomp-specials/pomp-specials__p10__huishoudelijk-semi-industrieel-bouw-land__18480018-18480023__v4.webp"
+            "images/pomp-specials/pomp-specials__p11__industrie-bouw-landbouw-modder__18480021__v2.webp"
           ]
         }
       }
     ]
   },
   {
-    "image": "images/pomp-specials/pomp-specials__p15__osmose-opslag-bassins-viskwekerijen__19220228__v1.webp",
-    "series_image": "images/pomp-specials/osmose-opslag-bassins-viskwekerijen__19220228.webp",
-    "all_images": [
-      "images/pomp-specials/pomp-specials__p15__osmose-opslag-bassins-viskwekerijen__19220228__v1.webp",
-      "images/pomp-specials/pomp-specials__p15__osmose-opslag-bassins-viskwekerijen__19220228__v2.webp"
-    ],
+    "image": "images/pomp-specials/pomp-specials__p15__osmose-opslag-bassins-viskwekerijen__19220228.webp",
+    "all_images": [],
     "catalog": "pomp-specials",
     "source_pdf": "pomp-specials.pdf",
     "page": 15,
@@ -4102,7 +3810,7 @@
         },
         "raw": {
           "sku": "19220228",
-          "series_id": "osmose-opslag-bassins-viskwekerijen",
+          "series_id": "pomp-specials__osmose-opslag-bassins-viskwekerijen",
           "series_name": "osmose opslag, bassins, viskwekerijen,",
           "source_pdf": "pomp-specials.pdf",
           "page": 15,
@@ -4129,23 +3837,14 @@
             "family_id": null,
             "sku_series": null
           },
-          "series_image": "images/pomp-specials/osmose-opslag-bassins-viskwekerijen__19220228.webp",
-          "image": "images/pomp-specials/pomp-specials__p15__osmose-opslag-bassins-viskwekerijen__19220228__v1.webp",
-          "images": [
-            "images/pomp-specials/pomp-specials__p15__osmose-opslag-bassins-viskwekerijen__19220228__v1.webp",
-            "images/pomp-specials/pomp-specials__p15__osmose-opslag-bassins-viskwekerijen__19220228__v2.webp"
-          ]
+          "image": "images/pomp-specials/pomp-specials__p15__osmose-opslag-bassins-viskwekerijen__19220228.webp"
         }
       }
     ]
   },
   {
-    "image": "images/pomp-specials/pomp-specials__p14__doseren-van-meststoffen-schoonmaakmid__70455370-70455377-70455379__v1.webp",
-    "series_image": "images/pomp-specials/doseren-van-meststoffen-schoonmaakmid__70455370.webp",
-    "all_images": [
-      "images/pomp-specials/pomp-specials__p14__doseren-van-meststoffen-schoonmaakmid__70455370-70455377-70455379__v1.webp",
-      "images/pomp-specials/pomp-specials__p14__doseren-van-meststoffen-schoonmaakmid__70455370-70455377-70455379__v2.webp"
-    ],
+    "image": "images/pomp-specials/pomp-specials__p14__doseren-van-meststoffen-schoonmaakmid__70455370-70455377-70455379.webp",
+    "all_images": [],
     "catalog": "pomp-specials",
     "source_pdf": "pomp-specials.pdf",
     "page": 14,
@@ -4171,7 +3870,7 @@
         },
         "raw": {
           "sku": "70455370",
-          "series_id": "doseren-van-meststoffen-schoonmaakmid",
+          "series_id": "pomp-specials__doseren-van-meststoffen-schoonmaakmid",
           "series_name": "doseren van meststoffen, schoonmaakmid-",
           "source_pdf": "pomp-specials.pdf",
           "page": 14,
@@ -4198,12 +3897,7 @@
             "family_id": null,
             "sku_series": null
           },
-          "series_image": "images/pomp-specials/doseren-van-meststoffen-schoonmaakmid__70455370.webp",
-          "image": "images/pomp-specials/pomp-specials__p14__doseren-van-meststoffen-schoonmaakmid__70455370-70455377-70455379__v1.webp",
-          "images": [
-            "images/pomp-specials/pomp-specials__p14__doseren-van-meststoffen-schoonmaakmid__70455370-70455377-70455379__v1.webp",
-            "images/pomp-specials/pomp-specials__p14__doseren-van-meststoffen-schoonmaakmid__70455370-70455377-70455379__v2.webp"
-          ]
+          "image": "images/pomp-specials/pomp-specials__p14__doseren-van-meststoffen-schoonmaakmid__70455370-70455377-70455379.webp"
         }
       },
       {
@@ -4227,7 +3921,7 @@
         },
         "raw": {
           "sku": "70455377",
-          "series_id": "doseren-van-meststoffen-schoonmaakmid",
+          "series_id": "pomp-specials__doseren-van-meststoffen-schoonmaakmid",
           "series_name": "doseren van meststoffen, schoonmaakmid-",
           "source_pdf": "pomp-specials.pdf",
           "page": 14,
@@ -4254,12 +3948,7 @@
             "family_id": null,
             "sku_series": null
           },
-          "series_image": "images/pomp-specials/doseren-van-meststoffen-schoonmaakmid__70455370.webp",
-          "image": "images/pomp-specials/pomp-specials__p14__doseren-van-meststoffen-schoonmaakmid__70455370-70455377-70455379__v1.webp",
-          "images": [
-            "images/pomp-specials/pomp-specials__p14__doseren-van-meststoffen-schoonmaakmid__70455370-70455377-70455379__v1.webp",
-            "images/pomp-specials/pomp-specials__p14__doseren-van-meststoffen-schoonmaakmid__70455370-70455377-70455379__v2.webp"
-          ]
+          "image": "images/pomp-specials/pomp-specials__p14__doseren-van-meststoffen-schoonmaakmid__70455370-70455377-70455379.webp"
         }
       },
       {
@@ -4283,7 +3972,7 @@
         },
         "raw": {
           "sku": "70455379",
-          "series_id": "doseren-van-meststoffen-schoonmaakmid",
+          "series_id": "pomp-specials__doseren-van-meststoffen-schoonmaakmid",
           "series_name": "doseren van meststoffen, schoonmaakmid-",
           "source_pdf": "pomp-specials.pdf",
           "page": 14,
@@ -4310,12 +3999,7 @@
             "family_id": null,
             "sku_series": null
           },
-          "series_image": "images/pomp-specials/doseren-van-meststoffen-schoonmaakmid__70455370.webp",
-          "image": "images/pomp-specials/pomp-specials__p14__doseren-van-meststoffen-schoonmaakmid__70455370-70455377-70455379__v1.webp",
-          "images": [
-            "images/pomp-specials/pomp-specials__p14__doseren-van-meststoffen-schoonmaakmid__70455370-70455377-70455379__v1.webp",
-            "images/pomp-specials/pomp-specials__p14__doseren-van-meststoffen-schoonmaakmid__70455370-70455377-70455379__v2.webp"
-          ]
+          "image": "images/pomp-specials/pomp-specials__p14__doseren-van-meststoffen-schoonmaakmid__70455370-70455377-70455379.webp"
         }
       },
       {
@@ -4339,7 +4023,7 @@
         },
         "raw": {
           "sku": "70455431",
-          "series_id": "doseren-van-meststoffen-schoonmaakmid",
+          "series_id": "pomp-specials__doseren-van-meststoffen-schoonmaakmid",
           "series_name": "doseren van meststoffen, schoonmaakmid-",
           "source_pdf": "pomp-specials.pdf",
           "page": 14,
@@ -4366,12 +4050,7 @@
             "family_id": null,
             "sku_series": null
           },
-          "series_image": "images/pomp-specials/doseren-van-meststoffen-schoonmaakmid__70455370.webp",
-          "image": "images/pomp-specials/pomp-specials__p14__doseren-van-meststoffen-schoonmaakmid__70455370-70455377-70455379__v1.webp",
-          "images": [
-            "images/pomp-specials/pomp-specials__p14__doseren-van-meststoffen-schoonmaakmid__70455370-70455377-70455379__v1.webp",
-            "images/pomp-specials/pomp-specials__p14__doseren-van-meststoffen-schoonmaakmid__70455370-70455377-70455379__v2.webp"
-          ]
+          "image": "images/pomp-specials/pomp-specials__p14__doseren-van-meststoffen-schoonmaakmid__70455370-70455377-70455379.webp"
         }
       },
       {
@@ -4395,7 +4074,7 @@
         },
         "raw": {
           "sku": "70455432",
-          "series_id": "doseren-van-meststoffen-schoonmaakmid",
+          "series_id": "pomp-specials__doseren-van-meststoffen-schoonmaakmid",
           "series_name": "doseren van meststoffen, schoonmaakmid-",
           "source_pdf": "pomp-specials.pdf",
           "page": 14,
@@ -4422,12 +4101,7 @@
             "family_id": null,
             "sku_series": null
           },
-          "series_image": "images/pomp-specials/doseren-van-meststoffen-schoonmaakmid__70455370.webp",
-          "image": "images/pomp-specials/pomp-specials__p14__doseren-van-meststoffen-schoonmaakmid__70455370-70455377-70455379__v1.webp",
-          "images": [
-            "images/pomp-specials/pomp-specials__p14__doseren-van-meststoffen-schoonmaakmid__70455370-70455377-70455379__v1.webp",
-            "images/pomp-specials/pomp-specials__p14__doseren-van-meststoffen-schoonmaakmid__70455370-70455377-70455379__v2.webp"
-          ]
+          "image": "images/pomp-specials/pomp-specials__p14__doseren-van-meststoffen-schoonmaakmid__70455370-70455377-70455379.webp"
         }
       },
       {
@@ -4451,7 +4125,7 @@
         },
         "raw": {
           "sku": "70455435",
-          "series_id": "doseren-van-meststoffen-schoonmaakmid",
+          "series_id": "pomp-specials__doseren-van-meststoffen-schoonmaakmid",
           "series_name": "doseren van meststoffen, schoonmaakmid-",
           "source_pdf": "pomp-specials.pdf",
           "page": 14,
@@ -4478,12 +4152,7 @@
             "family_id": null,
             "sku_series": null
           },
-          "series_image": "images/pomp-specials/doseren-van-meststoffen-schoonmaakmid__70455370.webp",
-          "image": "images/pomp-specials/pomp-specials__p14__doseren-van-meststoffen-schoonmaakmid__70455370-70455377-70455379__v1.webp",
-          "images": [
-            "images/pomp-specials/pomp-specials__p14__doseren-van-meststoffen-schoonmaakmid__70455370-70455377-70455379__v1.webp",
-            "images/pomp-specials/pomp-specials__p14__doseren-van-meststoffen-schoonmaakmid__70455370-70455377-70455379__v2.webp"
-          ]
+          "image": "images/pomp-specials/pomp-specials__p14__doseren-van-meststoffen-schoonmaakmid__70455370-70455377-70455379.webp"
         }
       },
       {
@@ -4507,7 +4176,7 @@
         },
         "raw": {
           "sku": "70455980",
-          "series_id": "doseren-van-meststoffen-schoonmaakmid",
+          "series_id": "pomp-specials__doseren-van-meststoffen-schoonmaakmid",
           "series_name": "doseren van meststoffen, schoonmaakmid-",
           "source_pdf": "pomp-specials.pdf",
           "page": 14,
@@ -4534,12 +4203,7 @@
             "family_id": null,
             "sku_series": null
           },
-          "series_image": "images/pomp-specials/doseren-van-meststoffen-schoonmaakmid__70455370.webp",
-          "image": "images/pomp-specials/pomp-specials__p14__doseren-van-meststoffen-schoonmaakmid__70455370-70455377-70455379__v1.webp",
-          "images": [
-            "images/pomp-specials/pomp-specials__p14__doseren-van-meststoffen-schoonmaakmid__70455370-70455377-70455379__v1.webp",
-            "images/pomp-specials/pomp-specials__p14__doseren-van-meststoffen-schoonmaakmid__70455370-70455377-70455379__v2.webp"
-          ]
+          "image": "images/pomp-specials/pomp-specials__p14__doseren-van-meststoffen-schoonmaakmid__70455370-70455377-70455379.webp"
         }
       },
       {
@@ -4563,7 +4227,7 @@
         },
         "raw": {
           "sku": "70455990",
-          "series_id": "doseren-van-meststoffen-schoonmaakmid",
+          "series_id": "pomp-specials__doseren-van-meststoffen-schoonmaakmid",
           "series_name": "doseren van meststoffen, schoonmaakmid-",
           "source_pdf": "pomp-specials.pdf",
           "page": 14,
@@ -4590,12 +4254,7 @@
             "family_id": null,
             "sku_series": null
           },
-          "series_image": "images/pomp-specials/doseren-van-meststoffen-schoonmaakmid__70455370.webp",
-          "image": "images/pomp-specials/pomp-specials__p14__doseren-van-meststoffen-schoonmaakmid__70455370-70455377-70455379__v1.webp",
-          "images": [
-            "images/pomp-specials/pomp-specials__p14__doseren-van-meststoffen-schoonmaakmid__70455370-70455377-70455379__v1.webp",
-            "images/pomp-specials/pomp-specials__p14__doseren-van-meststoffen-schoonmaakmid__70455370-70455377-70455379__v2.webp"
-          ]
+          "image": "images/pomp-specials/pomp-specials__p14__doseren-van-meststoffen-schoonmaakmid__70455370-70455377-70455379.webp"
         }
       },
       {
@@ -4617,7 +4276,7 @@
         },
         "raw": {
           "sku": null,
-          "series_id": "doseren-van-meststoffen-schoonmaakmid",
+          "series_id": "pomp-specials__doseren-van-meststoffen-schoonmaakmid",
           "series_name": "doseren van meststoffen, schoonmaakmid-",
           "source_pdf": "pomp-specials.pdf",
           "page": 14,
@@ -4644,12 +4303,7 @@
             "family_id": null,
             "sku_series": null
           },
-          "series_image": "images/pomp-specials/doseren-van-meststoffen-schoonmaakmid__70455370.webp",
-          "image": "images/pomp-specials/pomp-specials__p14__doseren-van-meststoffen-schoonmaakmid__70455370-70455377-70455379__v1.webp",
-          "images": [
-            "images/pomp-specials/pomp-specials__p14__doseren-van-meststoffen-schoonmaakmid__70455370-70455377-70455379__v1.webp",
-            "images/pomp-specials/pomp-specials__p14__doseren-van-meststoffen-schoonmaakmid__70455370-70455377-70455379__v2.webp"
-          ]
+          "image": "images/pomp-specials/pomp-specials__p14__doseren-van-meststoffen-schoonmaakmid__70455370-70455377-70455379.webp"
         }
       },
       {
@@ -4671,7 +4325,7 @@
         },
         "raw": {
           "sku": null,
-          "series_id": "doseren-van-meststoffen-schoonmaakmid",
+          "series_id": "pomp-specials__doseren-van-meststoffen-schoonmaakmid",
           "series_name": "doseren van meststoffen, schoonmaakmid-",
           "source_pdf": "pomp-specials.pdf",
           "page": 14,
@@ -4698,12 +4352,7 @@
             "family_id": null,
             "sku_series": null
           },
-          "series_image": "images/pomp-specials/doseren-van-meststoffen-schoonmaakmid__70455370.webp",
-          "image": "images/pomp-specials/pomp-specials__p14__doseren-van-meststoffen-schoonmaakmid__70455370-70455377-70455379__v1.webp",
-          "images": [
-            "images/pomp-specials/pomp-specials__p14__doseren-van-meststoffen-schoonmaakmid__70455370-70455377-70455379__v1.webp",
-            "images/pomp-specials/pomp-specials__p14__doseren-van-meststoffen-schoonmaakmid__70455370-70455377-70455379__v2.webp"
-          ]
+          "image": "images/pomp-specials/pomp-specials__p14__doseren-van-meststoffen-schoonmaakmid__70455370-70455377-70455379.webp"
         }
       },
       {
@@ -4725,7 +4374,7 @@
         },
         "raw": {
           "sku": null,
-          "series_id": "doseren-van-meststoffen-schoonmaakmid",
+          "series_id": "pomp-specials__doseren-van-meststoffen-schoonmaakmid",
           "series_name": "doseren van meststoffen, schoonmaakmid-",
           "source_pdf": "pomp-specials.pdf",
           "page": 14,
@@ -4752,12 +4401,7 @@
             "family_id": null,
             "sku_series": null
           },
-          "series_image": "images/pomp-specials/doseren-van-meststoffen-schoonmaakmid__70455370.webp",
-          "image": "images/pomp-specials/pomp-specials__p14__doseren-van-meststoffen-schoonmaakmid__70455370-70455377-70455379__v1.webp",
-          "images": [
-            "images/pomp-specials/pomp-specials__p14__doseren-van-meststoffen-schoonmaakmid__70455370-70455377-70455379__v1.webp",
-            "images/pomp-specials/pomp-specials__p14__doseren-van-meststoffen-schoonmaakmid__70455370-70455377-70455379__v2.webp"
-          ]
+          "image": "images/pomp-specials/pomp-specials__p14__doseren-van-meststoffen-schoonmaakmid__70455370-70455377-70455379.webp"
         }
       },
       {
@@ -4779,7 +4423,7 @@
         },
         "raw": {
           "sku": null,
-          "series_id": "doseren-van-meststoffen-schoonmaakmid",
+          "series_id": "pomp-specials__doseren-van-meststoffen-schoonmaakmid",
           "series_name": "doseren van meststoffen, schoonmaakmid-",
           "source_pdf": "pomp-specials.pdf",
           "page": 14,
@@ -4806,12 +4450,7 @@
             "family_id": null,
             "sku_series": null
           },
-          "series_image": "images/pomp-specials/doseren-van-meststoffen-schoonmaakmid__70455370.webp",
-          "image": "images/pomp-specials/pomp-specials__p14__doseren-van-meststoffen-schoonmaakmid__70455370-70455377-70455379__v1.webp",
-          "images": [
-            "images/pomp-specials/pomp-specials__p14__doseren-van-meststoffen-schoonmaakmid__70455370-70455377-70455379__v1.webp",
-            "images/pomp-specials/pomp-specials__p14__doseren-van-meststoffen-schoonmaakmid__70455370-70455377-70455379__v2.webp"
-          ]
+          "image": "images/pomp-specials/pomp-specials__p14__doseren-van-meststoffen-schoonmaakmid__70455370-70455377-70455379.webp"
         }
       },
       {
@@ -4833,7 +4472,7 @@
         },
         "raw": {
           "sku": null,
-          "series_id": "doseren-van-meststoffen-schoonmaakmid",
+          "series_id": "pomp-specials__doseren-van-meststoffen-schoonmaakmid",
           "series_name": "doseren van meststoffen, schoonmaakmid-",
           "source_pdf": "pomp-specials.pdf",
           "page": 14,
@@ -4860,12 +4499,7 @@
             "family_id": null,
             "sku_series": null
           },
-          "series_image": "images/pomp-specials/doseren-van-meststoffen-schoonmaakmid__70455370.webp",
-          "image": "images/pomp-specials/pomp-specials__p14__doseren-van-meststoffen-schoonmaakmid__70455370-70455377-70455379__v1.webp",
-          "images": [
-            "images/pomp-specials/pomp-specials__p14__doseren-van-meststoffen-schoonmaakmid__70455370-70455377-70455379__v1.webp",
-            "images/pomp-specials/pomp-specials__p14__doseren-van-meststoffen-schoonmaakmid__70455370-70455377-70455379__v2.webp"
-          ]
+          "image": "images/pomp-specials/pomp-specials__p14__doseren-van-meststoffen-schoonmaakmid__70455370-70455377-70455379.webp"
         }
       },
       {
@@ -4887,7 +4521,7 @@
         },
         "raw": {
           "sku": null,
-          "series_id": "doseren-van-meststoffen-schoonmaakmid",
+          "series_id": "pomp-specials__doseren-van-meststoffen-schoonmaakmid",
           "series_name": "doseren van meststoffen, schoonmaakmid-",
           "source_pdf": "pomp-specials.pdf",
           "page": 14,
@@ -4914,12 +4548,7 @@
             "family_id": null,
             "sku_series": null
           },
-          "series_image": "images/pomp-specials/doseren-van-meststoffen-schoonmaakmid__70455370.webp",
-          "image": "images/pomp-specials/pomp-specials__p14__doseren-van-meststoffen-schoonmaakmid__70455370-70455377-70455379__v1.webp",
-          "images": [
-            "images/pomp-specials/pomp-specials__p14__doseren-van-meststoffen-schoonmaakmid__70455370-70455377-70455379__v1.webp",
-            "images/pomp-specials/pomp-specials__p14__doseren-van-meststoffen-schoonmaakmid__70455370-70455377-70455379__v2.webp"
-          ]
+          "image": "images/pomp-specials/pomp-specials__p14__doseren-van-meststoffen-schoonmaakmid__70455370-70455377-70455379.webp"
         }
       },
       {
@@ -4941,7 +4570,7 @@
         },
         "raw": {
           "sku": null,
-          "series_id": "doseren-van-meststoffen-schoonmaakmid",
+          "series_id": "pomp-specials__doseren-van-meststoffen-schoonmaakmid",
           "series_name": "doseren van meststoffen, schoonmaakmid-",
           "source_pdf": "pomp-specials.pdf",
           "page": 14,
@@ -4968,12 +4597,7 @@
             "family_id": null,
             "sku_series": null
           },
-          "series_image": "images/pomp-specials/doseren-van-meststoffen-schoonmaakmid__70455370.webp",
-          "image": "images/pomp-specials/pomp-specials__p14__doseren-van-meststoffen-schoonmaakmid__70455370-70455377-70455379__v1.webp",
-          "images": [
-            "images/pomp-specials/pomp-specials__p14__doseren-van-meststoffen-schoonmaakmid__70455370-70455377-70455379__v1.webp",
-            "images/pomp-specials/pomp-specials__p14__doseren-van-meststoffen-schoonmaakmid__70455370-70455377-70455379__v2.webp"
-          ]
+          "image": "images/pomp-specials/pomp-specials__p14__doseren-van-meststoffen-schoonmaakmid__70455370-70455377-70455379.webp"
         }
       },
       {
@@ -4995,7 +4619,7 @@
         },
         "raw": {
           "sku": null,
-          "series_id": "doseren-van-meststoffen-schoonmaakmid",
+          "series_id": "pomp-specials__doseren-van-meststoffen-schoonmaakmid",
           "series_name": "doseren van meststoffen, schoonmaakmid-",
           "source_pdf": "pomp-specials.pdf",
           "page": 14,
@@ -5022,12 +4646,7 @@
             "family_id": null,
             "sku_series": null
           },
-          "series_image": "images/pomp-specials/doseren-van-meststoffen-schoonmaakmid__70455370.webp",
-          "image": "images/pomp-specials/pomp-specials__p14__doseren-van-meststoffen-schoonmaakmid__70455370-70455377-70455379__v1.webp",
-          "images": [
-            "images/pomp-specials/pomp-specials__p14__doseren-van-meststoffen-schoonmaakmid__70455370-70455377-70455379__v1.webp",
-            "images/pomp-specials/pomp-specials__p14__doseren-van-meststoffen-schoonmaakmid__70455370-70455377-70455379__v2.webp"
-          ]
+          "image": "images/pomp-specials/pomp-specials__p14__doseren-van-meststoffen-schoonmaakmid__70455370-70455377-70455379.webp"
         }
       },
       {
@@ -5049,7 +4668,7 @@
         },
         "raw": {
           "sku": null,
-          "series_id": "doseren-van-meststoffen-schoonmaakmid",
+          "series_id": "pomp-specials__doseren-van-meststoffen-schoonmaakmid",
           "series_name": "doseren van meststoffen, schoonmaakmid-",
           "source_pdf": "pomp-specials.pdf",
           "page": 14,
@@ -5076,19 +4695,13 @@
             "family_id": null,
             "sku_series": null
           },
-          "series_image": "images/pomp-specials/doseren-van-meststoffen-schoonmaakmid__70455370.webp",
-          "image": "images/pomp-specials/pomp-specials__p14__doseren-van-meststoffen-schoonmaakmid__70455370-70455377-70455379__v1.webp",
-          "images": [
-            "images/pomp-specials/pomp-specials__p14__doseren-van-meststoffen-schoonmaakmid__70455370-70455377-70455379__v1.webp",
-            "images/pomp-specials/pomp-specials__p14__doseren-van-meststoffen-schoonmaakmid__70455370-70455377-70455379__v2.webp"
-          ]
+          "image": "images/pomp-specials/pomp-specials__p14__doseren-van-meststoffen-schoonmaakmid__70455370-70455377-70455379.webp"
         }
       }
     ]
   },
   {
-    "image": "images/pomp-specials/pomp-specials__p8__installaties-industrie__FL 776__v1.webp",
-    "series_image": "images/pomp-specials/installaties-industrie__fl-776.webp",
+    "image": "images/pomp-specials/pomp-specials__p8__installaties-industrie__FL 776__v12.webp",
     "all_images": [
       "images/pomp-specials/pomp-specials__p8__installaties-industrie__FL 776__v1.webp",
       "images/pomp-specials/pomp-specials__p8__installaties-industrie__FL 776__v2.webp",
@@ -5101,9 +4714,7 @@
       "images/pomp-specials/pomp-specials__p8__installaties-industrie__FL 776__v9.webp",
       "images/pomp-specials/pomp-specials__p8__installaties-industrie__FL 776__v10.webp",
       "images/pomp-specials/pomp-specials__p8__installaties-industrie__FL 776__v11.webp",
-      "images/pomp-specials/pomp-specials__p8__installaties-industrie__FL 776__v12.webp",
-      "images/pomp-specials/pomp-specials__p8__installaties-industrie__FL 776__v13.webp",
-      "images/pomp-specials/pomp-specials__p8__installaties-industrie__FL 776__v14.webp"
+      "images/pomp-specials/pomp-specials__p8__installaties-industrie__FL 776__v12.webp"
     ],
     "catalog": "pomp-specials",
     "source_pdf": "pomp-specials.pdf",
@@ -5132,7 +4743,7 @@
         },
         "raw": {
           "sku": "FL 776",
-          "series_id": "installaties-industrie",
+          "series_id": "pomp-specials__installaties-industrie",
           "series_name": "installaties, industrie",
           "source_pdf": "pomp-specials.pdf",
           "page": 8,
@@ -5161,8 +4772,7 @@
             "family_id": null,
             "sku_series": null
           },
-          "series_image": "images/pomp-specials/installaties-industrie__fl-776.webp",
-          "image": "images/pomp-specials/pomp-specials__p8__installaties-industrie__FL 776__v1.webp",
+          "image": "images/pomp-specials/pomp-specials__p8__installaties-industrie__FL 776__v12.webp",
           "images": [
             "images/pomp-specials/pomp-specials__p8__installaties-industrie__FL 776__v1.webp",
             "images/pomp-specials/pomp-specials__p8__installaties-industrie__FL 776__v2.webp",
@@ -5175,9 +4785,7 @@
             "images/pomp-specials/pomp-specials__p8__installaties-industrie__FL 776__v9.webp",
             "images/pomp-specials/pomp-specials__p8__installaties-industrie__FL 776__v10.webp",
             "images/pomp-specials/pomp-specials__p8__installaties-industrie__FL 776__v11.webp",
-            "images/pomp-specials/pomp-specials__p8__installaties-industrie__FL 776__v12.webp",
-            "images/pomp-specials/pomp-specials__p8__installaties-industrie__FL 776__v13.webp",
-            "images/pomp-specials/pomp-specials__p8__installaties-industrie__FL 776__v14.webp"
+            "images/pomp-specials/pomp-specials__p8__installaties-industrie__FL 776__v12.webp"
           ]
         }
       },
@@ -5202,7 +4810,7 @@
         },
         "raw": {
           "sku": null,
-          "series_id": "installaties-industrie",
+          "series_id": "pomp-specials__installaties-industrie",
           "series_name": "installaties, industrie",
           "source_pdf": "pomp-specials.pdf",
           "page": 8,
@@ -5231,8 +4839,7 @@
             "family_id": null,
             "sku_series": null
           },
-          "series_image": "images/pomp-specials/installaties-industrie__fl-776.webp",
-          "image": "images/pomp-specials/pomp-specials__p8__installaties-industrie__FL 776__v1.webp",
+          "image": "images/pomp-specials/pomp-specials__p8__installaties-industrie__FL 776__v12.webp",
           "images": [
             "images/pomp-specials/pomp-specials__p8__installaties-industrie__FL 776__v1.webp",
             "images/pomp-specials/pomp-specials__p8__installaties-industrie__FL 776__v2.webp",
@@ -5245,9 +4852,7 @@
             "images/pomp-specials/pomp-specials__p8__installaties-industrie__FL 776__v9.webp",
             "images/pomp-specials/pomp-specials__p8__installaties-industrie__FL 776__v10.webp",
             "images/pomp-specials/pomp-specials__p8__installaties-industrie__FL 776__v11.webp",
-            "images/pomp-specials/pomp-specials__p8__installaties-industrie__FL 776__v12.webp",
-            "images/pomp-specials/pomp-specials__p8__installaties-industrie__FL 776__v13.webp",
-            "images/pomp-specials/pomp-specials__p8__installaties-industrie__FL 776__v14.webp"
+            "images/pomp-specials/pomp-specials__p8__installaties-industrie__FL 776__v12.webp"
           ]
         }
       },
@@ -5272,7 +4877,7 @@
         },
         "raw": {
           "sku": null,
-          "series_id": "installaties-industrie",
+          "series_id": "pomp-specials__installaties-industrie",
           "series_name": "installaties, industrie",
           "source_pdf": "pomp-specials.pdf",
           "page": 8,
@@ -5301,8 +4906,7 @@
             "family_id": null,
             "sku_series": null
           },
-          "series_image": "images/pomp-specials/installaties-industrie__fl-776.webp",
-          "image": "images/pomp-specials/pomp-specials__p8__installaties-industrie__FL 776__v1.webp",
+          "image": "images/pomp-specials/pomp-specials__p8__installaties-industrie__FL 776__v12.webp",
           "images": [
             "images/pomp-specials/pomp-specials__p8__installaties-industrie__FL 776__v1.webp",
             "images/pomp-specials/pomp-specials__p8__installaties-industrie__FL 776__v2.webp",
@@ -5315,21 +4919,15 @@
             "images/pomp-specials/pomp-specials__p8__installaties-industrie__FL 776__v9.webp",
             "images/pomp-specials/pomp-specials__p8__installaties-industrie__FL 776__v10.webp",
             "images/pomp-specials/pomp-specials__p8__installaties-industrie__FL 776__v11.webp",
-            "images/pomp-specials/pomp-specials__p8__installaties-industrie__FL 776__v12.webp",
-            "images/pomp-specials/pomp-specials__p8__installaties-industrie__FL 776__v13.webp",
-            "images/pomp-specials/pomp-specials__p8__installaties-industrie__FL 776__v14.webp"
+            "images/pomp-specials/pomp-specials__p8__installaties-industrie__FL 776__v12.webp"
           ]
         }
       }
     ]
   },
   {
-    "image": "images/pomp-specials/pomp-specials__p7__landbouw-slachthuizen-biogas-installatie__SUPER 150-SUPER ME 100/7,5-SUPER ME 120/15__v1.webp",
-    "series_image": "images/pomp-specials/landbouw-slachthuizen-biogas-installaties__super-150.webp",
-    "all_images": [
-      "images/pomp-specials/pomp-specials__p7__landbouw-slachthuizen-biogas-installatie__SUPER 150-SUPER ME 100/7,5-SUPER ME 120/15__v1.webp",
-      "images/pomp-specials/pomp-specials__p7__landbouw-slachthuizen-biogas-installatie__SUPER 150-SUPER ME 100/7,5-SUPER ME 120/15__v2.webp"
-    ],
+    "image": "images/pomp-specials/pomp-specials__p7__landbouw-slachthuizen-biogas-installatie__SUPER 150-SUPER ME 100/7,5-SUPER ME 120/15.webp",
+    "all_images": [],
     "catalog": "pomp-specials",
     "source_pdf": "pomp-specials.pdf",
     "page": 7,
@@ -5359,7 +4957,7 @@
         },
         "raw": {
           "sku": "SUPER 150",
-          "series_id": "landbouw-slachthuizen-biogas-installaties",
+          "series_id": "pomp-specials__landbouw-slachthuizen-biogas-installaties",
           "series_name": "landbouw, slachthuizen, biogas installaties",
           "source_pdf": "pomp-specials.pdf",
           "page": 7,
@@ -5390,12 +4988,7 @@
             "family_id": null,
             "sku_series": null
           },
-          "series_image": "images/pomp-specials/landbouw-slachthuizen-biogas-installaties__super-150.webp",
-          "image": "images/pomp-specials/pomp-specials__p7__landbouw-slachthuizen-biogas-installatie__SUPER 150-SUPER ME 100/7,5-SUPER ME 120/15__v1.webp",
-          "images": [
-            "images/pomp-specials/pomp-specials__p7__landbouw-slachthuizen-biogas-installatie__SUPER 150-SUPER ME 100/7,5-SUPER ME 120/15__v1.webp",
-            "images/pomp-specials/pomp-specials__p7__landbouw-slachthuizen-biogas-installatie__SUPER 150-SUPER ME 100/7,5-SUPER ME 120/15__v2.webp"
-          ]
+          "image": "images/pomp-specials/pomp-specials__p7__landbouw-slachthuizen-biogas-installatie__SUPER 150-SUPER ME 100/7,5-SUPER ME 120/15.webp"
         }
       },
       {
@@ -5423,7 +5016,7 @@
         },
         "raw": {
           "sku": "SUPER ME 100/7,5",
-          "series_id": "landbouw-slachthuizen-biogas-installaties",
+          "series_id": "pomp-specials__landbouw-slachthuizen-biogas-installaties",
           "series_name": "landbouw, slachthuizen, biogas installaties",
           "source_pdf": "pomp-specials.pdf",
           "page": 7,
@@ -5454,12 +5047,7 @@
             "family_id": null,
             "sku_series": null
           },
-          "series_image": "images/pomp-specials/landbouw-slachthuizen-biogas-installaties__super-150.webp",
-          "image": "images/pomp-specials/pomp-specials__p7__landbouw-slachthuizen-biogas-installatie__SUPER 150-SUPER ME 100/7,5-SUPER ME 120/15__v1.webp",
-          "images": [
-            "images/pomp-specials/pomp-specials__p7__landbouw-slachthuizen-biogas-installatie__SUPER 150-SUPER ME 100/7,5-SUPER ME 120/15__v1.webp",
-            "images/pomp-specials/pomp-specials__p7__landbouw-slachthuizen-biogas-installatie__SUPER 150-SUPER ME 100/7,5-SUPER ME 120/15__v2.webp"
-          ]
+          "image": "images/pomp-specials/pomp-specials__p7__landbouw-slachthuizen-biogas-installatie__SUPER 150-SUPER ME 100/7,5-SUPER ME 120/15.webp"
         }
       },
       {
@@ -5487,7 +5075,7 @@
         },
         "raw": {
           "sku": "SUPER ME 120/15",
-          "series_id": "landbouw-slachthuizen-biogas-installaties",
+          "series_id": "pomp-specials__landbouw-slachthuizen-biogas-installaties",
           "series_name": "landbouw, slachthuizen, biogas installaties",
           "source_pdf": "pomp-specials.pdf",
           "page": 7,
@@ -5518,12 +5106,7 @@
             "family_id": null,
             "sku_series": null
           },
-          "series_image": "images/pomp-specials/landbouw-slachthuizen-biogas-installaties__super-150.webp",
-          "image": "images/pomp-specials/pomp-specials__p7__landbouw-slachthuizen-biogas-installatie__SUPER 150-SUPER ME 100/7,5-SUPER ME 120/15__v1.webp",
-          "images": [
-            "images/pomp-specials/pomp-specials__p7__landbouw-slachthuizen-biogas-installatie__SUPER 150-SUPER ME 100/7,5-SUPER ME 120/15__v1.webp",
-            "images/pomp-specials/pomp-specials__p7__landbouw-slachthuizen-biogas-installatie__SUPER 150-SUPER ME 100/7,5-SUPER ME 120/15__v2.webp"
-          ]
+          "image": "images/pomp-specials/pomp-specials__p7__landbouw-slachthuizen-biogas-installatie__SUPER 150-SUPER ME 100/7,5-SUPER ME 120/15.webp"
         }
       },
       {
@@ -5551,7 +5134,7 @@
         },
         "raw": {
           "sku": "SUPER ME 120/25",
-          "series_id": "landbouw-slachthuizen-biogas-installaties",
+          "series_id": "pomp-specials__landbouw-slachthuizen-biogas-installaties",
           "series_name": "landbouw, slachthuizen, biogas installaties",
           "source_pdf": "pomp-specials.pdf",
           "page": 7,
@@ -5582,12 +5165,7 @@
             "family_id": null,
             "sku_series": null
           },
-          "series_image": "images/pomp-specials/landbouw-slachthuizen-biogas-installaties__super-150.webp",
-          "image": "images/pomp-specials/pomp-specials__p7__landbouw-slachthuizen-biogas-installatie__SUPER 150-SUPER ME 100/7,5-SUPER ME 120/15__v1.webp",
-          "images": [
-            "images/pomp-specials/pomp-specials__p7__landbouw-slachthuizen-biogas-installatie__SUPER 150-SUPER ME 100/7,5-SUPER ME 120/15__v1.webp",
-            "images/pomp-specials/pomp-specials__p7__landbouw-slachthuizen-biogas-installatie__SUPER 150-SUPER ME 100/7,5-SUPER ME 120/15__v2.webp"
-          ]
+          "image": "images/pomp-specials/pomp-specials__p7__landbouw-slachthuizen-biogas-installatie__SUPER 150-SUPER ME 100/7,5-SUPER ME 120/15.webp"
         }
       },
       {
@@ -5615,7 +5193,7 @@
         },
         "raw": {
           "sku": "SUPER ME 60/1",
-          "series_id": "landbouw-slachthuizen-biogas-installaties",
+          "series_id": "pomp-specials__landbouw-slachthuizen-biogas-installaties",
           "series_name": "landbouw, slachthuizen, biogas installaties",
           "source_pdf": "pomp-specials.pdf",
           "page": 7,
@@ -5646,12 +5224,7 @@
             "family_id": null,
             "sku_series": null
           },
-          "series_image": "images/pomp-specials/landbouw-slachthuizen-biogas-installaties__super-150.webp",
-          "image": "images/pomp-specials/pomp-specials__p7__landbouw-slachthuizen-biogas-installatie__SUPER 150-SUPER ME 100/7,5-SUPER ME 120/15__v1.webp",
-          "images": [
-            "images/pomp-specials/pomp-specials__p7__landbouw-slachthuizen-biogas-installatie__SUPER 150-SUPER ME 100/7,5-SUPER ME 120/15__v1.webp",
-            "images/pomp-specials/pomp-specials__p7__landbouw-slachthuizen-biogas-installatie__SUPER 150-SUPER ME 100/7,5-SUPER ME 120/15__v2.webp"
-          ]
+          "image": "images/pomp-specials/pomp-specials__p7__landbouw-slachthuizen-biogas-installatie__SUPER 150-SUPER ME 100/7,5-SUPER ME 120/15.webp"
         }
       },
       {
@@ -5679,7 +5252,7 @@
         },
         "raw": {
           "sku": "ULTRA 120/15",
-          "series_id": "landbouw-slachthuizen-biogas-installaties",
+          "series_id": "pomp-specials__landbouw-slachthuizen-biogas-installaties",
           "series_name": "landbouw, slachthuizen, biogas installaties",
           "source_pdf": "pomp-specials.pdf",
           "page": 7,
@@ -5710,12 +5283,7 @@
             "family_id": null,
             "sku_series": null
           },
-          "series_image": "images/pomp-specials/landbouw-slachthuizen-biogas-installaties__super-150.webp",
-          "image": "images/pomp-specials/pomp-specials__p7__landbouw-slachthuizen-biogas-installatie__SUPER 150-SUPER ME 100/7,5-SUPER ME 120/15__v1.webp",
-          "images": [
-            "images/pomp-specials/pomp-specials__p7__landbouw-slachthuizen-biogas-installatie__SUPER 150-SUPER ME 100/7,5-SUPER ME 120/15__v1.webp",
-            "images/pomp-specials/pomp-specials__p7__landbouw-slachthuizen-biogas-installatie__SUPER 150-SUPER ME 100/7,5-SUPER ME 120/15__v2.webp"
-          ]
+          "image": "images/pomp-specials/pomp-specials__p7__landbouw-slachthuizen-biogas-installatie__SUPER 150-SUPER ME 100/7,5-SUPER ME 120/15.webp"
         }
       },
       {
@@ -5743,7 +5311,7 @@
         },
         "raw": {
           "sku": "ULTRA 120/25",
-          "series_id": "landbouw-slachthuizen-biogas-installaties",
+          "series_id": "pomp-specials__landbouw-slachthuizen-biogas-installaties",
           "series_name": "landbouw, slachthuizen, biogas installaties",
           "source_pdf": "pomp-specials.pdf",
           "page": 7,
@@ -5774,12 +5342,7 @@
             "family_id": null,
             "sku_series": null
           },
-          "series_image": "images/pomp-specials/landbouw-slachthuizen-biogas-installaties__super-150.webp",
-          "image": "images/pomp-specials/pomp-specials__p7__landbouw-slachthuizen-biogas-installatie__SUPER 150-SUPER ME 100/7,5-SUPER ME 120/15__v1.webp",
-          "images": [
-            "images/pomp-specials/pomp-specials__p7__landbouw-slachthuizen-biogas-installatie__SUPER 150-SUPER ME 100/7,5-SUPER ME 120/15__v1.webp",
-            "images/pomp-specials/pomp-specials__p7__landbouw-slachthuizen-biogas-installatie__SUPER 150-SUPER ME 100/7,5-SUPER ME 120/15__v2.webp"
-          ]
+          "image": "images/pomp-specials/pomp-specials__p7__landbouw-slachthuizen-biogas-installatie__SUPER 150-SUPER ME 100/7,5-SUPER ME 120/15.webp"
         }
       },
       {
@@ -5806,7 +5369,7 @@
         },
         "raw": {
           "sku": null,
-          "series_id": "landbouw-slachthuizen-biogas-installaties",
+          "series_id": "pomp-specials__landbouw-slachthuizen-biogas-installaties",
           "series_name": "landbouw, slachthuizen, biogas installaties",
           "source_pdf": "pomp-specials.pdf",
           "page": 7,
@@ -5837,12 +5400,7 @@
             "family_id": null,
             "sku_series": null
           },
-          "series_image": "images/pomp-specials/landbouw-slachthuizen-biogas-installaties__super-150.webp",
-          "image": "images/pomp-specials/pomp-specials__p7__landbouw-slachthuizen-biogas-installatie__SUPER 150-SUPER ME 100/7,5-SUPER ME 120/15__v1.webp",
-          "images": [
-            "images/pomp-specials/pomp-specials__p7__landbouw-slachthuizen-biogas-installatie__SUPER 150-SUPER ME 100/7,5-SUPER ME 120/15__v1.webp",
-            "images/pomp-specials/pomp-specials__p7__landbouw-slachthuizen-biogas-installatie__SUPER 150-SUPER ME 100/7,5-SUPER ME 120/15__v2.webp"
-          ]
+          "image": "images/pomp-specials/pomp-specials__p7__landbouw-slachthuizen-biogas-installatie__SUPER 150-SUPER ME 100/7,5-SUPER ME 120/15.webp"
         }
       },
       {
@@ -5869,7 +5427,7 @@
         },
         "raw": {
           "sku": null,
-          "series_id": "landbouw-slachthuizen-biogas-installaties",
+          "series_id": "pomp-specials__landbouw-slachthuizen-biogas-installaties",
           "series_name": "landbouw, slachthuizen, biogas installaties",
           "source_pdf": "pomp-specials.pdf",
           "page": 7,
@@ -5900,12 +5458,7 @@
             "family_id": null,
             "sku_series": null
           },
-          "series_image": "images/pomp-specials/landbouw-slachthuizen-biogas-installaties__super-150.webp",
-          "image": "images/pomp-specials/pomp-specials__p7__landbouw-slachthuizen-biogas-installatie__SUPER 150-SUPER ME 100/7,5-SUPER ME 120/15__v1.webp",
-          "images": [
-            "images/pomp-specials/pomp-specials__p7__landbouw-slachthuizen-biogas-installatie__SUPER 150-SUPER ME 100/7,5-SUPER ME 120/15__v1.webp",
-            "images/pomp-specials/pomp-specials__p7__landbouw-slachthuizen-biogas-installatie__SUPER 150-SUPER ME 100/7,5-SUPER ME 120/15__v2.webp"
-          ]
+          "image": "images/pomp-specials/pomp-specials__p7__landbouw-slachthuizen-biogas-installatie__SUPER 150-SUPER ME 100/7,5-SUPER ME 120/15.webp"
         }
       },
       {
@@ -5932,7 +5485,7 @@
         },
         "raw": {
           "sku": null,
-          "series_id": "landbouw-slachthuizen-biogas-installaties",
+          "series_id": "pomp-specials__landbouw-slachthuizen-biogas-installaties",
           "series_name": "landbouw, slachthuizen, biogas installaties",
           "source_pdf": "pomp-specials.pdf",
           "page": 7,
@@ -5963,12 +5516,7 @@
             "family_id": null,
             "sku_series": null
           },
-          "series_image": "images/pomp-specials/landbouw-slachthuizen-biogas-installaties__super-150.webp",
-          "image": "images/pomp-specials/pomp-specials__p7__landbouw-slachthuizen-biogas-installatie__SUPER 150-SUPER ME 100/7,5-SUPER ME 120/15__v1.webp",
-          "images": [
-            "images/pomp-specials/pomp-specials__p7__landbouw-slachthuizen-biogas-installatie__SUPER 150-SUPER ME 100/7,5-SUPER ME 120/15__v1.webp",
-            "images/pomp-specials/pomp-specials__p7__landbouw-slachthuizen-biogas-installatie__SUPER 150-SUPER ME 100/7,5-SUPER ME 120/15__v2.webp"
-          ]
+          "image": "images/pomp-specials/pomp-specials__p7__landbouw-slachthuizen-biogas-installatie__SUPER 150-SUPER ME 100/7,5-SUPER ME 120/15.webp"
         }
       },
       {
@@ -5995,7 +5543,7 @@
         },
         "raw": {
           "sku": null,
-          "series_id": "landbouw-slachthuizen-biogas-installaties",
+          "series_id": "pomp-specials__landbouw-slachthuizen-biogas-installaties",
           "series_name": "landbouw, slachthuizen, biogas installaties",
           "source_pdf": "pomp-specials.pdf",
           "page": 7,
@@ -6026,12 +5574,7 @@
             "family_id": null,
             "sku_series": null
           },
-          "series_image": "images/pomp-specials/landbouw-slachthuizen-biogas-installaties__super-150.webp",
-          "image": "images/pomp-specials/pomp-specials__p7__landbouw-slachthuizen-biogas-installatie__SUPER 150-SUPER ME 100/7,5-SUPER ME 120/15__v1.webp",
-          "images": [
-            "images/pomp-specials/pomp-specials__p7__landbouw-slachthuizen-biogas-installatie__SUPER 150-SUPER ME 100/7,5-SUPER ME 120/15__v1.webp",
-            "images/pomp-specials/pomp-specials__p7__landbouw-slachthuizen-biogas-installatie__SUPER 150-SUPER ME 100/7,5-SUPER ME 120/15__v2.webp"
-          ]
+          "image": "images/pomp-specials/pomp-specials__p7__landbouw-slachthuizen-biogas-installatie__SUPER 150-SUPER ME 100/7,5-SUPER ME 120/15.webp"
         }
       },
       {
@@ -6058,7 +5601,7 @@
         },
         "raw": {
           "sku": null,
-          "series_id": "landbouw-slachthuizen-biogas-installaties",
+          "series_id": "pomp-specials__landbouw-slachthuizen-biogas-installaties",
           "series_name": "landbouw, slachthuizen, biogas installaties",
           "source_pdf": "pomp-specials.pdf",
           "page": 7,
@@ -6089,12 +5632,7 @@
             "family_id": null,
             "sku_series": null
           },
-          "series_image": "images/pomp-specials/landbouw-slachthuizen-biogas-installaties__super-150.webp",
-          "image": "images/pomp-specials/pomp-specials__p7__landbouw-slachthuizen-biogas-installatie__SUPER 150-SUPER ME 100/7,5-SUPER ME 120/15__v1.webp",
-          "images": [
-            "images/pomp-specials/pomp-specials__p7__landbouw-slachthuizen-biogas-installatie__SUPER 150-SUPER ME 100/7,5-SUPER ME 120/15__v1.webp",
-            "images/pomp-specials/pomp-specials__p7__landbouw-slachthuizen-biogas-installatie__SUPER 150-SUPER ME 100/7,5-SUPER ME 120/15__v2.webp"
-          ]
+          "image": "images/pomp-specials/pomp-specials__p7__landbouw-slachthuizen-biogas-installatie__SUPER 150-SUPER ME 100/7,5-SUPER ME 120/15.webp"
         }
       },
       {
@@ -6121,7 +5659,7 @@
         },
         "raw": {
           "sku": null,
-          "series_id": "landbouw-slachthuizen-biogas-installaties",
+          "series_id": "pomp-specials__landbouw-slachthuizen-biogas-installaties",
           "series_name": "landbouw, slachthuizen, biogas installaties",
           "source_pdf": "pomp-specials.pdf",
           "page": 7,
@@ -6152,12 +5690,7 @@
             "family_id": null,
             "sku_series": null
           },
-          "series_image": "images/pomp-specials/landbouw-slachthuizen-biogas-installaties__super-150.webp",
-          "image": "images/pomp-specials/pomp-specials__p7__landbouw-slachthuizen-biogas-installatie__SUPER 150-SUPER ME 100/7,5-SUPER ME 120/15__v1.webp",
-          "images": [
-            "images/pomp-specials/pomp-specials__p7__landbouw-slachthuizen-biogas-installatie__SUPER 150-SUPER ME 100/7,5-SUPER ME 120/15__v1.webp",
-            "images/pomp-specials/pomp-specials__p7__landbouw-slachthuizen-biogas-installatie__SUPER 150-SUPER ME 100/7,5-SUPER ME 120/15__v2.webp"
-          ]
+          "image": "images/pomp-specials/pomp-specials__p7__landbouw-slachthuizen-biogas-installatie__SUPER 150-SUPER ME 100/7,5-SUPER ME 120/15.webp"
         }
       },
       {
@@ -6184,7 +5717,7 @@
         },
         "raw": {
           "sku": null,
-          "series_id": "landbouw-slachthuizen-biogas-installaties",
+          "series_id": "pomp-specials__landbouw-slachthuizen-biogas-installaties",
           "series_name": "landbouw, slachthuizen, biogas installaties",
           "source_pdf": "pomp-specials.pdf",
           "page": 7,
@@ -6215,19 +5748,86 @@
             "family_id": null,
             "sku_series": null
           },
-          "series_image": "images/pomp-specials/landbouw-slachthuizen-biogas-installaties__super-150.webp",
-          "image": "images/pomp-specials/pomp-specials__p7__landbouw-slachthuizen-biogas-installatie__SUPER 150-SUPER ME 100/7,5-SUPER ME 120/15__v1.webp",
+          "image": "images/pomp-specials/pomp-specials__p7__landbouw-slachthuizen-biogas-installatie__SUPER 150-SUPER ME 100/7,5-SUPER ME 120/15.webp"
+        }
+      }
+    ]
+  },
+  {
+    "image": "images/pomp-specials/pomp-specials__p10__huishoudelijk-semi-industrieel-bouw-land__18480018-18480023__v1.webp",
+    "all_images": [
+      "images/pomp-specials/pomp-specials__p10__huishoudelijk-semi-industrieel-bouw-land__18480018-18480023__v1.webp",
+      "images/pomp-specials/pomp-specials__p10__huishoudelijk-semi-industrieel-bouw-land__18480018-18480023__v2.webp"
+    ],
+    "catalog": "pomp-specials",
+    "source_pdf": "pomp-specials.pdf",
+    "page": 10,
+    "products": [
+      {
+        "sku": null,
+        "page": 10,
+        "properties": {
+          "brand": "Honda",
+          "type_motor": "GX 160",
+          "brandstof": "benzine",
+          "debiet_m3_h": "26,4",
+          "opv_hoogte": "57 m",
+          "aansluiting": "2” - 50 mm",
+          "gebruiks_duur": "3,4 u",
+          "korrelgroot_te_mm": "8 mm",
+          "type": "bouw_landbouw",
+          "spec_liquid_temp_range": "maximum 40°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "5,7 bar",
+          "spec_water_pollution": "proper",
+          "spec_application_desc": "bouw, landbouw",
+          "spec_impeller_material": "Gietijzer",
+          "spec_material": "waaier Gietijzer",
+          "application": "VARIATIES"
+        },
+        "raw": {
+          "sku": null,
+          "series_id": "pomp-specials__bouw-landbouw",
+          "series_name": "bouw, landbouw",
+          "source_pdf": "pomp-specials.pdf",
+          "page": 10,
+          "brand": "Honda",
+          "type_motor": "GX 160",
+          "brandstof": "benzine",
+          "debiet_m3_h": "26,4",
+          "opv_hoogte": "57 m",
+          "aansluiting": "2” - 50 mm",
+          "gebruiks_duur": "3,4 u",
+          "korrelgroot_te_mm": "8 mm",
+          "type": "bouw_landbouw",
+          "spec_liquid_temp_range": "maximum 40°C",
+          "spec_temp_range": "vloeistof",
+          "spec_max_pressure": "5,7 bar",
+          "spec_water_pollution": "proper",
+          "spec_application_desc": "bouw, landbouw",
+          "spec_impeller_material": "Gietijzer",
+          "spec_material": "waaier Gietijzer",
+          "application": "VARIATIES",
+          "_enriched": {
+            "series_raw": "bouw, landbouw",
+            "series": "bouw-landbouw",
+            "catalog_group": null,
+            "product_type": null,
+            "material": null,
+            "family_id": null,
+            "sku_series": null
+          },
+          "image": "images/pomp-specials/pomp-specials__p10__huishoudelijk-semi-industrieel-bouw-land__18480018-18480023__v1.webp",
           "images": [
-            "images/pomp-specials/pomp-specials__p7__landbouw-slachthuizen-biogas-installatie__SUPER 150-SUPER ME 100/7,5-SUPER ME 120/15__v1.webp",
-            "images/pomp-specials/pomp-specials__p7__landbouw-slachthuizen-biogas-installatie__SUPER 150-SUPER ME 100/7,5-SUPER ME 120/15__v2.webp"
+            "images/pomp-specials/pomp-specials__p10__huishoudelijk-semi-industrieel-bouw-land__18480018-18480023__v1.webp",
+            "images/pomp-specials/pomp-specials__p10__huishoudelijk-semi-industrieel-bouw-land__18480018-18480023__v2.webp"
           ]
         }
       }
     ]
   },
   {
-    "image": "images/pomp-specials/pomp-specials__p9__inbouw-afmetingen__v1.webp",
-    "series_image": "images/pomp-specials/inbouw-afmetingen.webp",
+    "image": "images/pomp-specials/pomp-specials__p9__inbouw-afmetingen__v5.webp",
     "all_images": [
       "images/pomp-specials/pomp-specials__p9__inbouw-afmetingen__v1.webp",
       "images/pomp-specials/pomp-specials__p9__inbouw-afmetingen__v2.webp",
@@ -6254,7 +5854,7 @@
         },
         "raw": {
           "sku": null,
-          "series_id": "inbouw-afmetingen",
+          "series_id": "pomp-specials__inbouw-afmetingen",
           "series_name": "INBOUW AFMETINGEN",
           "source_pdf": "pomp-specials.pdf",
           "page": 9,
@@ -6276,8 +5876,7 @@
             "family_id": null,
             "sku_series": null
           },
-          "series_image": "images/pomp-specials/inbouw-afmetingen.webp",
-          "image": "images/pomp-specials/pomp-specials__p9__inbouw-afmetingen__v1.webp",
+          "image": "images/pomp-specials/pomp-specials__p9__inbouw-afmetingen__v5.webp",
           "images": [
             "images/pomp-specials/pomp-specials__p9__inbouw-afmetingen__v1.webp",
             "images/pomp-specials/pomp-specials__p9__inbouw-afmetingen__v2.webp",
@@ -6303,7 +5902,7 @@
         },
         "raw": {
           "sku": null,
-          "series_id": "inbouw-afmetingen",
+          "series_id": "pomp-specials__inbouw-afmetingen",
           "series_name": "INBOUW AFMETINGEN",
           "source_pdf": "pomp-specials.pdf",
           "page": 9,
@@ -6325,8 +5924,7 @@
             "family_id": null,
             "sku_series": null
           },
-          "series_image": "images/pomp-specials/inbouw-afmetingen.webp",
-          "image": "images/pomp-specials/pomp-specials__p9__inbouw-afmetingen__v1.webp",
+          "image": "images/pomp-specials/pomp-specials__p9__inbouw-afmetingen__v5.webp",
           "images": [
             "images/pomp-specials/pomp-specials__p9__inbouw-afmetingen__v1.webp",
             "images/pomp-specials/pomp-specials__p9__inbouw-afmetingen__v2.webp",
@@ -6351,7 +5949,7 @@
         },
         "raw": {
           "sku": null,
-          "series_id": "inbouw-afmetingen",
+          "series_id": "pomp-specials__inbouw-afmetingen",
           "series_name": "INBOUW AFMETINGEN",
           "source_pdf": "pomp-specials.pdf",
           "page": 9,
@@ -6373,8 +5971,7 @@
             "family_id": null,
             "sku_series": null
           },
-          "series_image": "images/pomp-specials/inbouw-afmetingen.webp",
-          "image": "images/pomp-specials/pomp-specials__p9__inbouw-afmetingen__v1.webp",
+          "image": "images/pomp-specials/pomp-specials__p9__inbouw-afmetingen__v5.webp",
           "images": [
             "images/pomp-specials/pomp-specials__p9__inbouw-afmetingen__v1.webp",
             "images/pomp-specials/pomp-specials__p9__inbouw-afmetingen__v2.webp",
@@ -6400,7 +5997,7 @@
         },
         "raw": {
           "sku": null,
-          "series_id": "inbouw-afmetingen",
+          "series_id": "pomp-specials__inbouw-afmetingen",
           "series_name": "INBOUW AFMETINGEN",
           "source_pdf": "pomp-specials.pdf",
           "page": 9,
@@ -6422,8 +6019,7 @@
             "family_id": null,
             "sku_series": null
           },
-          "series_image": "images/pomp-specials/inbouw-afmetingen.webp",
-          "image": "images/pomp-specials/pomp-specials__p9__inbouw-afmetingen__v1.webp",
+          "image": "images/pomp-specials/pomp-specials__p9__inbouw-afmetingen__v5.webp",
           "images": [
             "images/pomp-specials/pomp-specials__p9__inbouw-afmetingen__v1.webp",
             "images/pomp-specials/pomp-specials__p9__inbouw-afmetingen__v2.webp",
@@ -6448,7 +6044,7 @@
         },
         "raw": {
           "sku": null,
-          "series_id": "inbouw-afmetingen",
+          "series_id": "pomp-specials__inbouw-afmetingen",
           "series_name": "INBOUW AFMETINGEN",
           "source_pdf": "pomp-specials.pdf",
           "page": 9,
@@ -6470,8 +6066,7 @@
             "family_id": null,
             "sku_series": null
           },
-          "series_image": "images/pomp-specials/inbouw-afmetingen.webp",
-          "image": "images/pomp-specials/pomp-specials__p9__inbouw-afmetingen__v1.webp",
+          "image": "images/pomp-specials/pomp-specials__p9__inbouw-afmetingen__v5.webp",
           "images": [
             "images/pomp-specials/pomp-specials__p9__inbouw-afmetingen__v1.webp",
             "images/pomp-specials/pomp-specials__p9__inbouw-afmetingen__v2.webp",
@@ -6497,7 +6092,7 @@
         },
         "raw": {
           "sku": null,
-          "series_id": "inbouw-afmetingen",
+          "series_id": "pomp-specials__inbouw-afmetingen",
           "series_name": "INBOUW AFMETINGEN",
           "source_pdf": "pomp-specials.pdf",
           "page": 9,
@@ -6519,8 +6114,7 @@
             "family_id": null,
             "sku_series": null
           },
-          "series_image": "images/pomp-specials/inbouw-afmetingen.webp",
-          "image": "images/pomp-specials/pomp-specials__p9__inbouw-afmetingen__v1.webp",
+          "image": "images/pomp-specials/pomp-specials__p9__inbouw-afmetingen__v5.webp",
           "images": [
             "images/pomp-specials/pomp-specials__p9__inbouw-afmetingen__v1.webp",
             "images/pomp-specials/pomp-specials__p9__inbouw-afmetingen__v2.webp",
@@ -6545,7 +6139,7 @@
         },
         "raw": {
           "sku": null,
-          "series_id": "inbouw-afmetingen",
+          "series_id": "pomp-specials__inbouw-afmetingen",
           "series_name": "INBOUW AFMETINGEN",
           "source_pdf": "pomp-specials.pdf",
           "page": 9,
@@ -6567,8 +6161,7 @@
             "family_id": null,
             "sku_series": null
           },
-          "series_image": "images/pomp-specials/inbouw-afmetingen.webp",
-          "image": "images/pomp-specials/pomp-specials__p9__inbouw-afmetingen__v1.webp",
+          "image": "images/pomp-specials/pomp-specials__p9__inbouw-afmetingen__v5.webp",
           "images": [
             "images/pomp-specials/pomp-specials__p9__inbouw-afmetingen__v1.webp",
             "images/pomp-specials/pomp-specials__p9__inbouw-afmetingen__v2.webp",
@@ -6592,7 +6185,7 @@
         },
         "raw": {
           "sku": null,
-          "series_id": "inbouw-afmetingen",
+          "series_id": "pomp-specials__inbouw-afmetingen",
           "series_name": "INBOUW AFMETINGEN",
           "source_pdf": "pomp-specials.pdf",
           "page": 9,
@@ -6614,8 +6207,7 @@
             "family_id": null,
             "sku_series": null
           },
-          "series_image": "images/pomp-specials/inbouw-afmetingen.webp",
-          "image": "images/pomp-specials/pomp-specials__p9__inbouw-afmetingen__v1.webp",
+          "image": "images/pomp-specials/pomp-specials__p9__inbouw-afmetingen__v5.webp",
           "images": [
             "images/pomp-specials/pomp-specials__p9__inbouw-afmetingen__v1.webp",
             "images/pomp-specials/pomp-specials__p9__inbouw-afmetingen__v2.webp",
@@ -6640,7 +6232,7 @@
         },
         "raw": {
           "sku": null,
-          "series_id": "inbouw-afmetingen",
+          "series_id": "pomp-specials__inbouw-afmetingen",
           "series_name": "INBOUW AFMETINGEN",
           "source_pdf": "pomp-specials.pdf",
           "page": 9,
@@ -6662,8 +6254,7 @@
             "family_id": null,
             "sku_series": null
           },
-          "series_image": "images/pomp-specials/inbouw-afmetingen.webp",
-          "image": "images/pomp-specials/pomp-specials__p9__inbouw-afmetingen__v1.webp",
+          "image": "images/pomp-specials/pomp-specials__p9__inbouw-afmetingen__v5.webp",
           "images": [
             "images/pomp-specials/pomp-specials__p9__inbouw-afmetingen__v1.webp",
             "images/pomp-specials/pomp-specials__p9__inbouw-afmetingen__v2.webp",
@@ -6689,7 +6280,7 @@
         },
         "raw": {
           "sku": null,
-          "series_id": "inbouw-afmetingen",
+          "series_id": "pomp-specials__inbouw-afmetingen",
           "series_name": "INBOUW AFMETINGEN",
           "source_pdf": "pomp-specials.pdf",
           "page": 9,
@@ -6711,8 +6302,7 @@
             "family_id": null,
             "sku_series": null
           },
-          "series_image": "images/pomp-specials/inbouw-afmetingen.webp",
-          "image": "images/pomp-specials/pomp-specials__p9__inbouw-afmetingen__v1.webp",
+          "image": "images/pomp-specials/pomp-specials__p9__inbouw-afmetingen__v5.webp",
           "images": [
             "images/pomp-specials/pomp-specials__p9__inbouw-afmetingen__v1.webp",
             "images/pomp-specials/pomp-specials__p9__inbouw-afmetingen__v2.webp",
@@ -6737,7 +6327,7 @@
         },
         "raw": {
           "sku": null,
-          "series_id": "inbouw-afmetingen",
+          "series_id": "pomp-specials__inbouw-afmetingen",
           "series_name": "INBOUW AFMETINGEN",
           "source_pdf": "pomp-specials.pdf",
           "page": 9,
@@ -6759,8 +6349,7 @@
             "family_id": null,
             "sku_series": null
           },
-          "series_image": "images/pomp-specials/inbouw-afmetingen.webp",
-          "image": "images/pomp-specials/pomp-specials__p9__inbouw-afmetingen__v1.webp",
+          "image": "images/pomp-specials/pomp-specials__p9__inbouw-afmetingen__v5.webp",
           "images": [
             "images/pomp-specials/pomp-specials__p9__inbouw-afmetingen__v1.webp",
             "images/pomp-specials/pomp-specials__p9__inbouw-afmetingen__v2.webp",
@@ -6786,7 +6375,7 @@
         },
         "raw": {
           "sku": null,
-          "series_id": "inbouw-afmetingen",
+          "series_id": "pomp-specials__inbouw-afmetingen",
           "series_name": "INBOUW AFMETINGEN",
           "source_pdf": "pomp-specials.pdf",
           "page": 9,
@@ -6808,8 +6397,7 @@
             "family_id": null,
             "sku_series": null
           },
-          "series_image": "images/pomp-specials/inbouw-afmetingen.webp",
-          "image": "images/pomp-specials/pomp-specials__p9__inbouw-afmetingen__v1.webp",
+          "image": "images/pomp-specials/pomp-specials__p9__inbouw-afmetingen__v5.webp",
           "images": [
             "images/pomp-specials/pomp-specials__p9__inbouw-afmetingen__v1.webp",
             "images/pomp-specials/pomp-specials__p9__inbouw-afmetingen__v2.webp",
@@ -6834,7 +6422,7 @@
         },
         "raw": {
           "sku": null,
-          "series_id": "inbouw-afmetingen",
+          "series_id": "pomp-specials__inbouw-afmetingen",
           "series_name": "INBOUW AFMETINGEN",
           "source_pdf": "pomp-specials.pdf",
           "page": 9,
@@ -6856,8 +6444,7 @@
             "family_id": null,
             "sku_series": null
           },
-          "series_image": "images/pomp-specials/inbouw-afmetingen.webp",
-          "image": "images/pomp-specials/pomp-specials__p9__inbouw-afmetingen__v1.webp",
+          "image": "images/pomp-specials/pomp-specials__p9__inbouw-afmetingen__v5.webp",
           "images": [
             "images/pomp-specials/pomp-specials__p9__inbouw-afmetingen__v1.webp",
             "images/pomp-specials/pomp-specials__p9__inbouw-afmetingen__v2.webp",
@@ -6883,7 +6470,7 @@
         },
         "raw": {
           "sku": null,
-          "series_id": "inbouw-afmetingen",
+          "series_id": "pomp-specials__inbouw-afmetingen",
           "series_name": "INBOUW AFMETINGEN",
           "source_pdf": "pomp-specials.pdf",
           "page": 9,
@@ -6905,8 +6492,7 @@
             "family_id": null,
             "sku_series": null
           },
-          "series_image": "images/pomp-specials/inbouw-afmetingen.webp",
-          "image": "images/pomp-specials/pomp-specials__p9__inbouw-afmetingen__v1.webp",
+          "image": "images/pomp-specials/pomp-specials__p9__inbouw-afmetingen__v5.webp",
           "images": [
             "images/pomp-specials/pomp-specials__p9__inbouw-afmetingen__v1.webp",
             "images/pomp-specials/pomp-specials__p9__inbouw-afmetingen__v2.webp",
@@ -6931,7 +6517,7 @@
         },
         "raw": {
           "sku": null,
-          "series_id": "inbouw-afmetingen",
+          "series_id": "pomp-specials__inbouw-afmetingen",
           "series_name": "INBOUW AFMETINGEN",
           "source_pdf": "pomp-specials.pdf",
           "page": 9,
@@ -6953,8 +6539,7 @@
             "family_id": null,
             "sku_series": null
           },
-          "series_image": "images/pomp-specials/inbouw-afmetingen.webp",
-          "image": "images/pomp-specials/pomp-specials__p9__inbouw-afmetingen__v1.webp",
+          "image": "images/pomp-specials/pomp-specials__p9__inbouw-afmetingen__v5.webp",
           "images": [
             "images/pomp-specials/pomp-specials__p9__inbouw-afmetingen__v1.webp",
             "images/pomp-specials/pomp-specials__p9__inbouw-afmetingen__v2.webp",
@@ -6980,7 +6565,7 @@
         },
         "raw": {
           "sku": null,
-          "series_id": "inbouw-afmetingen",
+          "series_id": "pomp-specials__inbouw-afmetingen",
           "series_name": "INBOUW AFMETINGEN",
           "source_pdf": "pomp-specials.pdf",
           "page": 9,
@@ -7002,8 +6587,7 @@
             "family_id": null,
             "sku_series": null
           },
-          "series_image": "images/pomp-specials/inbouw-afmetingen.webp",
-          "image": "images/pomp-specials/pomp-specials__p9__inbouw-afmetingen__v1.webp",
+          "image": "images/pomp-specials/pomp-specials__p9__inbouw-afmetingen__v5.webp",
           "images": [
             "images/pomp-specials/pomp-specials__p9__inbouw-afmetingen__v1.webp",
             "images/pomp-specials/pomp-specials__p9__inbouw-afmetingen__v2.webp",
@@ -7028,7 +6612,7 @@
         },
         "raw": {
           "sku": null,
-          "series_id": "inbouw-afmetingen",
+          "series_id": "pomp-specials__inbouw-afmetingen",
           "series_name": "INBOUW AFMETINGEN",
           "source_pdf": "pomp-specials.pdf",
           "page": 9,
@@ -7050,8 +6634,7 @@
             "family_id": null,
             "sku_series": null
           },
-          "series_image": "images/pomp-specials/inbouw-afmetingen.webp",
-          "image": "images/pomp-specials/pomp-specials__p9__inbouw-afmetingen__v1.webp",
+          "image": "images/pomp-specials/pomp-specials__p9__inbouw-afmetingen__v5.webp",
           "images": [
             "images/pomp-specials/pomp-specials__p9__inbouw-afmetingen__v1.webp",
             "images/pomp-specials/pomp-specials__p9__inbouw-afmetingen__v2.webp",
@@ -7077,7 +6660,7 @@
         },
         "raw": {
           "sku": null,
-          "series_id": "inbouw-afmetingen",
+          "series_id": "pomp-specials__inbouw-afmetingen",
           "series_name": "INBOUW AFMETINGEN",
           "source_pdf": "pomp-specials.pdf",
           "page": 9,
@@ -7099,8 +6682,7 @@
             "family_id": null,
             "sku_series": null
           },
-          "series_image": "images/pomp-specials/inbouw-afmetingen.webp",
-          "image": "images/pomp-specials/pomp-specials__p9__inbouw-afmetingen__v1.webp",
+          "image": "images/pomp-specials/pomp-specials__p9__inbouw-afmetingen__v5.webp",
           "images": [
             "images/pomp-specials/pomp-specials__p9__inbouw-afmetingen__v1.webp",
             "images/pomp-specials/pomp-specials__p9__inbouw-afmetingen__v2.webp",
@@ -7125,7 +6707,7 @@
         },
         "raw": {
           "sku": null,
-          "series_id": "inbouw-afmetingen",
+          "series_id": "pomp-specials__inbouw-afmetingen",
           "series_name": "INBOUW AFMETINGEN",
           "source_pdf": "pomp-specials.pdf",
           "page": 9,
@@ -7147,8 +6729,7 @@
             "family_id": null,
             "sku_series": null
           },
-          "series_image": "images/pomp-specials/inbouw-afmetingen.webp",
-          "image": "images/pomp-specials/pomp-specials__p9__inbouw-afmetingen__v1.webp",
+          "image": "images/pomp-specials/pomp-specials__p9__inbouw-afmetingen__v5.webp",
           "images": [
             "images/pomp-specials/pomp-specials__p9__inbouw-afmetingen__v1.webp",
             "images/pomp-specials/pomp-specials__p9__inbouw-afmetingen__v2.webp",
@@ -7161,14 +6742,8 @@
     ]
   },
   {
-    "image": "images/pomp-specials/pomp-specials__p12__industrie-bouw-landbouw__13520108-13520109__v2.webp",
-    "series_image": "images/pomp-specials/pomp-specials__p13__industrie-bouw-landbouw-maritiem__13520048__13520048.webp",
-    "all_images": [
-      "images/pomp-specials/pomp-specials__p12__industrie-bouw-landbouw__13520108-13520109__v2.webp",
-      "images/pomp-specials/pomp-specials__p13__industrie-bouw-landbouw-maritiem__13520048__v3.webp",
-      "images/pomp-specials/pomp-specials__p13__industrie-bouw-landbouw-maritiem__13520048__v4.webp",
-      "images/pomp-specials/pomp-specials__p13__industrie-bouw-landbouw-maritiem__13520048__v5.webp"
-    ],
+    "image": "images/pomp-specials/pomp-specials__p13__industrie-bouw-landbouw-maritiem__13520048__v2.webp",
+    "all_images": [],
     "catalog": "pomp-specials",
     "source_pdf": "pomp-specials.pdf",
     "page": 13,
@@ -7189,7 +6764,7 @@
         },
         "raw": {
           "sku": null,
-          "series_id": "industrie-bouw-landbou",
+          "series_id": "pomp-specials__industrie-bouw-landbou",
           "series_name": "industrie, bouw, landbou",
           "source_pdf": "pomp-specials.pdf",
           "page": 13,
@@ -7211,25 +6786,16 @@
             "family_id": null,
             "sku_series": null
           },
-          "series_image": "images/pomp-specials/pomp-specials__p13__industrie-bouw-landbouw-maritiem__13520048__13520048.webp",
-          "image": "images/pomp-specials/pomp-specials__p12__industrie-bouw-landbouw__13520108-13520109__v2.webp",
-          "images": [
-            "images/pomp-specials/pomp-specials__p12__industrie-bouw-landbouw__13520108-13520109__v2.webp",
-            "images/pomp-specials/pomp-specials__p13__industrie-bouw-landbouw-maritiem__13520048__v3.webp",
-            "images/pomp-specials/pomp-specials__p13__industrie-bouw-landbouw-maritiem__13520048__v4.webp",
-            "images/pomp-specials/pomp-specials__p13__industrie-bouw-landbouw-maritiem__13520048__v5.webp"
-          ]
+          "image": "images/pomp-specials/pomp-specials__p13__industrie-bouw-landbouw-maritiem__13520048__v2.webp"
         }
       }
     ]
   },
   {
-    "image": "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v4.webp",
-    "series_image": "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__18540001.webp",
+    "image": "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v2.webp",
     "all_images": [
-      "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v4.webp",
-      "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v6.webp",
-      "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v7.webp"
+      "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v2.webp",
+      "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v3.webp"
     ],
     "catalog": "pomp-specials",
     "source_pdf": "pomp-specials.pdf",
@@ -7260,7 +6826,7 @@
         },
         "raw": {
           "sku": null,
-          "series_id": "landbouw-slachthuizen-biogas-i",
+          "series_id": "pomp-specials__landbouw-slachthuizen-biogas-i",
           "series_name": "landbouw, slachthuizen, biogas i",
           "source_pdf": "pomp-specials.pdf",
           "page": 6,
@@ -7291,12 +6857,10 @@
             "family_id": null,
             "sku_series": null
           },
-          "series_image": "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__18540001.webp",
-          "image": "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v4.webp",
+          "image": "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v2.webp",
           "images": [
-            "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v4.webp",
-            "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v6.webp",
-            "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v7.webp"
+            "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v2.webp",
+            "images/pomp-specials/pomp-specials__p6__irrigatie-landbouw__18540001__v3.webp"
           ]
         }
       }

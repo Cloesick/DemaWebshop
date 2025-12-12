@@ -1,15 +1,17 @@
 [
   {
-    "group_id": "kunststof-afvoerleidingen-sanitair-afvoerbuis-sn1",
+    "group_id": "kunststof-afvoerleidingen-kunststof-afvoerleidingen-sanitair-afvoerbuis-sn1",
     "name": "SANITAIR AFVOERBUIS SN1",
-    "family": "sanitair-afvoerbuis-sn1",
+    "family": "kunststof-afvoerleidingen__sanitair-afvoerbuis-sn1",
     "catalog": "kunststof-afvoerleidingen",
+    "source_pdf": "kunststof-afvoerleidingen.pdf",
     "brand": "Various",
     "category": "LIJMMOF - SPIE | RAL7037",
     "variants": [
       {
         "sku": "AB0322",
         "label": "SANITAIR AFVOERBUIS SN1",
+        "page": 4,
         "page_in_pdf": 4,
         "properties": {
           "type": "plastic_pipe",
@@ -23,6 +25,7 @@
       {
         "sku": "AB0404",
         "label": "SANITAIR AFVOERBUIS SN1",
+        "page": 4,
         "page_in_pdf": 4,
         "properties": {
           "type": "plastic_pipe",
@@ -36,6 +39,7 @@
       {
         "sku": "AB0754",
         "label": "SANITAIR AFVOERBUIS SN1",
+        "page": 4,
         "page_in_pdf": 4,
         "properties": {
           "type": "plastic_pipe",
@@ -49,6 +53,7 @@
       {
         "sku": "AB0904",
         "label": "SANITAIR AFVOERBUIS SN1",
+        "page": 4,
         "page_in_pdf": 4,
         "properties": {
           "type": "plastic_pipe",
@@ -61,7 +66,6 @@
       }
     ],
     "images": [
-      "images/kunststof-afvoerleidingen/sanitair-afvoerbuis-sn1__ab0322.webp",
       "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p4__sanitair-afvoerbuis-sn1__AB0322-AB0404-AB0754__v1.webp"
     ],
     "variant_count": 4,
@@ -69,21 +73,23 @@
     "media": [
       {
         "role": "main",
-        "url": "images/kunststof-afvoerleidingen/sanitair-afvoerbuis-sn1__ab0322.webp"
+        "url": "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p4__sanitair-afvoerbuis-sn1__AB0322-AB0404-AB0754__v1.webp"
       }
     ]
   },
   {
-    "group_id": "kunststof-afvoerleidingen-rioleringsbuis-standaard",
+    "group_id": "kunststof-afvoerleidingen-kunststof-afvoerleidingen-rioleringsbuis-standaard",
     "name": "RIOLERINGSBUIS STANDAARD",
-    "family": "rioleringsbuis-standaard",
+    "family": "kunststof-afvoerleidingen__rioleringsbuis-standaard",
     "catalog": "kunststof-afvoerleidingen",
+    "source_pdf": "kunststof-afvoerleidingen.pdf",
     "brand": "Various",
     "category": "MANCHET - SPIE | RAL7037",
     "variants": [
       {
         "sku": "AB1103",
         "label": "RIOLERINGSBUIS STANDAARD",
+        "page": 10,
         "page_in_pdf": 10,
         "properties": {
           "type": "plastic_pipe",
@@ -96,6 +102,7 @@
       {
         "sku": "AB1253",
         "label": "RIOLERINGSBUIS STANDAARD",
+        "page": 10,
         "page_in_pdf": 10,
         "properties": {
           "type": "plastic_pipe",
@@ -108,6 +115,7 @@
       {
         "sku": "AB1603",
         "label": "RIOLERINGSBUIS STANDAARD",
+        "page": 10,
         "page_in_pdf": 10,
         "properties": {
           "type": "plastic_pipe",
@@ -120,6 +128,7 @@
       {
         "sku": "AB2003",
         "label": "RIOLERINGSBUIS STANDAARD",
+        "page": 10,
         "page_in_pdf": 10,
         "properties": {
           "type": "plastic_pipe",
@@ -132,6 +141,7 @@
       {
         "sku": "AB2503",
         "label": "RIOLERINGSBUIS STANDAARD",
+        "page": 10,
         "page_in_pdf": 10,
         "properties": {
           "type": "plastic_pipe",
@@ -144,6 +154,7 @@
       {
         "sku": "AB3153",
         "label": "RIOLERINGSBUIS STANDAARD",
+        "page": 10,
         "page_in_pdf": 10,
         "properties": {
           "type": "plastic_pipe",
@@ -156,6 +167,7 @@
       {
         "sku": "AB4003",
         "label": "RIOLERINGSBUIS STANDAARD",
+        "page": 10,
         "page_in_pdf": 10,
         "properties": {
           "type": "plastic_pipe",
@@ -167,7 +179,6 @@
       }
     ],
     "images": [
-      "images/kunststof-afvoerleidingen/rioleringsbuis-sn4-benor-gekeurd__abb1103.webp",
       "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p10__rioleringsbuis-sn4-benor-gekeurd__ABB1103-ABB1105-ABB1253__v1.webp"
     ],
     "variant_count": 7,
@@ -175,21 +186,23 @@
     "media": [
       {
         "role": "main",
-        "url": "images/kunststof-afvoerleidingen/rioleringsbuis-sn4-benor-gekeurd__abb1103.webp"
+        "url": "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p10__rioleringsbuis-sn4-benor-gekeurd__ABB1103-ABB1105-ABB1253__v1.webp"
       }
     ]
   },
   {
-    "group_id": "kunststof-afvoerleidingen-sanitair-afvoerbuis-sn4-benor-gekeurd",
+    "group_id": "kunststof-afvoerleidingen-kunststof-afvoerleidingen-sanitair-afvoerbuis-sn4-benor-gekeurd",
     "name": "SANITAIR AFVOERBUIS SN4 BENOR GEKEURD",
-    "family": "sanitair-afvoerbuis-sn4-benor-gekeurd",
+    "family": "kunststof-afvoerleidingen__sanitair-afvoerbuis-sn4-benor-gekeurd",
     "catalog": "kunststof-afvoerleidingen",
+    "source_pdf": "kunststof-afvoerleidingen.pdf",
     "brand": "Various",
     "category": "LIJMMOF - SPIE | RAL7037",
     "variants": [
       {
         "sku": "ABB0324",
         "label": "SANITAIR AFVOERBUIS SN4 BENOR GEKEURD",
+        "page": 4,
         "page_in_pdf": 4,
         "properties": {
           "type": "plastic_pipe",
@@ -203,6 +216,7 @@
       {
         "sku": "ABB0404",
         "label": "SANITAIR AFVOERBUIS SN4 BENOR GEKEURD",
+        "page": 4,
         "page_in_pdf": 4,
         "properties": {
           "type": "plastic_pipe",
@@ -216,6 +230,7 @@
       {
         "sku": "ABB0504",
         "label": "SANITAIR AFVOERBUIS SN4 BENOR GEKEURD",
+        "page": 4,
         "page_in_pdf": 4,
         "properties": {
           "type": "plastic_pipe",
@@ -229,6 +244,7 @@
       {
         "sku": "ABB0754",
         "label": "SANITAIR AFVOERBUIS SN4 BENOR GEKEURD",
+        "page": 4,
         "page_in_pdf": 4,
         "properties": {
           "type": "plastic_pipe",
@@ -242,6 +258,7 @@
       {
         "sku": "ABB0804",
         "label": "SANITAIR AFVOERBUIS SN4 BENOR GEKEURD",
+        "page": 4,
         "page_in_pdf": 4,
         "properties": {
           "type": "plastic_pipe",
@@ -255,6 +272,7 @@
       {
         "sku": "ABB0904",
         "label": "SANITAIR AFVOERBUIS SN4 BENOR GEKEURD",
+        "page": 4,
         "page_in_pdf": 4,
         "properties": {
           "type": "plastic_pipe",
@@ -268,6 +286,7 @@
       {
         "sku": "ABB1004",
         "label": "SANITAIR AFVOERBUIS SN4 BENOR GEKEURD",
+        "page": 4,
         "page_in_pdf": 4,
         "properties": {
           "type": "plastic_pipe",
@@ -280,7 +299,6 @@
       }
     ],
     "images": [
-      "images/kunststof-afvoerleidingen/sanitair-afvoerbuis-sn1__ab0322.webp",
       "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p4__sanitair-afvoerbuis-sn1__AB0322-AB0404-AB0754__v1.webp"
     ],
     "variant_count": 7,
@@ -288,21 +306,23 @@
     "media": [
       {
         "role": "main",
-        "url": "images/kunststof-afvoerleidingen/sanitair-afvoerbuis-sn1__ab0322.webp"
+        "url": "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p4__sanitair-afvoerbuis-sn1__AB0322-AB0404-AB0754__v1.webp"
       }
     ]
   },
   {
-    "group_id": "kunststof-afvoerleidingen-rioleringsbuis-sn4-benor-gekeurd",
+    "group_id": "kunststof-afvoerleidingen-kunststof-afvoerleidingen-rioleringsbuis-sn4-benor-gekeurd",
     "name": "RIOLERINGSBUIS SN4 BENOR GEKEURD",
-    "family": "rioleringsbuis-sn4-benor-gekeurd",
+    "family": "kunststof-afvoerleidingen__rioleringsbuis-sn4-benor-gekeurd",
     "catalog": "kunststof-afvoerleidingen",
+    "source_pdf": "kunststof-afvoerleidingen.pdf",
     "brand": "Various",
     "category": "MANCHET - SPIE | RAL7037",
     "variants": [
       {
         "sku": "ABB1103",
         "label": "RIOLERINGSBUIS SN4 BENOR GEKEURD",
+        "page": 10,
         "page_in_pdf": 10,
         "properties": {
           "type": "plastic_pipe",
@@ -315,6 +335,7 @@
       {
         "sku": "ABB1105",
         "label": "RIOLERINGSBUIS SN4 BENOR GEKEURD",
+        "page": 10,
         "page_in_pdf": 10,
         "properties": {
           "type": "plastic_pipe",
@@ -327,6 +348,7 @@
       {
         "sku": "ABB1253",
         "label": "RIOLERINGSBUIS SN4 BENOR GEKEURD",
+        "page": 10,
         "page_in_pdf": 10,
         "properties": {
           "type": "plastic_pipe",
@@ -339,6 +361,7 @@
       {
         "sku": "ABB1603",
         "label": "RIOLERINGSBUIS SN4 BENOR GEKEURD",
+        "page": 10,
         "page_in_pdf": 10,
         "properties": {
           "type": "plastic_pipe",
@@ -351,6 +374,7 @@
       {
         "sku": "ABB1605",
         "label": "RIOLERINGSBUIS SN4 BENOR GEKEURD",
+        "page": 10,
         "page_in_pdf": 10,
         "properties": {
           "type": "plastic_pipe",
@@ -363,6 +387,7 @@
       {
         "sku": "ABB2005",
         "label": "RIOLERINGSBUIS SN4 BENOR GEKEURD",
+        "page": 10,
         "page_in_pdf": 10,
         "properties": {
           "type": "plastic_pipe",
@@ -375,6 +400,7 @@
       {
         "sku": "ABB2505",
         "label": "RIOLERINGSBUIS SN4 BENOR GEKEURD",
+        "page": 10,
         "page_in_pdf": 10,
         "properties": {
           "type": "plastic_pipe",
@@ -387,6 +413,7 @@
       {
         "sku": "ABB3155",
         "label": "RIOLERINGSBUIS SN4 BENOR GEKEURD",
+        "page": 10,
         "page_in_pdf": 10,
         "properties": {
           "type": "plastic_pipe",
@@ -399,6 +426,7 @@
       {
         "sku": "ABB4005",
         "label": "RIOLERINGSBUIS SN4 BENOR GEKEURD",
+        "page": 10,
         "page_in_pdf": 10,
         "properties": {
           "type": "plastic_pipe",
@@ -410,7 +438,6 @@
       }
     ],
     "images": [
-      "images/kunststof-afvoerleidingen/rioleringsbuis-sn4-benor-gekeurd__abb1103.webp",
       "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p10__rioleringsbuis-sn4-benor-gekeurd__ABB1103-ABB1105-ABB1253__v1.webp"
     ],
     "variant_count": 9,
@@ -418,21 +445,23 @@
     "media": [
       {
         "role": "main",
-        "url": "images/kunststof-afvoerleidingen/rioleringsbuis-sn4-benor-gekeurd__abb1103.webp"
+        "url": "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p10__rioleringsbuis-sn4-benor-gekeurd__ABB1103-ABB1105-ABB1253__v1.webp"
       }
     ]
   },
   {
-    "group_id": "kunststof-afvoerleidingen-manchet-spie-ral7037",
+    "group_id": "kunststof-afvoerleidingen-kunststof-afvoerleidingen-manchet-spie-ral7037",
     "name": "MANCHET - SPIE | RAL7037",
-    "family": "manchet-spie-ral7037",
+    "family": "kunststof-afvoerleidingen__manchet-spie-ral7037",
     "catalog": "kunststof-afvoerleidingen",
+    "source_pdf": "kunststof-afvoerleidingen.pdf",
     "brand": "Various",
     "category": "Bestelnr Maat",
     "variants": [
       {
         "sku": "AFOG110",
         "label": "MANCHET - SPIE | RAL7037",
+        "page": 19,
         "page_in_pdf": 19,
         "properties": {
           "type": "plastic_pipe"
@@ -443,29 +472,30 @@
       }
     ],
     "images": [
-      "images/kunststof-afvoerleidingen/lijmmof__cal753505.webp",
-      "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p9__lijmmof__CAL753505__v1.webp"
+      "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p19__ral7037__YXA0078300__v3.webp"
     ],
     "variant_count": 1,
     "default_variant_sku": "AFOG110",
     "media": [
       {
         "role": "main",
-        "url": "images/kunststof-afvoerleidingen/lijmmof__cal753505.webp"
+        "url": "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p19__ral7037__YXA0078300__v3.webp"
       }
     ]
   },
   {
-    "group_id": "kunststof-afvoerleidingen-bestelnr-maat",
+    "group_id": "kunststof-afvoerleidingen-kunststof-afvoerleidingen-bestelnr-maat",
     "name": "Bestelnr Maat",
-    "family": "bestelnr-maat",
+    "family": "kunststof-afvoerleidingen__bestelnr-maat",
     "catalog": "kunststof-afvoerleidingen",
+    "source_pdf": "kunststof-afvoerleidingen.pdf",
     "brand": "Various",
     "category": "AFOG125 125 mm",
     "variants": [
       {
         "sku": "AFOG160",
         "label": "Bestelnr Maat",
+        "page": 19,
         "page_in_pdf": 19,
         "properties": {
           "type": "plastic_pipe"
@@ -477,6 +507,7 @@
       {
         "sku": "AFSD050",
         "label": "Bestelnr Maat",
+        "page": 18,
         "page_in_pdf": 18,
         "properties": {
           "type": "plastic_pipe"
@@ -488,6 +519,7 @@
       {
         "sku": "AFST160",
         "label": "Bestelnr Maat",
+        "page": 18,
         "page_in_pdf": 18,
         "properties": {
           "type": "plastic_pipe"
@@ -499,6 +531,7 @@
       {
         "sku": "AFTS160",
         "label": "Bestelnr Maat",
+        "page": 19,
         "page_in_pdf": 19,
         "properties": {
           "type": "plastic_pipe"
@@ -510,6 +543,7 @@
       {
         "sku": "BKL140",
         "label": "Bestelnr Maat",
+        "page": 19,
         "page_in_pdf": 19,
         "properties": {
           "type": "plastic_pipe"
@@ -521,6 +555,7 @@
       {
         "sku": "CFM090",
         "label": "Bestelnr Maat",
+        "page": 33,
         "page_in_pdf": 33,
         "properties": {
           "type": "plastic_pipe"
@@ -532,6 +567,7 @@
       {
         "sku": "CK160",
         "label": "Bestelnr Maat",
+        "page": 17,
         "page_in_pdf": 17,
         "properties": {
           "type": "plastic_pipe"
@@ -544,6 +580,7 @@
       {
         "sku": "DDPPEK100",
         "label": "Bestelnr Maat",
+        "page": 35,
         "page_in_pdf": 35,
         "properties": {
           "type": "plastic_pipe"
@@ -555,6 +592,7 @@
       {
         "sku": "DDPPM080",
         "label": "Bestelnr Maat",
+        "page": 34,
         "page_in_pdf": 34,
         "properties": {
           "type": "plastic_pipe"
@@ -566,6 +604,7 @@
       {
         "sku": "DDPPM08050",
         "label": "Bestelnr Maat",
+        "page": 34,
         "page_in_pdf": 34,
         "properties": {
           "type": "plastic_pipe"
@@ -577,6 +616,7 @@
       {
         "sku": "DDPPT080",
         "label": "Bestelnr Maat",
+        "page": 35,
         "page_in_pdf": 35,
         "properties": {
           "type": "plastic_pipe"
@@ -588,6 +628,7 @@
       {
         "sku": "DDPPT10050",
         "label": "Bestelnr Maat",
+        "page": 35,
         "page_in_pdf": 35,
         "properties": {
           "type": "plastic_pipe"
@@ -599,6 +640,7 @@
       {
         "sku": "EB050301",
         "label": "Bestelnr Maat",
+        "page": 5,
         "page_in_pdf": 5,
         "properties": {
           "type": "plastic_pipe"
@@ -611,6 +653,7 @@
       {
         "sku": "EB050302",
         "label": "Bestelnr Maat",
+        "page": 5,
         "page_in_pdf": 5,
         "properties": {
           "type": "plastic_pipe"
@@ -622,6 +665,7 @@
       {
         "sku": "EB050451",
         "label": "Bestelnr Maat",
+        "page": 5,
         "page_in_pdf": 5,
         "properties": {
           "type": "plastic_pipe"
@@ -634,6 +678,7 @@
       {
         "sku": "EB050452",
         "label": "Bestelnr Maat",
+        "page": 5,
         "page_in_pdf": 5,
         "properties": {
           "type": "plastic_pipe"
@@ -645,6 +690,7 @@
       {
         "sku": "EB050901",
         "label": "Bestelnr Maat",
+        "page": 6,
         "page_in_pdf": 6,
         "properties": {
           "type": "plastic_pipe"
@@ -657,6 +703,7 @@
       {
         "sku": "EB050902",
         "label": "Bestelnr Maat",
+        "page": 6,
         "page_in_pdf": 6,
         "properties": {
           "type": "plastic_pipe"
@@ -668,6 +715,7 @@
       {
         "sku": "EK050",
         "label": "Bestelnr Maat",
+        "page": 8,
         "page_in_pdf": 8,
         "properties": {
           "type": "plastic_pipe"
@@ -679,6 +727,7 @@
       {
         "sku": "EK160",
         "label": "Bestelnr Maat",
+        "page": 17,
         "page_in_pdf": 17,
         "properties": {
           "type": "plastic_pipe"
@@ -691,6 +740,7 @@
       {
         "sku": "OB050",
         "label": "Bestelnr Maat",
+        "page": 9,
         "page_in_pdf": 9,
         "properties": {
           "type": "plastic_pipe"
@@ -702,6 +752,7 @@
       {
         "sku": "OB160",
         "label": "Bestelnr Maat",
+        "page": 19,
         "page_in_pdf": 19,
         "properties": {
           "type": "plastic_pipe"
@@ -713,6 +764,7 @@
       {
         "sku": "SS050",
         "label": "Bestelnr Maat",
+        "page": 18,
         "page_in_pdf": 18,
         "properties": {
           "type": "plastic_pipe"
@@ -724,6 +776,7 @@
       {
         "sku": "YXA0036000",
         "label": "Bestelnr Maat",
+        "page": 26,
         "page_in_pdf": 26,
         "properties": {
           "type": "plastic_pipe"
@@ -735,6 +788,7 @@
       {
         "sku": "YXA0036500",
         "label": "Bestelnr Maat",
+        "page": 24,
         "page_in_pdf": 24,
         "properties": {
           "type": "plastic_pipe"
@@ -746,6 +800,7 @@
       {
         "sku": "YXA0037200",
         "label": "Bestelnr Maat",
+        "page": 24,
         "page_in_pdf": 24,
         "properties": {
           "type": "plastic_pipe"
@@ -757,6 +812,7 @@
       {
         "sku": "YXA0037500",
         "label": "Bestelnr Maat",
+        "page": 25,
         "page_in_pdf": 25,
         "properties": {
           "type": "plastic_pipe"
@@ -768,6 +824,7 @@
       {
         "sku": "YXA0037800",
         "label": "Bestelnr Maat",
+        "page": 25,
         "page_in_pdf": 25,
         "properties": {
           "type": "plastic_pipe"
@@ -779,6 +836,7 @@
       {
         "sku": "YXA0038500",
         "label": "Bestelnr Maat",
+        "page": 28,
         "page_in_pdf": 28,
         "properties": {
           "type": "plastic_pipe"
@@ -791,6 +849,7 @@
       {
         "sku": "YXA0038700",
         "label": "Bestelnr Maat",
+        "page": 28,
         "page_in_pdf": 28,
         "properties": {
           "type": "plastic_pipe"
@@ -802,6 +861,7 @@
       {
         "sku": "YXA0039400",
         "label": "Bestelnr Maat",
+        "page": 29,
         "page_in_pdf": 29,
         "properties": {
           "type": "plastic_pipe"
@@ -813,6 +873,7 @@
       {
         "sku": "YXA0039500",
         "label": "Bestelnr Maat",
+        "page": 29,
         "page_in_pdf": 29,
         "properties": {
           "type": "plastic_pipe"
@@ -824,6 +885,7 @@
       {
         "sku": "YXA0040400",
         "label": "Bestelnr Maat",
+        "page": 28,
         "page_in_pdf": 28,
         "properties": {
           "type": "plastic_pipe"
@@ -835,6 +897,7 @@
       {
         "sku": "YXA0041000",
         "label": "Bestelnr Maat",
+        "page": 26,
         "page_in_pdf": 26,
         "properties": {
           "type": "plastic_pipe"
@@ -846,6 +909,7 @@
       {
         "sku": "YXA0078100",
         "label": "Bestelnr Maat",
+        "page": 9,
         "page_in_pdf": 9,
         "properties": {
           "type": "plastic_pipe"
@@ -857,6 +921,7 @@
       {
         "sku": "YXA0114300",
         "label": "Bestelnr Maat",
+        "page": 9,
         "page_in_pdf": 9,
         "properties": {
           "type": "plastic_pipe"
@@ -867,33 +932,30 @@
       }
     ],
     "images": [
-      "images/kunststof-afvoerleidingen/bestelnr-maat__yxa0039400__img8.webp",
-      "images/kunststof-afvoerleidingen/bestelnr-maat__yxa0038500__img6.webp",
-      "images/kunststof-afvoerleidingen/bestelnr-maat__yxa0037500__img2.webp",
-      "images/kunststof-afvoerleidingen/bestelnr-maat__yxa0036000__img4.webp",
-      "images/kunststof-afvoerleidingen/bestelnr-maat__yxa0036500.webp",
-      "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p24__bestelnr-maat__YXA0036500-YXA0037200.webp"
+      "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p25__bestelnr-maat__YXA0037500-YXA0037800__v2.webp"
     ],
     "variant_count": 36,
     "default_variant_sku": "AFOG160",
     "media": [
       {
         "role": "main",
-        "url": "images/kunststof-afvoerleidingen/bestelnr-maat__yxa0039400__img8.webp"
+        "url": "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p25__bestelnr-maat__YXA0037500-YXA0037800__v2.webp"
       }
     ]
   },
   {
-    "group_id": "kunststof-afvoerleidingen-spie",
+    "group_id": "kunststof-afvoerleidingen-kunststof-afvoerleidingen-spie",
     "name": "SPIE",
-    "family": "spie",
+    "family": "kunststof-afvoerleidingen__spie",
     "catalog": "kunststof-afvoerleidingen",
+    "source_pdf": "kunststof-afvoerleidingen.pdf",
     "brand": "Various",
     "category": "Bestelnr Maat",
     "variants": [
       {
         "sku": "AFSD032",
         "label": "SPIE",
+        "page": 18,
         "page_in_pdf": 18,
         "properties": {
           "type": "plastic_pipe"
@@ -904,7 +966,6 @@
       }
     ],
     "images": [
-      "images/kunststof-afvoerleidingen/spie__afsd032.webp",
       "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p18__spie__AFSD032.webp"
     ],
     "variant_count": 1,
@@ -912,21 +973,23 @@
     "media": [
       {
         "role": "main",
-        "url": "images/kunststof-afvoerleidingen/spie__afsd032.webp"
+        "url": "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p18__spie__AFSD032.webp"
       }
     ]
   },
   {
-    "group_id": "kunststof-afvoerleidingen-32-mm",
+    "group_id": "kunststof-afvoerleidingen-kunststof-afvoerleidingen-32-mm",
     "name": "32 mm",
-    "family": "32-mm",
+    "family": "kunststof-afvoerleidingen__32-mm",
     "catalog": "kunststof-afvoerleidingen",
+    "source_pdf": "kunststof-afvoerleidingen.pdf",
     "brand": "Various",
     "category": "AFSD075",
     "variants": [
       {
         "sku": "AFSD090",
         "label": "32 mm",
+        "page": 18,
         "page_in_pdf": 18,
         "properties": {
           "type": "plastic_pipe"
@@ -937,29 +1000,30 @@
       }
     ],
     "images": [
-      "images/kunststof-afvoerleidingen/spie-ral7037__afst110.webp",
-      "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p18__spie-ral7037__AFST110-SS032__v1.webp"
+      "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p18__spie-ral7037__AFST110-SS032.webp"
     ],
     "variant_count": 1,
     "default_variant_sku": "AFSD090",
     "media": [
       {
         "role": "main",
-        "url": "images/kunststof-afvoerleidingen/spie-ral7037__afst110.webp"
+        "url": "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p18__spie-ral7037__AFST110-SS032.webp"
       }
     ]
   },
   {
-    "group_id": "kunststof-afvoerleidingen-afsd050-50-mm",
+    "group_id": "kunststof-afvoerleidingen-kunststof-afvoerleidingen-afsd050-50-mm",
     "name": "AFSD050 50 mm",
-    "family": "afsd050-50-mm",
+    "family": "kunststof-afvoerleidingen__afsd050-50-mm",
     "catalog": "kunststof-afvoerleidingen",
+    "source_pdf": "kunststof-afvoerleidingen.pdf",
     "brand": "Various",
     "category": "AFSD100 100 mm",
     "variants": [
       {
         "sku": "AFSD110",
         "label": "AFSD050 50 mm",
+        "page": 18,
         "page_in_pdf": 18,
         "properties": {
           "type": "plastic_pipe"
@@ -970,29 +1034,30 @@
       }
     ],
     "images": [
-      "images/kunststof-afvoerleidingen/spie-ral7037__afst110.webp",
-      "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p18__spie-ral7037__AFST110-SS032__v1.webp"
+      "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p18__spie-ral7037__AFST110-SS032.webp"
     ],
     "variant_count": 1,
     "default_variant_sku": "AFSD110",
     "media": [
       {
         "role": "main",
-        "url": "images/kunststof-afvoerleidingen/spie-ral7037__afst110.webp"
+        "url": "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p18__spie-ral7037__AFST110-SS032.webp"
       }
     ]
   },
   {
-    "group_id": "kunststof-afvoerleidingen-90-mm",
+    "group_id": "kunststof-afvoerleidingen-kunststof-afvoerleidingen-90-mm",
     "name": "90 mm",
-    "family": "90-mm",
+    "family": "kunststof-afvoerleidingen__90-mm",
     "catalog": "kunststof-afvoerleidingen",
+    "source_pdf": "kunststof-afvoerleidingen.pdf",
     "brand": "Various",
     "category": "AFSD125 125 mm",
     "variants": [
       {
         "sku": "AFSD160",
         "label": "90 mm",
+        "page": 18,
         "page_in_pdf": 18,
         "properties": {
           "type": "plastic_pipe"
@@ -1003,29 +1068,30 @@
       }
     ],
     "images": [
-      "images/kunststof-afvoerleidingen/spie-ral7037__afst110.webp",
-      "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p18__spie-ral7037__AFST110-SS032__v1.webp"
+      "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p18__spie-ral7037__AFST110-SS032.webp"
     ],
     "variant_count": 1,
     "default_variant_sku": "AFSD160",
     "media": [
       {
         "role": "main",
-        "url": "images/kunststof-afvoerleidingen/spie-ral7037__afst110.webp"
+        "url": "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p18__spie-ral7037__AFST110-SS032.webp"
       }
     ]
   },
   {
-    "group_id": "kunststof-afvoerleidingen-spie-ral7037",
+    "group_id": "kunststof-afvoerleidingen-kunststof-afvoerleidingen-spie-ral7037",
     "name": "SPIE | RAL7037",
-    "family": "spie-ral7037",
+    "family": "kunststof-afvoerleidingen__spie-ral7037",
     "catalog": "kunststof-afvoerleidingen",
+    "source_pdf": "kunststof-afvoerleidingen.pdf",
     "brand": "Various",
     "category": "Bestelnr Maat",
     "variants": [
       {
         "sku": "AFST110",
         "label": "SPIE | RAL7037",
+        "page": 18,
         "page_in_pdf": 18,
         "properties": {
           "type": "plastic_pipe"
@@ -1037,6 +1103,7 @@
       {
         "sku": "SS032",
         "label": "SPIE | RAL7037",
+        "page": 18,
         "page_in_pdf": 18,
         "properties": {
           "type": "plastic_pipe"
@@ -1047,29 +1114,30 @@
       }
     ],
     "images": [
-      "images/kunststof-afvoerleidingen/spie-ral7037__afst110.webp",
-      "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p18__spie-ral7037__AFST110-SS032__v1.webp"
+      "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p18__spie-ral7037__AFST110-SS032.webp"
     ],
     "variant_count": 2,
     "default_variant_sku": "AFST110",
     "media": [
       {
         "role": "main",
-        "url": "images/kunststof-afvoerleidingen/spie-ral7037__afst110.webp"
+        "url": "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p18__spie-ral7037__AFST110-SS032.webp"
       }
     ]
   },
   {
-    "group_id": "kunststof-afvoerleidingen-afst110-110-mm",
+    "group_id": "kunststof-afvoerleidingen-kunststof-afvoerleidingen-afst110-110-mm",
     "name": "AFST110 110 mm",
-    "family": "afst110-110-mm",
+    "family": "kunststof-afvoerleidingen__afst110-110-mm",
     "catalog": "kunststof-afvoerleidingen",
+    "source_pdf": "kunststof-afvoerleidingen.pdf",
     "brand": "Various",
     "category": "AFST200 200 mm",
     "variants": [
       {
         "sku": "AFST250",
         "label": "AFST110 110 mm",
+        "page": 18,
         "page_in_pdf": 18,
         "properties": {
           "type": "plastic_pipe"
@@ -1080,29 +1148,30 @@
       }
     ],
     "images": [
-      "images/kunststof-afvoerleidingen/spie-ral7037__afst110.webp",
-      "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p18__spie-ral7037__AFST110-SS032__v1.webp"
+      "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p18__spie-ral7037__AFST110-SS032.webp"
     ],
     "variant_count": 1,
     "default_variant_sku": "AFST250",
     "media": [
       {
         "role": "main",
-        "url": "images/kunststof-afvoerleidingen/spie-ral7037__afst110.webp"
+        "url": "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p18__spie-ral7037__AFST110-SS032.webp"
       }
     ]
   },
   {
-    "group_id": "kunststof-afvoerleidingen-manchet-lijmspie",
+    "group_id": "kunststof-afvoerleidingen-kunststof-afvoerleidingen-manchet-lijmspie",
     "name": "MANCHET - LIJMSPIE",
-    "family": "manchet-lijmspie",
+    "family": "kunststof-afvoerleidingen__manchet-lijmspie",
     "catalog": "kunststof-afvoerleidingen",
+    "source_pdf": "kunststof-afvoerleidingen.pdf",
     "brand": "Various",
     "category": "Bestelnr Maat",
     "variants": [
       {
         "sku": "AFTS110",
         "label": "MANCHET - LIJMSPIE",
+        "page": 19,
         "page_in_pdf": 19,
         "properties": {
           "type": "plastic_pipe"
@@ -1113,29 +1182,30 @@
       }
     ],
     "images": [
-      "images/kunststof-afvoerleidingen/lijmmof__cal753505.webp",
-      "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p9__lijmmof__CAL753505__v1.webp"
+      "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p19__ral7037__YXA0078300__v3.webp"
     ],
     "variant_count": 1,
     "default_variant_sku": "AFTS110",
     "media": [
       {
         "role": "main",
-        "url": "images/kunststof-afvoerleidingen/lijmmof__cal753505.webp"
+        "url": "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p19__ral7037__YXA0078300__v3.webp"
       }
     ]
   },
   {
-    "group_id": "kunststof-afvoerleidingen-110-mm",
+    "group_id": "kunststof-afvoerleidingen-kunststof-afvoerleidingen-110-mm",
     "name": "110 mm",
-    "family": "110-mm",
+    "family": "kunststof-afvoerleidingen__110-mm",
     "catalog": "kunststof-afvoerleidingen",
+    "source_pdf": "kunststof-afvoerleidingen.pdf",
     "brand": "Various",
     "category": "AFTS200 200 mm",
     "variants": [
       {
         "sku": "AFTS315",
         "label": "110 mm",
+        "page": 19,
         "page_in_pdf": 19,
         "properties": {
           "type": "plastic_pipe"
@@ -1147,6 +1217,7 @@
       {
         "sku": "BKL180",
         "label": "110 mm",
+        "page": 19,
         "page_in_pdf": 19,
         "properties": {
           "type": "plastic_pipe"
@@ -1157,29 +1228,30 @@
       }
     ],
     "images": [
-      "images/kunststof-afvoerleidingen/lijmmof__cal753505.webp",
-      "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p9__lijmmof__CAL753505__v1.webp"
+      "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p19__ral7037__YXA0078300__v3.webp"
     ],
     "variant_count": 2,
     "default_variant_sku": "AFTS315",
     "media": [
       {
         "role": "main",
-        "url": "images/kunststof-afvoerleidingen/lijmmof__cal753505.webp"
+        "url": "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p19__ral7037__YXA0078300__v3.webp"
       }
     ]
   },
   {
-    "group_id": "kunststof-afvoerleidingen-pp",
+    "group_id": "kunststof-afvoerleidingen-kunststof-afvoerleidingen-pp",
     "name": "PP",
-    "family": "pp",
+    "family": "kunststof-afvoerleidingen__pp",
     "catalog": "kunststof-afvoerleidingen",
+    "source_pdf": "kunststof-afvoerleidingen.pdf",
     "brand": "Various",
     "category": "Bestelnr Maat",
     "variants": [
       {
         "sku": "BKL110",
         "label": "PP",
+        "page": 19,
         "page_in_pdf": 19,
         "properties": {
           "type": "plastic_pipe"
@@ -1190,29 +1262,30 @@
       }
     ],
     "images": [
-      "images/drukbuizen/pp__bkl012.webp",
-      "images/drukbuizen/drukbuizen__p45__pp__BKL012-BKLV016__v1.webp"
+      "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p19__pp__BKL110__v2.webp"
     ],
     "variant_count": 1,
     "default_variant_sku": "BKL110",
     "media": [
       {
         "role": "main",
-        "url": "images/drukbuizen/pp__bkl012.webp"
+        "url": "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p19__pp__BKL110__v2.webp"
       }
     ]
   },
   {
-    "group_id": "kunststof-afvoerleidingen-bkl140-140-mm",
+    "group_id": "kunststof-afvoerleidingen-kunststof-afvoerleidingen-bkl140-140-mm",
     "name": "BKL140 140 mm",
-    "family": "bkl140-140-mm",
+    "family": "kunststof-afvoerleidingen__bkl140-140-mm",
     "catalog": "kunststof-afvoerleidingen",
+    "source_pdf": "kunststof-afvoerleidingen.pdf",
     "brand": "Various",
     "category": "BKL200",
     "variants": [
       {
         "sku": "BKL225",
         "label": "BKL140 140 mm",
+        "page": 19,
         "page_in_pdf": 19,
         "properties": {
           "type": "plastic_pipe"
@@ -1223,29 +1296,30 @@
       }
     ],
     "images": [
-      "images/kunststof-afvoerleidingen/lijmmof__cal753505.webp",
-      "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p9__lijmmof__CAL753505__v1.webp"
+      "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p19__ral7037__YXA0078300__v3.webp"
     ],
     "variant_count": 1,
     "default_variant_sku": "BKL225",
     "media": [
       {
         "role": "main",
-        "url": "images/kunststof-afvoerleidingen/lijmmof__cal753505.webp"
+        "url": "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p19__ral7037__YXA0078300__v3.webp"
       }
     ]
   },
   {
-    "group_id": "kunststof-afvoerleidingen-bkl180-180-mm",
+    "group_id": "kunststof-afvoerleidingen-kunststof-afvoerleidingen-bkl180-180-mm",
     "name": "BKL180 180 mm",
-    "family": "bkl180-180-mm",
+    "family": "kunststof-afvoerleidingen__bkl180-180-mm",
     "catalog": "kunststof-afvoerleidingen",
+    "source_pdf": "kunststof-afvoerleidingen.pdf",
     "brand": "Various",
     "category": "BKL250 250 mm",
     "variants": [
       {
         "sku": "BKL280",
         "label": "BKL180 180 mm",
+        "page": 19,
         "page_in_pdf": 19,
         "properties": {
           "type": "plastic_pipe"
@@ -1256,29 +1330,30 @@
       }
     ],
     "images": [
-      "images/kunststof-afvoerleidingen/lijmmof__cal753505.webp",
-      "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p9__lijmmof__CAL753505__v1.webp"
+      "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p19__ral7037__YXA0078300__v3.webp"
     ],
     "variant_count": 1,
     "default_variant_sku": "BKL280",
     "media": [
       {
         "role": "main",
-        "url": "images/kunststof-afvoerleidingen/lijmmof__cal753505.webp"
+        "url": "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p19__ral7037__YXA0078300__v3.webp"
       }
     ]
   },
   {
-    "group_id": "kunststof-afvoerleidingen-bkl225-225-mm",
+    "group_id": "kunststof-afvoerleidingen-kunststof-afvoerleidingen-bkl225-225-mm",
     "name": "BKL225 225 mm",
-    "family": "bkl225-225-mm",
+    "family": "kunststof-afvoerleidingen__bkl225-225-mm",
     "catalog": "kunststof-afvoerleidingen",
+    "source_pdf": "kunststof-afvoerleidingen.pdf",
     "brand": "Various",
     "category": "BKL315 315 mm",
     "variants": [
       {
         "sku": "BKL400",
         "label": "BKL225 225 mm",
+        "page": 19,
         "page_in_pdf": 19,
         "properties": {
           "type": "plastic_pipe"
@@ -1289,29 +1364,30 @@
       }
     ],
     "images": [
-      "images/kunststof-afvoerleidingen/lijmmof__cal753505.webp",
-      "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p9__lijmmof__CAL753505__v1.webp"
+      "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p19__ral7037__YXA0078300__v3.webp"
     ],
     "variant_count": 1,
     "default_variant_sku": "BKL400",
     "media": [
       {
         "role": "main",
-        "url": "images/kunststof-afvoerleidingen/lijmmof__cal753505.webp"
+        "url": "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p19__ral7037__YXA0078300__v3.webp"
       }
     ]
   },
   {
-    "group_id": "kunststof-afvoerleidingen-lijmmof",
+    "group_id": "kunststof-afvoerleidingen-kunststof-afvoerleidingen-lijmmof",
     "name": "LIJMMOF",
-    "family": "lijmmof",
+    "family": "kunststof-afvoerleidingen__lijmmof",
     "catalog": "kunststof-afvoerleidingen",
+    "source_pdf": "kunststof-afvoerleidingen.pdf",
     "brand": "Various",
     "category": "Bestelnr Maat",
     "variants": [
       {
         "sku": "CAL753505",
         "label": "LIJMMOF",
+        "page": 9,
         "page_in_pdf": 9,
         "properties": {
           "type": "plastic_pipe"
@@ -1322,29 +1398,30 @@
       }
     ],
     "images": [
-      "images/kunststof-afvoerleidingen/lijmmof__cal753505.webp",
-      "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p9__lijmmof__CAL753505__v1.webp"
+      "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p9__lijmmof__CAL753505.webp"
     ],
     "variant_count": 1,
     "default_variant_sku": "CAL753505",
     "media": [
       {
         "role": "main",
-        "url": "images/kunststof-afvoerleidingen/lijmmof__cal753505.webp"
+        "url": "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p9__lijmmof__CAL753505.webp"
       }
     ]
   },
   {
-    "group_id": "kunststof-afvoerleidingen-kabel-beschermingsbuis",
+    "group_id": "kunststof-afvoerleidingen-kunststof-afvoerleidingen-kabel-beschermingsbuis",
     "name": "KABEL BESCHERMINGSBUIS",
-    "family": "kabel-beschermingsbuis",
+    "family": "kunststof-afvoerleidingen__kabel-beschermingsbuis",
     "catalog": "kunststof-afvoerleidingen",
+    "source_pdf": "kunststof-afvoerleidingen.pdf",
     "brand": "Various",
     "category": "GLAD - KLIKMOF",
     "variants": [
       {
         "sku": "CF04025",
         "label": "KABEL BESCHERMINGSBUIS",
+        "page": 33,
         "page_in_pdf": 33,
         "properties": {
           "type": "plastic_pipe",
@@ -1357,6 +1434,7 @@
       {
         "sku": "CF04050",
         "label": "KABEL BESCHERMINGSBUIS",
+        "page": 33,
         "page_in_pdf": 33,
         "properties": {
           "type": "plastic_pipe",
@@ -1369,6 +1447,7 @@
       {
         "sku": "CF05025",
         "label": "KABEL BESCHERMINGSBUIS",
+        "page": 33,
         "page_in_pdf": 33,
         "properties": {
           "type": "plastic_pipe",
@@ -1381,6 +1460,7 @@
       {
         "sku": "CF05050",
         "label": "KABEL BESCHERMINGSBUIS",
+        "page": 33,
         "page_in_pdf": 33,
         "properties": {
           "type": "plastic_pipe",
@@ -1393,6 +1473,7 @@
       {
         "sku": "CF06325",
         "label": "KABEL BESCHERMINGSBUIS",
+        "page": 33,
         "page_in_pdf": 33,
         "properties": {
           "type": "plastic_pipe",
@@ -1405,6 +1486,7 @@
       {
         "sku": "CF07525",
         "label": "KABEL BESCHERMINGSBUIS",
+        "page": 33,
         "page_in_pdf": 33,
         "properties": {
           "type": "plastic_pipe",
@@ -1417,6 +1499,7 @@
       {
         "sku": "CF07550",
         "label": "KABEL BESCHERMINGSBUIS",
+        "page": 33,
         "page_in_pdf": 33,
         "properties": {
           "type": "plastic_pipe",
@@ -1429,6 +1512,7 @@
       {
         "sku": "CF09025",
         "label": "KABEL BESCHERMINGSBUIS",
+        "page": 33,
         "page_in_pdf": 33,
         "properties": {
           "type": "plastic_pipe",
@@ -1441,6 +1525,7 @@
       {
         "sku": "CF09050",
         "label": "KABEL BESCHERMINGSBUIS",
+        "page": 33,
         "page_in_pdf": 33,
         "properties": {
           "type": "plastic_pipe",
@@ -1453,6 +1538,7 @@
       {
         "sku": "CF11025",
         "label": "KABEL BESCHERMINGSBUIS",
+        "page": 33,
         "page_in_pdf": 33,
         "properties": {
           "type": "plastic_pipe",
@@ -1465,6 +1551,7 @@
       {
         "sku": "CF11050",
         "label": "KABEL BESCHERMINGSBUIS",
+        "page": 33,
         "page_in_pdf": 33,
         "properties": {
           "type": "plastic_pipe",
@@ -1477,6 +1564,7 @@
       {
         "sku": "CF12550",
         "label": "KABEL BESCHERMINGSBUIS",
+        "page": 33,
         "page_in_pdf": 33,
         "properties": {
           "type": "plastic_pipe",
@@ -1489,6 +1577,7 @@
       {
         "sku": "CF16025",
         "label": "KABEL BESCHERMINGSBUIS",
+        "page": 33,
         "page_in_pdf": 33,
         "properties": {
           "type": "plastic_pipe",
@@ -1501,6 +1590,7 @@
       {
         "sku": "CF16050",
         "label": "KABEL BESCHERMINGSBUIS",
+        "page": 33,
         "page_in_pdf": 33,
         "properties": {
           "type": "plastic_pipe",
@@ -1513,6 +1603,7 @@
       {
         "sku": "CF20025",
         "label": "KABEL BESCHERMINGSBUIS",
+        "page": 33,
         "page_in_pdf": 33,
         "properties": {
           "type": "plastic_pipe",
@@ -1524,7 +1615,6 @@
       }
     ],
     "images": [
-      "images/kunststof-afvoerleidingen/kabel-beschermingsbuis__cf04025.webp",
       "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p33__kabel-beschermingsbuis__CF04025-CF04050-CF05025__v1.webp"
     ],
     "variant_count": 15,
@@ -1532,21 +1622,23 @@
     "media": [
       {
         "role": "main",
-        "url": "images/kunststof-afvoerleidingen/kabel-beschermingsbuis__cf04025.webp"
+        "url": "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p33__kabel-beschermingsbuis__CF04025-CF04050-CF05025__v1.webp"
       }
     ]
   },
   {
-    "group_id": "kunststof-afvoerleidingen-klikmof-klikmof",
+    "group_id": "kunststof-afvoerleidingen-kunststof-afvoerleidingen-klikmof-klikmof",
     "name": "KLIKMOF - KLIKMOF",
-    "family": "klikmof-klikmof",
+    "family": "kunststof-afvoerleidingen__klikmof-klikmof",
     "catalog": "kunststof-afvoerleidingen",
+    "source_pdf": "kunststof-afvoerleidingen.pdf",
     "brand": "Various",
     "category": "Bestelnr Maat",
     "variants": [
       {
         "sku": "CFM050",
         "label": "KLIKMOF - KLIKMOF",
+        "page": 33,
         "page_in_pdf": 33,
         "properties": {
           "type": "plastic_pipe"
@@ -1557,7 +1649,6 @@
       }
     ],
     "images": [
-      "images/kunststof-afvoerleidingen/kabel-beschermingsbuis__cf04025.webp",
       "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p33__kabel-beschermingsbuis__CF04025-CF04050-CF05025__v1.webp"
     ],
     "variant_count": 1,
@@ -1565,21 +1656,23 @@
     "media": [
       {
         "role": "main",
-        "url": "images/kunststof-afvoerleidingen/kabel-beschermingsbuis__cf04025.webp"
+        "url": "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p33__kabel-beschermingsbuis__CF04025-CF04050-CF05025__v1.webp"
       }
     ]
   },
   {
-    "group_id": "kunststof-afvoerleidingen-cfm075-75-mm",
+    "group_id": "kunststof-afvoerleidingen-kunststof-afvoerleidingen-cfm075-75-mm",
     "name": "CFM075 75 mm",
-    "family": "cfm075-75-mm",
+    "family": "kunststof-afvoerleidingen__cfm075-75-mm",
     "catalog": "kunststof-afvoerleidingen",
+    "source_pdf": "kunststof-afvoerleidingen.pdf",
     "brand": "Various",
     "category": "CFM110 110 mm",
     "variants": [
       {
         "sku": "CFM125",
         "label": "CFM075 75 mm",
+        "page": 33,
         "page_in_pdf": 33,
         "properties": {
           "type": "plastic_pipe"
@@ -1590,7 +1683,6 @@
       }
     ],
     "images": [
-      "images/kunststof-afvoerleidingen/kabel-beschermingsbuis__cf04025.webp",
       "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p33__kabel-beschermingsbuis__CF04025-CF04050-CF05025__v1.webp"
     ],
     "variant_count": 1,
@@ -1598,21 +1690,23 @@
     "media": [
       {
         "role": "main",
-        "url": "images/kunststof-afvoerleidingen/kabel-beschermingsbuis__cf04025.webp"
+        "url": "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p33__kabel-beschermingsbuis__CF04025-CF04050-CF05025__v1.webp"
       }
     ]
   },
   {
-    "group_id": "kunststof-afvoerleidingen-lijmmof-spie-ral7037",
+    "group_id": "kunststof-afvoerleidingen-kunststof-afvoerleidingen-lijmmof-spie-ral7037",
     "name": "LIJMMOF - SPIE | RAL7037",
-    "family": "lijmmof-spie-ral7037",
+    "family": "kunststof-afvoerleidingen__lijmmof-spie-ral7037",
     "catalog": "kunststof-afvoerleidingen",
+    "source_pdf": "kunststof-afvoerleidingen.pdf",
     "brand": "Various",
     "category": "Bestelnr Maat",
     "variants": [
       {
         "sku": "CK110",
         "label": "LIJMMOF - SPIE | RAL7037",
+        "page": 17,
         "page_in_pdf": 17,
         "properties": {
           "type": "plastic_pipe"
@@ -1625,6 +1719,7 @@
       {
         "sku": "EB032301",
         "label": "LIJMMOF - SPIE | RAL7037",
+        "page": 5,
         "page_in_pdf": 5,
         "properties": {
           "type": "plastic_pipe"
@@ -1637,6 +1732,7 @@
       {
         "sku": "EB032451",
         "label": "LIJMMOF - SPIE | RAL7037",
+        "page": 5,
         "page_in_pdf": 5,
         "properties": {
           "type": "plastic_pipe"
@@ -1649,6 +1745,7 @@
       {
         "sku": "EB032901",
         "label": "LIJMMOF - SPIE | RAL7037",
+        "page": 6,
         "page_in_pdf": 6,
         "properties": {
           "type": "plastic_pipe"
@@ -1660,31 +1757,30 @@
       }
     ],
     "images": [
-      "images/kunststof-afvoerleidingen/lijmmof-spie-ral7037__eb032901__img3.webp",
-      "images/kunststof-afvoerleidingen/lijmmof-spie-ral7037__eb032301.webp",
-      "images/kunststof-afvoerleidingen/lijmmof-spie-ral7037__ck110__img5.webp",
-      "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p5__lijmmof-spie-ral7037__EB032301-EB032451__v1.webp"
+      "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p17__lijmmof-spie-ral7037__CK110__v5.webp"
     ],
     "variant_count": 4,
     "default_variant_sku": "CK110",
     "media": [
       {
         "role": "main",
-        "url": "images/kunststof-afvoerleidingen/lijmmof-spie-ral7037__eb032901__img3.webp"
+        "url": "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p17__lijmmof-spie-ral7037__CK110__v5.webp"
       }
     ]
   },
   {
-    "group_id": "kunststof-afvoerleidingen-drainagebuis-pp",
+    "group_id": "kunststof-afvoerleidingen-kunststof-afvoerleidingen-drainagebuis-pp",
     "name": "DRAINAGEBUIS PP",
-    "family": "drainagebuis-pp",
+    "family": "kunststof-afvoerleidingen__drainagebuis-pp",
     "catalog": "kunststof-afvoerleidingen",
+    "source_pdf": "kunststof-afvoerleidingen.pdf",
     "brand": "Various",
     "category": "GLAD - KLIKMOF",
     "variants": [
       {
         "sku": "DDPP050",
         "label": "DRAINAGEBUIS PP",
+        "page": 34,
         "page_in_pdf": 34,
         "properties": {
           "type": "plastic_pipe",
@@ -1697,6 +1793,7 @@
       {
         "sku": "DDPP060",
         "label": "DRAINAGEBUIS PP",
+        "page": 34,
         "page_in_pdf": 34,
         "properties": {
           "type": "plastic_pipe",
@@ -1709,6 +1806,7 @@
       {
         "sku": "DDPP080",
         "label": "DRAINAGEBUIS PP",
+        "page": 34,
         "page_in_pdf": 34,
         "properties": {
           "type": "plastic_pipe",
@@ -1721,6 +1819,7 @@
       {
         "sku": "DDPP100",
         "label": "DRAINAGEBUIS PP",
+        "page": 34,
         "page_in_pdf": 34,
         "properties": {
           "type": "plastic_pipe",
@@ -1733,6 +1832,7 @@
       {
         "sku": "DDPP125",
         "label": "DRAINAGEBUIS PP",
+        "page": 34,
         "page_in_pdf": 34,
         "properties": {
           "type": "plastic_pipe",
@@ -1745,6 +1845,7 @@
       {
         "sku": "DDPP160",
         "label": "DRAINAGEBUIS PP",
+        "page": 34,
         "page_in_pdf": 34,
         "properties": {
           "type": "plastic_pipe",
@@ -1757,6 +1858,7 @@
       {
         "sku": "DDPP200",
         "label": "DRAINAGEBUIS PP",
+        "page": 34,
         "page_in_pdf": 34,
         "properties": {
           "type": "plastic_pipe",
@@ -1768,29 +1870,30 @@
       }
     ],
     "images": [
-      "images/kunststof-afvoerleidingen/drainagebuis-pp__ddpp050.webp",
-      "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p34__drainagebuis-pp__DDPP050-DDPP060-DDPP080__v1.webp"
+      "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p34__drainagebuis-pp__DDPP050-DDPP060-DDPP080__v2.webp"
     ],
     "variant_count": 7,
     "default_variant_sku": "DDPP050",
     "media": [
       {
         "role": "main",
-        "url": "images/kunststof-afvoerleidingen/drainagebuis-pp__ddpp050.webp"
+        "url": "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p34__drainagebuis-pp__DDPP050-DDPP060-DDPP080__v2.webp"
       }
     ]
   },
   {
-    "group_id": "kunststof-afvoerleidingen-klikmof",
+    "group_id": "kunststof-afvoerleidingen-kunststof-afvoerleidingen-klikmof",
     "name": "KLIKMOF",
-    "family": "klikmof",
+    "family": "kunststof-afvoerleidingen__klikmof",
     "catalog": "kunststof-afvoerleidingen",
+    "source_pdf": "kunststof-afvoerleidingen.pdf",
     "brand": "Various",
     "category": "Bestelnr Maat",
     "variants": [
       {
         "sku": "DDPPEK05060",
         "label": "KLIKMOF",
+        "page": 35,
         "page_in_pdf": 35,
         "properties": {
           "type": "plastic_pipe"
@@ -1802,6 +1905,7 @@
       {
         "sku": "DDPPM050",
         "label": "KLIKMOF",
+        "page": 34,
         "page_in_pdf": 34,
         "properties": {
           "type": "plastic_pipe"
@@ -1813,6 +1917,7 @@
       {
         "sku": "DDPPM05060",
         "label": "KLIKMOF",
+        "page": 34,
         "page_in_pdf": 34,
         "properties": {
           "type": "plastic_pipe"
@@ -1824,6 +1929,7 @@
       {
         "sku": "DDPPT050",
         "label": "KLIKMOF",
+        "page": 35,
         "page_in_pdf": 35,
         "properties": {
           "type": "plastic_pipe"
@@ -1835,6 +1941,7 @@
       {
         "sku": "DDPPT08050",
         "label": "KLIKMOF",
+        "page": 35,
         "page_in_pdf": 35,
         "properties": {
           "type": "plastic_pipe"
@@ -1845,29 +1952,30 @@
       }
     ],
     "images": [
-      "images/kunststof-afvoerleidingen/klikmof__ddppek05060.webp",
-      "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p35__klikmof__DDPPEK05060-DDPPT050-DDPPT08050__v1.webp"
+      "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p35__klikmof__DDPPEK05060-DDPPT050-DDPPT08050__v2.webp"
     ],
     "variant_count": 5,
     "default_variant_sku": "DDPPEK05060",
     "media": [
       {
         "role": "main",
-        "url": "images/kunststof-afvoerleidingen/klikmof__ddppek05060.webp"
+        "url": "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p35__klikmof__DDPPEK05060-DDPPT050-DDPPT08050__v2.webp"
       }
     ]
   },
   {
-    "group_id": "kunststof-afvoerleidingen-ddppek05060",
+    "group_id": "kunststof-afvoerleidingen-kunststof-afvoerleidingen-ddppek05060",
     "name": "DDPPEK05060",
-    "family": "ddppek05060",
+    "family": "kunststof-afvoerleidingen__ddppek05060",
     "catalog": "kunststof-afvoerleidingen",
+    "source_pdf": "kunststof-afvoerleidingen.pdf",
     "brand": "Various",
     "category": "DDPPEK125 125 mm",
     "variants": [
       {
         "sku": "DDPPEK160",
         "label": "DDPPEK05060",
+        "page": 35,
         "page_in_pdf": 35,
         "properties": {
           "type": "plastic_pipe"
@@ -1878,7 +1986,6 @@
       }
     ],
     "images": [
-      "images/kunststof-afvoerleidingen/klikmof__ddppek05060.webp",
       "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p35__klikmof__DDPPEK05060-DDPPT050-DDPPT08050__v1.webp"
     ],
     "variant_count": 1,
@@ -1886,21 +1993,23 @@
     "media": [
       {
         "role": "main",
-        "url": "images/kunststof-afvoerleidingen/klikmof__ddppek05060.webp"
+        "url": "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p35__klikmof__DDPPEK05060-DDPPT050-DDPPT08050__v1.webp"
       }
     ]
   },
   {
-    "group_id": "kunststof-afvoerleidingen-ddppm05060-50-mm-x-60-mm",
+    "group_id": "kunststof-afvoerleidingen-kunststof-afvoerleidingen-ddppm05060-50-mm-x-60-mm",
     "name": "DDPPM05060 50 mm x 60 mm",
-    "family": "ddppm05060-50-mm-x-60-mm",
+    "family": "kunststof-afvoerleidingen__ddppm05060-50-mm-x-60-mm",
     "catalog": "kunststof-afvoerleidingen",
+    "source_pdf": "kunststof-afvoerleidingen.pdf",
     "brand": "Various",
     "category": "DDPPM08060 80 mm x 60 mm",
     "variants": [
       {
         "sku": "DDPPM10080",
         "label": "DDPPM05060 50 mm x 60 mm",
+        "page": 34,
         "page_in_pdf": 34,
         "properties": {
           "type": "plastic_pipe"
@@ -1911,7 +2020,6 @@
       }
     ],
     "images": [
-      "images/kunststof-afvoerleidingen/ddppm05060-50-mm-x-60-mm__ddppm10080.webp",
       "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p34__ddppm05060-50-mm-x-60-mm__DDPPM10080.webp"
     ],
     "variant_count": 1,
@@ -1919,21 +2027,23 @@
     "media": [
       {
         "role": "main",
-        "url": "images/kunststof-afvoerleidingen/ddppm05060-50-mm-x-60-mm__ddppm10080.webp"
+        "url": "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p34__ddppm05060-50-mm-x-60-mm__DDPPM10080.webp"
       }
     ]
   },
   {
-    "group_id": "kunststof-afvoerleidingen-ddppm050",
+    "group_id": "kunststof-afvoerleidingen-kunststof-afvoerleidingen-ddppm050",
     "name": "DDPPM050",
-    "family": "ddppm050",
+    "family": "kunststof-afvoerleidingen__ddppm050",
     "catalog": "kunststof-afvoerleidingen",
+    "source_pdf": "kunststof-afvoerleidingen.pdf",
     "brand": "Various",
     "category": "DDPPM100 100 mm",
     "variants": [
       {
         "sku": "DDPPM125",
         "label": "DDPPM050",
+        "page": 34,
         "page_in_pdf": 34,
         "properties": {
           "type": "plastic_pipe"
@@ -1944,7 +2054,6 @@
       }
     ],
     "images": [
-      "images/kunststof-afvoerleidingen/drainagebuis-pp__ddpp050.webp",
       "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p34__drainagebuis-pp__DDPP050-DDPP060-DDPP080__v1.webp"
     ],
     "variant_count": 1,
@@ -1952,21 +2061,23 @@
     "media": [
       {
         "role": "main",
-        "url": "images/kunststof-afvoerleidingen/drainagebuis-pp__ddpp050.webp"
+        "url": "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p34__drainagebuis-pp__DDPP050-DDPP060-DDPP080__v1.webp"
       }
     ]
   },
   {
-    "group_id": "kunststof-afvoerleidingen-80-mm",
+    "group_id": "kunststof-afvoerleidingen-kunststof-afvoerleidingen-80-mm",
     "name": "80 mm",
-    "family": "80-mm",
+    "family": "kunststof-afvoerleidingen__80-mm",
     "catalog": "kunststof-afvoerleidingen",
+    "source_pdf": "kunststof-afvoerleidingen.pdf",
     "brand": "Various",
     "category": "DDPPM160 160 mm",
     "variants": [
       {
         "sku": "DDPPM200",
         "label": "80 mm",
+        "page": 34,
         "page_in_pdf": 34,
         "properties": {
           "type": "plastic_pipe"
@@ -1978,6 +2089,7 @@
       {
         "sku": "DDPPT200",
         "label": "80 mm",
+        "page": 35,
         "page_in_pdf": 35,
         "properties": {
           "type": "plastic_pipe"
@@ -1988,8 +2100,6 @@
       }
     ],
     "images": [
-      "images/kunststof-afvoerleidingen/klikmof__ddppek05060.webp",
-      "images/kunststof-afvoerleidingen/drainagebuis-pp__ddpp050.webp",
       "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p34__drainagebuis-pp__DDPP050-DDPP060-DDPP080__v1.webp",
       "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p35__klikmof__DDPPEK05060-DDPPT050-DDPPT08050__v1.webp"
     ],
@@ -1998,21 +2108,23 @@
     "media": [
       {
         "role": "main",
-        "url": "images/kunststof-afvoerleidingen/klikmof__ddppek05060.webp"
+        "url": "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p34__drainagebuis-pp__DDPP050-DDPP060-DDPP080__v1.webp"
       }
     ]
   },
   {
-    "group_id": "kunststof-afvoerleidingen-ddppt08050-80-mm-x-50-mm-x-80-mm",
+    "group_id": "kunststof-afvoerleidingen-kunststof-afvoerleidingen-ddppt08050-80-mm-x-50-mm-x-80-mm",
     "name": "DDPPT08050 80 mm x 50 mm x 80 mm",
-    "family": "ddppt08050-80-mm-x-50-mm-x-80-mm",
+    "family": "kunststof-afvoerleidingen__ddppt08050-80-mm-x-50-mm-x-80-mm",
     "catalog": "kunststof-afvoerleidingen",
+    "source_pdf": "kunststof-afvoerleidingen.pdf",
     "brand": "Various",
     "category": "DDPPT10060 100 mm x 60 mm x 100 mm",
     "variants": [
       {
         "sku": "DDPPT10080",
         "label": "DDPPT08050 80 mm x 50 mm x 80 mm",
+        "page": 35,
         "page_in_pdf": 35,
         "properties": {
           "type": "plastic_pipe"
@@ -2023,7 +2135,6 @@
       }
     ],
     "images": [
-      "images/kunststof-afvoerleidingen/ddppt08050-80-mm-x-50-mm-x-80-mm__ddppt10080.webp",
       "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p35__ddppt08050-80-mm-x-50-mm-x-80-mm__DDPPT10080.webp"
     ],
     "variant_count": 1,
@@ -2031,21 +2142,23 @@
     "media": [
       {
         "role": "main",
-        "url": "images/kunststof-afvoerleidingen/ddppt08050-80-mm-x-50-mm-x-80-mm__ddppt10080.webp"
+        "url": "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p35__ddppt08050-80-mm-x-50-mm-x-80-mm__DDPPT10080.webp"
       }
     ]
   },
   {
-    "group_id": "kunststof-afvoerleidingen-ddppt050",
+    "group_id": "kunststof-afvoerleidingen-kunststof-afvoerleidingen-ddppt050",
     "name": "DDPPT050",
-    "family": "ddppt050",
+    "family": "kunststof-afvoerleidingen__ddppt050",
     "catalog": "kunststof-afvoerleidingen",
+    "source_pdf": "kunststof-afvoerleidingen.pdf",
     "brand": "Various",
     "category": "DDPPT100 100 mm",
     "variants": [
       {
         "sku": "DDPPT125",
         "label": "DDPPT050",
+        "page": 35,
         "page_in_pdf": 35,
         "properties": {
           "type": "plastic_pipe"
@@ -2056,7 +2169,6 @@
       }
     ],
     "images": [
-      "images/kunststof-afvoerleidingen/klikmof__ddppek05060.webp",
       "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p35__klikmof__DDPPEK05060-DDPPT050-DDPPT08050__v1.webp"
     ],
     "variant_count": 1,
@@ -2064,21 +2176,23 @@
     "media": [
       {
         "role": "main",
-        "url": "images/kunststof-afvoerleidingen/klikmof__ddppek05060.webp"
+        "url": "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p35__klikmof__DDPPEK05060-DDPPT050-DDPPT08050__v1.webp"
       }
     ]
   },
   {
-    "group_id": "kunststof-afvoerleidingen-lijmmof-ral7037",
+    "group_id": "kunststof-afvoerleidingen-kunststof-afvoerleidingen-lijmmof-ral7037",
     "name": "LIJMMOF | RAL7037",
-    "family": "lijmmof-ral7037",
+    "family": "kunststof-afvoerleidingen__lijmmof-ral7037",
     "catalog": "kunststof-afvoerleidingen",
+    "source_pdf": "kunststof-afvoerleidingen.pdf",
     "brand": "Various",
     "category": "Bestelnr Maat",
     "variants": [
       {
         "sku": "EB032302",
         "label": "LIJMMOF | RAL7037",
+        "page": 5,
         "page_in_pdf": 5,
         "properties": {
           "type": "plastic_pipe"
@@ -2090,6 +2204,7 @@
       {
         "sku": "EB032452",
         "label": "LIJMMOF | RAL7037",
+        "page": 5,
         "page_in_pdf": 5,
         "properties": {
           "type": "plastic_pipe"
@@ -2101,6 +2216,7 @@
       {
         "sku": "EB032902",
         "label": "LIJMMOF | RAL7037",
+        "page": 6,
         "page_in_pdf": 6,
         "properties": {
           "type": "plastic_pipe"
@@ -2112,6 +2228,7 @@
       {
         "sku": "EK032",
         "label": "LIJMMOF | RAL7037",
+        "page": 8,
         "page_in_pdf": 8,
         "properties": {
           "type": "plastic_pipe"
@@ -2123,6 +2240,7 @@
       {
         "sku": "EK110",
         "label": "LIJMMOF | RAL7037",
+        "page": 17,
         "page_in_pdf": 17,
         "properties": {
           "type": "plastic_pipe"
@@ -2135,6 +2253,7 @@
       {
         "sku": "YXA0114100",
         "label": "LIJMMOF | RAL7037",
+        "page": 9,
         "page_in_pdf": 9,
         "properties": {
           "type": "plastic_pipe"
@@ -2145,32 +2264,30 @@
       }
     ],
     "images": [
-      "images/kunststof-afvoerleidingen/lijmmof-ral7037__ek110__img7.webp",
-      "images/kunststof-afvoerleidingen/lijmmof-ral7037__ek032__img5.webp",
-      "images/kunststof-afvoerleidingen/lijmmof-ral7037__eb032902__img3.webp",
-      "images/kunststof-afvoerleidingen/lijmmof-ral7037__eb032302.webp",
-      "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p5__lijmmof-ral7037__EB032302-EB032452__v1.webp"
+      "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p17__lijmmof-ral7037__EK110__v7.webp"
     ],
     "variant_count": 6,
     "default_variant_sku": "EB032302",
     "media": [
       {
         "role": "main",
-        "url": "images/kunststof-afvoerleidingen/lijmmof-ral7037__ek110__img7.webp"
+        "url": "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p17__lijmmof-ral7037__EK110__v7.webp"
       }
     ]
   },
   {
-    "group_id": "kunststof-afvoerleidingen-eb032451-32-mm",
+    "group_id": "kunststof-afvoerleidingen-kunststof-afvoerleidingen-eb032451-32-mm",
     "name": "EB032451 32 mm",
-    "family": "eb032451-32-mm",
+    "family": "kunststof-afvoerleidingen__eb032451-32-mm",
     "catalog": "kunststof-afvoerleidingen",
+    "source_pdf": "kunststof-afvoerleidingen.pdf",
     "brand": "Various",
     "category": "EB075451 75 mm",
     "variants": [
       {
         "sku": "EB080451",
         "label": "EB032451 32 mm",
+        "page": 5,
         "page_in_pdf": 5,
         "properties": {
           "type": "plastic_pipe"
@@ -2182,7 +2299,6 @@
       }
     ],
     "images": [
-      "images/kunststof-afvoerleidingen/lijmmof-spie-ral7037__eb032301.webp",
       "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p5__lijmmof-spie-ral7037__EB032301-EB032451__v1.webp"
     ],
     "variant_count": 1,
@@ -2190,21 +2306,23 @@
     "media": [
       {
         "role": "main",
-        "url": "images/kunststof-afvoerleidingen/lijmmof-spie-ral7037__eb032301.webp"
+        "url": "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p5__lijmmof-spie-ral7037__EB032301-EB032451__v1.webp"
       }
     ]
   },
   {
-    "group_id": "kunststof-afvoerleidingen-eb032452-32-mm",
+    "group_id": "kunststof-afvoerleidingen-kunststof-afvoerleidingen-eb032452-32-mm",
     "name": "EB032452 32 mm",
-    "family": "eb032452-32-mm",
+    "family": "kunststof-afvoerleidingen__eb032452-32-mm",
     "catalog": "kunststof-afvoerleidingen",
+    "source_pdf": "kunststof-afvoerleidingen.pdf",
     "brand": "Various",
     "category": "EB075452",
     "variants": [
       {
         "sku": "EB080452",
         "label": "EB032452 32 mm",
+        "page": 5,
         "page_in_pdf": 5,
         "properties": {
           "type": "plastic_pipe"
@@ -2215,7 +2333,6 @@
       }
     ],
     "images": [
-      "images/kunststof-afvoerleidingen/lijmmof-spie-ral7037__eb032301.webp",
       "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p5__lijmmof-spie-ral7037__EB032301-EB032451__v1.webp"
     ],
     "variant_count": 1,
@@ -2223,21 +2340,23 @@
     "media": [
       {
         "role": "main",
-        "url": "images/kunststof-afvoerleidingen/lijmmof-spie-ral7037__eb032301.webp"
+        "url": "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p5__lijmmof-spie-ral7037__EB032301-EB032451__v1.webp"
       }
     ]
   },
   {
-    "group_id": "kunststof-afvoerleidingen-eb032901-32-mm",
+    "group_id": "kunststof-afvoerleidingen-kunststof-afvoerleidingen-eb032901-32-mm",
     "name": "EB032901 32 mm",
-    "family": "eb032901-32-mm",
+    "family": "kunststof-afvoerleidingen__eb032901-32-mm",
     "catalog": "kunststof-afvoerleidingen",
+    "source_pdf": "kunststof-afvoerleidingen.pdf",
     "brand": "Various",
     "category": "EB075901 75 mm",
     "variants": [
       {
         "sku": "EB080901",
         "label": "EB032901 32 mm",
+        "page": 6,
         "page_in_pdf": 6,
         "properties": {
           "type": "plastic_pipe"
@@ -2249,7 +2368,6 @@
       }
     ],
     "images": [
-      "images/kunststof-afvoerleidingen/lijmmof-spie-ral7037__eb032901__img3.webp",
       "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p6__lijmmof-spie-ral7037__EB032901__v3.webp"
     ],
     "variant_count": 1,
@@ -2257,21 +2375,23 @@
     "media": [
       {
         "role": "main",
-        "url": "images/kunststof-afvoerleidingen/lijmmof-spie-ral7037__eb032901__img3.webp"
+        "url": "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p6__lijmmof-spie-ral7037__EB032901__v3.webp"
       }
     ]
   },
   {
-    "group_id": "kunststof-afvoerleidingen-eb032902-32-mm",
+    "group_id": "kunststof-afvoerleidingen-kunststof-afvoerleidingen-eb032902-32-mm",
     "name": "EB032902 32 mm",
-    "family": "eb032902-32-mm",
+    "family": "kunststof-afvoerleidingen__eb032902-32-mm",
     "catalog": "kunststof-afvoerleidingen",
+    "source_pdf": "kunststof-afvoerleidingen.pdf",
     "brand": "Various",
     "category": "EB075902",
     "variants": [
       {
         "sku": "EB080902",
         "label": "EB032902 32 mm",
+        "page": 6,
         "page_in_pdf": 6,
         "properties": {
           "type": "plastic_pipe"
@@ -2282,7 +2402,6 @@
       }
     ],
     "images": [
-      "images/kunststof-afvoerleidingen/lijmmof-spie-ral7037__eb032901__img3.webp",
       "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p6__lijmmof-spie-ral7037__EB032901__v3.webp"
     ],
     "variant_count": 1,
@@ -2290,21 +2409,23 @@
     "media": [
       {
         "role": "main",
-        "url": "images/kunststof-afvoerleidingen/lijmmof-spie-ral7037__eb032901__img3.webp"
+        "url": "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p6__lijmmof-spie-ral7037__EB032901__v3.webp"
       }
     ]
   },
   {
-    "group_id": "kunststof-afvoerleidingen-eb032301-32-mm",
+    "group_id": "kunststof-afvoerleidingen-kunststof-afvoerleidingen-eb032301-32-mm",
     "name": "EB032301 32 mm",
-    "family": "eb032301-32-mm",
+    "family": "kunststof-afvoerleidingen__eb032301-32-mm",
     "catalog": "kunststof-afvoerleidingen",
+    "source_pdf": "kunststof-afvoerleidingen.pdf",
     "brand": "Various",
     "category": "EB075301 75 mm",
     "variants": [
       {
         "sku": "EB090301",
         "label": "EB032301 32 mm",
+        "page": 5,
         "page_in_pdf": 5,
         "properties": {
           "type": "plastic_pipe"
@@ -2316,7 +2437,6 @@
       }
     ],
     "images": [
-      "images/kunststof-afvoerleidingen/lijmmof-spie-ral7037__eb032301.webp",
       "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p5__lijmmof-spie-ral7037__EB032301-EB032451__v1.webp"
     ],
     "variant_count": 1,
@@ -2324,21 +2444,23 @@
     "media": [
       {
         "role": "main",
-        "url": "images/kunststof-afvoerleidingen/lijmmof-spie-ral7037__eb032301.webp"
+        "url": "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p5__lijmmof-spie-ral7037__EB032301-EB032451__v1.webp"
       }
     ]
   },
   {
-    "group_id": "kunststof-afvoerleidingen-eb032302-32-mm",
+    "group_id": "kunststof-afvoerleidingen-kunststof-afvoerleidingen-eb032302-32-mm",
     "name": "EB032302 32 mm",
-    "family": "eb032302-32-mm",
+    "family": "kunststof-afvoerleidingen__eb032302-32-mm",
     "catalog": "kunststof-afvoerleidingen",
+    "source_pdf": "kunststof-afvoerleidingen.pdf",
     "brand": "Various",
     "category": "EB075302 75 mm",
     "variants": [
       {
         "sku": "EB090302",
         "label": "EB032302 32 mm",
+        "page": 5,
         "page_in_pdf": 5,
         "properties": {
           "type": "plastic_pipe"
@@ -2349,7 +2471,6 @@
       }
     ],
     "images": [
-      "images/kunststof-afvoerleidingen/lijmmof-spie-ral7037__eb032301.webp",
       "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p5__lijmmof-spie-ral7037__EB032301-EB032451__v1.webp"
     ],
     "variant_count": 1,
@@ -2357,21 +2478,23 @@
     "media": [
       {
         "role": "main",
-        "url": "images/kunststof-afvoerleidingen/lijmmof-spie-ral7037__eb032301.webp"
+        "url": "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p5__lijmmof-spie-ral7037__EB032301-EB032451__v1.webp"
       }
     ]
   },
   {
-    "group_id": "kunststof-afvoerleidingen-50-mm",
+    "group_id": "kunststof-afvoerleidingen-kunststof-afvoerleidingen-50-mm",
     "name": "50 mm",
-    "family": "50-mm",
+    "family": "kunststof-afvoerleidingen__50-mm",
     "catalog": "kunststof-afvoerleidingen",
+    "source_pdf": "kunststof-afvoerleidingen.pdf",
     "brand": "Various",
     "category": "EB090451 90 mm",
     "variants": [
       {
         "sku": "EB100451",
         "label": "50 mm",
+        "page": 5,
         "page_in_pdf": 5,
         "properties": {
           "type": "plastic_pipe"
@@ -2384,6 +2507,7 @@
       {
         "sku": "EB100452",
         "label": "50 mm",
+        "page": 5,
         "page_in_pdf": 5,
         "properties": {
           "type": "plastic_pipe"
@@ -2395,6 +2519,7 @@
       {
         "sku": "EB100901",
         "label": "50 mm",
+        "page": 6,
         "page_in_pdf": 6,
         "properties": {
           "type": "plastic_pipe"
@@ -2407,6 +2532,7 @@
       {
         "sku": "EB100902",
         "label": "50 mm",
+        "page": 6,
         "page_in_pdf": 6,
         "properties": {
           "type": "plastic_pipe"
@@ -2418,6 +2544,7 @@
       {
         "sku": "EK100",
         "label": "50 mm",
+        "page": 8,
         "page_in_pdf": 8,
         "properties": {
           "type": "plastic_pipe"
@@ -2429,6 +2556,7 @@
       {
         "sku": "SS100",
         "label": "50 mm",
+        "page": 18,
         "page_in_pdf": 18,
         "properties": {
           "type": "plastic_pipe"
@@ -2439,35 +2567,33 @@
       }
     ],
     "images": [
-      "images/kunststof-afvoerleidingen/spie-ral7037__afst110.webp",
-      "images/kunststof-afvoerleidingen/lijmmof-ral7037__ek032__img5.webp",
-      "images/kunststof-afvoerleidingen/lijmmof-spie-ral7037__eb032901__img3.webp",
-      "images/kunststof-afvoerleidingen/lijmmof-spie-ral7037__eb032301.webp",
       "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p5__lijmmof-spie-ral7037__EB032301-EB032451__v1.webp",
       "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p6__lijmmof-spie-ral7037__EB032901__v3.webp",
       "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p8__lijmmof-ral7037__EK032__v5.webp",
-      "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p18__spie-ral7037__AFST110-SS032__v1.webp"
+      "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p18__spie-ral7037__AFST110-SS032.webp"
     ],
     "variant_count": 6,
     "default_variant_sku": "EB100451",
     "media": [
       {
         "role": "main",
-        "url": "images/kunststof-afvoerleidingen/spie-ral7037__afst110.webp"
+        "url": "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p5__lijmmof-spie-ral7037__EB032301-EB032451__v1.webp"
       }
     ]
   },
   {
-    "group_id": "kunststof-afvoerleidingen-afvoer-bocht-15",
+    "group_id": "kunststof-afvoerleidingen-kunststof-afvoerleidingen-afvoer-bocht-15",
     "name": "AFVOER BOCHT 15°",
-    "family": "afvoer-bocht-15",
+    "family": "kunststof-afvoerleidingen__afvoer-bocht-15",
     "catalog": "kunststof-afvoerleidingen",
+    "source_pdf": "kunststof-afvoerleidingen.pdf",
     "brand": "Various",
     "category": "MANCHET - SPIE | RAL7037",
     "variants": [
       {
         "sku": "EB110151",
         "label": "AFVOER BOCHT 15°",
+        "page": 11,
         "page_in_pdf": 11,
         "properties": {
           "type": "plastic_pipe"
@@ -2479,6 +2605,7 @@
       {
         "sku": "EB110151",
         "label": "AFVOER BOCHT 15°",
+        "page": 11,
         "page_in_pdf": 11,
         "properties": {
           "type": "plastic_pipe"
@@ -2490,6 +2617,7 @@
       {
         "sku": "EB110152",
         "label": "AFVOER BOCHT 15°",
+        "page": 11,
         "page_in_pdf": 11,
         "properties": {
           "type": "plastic_pipe"
@@ -2501,6 +2629,7 @@
       {
         "sku": "EB125152",
         "label": "AFVOER BOCHT 15°",
+        "page": 11,
         "page_in_pdf": 11,
         "properties": {
           "type": "plastic_pipe"
@@ -2512,6 +2641,7 @@
       {
         "sku": "EB160151",
         "label": "AFVOER BOCHT 15°",
+        "page": 11,
         "page_in_pdf": 11,
         "properties": {
           "type": "plastic_pipe"
@@ -2523,6 +2653,7 @@
       {
         "sku": "EB160152",
         "label": "AFVOER BOCHT 15°",
+        "page": 11,
         "page_in_pdf": 11,
         "properties": {
           "type": "plastic_pipe"
@@ -2534,6 +2665,7 @@
       {
         "sku": "EB200151",
         "label": "AFVOER BOCHT 15°",
+        "page": 11,
         "page_in_pdf": 11,
         "properties": {
           "type": "plastic_pipe"
@@ -2545,6 +2677,7 @@
       {
         "sku": "EB250151",
         "label": "AFVOER BOCHT 15°",
+        "page": 11,
         "page_in_pdf": 11,
         "properties": {
           "type": "plastic_pipe"
@@ -2556,6 +2689,7 @@
       {
         "sku": "EB250152",
         "label": "AFVOER BOCHT 15°",
+        "page": 11,
         "page_in_pdf": 11,
         "properties": {
           "type": "plastic_pipe"
@@ -2567,6 +2701,7 @@
       {
         "sku": "EB315151",
         "label": "AFVOER BOCHT 15°",
+        "page": 11,
         "page_in_pdf": 11,
         "properties": {
           "type": "plastic_pipe"
@@ -2578,6 +2713,7 @@
       {
         "sku": "EB315152",
         "label": "AFVOER BOCHT 15°",
+        "page": 11,
         "page_in_pdf": 11,
         "properties": {
           "type": "plastic_pipe"
@@ -2589,6 +2725,7 @@
       {
         "sku": "EB400151",
         "label": "AFVOER BOCHT 15°",
+        "page": 11,
         "page_in_pdf": 11,
         "properties": {
           "type": "plastic_pipe"
@@ -2600,6 +2737,7 @@
       {
         "sku": "EB400152",
         "label": "AFVOER BOCHT 15°",
+        "page": 11,
         "page_in_pdf": 11,
         "properties": {
           "type": "plastic_pipe"
@@ -2610,29 +2748,30 @@
       }
     ],
     "images": [
-      "images/kunststof-afvoerleidingen/afvoer-bocht-15__eb110151.webp",
-      "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p11__afvoer-bocht-15__EB110151-EB110151-EB110152__v1.webp"
+      "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p11__afvoer-bocht-15__EB110151-EB110151-EB110152__v2.webp"
     ],
     "variant_count": 13,
     "default_variant_sku": "EB110151",
     "media": [
       {
         "role": "main",
-        "url": "images/kunststof-afvoerleidingen/afvoer-bocht-15__eb110151.webp"
+        "url": "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p11__afvoer-bocht-15__EB110151-EB110151-EB110152__v2.webp"
       }
     ]
   },
   {
-    "group_id": "kunststof-afvoerleidingen-afvoer-bocht-30",
+    "group_id": "kunststof-afvoerleidingen-kunststof-afvoerleidingen-afvoer-bocht-30",
     "name": "AFVOER BOCHT 30°",
-    "family": "afvoer-bocht-30",
+    "family": "kunststof-afvoerleidingen__afvoer-bocht-30",
     "catalog": "kunststof-afvoerleidingen",
+    "source_pdf": "kunststof-afvoerleidingen.pdf",
     "brand": "Various",
     "category": "MANCHET - SPIE | RAL7037",
     "variants": [
       {
         "sku": "EB110301",
         "label": "AFVOER BOCHT 30°",
+        "page": 11,
         "page_in_pdf": 11,
         "properties": {
           "type": "plastic_pipe"
@@ -2644,6 +2783,7 @@
       {
         "sku": "EB110302",
         "label": "AFVOER BOCHT 30°",
+        "page": 11,
         "page_in_pdf": 11,
         "properties": {
           "type": "plastic_pipe"
@@ -2655,6 +2795,7 @@
       {
         "sku": "EB125301",
         "label": "AFVOER BOCHT 30°",
+        "page": 11,
         "page_in_pdf": 11,
         "properties": {
           "type": "plastic_pipe"
@@ -2666,6 +2807,7 @@
       {
         "sku": "EB125302",
         "label": "AFVOER BOCHT 30°",
+        "page": 11,
         "page_in_pdf": 11,
         "properties": {
           "type": "plastic_pipe"
@@ -2677,6 +2819,7 @@
       {
         "sku": "EB160301",
         "label": "AFVOER BOCHT 30°",
+        "page": 11,
         "page_in_pdf": 11,
         "properties": {
           "type": "plastic_pipe"
@@ -2688,6 +2831,7 @@
       {
         "sku": "EB160302",
         "label": "AFVOER BOCHT 30°",
+        "page": 11,
         "page_in_pdf": 11,
         "properties": {
           "type": "plastic_pipe"
@@ -2699,6 +2843,7 @@
       {
         "sku": "EB200301",
         "label": "AFVOER BOCHT 30°",
+        "page": 11,
         "page_in_pdf": 11,
         "properties": {
           "type": "plastic_pipe"
@@ -2710,6 +2855,7 @@
       {
         "sku": "EB200302",
         "label": "AFVOER BOCHT 30°",
+        "page": 11,
         "page_in_pdf": 11,
         "properties": {
           "type": "plastic_pipe"
@@ -2721,6 +2867,7 @@
       {
         "sku": "EB250301",
         "label": "AFVOER BOCHT 30°",
+        "page": 11,
         "page_in_pdf": 11,
         "properties": {
           "type": "plastic_pipe"
@@ -2732,6 +2879,7 @@
       {
         "sku": "EB250302",
         "label": "AFVOER BOCHT 30°",
+        "page": 11,
         "page_in_pdf": 11,
         "properties": {
           "type": "plastic_pipe"
@@ -2743,6 +2891,7 @@
       {
         "sku": "EB315301",
         "label": "AFVOER BOCHT 30°",
+        "page": 11,
         "page_in_pdf": 11,
         "properties": {
           "type": "plastic_pipe"
@@ -2754,6 +2903,7 @@
       {
         "sku": "EB315302",
         "label": "AFVOER BOCHT 30°",
+        "page": 11,
         "page_in_pdf": 11,
         "properties": {
           "type": "plastic_pipe"
@@ -2765,6 +2915,7 @@
       {
         "sku": "EB400301",
         "label": "AFVOER BOCHT 30°",
+        "page": 11,
         "page_in_pdf": 11,
         "properties": {
           "type": "plastic_pipe"
@@ -2776,6 +2927,7 @@
       {
         "sku": "EB400302",
         "label": "AFVOER BOCHT 30°",
+        "page": 11,
         "page_in_pdf": 11,
         "properties": {
           "type": "plastic_pipe"
@@ -2786,29 +2938,30 @@
       }
     ],
     "images": [
-      "images/kunststof-afvoerleidingen/afvoer-bocht-30__eb110301.webp",
-      "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p11__afvoer-bocht-30__EB110301-EB110302-EB125301__v1.webp"
+      "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p11__afvoer-bocht-30__EB110301-EB110302-EB125301__v2.webp"
     ],
     "variant_count": 14,
     "default_variant_sku": "EB110301",
     "media": [
       {
         "role": "main",
-        "url": "images/kunststof-afvoerleidingen/afvoer-bocht-30__eb110301.webp"
+        "url": "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p11__afvoer-bocht-30__EB110301-EB110302-EB125301__v2.webp"
       }
     ]
   },
   {
-    "group_id": "kunststof-afvoerleidingen-afvoer-bocht-45",
+    "group_id": "kunststof-afvoerleidingen-kunststof-afvoerleidingen-afvoer-bocht-45",
     "name": "AFVOER BOCHT 45°",
-    "family": "afvoer-bocht-45",
+    "family": "kunststof-afvoerleidingen__afvoer-bocht-45",
     "catalog": "kunststof-afvoerleidingen",
+    "source_pdf": "kunststof-afvoerleidingen.pdf",
     "brand": "Various",
     "category": "MANCHET - SPIE | RAL7037",
     "variants": [
       {
         "sku": "EB110451",
         "label": "AFVOER BOCHT 45°",
+        "page": 12,
         "page_in_pdf": 12,
         "properties": {
           "type": "plastic_pipe"
@@ -2820,6 +2973,7 @@
       {
         "sku": "EB110452",
         "label": "AFVOER BOCHT 45°",
+        "page": 12,
         "page_in_pdf": 12,
         "properties": {
           "type": "plastic_pipe"
@@ -2831,6 +2985,7 @@
       {
         "sku": "EB125451",
         "label": "AFVOER BOCHT 45°",
+        "page": 12,
         "page_in_pdf": 12,
         "properties": {
           "type": "plastic_pipe"
@@ -2842,6 +2997,7 @@
       {
         "sku": "EB160451",
         "label": "AFVOER BOCHT 45°",
+        "page": 12,
         "page_in_pdf": 12,
         "properties": {
           "type": "plastic_pipe"
@@ -2853,6 +3009,7 @@
       {
         "sku": "EB160452",
         "label": "AFVOER BOCHT 45°",
+        "page": 12,
         "page_in_pdf": 12,
         "properties": {
           "type": "plastic_pipe"
@@ -2864,6 +3021,7 @@
       {
         "sku": "EB200451",
         "label": "AFVOER BOCHT 45°",
+        "page": 12,
         "page_in_pdf": 12,
         "properties": {
           "type": "plastic_pipe"
@@ -2875,6 +3033,7 @@
       {
         "sku": "EB200452",
         "label": "AFVOER BOCHT 45°",
+        "page": 12,
         "page_in_pdf": 12,
         "properties": {
           "type": "plastic_pipe"
@@ -2886,6 +3045,7 @@
       {
         "sku": "EB250451",
         "label": "AFVOER BOCHT 45°",
+        "page": 12,
         "page_in_pdf": 12,
         "properties": {
           "type": "plastic_pipe"
@@ -2897,6 +3057,7 @@
       {
         "sku": "EB250452",
         "label": "AFVOER BOCHT 45°",
+        "page": 12,
         "page_in_pdf": 12,
         "properties": {
           "type": "plastic_pipe"
@@ -2908,6 +3069,7 @@
       {
         "sku": "EB315452",
         "label": "AFVOER BOCHT 45°",
+        "page": 12,
         "page_in_pdf": 12,
         "properties": {
           "type": "plastic_pipe"
@@ -2919,6 +3081,7 @@
       {
         "sku": "EB400451",
         "label": "AFVOER BOCHT 45°",
+        "page": 12,
         "page_in_pdf": 12,
         "properties": {
           "type": "plastic_pipe"
@@ -2930,6 +3093,7 @@
       {
         "sku": "EB400452",
         "label": "AFVOER BOCHT 45°",
+        "page": 12,
         "page_in_pdf": 12,
         "properties": {
           "type": "plastic_pipe"
@@ -2941,6 +3105,7 @@
       {
         "sku": "EB500451",
         "label": "AFVOER BOCHT 45°",
+        "page": 12,
         "page_in_pdf": 12,
         "properties": {
           "type": "plastic_pipe"
@@ -2951,29 +3116,30 @@
       }
     ],
     "images": [
-      "images/kunststof-afvoerleidingen/afvoer-bocht-45__eb110451.webp",
-      "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p12__afvoer-bocht-45__EB110451-EB110452-EB125451__v1.webp"
+      "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p12__afvoer-bocht-45__EB110451-EB110452-EB125451__v4.webp"
     ],
     "variant_count": 13,
     "default_variant_sku": "EB110451",
     "media": [
       {
         "role": "main",
-        "url": "images/kunststof-afvoerleidingen/afvoer-bocht-45__eb110451.webp"
+        "url": "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p12__afvoer-bocht-45__EB110451-EB110452-EB125451__v4.webp"
       }
     ]
   },
   {
-    "group_id": "kunststof-afvoerleidingen-afvoer-bocht-90",
+    "group_id": "kunststof-afvoerleidingen-kunststof-afvoerleidingen-afvoer-bocht-90",
     "name": "AFVOER BOCHT 90°",
-    "family": "afvoer-bocht-90",
+    "family": "kunststof-afvoerleidingen__afvoer-bocht-90",
     "catalog": "kunststof-afvoerleidingen",
+    "source_pdf": "kunststof-afvoerleidingen.pdf",
     "brand": "Various",
     "category": "MANCHET - SPIE | RAL7037",
     "variants": [
       {
         "sku": "EB110901",
         "label": "AFVOER BOCHT 90°",
+        "page": 12,
         "page_in_pdf": 12,
         "properties": {
           "type": "plastic_pipe"
@@ -2985,6 +3151,7 @@
       {
         "sku": "EB110902",
         "label": "AFVOER BOCHT 90°",
+        "page": 12,
         "page_in_pdf": 12,
         "properties": {
           "type": "plastic_pipe"
@@ -2996,6 +3163,7 @@
       {
         "sku": "EB125901",
         "label": "AFVOER BOCHT 90°",
+        "page": 12,
         "page_in_pdf": 12,
         "properties": {
           "type": "plastic_pipe"
@@ -3007,6 +3175,7 @@
       {
         "sku": "EB160901",
         "label": "AFVOER BOCHT 90°",
+        "page": 12,
         "page_in_pdf": 12,
         "properties": {
           "type": "plastic_pipe"
@@ -3018,6 +3187,7 @@
       {
         "sku": "EB160902",
         "label": "AFVOER BOCHT 90°",
+        "page": 12,
         "page_in_pdf": 12,
         "properties": {
           "type": "plastic_pipe"
@@ -3029,6 +3199,7 @@
       {
         "sku": "EB200901",
         "label": "AFVOER BOCHT 90°",
+        "page": 12,
         "page_in_pdf": 12,
         "properties": {
           "type": "plastic_pipe"
@@ -3040,6 +3211,7 @@
       {
         "sku": "EB200902",
         "label": "AFVOER BOCHT 90°",
+        "page": 12,
         "page_in_pdf": 12,
         "properties": {
           "type": "plastic_pipe"
@@ -3051,6 +3223,7 @@
       {
         "sku": "EB250901",
         "label": "AFVOER BOCHT 90°",
+        "page": 12,
         "page_in_pdf": 12,
         "properties": {
           "type": "plastic_pipe"
@@ -3062,6 +3235,7 @@
       {
         "sku": "EB250902",
         "label": "AFVOER BOCHT 90°",
+        "page": 12,
         "page_in_pdf": 12,
         "properties": {
           "type": "plastic_pipe"
@@ -3073,6 +3247,7 @@
       {
         "sku": "EB315901",
         "label": "AFVOER BOCHT 90°",
+        "page": 12,
         "page_in_pdf": 12,
         "properties": {
           "type": "plastic_pipe"
@@ -3084,6 +3259,7 @@
       {
         "sku": "EB315902",
         "label": "AFVOER BOCHT 90°",
+        "page": 12,
         "page_in_pdf": 12,
         "properties": {
           "type": "plastic_pipe"
@@ -3095,6 +3271,7 @@
       {
         "sku": "EB400901",
         "label": "AFVOER BOCHT 90°",
+        "page": 12,
         "page_in_pdf": 12,
         "properties": {
           "type": "plastic_pipe"
@@ -3106,6 +3283,7 @@
       {
         "sku": "EB400902",
         "label": "AFVOER BOCHT 90°",
+        "page": 12,
         "page_in_pdf": 12,
         "properties": {
           "type": "plastic_pipe"
@@ -3117,6 +3295,7 @@
       {
         "sku": "EB500902",
         "label": "AFVOER BOCHT 90°",
+        "page": 12,
         "page_in_pdf": 12,
         "properties": {
           "type": "plastic_pipe"
@@ -3127,7 +3306,6 @@
       }
     ],
     "images": [
-      "images/kunststof-afvoerleidingen/afvoer-bocht-45__eb110451.webp",
       "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p12__afvoer-bocht-45__EB110451-EB110452-EB125451__v1.webp"
     ],
     "variant_count": 14,
@@ -3135,21 +3313,23 @@
     "media": [
       {
         "role": "main",
-        "url": "images/kunststof-afvoerleidingen/afvoer-bocht-45__eb110451.webp"
+        "url": "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p12__afvoer-bocht-45__EB110451-EB110452-EB125451__v1.webp"
       }
     ]
   },
   {
-    "group_id": "kunststof-afvoerleidingen-ek032-32-mm",
+    "group_id": "kunststof-afvoerleidingen-kunststof-afvoerleidingen-ek032-32-mm",
     "name": "EK032 32 mm",
-    "family": "ek032-32-mm",
+    "family": "kunststof-afvoerleidingen__ek032-32-mm",
     "catalog": "kunststof-afvoerleidingen",
+    "source_pdf": "kunststof-afvoerleidingen.pdf",
     "brand": "Various",
     "category": "EK075 75 mm",
     "variants": [
       {
         "sku": "EK080",
         "label": "EK032 32 mm",
+        "page": 8,
         "page_in_pdf": 8,
         "properties": {
           "type": "plastic_pipe"
@@ -3160,7 +3340,6 @@
       }
     ],
     "images": [
-      "images/kunststof-afvoerleidingen/lijmmof-ral7037__ek032__img5.webp",
       "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p8__lijmmof-ral7037__EK032__v5.webp"
     ],
     "variant_count": 1,
@@ -3168,21 +3347,23 @@
     "media": [
       {
         "role": "main",
-        "url": "images/kunststof-afvoerleidingen/lijmmof-ral7037__ek032__img5.webp"
+        "url": "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p8__lijmmof-ral7037__EK032__v5.webp"
       }
     ]
   },
   {
-    "group_id": "kunststof-afvoerleidingen-ek110-110-mm",
+    "group_id": "kunststof-afvoerleidingen-kunststof-afvoerleidingen-ek110-110-mm",
     "name": "EK110 110 mm",
-    "family": "ek110-110-mm",
+    "family": "kunststof-afvoerleidingen__ek110-110-mm",
     "catalog": "kunststof-afvoerleidingen",
+    "source_pdf": "kunststof-afvoerleidingen.pdf",
     "brand": "Various",
     "category": "EK200 200 mm",
     "variants": [
       {
         "sku": "EK250",
         "label": "EK110 110 mm",
+        "page": 17,
         "page_in_pdf": 17,
         "properties": {
           "type": "plastic_pipe"
@@ -3194,29 +3375,30 @@
       }
     ],
     "images": [
-      "images/kunststof-afvoerleidingen/lijmmof-ral7037__ek110__img7.webp",
-      "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p17__lijmmof-ral7037__EK110__v7.webp"
+      "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p17__lijmmof-ral7037__EK110__v6.webp"
     ],
     "variant_count": 1,
     "default_variant_sku": "EK250",
     "media": [
       {
         "role": "main",
-        "url": "images/kunststof-afvoerleidingen/lijmmof-ral7037__ek110__img7.webp"
+        "url": "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p17__lijmmof-ral7037__EK110__v6.webp"
       }
     ]
   },
   {
-    "group_id": "kunststof-afvoerleidingen-160-mm",
+    "group_id": "kunststof-afvoerleidingen-kunststof-afvoerleidingen-160-mm",
     "name": "160 mm",
-    "family": "160-mm",
+    "family": "kunststof-afvoerleidingen__160-mm",
     "catalog": "kunststof-afvoerleidingen",
+    "source_pdf": "kunststof-afvoerleidingen.pdf",
     "brand": "Various",
     "category": "EK315 315 mm",
     "variants": [
       {
         "sku": "EK400",
         "label": "160 mm",
+        "page": 17,
         "page_in_pdf": 17,
         "properties": {
           "type": "plastic_pipe"
@@ -3228,29 +3410,30 @@
       }
     ],
     "images": [
-      "images/kunststof-afvoerleidingen/lijmmof-ral7037__ek110__img7.webp",
-      "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p17__lijmmof-ral7037__EK110__v7.webp"
+      "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p17__lijmmof-ral7037__EK110__v6.webp"
     ],
     "variant_count": 1,
     "default_variant_sku": "EK400",
     "media": [
       {
         "role": "main",
-        "url": "images/kunststof-afvoerleidingen/lijmmof-ral7037__ek110__img7.webp"
+        "url": "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p17__lijmmof-ral7037__EK110__v6.webp"
       }
     ]
   },
   {
-    "group_id": "kunststof-afvoerleidingen-ral7037",
+    "group_id": "kunststof-afvoerleidingen-kunststof-afvoerleidingen-ral7037",
     "name": "RAL7037",
-    "family": "ral7037",
+    "family": "kunststof-afvoerleidingen__ral7037",
     "catalog": "kunststof-afvoerleidingen",
+    "source_pdf": "kunststof-afvoerleidingen.pdf",
     "brand": "Various",
     "category": "Bestelnr Maat",
     "variants": [
       {
         "sku": "OB032",
         "label": "RAL7037",
+        "page": 9,
         "page_in_pdf": 9,
         "properties": {
           "type": "plastic_pipe"
@@ -3262,6 +3445,7 @@
       {
         "sku": "YXA0064100",
         "label": "RAL7037",
+        "page": 30,
         "page_in_pdf": 30,
         "properties": {
           "type": "plastic_pipe",
@@ -3274,6 +3458,7 @@
       {
         "sku": "YXA0064400",
         "label": "RAL7037",
+        "page": 30,
         "page_in_pdf": 30,
         "properties": {
           "type": "plastic_pipe"
@@ -3285,6 +3470,7 @@
       {
         "sku": "YXA0064600",
         "label": "RAL7037",
+        "page": 30,
         "page_in_pdf": 30,
         "properties": {
           "type": "plastic_pipe"
@@ -3296,6 +3482,7 @@
       {
         "sku": "YXA0065000",
         "label": "RAL7037",
+        "page": 31,
         "page_in_pdf": 31,
         "properties": {
           "type": "plastic_pipe"
@@ -3307,6 +3494,7 @@
       {
         "sku": "YXA0065200",
         "label": "RAL7037",
+        "page": 31,
         "page_in_pdf": 31,
         "properties": {
           "type": "plastic_pipe"
@@ -3318,6 +3506,7 @@
       {
         "sku": "YXA0065400",
         "label": "RAL7037",
+        "page": 31,
         "page_in_pdf": 31,
         "properties": {
           "type": "plastic_pipe"
@@ -3329,6 +3518,7 @@
       {
         "sku": "YXA0077900",
         "label": "RAL7037",
+        "page": 9,
         "page_in_pdf": 9,
         "properties": {
           "type": "plastic_pipe"
@@ -3340,6 +3530,7 @@
       {
         "sku": "YXA0078300",
         "label": "RAL7037",
+        "page": 19,
         "page_in_pdf": 19,
         "properties": {
           "type": "plastic_pipe"
@@ -3351,6 +3542,7 @@
       {
         "sku": "YXA0079700",
         "label": "RAL7037",
+        "page": 32,
         "page_in_pdf": 32,
         "properties": {
           "type": "plastic_pipe"
@@ -3362,6 +3554,7 @@
       {
         "sku": "YXA0176800",
         "label": "RAL7037",
+        "page": 31,
         "page_in_pdf": 31,
         "properties": {
           "type": "plastic_pipe"
@@ -3372,33 +3565,30 @@
       }
     ],
     "images": [
-      "images/kunststof-afvoerleidingen/ral7037__yxa0079700__img12.webp",
-      "images/kunststof-afvoerleidingen/lijmmof__cal753505.webp",
-      "images/kunststof-afvoerleidingen/ral7037__yxa0065000__img8.webp",
-      "images/kunststof-afvoerleidingen/ral7037__yxa0064100__img5.webp",
-      "images/kunststof-afvoerleidingen/ral7037__ob032.webp",
-      "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p9__ral7037__OB032-YXA0077900__v1.webp"
+      "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p32__ral7037__YXA0079700__v12.webp"
     ],
     "variant_count": 11,
     "default_variant_sku": "OB032",
     "media": [
       {
         "role": "main",
-        "url": "images/kunststof-afvoerleidingen/ral7037__yxa0079700__img12.webp"
+        "url": "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p32__ral7037__YXA0079700__v12.webp"
       }
     ]
   },
   {
-    "group_id": "kunststof-afvoerleidingen-ss032-32-mm",
+    "group_id": "kunststof-afvoerleidingen-kunststof-afvoerleidingen-ss032-32-mm",
     "name": "SS032 32 mm",
-    "family": "ss032-32-mm",
+    "family": "kunststof-afvoerleidingen__ss032-32-mm",
     "catalog": "kunststof-afvoerleidingen",
+    "source_pdf": "kunststof-afvoerleidingen.pdf",
     "brand": "Various",
     "category": "SS075 75 mm",
     "variants": [
       {
         "sku": "SS080",
         "label": "SS032 32 mm",
+        "page": 18,
         "page_in_pdf": 18,
         "properties": {
           "type": "plastic_pipe"
@@ -3409,29 +3599,30 @@
       }
     ],
     "images": [
-      "images/kunststof-afvoerleidingen/spie-ral7037__afst110.webp",
-      "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p18__spie-ral7037__AFST110-SS032__v1.webp"
+      "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p18__spie-ral7037__AFST110-SS032.webp"
     ],
     "variant_count": 1,
     "default_variant_sku": "SS080",
     "media": [
       {
         "role": "main",
-        "url": "images/kunststof-afvoerleidingen/spie-ral7037__afst110.webp"
+        "url": "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p18__spie-ral7037__AFST110-SS032.webp"
       }
     ]
   },
   {
-    "group_id": "kunststof-afvoerleidingen-ss080-80-mm",
+    "group_id": "kunststof-afvoerleidingen-kunststof-afvoerleidingen-ss080-80-mm",
     "name": "SS080 80 mm",
-    "family": "ss080-80-mm",
+    "family": "kunststof-afvoerleidingen__ss080-80-mm",
     "catalog": "kunststof-afvoerleidingen",
+    "source_pdf": "kunststof-afvoerleidingen.pdf",
     "brand": "Various",
     "category": "SS110",
     "variants": [
       {
         "sku": "SS125",
         "label": "SS080 80 mm",
+        "page": 18,
         "page_in_pdf": 18,
         "properties": {
           "type": "plastic_pipe"
@@ -3442,29 +3633,30 @@
       }
     ],
     "images": [
-      "images/kunststof-afvoerleidingen/spie-ral7037__afst110.webp",
-      "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p18__spie-ral7037__AFST110-SS032__v1.webp"
+      "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p18__spie-ral7037__AFST110-SS032.webp"
     ],
     "variant_count": 1,
     "default_variant_sku": "SS125",
     "media": [
       {
         "role": "main",
-        "url": "images/kunststof-afvoerleidingen/spie-ral7037__afst110.webp"
+        "url": "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p18__spie-ral7037__AFST110-SS032.webp"
       }
     ]
   },
   {
-    "group_id": "kunststof-afvoerleidingen-100-mm",
+    "group_id": "kunststof-afvoerleidingen-kunststof-afvoerleidingen-100-mm",
     "name": "100 mm",
-    "family": "100-mm",
+    "family": "kunststof-afvoerleidingen__100-mm",
     "catalog": "kunststof-afvoerleidingen",
+    "source_pdf": "kunststof-afvoerleidingen.pdf",
     "brand": "Various",
     "category": "SS160 160 mm",
     "variants": [
       {
         "sku": "SS200",
         "label": "100 mm",
+        "page": 18,
         "page_in_pdf": 18,
         "properties": {
           "type": "plastic_pipe"
@@ -3475,29 +3667,30 @@
       }
     ],
     "images": [
-      "images/kunststof-afvoerleidingen/spie-ral7037__afst110.webp",
-      "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p18__spie-ral7037__AFST110-SS032__v1.webp"
+      "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p18__spie-ral7037__AFST110-SS032.webp"
     ],
     "variant_count": 1,
     "default_variant_sku": "SS200",
     "media": [
       {
         "role": "main",
-        "url": "images/kunststof-afvoerleidingen/spie-ral7037__afst110.webp"
+        "url": "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p18__spie-ral7037__AFST110-SS032.webp"
       }
     ]
   },
   {
-    "group_id": "kunststof-afvoerleidingen-ss125-125-mm",
+    "group_id": "kunststof-afvoerleidingen-kunststof-afvoerleidingen-ss125-125-mm",
     "name": "SS125 125 mm",
-    "family": "ss125-125-mm",
+    "family": "kunststof-afvoerleidingen__ss125-125-mm",
     "catalog": "kunststof-afvoerleidingen",
+    "source_pdf": "kunststof-afvoerleidingen.pdf",
     "brand": "Various",
     "category": "SS250",
     "variants": [
       {
         "sku": "SS315",
         "label": "SS125 125 mm",
+        "page": 18,
         "page_in_pdf": 18,
         "properties": {
           "type": "plastic_pipe"
@@ -3508,29 +3701,30 @@
       }
     ],
     "images": [
-      "images/kunststof-afvoerleidingen/spie-ral7037__afst110.webp",
-      "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p18__spie-ral7037__AFST110-SS032__v1.webp"
+      "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p18__spie-ral7037__AFST110-SS032.webp"
     ],
     "variant_count": 1,
     "default_variant_sku": "SS315",
     "media": [
       {
         "role": "main",
-        "url": "images/kunststof-afvoerleidingen/spie-ral7037__afst110.webp"
+        "url": "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p18__spie-ral7037__AFST110-SS032.webp"
       }
     ]
   },
   {
-    "group_id": "kunststof-afvoerleidingen-dakgoot",
+    "group_id": "kunststof-afvoerleidingen-kunststof-afvoerleidingen-dakgoot",
     "name": "DAKGOOT",
-    "family": "dakgoot",
+    "family": "kunststof-afvoerleidingen__dakgoot",
     "catalog": "kunststof-afvoerleidingen",
+    "source_pdf": "kunststof-afvoerleidingen.pdf",
     "brand": "Various",
     "category": "LICHTGRIJS",
     "variants": [
       {
         "sku": "YXA0034500",
         "label": "DAKGOOT",
+        "page": 24,
         "page_in_pdf": 24,
         "properties": {
           "type": "plastic_pipe",
@@ -3543,6 +3737,7 @@
       {
         "sku": "YXA0034550",
         "label": "DAKGOOT",
+        "page": 24,
         "page_in_pdf": 24,
         "properties": {
           "type": "plastic_pipe",
@@ -3555,6 +3750,7 @@
       {
         "sku": "YXA0034600",
         "label": "DAKGOOT",
+        "page": 24,
         "page_in_pdf": 24,
         "properties": {
           "type": "plastic_pipe",
@@ -3567,6 +3763,7 @@
       {
         "sku": "YXA0034700",
         "label": "DAKGOOT",
+        "page": 24,
         "page_in_pdf": 24,
         "properties": {
           "type": "plastic_pipe",
@@ -3579,6 +3776,7 @@
       {
         "sku": "YXA0035000",
         "label": "DAKGOOT",
+        "page": 24,
         "page_in_pdf": 24,
         "properties": {
           "type": "plastic_pipe",
@@ -3590,29 +3788,30 @@
       }
     ],
     "images": [
-      "images/kunststof-afvoerleidingen/lichtgrijs__yxa0036300.webp",
-      "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p24__lichtgrijs__YXA0036300-YXA0037000__v1.webp"
+      "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p24__lichtgrijs__YXA0036300-YXA0037000.webp"
     ],
     "variant_count": 5,
     "default_variant_sku": "YXA0034500",
     "media": [
       {
         "role": "main",
-        "url": "images/kunststof-afvoerleidingen/lichtgrijs__yxa0036300.webp"
+        "url": "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p24__lichtgrijs__YXA0036300-YXA0037000.webp"
       }
     ]
   },
   {
-    "group_id": "kunststof-afvoerleidingen-regenwater-afvoer-buis",
+    "group_id": "kunststof-afvoerleidingen-kunststof-afvoerleidingen-regenwater-afvoer-buis",
     "name": "REGENWATER AFVOER BUIS",
-    "family": "regenwater-afvoer-buis",
+    "family": "kunststof-afvoerleidingen__regenwater-afvoer-buis",
     "catalog": "kunststof-afvoerleidingen",
+    "source_pdf": "kunststof-afvoerleidingen.pdf",
     "brand": "Various",
     "category": "LIJMMOF - SPIE | LICHTGRIJS",
     "variants": [
       {
         "sku": "YXA0035100",
         "label": "REGENWATER AFVOER BUIS",
+        "page": 28,
         "page_in_pdf": 28,
         "properties": {
           "type": "plastic_pipe",
@@ -3626,6 +3825,7 @@
       {
         "sku": "YXA0035200",
         "label": "REGENWATER AFVOER BUIS",
+        "page": 28,
         "page_in_pdf": 28,
         "properties": {
           "type": "plastic_pipe",
@@ -3639,6 +3839,7 @@
       {
         "sku": "YXA0035300",
         "label": "REGENWATER AFVOER BUIS",
+        "page": 28,
         "page_in_pdf": 28,
         "properties": {
           "type": "plastic_pipe",
@@ -3652,6 +3853,7 @@
       {
         "sku": "YXA0035400",
         "label": "REGENWATER AFVOER BUIS",
+        "page": 28,
         "page_in_pdf": 28,
         "properties": {
           "type": "plastic_pipe",
@@ -3665,6 +3867,7 @@
       {
         "sku": "YXA0035500",
         "label": "REGENWATER AFVOER BUIS",
+        "page": 28,
         "page_in_pdf": 28,
         "properties": {
           "type": "plastic_pipe",
@@ -3678,6 +3881,7 @@
       {
         "sku": "YXA0035600",
         "label": "REGENWATER AFVOER BUIS",
+        "page": 28,
         "page_in_pdf": 28,
         "properties": {
           "type": "plastic_pipe",
@@ -3690,29 +3894,30 @@
       }
     ],
     "images": [
-      "images/kunststof-afvoerleidingen/regenwater-afvoer-buis__yxa0035100.webp",
-      "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p28__regenwater-afvoer-buis__YXA0035100-YXA0035200-YXA0035300__v1.webp"
+      "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p28__regenwater-afvoer-buis__YXA0035100-YXA0035200-YXA0035300.webp"
     ],
     "variant_count": 6,
     "default_variant_sku": "YXA0035100",
     "media": [
       {
         "role": "main",
-        "url": "images/kunststof-afvoerleidingen/regenwater-afvoer-buis__yxa0035100.webp"
+        "url": "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p28__regenwater-afvoer-buis__YXA0035100-YXA0035200-YXA0035300.webp"
       }
     ]
   },
   {
-    "group_id": "kunststof-afvoerleidingen-gootnet",
+    "group_id": "kunststof-afvoerleidingen-kunststof-afvoerleidingen-gootnet",
     "name": "GOOTNET",
-    "family": "gootnet",
+    "family": "kunststof-afvoerleidingen__gootnet",
     "catalog": "kunststof-afvoerleidingen",
+    "source_pdf": "kunststof-afvoerleidingen.pdf",
     "brand": "Various",
     "category": "GRIJS",
     "variants": [
       {
         "sku": "YXA0035700",
         "label": "GOOTNET",
+        "page": 27,
         "page_in_pdf": 27,
         "properties": {
           "type": "plastic_pipe",
@@ -3724,29 +3929,30 @@
       }
     ],
     "images": [
-      "images/kunststof-afvoerleidingen/gootnet__yxa0035700.webp",
-      "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p27__gootnet__YXA0035700__v1.webp"
+      "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p27__gootnet__YXA0035700__v2.webp"
     ],
     "variant_count": 1,
     "default_variant_sku": "YXA0035700",
     "media": [
       {
         "role": "main",
-        "url": "images/kunststof-afvoerleidingen/gootnet__yxa0035700.webp"
+        "url": "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p27__gootnet__YXA0035700__v2.webp"
       }
     ]
   },
   {
-    "group_id": "kunststof-afvoerleidingen-lichtgrijs",
+    "group_id": "kunststof-afvoerleidingen-kunststof-afvoerleidingen-lichtgrijs",
     "name": "LICHTGRIJS",
-    "family": "lichtgrijs",
+    "family": "kunststof-afvoerleidingen__lichtgrijs",
     "catalog": "kunststof-afvoerleidingen",
+    "source_pdf": "kunststof-afvoerleidingen.pdf",
     "brand": "Various",
     "category": "Bestelnr Maat",
     "variants": [
       {
         "sku": "YXA0035800",
         "label": "LICHTGRIJS",
+        "page": 26,
         "page_in_pdf": 26,
         "properties": {
           "type": "plastic_pipe"
@@ -3758,6 +3964,7 @@
       {
         "sku": "YXA0036300",
         "label": "LICHTGRIJS",
+        "page": 24,
         "page_in_pdf": 24,
         "properties": {
           "type": "plastic_pipe"
@@ -3769,6 +3976,7 @@
       {
         "sku": "YXA0036800",
         "label": "LICHTGRIJS",
+        "page": 25,
         "page_in_pdf": 25,
         "properties": {
           "type": "plastic_pipe"
@@ -3780,6 +3988,7 @@
       {
         "sku": "YXA0037000",
         "label": "LICHTGRIJS",
+        "page": 24,
         "page_in_pdf": 24,
         "properties": {
           "type": "plastic_pipe"
@@ -3791,6 +4000,7 @@
       {
         "sku": "YXA0037300",
         "label": "LICHTGRIJS",
+        "page": 25,
         "page_in_pdf": 25,
         "properties": {
           "type": "plastic_pipe"
@@ -3802,6 +4012,7 @@
       {
         "sku": "YXA0037600",
         "label": "LICHTGRIJS",
+        "page": 25,
         "page_in_pdf": 25,
         "properties": {
           "type": "plastic_pipe"
@@ -3813,6 +4024,7 @@
       {
         "sku": "YXA0038425",
         "label": "LICHTGRIJS",
+        "page": 25,
         "page_in_pdf": 25,
         "properties": {
           "type": "plastic_pipe"
@@ -3824,6 +4036,7 @@
       {
         "sku": "YXA0038800",
         "label": "LICHTGRIJS",
+        "page": 28,
         "page_in_pdf": 28,
         "properties": {
           "type": "plastic_pipe"
@@ -3836,6 +4049,7 @@
       {
         "sku": "YXA0039000",
         "label": "LICHTGRIJS",
+        "page": 28,
         "page_in_pdf": 28,
         "properties": {
           "type": "plastic_pipe"
@@ -3847,6 +4061,7 @@
       {
         "sku": "YXA0039600",
         "label": "LICHTGRIJS",
+        "page": 29,
         "page_in_pdf": 29,
         "properties": {
           "type": "plastic_pipe"
@@ -3858,6 +4073,7 @@
       {
         "sku": "YXA0039700",
         "label": "LICHTGRIJS",
+        "page": 29,
         "page_in_pdf": 29,
         "properties": {
           "type": "plastic_pipe"
@@ -3869,6 +4085,7 @@
       {
         "sku": "YXA0040200",
         "label": "LICHTGRIJS",
+        "page": 28,
         "page_in_pdf": 28,
         "properties": {
           "type": "plastic_pipe"
@@ -3880,6 +4097,7 @@
       {
         "sku": "YXA0040800",
         "label": "LICHTGRIJS",
+        "page": 26,
         "page_in_pdf": 26,
         "properties": {
           "type": "plastic_pipe"
@@ -3891,6 +4109,7 @@
       {
         "sku": "YXA0062500",
         "label": "LICHTGRIJS",
+        "page": 26,
         "page_in_pdf": 26,
         "properties": {
           "type": "plastic_pipe"
@@ -3902,6 +4121,7 @@
       {
         "sku": "YXA0062600",
         "label": "LICHTGRIJS",
+        "page": 26,
         "page_in_pdf": 26,
         "properties": {
           "type": "plastic_pipe"
@@ -3913,6 +4133,7 @@
       {
         "sku": "YXA0078600",
         "label": "LICHTGRIJS",
+        "page": 29,
         "page_in_pdf": 29,
         "properties": {
           "type": "plastic_pipe"
@@ -3924,6 +4145,7 @@
       {
         "sku": "YXA0078700",
         "label": "LICHTGRIJS",
+        "page": 29,
         "page_in_pdf": 29,
         "properties": {
           "type": "plastic_pipe"
@@ -3934,32 +4156,30 @@
       }
     ],
     "images": [
-      "images/kunststof-afvoerleidingen/lichtgrijs__yxa0039600__img7.webp",
-      "images/kunststof-afvoerleidingen/lichtgrijs__yxa0036800__img3.webp",
-      "images/kunststof-afvoerleidingen/lichtgrijs__yxa0036300.webp",
-      "images/kunststof-afvoerleidingen/lichtgrijs__yxa0035800__img5.webp",
-      "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p24__lichtgrijs__YXA0036300-YXA0037000__v1.webp"
+      "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p25__lichtgrijs__YXA0036800-YXA0037300-YXA0037600__v2.webp"
     ],
     "variant_count": 17,
     "default_variant_sku": "YXA0035800",
     "media": [
       {
         "role": "main",
-        "url": "images/kunststof-afvoerleidingen/lichtgrijs__yxa0039600__img7.webp"
+        "url": "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p25__lichtgrijs__YXA0036800-YXA0037300-YXA0037600__v2.webp"
       }
     ]
   },
   {
-    "group_id": "kunststof-afvoerleidingen-pvc",
+    "group_id": "kunststof-afvoerleidingen-kunststof-afvoerleidingen-pvc",
     "name": "PVC",
-    "family": "pvc",
+    "family": "kunststof-afvoerleidingen__pvc",
     "catalog": "kunststof-afvoerleidingen",
+    "source_pdf": "kunststof-afvoerleidingen.pdf",
     "brand": "Various",
     "category": "Bestelnr Maat",
     "variants": [
       {
         "sku": "YXA0063800",
         "label": "PVC",
+        "page": 27,
         "page_in_pdf": 27,
         "properties": {
           "type": "plastic_pipe"
@@ -3970,7 +4190,6 @@
       }
     ],
     "images": [
-      "images/kunststof-afvoerleidingen/gootnet__yxa0035700.webp",
       "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p27__gootnet__YXA0035700__v1.webp"
     ],
     "variant_count": 1,
@@ -3978,7 +4197,7 @@
     "media": [
       {
         "role": "main",
-        "url": "images/kunststof-afvoerleidingen/gootnet__yxa0035700.webp"
+        "url": "images/kunststof-afvoerleidingen/kunststof-afvoerleidingen__p27__gootnet__YXA0035700__v1.webp"
       }
     ]
   }

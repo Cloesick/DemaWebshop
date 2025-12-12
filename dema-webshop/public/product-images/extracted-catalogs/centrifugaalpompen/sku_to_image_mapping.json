@@ -1,12 +1,12 @@
 {
   "catalog": "centrifugaalpompen",
-  "generated": "2025-11-30T20:01:57.596304",
+  "generated": "2025-12-06T22:29:22.154881",
   "total_skus": 3,
-  "total_images": 40,
+  "total_images": 43,
   "mapping": {
     "5-120": [
       {
-        "filename": "5-120_p011_i01.webp",
+        "filename": "5-120_p011_i00.webp",
         "page": 11,
         "all_skus": [
           "5-120"
@@ -24,7 +24,7 @@
     ],
     "el\n50": [
       {
-        "filename": "el\n50_p029_i04.webp",
+        "filename": "el\n50_p029_i01.webp",
         "page": 29,
         "all_skus": [
           "el\n50"

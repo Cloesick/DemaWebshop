@@ -1,15 +1,17 @@
 [
   {
-    "group_id": "bronpompen-beregening-huishoudelijk-industrieel",
+    "group_id": "bronpompen-bronpompen-beregening-huishoudelijk-industrieel",
     "name": "beregening, huishoudelijk, industrieel",
-    "family": "beregening-huishoudelijk-industrieel",
+    "family": "bronpompen__beregening-huishoudelijk-industrieel",
     "catalog": "bronpompen",
+    "source_pdf": "bronpompen.pdf",
     "brand": "Various",
     "category": "VARIATIES",
     "variants": [
       {
         "sku": "03730221",
         "label": "beregening, huishoudelijk, industrieel",
+        "page": 4,
         "page_in_pdf": 4,
         "properties": {
           "type": "WELL D 75",
@@ -27,6 +29,7 @@
       {
         "sku": "03730313",
         "label": "beregening, huishoudelijk, industrieel",
+        "page": 4,
         "page_in_pdf": 4,
         "properties": {
           "type": "WELL D 100",
@@ -45,6 +48,7 @@
       {
         "sku": "03730319",
         "label": "beregening, huishoudelijk, industrieel",
+        "page": 4,
         "page_in_pdf": 4,
         "properties": {
           "type": "WELL D 150",
@@ -61,29 +65,30 @@
       }
     ],
     "images": [
-      "images/dompelpompen/landbouw__03730004.webp",
-      "images/dompelpompen/dompelpompen__p15__huishoudelijk__X0352004__v28.webp"
+      "images/bronpompen/bronpompen__p4__schakelkast-voor-monofasige__03730315.webp"
     ],
     "variant_count": 3,
     "default_variant_sku": "03730221",
     "media": [
       {
         "role": "main",
-        "url": "images/dompelpompen/landbouw__03730004.webp"
+        "url": "images/bronpompen/bronpompen__p4__schakelkast-voor-monofasige__03730315.webp"
       }
     ]
   },
   {
-    "group_id": "bronpompen-schakelkast-voor-monofasige",
+    "group_id": "bronpompen-bronpompen-schakelkast-voor-monofasige",
     "name": "schakelkast voor monofasige",
-    "family": "schakelkast-voor-monofasige",
+    "family": "bronpompen__schakelkast-voor-monofasige",
     "catalog": "bronpompen",
+    "source_pdf": "bronpompen.pdf",
     "brand": "Various",
     "category": "VARIATIES",
     "variants": [
       {
         "sku": "03730315",
         "label": "schakelkast voor monofasige",
+        "page": 4,
         "page_in_pdf": 4,
         "properties": {
           "type": "well_pump",
@@ -98,6 +103,7 @@
       {
         "sku": "MATPCM1050",
         "label": "schakelkast voor monofasige",
+        "page": 7,
         "page_in_pdf": 7,
         "properties": {
           "type": "PCM 1/0.5"
@@ -111,6 +117,7 @@
       {
         "sku": "MATPCM1075",
         "label": "schakelkast voor monofasige",
+        "page": 7,
         "page_in_pdf": 7,
         "properties": {
           "type": "PCM 1/0.75",
@@ -125,6 +132,7 @@
       {
         "sku": "MATPCM1100",
         "label": "schakelkast voor monofasige",
+        "page": 7,
         "page_in_pdf": 7,
         "properties": {
           "type": "PCM 1/1"
@@ -138,6 +146,7 @@
       {
         "sku": "MATPCM1150",
         "label": "schakelkast voor monofasige",
+        "page": 7,
         "page_in_pdf": 7,
         "properties": {
           "type": "PCM 1/1.5",
@@ -152,6 +161,7 @@
       {
         "sku": "MATPCM1200",
         "label": "schakelkast voor monofasige",
+        "page": 7,
         "page_in_pdf": 7,
         "properties": {
           "type": "PCM 1/2"
@@ -165,6 +175,7 @@
       {
         "sku": "MATPCM1300",
         "label": "schakelkast voor monofasige",
+        "page": 7,
         "page_in_pdf": 7,
         "properties": {
           "type": "PCM 1/3",
@@ -178,30 +189,30 @@
       }
     ],
     "images": [
-      "images/bronpompen/bronpompen__p7__4-bronpompen__img2.webp",
-      "images/bronpompen/schakelkast-voor-monofasige__03730315.webp",
-      "images/bronpompen/bronpompen__p4__schakelkast-voor-monofasige__03730315.webp"
+      "images/bronpompen/bronpompen__p7__schakelkast-voor-monofasige__MATPCM1050-MATPCM1075-MATPCM1100__v2.webp"
     ],
     "variant_count": 7,
     "default_variant_sku": "03730315",
     "media": [
       {
         "role": "main",
-        "url": "images/bronpompen/bronpompen__p7__4-bronpompen__img2.webp"
+        "url": "images/bronpompen/bronpompen__p7__schakelkast-voor-monofasige__MATPCM1050-MATPCM1075-MATPCM1100__v2.webp"
       }
     ]
   },
   {
-    "group_id": "bronpompen-industri-le-toepassingen-grondwater",
+    "group_id": "bronpompen-bronpompen-industriele-toepassingen-grondwater",
     "name": "industriële toepassingen, grondwater",
-    "family": "industri-le-toepassingen-grondwater",
+    "family": "bronpompen__industriele-toepassingen-grondwater",
     "catalog": "bronpompen",
+    "source_pdf": "bronpompen.pdf",
     "brand": "Various",
     "category": "VARIATIES",
     "variants": [
       {
         "sku": "07060061",
         "label": "industriële toepassingen, grondwater",
+        "page": 12,
         "page_in_pdf": 12,
         "properties": {
           "type": "SP 5A-12",
@@ -223,6 +234,7 @@
       {
         "sku": "07060510",
         "label": "industriële toepassingen, grondwater",
+        "page": 20,
         "page_in_pdf": 20,
         "properties": {
           "type": "SP 17-6",
@@ -244,6 +256,7 @@
       {
         "sku": "07060542",
         "label": "industriële toepassingen, grondwater",
+        "page": 10,
         "page_in_pdf": 10,
         "properties": {
           "type": "SP 3A-15",
@@ -265,6 +278,7 @@
       {
         "sku": "07060574",
         "label": "industriële toepassingen, grondwater",
+        "page": 20,
         "page_in_pdf": 20,
         "properties": {
           "type": "SP 17- 5",
@@ -286,6 +300,7 @@
       {
         "sku": "07060922",
         "label": "industriële toepassingen, grondwater",
+        "page": 8,
         "page_in_pdf": 8,
         "properties": {
           "type": "SP 2A-23",
@@ -307,6 +322,7 @@
       {
         "sku": "07060975",
         "label": "industriële toepassingen, grondwater",
+        "page": 8,
         "page_in_pdf": 8,
         "properties": {
           "type": "SP 2A-9",
@@ -328,6 +344,7 @@
       {
         "sku": "07061017",
         "label": "industriële toepassingen, grondwater",
+        "page": 20,
         "page_in_pdf": 20,
         "properties": {
           "type": "SP 17- 3",
@@ -349,6 +366,7 @@
       {
         "sku": "07061133",
         "label": "industriële toepassingen, grondwater",
+        "page": 18,
         "page_in_pdf": 18,
         "properties": {
           "type": "SP11-11",
@@ -369,6 +387,7 @@
       {
         "sku": "07061185",
         "label": "industriële toepassingen, grondwater",
+        "page": 8,
         "page_in_pdf": 8,
         "properties": {
           "type": "SP 2A-9",
@@ -390,6 +409,7 @@
       {
         "sku": "07061187",
         "label": "industriële toepassingen, grondwater",
+        "page": 8,
         "page_in_pdf": 8,
         "properties": {
           "type": "SP 2A-18",
@@ -411,6 +431,7 @@
       {
         "sku": "07061189",
         "label": "industriële toepassingen, grondwater",
+        "page": 8,
         "page_in_pdf": 8,
         "properties": {
           "type": "SP 2A-28",
@@ -432,6 +453,7 @@
       {
         "sku": "07061191",
         "label": "industriële toepassingen, grondwater",
+        "page": 8,
         "page_in_pdf": 8,
         "properties": {
           "type": "SP 2A-40",
@@ -453,6 +475,7 @@
       {
         "sku": "07061193",
         "label": "industriële toepassingen, grondwater",
+        "page": 8,
         "page_in_pdf": 8,
         "properties": {
           "type": "SP 2A-6",
@@ -474,6 +497,7 @@
       {
         "sku": "07061194",
         "label": "industriële toepassingen, grondwater",
+        "page": 8,
         "page_in_pdf": 8,
         "properties": {
           "type": "SP 2A-13",
@@ -495,6 +519,7 @@
       {
         "sku": "07061195",
         "label": "industriële toepassingen, grondwater",
+        "page": 8,
         "page_in_pdf": 8,
         "properties": {
           "type": "SP 2A-18",
@@ -516,6 +541,7 @@
       {
         "sku": "07061198",
         "label": "industriële toepassingen, grondwater",
+        "page": 8,
         "page_in_pdf": 8,
         "properties": {
           "type": "SP 2A-28",
@@ -537,6 +563,7 @@
       {
         "sku": "07061200",
         "label": "industriële toepassingen, grondwater",
+        "page": 8,
         "page_in_pdf": 8,
         "properties": {
           "type": "SP 2A-33",
@@ -558,6 +585,7 @@
       {
         "sku": "07061214",
         "label": "industriële toepassingen, grondwater",
+        "page": 10,
         "page_in_pdf": 10,
         "properties": {
           "type": "SP 3A-9",
@@ -579,6 +607,7 @@
       {
         "sku": "07061216",
         "label": "industriële toepassingen, grondwater",
+        "page": 10,
         "page_in_pdf": 10,
         "properties": {
           "type": "SP 3A-15",
@@ -600,6 +629,7 @@
       {
         "sku": "07061218",
         "label": "industriële toepassingen, grondwater",
+        "page": 10,
         "page_in_pdf": 10,
         "properties": {
           "type": "SP 3A-22",
@@ -621,6 +651,7 @@
       {
         "sku": "07061220",
         "label": "industriële toepassingen, grondwater",
+        "page": 10,
         "page_in_pdf": 10,
         "properties": {
           "type": "SP 3A-29",
@@ -642,6 +673,7 @@
       {
         "sku": "07061222",
         "label": "industriële toepassingen, grondwater",
+        "page": 10,
         "page_in_pdf": 10,
         "properties": {
           "type": "SP 3A-6",
@@ -663,6 +695,7 @@
       {
         "sku": "07061224",
         "label": "industriële toepassingen, grondwater",
+        "page": 10,
         "page_in_pdf": 10,
         "properties": {
           "type": "SP 3A-9",
@@ -684,6 +717,7 @@
       {
         "sku": "07061227",
         "label": "industriële toepassingen, grondwater",
+        "page": 10,
         "page_in_pdf": 10,
         "properties": {
           "type": "SP 3A-12",
@@ -705,6 +739,7 @@
       {
         "sku": "07061230",
         "label": "industriële toepassingen, grondwater",
+        "page": 10,
         "page_in_pdf": 10,
         "properties": {
           "type": "SP 3A-18",
@@ -726,6 +761,7 @@
       {
         "sku": "07061232",
         "label": "industriële toepassingen, grondwater",
+        "page": 10,
         "page_in_pdf": 10,
         "properties": {
           "type": "SP 3A-22",
@@ -747,6 +783,7 @@
       {
         "sku": "07061233",
         "label": "industriële toepassingen, grondwater",
+        "page": 10,
         "page_in_pdf": 10,
         "properties": {
           "type": "SP 3A-25",
@@ -768,6 +805,7 @@
       {
         "sku": "07061235",
         "label": "industriële toepassingen, grondwater",
+        "page": 10,
         "page_in_pdf": 10,
         "properties": {
           "type": "SP 3A-29",
@@ -789,6 +827,7 @@
       {
         "sku": "07061247",
         "label": "industriële toepassingen, grondwater",
+        "page": 12,
         "page_in_pdf": 12,
         "properties": {
           "type": "SP 5A-6",
@@ -810,6 +849,7 @@
       {
         "sku": "07061249",
         "label": "industriële toepassingen, grondwater",
+        "page": 12,
         "page_in_pdf": 12,
         "properties": {
           "type": "SP 5A-12",
@@ -831,6 +871,7 @@
       {
         "sku": "07061251",
         "label": "industriële toepassingen, grondwater",
+        "page": 12,
         "page_in_pdf": 12,
         "properties": {
           "type": "SP 5A-21",
@@ -852,6 +893,7 @@
       {
         "sku": "07061255",
         "label": "industriële toepassingen, grondwater",
+        "page": 12,
         "page_in_pdf": 12,
         "properties": {
           "type": "SP 5A-4",
@@ -873,6 +915,7 @@
       {
         "sku": "07061257",
         "label": "industriële toepassingen, grondwater",
+        "page": 12,
         "page_in_pdf": 12,
         "properties": {
           "type": "SP 5A-6",
@@ -894,6 +937,7 @@
       {
         "sku": "07061259",
         "label": "industriële toepassingen, grondwater",
+        "page": 12,
         "page_in_pdf": 12,
         "properties": {
           "type": "SP 5A-8",
@@ -915,6 +959,7 @@
       {
         "sku": "07061260",
         "label": "industriële toepassingen, grondwater",
+        "page": 12,
         "page_in_pdf": 12,
         "properties": {
           "type": "SP 5A-17",
@@ -936,6 +981,7 @@
       {
         "sku": "07061262",
         "label": "industriële toepassingen, grondwater",
+        "page": 12,
         "page_in_pdf": 12,
         "properties": {
           "type": "SP 5A-21",
@@ -957,6 +1003,7 @@
       {
         "sku": "07061263",
         "label": "industriële toepassingen, grondwater",
+        "page": 12,
         "page_in_pdf": 12,
         "properties": {
           "type": "SP 5A-25",
@@ -978,6 +1025,7 @@
       {
         "sku": "07061265",
         "label": "industriële toepassingen, grondwater",
+        "page": 12,
         "page_in_pdf": 12,
         "properties": {
           "type": "SP 5A-33",
@@ -999,6 +1047,7 @@
       {
         "sku": "07061267",
         "label": "industriële toepassingen, grondwater",
+        "page": 12,
         "page_in_pdf": 12,
         "properties": {
           "type": "SP 5A-38",
@@ -1020,6 +1069,7 @@
       {
         "sku": "07061269",
         "label": "industriële toepassingen, grondwater",
+        "page": 12,
         "page_in_pdf": 12,
         "properties": {
           "type": "SP 5A-44",
@@ -1041,6 +1091,7 @@
       {
         "sku": "07061271",
         "label": "industriële toepassingen, grondwater",
+        "page": 12,
         "page_in_pdf": 12,
         "properties": {
           "type": "SP 5A-52",
@@ -1062,6 +1113,7 @@
       {
         "sku": "07061273",
         "label": "industriële toepassingen, grondwater",
+        "page": 12,
         "page_in_pdf": 12,
         "properties": {
           "type": "SP 5A-60",
@@ -1083,6 +1135,7 @@
       {
         "sku": "07061276",
         "label": "industriële toepassingen, grondwater",
+        "page": 20,
         "page_in_pdf": 20,
         "properties": {
           "type": "SP 17-2",
@@ -1104,6 +1157,7 @@
       {
         "sku": "07061278",
         "label": "industriële toepassingen, grondwater",
+        "page": 20,
         "page_in_pdf": 20,
         "properties": {
           "type": "SP 17-4",
@@ -1125,6 +1179,7 @@
       {
         "sku": "07061281",
         "label": "industriële toepassingen, grondwater",
+        "page": 20,
         "page_in_pdf": 20,
         "properties": {
           "type": "SP 17-8",
@@ -1146,6 +1201,7 @@
       {
         "sku": "07061283",
         "label": "industriële toepassingen, grondwater",
+        "page": 20,
         "page_in_pdf": 20,
         "properties": {
           "type": "SP 17-10",
@@ -1167,6 +1223,7 @@
       {
         "sku": "07061285",
         "label": "industriële toepassingen, grondwater",
+        "page": 20,
         "page_in_pdf": 20,
         "properties": {
           "type": "SP 17-12",
@@ -1188,6 +1245,7 @@
       {
         "sku": "07061287",
         "label": "industriële toepassingen, grondwater",
+        "page": 20,
         "page_in_pdf": 20,
         "properties": {
           "type": "SP 17-14",
@@ -1209,6 +1267,7 @@
       {
         "sku": "07061289",
         "label": "industriële toepassingen, grondwater",
+        "page": 20,
         "page_in_pdf": 20,
         "properties": {
           "type": "SP 17-16",
@@ -1230,6 +1289,7 @@
       {
         "sku": "07061291",
         "label": "industriële toepassingen, grondwater",
+        "page": 20,
         "page_in_pdf": 20,
         "properties": {
           "type": "SP 17- 1",
@@ -1251,6 +1311,7 @@
       {
         "sku": "07061295",
         "label": "industriële toepassingen, grondwater",
+        "page": 20,
         "page_in_pdf": 20,
         "properties": {
           "type": "SP 17- 7",
@@ -1272,6 +1333,7 @@
       {
         "sku": "07061297",
         "label": "industriële toepassingen, grondwater",
+        "page": 20,
         "page_in_pdf": 20,
         "properties": {
           "type": "SP 17- 9",
@@ -1293,6 +1355,7 @@
       {
         "sku": "07061299",
         "label": "industriële toepassingen, grondwater",
+        "page": 20,
         "page_in_pdf": 20,
         "properties": {
           "type": "SP 17-11",
@@ -1314,6 +1377,7 @@
       {
         "sku": "07061301",
         "label": "industriële toepassingen, grondwater",
+        "page": 20,
         "page_in_pdf": 20,
         "properties": {
           "type": "SP 17-13",
@@ -1335,6 +1399,7 @@
       {
         "sku": "07061303",
         "label": "industriële toepassingen, grondwater",
+        "page": 20,
         "page_in_pdf": 20,
         "properties": {
           "type": "SP 17-15",
@@ -1356,6 +1421,7 @@
       {
         "sku": "07061585",
         "label": "industriële toepassingen, grondwater",
+        "page": 18,
         "page_in_pdf": 18,
         "properties": {
           "type": "SP11-3",
@@ -1376,6 +1442,7 @@
       {
         "sku": "07061587",
         "label": "industriële toepassingen, grondwater",
+        "page": 18,
         "page_in_pdf": 18,
         "properties": {
           "type": "SP11-5",
@@ -1396,6 +1463,7 @@
       {
         "sku": "07061589",
         "label": "industriële toepassingen, grondwater",
+        "page": 18,
         "page_in_pdf": 18,
         "properties": {
           "type": "SP11-5",
@@ -1416,6 +1484,7 @@
       {
         "sku": "07061591",
         "label": "industriële toepassingen, grondwater",
+        "page": 18,
         "page_in_pdf": 18,
         "properties": {
           "type": "SP11-7",
@@ -1436,6 +1505,7 @@
       {
         "sku": "07061593",
         "label": "industriële toepassingen, grondwater",
+        "page": 18,
         "page_in_pdf": 18,
         "properties": {
           "type": "SP11-11",
@@ -1456,6 +1526,7 @@
       {
         "sku": "07061596",
         "label": "industriële toepassingen, grondwater",
+        "page": 18,
         "page_in_pdf": 18,
         "properties": {
           "type": "SP11-15",
@@ -1476,6 +1547,7 @@
       {
         "sku": "07061598",
         "label": "industriële toepassingen, grondwater",
+        "page": 18,
         "page_in_pdf": 18,
         "properties": {
           "type": "SP11-20",
@@ -1496,6 +1568,7 @@
       {
         "sku": "07061600",
         "label": "industriële toepassingen, grondwater",
+        "page": 18,
         "page_in_pdf": 18,
         "properties": {
           "type": "SP11-24",
@@ -1516,6 +1589,7 @@
       {
         "sku": "07061602",
         "label": "industriële toepassingen, grondwater",
+        "page": 18,
         "page_in_pdf": 18,
         "properties": {
           "type": "SP11-24",
@@ -1536,6 +1610,7 @@
       {
         "sku": "07061604",
         "label": "industriële toepassingen, grondwater",
+        "page": 18,
         "page_in_pdf": 18,
         "properties": {
           "type": "SP11-27",
@@ -1556,6 +1631,7 @@
       {
         "sku": "07061606",
         "label": "industriële toepassingen, grondwater",
+        "page": 18,
         "page_in_pdf": 18,
         "properties": {
           "type": "SP11-27",
@@ -1576,6 +1652,7 @@
       {
         "sku": "07061609",
         "label": "industriële toepassingen, grondwater",
+        "page": 18,
         "page_in_pdf": 18,
         "properties": {
           "type": "SP11-33",
@@ -1596,6 +1673,7 @@
       {
         "sku": "07061610",
         "label": "industriële toepassingen, grondwater",
+        "page": 18,
         "page_in_pdf": 18,
         "properties": {
           "type": "SP11-37",
@@ -1616,6 +1694,7 @@
       {
         "sku": "07061612",
         "label": "industriële toepassingen, grondwater",
+        "page": 18,
         "page_in_pdf": 18,
         "properties": {
           "type": "SP11-37",
@@ -1636,6 +1715,7 @@
       {
         "sku": "07061614",
         "label": "industriële toepassingen, grondwater",
+        "page": 19,
         "page_in_pdf": 19,
         "properties": {
           "type": "SP14-4",
@@ -1656,6 +1736,7 @@
       {
         "sku": "07061616",
         "label": "industriële toepassingen, grondwater",
+        "page": 19,
         "page_in_pdf": 19,
         "properties": {
           "type": "SP14-6",
@@ -1676,6 +1757,7 @@
       {
         "sku": "07061618",
         "label": "industriële toepassingen, grondwater",
+        "page": 19,
         "page_in_pdf": 19,
         "properties": {
           "type": "SP14-6",
@@ -1696,6 +1778,7 @@
       {
         "sku": "07061620",
         "label": "industriële toepassingen, grondwater",
+        "page": 19,
         "page_in_pdf": 19,
         "properties": {
           "type": "SP14-8",
@@ -1716,6 +1799,7 @@
       {
         "sku": "07061622",
         "label": "industriële toepassingen, grondwater",
+        "page": 19,
         "page_in_pdf": 19,
         "properties": {
           "type": "SP14-11",
@@ -1736,6 +1820,7 @@
       {
         "sku": "07061624",
         "label": "industriële toepassingen, grondwater",
+        "page": 19,
         "page_in_pdf": 19,
         "properties": {
           "type": "SP14-13",
@@ -1756,6 +1841,7 @@
       {
         "sku": "07061626",
         "label": "industriële toepassingen, grondwater",
+        "page": 19,
         "page_in_pdf": 19,
         "properties": {
           "type": "SP14-15",
@@ -1776,6 +1862,7 @@
       {
         "sku": "07061628",
         "label": "industriële toepassingen, grondwater",
+        "page": 19,
         "page_in_pdf": 19,
         "properties": {
           "type": "SP14-17",
@@ -1796,6 +1883,7 @@
       {
         "sku": "07061630",
         "label": "industriële toepassingen, grondwater",
+        "page": 19,
         "page_in_pdf": 19,
         "properties": {
           "type": "SP14-20",
@@ -1816,6 +1904,7 @@
       {
         "sku": "07061632",
         "label": "industriële toepassingen, grondwater",
+        "page": 19,
         "page_in_pdf": 19,
         "properties": {
           "type": "SP14-20",
@@ -1836,6 +1925,7 @@
       {
         "sku": "07061634",
         "label": "industriële toepassingen, grondwater",
+        "page": 19,
         "page_in_pdf": 19,
         "properties": {
           "type": "SP14-23",
@@ -1856,6 +1946,7 @@
       {
         "sku": "07061636",
         "label": "industriële toepassingen, grondwater",
+        "page": 19,
         "page_in_pdf": 19,
         "properties": {
           "type": "SP14-23",
@@ -1876,6 +1967,7 @@
       {
         "sku": "07061638",
         "label": "industriële toepassingen, grondwater",
+        "page": 19,
         "page_in_pdf": 19,
         "properties": {
           "type": "SP14-27",
@@ -1896,6 +1988,7 @@
       {
         "sku": "07061639",
         "label": "industriële toepassingen, grondwater",
+        "page": 19,
         "page_in_pdf": 19,
         "properties": {
           "type": "SP14-27",
@@ -1916,6 +2009,7 @@
       {
         "sku": "07061642",
         "label": "industriële toepassingen, grondwater",
+        "page": 19,
         "page_in_pdf": 19,
         "properties": {
           "type": "SP14-31",
@@ -1936,6 +2030,7 @@
       {
         "sku": "07061645",
         "label": "industriële toepassingen, grondwater",
+        "page": 14,
         "page_in_pdf": 14,
         "properties": {
           "type": "SP7-3",
@@ -1956,6 +2051,7 @@
       {
         "sku": "07061647",
         "label": "industriële toepassingen, grondwater",
+        "page": 14,
         "page_in_pdf": 14,
         "properties": {
           "type": "SP7-5",
@@ -1976,6 +2072,7 @@
       {
         "sku": "07061649",
         "label": "industriële toepassingen, grondwater",
+        "page": 14,
         "page_in_pdf": 14,
         "properties": {
           "type": "SP7-5",
@@ -1996,6 +2093,7 @@
       {
         "sku": "07061651",
         "label": "industriële toepassingen, grondwater",
+        "page": 14,
         "page_in_pdf": 14,
         "properties": {
           "type": "SP7-8",
@@ -2016,6 +2114,7 @@
       {
         "sku": "07061655",
         "label": "industriële toepassingen, grondwater",
+        "page": 14,
         "page_in_pdf": 14,
         "properties": {
           "type": "SP7-12",
@@ -2036,6 +2135,7 @@
       {
         "sku": "07061657",
         "label": "industriële toepassingen, grondwater",
+        "page": 14,
         "page_in_pdf": 14,
         "properties": {
           "type": "SP7-12",
@@ -2056,6 +2156,7 @@
       {
         "sku": "07061659",
         "label": "industriële toepassingen, grondwater",
+        "page": 14,
         "page_in_pdf": 14,
         "properties": {
           "type": "SP7-17",
@@ -2076,6 +2177,7 @@
       {
         "sku": "07061661",
         "label": "industriële toepassingen, grondwater",
+        "page": 14,
         "page_in_pdf": 14,
         "properties": {
           "type": "SP7-23",
@@ -2096,6 +2198,7 @@
       {
         "sku": "07061663",
         "label": "industriële toepassingen, grondwater",
+        "page": 14,
         "page_in_pdf": 14,
         "properties": {
           "type": "SP7-27",
@@ -2116,6 +2219,7 @@
       {
         "sku": "07061665",
         "label": "industriële toepassingen, grondwater",
+        "page": 14,
         "page_in_pdf": 14,
         "properties": {
           "type": "SP7-31",
@@ -2136,6 +2240,7 @@
       {
         "sku": "07061667",
         "label": "industriële toepassingen, grondwater",
+        "page": 14,
         "page_in_pdf": 14,
         "properties": {
           "type": "SP7-37",
@@ -2156,6 +2261,7 @@
       {
         "sku": "07061669",
         "label": "industriële toepassingen, grondwater",
+        "page": 14,
         "page_in_pdf": 14,
         "properties": {
           "type": "SP7-37",
@@ -2176,6 +2282,7 @@
       {
         "sku": "07061671",
         "label": "industriële toepassingen, grondwater",
+        "page": 14,
         "page_in_pdf": 14,
         "properties": {
           "type": "SP7-42",
@@ -2196,6 +2303,7 @@
       {
         "sku": "07061673",
         "label": "industriële toepassingen, grondwater",
+        "page": 14,
         "page_in_pdf": 14,
         "properties": {
           "type": "SP7-42",
@@ -2216,6 +2324,7 @@
       {
         "sku": "07061675",
         "label": "industriële toepassingen, grondwater",
+        "page": 14,
         "page_in_pdf": 14,
         "properties": {
           "type": "SP7-51",
@@ -2236,6 +2345,7 @@
       {
         "sku": "07061686",
         "label": "industriële toepassingen, grondwater",
+        "page": 16,
         "page_in_pdf": 16,
         "properties": {
           "type": "SP9-4",
@@ -2256,6 +2366,7 @@
       {
         "sku": "07061688",
         "label": "industriële toepassingen, grondwater",
+        "page": 16,
         "page_in_pdf": 16,
         "properties": {
           "type": "SP9-5",
@@ -2276,6 +2387,7 @@
       {
         "sku": "07061690",
         "label": "industriële toepassingen, grondwater",
+        "page": 16,
         "page_in_pdf": 16,
         "properties": {
           "type": "SP9-8",
@@ -2296,6 +2408,7 @@
       {
         "sku": "07061692",
         "label": "industriële toepassingen, grondwater",
+        "page": 16,
         "page_in_pdf": 16,
         "properties": {
           "type": "SP9-8",
@@ -2316,6 +2429,7 @@
       {
         "sku": "07061694",
         "label": "industriële toepassingen, grondwater",
+        "page": 16,
         "page_in_pdf": 16,
         "properties": {
           "type": "SP9-10",
@@ -2336,6 +2450,7 @@
       {
         "sku": "07061696",
         "label": "industriële toepassingen, grondwater",
+        "page": 16,
         "page_in_pdf": 16,
         "properties": {
           "type": "SP9-11",
@@ -2356,6 +2471,7 @@
       {
         "sku": "07061698",
         "label": "industriële toepassingen, grondwater",
+        "page": 16,
         "page_in_pdf": 16,
         "properties": {
           "type": "SP9-13",
@@ -2376,6 +2492,7 @@
       {
         "sku": "07061700",
         "label": "industriële toepassingen, grondwater",
+        "page": 16,
         "page_in_pdf": 16,
         "properties": {
           "type": "SP9-16",
@@ -2396,6 +2513,7 @@
       {
         "sku": "07061702",
         "label": "industriële toepassingen, grondwater",
+        "page": 16,
         "page_in_pdf": 16,
         "properties": {
           "type": "SP9-18",
@@ -2416,6 +2534,7 @@
       {
         "sku": "07061704",
         "label": "industriële toepassingen, grondwater",
+        "page": 16,
         "page_in_pdf": 16,
         "properties": {
           "type": "SP9-21",
@@ -2436,6 +2555,7 @@
       {
         "sku": "07061706",
         "label": "industriële toepassingen, grondwater",
+        "page": 16,
         "page_in_pdf": 16,
         "properties": {
           "type": "SP9-23",
@@ -2456,6 +2576,7 @@
       {
         "sku": "07061709",
         "label": "industriële toepassingen, grondwater",
+        "page": 16,
         "page_in_pdf": 16,
         "properties": {
           "type": "SP9-23",
@@ -2476,6 +2597,7 @@
       {
         "sku": "07061710",
         "label": "industriële toepassingen, grondwater",
+        "page": 16,
         "page_in_pdf": 16,
         "properties": {
           "type": "SP9-25",
@@ -2496,6 +2618,7 @@
       {
         "sku": "07061714",
         "label": "industriële toepassingen, grondwater",
+        "page": 16,
         "page_in_pdf": 16,
         "properties": {
           "type": "SP9-29",
@@ -2516,6 +2639,7 @@
       {
         "sku": "07061718",
         "label": "industriële toepassingen, grondwater",
+        "page": 16,
         "page_in_pdf": 16,
         "properties": {
           "type": "SP9-32",
@@ -2536,6 +2660,7 @@
       {
         "sku": "07061724",
         "label": "industriële toepassingen, grondwater",
+        "page": 16,
         "page_in_pdf": 16,
         "properties": {
           "type": "SP9-40",
@@ -2555,29 +2680,30 @@
       }
     ],
     "images": [
-      "images/bronpompen/industri-le-toepassingen-grondwater__07060922.webp",
-      "images/bronpompen/bronpompen__p8__industri-le-toepassingen-grondwater__07060922-07060975-07061185__v1.webp"
+      "images/bronpompen/bronpompen__p8__industri-le-toepassingen-grondwater__07060922-07060975-07061185.webp"
     ],
     "variant_count": 115,
     "default_variant_sku": "07060061",
     "media": [
       {
         "role": "main",
-        "url": "images/bronpompen/industri-le-toepassingen-grondwater__07060922.webp"
+        "url": "images/bronpompen/bronpompen__p8__industri-le-toepassingen-grondwater__07060922-07060975-07061185.webp"
       }
     ]
   },
   {
-    "group_id": "bronpompen-industri-le-toepassingen-grondwater-voor",
+    "group_id": "bronpompen-bronpompen-industriele-toepassingen-grondwater-voor",
     "name": "industriële toepassingen, Grondwater voor-",
-    "family": "industri-le-toepassingen-grondwater-voor",
+    "family": "bronpompen__industriele-toepassingen-grondwater-voor",
     "catalog": "bronpompen",
+    "source_pdf": "bronpompen.pdf",
     "brand": "Various",
     "category": "VARIATIES",
     "variants": [
       {
         "sku": "07060588",
         "label": "industriële toepassingen, Grondwater voor-",
+        "page": 24,
         "page_in_pdf": 24,
         "properties": {
           "type": "SP 30-5",
@@ -2599,6 +2725,7 @@
       {
         "sku": "07060589",
         "label": "Industriële toepassingen, Grondwater voor-",
+        "page": 26,
         "page_in_pdf": 26,
         "properties": {
           "type": "SP 46-5",
@@ -2620,6 +2747,7 @@
       {
         "sku": "07060725",
         "label": "industriële toepassingen, Grondwater voor-",
+        "page": 24,
         "page_in_pdf": 24,
         "properties": {
           "type": "SP 30-2",
@@ -2641,6 +2769,7 @@
       {
         "sku": "07060751",
         "label": "Industriële toepassingen, Grondwater voor-",
+        "page": 28,
         "page_in_pdf": 28,
         "properties": {
           "type": "SP 60-2B",
@@ -2662,6 +2791,7 @@
       {
         "sku": "07061370",
         "label": "industriële toepassingen, Grondwater voor-",
+        "page": 24,
         "page_in_pdf": 24,
         "properties": {
           "type": "SP 30-4",
@@ -2683,6 +2813,7 @@
       {
         "sku": "07061372",
         "label": "industriële toepassingen, Grondwater voor-",
+        "page": 24,
         "page_in_pdf": 24,
         "properties": {
           "type": "SP 30-6",
@@ -2704,6 +2835,7 @@
       {
         "sku": "07061374",
         "label": "industriële toepassingen, Grondwater voor-",
+        "page": 24,
         "page_in_pdf": 24,
         "properties": {
           "type": "SP 30-8",
@@ -2725,6 +2857,7 @@
       {
         "sku": "07061376",
         "label": "industriële toepassingen, Grondwater voor-",
+        "page": 24,
         "page_in_pdf": 24,
         "properties": {
           "type": "SP 30-10",
@@ -2746,6 +2879,7 @@
       {
         "sku": "07061378",
         "label": "industriële toepassingen, Grondwater voor-",
+        "page": 24,
         "page_in_pdf": 24,
         "properties": {
           "type": "SP 30-12",
@@ -2767,6 +2901,7 @@
       {
         "sku": "07061380",
         "label": "industriële toepassingen, Grondwater voor-",
+        "page": 24,
         "page_in_pdf": 24,
         "properties": {
           "type": "SP 30-14",
@@ -2788,6 +2923,7 @@
       {
         "sku": "07061382",
         "label": "industriële toepassingen, Grondwater voor-",
+        "page": 24,
         "page_in_pdf": 24,
         "properties": {
           "type": "SP 30-1",
@@ -2809,6 +2945,7 @@
       {
         "sku": "07061384",
         "label": "industriële toepassingen, Grondwater voor-",
+        "page": 24,
         "page_in_pdf": 24,
         "properties": {
           "type": "SP 30-3",
@@ -2830,6 +2967,7 @@
       {
         "sku": "07061385",
         "label": "industriële toepassingen, Grondwater voor-",
+        "page": 24,
         "page_in_pdf": 24,
         "properties": {
           "type": "SP 30-7",
@@ -2851,6 +2989,7 @@
       {
         "sku": "07061387",
         "label": "industriële toepassingen, Grondwater voor-",
+        "page": 24,
         "page_in_pdf": 24,
         "properties": {
           "type": "SP 30-9",
@@ -2872,6 +3011,7 @@
       {
         "sku": "07061389",
         "label": "industriële toepassingen, Grondwater voor-",
+        "page": 24,
         "page_in_pdf": 24,
         "properties": {
           "type": "SP 30-11",
@@ -2893,6 +3033,7 @@
       {
         "sku": "07061391",
         "label": "industriële toepassingen, Grondwater voor-",
+        "page": 24,
         "page_in_pdf": 24,
         "properties": {
           "type": "SP 30-13",
@@ -2914,6 +3055,7 @@
       {
         "sku": "07061393",
         "label": "industriële toepassingen, Grondwater voor-",
+        "page": 24,
         "page_in_pdf": 24,
         "properties": {
           "type": "SP 30-15",
@@ -2935,6 +3077,7 @@
       {
         "sku": "07061395",
         "label": "industriële toepassingen, Grondwater voor-",
+        "page": 24,
         "page_in_pdf": 24,
         "properties": {
           "type": "SP 30-17",
@@ -2956,6 +3099,7 @@
       {
         "sku": "07061447",
         "label": "Industriële toepassingen, Grondwater voor-",
+        "page": 26,
         "page_in_pdf": 26,
         "properties": {
           "type": "SP 46-1",
@@ -2977,6 +3121,7 @@
       {
         "sku": "07061449",
         "label": "Industriële toepassingen, Grondwater voor-",
+        "page": 26,
         "page_in_pdf": 26,
         "properties": {
           "type": "SP 46-2",
@@ -2998,6 +3143,7 @@
       {
         "sku": "07061451",
         "label": "Industriële toepassingen, Grondwater voor-",
+        "page": 26,
         "page_in_pdf": 26,
         "properties": {
           "type": "SP 46-3",
@@ -3019,6 +3165,7 @@
       {
         "sku": "07061453",
         "label": "Industriële toepassingen, Grondwater voor-",
+        "page": 26,
         "page_in_pdf": 26,
         "properties": {
           "type": "SP 46-4",
@@ -3040,6 +3187,7 @@
       {
         "sku": "07061455",
         "label": "Industriële toepassingen, Grondwater voor-",
+        "page": 26,
         "page_in_pdf": 26,
         "properties": {
           "type": "SP 46-6",
@@ -3061,6 +3209,7 @@
       {
         "sku": "07061457",
         "label": "Industriële toepassingen, Grondwater voor-",
+        "page": 26,
         "page_in_pdf": 26,
         "properties": {
           "type": "SP 46-8C",
@@ -3082,6 +3231,7 @@
       {
         "sku": "07061459",
         "label": "Industriële toepassingen, Grondwater voor-",
+        "page": 26,
         "page_in_pdf": 26,
         "properties": {
           "type": "SP 46-9C",
@@ -3103,6 +3253,7 @@
       {
         "sku": "07061461",
         "label": "Industriële toepassingen, Grondwater voor-",
+        "page": 26,
         "page_in_pdf": 26,
         "properties": {
           "type": "SP 46-10",
@@ -3124,6 +3275,7 @@
       {
         "sku": "07061463",
         "label": "Industriële toepassingen, Grondwater voor-",
+        "page": 26,
         "page_in_pdf": 26,
         "properties": {
           "type": "SP 46-12",
@@ -3145,6 +3297,7 @@
       {
         "sku": "07061465",
         "label": "Industriële toepassingen, Grondwater voor-",
+        "page": 26,
         "page_in_pdf": 26,
         "properties": {
           "type": "SP 46-14",
@@ -3166,6 +3319,7 @@
       {
         "sku": "07061467",
         "label": "Industriële toepassingen, Grondwater voor-",
+        "page": 26,
         "page_in_pdf": 26,
         "properties": {
           "type": "SP 46-1B",
@@ -3187,6 +3341,7 @@
       {
         "sku": "07061469",
         "label": "Industriële toepassingen, Grondwater voor-",
+        "page": 26,
         "page_in_pdf": 26,
         "properties": {
           "type": "SP 46-2BB",
@@ -3208,6 +3363,7 @@
       {
         "sku": "07061470",
         "label": "Industriële toepassingen, Grondwater voor-",
+        "page": 26,
         "page_in_pdf": 26,
         "properties": {
           "type": "SP 46-3C",
@@ -3229,6 +3385,7 @@
       {
         "sku": "07061472",
         "label": "Industriële toepassingen, Grondwater voor-",
+        "page": 26,
         "page_in_pdf": 26,
         "properties": {
           "type": "SP 46-4C",
@@ -3250,6 +3407,7 @@
       {
         "sku": "07061516",
         "label": "Industriële toepassingen, Grondwater voor-",
+        "page": 28,
         "page_in_pdf": 28,
         "properties": {
           "type": "SP 60-1",
@@ -3271,6 +3429,7 @@
       {
         "sku": "07061518",
         "label": "Industriële toepassingen, Grondwater voor-",
+        "page": 28,
         "page_in_pdf": 28,
         "properties": {
           "type": "SP 60-2",
@@ -3292,6 +3451,7 @@
       {
         "sku": "07061520",
         "label": "Industriële toepassingen, Grondwater voor-",
+        "page": 28,
         "page_in_pdf": 28,
         "properties": {
           "type": "SP 60-5",
@@ -3313,6 +3473,7 @@
       {
         "sku": "07061522",
         "label": "Industriële toepassingen, Grondwater voor-",
+        "page": 28,
         "page_in_pdf": 28,
         "properties": {
           "type": "SP 60-7",
@@ -3334,6 +3495,7 @@
       {
         "sku": "07061524",
         "label": "Industriële toepassingen, Grondwater voor-",
+        "page": 28,
         "page_in_pdf": 28,
         "properties": {
           "type": "SP 60-9",
@@ -3355,6 +3517,7 @@
       {
         "sku": "07061526",
         "label": "Industriële toepassingen, Grondwater voor-",
+        "page": 28,
         "page_in_pdf": 28,
         "properties": {
           "type": "SP 60-1A",
@@ -3376,6 +3539,7 @@
       {
         "sku": "07061529",
         "label": "Industriële toepassingen, Grondwater voor-",
+        "page": 28,
         "page_in_pdf": 28,
         "properties": {
           "type": "SP 60-3",
@@ -3397,6 +3561,7 @@
       {
         "sku": "07061531",
         "label": "Industriële toepassingen, Grondwater voor-",
+        "page": 28,
         "page_in_pdf": 28,
         "properties": {
           "type": "SP 60-5",
@@ -3418,6 +3583,7 @@
       {
         "sku": "07061533",
         "label": "Industriële toepassingen, Grondwater voor-",
+        "page": 28,
         "page_in_pdf": 28,
         "properties": {
           "type": "SP 60-7",
@@ -3439,6 +3605,7 @@
       {
         "sku": "07061535",
         "label": "Industriële toepassingen, Grondwater voor-",
+        "page": 28,
         "page_in_pdf": 28,
         "properties": {
           "type": "SP 60-8",
@@ -3460,6 +3627,7 @@
       {
         "sku": "07061537",
         "label": "Industriële toepassingen, Grondwater voor-",
+        "page": 28,
         "page_in_pdf": 28,
         "properties": {
           "type": "SP 60-9",
@@ -3481,6 +3649,7 @@
       {
         "sku": "07061539",
         "label": "Industriële toepassingen, Grondwater voor-",
+        "page": 28,
         "page_in_pdf": 28,
         "properties": {
           "type": "SP 60-11",
@@ -3502,6 +3671,7 @@
       {
         "sku": "07061541",
         "label": "Industriële toepassingen, Grondwater voor-",
+        "page": 28,
         "page_in_pdf": 28,
         "properties": {
           "type": "SP 60-13",
@@ -3523,6 +3693,7 @@
       {
         "sku": "07061543",
         "label": "Industriële toepassingen, Grondwater voor-",
+        "page": 28,
         "page_in_pdf": 28,
         "properties": {
           "type": "SP 60-15",
@@ -3544,6 +3715,7 @@
       {
         "sku": "07061545",
         "label": "Industriële toepassingen, Grondwater voor-",
+        "page": 28,
         "page_in_pdf": 28,
         "properties": {
           "type": "SP 60-17",
@@ -3564,29 +3736,30 @@
       }
     ],
     "images": [
-      "images/bronpompen/industri-le-toepassingen-grondwater__07060922.webp",
-      "images/bronpompen/bronpompen__p8__industri-le-toepassingen-grondwater__07060922-07060975-07061185__v1.webp"
+      "images/bronpompen/bronpompen__p24__industri-le-toepassingen-grondwater-voor__07060588-07060725-07061370.webp"
     ],
     "variant_count": 47,
     "default_variant_sku": "07060588",
     "media": [
       {
         "role": "main",
-        "url": "images/bronpompen/industri-le-toepassingen-grondwater__07060922.webp"
+        "url": "images/bronpompen/bronpompen__p24__industri-le-toepassingen-grondwater-voor__07060588-07060725-07061370.webp"
       }
     ]
   },
   {
-    "group_id": "bronpompen-4-bronpompen",
+    "group_id": "bronpompen-bronpompen-4-bronpompen",
     "name": "4\" BRONPOMPEN",
-    "family": "4-bronpompen",
+    "family": "bronpompen__4-bronpompen",
     "catalog": "bronpompen",
+    "source_pdf": "bronpompen.pdf",
     "brand": "Various",
     "category": "4\" BRONPOMPEN",
     "variants": [
       {
         "sku": "07061202",
         "label": "4\" BRONPOMPEN",
+        "page": 9,
         "page_in_pdf": 9,
         "properties": {
           "type": "SP 2A-40",
@@ -3603,6 +3776,7 @@
       {
         "sku": "07061204",
         "label": "4\" BRONPOMPEN",
+        "page": 9,
         "page_in_pdf": 9,
         "properties": {
           "type": "SP 2A-48",
@@ -3619,6 +3793,7 @@
       {
         "sku": "07061206",
         "label": "4\" BRONPOMPEN",
+        "page": 9,
         "page_in_pdf": 9,
         "properties": {
           "type": "SP 2A-55",
@@ -3635,6 +3810,7 @@
       {
         "sku": "07061208",
         "label": "4\" BRONPOMPEN",
+        "page": 9,
         "page_in_pdf": 9,
         "properties": {
           "type": "SP 2A-65",
@@ -3651,6 +3827,7 @@
       {
         "sku": "07061210",
         "label": "4\" BRONPOMPEN",
+        "page": 9,
         "page_in_pdf": 9,
         "properties": {
           "type": "SP 2A-75",
@@ -3667,6 +3844,7 @@
       {
         "sku": "07061212",
         "label": "4\" BRONPOMPEN",
+        "page": 9,
         "page_in_pdf": 9,
         "properties": {
           "type": "SP 2A-90",
@@ -3683,6 +3861,7 @@
       {
         "sku": "07061237",
         "label": "4\" BRONPOMPEN",
+        "page": 11,
         "page_in_pdf": 11,
         "properties": {
           "type": "SP 3A-33",
@@ -3699,6 +3878,7 @@
       {
         "sku": "07061239",
         "label": "4\" BRONPOMPEN",
+        "page": 11,
         "page_in_pdf": 11,
         "properties": {
           "type": "SP 3A-39",
@@ -3715,6 +3895,7 @@
       {
         "sku": "07061241",
         "label": "4\" BRONPOMPEN",
+        "page": 11,
         "page_in_pdf": 11,
         "properties": {
           "type": "SP 3A-45",
@@ -3731,6 +3912,7 @@
       {
         "sku": "07061243",
         "label": "4\" BRONPOMPEN",
+        "page": 11,
         "page_in_pdf": 11,
         "properties": {
           "type": "SP 3A-52",
@@ -3747,6 +3929,7 @@
       {
         "sku": "07061245",
         "label": "4\" BRONPOMPEN",
+        "page": 11,
         "page_in_pdf": 11,
         "properties": {
           "type": "SP 3A-60",
@@ -3763,6 +3946,7 @@
       {
         "sku": "MATST5507",
         "label": "4\" BRONPOMPEN",
+        "page": 7,
         "page_in_pdf": 7,
         "properties": {
           "type": "MSM150",
@@ -3776,6 +3960,7 @@
       {
         "sku": "MATST5510",
         "label": "4\" BRONPOMPEN",
+        "page": 7,
         "page_in_pdf": 7,
         "properties": {
           "type": "MSM200",
@@ -3790,6 +3975,7 @@
       {
         "sku": "MATST5514",
         "label": "4\" BRONPOMPEN",
+        "page": 7,
         "page_in_pdf": 7,
         "properties": {
           "type": "MSM300",
@@ -3803,6 +3989,7 @@
       {
         "sku": "MATST5518",
         "label": "4\" BRONPOMPEN",
+        "page": 7,
         "page_in_pdf": 7,
         "properties": {
           "type": "-",
@@ -3817,6 +4004,7 @@
       {
         "sku": "MATST5524",
         "label": "4\" BRONPOMPEN",
+        "page": 7,
         "page_in_pdf": 7,
         "properties": {
           "type": "-",
@@ -3830,6 +4018,7 @@
       {
         "sku": "MATST5532",
         "label": "4\" BRONPOMPEN",
+        "page": 7,
         "page_in_pdf": 7,
         "properties": {
           "type": "-",
@@ -3844,6 +4033,7 @@
       {
         "sku": "MATST8011",
         "label": "4\" BRONPOMPEN",
+        "page": 7,
         "page_in_pdf": 7,
         "properties": {
           "type": "-",
@@ -3858,6 +4048,7 @@
       {
         "sku": "MATST8015",
         "label": "4\" BRONPOMPEN",
+        "page": 7,
         "page_in_pdf": 7,
         "properties": {
           "type": "-",
@@ -3871,6 +4062,7 @@
       {
         "sku": "MATST8020",
         "label": "4\" BRONPOMPEN",
+        "page": 7,
         "page_in_pdf": 7,
         "properties": {
           "type": "-",
@@ -3884,29 +4076,30 @@
       }
     ],
     "images": [
-      "images/centrifugaalpompen/variaties__matmb150.webp",
-      "images/bronpompen/bronpompen__p7__4-bronpompen__MATST5507-MATST5510-MATST5514.webp"
+      "images/bronpompen/bronpompen__p7__schakelkast-voor-monofasige__MATPCM1050-MATPCM1075-MATPCM1100__v2.webp"
     ],
     "variant_count": 20,
     "default_variant_sku": "07061202",
     "media": [
       {
         "role": "main",
-        "url": "images/centrifugaalpompen/variaties__matmb150.webp"
+        "url": "images/bronpompen/bronpompen__p7__schakelkast-voor-monofasige__MATPCM1050-MATPCM1075-MATPCM1100__v2.webp"
       }
     ]
   },
   {
-    "group_id": "bronpompen-8-bronpompen",
+    "group_id": "bronpompen-bronpompen-8-bronpompen",
     "name": "8\" BRONPOMPEN",
-    "family": "8-bronpompen",
+    "family": "bronpompen__8-bronpompen",
     "catalog": "bronpompen",
+    "source_pdf": "bronpompen.pdf",
     "brand": "Various",
     "category": "8\" BRONPOMPEN",
     "variants": [
       {
         "sku": "07061305",
         "label": "8\" BRONPOMPEN",
+        "page": 21,
         "page_in_pdf": 21,
         "properties": {
           "type": "SP 17-17",
@@ -3923,6 +4116,7 @@
       {
         "sku": "07061307",
         "label": "8\" BRONPOMPEN",
+        "page": 21,
         "page_in_pdf": 21,
         "properties": {
           "type": "SP 17-19",
@@ -3939,6 +4133,7 @@
       {
         "sku": "07061309",
         "label": "8\" BRONPOMPEN",
+        "page": 21,
         "page_in_pdf": 21,
         "properties": {
           "type": "SP 17-21",
@@ -3955,6 +4150,7 @@
       {
         "sku": "07061311",
         "label": "8\" BRONPOMPEN",
+        "page": 21,
         "page_in_pdf": 21,
         "properties": {
           "type": "SP 17-23",
@@ -3971,6 +4167,7 @@
       {
         "sku": "07061313",
         "label": "8\" BRONPOMPEN",
+        "page": 21,
         "page_in_pdf": 21,
         "properties": {
           "type": "SP 17-25",
@@ -3987,6 +4184,7 @@
       {
         "sku": "07061315",
         "label": "8\" BRONPOMPEN",
+        "page": 21,
         "page_in_pdf": 21,
         "properties": {
           "type": "SP 17-27",
@@ -4003,6 +4201,7 @@
       {
         "sku": "07061317",
         "label": "8\" BRONPOMPEN",
+        "page": 21,
         "page_in_pdf": 21,
         "properties": {
           "type": "SP 17-29",
@@ -4019,6 +4218,7 @@
       {
         "sku": "07061319",
         "label": "8\" BRONPOMPEN",
+        "page": 21,
         "page_in_pdf": 21,
         "properties": {
           "type": "SP 17-31",
@@ -4035,6 +4235,7 @@
       {
         "sku": "07061321",
         "label": "8\" BRONPOMPEN",
+        "page": 21,
         "page_in_pdf": 21,
         "properties": {
           "type": "SP 17-33",
@@ -4051,6 +4252,7 @@
       {
         "sku": "07061323",
         "label": "8\" BRONPOMPEN",
+        "page": 21,
         "page_in_pdf": 21,
         "properties": {
           "type": "SP 17-35",
@@ -4067,6 +4269,7 @@
       {
         "sku": "07061325",
         "label": "8\" BRONPOMPEN",
+        "page": 21,
         "page_in_pdf": 21,
         "properties": {
           "type": "SP 17-37",
@@ -4083,6 +4286,7 @@
       {
         "sku": "07061327",
         "label": "8\" BRONPOMPEN",
+        "page": 21,
         "page_in_pdf": 21,
         "properties": {
           "type": "SP 17-39",
@@ -4099,6 +4303,7 @@
       {
         "sku": "07061329",
         "label": "8\" BRONPOMPEN",
+        "page": 21,
         "page_in_pdf": 21,
         "properties": {
           "type": "SP 17-43",
@@ -4115,6 +4320,7 @@
       {
         "sku": "07061331",
         "label": "8\" BRONPOMPEN",
+        "page": 21,
         "page_in_pdf": 21,
         "properties": {
           "type": "SP 17-48",
@@ -4131,6 +4337,7 @@
       {
         "sku": "07061333",
         "label": "8\" BRONPOMPEN",
+        "page": 21,
         "page_in_pdf": 21,
         "properties": {
           "type": "SP 17-53",
@@ -4147,6 +4354,7 @@
       {
         "sku": "07061335",
         "label": "8\" BRONPOMPEN",
+        "page": 21,
         "page_in_pdf": 21,
         "properties": {
           "type": "SP 17-58",
@@ -4163,6 +4371,7 @@
       {
         "sku": "07061337",
         "label": "8\" BRONPOMPEN",
+        "page": 21,
         "page_in_pdf": 21,
         "properties": {
           "type": "SP 17-18",
@@ -4179,6 +4388,7 @@
       {
         "sku": "07061339",
         "label": "8\" BRONPOMPEN",
+        "page": 21,
         "page_in_pdf": 21,
         "properties": {
           "type": "SP 17-20",
@@ -4195,6 +4405,7 @@
       {
         "sku": "07061341",
         "label": "8\" BRONPOMPEN",
+        "page": 21,
         "page_in_pdf": 21,
         "properties": {
           "type": "SP 17-22",
@@ -4211,6 +4422,7 @@
       {
         "sku": "07061343",
         "label": "8\" BRONPOMPEN",
+        "page": 21,
         "page_in_pdf": 21,
         "properties": {
           "type": "SP 17-24",
@@ -4227,6 +4439,7 @@
       {
         "sku": "07061345",
         "label": "8\" BRONPOMPEN",
+        "page": 21,
         "page_in_pdf": 21,
         "properties": {
           "type": "SP 17-26",
@@ -4243,6 +4456,7 @@
       {
         "sku": "07061347",
         "label": "8\" BRONPOMPEN",
+        "page": 21,
         "page_in_pdf": 21,
         "properties": {
           "type": "SP 17-28",
@@ -4259,6 +4473,7 @@
       {
         "sku": "07061349",
         "label": "8\" BRONPOMPEN",
+        "page": 21,
         "page_in_pdf": 21,
         "properties": {
           "type": "SP 17-30",
@@ -4275,6 +4490,7 @@
       {
         "sku": "07061352",
         "label": "8\" BRONPOMPEN",
+        "page": 22,
         "page_in_pdf": 22,
         "properties": {
           "type": "SP 17-33",
@@ -4291,6 +4507,7 @@
       {
         "sku": "07061354",
         "label": "8\" BRONPOMPEN",
+        "page": 22,
         "page_in_pdf": 22,
         "properties": {
           "type": "SP 17-35",
@@ -4307,6 +4524,7 @@
       {
         "sku": "07061356",
         "label": "8\" BRONPOMPEN",
+        "page": 22,
         "page_in_pdf": 22,
         "properties": {
           "type": "SP 17-37",
@@ -4323,6 +4541,7 @@
       {
         "sku": "07061358",
         "label": "8\" BRONPOMPEN",
+        "page": 22,
         "page_in_pdf": 22,
         "properties": {
           "type": "SP 17-39",
@@ -4339,6 +4558,7 @@
       {
         "sku": "07061360",
         "label": "8\" BRONPOMPEN",
+        "page": 22,
         "page_in_pdf": 22,
         "properties": {
           "type": "SP 17-43",
@@ -4355,6 +4575,7 @@
       {
         "sku": "07061362",
         "label": "8\" BRONPOMPEN",
+        "page": 22,
         "page_in_pdf": 22,
         "properties": {
           "type": "SP 17-48",
@@ -4371,6 +4592,7 @@
       {
         "sku": "07061364",
         "label": "8\" BRONPOMPEN",
+        "page": 22,
         "page_in_pdf": 22,
         "properties": {
           "type": "SP 17-53",
@@ -4387,6 +4609,7 @@
       {
         "sku": "07061366",
         "label": "8\" BRONPOMPEN",
+        "page": 22,
         "page_in_pdf": 22,
         "properties": {
           "type": "SP 17-58",
@@ -4403,6 +4626,7 @@
       {
         "sku": "07061398",
         "label": "8\" BRONPOMPEN",
+        "page": 25,
         "page_in_pdf": 25,
         "properties": {
           "type": "SP 30-20",
@@ -4419,6 +4643,7 @@
       {
         "sku": "07061400",
         "label": "8\" BRONPOMPEN",
+        "page": 25,
         "page_in_pdf": 25,
         "properties": {
           "type": "SP 30-22",
@@ -4435,6 +4660,7 @@
       {
         "sku": "07061402",
         "label": "8\" BRONPOMPEN",
+        "page": 25,
         "page_in_pdf": 25,
         "properties": {
           "type": "SP 30-24",
@@ -4451,6 +4677,7 @@
       {
         "sku": "07061404",
         "label": "8\" BRONPOMPEN",
+        "page": 25,
         "page_in_pdf": 25,
         "properties": {
           "type": "SP 30-26",
@@ -4467,6 +4694,7 @@
       {
         "sku": "07061406",
         "label": "8\" BRONPOMPEN",
+        "page": 25,
         "page_in_pdf": 25,
         "properties": {
           "type": "SP 30-28",
@@ -4483,6 +4711,7 @@
       {
         "sku": "07061408",
         "label": "8\" BRONPOMPEN",
+        "page": 25,
         "page_in_pdf": 25,
         "properties": {
           "type": "SP 30-30",
@@ -4499,6 +4728,7 @@
       {
         "sku": "07061410",
         "label": "8\" BRONPOMPEN",
+        "page": 25,
         "page_in_pdf": 25,
         "properties": {
           "type": "SP 30-32",
@@ -4515,6 +4745,7 @@
       {
         "sku": "07061412",
         "label": "8\" BRONPOMPEN",
+        "page": 25,
         "page_in_pdf": 25,
         "properties": {
           "type": "SP 30-34",
@@ -4531,6 +4762,7 @@
       {
         "sku": "07061414",
         "label": "8\" BRONPOMPEN",
+        "page": 25,
         "page_in_pdf": 25,
         "properties": {
           "type": "SP 30-39",
@@ -4547,6 +4779,7 @@
       {
         "sku": "07061416",
         "label": "8\" BRONPOMPEN",
+        "page": 25,
         "page_in_pdf": 25,
         "properties": {
           "type": "SP 30-46",
@@ -4563,6 +4796,7 @@
       {
         "sku": "07061418",
         "label": "8\" BRONPOMPEN",
+        "page": 25,
         "page_in_pdf": 25,
         "properties": {
           "type": "SP 30-52",
@@ -4579,6 +4813,7 @@
       {
         "sku": "07061420",
         "label": "8\" BRONPOMPEN",
+        "page": 25,
         "page_in_pdf": 25,
         "properties": {
           "type": "SP 30-16",
@@ -4595,6 +4830,7 @@
       {
         "sku": "07061422",
         "label": "8\" BRONPOMPEN",
+        "page": 25,
         "page_in_pdf": 25,
         "properties": {
           "type": "SP 30-18",
@@ -4611,6 +4847,7 @@
       {
         "sku": "07061424",
         "label": "8\" BRONPOMPEN",
+        "page": 25,
         "page_in_pdf": 25,
         "properties": {
           "type": "SP 30-20",
@@ -4627,6 +4864,7 @@
       {
         "sku": "07061426",
         "label": "8\" BRONPOMPEN",
+        "page": 25,
         "page_in_pdf": 25,
         "properties": {
           "type": "SP 30-22",
@@ -4643,6 +4881,7 @@
       {
         "sku": "07061428",
         "label": "8\" BRONPOMPEN",
+        "page": 25,
         "page_in_pdf": 25,
         "properties": {
           "type": "SP 30-24",
@@ -4659,6 +4898,7 @@
       {
         "sku": "07061430",
         "label": "8\" BRONPOMPEN",
+        "page": 25,
         "page_in_pdf": 25,
         "properties": {
           "type": "SP 30-26",
@@ -4675,6 +4915,7 @@
       {
         "sku": "07061432",
         "label": "8\" BRONPOMPEN",
+        "page": 25,
         "page_in_pdf": 25,
         "properties": {
           "type": "SP 30-28",
@@ -4691,6 +4932,7 @@
       {
         "sku": "07061434",
         "label": "8\" BRONPOMPEN",
+        "page": 25,
         "page_in_pdf": 25,
         "properties": {
           "type": "SP 30-30",
@@ -4707,6 +4949,7 @@
       {
         "sku": "07061436",
         "label": "8\" BRONPOMPEN",
+        "page": 25,
         "page_in_pdf": 25,
         "properties": {
           "type": "SP 30-32",
@@ -4723,6 +4966,7 @@
       {
         "sku": "07061438",
         "label": "8\" BRONPOMPEN",
+        "page": 25,
         "page_in_pdf": 25,
         "properties": {
           "type": "SP 30-34",
@@ -4739,6 +4983,7 @@
       {
         "sku": "07061440",
         "label": "8\" BRONPOMPEN",
+        "page": 25,
         "page_in_pdf": 25,
         "properties": {
           "type": "SP 30-39",
@@ -4755,6 +5000,7 @@
       {
         "sku": "07061442",
         "label": "8\" BRONPOMPEN",
+        "page": 25,
         "page_in_pdf": 25,
         "properties": {
           "type": "SP 30-46",
@@ -4771,6 +5017,7 @@
       {
         "sku": "07061444",
         "label": "8\" BRONPOMPEN",
+        "page": 25,
         "page_in_pdf": 25,
         "properties": {
           "type": "SP 30-52",
@@ -4787,6 +5034,7 @@
       {
         "sku": "07061476",
         "label": "8\" BRONPOMPEN",
+        "page": 27,
         "page_in_pdf": 27,
         "properties": {
           "type": "SP 46-8C",
@@ -4803,6 +5051,7 @@
       {
         "sku": "07061478",
         "label": "8\" BRONPOMPEN",
+        "page": 27,
         "page_in_pdf": 27,
         "properties": {
           "type": "SP 46-9C",
@@ -4819,6 +5068,7 @@
       {
         "sku": "07061480",
         "label": "8\" BRONPOMPEN",
+        "page": 27,
         "page_in_pdf": 27,
         "properties": {
           "type": "SP 46-10",
@@ -4835,6 +5085,7 @@
       {
         "sku": "07061482",
         "label": "8\" BRONPOMPEN",
+        "page": 27,
         "page_in_pdf": 27,
         "properties": {
           "type": "SP 46-12",
@@ -4851,6 +5102,7 @@
       {
         "sku": "07061484",
         "label": "8\" BRONPOMPEN",
+        "page": 27,
         "page_in_pdf": 27,
         "properties": {
           "type": "SP 46-14",
@@ -4867,6 +5119,7 @@
       {
         "sku": "07061486",
         "label": "8\" BRONPOMPEN",
+        "page": 27,
         "page_in_pdf": 27,
         "properties": {
           "type": "SP 46-16",
@@ -4883,6 +5136,7 @@
       {
         "sku": "07061488",
         "label": "8\" BRONPOMPEN",
+        "page": 27,
         "page_in_pdf": 27,
         "properties": {
           "type": "SP 46-18",
@@ -4899,6 +5153,7 @@
       {
         "sku": "07061490",
         "label": "8\" BRONPOMPEN",
+        "page": 27,
         "page_in_pdf": 27,
         "properties": {
           "type": "SP 46-20",
@@ -4915,6 +5170,7 @@
       {
         "sku": "07061492",
         "label": "8\" BRONPOMPEN",
+        "page": 27,
         "page_in_pdf": 27,
         "properties": {
           "type": "SP 46-22",
@@ -4931,6 +5187,7 @@
       {
         "sku": "07061494",
         "label": "8\" BRONPOMPEN",
+        "page": 27,
         "page_in_pdf": 27,
         "properties": {
           "type": "SP 46-24",
@@ -4947,6 +5204,7 @@
       {
         "sku": "07061496",
         "label": "8\" BRONPOMPEN",
+        "page": 27,
         "page_in_pdf": 27,
         "properties": {
           "type": "SP 46-28",
@@ -4963,6 +5221,7 @@
       {
         "sku": "07061498",
         "label": "8\" BRONPOMPEN",
+        "page": 27,
         "page_in_pdf": 27,
         "properties": {
           "type": "SP 46-33",
@@ -4979,6 +5238,7 @@
       {
         "sku": "07061500",
         "label": "8\" BRONPOMPEN",
+        "page": 27,
         "page_in_pdf": 27,
         "properties": {
           "type": "SP 46-16",
@@ -4995,6 +5255,7 @@
       {
         "sku": "07061502",
         "label": "8\" BRONPOMPEN",
+        "page": 27,
         "page_in_pdf": 27,
         "properties": {
           "type": "SP 46-18",
@@ -5011,6 +5272,7 @@
       {
         "sku": "07061504",
         "label": "8\" BRONPOMPEN",
+        "page": 27,
         "page_in_pdf": 27,
         "properties": {
           "type": "SP 46-20",
@@ -5027,6 +5289,7 @@
       {
         "sku": "07061506",
         "label": "8\" BRONPOMPEN",
+        "page": 27,
         "page_in_pdf": 27,
         "properties": {
           "type": "SP 46-22",
@@ -5043,6 +5306,7 @@
       {
         "sku": "07061508",
         "label": "8\" BRONPOMPEN",
+        "page": 27,
         "page_in_pdf": 27,
         "properties": {
           "type": "SP 46-24",
@@ -5059,6 +5323,7 @@
       {
         "sku": "07061510",
         "label": "8\" BRONPOMPEN",
+        "page": 27,
         "page_in_pdf": 27,
         "properties": {
           "type": "SP 46-28",
@@ -5075,6 +5340,7 @@
       {
         "sku": "07061512",
         "label": "8\" BRONPOMPEN",
+        "page": 27,
         "page_in_pdf": 27,
         "properties": {
           "type": "SP 46-33",
@@ -5091,6 +5357,7 @@
       {
         "sku": "07061514",
         "label": "8\" BRONPOMPEN",
+        "page": 27,
         "page_in_pdf": 27,
         "properties": {
           "type": "SP 46-37",
@@ -5106,6 +5373,7 @@
       {
         "sku": "07061562",
         "label": "8\" BRONPOMPEN",
+        "page": 29,
         "page_in_pdf": 29,
         "properties": {
           "type": "SP 60-19",
@@ -5122,6 +5390,7 @@
       {
         "sku": "07061564",
         "label": "8\" BRONPOMPEN",
+        "page": 29,
         "page_in_pdf": 29,
         "properties": {
           "type": "SP 60-21",
@@ -5138,6 +5407,7 @@
       {
         "sku": "07061566",
         "label": "8\" BRONPOMPEN",
+        "page": 29,
         "page_in_pdf": 29,
         "properties": {
           "type": "SP 60-24",
@@ -5154,6 +5424,7 @@
       {
         "sku": "07061568",
         "label": "8\" BRONPOMPEN",
+        "page": 29,
         "page_in_pdf": 29,
         "properties": {
           "type": "SP 60-28",
@@ -5174,16 +5445,18 @@
     "media": []
   },
   {
-    "group_id": "bronpompen-6-bronpompen",
+    "group_id": "bronpompen-bronpompen-6-bronpompen",
     "name": "6\" BRONPOMPEN",
-    "family": "6-bronpompen",
+    "family": "bronpompen__6-bronpompen",
     "catalog": "bronpompen",
+    "source_pdf": "bronpompen.pdf",
     "brand": "Various",
     "category": "6\" BRONPOMPEN",
     "variants": [
       {
         "sku": "07061677",
         "label": "6\" BRONPOMPEN",
+        "page": 15,
         "page_in_pdf": 15,
         "properties": {
           "type": "SP7-51",
@@ -5199,6 +5472,7 @@
       {
         "sku": "07061680",
         "label": "6\" BRONPOMPEN",
+        "page": 15,
         "page_in_pdf": 15,
         "properties": {
           "type": "SP7-59",
@@ -5214,6 +5488,7 @@
       {
         "sku": "07061682",
         "label": "6\" BRONPOMPEN",
+        "page": 15,
         "page_in_pdf": 15,
         "properties": {
           "type": "SP7-71",
@@ -5229,6 +5504,7 @@
       {
         "sku": "07061684",
         "label": "6\" BRONPOMPEN",
+        "page": 15,
         "page_in_pdf": 15,
         "properties": {
           "type": "SP7-86",
@@ -5244,6 +5520,7 @@
       {
         "sku": "07061713",
         "label": "6\" BRONPOMPEN",
+        "page": 17,
         "page_in_pdf": 17,
         "properties": {
           "type": "SP9-25",
@@ -5259,6 +5536,7 @@
       {
         "sku": "07061717",
         "label": "6\" BRONPOMPEN",
+        "page": 17,
         "page_in_pdf": 17,
         "properties": {
           "type": "SP9-29",
@@ -5274,6 +5552,7 @@
       {
         "sku": "07061720",
         "label": "6\" BRONPOMPEN",
+        "page": 17,
         "page_in_pdf": 17,
         "properties": {
           "type": "SP9-32",
@@ -5289,6 +5568,7 @@
       {
         "sku": "07061723",
         "label": "6\" BRONPOMPEN",
+        "page": 17,
         "page_in_pdf": 17,
         "properties": {
           "type": "SP9-36",
@@ -5304,6 +5584,7 @@
       {
         "sku": "07061726",
         "label": "6\" BRONPOMPEN",
+        "page": 17,
         "page_in_pdf": 17,
         "properties": {
           "type": "SP9-40",
@@ -5319,6 +5600,7 @@
       {
         "sku": "07061728",
         "label": "6\" BRONPOMPEN",
+        "page": 17,
         "page_in_pdf": 17,
         "properties": {
           "type": "SP9-44",
@@ -5334,6 +5616,7 @@
       {
         "sku": "07061730",
         "label": "6\" BRONPOMPEN",
+        "page": 17,
         "page_in_pdf": 17,
         "properties": {
           "type": "SP9-48",
@@ -5349,6 +5632,7 @@
       {
         "sku": "07061732",
         "label": "6\" BRONPOMPEN",
+        "page": 17,
         "page_in_pdf": 17,
         "properties": {
           "type": "SP9-52",
@@ -5364,6 +5648,7 @@
       {
         "sku": "07061734",
         "label": "6\" BRONPOMPEN",
+        "page": 17,
         "page_in_pdf": 17,
         "properties": {
           "type": "SP9-56",
@@ -5379,6 +5664,7 @@
       {
         "sku": "07061736",
         "label": "6\" BRONPOMPEN",
+        "page": 17,
         "page_in_pdf": 17,
         "properties": {
           "type": "SP9-60",
@@ -5394,6 +5680,7 @@
       {
         "sku": "07061738",
         "label": "6\" BRONPOMPEN",
+        "page": 17,
         "page_in_pdf": 17,
         "properties": {
           "type": "SP9-65",
@@ -5409,6 +5696,7 @@
       {
         "sku": "07061740",
         "label": "6\" BRONPOMPEN",
+        "page": 17,
         "page_in_pdf": 17,
         "properties": {
           "type": "SP9-69",
@@ -5424,6 +5712,7 @@
       {
         "sku": "07061742",
         "label": "6\" BRONPOMPEN",
+        "page": 17,
         "page_in_pdf": 17,
         "properties": {
           "type": "SP9-75",
@@ -5439,6 +5728,7 @@
       {
         "sku": "07061744",
         "label": "6\" BRONPOMPEN",
+        "page": 17,
         "page_in_pdf": 17,
         "properties": {
           "type": "SP9-79",
@@ -5454,6 +5744,7 @@
       {
         "sku": "07061746",
         "label": "6\" BRONPOMPEN",
+        "page": 17,
         "page_in_pdf": 17,
         "properties": {
           "type": "SP9-86",
@@ -5469,6 +5760,7 @@
       {
         "sku": "07061748",
         "label": "6\" BRONPOMPEN",
+        "page": 17,
         "page_in_pdf": 17,
         "properties": {
           "type": "SP9-93",
@@ -5488,16 +5780,18 @@
     "media": []
   },
   {
-    "group_id": "bronpompen-huishoudelijk-landbouw-industrieel",
+    "group_id": "bronpompen-bronpompen-huishoudelijk-landbouw-industrieel",
     "name": "huishoudelijk, landbouw, industrieel",
-    "family": "huishoudelijk-landbouw-industrieel",
+    "family": "bronpompen__huishoudelijk-landbouw-industrieel",
     "catalog": "bronpompen",
+    "source_pdf": "bronpompen.pdf",
     "brand": "Various",
     "category": "VARIATIES",
     "variants": [
       {
         "sku": "22250104",
         "label": "huishoudelijk, landbouw, industrieel",
+        "page": 5,
         "page_in_pdf": 5,
         "properties": {
           "type": "well_pump",
@@ -5513,6 +5807,7 @@
       {
         "sku": "22250173",
         "label": "huishoudelijk, landbouw, industrieel",
+        "page": 5,
         "page_in_pdf": 5,
         "properties": {
           "type": "well_pump",
@@ -5528,6 +5823,7 @@
       {
         "sku": "22250180",
         "label": "huishoudelijk, landbouw, industrieel",
+        "page": 5,
         "page_in_pdf": 5,
         "properties": {
           "type": "well_pump",
@@ -5543,6 +5839,7 @@
       {
         "sku": "22250230",
         "label": "huishoudelijk, landbouw, industrieel",
+        "page": 5,
         "page_in_pdf": 5,
         "properties": {
           "type": "well_pump",
@@ -5558,6 +5855,7 @@
       {
         "sku": "24030014",
         "label": "huishoudelijk, landbouw, industrieel",
+        "page": 5,
         "page_in_pdf": 5,
         "properties": {
           "type": "well_pump",
@@ -5573,6 +5871,7 @@
       {
         "sku": "24030015",
         "label": "huishoudelijk, landbouw, industrieel",
+        "page": 5,
         "page_in_pdf": 5,
         "properties": {
           "type": "well_pump",
@@ -5588,6 +5887,7 @@
       {
         "sku": "24030022",
         "label": "huishoudelijk, landbouw, industrieel",
+        "page": 5,
         "page_in_pdf": 5,
         "properties": {
           "type": "well_pump",
@@ -5603,6 +5903,7 @@
       {
         "sku": "24030023",
         "label": "huishoudelijk, landbouw, industrieel",
+        "page": 5,
         "page_in_pdf": 5,
         "properties": {
           "type": "well_pump",
@@ -5618,6 +5919,7 @@
       {
         "sku": "24030024",
         "label": "huishoudelijk, landbouw, industrieel",
+        "page": 5,
         "page_in_pdf": 5,
         "properties": {
           "type": "well_pump",
@@ -5633,6 +5935,7 @@
       {
         "sku": "24030042",
         "label": "huishoudelijk, landbouw, industrieel",
+        "page": 5,
         "page_in_pdf": 5,
         "properties": {
           "type": "well_pump",
@@ -5648,6 +5951,7 @@
       {
         "sku": "24030045",
         "label": "huishoudelijk, landbouw, industrieel",
+        "page": 5,
         "page_in_pdf": 5,
         "properties": {
           "type": "well_pump",
@@ -5663,6 +5967,7 @@
       {
         "sku": "24030046",
         "label": "huishoudelijk, landbouw, industrieel",
+        "page": 5,
         "page_in_pdf": 5,
         "properties": {
           "type": "well_pump",
@@ -5678,6 +5983,7 @@
       {
         "sku": "24030048",
         "label": "huishoudelijk, landbouw, industrieel",
+        "page": 5,
         "page_in_pdf": 5,
         "properties": {
           "type": "well_pump",
@@ -5693,6 +5999,7 @@
       {
         "sku": "24030049",
         "label": "huishoudelijk, landbouw, industrieel",
+        "page": 5,
         "page_in_pdf": 5,
         "properties": {
           "type": "well_pump",
@@ -5708,6 +6015,7 @@
       {
         "sku": "24030050",
         "label": "huishoudelijk, landbouw, industrieel",
+        "page": 5,
         "page_in_pdf": 5,
         "properties": {
           "type": "well_pump",
@@ -5723,6 +6031,7 @@
       {
         "sku": "24030052",
         "label": "huishoudelijk, landbouw, industrieel",
+        "page": 5,
         "page_in_pdf": 5,
         "properties": {
           "type": "well_pump",
@@ -5738,6 +6047,7 @@
       {
         "sku": "24030053",
         "label": "huishoudelijk, landbouw, industrieel",
+        "page": 5,
         "page_in_pdf": 5,
         "properties": {
           "type": "well_pump",
@@ -5753,6 +6063,7 @@
       {
         "sku": "24030054",
         "label": "huishoudelijk, landbouw, industrieel",
+        "page": 5,
         "page_in_pdf": 5,
         "properties": {
           "type": "well_pump",
@@ -5768,6 +6079,7 @@
       {
         "sku": "24030055",
         "label": "huishoudelijk, landbouw, industrieel",
+        "page": 5,
         "page_in_pdf": 5,
         "properties": {
           "type": "well_pump",
@@ -5783,6 +6095,7 @@
       {
         "sku": "24030056",
         "label": "huishoudelijk, landbouw, industrieel",
+        "page": 5,
         "page_in_pdf": 5,
         "properties": {
           "type": "well_pump",
@@ -5798,6 +6111,7 @@
       {
         "sku": "24030057",
         "label": "huishoudelijk, landbouw, industrieel",
+        "page": 5,
         "page_in_pdf": 5,
         "properties": {
           "type": "well_pump",
@@ -5813,6 +6127,7 @@
       {
         "sku": "24030058",
         "label": "huishoudelijk, landbouw, industrieel",
+        "page": 5,
         "page_in_pdf": 5,
         "properties": {
           "type": "well_pump",
@@ -5827,7 +6142,6 @@
       }
     ],
     "images": [
-      "images/bronpompen/huishoudelijk-landbouw-industrieel__22250104.webp",
       "images/bronpompen/bronpompen__p5__huishoudelijk-landbouw-industrieel__22250104-22250173-22250180.webp"
     ],
     "variant_count": 22,
@@ -5835,7 +6149,7 @@
     "media": [
       {
         "role": "main",
-        "url": "images/bronpompen/huishoudelijk-landbouw-industrieel__22250104.webp"
+        "url": "images/bronpompen/bronpompen__p5__huishoudelijk-landbouw-industrieel__22250104-22250173-22250180.webp"
       }
     ]
   }

@@ -1,48 +1,17 @@
 [
   {
-    "group_id": "messing-draadfittingen-1",
-    "name": "1\"",
-    "family": "1",
-    "catalog": "messing-draadfittingen",
-    "brand": "Various",
-    "category": "MF11212 2\"",
-    "variants": [
-      {
-        "sku": "MF112125",
-        "label": "1\"",
-        "page_in_pdf": 16,
-        "properties": {
-          "type": "1"
-        },
-        "attributes": {
-          "application": "MF11212 2\""
-        }
-      }
-    ],
-    "images": [
-      "images/messing-draadfittingen/messing-draadfittingen__p16__nr-23-messing-pijpnippel__mfbul__mfbul1080-mfbul1120-mfbul1200.webp",
-      "images/messing-draadfittingen/messing-draadfittingen__p16__1-4__MF11211__v3.webp"
-    ],
-    "variant_count": 1,
-    "default_variant_sku": "MF112125",
-    "media": [
-      {
-        "role": "main",
-        "url": "images/messing-draadfittingen/messing-draadfittingen__p16__nr-23-messing-pijpnippel__mfbul__mfbul1080-mfbul1120-mfbul1200.webp"
-      }
-    ]
-  },
-  {
-    "group_id": "messing-draadfittingen-wartel-binnendraad-buitendraad",
+    "group_id": "messing-draadfittingen-messing-draadfittingen-wartel-binnendraad-buitendraad",
     "name": "WARTEL BINNENDRAAD - BUITENDRAAD",
-    "family": "wartel-binnendraad-buitendraad",
+    "family": "messing-draadfittingen__wartel-binnendraad-buitendraad",
     "catalog": "messing-draadfittingen",
+    "source_pdf": "messing-draadfittingen.pdf",
     "brand": "Various",
     "category": "Bestelnr Maat",
     "variants": [
       {
         "sku": "MF1101238",
         "label": "WARTEL BINNENDRAAD - BUITENDRAAD",
+        "page": 6,
         "page_in_pdf": 6,
         "properties": {
           "type": "wartel_binnendraad_buitendraad"
@@ -53,7 +22,6 @@
       }
     ],
     "images": [
-      "images/messing-draadfittingen/bestelnr-maat__mf110134__img3.webp",
       "images/messing-draadfittingen/messing-draadfittingen__p6__bestelnr-maat__MF110134-MF1201__v3.webp"
     ],
     "variant_count": 1,
@@ -61,21 +29,23 @@
     "media": [
       {
         "role": "main",
-        "url": "images/messing-draadfittingen/bestelnr-maat__mf110134__img3.webp"
+        "url": "images/messing-draadfittingen/messing-draadfittingen__p6__bestelnr-maat__MF110134-MF1201__v3.webp"
       }
     ]
   },
   {
-    "group_id": "messing-draadfittingen-bestelnr-maat",
+    "group_id": "messing-draadfittingen-messing-draadfittingen-bestelnr-maat",
     "name": "Bestelnr Maat",
-    "family": "bestelnr-maat",
+    "family": "messing-draadfittingen__bestelnr-maat",
     "catalog": "messing-draadfittingen",
+    "source_pdf": "messing-draadfittingen.pdf",
     "brand": "Various",
     "category": "MF1103412",
     "variants": [
       {
         "sku": "MF110134",
         "label": "Bestelnr Maat",
+        "page": 6,
         "page_in_pdf": 6,
         "properties": {
           "type": "bestelnr_maat"
@@ -87,6 +57,7 @@
       {
         "sku": "MF112112",
         "label": "Bestelnr Maat",
+        "page": 16,
         "page_in_pdf": 16,
         "properties": {
           "type": "bestelnr_maat"
@@ -98,6 +69,7 @@
       {
         "sku": "MF1201",
         "label": "Bestelnr Maat",
+        "page": 6,
         "page_in_pdf": 6,
         "properties": {
           "type": "bestelnr_maat"
@@ -109,6 +81,7 @@
       {
         "sku": "MF1211",
         "label": "Bestelnr Maat",
+        "page": 7,
         "page_in_pdf": 7,
         "properties": {
           "type": "bestelnr_maat"
@@ -120,6 +93,7 @@
       {
         "sku": "MF13038",
         "label": "Bestelnr Maat",
+        "page": 7,
         "page_in_pdf": 7,
         "properties": {
           "type": "bestelnr_maat"
@@ -131,6 +105,7 @@
       {
         "sku": "MF134",
         "label": "Bestelnr Maat",
+        "page": 3,
         "page_in_pdf": 3,
         "properties": {
           "type": "bestelnr_maat"
@@ -142,6 +117,7 @@
       {
         "sku": "MF18034",
         "label": "Bestelnr Maat",
+        "page": 8,
         "page_in_pdf": 8,
         "properties": {
           "type": "bestelnr_maat"
@@ -153,6 +129,7 @@
       {
         "sku": "MF234",
         "label": "Bestelnr Maat",
+        "page": 3,
         "page_in_pdf": 3,
         "properties": {
           "type": "bestelnr_maat"
@@ -164,6 +141,7 @@
       {
         "sku": "MF27038",
         "label": "Bestelnr Maat",
+        "page": 11,
         "page_in_pdf": 11,
         "properties": {
           "type": "bestelnr_maat"
@@ -175,6 +153,7 @@
       {
         "sku": "MF28038",
         "label": "Bestelnr Maat",
+        "page": 12,
         "page_in_pdf": 12,
         "properties": {
           "type": "bestelnr_maat"
@@ -186,6 +165,7 @@
       {
         "sku": "MF29038",
         "label": "Bestelnr Maat",
+        "page": 12,
         "page_in_pdf": 12,
         "properties": {
           "type": "bestelnr_maat"
@@ -197,6 +177,7 @@
       {
         "sku": "MF30038",
         "label": "Bestelnr Maat",
+        "page": 13,
         "page_in_pdf": 13,
         "properties": {
           "type": "bestelnr_maat"
@@ -208,6 +189,7 @@
       {
         "sku": "MF31012",
         "label": "Bestelnr Maat",
+        "page": 13,
         "page_in_pdf": 13,
         "properties": {
           "type": "bestelnr_maat"
@@ -219,6 +201,7 @@
       {
         "sku": "MF34034",
         "label": "Bestelnr Maat",
+        "page": 14,
         "page_in_pdf": 14,
         "properties": {
           "type": "bestelnr_maat"
@@ -230,6 +213,7 @@
       {
         "sku": "MF34138",
         "label": "Bestelnr Maat",
+        "page": 14,
         "page_in_pdf": 14,
         "properties": {
           "type": "bestelnr_maat"
@@ -241,6 +225,7 @@
       {
         "sku": "MF53134",
         "label": "Bestelnr Maat",
+        "page": 15,
         "page_in_pdf": 15,
         "properties": {
           "type": "bestelnr_maat"
@@ -252,6 +237,7 @@
       {
         "sku": "MF9012",
         "label": "Bestelnr Maat",
+        "page": 4,
         "page_in_pdf": 4,
         "properties": {
           "type": "bestelnr_maat"
@@ -263,6 +249,7 @@
       {
         "sku": "MF9212",
         "label": "Bestelnr Maat",
+        "page": 4,
         "page_in_pdf": 4,
         "properties": {
           "type": "bestelnr_maat"
@@ -274,6 +261,7 @@
       {
         "sku": "MF961",
         "label": "Bestelnr Maat",
+        "page": 5,
         "page_in_pdf": 5,
         "properties": {
           "type": "bestelnr_maat"
@@ -285,6 +273,7 @@
       {
         "sku": "MF9834",
         "label": "Bestelnr Maat",
+        "page": 5,
         "page_in_pdf": 5,
         "properties": {
           "type": "bestelnr_maat"
@@ -295,31 +284,30 @@
       }
     ],
     "images": [
-      "images/messing-draadfittingen/bestelnr-maat__mf1211__img5.webp",
-      "images/messing-draadfittingen/bestelnr-maat__mf961.webp",
-      "images/messing-draadfittingen/bestelnr-maat__mf110134__img3.webp",
-      "images/messing-draadfittingen/messing-draadfittingen__p5__bestelnr-maat__MF961-MF9834__v1.webp"
+      "images/messing-draadfittingen/messing-draadfittingen__p7__bestelnr-maat__MF1211-MF13038__v6.webp"
     ],
     "variant_count": 20,
     "default_variant_sku": "MF110134",
     "media": [
       {
         "role": "main",
-        "url": "images/messing-draadfittingen/bestelnr-maat__mf1211__img5.webp"
+        "url": "images/messing-draadfittingen/messing-draadfittingen__p7__bestelnr-maat__MF1211-MF13038__v6.webp"
       }
     ]
   },
   {
-    "group_id": "messing-draadfittingen-mf1101238-1-2-x-3-8",
+    "group_id": "messing-draadfittingen-messing-draadfittingen-mf1101238-1-2-x-3-8",
     "name": "MF1101238 1/2” x 3/8\"",
-    "family": "mf1101238-1-2-x-3-8",
+    "family": "messing-draadfittingen__mf1101238-1-2-x-3-8",
     "catalog": "messing-draadfittingen",
+    "source_pdf": "messing-draadfittingen.pdf",
     "brand": "Various",
     "category": "MF110541 5/4” x 1\"",
     "variants": [
       {
         "sku": "MF1106454",
         "label": "MF1101238 1/2” x 3/8\"",
+        "page": 6,
         "page_in_pdf": 6,
         "properties": {
           "type": "mf1101238_1_2_x_3_8"
@@ -330,7 +318,6 @@
       }
     ],
     "images": [
-      "images/messing-draadfittingen/bestelnr-maat__mf110134__img3.webp",
       "images/messing-draadfittingen/messing-draadfittingen__p6__bestelnr-maat__MF110134-MF1201__v3.webp"
     ],
     "variant_count": 1,
@@ -338,21 +325,23 @@
     "media": [
       {
         "role": "main",
-        "url": "images/messing-draadfittingen/bestelnr-maat__mf110134__img3.webp"
+        "url": "images/messing-draadfittingen/messing-draadfittingen__p6__bestelnr-maat__MF110134-MF1201__v3.webp"
       }
     ]
   },
   {
-    "group_id": "messing-draadfittingen-messing-draadeind",
+    "group_id": "messing-draadfittingen-messing-draadfittingen-messing-draadeind",
     "name": "MESSING DRAADEIND",
-    "family": "messing-draadeind",
+    "family": "messing-draadfittingen__messing-draadeind",
     "catalog": "messing-draadfittingen",
+    "source_pdf": "messing-draadfittingen.pdf",
     "brand": "Various",
     "category": "BUITENDRAAD",
     "variants": [
       {
         "sku": "MF112012065",
         "label": "MESSING DRAADEIND",
+        "page": 17,
         "page_in_pdf": 17,
         "properties": {
           "type": "messing_draadeind"
@@ -364,6 +353,7 @@
       {
         "sku": "MF112012080",
         "label": "MESSING DRAADEIND",
+        "page": 17,
         "page_in_pdf": 17,
         "properties": {
           "type": "messing_draadeind"
@@ -375,6 +365,7 @@
       {
         "sku": "MF112012100",
         "label": "MESSING DRAADEIND",
+        "page": 17,
         "page_in_pdf": 17,
         "properties": {
           "type": "messing_draadeind"
@@ -386,6 +377,7 @@
       {
         "sku": "MF112012120",
         "label": "MESSING DRAADEIND",
+        "page": 17,
         "page_in_pdf": 17,
         "properties": {
           "type": "messing_draadeind"
@@ -397,6 +389,7 @@
       {
         "sku": "MF112034065",
         "label": "MESSING DRAADEIND",
+        "page": 17,
         "page_in_pdf": 17,
         "properties": {
           "type": "messing_draadeind"
@@ -408,6 +401,7 @@
       {
         "sku": "MF112034080",
         "label": "MESSING DRAADEIND",
+        "page": 17,
         "page_in_pdf": 17,
         "properties": {
           "type": "messing_draadeind"
@@ -419,6 +413,7 @@
       {
         "sku": "MF112034100",
         "label": "MESSING DRAADEIND",
+        "page": 17,
         "page_in_pdf": 17,
         "properties": {
           "type": "messing_draadeind"
@@ -430,6 +425,7 @@
       {
         "sku": "MF112034120",
         "label": "MESSING DRAADEIND",
+        "page": 17,
         "page_in_pdf": 17,
         "properties": {
           "type": "messing_draadeind"
@@ -440,29 +436,30 @@
       }
     ],
     "images": [
-      "images/messing-draadfittingen/messing-draadeind__mf112012065.webp",
-      "images/messing-draadfittingen/messing-draadfittingen__p17__messing-draadeind__MF112012065-MF112012080-MF112012100__v1.webp"
+      "images/messing-draadfittingen/messing-draadfittingen__p17__messing-draadeind__MF112012065-MF112012080-MF112012100__v2.webp"
     ],
     "variant_count": 8,
     "default_variant_sku": "MF112012065",
     "media": [
       {
         "role": "main",
-        "url": "images/messing-draadfittingen/messing-draadeind__mf112012065.webp"
+        "url": "images/messing-draadfittingen/messing-draadfittingen__p17__messing-draadeind__MF112012065-MF112012080-MF112012100__v2.webp"
       }
     ]
   },
   {
-    "group_id": "messing-draadfittingen-1-4",
+    "group_id": "messing-draadfittingen-messing-draadfittingen-1-4",
     "name": "1/4\"",
-    "family": "1-4",
+    "family": "messing-draadfittingen__1-4",
     "catalog": "messing-draadfittingen",
+    "source_pdf": "messing-draadfittingen.pdf",
     "brand": "Various",
     "category": "MF112134 3/4\"",
     "variants": [
       {
         "sku": "MF11211",
         "label": "1/4\"",
+        "page": 16,
         "page_in_pdf": 16,
         "properties": {
           "type": "1_4"
@@ -474,6 +471,7 @@
       {
         "sku": "MF901",
         "label": "1/4\"",
+        "page": 4,
         "page_in_pdf": 4,
         "properties": {
           "type": "1_4"
@@ -485,6 +483,7 @@
       {
         "sku": "MF921",
         "label": "1/4\"",
+        "page": 4,
         "page_in_pdf": 4,
         "properties": {
           "type": "1_4"
@@ -495,30 +494,30 @@
       }
     ],
     "images": [
-      "images/messing-draadfittingen/1-4__mf901.webp",
-      "images/messing-draadfittingen/messing-draadfittingen__p16__nr-23-messing-pijpnippel__mfbul__mfbul1080-mfbul1120-mfbul1200.webp",
-      "images/messing-draadfittingen/messing-draadfittingen__p4__1-4__MF901-MF921__v1.webp"
+      "images/messing-draadfittingen/messing-draadfittingen__p16__1-4__MF11211__v4.webp"
     ],
     "variant_count": 3,
     "default_variant_sku": "MF11211",
     "media": [
       {
         "role": "main",
-        "url": "images/messing-draadfittingen/1-4__mf901.webp"
+        "url": "images/messing-draadfittingen/messing-draadfittingen__p16__1-4__MF11211__v4.webp"
       }
     ]
   },
   {
-    "group_id": "messing-draadfittingen-buitendraad",
+    "group_id": "messing-draadfittingen-messing-draadfittingen-buitendraad",
     "name": "BUITENDRAAD",
-    "family": "buitendraad",
+    "family": "messing-draadfittingen__buitendraad",
     "catalog": "messing-draadfittingen",
+    "source_pdf": "messing-draadfittingen.pdf",
     "brand": "Various",
     "category": "Bestelnr Maat",
     "variants": [
       {
         "sku": "MF112114",
         "label": "BUITENDRAAD",
+        "page": 16,
         "page_in_pdf": 16,
         "properties": {
           "type": "buitendraad"
@@ -530,6 +529,7 @@
       {
         "sku": "MF29018",
         "label": "BUITENDRAAD",
+        "page": 12,
         "page_in_pdf": 12,
         "properties": {
           "type": "buitendraad"
@@ -541,6 +541,7 @@
       {
         "sku": "MF53114",
         "label": "BUITENDRAAD",
+        "page": 15,
         "page_in_pdf": 15,
         "properties": {
           "type": "buitendraad"
@@ -551,29 +552,64 @@
       }
     ],
     "images": [
-      "images/messing-draadfittingen/buitendraad__mf29018.webp",
-      "images/messing-draadfittingen/messing-draadfittingen__p12__buitendraad__MF29018__v1.webp"
+      "images/messing-draadfittingen/messing-draadfittingen__p12__buitendraad__MF29018__v2.webp"
     ],
     "variant_count": 3,
     "default_variant_sku": "MF112114",
     "media": [
       {
         "role": "main",
-        "url": "images/messing-draadfittingen/buitendraad__mf29018.webp"
+        "url": "images/messing-draadfittingen/messing-draadfittingen__p12__buitendraad__MF29018__v2.webp"
       }
     ]
   },
   {
-    "group_id": "messing-draadfittingen-mf112112-1-2",
-    "name": "MF112112 1/2\"",
-    "family": "mf112112-1-2",
+    "group_id": "messing-draadfittingen-messing-draadfittingen-1",
+    "name": "1\"",
+    "family": "messing-draadfittingen__1",
     "catalog": "messing-draadfittingen",
+    "source_pdf": "messing-draadfittingen.pdf",
+    "brand": "Various",
+    "category": "MF11212 2\"",
+    "variants": [
+      {
+        "sku": "MF112125",
+        "label": "1\"",
+        "page": 16,
+        "page_in_pdf": 16,
+        "properties": {
+          "type": "1"
+        },
+        "attributes": {
+          "application": "MF11212 2\""
+        }
+      }
+    ],
+    "images": [
+      "images/messing-draadfittingen/messing-draadfittingen__p16__1-4__MF11211__v3.webp"
+    ],
+    "variant_count": 1,
+    "default_variant_sku": "MF112125",
+    "media": [
+      {
+        "role": "main",
+        "url": "images/messing-draadfittingen/messing-draadfittingen__p16__1-4__MF11211__v3.webp"
+      }
+    ]
+  },
+  {
+    "group_id": "messing-draadfittingen-messing-draadfittingen-mf112112-1-2",
+    "name": "MF112112 1/2\"",
+    "family": "messing-draadfittingen__mf112112-1-2",
+    "catalog": "messing-draadfittingen",
+    "source_pdf": "messing-draadfittingen.pdf",
     "brand": "Various",
     "category": "MF112154",
     "variants": [
       {
         "sku": "MF112164",
         "label": "MF112112 1/2\"",
+        "page": 16,
         "page_in_pdf": 16,
         "properties": {
           "type": "mf112112_1_2"
@@ -584,7 +620,6 @@
       }
     ],
     "images": [
-      "images/messing-draadfittingen/messing-draadfittingen__p16__nr-23-messing-pijpnippel__mfbul__mfbul1080-mfbul1120-mfbul1200.webp",
       "images/messing-draadfittingen/messing-draadfittingen__p16__1-4__MF11211__v3.webp"
     ],
     "variant_count": 1,
@@ -592,21 +627,23 @@
     "media": [
       {
         "role": "main",
-        "url": "images/messing-draadfittingen/messing-draadfittingen__p16__nr-23-messing-pijpnippel__mfbul__mfbul1080-mfbul1120-mfbul1200.webp"
+        "url": "images/messing-draadfittingen/messing-draadfittingen__p16__1-4__MF11211__v3.webp"
       }
     ]
   },
   {
-    "group_id": "messing-draadfittingen-3-4",
+    "group_id": "messing-draadfittingen-messing-draadfittingen-3-4",
     "name": "3/4\"",
-    "family": "3-4",
+    "family": "messing-draadfittingen__3-4",
     "catalog": "messing-draadfittingen",
+    "source_pdf": "messing-draadfittingen.pdf",
     "brand": "Various",
     "category": "MF164 6/4\"",
     "variants": [
       {
         "sku": "MF12",
         "label": "3/4\"",
+        "page": 3,
         "page_in_pdf": 3,
         "properties": {
           "type": "3_4"
@@ -618,6 +655,7 @@
       {
         "sku": "MF22",
         "label": "3/4\"",
+        "page": 3,
         "page_in_pdf": 3,
         "properties": {
           "type": "3_4"
@@ -629,6 +667,7 @@
       {
         "sku": "MF3402",
         "label": "3/4\"",
+        "page": 14,
         "page_in_pdf": 14,
         "properties": {
           "type": "3_4"
@@ -640,6 +679,7 @@
       {
         "sku": "MF3412",
         "label": "3/4\"",
+        "page": 14,
         "page_in_pdf": 14,
         "properties": {
           "type": "3_4"
@@ -650,8 +690,6 @@
       }
     ],
     "images": [
-      "images/messing-draadfittingen/2x-binnendraad__mf34038__img3.webp",
-      "images/messing-draadfittingen/binnendraad-buitendraad__mf138.webp",
       "images/messing-draadfittingen/messing-draadfittingen__p3__binnendraad-buitendraad__MF138__v1.webp",
       "images/messing-draadfittingen/messing-draadfittingen__p14__2x-binnendraad__MF34038__v3.webp"
     ],
@@ -660,21 +698,23 @@
     "media": [
       {
         "role": "main",
-        "url": "images/messing-draadfittingen/2x-binnendraad__mf34038__img3.webp"
+        "url": "images/messing-draadfittingen/messing-draadfittingen__p3__binnendraad-buitendraad__MF138__v1.webp"
       }
     ]
   },
   {
-    "group_id": "messing-draadfittingen-2x-binnendraad",
+    "group_id": "messing-draadfittingen-messing-draadfittingen-2x-binnendraad",
     "name": "2X BINNENDRAAD",
-    "family": "2x-binnendraad",
+    "family": "messing-draadfittingen__2x-binnendraad",
     "catalog": "messing-draadfittingen",
+    "source_pdf": "messing-draadfittingen.pdf",
     "brand": "Various",
     "category": "Bestelnr Maat",
     "variants": [
       {
         "sku": "MF12012",
         "label": "2X BINNENDRAAD",
+        "page": 6,
         "page_in_pdf": 6,
         "properties": {
           "type": "2x_binnendraad"
@@ -686,6 +726,7 @@
       {
         "sku": "MF238",
         "label": "2X BINNENDRAAD",
+        "page": 3,
         "page_in_pdf": 3,
         "properties": {
           "type": "2x_binnendraad"
@@ -697,6 +738,7 @@
       {
         "sku": "MF2401418",
         "label": "2X BINNENDRAAD",
+        "page": 9,
         "page_in_pdf": 9,
         "properties": {
           "type": "2x_binnendraad"
@@ -708,6 +750,7 @@
       {
         "sku": "MF27018",
         "label": "2X BINNENDRAAD",
+        "page": 11,
         "page_in_pdf": 11,
         "properties": {
           "type": "2x_binnendraad"
@@ -719,6 +762,7 @@
       {
         "sku": "MF34038",
         "label": "2X BINNENDRAAD",
+        "page": 14,
         "page_in_pdf": 14,
         "properties": {
           "type": "2x_binnendraad"
@@ -730,6 +774,7 @@
       {
         "sku": "MF9014",
         "label": "2X BINNENDRAAD",
+        "page": 4,
         "page_in_pdf": 4,
         "properties": {
           "type": "2x_binnendraad"
@@ -741,6 +786,7 @@
       {
         "sku": "MF9612",
         "label": "2X BINNENDRAAD",
+        "page": 5,
         "page_in_pdf": 5,
         "properties": {
           "type": "2x_binnendraad"
@@ -751,30 +797,30 @@
       }
     ],
     "images": [
-      "images/messing-draadfittingen/2x-binnendraad__mf34038__img3.webp",
-      "images/messing-draadfittingen/2x-binnendraad__mf2401418.webp",
-      "images/messing-draadfittingen/messing-draadfittingen__p9__2x-binnendraad__MF2401418__v1.webp"
+      "images/messing-draadfittingen/messing-draadfittingen__p14__2x-binnendraad__MF34038__v4.webp"
     ],
     "variant_count": 7,
     "default_variant_sku": "MF12012",
     "media": [
       {
         "role": "main",
-        "url": "images/messing-draadfittingen/2x-binnendraad__mf34038__img3.webp"
+        "url": "images/messing-draadfittingen/messing-draadfittingen__p14__2x-binnendraad__MF34038__v4.webp"
       }
     ]
   },
   {
-    "group_id": "messing-draadfittingen-1-2",
+    "group_id": "messing-draadfittingen-messing-draadfittingen-1-2",
     "name": "1/2\"",
-    "family": "1-2",
+    "family": "messing-draadfittingen__1-2",
     "catalog": "messing-draadfittingen",
+    "source_pdf": "messing-draadfittingen.pdf",
     "brand": "Various",
     "category": "MF12054 5/4\"",
     "variants": [
       {
         "sku": "MF12064",
         "label": "1/2\"",
+        "page": 6,
         "page_in_pdf": 6,
         "properties": {
           "type": "1_2"
@@ -786,6 +832,7 @@
       {
         "sku": "MF12164",
         "label": "1/2\"",
+        "page": 7,
         "page_in_pdf": 7,
         "properties": {
           "type": "1_2"
@@ -797,6 +844,7 @@
       {
         "sku": "MF31064",
         "label": "1/2\"",
+        "page": 13,
         "page_in_pdf": 13,
         "properties": {
           "type": "1_2"
@@ -808,6 +856,7 @@
       {
         "sku": "MF9064",
         "label": "1/2\"",
+        "page": 4,
         "page_in_pdf": 4,
         "properties": {
           "type": "1_2"
@@ -819,6 +868,7 @@
       {
         "sku": "MF9264",
         "label": "1/2\"",
+        "page": 4,
         "page_in_pdf": 4,
         "properties": {
           "type": "1_2"
@@ -829,10 +879,6 @@
       }
     ],
     "images": [
-      "images/messing-draadfittingen/1-4__mf901.webp",
-      "images/messing-draadfittingen/binnendraad__mf30018.webp",
-      "images/messing-draadfittingen/bestelnr-maat__mf1211__img5.webp",
-      "images/messing-draadfittingen/bestelnr-maat__mf110134__img3.webp",
       "images/messing-draadfittingen/messing-draadfittingen__p6__bestelnr-maat__MF110134-MF1201__v3.webp",
       "images/messing-draadfittingen/messing-draadfittingen__p7__bestelnr-maat__MF1211-MF13038__v5.webp",
       "images/messing-draadfittingen/messing-draadfittingen__p13__binnendraad__MF30018-MF31014__v1.webp",
@@ -843,21 +889,23 @@
     "media": [
       {
         "role": "main",
-        "url": "images/messing-draadfittingen/1-4__mf901.webp"
+        "url": "images/messing-draadfittingen/messing-draadfittingen__p6__bestelnr-maat__MF110134-MF1201__v3.webp"
       }
     ]
   },
   {
-    "group_id": "messing-draadfittingen-binnendraad-buitendraad",
+    "group_id": "messing-draadfittingen-messing-draadfittingen-binnendraad-buitendraad",
     "name": "BINNENDRAAD - BUITENDRAAD",
-    "family": "binnendraad-buitendraad",
+    "family": "messing-draadfittingen__binnendraad-buitendraad",
     "catalog": "messing-draadfittingen",
+    "source_pdf": "messing-draadfittingen.pdf",
     "brand": "Various",
     "category": "Bestelnr Maat",
     "variants": [
       {
         "sku": "MF12112",
         "label": "BINNENDRAAD - BUITENDRAAD",
+        "page": 7,
         "page_in_pdf": 7,
         "properties": {
           "type": "binnendraad_buitendraad"
@@ -869,6 +917,7 @@
       {
         "sku": "MF138",
         "label": "BINNENDRAAD - BUITENDRAAD",
+        "page": 3,
         "page_in_pdf": 3,
         "properties": {
           "type": "binnendraad_buitendraad"
@@ -880,6 +929,7 @@
       {
         "sku": "MF2461418",
         "label": "BINNENDRAAD - BUITENDRAAD",
+        "page": 11,
         "page_in_pdf": 11,
         "properties": {
           "type": "binnendraad_buitendraad"
@@ -891,6 +941,7 @@
       {
         "sku": "MF34118",
         "label": "BINNENDRAAD - BUITENDRAAD",
+        "page": 14,
         "page_in_pdf": 14,
         "properties": {
           "type": "binnendraad_buitendraad"
@@ -902,6 +953,7 @@
       {
         "sku": "MF9214",
         "label": "BINNENDRAAD - BUITENDRAAD",
+        "page": 4,
         "page_in_pdf": 4,
         "properties": {
           "type": "binnendraad_buitendraad"
@@ -913,6 +965,7 @@
       {
         "sku": "MF9838",
         "label": "BINNENDRAAD - BUITENDRAAD",
+        "page": 5,
         "page_in_pdf": 5,
         "properties": {
           "type": "binnendraad_buitendraad"
@@ -923,30 +976,30 @@
       }
     ],
     "images": [
-      "images/messing-draadfittingen/binnendraad-buitendraad__mf2461418__img3.webp",
-      "images/messing-draadfittingen/binnendraad-buitendraad__mf138.webp",
-      "images/messing-draadfittingen/messing-draadfittingen__p3__binnendraad-buitendraad__MF138__v1.webp"
+      "images/messing-draadfittingen/messing-draadfittingen__p11__binnendraad-buitendraad__MF2461418__v4.webp"
     ],
     "variant_count": 6,
     "default_variant_sku": "MF12112",
     "media": [
       {
         "role": "main",
-        "url": "images/messing-draadfittingen/binnendraad-buitendraad__mf2461418__img3.webp"
+        "url": "images/messing-draadfittingen/messing-draadfittingen__p11__binnendraad-buitendraad__MF2461418__v4.webp"
       }
     ]
   },
   {
-    "group_id": "messing-draadfittingen-3x-binnendraad",
+    "group_id": "messing-draadfittingen-messing-draadfittingen-3x-binnendraad",
     "name": "3X BINNENDRAAD",
-    "family": "3x-binnendraad",
+    "family": "messing-draadfittingen__3x-binnendraad",
     "catalog": "messing-draadfittingen",
+    "source_pdf": "messing-draadfittingen.pdf",
     "brand": "Various",
     "category": "Bestelnr Maat",
     "variants": [
       {
         "sku": "MF13018",
         "label": "3X BINNENDRAAD",
+        "page": 7,
         "page_in_pdf": 7,
         "properties": {
           "type": "3x_binnendraad"
@@ -958,6 +1011,7 @@
       {
         "sku": "MF1303412",
         "label": "3X BINNENDRAAD",
+        "page": 8,
         "page_in_pdf": 8,
         "properties": {
           "type": "3x_binnendraad"
@@ -968,8 +1022,6 @@
       }
     ],
     "images": [
-      "images/messing-draadfittingen/4x-binnendraad__mf18038.webp",
-      "images/messing-draadfittingen/bestelnr-maat__mf1211__img5.webp",
       "images/messing-draadfittingen/messing-draadfittingen__p7__bestelnr-maat__MF1211-MF13038__v5.webp",
       "images/messing-draadfittingen/messing-draadfittingen__p8__4x-binnendraad__MF18038__v1.webp"
     ],
@@ -978,21 +1030,23 @@
     "media": [
       {
         "role": "main",
-        "url": "images/messing-draadfittingen/4x-binnendraad__mf18038.webp"
+        "url": "images/messing-draadfittingen/messing-draadfittingen__p7__bestelnr-maat__MF1211-MF13038__v5.webp"
       }
     ]
   },
   {
-    "group_id": "messing-draadfittingen-mf13018-1-8",
+    "group_id": "messing-draadfittingen-messing-draadfittingen-mf13018-1-8",
     "name": "MF13018 1/8\"",
-    "family": "mf13018-1-8",
+    "family": "messing-draadfittingen__mf13018-1-8",
     "catalog": "messing-draadfittingen",
+    "source_pdf": "messing-draadfittingen.pdf",
     "brand": "Various",
     "category": "MF13012 1/2\"",
     "variants": [
       {
         "sku": "MF13034",
         "label": "MF13018 1/8\"",
+        "page": 7,
         "page_in_pdf": 7,
         "properties": {
           "type": "mf13018_1_8"
@@ -1003,7 +1057,6 @@
       }
     ],
     "images": [
-      "images/messing-draadfittingen/bestelnr-maat__mf1211__img5.webp",
       "images/messing-draadfittingen/messing-draadfittingen__p7__bestelnr-maat__MF1211-MF13038__v5.webp"
     ],
     "variant_count": 1,
@@ -1011,21 +1064,23 @@
     "media": [
       {
         "role": "main",
-        "url": "images/messing-draadfittingen/bestelnr-maat__mf1211__img5.webp"
+        "url": "images/messing-draadfittingen/messing-draadfittingen__p7__bestelnr-maat__MF1211-MF13038__v5.webp"
       }
     ]
   },
   {
-    "group_id": "messing-draadfittingen-3-8",
+    "group_id": "messing-draadfittingen-messing-draadfittingen-3-8",
     "name": "3/8\"",
-    "family": "3-8",
+    "family": "messing-draadfittingen__3-8",
     "catalog": "messing-draadfittingen",
+    "source_pdf": "messing-draadfittingen.pdf",
     "brand": "Various",
     "category": "MF1301 1\"",
     "variants": [
       {
         "sku": "MF13054",
         "label": "3/8\"",
+        "page": 7,
         "page_in_pdf": 7,
         "properties": {
           "type": "3_8"
@@ -1037,6 +1092,7 @@
       {
         "sku": "MF27054",
         "label": "3/8\"",
+        "page": 11,
         "page_in_pdf": 11,
         "properties": {
           "type": "3_8"
@@ -1048,6 +1104,7 @@
       {
         "sku": "MF28054",
         "label": "3/8\"",
+        "page": 12,
         "page_in_pdf": 12,
         "properties": {
           "type": "3_8"
@@ -1059,6 +1116,7 @@
       {
         "sku": "MF29054",
         "label": "3/8\"",
+        "page": 12,
         "page_in_pdf": 12,
         "properties": {
           "type": "3_8"
@@ -1070,6 +1128,7 @@
       {
         "sku": "MF30054",
         "label": "3/8\"",
+        "page": 13,
         "page_in_pdf": 13,
         "properties": {
           "type": "3_8"
@@ -1080,10 +1139,6 @@
       }
     ],
     "images": [
-      "images/messing-draadfittingen/binnendraad__mf30018.webp",
-      "images/messing-draadfittingen/buitendraad__mf29018.webp",
-      "images/messing-draadfittingen/binnendraad-buitendraad__mf2461418__img3.webp",
-      "images/messing-draadfittingen/bestelnr-maat__mf1211__img5.webp",
       "images/messing-draadfittingen/messing-draadfittingen__p7__bestelnr-maat__MF1211-MF13038__v5.webp",
       "images/messing-draadfittingen/messing-draadfittingen__p11__binnendraad-buitendraad__MF2461418__v3.webp",
       "images/messing-draadfittingen/messing-draadfittingen__p12__buitendraad__MF29018__v1.webp",
@@ -1094,21 +1149,23 @@
     "media": [
       {
         "role": "main",
-        "url": "images/messing-draadfittingen/binnendraad__mf30018.webp"
+        "url": "images/messing-draadfittingen/messing-draadfittingen__p7__bestelnr-maat__MF1211-MF13038__v5.webp"
       }
     ]
   },
   {
-    "group_id": "messing-draadfittingen-bestelnr-maten",
+    "group_id": "messing-draadfittingen-messing-draadfittingen-bestelnr-maten",
     "name": "Bestelnr Maten",
-    "family": "bestelnr-maten",
+    "family": "messing-draadfittingen__bestelnr-maten",
     "catalog": "messing-draadfittingen",
+    "source_pdf": "messing-draadfittingen.pdf",
     "brand": "Various",
     "category": "MF130112 1\" x 1/2\" x 1\"",
     "variants": [
       {
         "sku": "MF1305434",
         "label": "Bestelnr Maten",
+        "page": 8,
         "page_in_pdf": 8,
         "properties": {
           "type": "bestelnr_maten"
@@ -1120,6 +1177,7 @@
       {
         "sku": "MF2403814",
         "label": "Bestelnr Maten",
+        "page": 9,
         "page_in_pdf": 9,
         "properties": {
           "type": "bestelnr_maten"
@@ -1131,6 +1189,7 @@
       {
         "sku": "MF2413818",
         "label": "Bestelnr Maten",
+        "page": 10,
         "page_in_pdf": 10,
         "properties": {
           "type": "bestelnr_maten"
@@ -1142,6 +1201,7 @@
       {
         "sku": "MF2453814",
         "label": "Bestelnr Maten",
+        "page": 10,
         "page_in_pdf": 10,
         "properties": {
           "type": "bestelnr_maten"
@@ -1153,6 +1213,7 @@
       {
         "sku": "MF2463814",
         "label": "Bestelnr Maten",
+        "page": 11,
         "page_in_pdf": 11,
         "properties": {
           "type": "bestelnr_maten"
@@ -1163,10 +1224,6 @@
       }
     ],
     "images": [
-      "images/messing-draadfittingen/binnendraad-buitendraad__mf2461418__img3.webp",
-      "images/messing-draadfittingen/2x-buitendraad__mf2451418__img2.webp",
-      "images/messing-draadfittingen/2x-binnendraad__mf2401418.webp",
-      "images/messing-draadfittingen/4x-binnendraad__mf18038.webp",
       "images/messing-draadfittingen/messing-draadfittingen__p8__4x-binnendraad__MF18038__v1.webp",
       "images/messing-draadfittingen/messing-draadfittingen__p9__2x-binnendraad__MF2401418__v1.webp",
       "images/messing-draadfittingen/messing-draadfittingen__p10__2x-buitendraad__MF2451418__v2.webp",
@@ -1177,21 +1234,23 @@
     "media": [
       {
         "role": "main",
-        "url": "images/messing-draadfittingen/binnendraad-buitendraad__mf2461418__img3.webp"
+        "url": "images/messing-draadfittingen/messing-draadfittingen__p8__4x-binnendraad__MF18038__v1.webp"
       }
     ]
   },
   {
-    "group_id": "messing-draadfittingen-mf138-3-8",
+    "group_id": "messing-draadfittingen-messing-draadfittingen-mf138-3-8",
     "name": "MF138 3/8\"",
-    "family": "mf138-3-8",
+    "family": "messing-draadfittingen__mf138-3-8",
     "catalog": "messing-draadfittingen",
+    "source_pdf": "messing-draadfittingen.pdf",
     "brand": "Various",
     "category": "MF11 1\"",
     "variants": [
       {
         "sku": "MF154",
         "label": "MF138 3/8\"",
+        "page": 3,
         "page_in_pdf": 3,
         "properties": {
           "type": "mf138_3_8"
@@ -1202,7 +1261,6 @@
       }
     ],
     "images": [
-      "images/messing-draadfittingen/binnendraad-buitendraad__mf138.webp",
       "images/messing-draadfittingen/messing-draadfittingen__p3__binnendraad-buitendraad__MF138__v1.webp"
     ],
     "variant_count": 1,
@@ -1210,21 +1268,23 @@
     "media": [
       {
         "role": "main",
-        "url": "images/messing-draadfittingen/binnendraad-buitendraad__mf138.webp"
+        "url": "images/messing-draadfittingen/messing-draadfittingen__p3__binnendraad-buitendraad__MF138__v1.webp"
       }
     ]
   },
   {
-    "group_id": "messing-draadfittingen-mf18034-3-4",
+    "group_id": "messing-draadfittingen-messing-draadfittingen-mf18034-3-4",
     "name": "MF18034 3/4\"",
-    "family": "mf18034-3-4",
+    "family": "messing-draadfittingen__mf18034-3-4",
     "catalog": "messing-draadfittingen",
+    "source_pdf": "messing-draadfittingen.pdf",
     "brand": "Various",
     "category": "MF18064 6/4\"",
     "variants": [
       {
         "sku": "MF1802",
         "label": "MF18034 3/4\"",
+        "page": 8,
         "page_in_pdf": 8,
         "properties": {
           "type": "mf18034_3_4"
@@ -1235,7 +1295,6 @@
       }
     ],
     "images": [
-      "images/messing-draadfittingen/4x-binnendraad__mf18038.webp",
       "images/messing-draadfittingen/messing-draadfittingen__p8__4x-binnendraad__MF18038__v1.webp"
     ],
     "variant_count": 1,
@@ -1243,21 +1302,23 @@
     "media": [
       {
         "role": "main",
-        "url": "images/messing-draadfittingen/4x-binnendraad__mf18038.webp"
+        "url": "images/messing-draadfittingen/messing-draadfittingen__p8__4x-binnendraad__MF18038__v1.webp"
       }
     ]
   },
   {
-    "group_id": "messing-draadfittingen-4x-binnendraad",
+    "group_id": "messing-draadfittingen-messing-draadfittingen-4x-binnendraad",
     "name": "4X BINNENDRAAD",
-    "family": "4x-binnendraad",
+    "family": "messing-draadfittingen__4x-binnendraad",
     "catalog": "messing-draadfittingen",
+    "source_pdf": "messing-draadfittingen.pdf",
     "brand": "Various",
     "category": "Bestelnr Maat",
     "variants": [
       {
         "sku": "MF18038",
         "label": "4X BINNENDRAAD",
+        "page": 8,
         "page_in_pdf": 8,
         "properties": {
           "type": "4x_binnendraad"
@@ -1268,29 +1329,30 @@
       }
     ],
     "images": [
-      "images/messing-draadfittingen/4x-binnendraad__mf18038.webp",
-      "images/messing-draadfittingen/messing-draadfittingen__p8__4x-binnendraad__MF18038__v1.webp"
+      "images/messing-draadfittingen/messing-draadfittingen__p8__4x-binnendraad__MF18038__v2.webp"
     ],
     "variant_count": 1,
     "default_variant_sku": "MF18038",
     "media": [
       {
         "role": "main",
-        "url": "images/messing-draadfittingen/4x-binnendraad__mf18038.webp"
+        "url": "images/messing-draadfittingen/messing-draadfittingen__p8__4x-binnendraad__MF18038__v2.webp"
       }
     ]
   },
   {
-    "group_id": "messing-draadfittingen-mf18038-3-8",
+    "group_id": "messing-draadfittingen-messing-draadfittingen-mf18038-3-8",
     "name": "MF18038 3/8\"",
-    "family": "mf18038-3-8",
+    "family": "messing-draadfittingen__mf18038-3-8",
     "catalog": "messing-draadfittingen",
+    "source_pdf": "messing-draadfittingen.pdf",
     "brand": "Various",
     "category": "MF1801 1\"",
     "variants": [
       {
         "sku": "MF18054",
         "label": "MF18038 3/8\"",
+        "page": 8,
         "page_in_pdf": 8,
         "properties": {
           "type": "mf18038_3_8"
@@ -1301,7 +1363,6 @@
       }
     ],
     "images": [
-      "images/messing-draadfittingen/4x-binnendraad__mf18038.webp",
       "images/messing-draadfittingen/messing-draadfittingen__p8__4x-binnendraad__MF18038__v1.webp"
     ],
     "variant_count": 1,
@@ -1309,21 +1370,23 @@
     "media": [
       {
         "role": "main",
-        "url": "images/messing-draadfittingen/4x-binnendraad__mf18038.webp"
+        "url": "images/messing-draadfittingen/messing-draadfittingen__p8__4x-binnendraad__MF18038__v1.webp"
       }
     ]
   },
   {
-    "group_id": "messing-draadfittingen-nr-230-messing-kraanverlengstuk",
+    "group_id": "messing-draadfittingen-messing-draadfittingen-nr-230-messing-kraanverlengstuk",
     "name": "NR 230 - MESSING KRAANVERLENGSTUK",
-    "family": "nr-230-messing-kraanverlengstuk",
+    "family": "messing-draadfittingen__nr-230-messing-kraanverlengstuk",
     "catalog": "messing-draadfittingen",
+    "source_pdf": "messing-draadfittingen.pdf",
     "brand": "Various",
     "category": "BINNENDRAAD - BUITENDRAAD",
     "variants": [
       {
         "sku": "MF2301015",
         "label": "NR 230 - MESSING KRAANVERLENGSTUK",
+        "page": 9,
         "page_in_pdf": 9,
         "properties": {
           "type": "nr_230_messing_kraanverlengstuk"
@@ -1335,6 +1398,7 @@
       {
         "sku": "MF2301020",
         "label": "NR 230 - MESSING KRAANVERLENGSTUK",
+        "page": 9,
         "page_in_pdf": 9,
         "properties": {
           "type": "nr_230_messing_kraanverlengstuk"
@@ -1346,6 +1410,7 @@
       {
         "sku": "MF2301025",
         "label": "NR 230 - MESSING KRAANVERLENGSTUK",
+        "page": 9,
         "page_in_pdf": 9,
         "properties": {
           "type": "nr_230_messing_kraanverlengstuk"
@@ -1357,6 +1422,7 @@
       {
         "sku": "MF2301030",
         "label": "NR 230 - MESSING KRAANVERLENGSTUK",
+        "page": 9,
         "page_in_pdf": 9,
         "properties": {
           "type": "nr_230_messing_kraanverlengstuk"
@@ -1368,6 +1434,7 @@
       {
         "sku": "MF2301040",
         "label": "NR 230 - MESSING KRAANVERLENGSTUK",
+        "page": 9,
         "page_in_pdf": 9,
         "properties": {
           "type": "nr_230_messing_kraanverlengstuk"
@@ -1379,6 +1446,7 @@
       {
         "sku": "MF2301050",
         "label": "NR 230 - MESSING KRAANVERLENGSTUK",
+        "page": 9,
         "page_in_pdf": 9,
         "properties": {
           "type": "nr_230_messing_kraanverlengstuk"
@@ -1390,6 +1458,7 @@
       {
         "sku": "MF23012010",
         "label": "NR 230 - MESSING KRAANVERLENGSTUK",
+        "page": 9,
         "page_in_pdf": 9,
         "properties": {
           "type": "nr_230_messing_kraanverlengstuk"
@@ -1401,6 +1470,7 @@
       {
         "sku": "MF23012015",
         "label": "NR 230 - MESSING KRAANVERLENGSTUK",
+        "page": 9,
         "page_in_pdf": 9,
         "properties": {
           "type": "nr_230_messing_kraanverlengstuk"
@@ -1412,6 +1482,7 @@
       {
         "sku": "MF23012020",
         "label": "NR 230 - MESSING KRAANVERLENGSTUK",
+        "page": 9,
         "page_in_pdf": 9,
         "properties": {
           "type": "nr_230_messing_kraanverlengstuk"
@@ -1423,6 +1494,7 @@
       {
         "sku": "MF23012020",
         "label": "NR 230 - MESSING KRAANVERLENGSTUK",
+        "page": 9,
         "page_in_pdf": 9,
         "properties": {
           "type": "nr_230_messing_kraanverlengstuk"
@@ -1434,6 +1506,7 @@
       {
         "sku": "MF23012030",
         "label": "NR 230 - MESSING KRAANVERLENGSTUK",
+        "page": 9,
         "page_in_pdf": 9,
         "properties": {
           "type": "nr_230_messing_kraanverlengstuk"
@@ -1445,6 +1518,7 @@
       {
         "sku": "MF23012030",
         "label": "NR 230 - MESSING KRAANVERLENGSTUK",
+        "page": 9,
         "page_in_pdf": 9,
         "properties": {
           "type": "nr_230_messing_kraanverlengstuk"
@@ -1456,6 +1530,7 @@
       {
         "sku": "MF23012050",
         "label": "NR 230 - MESSING KRAANVERLENGSTUK",
+        "page": 9,
         "page_in_pdf": 9,
         "properties": {
           "type": "nr_230_messing_kraanverlengstuk"
@@ -1467,6 +1542,7 @@
       {
         "sku": "MF23012080",
         "label": "NR 230 - MESSING KRAANVERLENGSTUK",
+        "page": 9,
         "page_in_pdf": 9,
         "properties": {
           "type": "nr_230_messing_kraanverlengstuk"
@@ -1478,6 +1554,7 @@
       {
         "sku": "MF23012100",
         "label": "NR 230 - MESSING KRAANVERLENGSTUK",
+        "page": 9,
         "page_in_pdf": 9,
         "properties": {
           "type": "nr_230_messing_kraanverlengstuk"
@@ -1489,6 +1566,7 @@
       {
         "sku": "MF23034010",
         "label": "NR 230 - MESSING KRAANVERLENGSTUK",
+        "page": 9,
         "page_in_pdf": 9,
         "properties": {
           "type": "nr_230_messing_kraanverlengstuk"
@@ -1500,6 +1578,7 @@
       {
         "sku": "MF23034015",
         "label": "NR 230 - MESSING KRAANVERLENGSTUK",
+        "page": 9,
         "page_in_pdf": 9,
         "properties": {
           "type": "nr_230_messing_kraanverlengstuk"
@@ -1511,6 +1590,7 @@
       {
         "sku": "MF23034020",
         "label": "NR 230 - MESSING KRAANVERLENGSTUK",
+        "page": 9,
         "page_in_pdf": 9,
         "properties": {
           "type": "nr_230_messing_kraanverlengstuk"
@@ -1522,6 +1602,7 @@
       {
         "sku": "MF23034025",
         "label": "NR 230 - MESSING KRAANVERLENGSTUK",
+        "page": 9,
         "page_in_pdf": 9,
         "properties": {
           "type": "nr_230_messing_kraanverlengstuk"
@@ -1533,6 +1614,7 @@
       {
         "sku": "MF23034030",
         "label": "NR 230 - MESSING KRAANVERLENGSTUK",
+        "page": 9,
         "page_in_pdf": 9,
         "properties": {
           "type": "nr_230_messing_kraanverlengstuk"
@@ -1544,6 +1626,7 @@
       {
         "sku": "MF23034040",
         "label": "NR 230 - MESSING KRAANVERLENGSTUK",
+        "page": 9,
         "page_in_pdf": 9,
         "properties": {
           "type": "nr_230_messing_kraanverlengstuk"
@@ -1555,6 +1638,7 @@
       {
         "sku": "MF23034080",
         "label": "NR 230 - MESSING KRAANVERLENGSTUK",
+        "page": 9,
         "page_in_pdf": 9,
         "properties": {
           "type": "nr_230_messing_kraanverlengstuk"
@@ -1566,6 +1650,7 @@
       {
         "sku": "MF23034100",
         "label": "NR 230 - MESSING KRAANVERLENGSTUK",
+        "page": 9,
         "page_in_pdf": 9,
         "properties": {
           "type": "nr_230_messing_kraanverlengstuk"
@@ -1577,6 +1662,7 @@
       {
         "sku": "MF23054015",
         "label": "NR 230 - MESSING KRAANVERLENGSTUK",
+        "page": 9,
         "page_in_pdf": 9,
         "properties": {
           "type": "nr_230_messing_kraanverlengstuk"
@@ -1588,6 +1674,7 @@
       {
         "sku": "MF23054030",
         "label": "NR 230 - MESSING KRAANVERLENGSTUK",
+        "page": 9,
         "page_in_pdf": 9,
         "properties": {
           "type": "nr_230_messing_kraanverlengstuk"
@@ -1599,6 +1686,7 @@
       {
         "sku": null,
         "label": "NR 230 - MESSING KRAANVERLENGSTUK",
+        "page": 9,
         "page_in_pdf": 9,
         "properties": {
           "type": "nr_230_messing_kraanverlengstuk"
@@ -1609,7 +1697,6 @@
       }
     ],
     "images": [
-      "images/messing-draadfittingen/2x-binnendraad__mf2401418.webp",
       "images/messing-draadfittingen/messing-draadfittingen__p9__2x-binnendraad__MF2401418__v1.webp"
     ],
     "variant_count": 26,
@@ -1617,21 +1704,23 @@
     "media": [
       {
         "role": "main",
-        "url": "images/messing-draadfittingen/2x-binnendraad__mf2401418.webp"
+        "url": "images/messing-draadfittingen/messing-draadfittingen__p9__2x-binnendraad__MF2401418__v1.webp"
       }
     ]
   },
   {
-    "group_id": "messing-draadfittingen-1-2-x-3-8",
+    "group_id": "messing-draadfittingen-messing-draadfittingen-1-2-x-3-8",
     "name": "1/2\" x 3/8\"",
-    "family": "1-2-x-3-8",
+    "family": "messing-draadfittingen__1-2-x-3-8",
     "catalog": "messing-draadfittingen",
+    "source_pdf": "messing-draadfittingen.pdf",
     "brand": "Various",
     "category": "MF2403412 3/4\" x 1/2\"",
     "variants": [
       {
         "sku": "MF240112",
         "label": "1/2\" x 3/8\"",
+        "page": 9,
         "page_in_pdf": 9,
         "properties": {
           "type": "1_2_x_3_8"
@@ -1642,7 +1731,6 @@
       }
     ],
     "images": [
-      "images/messing-draadfittingen/2x-binnendraad__mf2401418.webp",
       "images/messing-draadfittingen/messing-draadfittingen__p9__2x-binnendraad__MF2401418__v1.webp"
     ],
     "variant_count": 1,
@@ -1650,21 +1738,23 @@
     "media": [
       {
         "role": "main",
-        "url": "images/messing-draadfittingen/2x-binnendraad__mf2401418.webp"
+        "url": "images/messing-draadfittingen/messing-draadfittingen__p9__2x-binnendraad__MF2401418__v1.webp"
       }
     ]
   },
   {
-    "group_id": "messing-draadfittingen-1-4-x-1-8",
+    "group_id": "messing-draadfittingen-messing-draadfittingen-1-4-x-1-8",
     "name": "1/4\" x 1/8\"",
-    "family": "1-4-x-1-8",
+    "family": "messing-draadfittingen__1-4-x-1-8",
     "catalog": "messing-draadfittingen",
+    "source_pdf": "messing-draadfittingen.pdf",
     "brand": "Various",
     "category": "MF2401214 1/2\" x 1/4\"",
     "variants": [
       {
         "sku": "MF2401238",
         "label": "1/4\" x 1/8\"",
+        "page": 9,
         "page_in_pdf": 9,
         "properties": {
           "type": "1_4_x_1_8"
@@ -1676,6 +1766,7 @@
       {
         "sku": "MF2451214",
         "label": "1/4\" x 1/8\"",
+        "page": 10,
         "page_in_pdf": 10,
         "properties": {
           "type": "1_4_x_1_8"
@@ -1687,6 +1778,7 @@
       {
         "sku": "MF2461238",
         "label": "1/4\" x 1/8\"",
+        "page": 11,
         "page_in_pdf": 11,
         "properties": {
           "type": "1_4_x_1_8"
@@ -1697,9 +1789,6 @@
       }
     ],
     "images": [
-      "images/messing-draadfittingen/binnendraad-buitendraad__mf2461418__img3.webp",
-      "images/messing-draadfittingen/2x-buitendraad__mf2451418__img2.webp",
-      "images/messing-draadfittingen/2x-binnendraad__mf2401418.webp",
       "images/messing-draadfittingen/messing-draadfittingen__p9__2x-binnendraad__MF2401418__v1.webp",
       "images/messing-draadfittingen/messing-draadfittingen__p10__2x-buitendraad__MF2451418__v2.webp",
       "images/messing-draadfittingen/messing-draadfittingen__p11__binnendraad-buitendraad__MF2461418__v3.webp"
@@ -1709,21 +1798,23 @@
     "media": [
       {
         "role": "main",
-        "url": "images/messing-draadfittingen/binnendraad-buitendraad__mf2461418__img3.webp"
+        "url": "images/messing-draadfittingen/messing-draadfittingen__p9__2x-binnendraad__MF2401418__v1.webp"
       }
     ]
   },
   {
-    "group_id": "messing-draadfittingen-mf2403814-3-8-x-1-4",
+    "group_id": "messing-draadfittingen-messing-draadfittingen-mf2403814-3-8-x-1-4",
     "name": "MF2403814 3/8\" x 1/4\"",
-    "family": "mf2403814-3-8-x-1-4",
+    "family": "messing-draadfittingen__mf2403814-3-8-x-1-4",
     "catalog": "messing-draadfittingen",
+    "source_pdf": "messing-draadfittingen.pdf",
     "brand": "Various",
     "category": "MF2403414 3/4\" x 1/4\"",
     "variants": [
       {
         "sku": "MF2403438",
         "label": "MF2403814 3/8\" x 1/4\"",
+        "page": 9,
         "page_in_pdf": 9,
         "properties": {
           "type": "mf2403814_3_8_x_1_4"
@@ -1734,7 +1825,6 @@
       }
     ],
     "images": [
-      "images/messing-draadfittingen/2x-binnendraad__mf2401418.webp",
       "images/messing-draadfittingen/messing-draadfittingen__p9__2x-binnendraad__MF2401418__v1.webp"
     ],
     "variant_count": 1,
@@ -1742,21 +1832,23 @@
     "media": [
       {
         "role": "main",
-        "url": "images/messing-draadfittingen/2x-binnendraad__mf2401418.webp"
+        "url": "images/messing-draadfittingen/messing-draadfittingen__p9__2x-binnendraad__MF2401418__v1.webp"
       }
     ]
   },
   {
-    "group_id": "messing-draadfittingen-3-4-x-3-8",
+    "group_id": "messing-draadfittingen-messing-draadfittingen-3-4-x-3-8",
     "name": "3/4\" x 3/8\"",
-    "family": "3-4-x-3-8",
+    "family": "messing-draadfittingen__3-4-x-3-8",
     "catalog": "messing-draadfittingen",
+    "source_pdf": "messing-draadfittingen.pdf",
     "brand": "Various",
     "category": "MF240134",
     "variants": [
       {
         "sku": "MF240541",
         "label": "3/4\" x 3/8\"",
+        "page": 9,
         "page_in_pdf": 9,
         "properties": {
           "type": "3_4_x_3_8"
@@ -1767,7 +1859,6 @@
       }
     ],
     "images": [
-      "images/messing-draadfittingen/2x-binnendraad__mf2401418.webp",
       "images/messing-draadfittingen/messing-draadfittingen__p9__2x-binnendraad__MF2401418__v1.webp"
     ],
     "variant_count": 1,
@@ -1775,21 +1866,23 @@
     "media": [
       {
         "role": "main",
-        "url": "images/messing-draadfittingen/2x-binnendraad__mf2401418.webp"
+        "url": "images/messing-draadfittingen/messing-draadfittingen__p9__2x-binnendraad__MF2401418__v1.webp"
       }
     ]
   },
   {
-    "group_id": "messing-draadfittingen-mf240112-1-x-1-2",
+    "group_id": "messing-draadfittingen-messing-draadfittingen-mf240112-1-x-1-2",
     "name": "MF240112 1\" x 1/2\"",
-    "family": "mf240112-1-x-1-2",
+    "family": "messing-draadfittingen__mf240112-1-x-1-2",
     "catalog": "messing-draadfittingen",
+    "source_pdf": "messing-draadfittingen.pdf",
     "brand": "Various",
     "category": "MF240641 6/4\" x 1\"",
     "variants": [
       {
         "sku": "MF2406454",
         "label": "MF240112 1\" x 1/2\"",
+        "page": 9,
         "page_in_pdf": 9,
         "properties": {
           "type": "mf240112_1_x_1_2"
@@ -1800,7 +1893,6 @@
       }
     ],
     "images": [
-      "images/messing-draadfittingen/2x-binnendraad__mf2401418.webp",
       "images/messing-draadfittingen/messing-draadfittingen__p9__2x-binnendraad__MF2401418__v1.webp"
     ],
     "variant_count": 1,
@@ -1808,21 +1900,23 @@
     "media": [
       {
         "role": "main",
-        "url": "images/messing-draadfittingen/2x-binnendraad__mf2401418.webp"
+        "url": "images/messing-draadfittingen/messing-draadfittingen__p9__2x-binnendraad__MF2401418__v1.webp"
       }
     ]
   },
   {
-    "group_id": "messing-draadfittingen-mf2411418-1-4-x-1-8",
+    "group_id": "messing-draadfittingen-messing-draadfittingen-mf2411418-1-4-x-1-8",
     "name": "MF2411418 1/4\" x 1/8\"",
-    "family": "mf2411418-1-4-x-1-8",
+    "family": "messing-draadfittingen__mf2411418-1-4-x-1-8",
     "catalog": "messing-draadfittingen",
+    "source_pdf": "messing-draadfittingen.pdf",
     "brand": "Various",
     "category": "MF2411214",
     "variants": [
       {
         "sku": "MF2411218",
         "label": "MF2411418 1/4\" x 1/8\"",
+        "page": 10,
         "page_in_pdf": 10,
         "properties": {
           "type": "mf2411418_1_4_x_1_8"
@@ -1833,7 +1927,6 @@
       }
     ],
     "images": [
-      "images/messing-draadfittingen/2x-buitendraad__mf2451418__img2.webp",
       "images/messing-draadfittingen/messing-draadfittingen__p10__2x-buitendraad__MF2451418__v2.webp"
     ],
     "variant_count": 1,
@@ -1841,21 +1934,23 @@
     "media": [
       {
         "role": "main",
-        "url": "images/messing-draadfittingen/2x-buitendraad__mf2451418__img2.webp"
+        "url": "images/messing-draadfittingen/messing-draadfittingen__p10__2x-buitendraad__MF2451418__v2.webp"
       }
     ]
   },
   {
-    "group_id": "messing-draadfittingen-3-4-x-1-2",
+    "group_id": "messing-draadfittingen-messing-draadfittingen-3-4-x-1-2",
     "name": "3/4\" x 1/2\"",
-    "family": "3-4-x-1-2",
+    "family": "messing-draadfittingen__3-4-x-1-2",
     "catalog": "messing-draadfittingen",
+    "source_pdf": "messing-draadfittingen.pdf",
     "brand": "Various",
     "category": "MF241112",
     "variants": [
       {
         "sku": "MF241134",
         "label": "3/4\" x 1/2\"",
+        "page": 10,
         "page_in_pdf": 10,
         "properties": {
           "type": "3_4_x_1_2"
@@ -1867,6 +1962,7 @@
       {
         "sku": "MF246541",
         "label": "3/4\" x 1/2\"",
+        "page": 11,
         "page_in_pdf": 11,
         "properties": {
           "type": "3_4_x_1_2"
@@ -1877,8 +1973,6 @@
       }
     ],
     "images": [
-      "images/messing-draadfittingen/binnendraad-buitendraad__mf2461418__img3.webp",
-      "images/messing-draadfittingen/2x-buitendraad__mf2451418__img2.webp",
       "images/messing-draadfittingen/messing-draadfittingen__p10__2x-buitendraad__MF2451418__v2.webp",
       "images/messing-draadfittingen/messing-draadfittingen__p11__binnendraad-buitendraad__MF2461418__v3.webp"
     ],
@@ -1887,21 +1981,23 @@
     "media": [
       {
         "role": "main",
-        "url": "images/messing-draadfittingen/binnendraad-buitendraad__mf2461418__img3.webp"
+        "url": "images/messing-draadfittingen/messing-draadfittingen__p10__2x-buitendraad__MF2451418__v2.webp"
       }
     ]
   },
   {
-    "group_id": "messing-draadfittingen-mf2413414-3-4-x-1-4",
+    "group_id": "messing-draadfittingen-messing-draadfittingen-mf2413414-3-4-x-1-4",
     "name": "MF2413414 3/4\" x 1/4\"",
-    "family": "mf2413414-3-4-x-1-4",
+    "family": "messing-draadfittingen__mf2413414-3-4-x-1-4",
     "catalog": "messing-draadfittingen",
+    "source_pdf": "messing-draadfittingen.pdf",
     "brand": "Various",
     "category": "MF241114 1\" x 1/4\"",
     "variants": [
       {
         "sku": "MF241138",
         "label": "MF2413414 3/4\" x 1/4\"",
+        "page": 10,
         "page_in_pdf": 10,
         "properties": {
           "type": "mf2413414_3_4_x_1_4"
@@ -1912,7 +2008,6 @@
       }
     ],
     "images": [
-      "images/messing-draadfittingen/2x-buitendraad__mf2451418__img2.webp",
       "images/messing-draadfittingen/messing-draadfittingen__p10__2x-buitendraad__MF2451418__v2.webp"
     ],
     "variant_count": 1,
@@ -1920,21 +2015,23 @@
     "media": [
       {
         "role": "main",
-        "url": "images/messing-draadfittingen/2x-buitendraad__mf2451418__img2.webp"
+        "url": "images/messing-draadfittingen/messing-draadfittingen__p10__2x-buitendraad__MF2451418__v2.webp"
       }
     ]
   },
   {
-    "group_id": "messing-draadfittingen-buitendraad-binnendraad",
+    "group_id": "messing-draadfittingen-messing-draadfittingen-buitendraad-binnendraad",
     "name": "BUITENDRAAD - BINNENDRAAD",
-    "family": "buitendraad-binnendraad",
+    "family": "messing-draadfittingen__buitendraad-binnendraad",
     "catalog": "messing-draadfittingen",
+    "source_pdf": "messing-draadfittingen.pdf",
     "brand": "Various",
     "category": "Bestelnr Maten",
     "variants": [
       {
         "sku": "MF2411418",
         "label": "BUITENDRAAD - BINNENDRAAD",
+        "page": 10,
         "page_in_pdf": 10,
         "properties": {
           "type": "buitendraad_binnendraad"
@@ -1945,7 +2042,6 @@
       }
     ],
     "images": [
-      "images/messing-draadfittingen/2x-buitendraad__mf2451418__img2.webp",
       "images/messing-draadfittingen/messing-draadfittingen__p10__2x-buitendraad__MF2451418__v2.webp"
     ],
     "variant_count": 1,
@@ -1953,21 +2049,23 @@
     "media": [
       {
         "role": "main",
-        "url": "images/messing-draadfittingen/2x-buitendraad__mf2451418__img2.webp"
+        "url": "images/messing-draadfittingen/messing-draadfittingen__p10__2x-buitendraad__MF2451418__v2.webp"
       }
     ]
   },
   {
-    "group_id": "messing-draadfittingen-mf2416412-6-4-x-1-2",
+    "group_id": "messing-draadfittingen-messing-draadfittingen-mf2416412-6-4-x-1-2",
     "name": "MF2416412 6/4\" x 1/2\"",
-    "family": "mf2416412-6-4-x-1-2",
+    "family": "messing-draadfittingen__mf2416412-6-4-x-1-2",
     "catalog": "messing-draadfittingen",
+    "source_pdf": "messing-draadfittingen.pdf",
     "brand": "Various",
     "category": "MF2416454 6/4\" x 5/4\"",
     "variants": [
       {
         "sku": "MF241234",
         "label": "MF2416412 6/4\" x 1/2\"",
+        "page": 10,
         "page_in_pdf": 10,
         "properties": {
           "type": "mf2416412_6_4_x_1_2"
@@ -1978,7 +2076,6 @@
       }
     ],
     "images": [
-      "images/messing-draadfittingen/2x-buitendraad__mf2451418__img2.webp",
       "images/messing-draadfittingen/messing-draadfittingen__p10__2x-buitendraad__MF2451418__v2.webp"
     ],
     "variant_count": 1,
@@ -1986,21 +2083,23 @@
     "media": [
       {
         "role": "main",
-        "url": "images/messing-draadfittingen/2x-buitendraad__mf2451418__img2.webp"
+        "url": "images/messing-draadfittingen/messing-draadfittingen__p10__2x-buitendraad__MF2451418__v2.webp"
       }
     ]
   },
   {
-    "group_id": "messing-draadfittingen-mf241234-2-x-3-4",
+    "group_id": "messing-draadfittingen-messing-draadfittingen-mf241234-2-x-3-4",
     "name": "MF241234 2\" x 3/4\"",
-    "family": "mf241234-2-x-3-4",
+    "family": "messing-draadfittingen__mf241234-2-x-3-4",
     "catalog": "messing-draadfittingen",
+    "source_pdf": "messing-draadfittingen.pdf",
     "brand": "Various",
     "category": "MF241264 2\" x 6/4\"",
     "variants": [
       {
         "sku": "MF241252",
         "label": "MF241234 2\" x 3/4\"",
+        "page": 10,
         "page_in_pdf": 10,
         "properties": {
           "type": "mf241234_2_x_3_4"
@@ -2011,7 +2110,6 @@
       }
     ],
     "images": [
-      "images/messing-draadfittingen/2x-buitendraad__mf2451418__img2.webp",
       "images/messing-draadfittingen/messing-draadfittingen__p10__2x-buitendraad__MF2451418__v2.webp"
     ],
     "variant_count": 1,
@@ -2019,21 +2117,23 @@
     "media": [
       {
         "role": "main",
-        "url": "images/messing-draadfittingen/2x-buitendraad__mf2451418__img2.webp"
+        "url": "images/messing-draadfittingen/messing-draadfittingen__p10__2x-buitendraad__MF2451418__v2.webp"
       }
     ]
   },
   {
-    "group_id": "messing-draadfittingen-6-4-x-1",
+    "group_id": "messing-draadfittingen-messing-draadfittingen-6-4-x-1",
     "name": "6/4\" x 1\"",
-    "family": "6-4-x-1",
+    "family": "messing-draadfittingen__6-4-x-1",
     "catalog": "messing-draadfittingen",
+    "source_pdf": "messing-draadfittingen.pdf",
     "brand": "Various",
     "category": "MF24121",
     "variants": [
       {
         "sku": "MF241254",
         "label": "6/4\" x 1\"",
+        "page": 10,
         "page_in_pdf": 10,
         "properties": {
           "type": "6_4_x_1"
@@ -2044,7 +2144,6 @@
       }
     ],
     "images": [
-      "images/messing-draadfittingen/2x-buitendraad__mf2451418__img2.webp",
       "images/messing-draadfittingen/messing-draadfittingen__p10__2x-buitendraad__MF2451418__v2.webp"
     ],
     "variant_count": 1,
@@ -2052,21 +2151,23 @@
     "media": [
       {
         "role": "main",
-        "url": "images/messing-draadfittingen/2x-buitendraad__mf2451418__img2.webp"
+        "url": "images/messing-draadfittingen/messing-draadfittingen__p10__2x-buitendraad__MF2451418__v2.webp"
       }
     ]
   },
   {
-    "group_id": "messing-draadfittingen-2-x-5-4",
+    "group_id": "messing-draadfittingen-messing-draadfittingen-2-x-5-4",
     "name": "2\" x 5/4\"",
-    "family": "2-x-5-4",
+    "family": "messing-draadfittingen__2-x-5-4",
     "catalog": "messing-draadfittingen",
+    "source_pdf": "messing-draadfittingen.pdf",
     "brand": "Various",
     "category": "MF24132 3\" x 2\"",
     "variants": [
       {
         "sku": "MF241325",
         "label": "2\" x 5/4\"",
+        "page": 10,
         "page_in_pdf": 10,
         "properties": {
           "type": "2_x_5_4"
@@ -2077,7 +2178,6 @@
       }
     ],
     "images": [
-      "images/messing-draadfittingen/2x-buitendraad__mf2451418__img2.webp",
       "images/messing-draadfittingen/messing-draadfittingen__p10__2x-buitendraad__MF2451418__v2.webp"
     ],
     "variant_count": 1,
@@ -2085,21 +2185,23 @@
     "media": [
       {
         "role": "main",
-        "url": "images/messing-draadfittingen/2x-buitendraad__mf2451418__img2.webp"
+        "url": "images/messing-draadfittingen/messing-draadfittingen__p10__2x-buitendraad__MF2451418__v2.webp"
       }
     ]
   },
   {
-    "group_id": "messing-draadfittingen-1-2-x-1-8",
+    "group_id": "messing-draadfittingen-messing-draadfittingen-1-2-x-1-8",
     "name": "1/2\" x 1/8\"",
-    "family": "1-2-x-1-8",
+    "family": "messing-draadfittingen__1-2-x-1-8",
     "catalog": "messing-draadfittingen",
+    "source_pdf": "messing-draadfittingen.pdf",
     "brand": "Various",
     "category": "MF2413438",
     "variants": [
       {
         "sku": "MF2413412",
         "label": "1/2\" x 1/8\"",
+        "page": 10,
         "page_in_pdf": 10,
         "properties": {
           "type": "1_2_x_1_8"
@@ -2110,7 +2212,6 @@
       }
     ],
     "images": [
-      "images/messing-draadfittingen/2x-buitendraad__mf2451418__img2.webp",
       "images/messing-draadfittingen/messing-draadfittingen__p10__2x-buitendraad__MF2451418__v2.webp"
     ],
     "variant_count": 1,
@@ -2118,21 +2219,23 @@
     "media": [
       {
         "role": "main",
-        "url": "images/messing-draadfittingen/2x-buitendraad__mf2451418__img2.webp"
+        "url": "images/messing-draadfittingen/messing-draadfittingen__p10__2x-buitendraad__MF2451418__v2.webp"
       }
     ]
   },
   {
-    "group_id": "messing-draadfittingen-mf2413818-3-8-x-1-8",
+    "group_id": "messing-draadfittingen-messing-draadfittingen-mf2413818-3-8-x-1-8",
     "name": "MF2413818 3/8\" x 1/8\"",
-    "family": "mf2413818-3-8-x-1-8",
+    "family": "messing-draadfittingen__mf2413818-3-8-x-1-8",
     "catalog": "messing-draadfittingen",
+    "source_pdf": "messing-draadfittingen.pdf",
     "brand": "Various",
     "category": "MF2411238 1/2\" x 3/8\"",
     "variants": [
       {
         "sku": "MF2413414",
         "label": "MF2413818 3/8\" x 1/8\"",
+        "page": 10,
         "page_in_pdf": 10,
         "properties": {
           "type": "mf2413818_3_8_x_1_8"
@@ -2143,7 +2246,6 @@
       }
     ],
     "images": [
-      "images/messing-draadfittingen/2x-buitendraad__mf2451418__img2.webp",
       "images/messing-draadfittingen/messing-draadfittingen__p10__2x-buitendraad__MF2451418__v2.webp"
     ],
     "variant_count": 1,
@@ -2151,21 +2253,23 @@
     "media": [
       {
         "role": "main",
-        "url": "images/messing-draadfittingen/2x-buitendraad__mf2451418__img2.webp"
+        "url": "images/messing-draadfittingen/messing-draadfittingen__p10__2x-buitendraad__MF2451418__v2.webp"
       }
     ]
   },
   {
-    "group_id": "messing-draadfittingen-mf241138-1-x-3-8",
+    "group_id": "messing-draadfittingen-messing-draadfittingen-mf241138-1-x-3-8",
     "name": "MF241138 1\" x 3/8\"",
-    "family": "mf241138-1-x-3-8",
+    "family": "messing-draadfittingen__mf241138-1-x-3-8",
     "catalog": "messing-draadfittingen",
+    "source_pdf": "messing-draadfittingen.pdf",
     "brand": "Various",
     "category": "MF2415412 5/4\" x 1/2\"",
     "variants": [
       {
         "sku": "MF2415434",
         "label": "MF241138 1\" x 3/8\"",
+        "page": 10,
         "page_in_pdf": 10,
         "properties": {
           "type": "mf241138_1_x_3_8"
@@ -2176,7 +2280,6 @@
       }
     ],
     "images": [
-      "images/messing-draadfittingen/2x-buitendraad__mf2451418__img2.webp",
       "images/messing-draadfittingen/messing-draadfittingen__p10__2x-buitendraad__MF2451418__v2.webp"
     ],
     "variant_count": 1,
@@ -2184,21 +2287,23 @@
     "media": [
       {
         "role": "main",
-        "url": "images/messing-draadfittingen/2x-buitendraad__mf2451418__img2.webp"
+        "url": "images/messing-draadfittingen/messing-draadfittingen__p10__2x-buitendraad__MF2451418__v2.webp"
       }
     ]
   },
   {
-    "group_id": "messing-draadfittingen-mf2415434-5-4-x-3-4",
+    "group_id": "messing-draadfittingen-messing-draadfittingen-mf2415434-5-4-x-3-4",
     "name": "MF2415434 5/4\" x 3/4\"",
-    "family": "mf2415434-5-4-x-3-4",
+    "family": "messing-draadfittingen__mf2415434-5-4-x-3-4",
     "catalog": "messing-draadfittingen",
+    "source_pdf": "messing-draadfittingen.pdf",
     "brand": "Various",
     "category": "MF2416434",
     "variants": [
       {
         "sku": "MF241641",
         "label": "MF2415434 5/4\" x 3/4\"",
+        "page": 10,
         "page_in_pdf": 10,
         "properties": {
           "type": "mf2415434_5_4_x_3_4"
@@ -2209,7 +2314,6 @@
       }
     ],
     "images": [
-      "images/messing-draadfittingen/2x-buitendraad__mf2451418__img2.webp",
       "images/messing-draadfittingen/messing-draadfittingen__p10__2x-buitendraad__MF2451418__v2.webp"
     ],
     "variant_count": 1,
@@ -2217,21 +2321,23 @@
     "media": [
       {
         "role": "main",
-        "url": "images/messing-draadfittingen/2x-buitendraad__mf2451418__img2.webp"
+        "url": "images/messing-draadfittingen/messing-draadfittingen__p10__2x-buitendraad__MF2451418__v2.webp"
       }
     ]
   },
   {
-    "group_id": "messing-draadfittingen-1-x-3-4",
+    "group_id": "messing-draadfittingen-messing-draadfittingen-1-x-3-4",
     "name": "1\" x 3/4\"",
-    "family": "1-x-3-4",
+    "family": "messing-draadfittingen__1-x-3-4",
     "catalog": "messing-draadfittingen",
+    "source_pdf": "messing-draadfittingen.pdf",
     "brand": "Various",
     "category": "MF241541 5/4\" x 1\"",
     "variants": [
       {
         "sku": "MF2416412",
         "label": "1\" x 3/4\"",
+        "page": 10,
         "page_in_pdf": 10,
         "properties": {
           "type": "1_x_3_4"
@@ -2243,6 +2349,7 @@
       {
         "sku": "MF245541",
         "label": "1\" x 3/4\"",
+        "page": 10,
         "page_in_pdf": 10,
         "properties": {
           "type": "1_x_3_4"
@@ -2253,7 +2360,6 @@
       }
     ],
     "images": [
-      "images/messing-draadfittingen/2x-buitendraad__mf2451418__img2.webp",
       "images/messing-draadfittingen/messing-draadfittingen__p10__2x-buitendraad__MF2451418__v2.webp"
     ],
     "variant_count": 2,
@@ -2261,21 +2367,23 @@
     "media": [
       {
         "role": "main",
-        "url": "images/messing-draadfittingen/2x-buitendraad__mf2451418__img2.webp"
+        "url": "images/messing-draadfittingen/messing-draadfittingen__p10__2x-buitendraad__MF2451418__v2.webp"
       }
     ]
   },
   {
-    "group_id": "messing-draadfittingen-3-4-x-1-4",
+    "group_id": "messing-draadfittingen-messing-draadfittingen-3-4-x-1-4",
     "name": "3/4\" x 1/4\"",
-    "family": "3-4-x-1-4",
+    "family": "messing-draadfittingen__3-4-x-1-4",
     "catalog": "messing-draadfittingen",
+    "source_pdf": "messing-draadfittingen.pdf",
     "brand": "Various",
     "category": "MF245112 1\" x 1/2\"",
     "variants": [
       {
         "sku": "MF245134",
         "label": "3/4\" x 1/4\"",
+        "page": 10,
         "page_in_pdf": 10,
         "properties": {
           "type": "3_4_x_1_4"
@@ -2286,7 +2394,6 @@
       }
     ],
     "images": [
-      "images/messing-draadfittingen/2x-buitendraad__mf2451418__img2.webp",
       "images/messing-draadfittingen/messing-draadfittingen__p10__2x-buitendraad__MF2451418__v2.webp"
     ],
     "variant_count": 1,
@@ -2294,21 +2401,23 @@
     "media": [
       {
         "role": "main",
-        "url": "images/messing-draadfittingen/2x-buitendraad__mf2451418__img2.webp"
+        "url": "images/messing-draadfittingen/messing-draadfittingen__p10__2x-buitendraad__MF2451418__v2.webp"
       }
     ]
   },
   {
-    "group_id": "messing-draadfittingen-2x-buitendraad",
+    "group_id": "messing-draadfittingen-messing-draadfittingen-2x-buitendraad",
     "name": "2X BUITENDRAAD",
-    "family": "2x-buitendraad",
+    "family": "messing-draadfittingen__2x-buitendraad",
     "catalog": "messing-draadfittingen",
+    "source_pdf": "messing-draadfittingen.pdf",
     "brand": "Various",
     "category": "Bestelnr Maten",
     "variants": [
       {
         "sku": "MF2451418",
         "label": "2X BUITENDRAAD",
+        "page": 10,
         "page_in_pdf": 10,
         "properties": {
           "type": "2x_buitendraad"
@@ -2320,6 +2429,7 @@
       {
         "sku": "MF28018",
         "label": "2X BUITENDRAAD",
+        "page": 12,
         "page_in_pdf": 12,
         "properties": {
           "type": "2x_buitendraad"
@@ -2331,6 +2441,7 @@
       {
         "sku": "MF9412",
         "label": "2X BUITENDRAAD",
+        "page": 4,
         "page_in_pdf": 4,
         "properties": {
           "type": "2x_buitendraad"
@@ -2341,30 +2452,30 @@
       }
     ],
     "images": [
-      "images/messing-draadfittingen/2x-buitendraad__mf9412.webp",
-      "images/messing-draadfittingen/2x-buitendraad__mf2451418__img2.webp",
-      "images/messing-draadfittingen/messing-draadfittingen__p4__2x-buitendraad__MF9412.webp"
+      "images/messing-draadfittingen/messing-draadfittingen__p10__2x-buitendraad__MF2451418__v3.webp"
     ],
     "variant_count": 3,
     "default_variant_sku": "MF2451418",
     "media": [
       {
         "role": "main",
-        "url": "images/messing-draadfittingen/2x-buitendraad__mf9412.webp"
+        "url": "images/messing-draadfittingen/messing-draadfittingen__p10__2x-buitendraad__MF2451418__v3.webp"
       }
     ]
   },
   {
-    "group_id": "messing-draadfittingen-6-4-x-3-4",
+    "group_id": "messing-draadfittingen-messing-draadfittingen-6-4-x-3-4",
     "name": "6/4\" x 3/4\"",
-    "family": "6-4-x-3-4",
+    "family": "messing-draadfittingen__6-4-x-3-4",
     "catalog": "messing-draadfittingen",
+    "source_pdf": "messing-draadfittingen.pdf",
     "brand": "Various",
     "category": "MF24521 2\" x 1\"",
     "variants": [
       {
         "sku": "MF245254",
         "label": "6/4\" x 3/4\"",
+        "page": 10,
         "page_in_pdf": 10,
         "properties": {
           "type": "6_4_x_3_4"
@@ -2375,7 +2486,6 @@
       }
     ],
     "images": [
-      "images/messing-draadfittingen/2x-buitendraad__mf2451418__img2.webp",
       "images/messing-draadfittingen/messing-draadfittingen__p10__2x-buitendraad__MF2451418__v2.webp"
     ],
     "variant_count": 1,
@@ -2383,21 +2493,23 @@
     "media": [
       {
         "role": "main",
-        "url": "images/messing-draadfittingen/2x-buitendraad__mf2451418__img2.webp"
+        "url": "images/messing-draadfittingen/messing-draadfittingen__p10__2x-buitendraad__MF2451418__v2.webp"
       }
     ]
   },
   {
-    "group_id": "messing-draadfittingen-3-8-x-1-4",
+    "group_id": "messing-draadfittingen-messing-draadfittingen-3-8-x-1-4",
     "name": "3/8\" x 1/4\"",
-    "family": "3-8-x-1-4",
+    "family": "messing-draadfittingen__3-8-x-1-4",
     "catalog": "messing-draadfittingen",
+    "source_pdf": "messing-draadfittingen.pdf",
     "brand": "Various",
     "category": "MF2451238 1/2\" x 3/8\"",
     "variants": [
       {
         "sku": "MF2453414",
         "label": "3/8\" x 1/4\"",
+        "page": 10,
         "page_in_pdf": 10,
         "properties": {
           "type": "3_8_x_1_4"
@@ -2409,6 +2521,7 @@
       {
         "sku": "MF2463412",
         "label": "3/8\" x 1/4\"",
+        "page": 11,
         "page_in_pdf": 11,
         "properties": {
           "type": "3_8_x_1_4"
@@ -2419,8 +2532,6 @@
       }
     ],
     "images": [
-      "images/messing-draadfittingen/binnendraad-buitendraad__mf2461418__img3.webp",
-      "images/messing-draadfittingen/2x-buitendraad__mf2451418__img2.webp",
       "images/messing-draadfittingen/messing-draadfittingen__p10__2x-buitendraad__MF2451418__v2.webp",
       "images/messing-draadfittingen/messing-draadfittingen__p11__binnendraad-buitendraad__MF2461418__v3.webp"
     ],
@@ -2429,21 +2540,23 @@
     "media": [
       {
         "role": "main",
-        "url": "images/messing-draadfittingen/binnendraad-buitendraad__mf2461418__img3.webp"
+        "url": "images/messing-draadfittingen/messing-draadfittingen__p10__2x-buitendraad__MF2451418__v2.webp"
       }
     ]
   },
   {
-    "group_id": "messing-draadfittingen-mf2451214-1-2-x-1-4",
+    "group_id": "messing-draadfittingen-messing-draadfittingen-mf2451214-1-2-x-1-4",
     "name": "MF2451214 1/2\" x 1/4\"",
-    "family": "mf2451214-1-2-x-1-4",
+    "family": "messing-draadfittingen__mf2451214-1-2-x-1-4",
     "catalog": "messing-draadfittingen",
+    "source_pdf": "messing-draadfittingen.pdf",
     "brand": "Various",
     "category": "MF2453412",
     "variants": [
       {
         "sku": "MF2453438",
         "label": "MF2451214 1/2\" x 1/4\"",
+        "page": 10,
         "page_in_pdf": 10,
         "properties": {
           "type": "mf2451214_1_2_x_1_4"
@@ -2454,7 +2567,6 @@
       }
     ],
     "images": [
-      "images/messing-draadfittingen/2x-buitendraad__mf2451418__img2.webp",
       "images/messing-draadfittingen/messing-draadfittingen__p10__2x-buitendraad__MF2451418__v2.webp"
     ],
     "variant_count": 1,
@@ -2462,21 +2574,23 @@
     "media": [
       {
         "role": "main",
-        "url": "images/messing-draadfittingen/2x-buitendraad__mf2451418__img2.webp"
+        "url": "images/messing-draadfittingen/messing-draadfittingen__p10__2x-buitendraad__MF2451418__v2.webp"
       }
     ]
   },
   {
-    "group_id": "messing-draadfittingen-mf2453438-3-4-x-3-8",
+    "group_id": "messing-draadfittingen-messing-draadfittingen-mf2453438-3-4-x-3-8",
     "name": "MF2453438 3/4\" x 3/8\"",
-    "family": "mf2453438-3-4-x-3-8",
+    "family": "messing-draadfittingen__mf2453438-3-4-x-3-8",
     "catalog": "messing-draadfittingen",
+    "source_pdf": "messing-draadfittingen.pdf",
     "brand": "Various",
     "category": "MF245138 1\" x 3/8\"",
     "variants": [
       {
         "sku": "MF2455412",
         "label": "MF2453438 3/4\" x 3/8\"",
+        "page": 10,
         "page_in_pdf": 10,
         "properties": {
           "type": "mf2453438_3_4_x_3_8"
@@ -2487,7 +2601,6 @@
       }
     ],
     "images": [
-      "images/messing-draadfittingen/2x-buitendraad__mf2451418__img2.webp",
       "images/messing-draadfittingen/messing-draadfittingen__p10__2x-buitendraad__MF2451418__v2.webp"
     ],
     "variant_count": 1,
@@ -2495,21 +2608,23 @@
     "media": [
       {
         "role": "main",
-        "url": "images/messing-draadfittingen/2x-buitendraad__mf2451418__img2.webp"
+        "url": "images/messing-draadfittingen/messing-draadfittingen__p10__2x-buitendraad__MF2451418__v2.webp"
       }
     ]
   },
   {
-    "group_id": "messing-draadfittingen-mf2455412-5-4-x-1-2",
+    "group_id": "messing-draadfittingen-messing-draadfittingen-mf2455412-5-4-x-1-2",
     "name": "MF2455412 5/4\" x 1/2\"",
-    "family": "mf2455412-5-4-x-1-2",
+    "family": "messing-draadfittingen__mf2455412-5-4-x-1-2",
     "catalog": "messing-draadfittingen",
+    "source_pdf": "messing-draadfittingen.pdf",
     "brand": "Various",
     "category": "MF2456412 6/4\" x 1/2\"",
     "variants": [
       {
         "sku": "MF2456434",
         "label": "MF2455412 5/4\" x 1/2\"",
+        "page": 10,
         "page_in_pdf": 10,
         "properties": {
           "type": "mf2455412_5_4_x_1_2"
@@ -2520,7 +2635,6 @@
       }
     ],
     "images": [
-      "images/messing-draadfittingen/2x-buitendraad__mf2451418__img2.webp",
       "images/messing-draadfittingen/messing-draadfittingen__p10__2x-buitendraad__MF2451418__v2.webp"
     ],
     "variant_count": 1,
@@ -2528,21 +2642,23 @@
     "media": [
       {
         "role": "main",
-        "url": "images/messing-draadfittingen/2x-buitendraad__mf2451418__img2.webp"
+        "url": "images/messing-draadfittingen/messing-draadfittingen__p10__2x-buitendraad__MF2451418__v2.webp"
       }
     ]
   },
   {
-    "group_id": "messing-draadfittingen-mf245541-5-4-x-1",
+    "group_id": "messing-draadfittingen-messing-draadfittingen-mf245541-5-4-x-1",
     "name": "MF245541 5/4\" x 1\"",
-    "family": "mf245541-5-4-x-1",
+    "family": "messing-draadfittingen__mf245541-5-4-x-1",
     "catalog": "messing-draadfittingen",
+    "source_pdf": "messing-draadfittingen.pdf",
     "brand": "Various",
     "category": "MF245641",
     "variants": [
       {
         "sku": "MF2456454",
         "label": "MF245541 5/4\" x 1\"",
+        "page": 10,
         "page_in_pdf": 10,
         "properties": {
           "type": "mf245541_5_4_x_1"
@@ -2553,7 +2669,6 @@
       }
     ],
     "images": [
-      "images/messing-draadfittingen/2x-buitendraad__mf2451418__img2.webp",
       "images/messing-draadfittingen/messing-draadfittingen__p10__2x-buitendraad__MF2451418__v2.webp"
     ],
     "variant_count": 1,
@@ -2561,21 +2676,23 @@
     "media": [
       {
         "role": "main",
-        "url": "images/messing-draadfittingen/2x-buitendraad__mf2451418__img2.webp"
+        "url": "images/messing-draadfittingen/messing-draadfittingen__p10__2x-buitendraad__MF2451418__v2.webp"
       }
     ]
   },
   {
-    "group_id": "messing-draadfittingen-mf2461238-1-2-x-3-8",
+    "group_id": "messing-draadfittingen-messing-draadfittingen-mf2461238-1-2-x-3-8",
     "name": "MF2461238 1/2\" x 3/8\"",
-    "family": "mf2461238-1-2-x-3-8",
+    "family": "messing-draadfittingen__mf2461238-1-2-x-3-8",
     "catalog": "messing-draadfittingen",
+    "source_pdf": "messing-draadfittingen.pdf",
     "brand": "Various",
     "category": "MF246138 1\" x 3/8\"",
     "variants": [
       {
         "sku": "MF246112",
         "label": "MF2461238 1/2\" x 3/8\"",
+        "page": 11,
         "page_in_pdf": 11,
         "properties": {
           "type": "mf2461238_1_2_x_3_8"
@@ -2586,7 +2703,6 @@
       }
     ],
     "images": [
-      "images/messing-draadfittingen/binnendraad-buitendraad__mf2461418__img3.webp",
       "images/messing-draadfittingen/messing-draadfittingen__p11__binnendraad-buitendraad__MF2461418__v3.webp"
     ],
     "variant_count": 1,
@@ -2594,21 +2710,23 @@
     "media": [
       {
         "role": "main",
-        "url": "images/messing-draadfittingen/binnendraad-buitendraad__mf2461418__img3.webp"
+        "url": "images/messing-draadfittingen/messing-draadfittingen__p11__binnendraad-buitendraad__MF2461418__v3.webp"
       }
     ]
   },
   {
-    "group_id": "messing-draadfittingen-mf246112-1-x-1-2",
+    "group_id": "messing-draadfittingen-messing-draadfittingen-mf246112-1-x-1-2",
     "name": "MF246112 1\" x 1/2\"",
-    "family": "mf246112-1-x-1-2",
+    "family": "messing-draadfittingen__mf246112-1-x-1-2",
     "catalog": "messing-draadfittingen",
+    "source_pdf": "messing-draadfittingen.pdf",
     "brand": "Various",
     "category": "MF246641",
     "variants": [
       {
         "sku": "MF2466454",
         "label": "MF246112 1\" x 1/2\"",
+        "page": 11,
         "page_in_pdf": 11,
         "properties": {
           "type": "mf246112_1_x_1_2"
@@ -2619,7 +2737,6 @@
       }
     ],
     "images": [
-      "images/messing-draadfittingen/binnendraad-buitendraad__mf2461418__img3.webp",
       "images/messing-draadfittingen/messing-draadfittingen__p11__binnendraad-buitendraad__MF2461418__v3.webp"
     ],
     "variant_count": 1,
@@ -2627,21 +2744,23 @@
     "media": [
       {
         "role": "main",
-        "url": "images/messing-draadfittingen/binnendraad-buitendraad__mf2461418__img3.webp"
+        "url": "images/messing-draadfittingen/messing-draadfittingen__p11__binnendraad-buitendraad__MF2461418__v3.webp"
       }
     ]
   },
   {
-    "group_id": "messing-draadfittingen-mf238-3-8",
+    "group_id": "messing-draadfittingen-messing-draadfittingen-mf238-3-8",
     "name": "MF238 3/8\"",
-    "family": "mf238-3-8",
+    "family": "messing-draadfittingen__mf238-3-8",
     "catalog": "messing-draadfittingen",
+    "source_pdf": "messing-draadfittingen.pdf",
     "brand": "Various",
     "category": "MF21 1\"",
     "variants": [
       {
         "sku": "MF254",
         "label": "MF238 3/8\"",
+        "page": 3,
         "page_in_pdf": 3,
         "properties": {
           "type": "mf238_3_8"
@@ -2652,7 +2771,6 @@
       }
     ],
     "images": [
-      "images/messing-draadfittingen/binnendraad-buitendraad__mf138.webp",
       "images/messing-draadfittingen/messing-draadfittingen__p3__binnendraad-buitendraad__MF138__v1.webp"
     ],
     "variant_count": 1,
@@ -2660,21 +2778,23 @@
     "media": [
       {
         "role": "main",
-        "url": "images/messing-draadfittingen/binnendraad-buitendraad__mf138.webp"
+        "url": "images/messing-draadfittingen/messing-draadfittingen__p3__binnendraad-buitendraad__MF138__v1.webp"
       }
     ]
   },
   {
-    "group_id": "messing-draadfittingen-mf27034-3-4",
+    "group_id": "messing-draadfittingen-messing-draadfittingen-mf27034-3-4",
     "name": "MF27034 3/4\"",
-    "family": "mf27034-3-4",
+    "family": "messing-draadfittingen__mf27034-3-4",
     "catalog": "messing-draadfittingen",
+    "source_pdf": "messing-draadfittingen.pdf",
     "brand": "Various",
     "category": "MF27064",
     "variants": [
       {
         "sku": "MF2702",
         "label": "MF27034 3/4\"",
+        "page": 11,
         "page_in_pdf": 11,
         "properties": {
           "type": "mf27034_3_4"
@@ -2685,7 +2805,6 @@
       }
     ],
     "images": [
-      "images/messing-draadfittingen/binnendraad-buitendraad__mf2461418__img3.webp",
       "images/messing-draadfittingen/messing-draadfittingen__p11__binnendraad-buitendraad__MF2461418__v3.webp"
     ],
     "variant_count": 1,
@@ -2693,21 +2812,23 @@
     "media": [
       {
         "role": "main",
-        "url": "images/messing-draadfittingen/binnendraad-buitendraad__mf2461418__img3.webp"
+        "url": "images/messing-draadfittingen/messing-draadfittingen__p11__binnendraad-buitendraad__MF2461418__v3.webp"
       }
     ]
   },
   {
-    "group_id": "messing-draadfittingen-5-4",
+    "group_id": "messing-draadfittingen-messing-draadfittingen-5-4",
     "name": "5/4\"",
-    "family": "5-4",
+    "family": "messing-draadfittingen__5-4",
     "catalog": "messing-draadfittingen",
+    "source_pdf": "messing-draadfittingen.pdf",
     "brand": "Various",
     "category": "MF27025 2 1/2\"",
     "variants": [
       {
         "sku": "MF2703",
         "label": "5/4\"",
+        "page": 11,
         "page_in_pdf": 11,
         "properties": {
           "type": "5_4"
@@ -2719,6 +2840,7 @@
       {
         "sku": "MF2803",
         "label": "5/4\"",
+        "page": 12,
         "page_in_pdf": 12,
         "properties": {
           "type": "5_4"
@@ -2730,6 +2852,7 @@
       {
         "sku": "MF2903",
         "label": "5/4\"",
+        "page": 12,
         "page_in_pdf": 12,
         "properties": {
           "type": "5_4"
@@ -2740,8 +2863,6 @@
       }
     ],
     "images": [
-      "images/messing-draadfittingen/buitendraad__mf29018.webp",
-      "images/messing-draadfittingen/binnendraad-buitendraad__mf2461418__img3.webp",
       "images/messing-draadfittingen/messing-draadfittingen__p11__binnendraad-buitendraad__MF2461418__v3.webp",
       "images/messing-draadfittingen/messing-draadfittingen__p12__buitendraad__MF29018__v1.webp"
     ],
@@ -2750,21 +2871,23 @@
     "media": [
       {
         "role": "main",
-        "url": "images/messing-draadfittingen/buitendraad__mf29018.webp"
+        "url": "images/messing-draadfittingen/messing-draadfittingen__p11__binnendraad-buitendraad__MF2461418__v3.webp"
       }
     ]
   },
   {
-    "group_id": "messing-draadfittingen-mf27018-1-8",
+    "group_id": "messing-draadfittingen-messing-draadfittingen-mf27018-1-8",
     "name": "MF27018 1/8\"",
-    "family": "mf27018-1-8",
+    "family": "messing-draadfittingen__mf27018-1-8",
     "catalog": "messing-draadfittingen",
+    "source_pdf": "messing-draadfittingen.pdf",
     "brand": "Various",
     "category": "MF27012 1/2\"",
     "variants": [
       {
         "sku": "MF27034",
         "label": "MF27018 1/8\"",
+        "page": 11,
         "page_in_pdf": 11,
         "properties": {
           "type": "mf27018_1_8"
@@ -2775,7 +2898,6 @@
       }
     ],
     "images": [
-      "images/messing-draadfittingen/binnendraad-buitendraad__mf2461418__img3.webp",
       "images/messing-draadfittingen/messing-draadfittingen__p11__binnendraad-buitendraad__MF2461418__v3.webp"
     ],
     "variant_count": 1,
@@ -2783,21 +2905,23 @@
     "media": [
       {
         "role": "main",
-        "url": "images/messing-draadfittingen/binnendraad-buitendraad__mf2461418__img3.webp"
+        "url": "images/messing-draadfittingen/messing-draadfittingen__p11__binnendraad-buitendraad__MF2461418__v3.webp"
       }
     ]
   },
   {
-    "group_id": "messing-draadfittingen-mf28034-3-4",
+    "group_id": "messing-draadfittingen-messing-draadfittingen-mf28034-3-4",
     "name": "MF28034 3/4\"",
-    "family": "mf28034-3-4",
+    "family": "messing-draadfittingen__mf28034-3-4",
     "catalog": "messing-draadfittingen",
+    "source_pdf": "messing-draadfittingen.pdf",
     "brand": "Various",
     "category": "MF28064",
     "variants": [
       {
         "sku": "MF2802",
         "label": "MF28034 3/4\"",
+        "page": 12,
         "page_in_pdf": 12,
         "properties": {
           "type": "mf28034_3_4"
@@ -2808,7 +2932,6 @@
       }
     ],
     "images": [
-      "images/messing-draadfittingen/buitendraad__mf29018.webp",
       "images/messing-draadfittingen/messing-draadfittingen__p12__buitendraad__MF29018__v1.webp"
     ],
     "variant_count": 1,
@@ -2816,21 +2939,23 @@
     "media": [
       {
         "role": "main",
-        "url": "images/messing-draadfittingen/buitendraad__mf29018.webp"
+        "url": "images/messing-draadfittingen/messing-draadfittingen__p12__buitendraad__MF29018__v1.webp"
       }
     ]
   },
   {
-    "group_id": "messing-draadfittingen-mf28018-1-8",
+    "group_id": "messing-draadfittingen-messing-draadfittingen-mf28018-1-8",
     "name": "MF28018 1/8\"",
-    "family": "mf28018-1-8",
+    "family": "messing-draadfittingen__mf28018-1-8",
     "catalog": "messing-draadfittingen",
+    "source_pdf": "messing-draadfittingen.pdf",
     "brand": "Various",
     "category": "MF28012 1/2\"",
     "variants": [
       {
         "sku": "MF28034",
         "label": "MF28018 1/8\"",
+        "page": 12,
         "page_in_pdf": 12,
         "properties": {
           "type": "mf28018_1_8"
@@ -2841,7 +2966,6 @@
       }
     ],
     "images": [
-      "images/messing-draadfittingen/buitendraad__mf29018.webp",
       "images/messing-draadfittingen/messing-draadfittingen__p12__buitendraad__MF29018__v1.webp"
     ],
     "variant_count": 1,
@@ -2849,21 +2973,23 @@
     "media": [
       {
         "role": "main",
-        "url": "images/messing-draadfittingen/buitendraad__mf29018.webp"
+        "url": "images/messing-draadfittingen/messing-draadfittingen__p12__buitendraad__MF29018__v1.webp"
       }
     ]
   },
   {
-    "group_id": "messing-draadfittingen-mf29034-3-4",
+    "group_id": "messing-draadfittingen-messing-draadfittingen-mf29034-3-4",
     "name": "MF29034 3/4\"",
-    "family": "mf29034-3-4",
+    "family": "messing-draadfittingen__mf29034-3-4",
     "catalog": "messing-draadfittingen",
+    "source_pdf": "messing-draadfittingen.pdf",
     "brand": "Various",
     "category": "MF29064 6/4\"",
     "variants": [
       {
         "sku": "MF2902",
         "label": "MF29034 3/4\"",
+        "page": 12,
         "page_in_pdf": 12,
         "properties": {
           "type": "mf29034_3_4"
@@ -2874,7 +3000,6 @@
       }
     ],
     "images": [
-      "images/messing-draadfittingen/buitendraad__mf29018.webp",
       "images/messing-draadfittingen/messing-draadfittingen__p12__buitendraad__MF29018__v1.webp"
     ],
     "variant_count": 1,
@@ -2882,21 +3007,23 @@
     "media": [
       {
         "role": "main",
-        "url": "images/messing-draadfittingen/buitendraad__mf29018.webp"
+        "url": "images/messing-draadfittingen/messing-draadfittingen__p12__buitendraad__MF29018__v1.webp"
       }
     ]
   },
   {
-    "group_id": "messing-draadfittingen-1-8",
+    "group_id": "messing-draadfittingen-messing-draadfittingen-1-8",
     "name": "1/8\"",
-    "family": "1-8",
+    "family": "messing-draadfittingen__1-8",
     "catalog": "messing-draadfittingen",
+    "source_pdf": "messing-draadfittingen.pdf",
     "brand": "Various",
     "category": "MF29012 1/2\"",
     "variants": [
       {
         "sku": "MF29034",
         "label": "1/8\"",
+        "page": 12,
         "page_in_pdf": 12,
         "properties": {
           "type": "1_8"
@@ -2907,7 +3034,6 @@
       }
     ],
     "images": [
-      "images/messing-draadfittingen/buitendraad__mf29018.webp",
       "images/messing-draadfittingen/messing-draadfittingen__p12__buitendraad__MF29018__v1.webp"
     ],
     "variant_count": 1,
@@ -2915,21 +3041,23 @@
     "media": [
       {
         "role": "main",
-        "url": "images/messing-draadfittingen/buitendraad__mf29018.webp"
+        "url": "images/messing-draadfittingen/messing-draadfittingen__p12__buitendraad__MF29018__v1.webp"
       }
     ]
   },
   {
-    "group_id": "messing-draadfittingen-binnendraad",
+    "group_id": "messing-draadfittingen-messing-draadfittingen-binnendraad",
     "name": "BINNENDRAAD",
-    "family": "binnendraad",
+    "family": "messing-draadfittingen__binnendraad",
     "catalog": "messing-draadfittingen",
+    "source_pdf": "messing-draadfittingen.pdf",
     "brand": "Various",
     "category": "Bestelnr Maat",
     "variants": [
       {
         "sku": "MF30018",
         "label": "BINNENDRAAD",
+        "page": 13,
         "page_in_pdf": 13,
         "properties": {
           "type": "binnendraad"
@@ -2941,6 +3069,7 @@
       {
         "sku": "MF31014",
         "label": "BINNENDRAAD",
+        "page": 13,
         "page_in_pdf": 13,
         "properties": {
           "type": "binnendraad"
@@ -2952,6 +3081,7 @@
       {
         "sku": "MF47112",
         "label": "BINNENDRAAD",
+        "page": 15,
         "page_in_pdf": 15,
         "properties": {
           "type": "binnendraad"
@@ -2962,30 +3092,30 @@
       }
     ],
     "images": [
-      "images/messing-draadfittingen/binnendraad__mf47112__img3.webp",
-      "images/messing-draadfittingen/binnendraad__mf30018.webp",
-      "images/messing-draadfittingen/messing-draadfittingen__p13__binnendraad__MF30018-MF31014__v1.webp"
+      "images/messing-draadfittingen/messing-draadfittingen__p15__binnendraad__MF47112__v4.webp"
     ],
     "variant_count": 3,
     "default_variant_sku": "MF30018",
     "media": [
       {
         "role": "main",
-        "url": "images/messing-draadfittingen/binnendraad__mf47112__img3.webp"
+        "url": "images/messing-draadfittingen/messing-draadfittingen__p15__binnendraad__MF47112__v4.webp"
       }
     ]
   },
   {
-    "group_id": "messing-draadfittingen-mf30034-3-4",
+    "group_id": "messing-draadfittingen-messing-draadfittingen-mf30034-3-4",
     "name": "MF30034 3/4\"",
-    "family": "mf30034-3-4",
+    "family": "messing-draadfittingen__mf30034-3-4",
     "catalog": "messing-draadfittingen",
+    "source_pdf": "messing-draadfittingen.pdf",
     "brand": "Various",
     "category": "MF30064",
     "variants": [
       {
         "sku": "MF3002",
         "label": "MF30034 3/4\"",
+        "page": 13,
         "page_in_pdf": 13,
         "properties": {
           "type": "mf30034_3_4"
@@ -2996,7 +3126,6 @@
       }
     ],
     "images": [
-      "images/messing-draadfittingen/binnendraad__mf30018.webp",
       "images/messing-draadfittingen/messing-draadfittingen__p13__binnendraad__MF30018-MF31014__v1.webp"
     ],
     "variant_count": 1,
@@ -3004,21 +3133,23 @@
     "media": [
       {
         "role": "main",
-        "url": "images/messing-draadfittingen/binnendraad__mf30018.webp"
+        "url": "images/messing-draadfittingen/messing-draadfittingen__p13__binnendraad__MF30018-MF31014__v1.webp"
       }
     ]
   },
   {
-    "group_id": "messing-draadfittingen-mf30018-1-8",
+    "group_id": "messing-draadfittingen-messing-draadfittingen-mf30018-1-8",
     "name": "MF30018 1/8\"",
-    "family": "mf30018-1-8",
+    "family": "messing-draadfittingen__mf30018-1-8",
     "catalog": "messing-draadfittingen",
+    "source_pdf": "messing-draadfittingen.pdf",
     "brand": "Various",
     "category": "MF30012 1/2\"",
     "variants": [
       {
         "sku": "MF30034",
         "label": "MF30018 1/8\"",
+        "page": 13,
         "page_in_pdf": 13,
         "properties": {
           "type": "mf30018_1_8"
@@ -3029,7 +3160,6 @@
       }
     ],
     "images": [
-      "images/messing-draadfittingen/binnendraad__mf30018.webp",
       "images/messing-draadfittingen/messing-draadfittingen__p13__binnendraad__MF30018-MF31014__v1.webp"
     ],
     "variant_count": 1,
@@ -3037,21 +3167,23 @@
     "media": [
       {
         "role": "main",
-        "url": "images/messing-draadfittingen/binnendraad__mf30018.webp"
+        "url": "images/messing-draadfittingen/messing-draadfittingen__p13__binnendraad__MF30018-MF31014__v1.webp"
       }
     ]
   },
   {
-    "group_id": "messing-draadfittingen-mf31014-1-4",
+    "group_id": "messing-draadfittingen-messing-draadfittingen-mf31014-1-4",
     "name": "MF31014 1/4\"",
-    "family": "mf31014-1-4",
+    "family": "messing-draadfittingen__mf31014-1-4",
     "catalog": "messing-draadfittingen",
+    "source_pdf": "messing-draadfittingen.pdf",
     "brand": "Various",
     "category": "MF31034 3/4\"",
     "variants": [
       {
         "sku": "MF3101",
         "label": "MF31014 1/4\"",
+        "page": 13,
         "page_in_pdf": 13,
         "properties": {
           "type": "mf31014_1_4"
@@ -3062,7 +3194,6 @@
       }
     ],
     "images": [
-      "images/messing-draadfittingen/binnendraad__mf30018.webp",
       "images/messing-draadfittingen/messing-draadfittingen__p13__binnendraad__MF30018-MF31014__v1.webp"
     ],
     "variant_count": 1,
@@ -3070,21 +3201,23 @@
     "media": [
       {
         "role": "main",
-        "url": "images/messing-draadfittingen/binnendraad__mf30018.webp"
+        "url": "images/messing-draadfittingen/messing-draadfittingen__p13__binnendraad__MF30018-MF31014__v1.webp"
       }
     ]
   },
   {
-    "group_id": "messing-draadfittingen-mf34038-3-8",
+    "group_id": "messing-draadfittingen-messing-draadfittingen-mf34038-3-8",
     "name": "MF34038 3/8\"",
-    "family": "mf34038-3-8",
+    "family": "messing-draadfittingen__mf34038-3-8",
     "catalog": "messing-draadfittingen",
+    "source_pdf": "messing-draadfittingen.pdf",
     "brand": "Various",
     "category": "MF3401 1\"",
     "variants": [
       {
         "sku": "MF34054",
         "label": "MF34038 3/8\"",
+        "page": 14,
         "page_in_pdf": 14,
         "properties": {
           "type": "mf34038_3_8"
@@ -3095,7 +3228,6 @@
       }
     ],
     "images": [
-      "images/messing-draadfittingen/2x-binnendraad__mf34038__img3.webp",
       "images/messing-draadfittingen/messing-draadfittingen__p14__2x-binnendraad__MF34038__v3.webp"
     ],
     "variant_count": 1,
@@ -3103,21 +3235,23 @@
     "media": [
       {
         "role": "main",
-        "url": "images/messing-draadfittingen/2x-binnendraad__mf34038__img3.webp"
+        "url": "images/messing-draadfittingen/messing-draadfittingen__p14__2x-binnendraad__MF34038__v3.webp"
       }
     ]
   },
   {
-    "group_id": "messing-draadfittingen-mf34118-1-8",
+    "group_id": "messing-draadfittingen-messing-draadfittingen-mf34118-1-8",
     "name": "MF34118 1/8\"",
-    "family": "mf34118-1-8",
+    "family": "messing-draadfittingen__mf34118-1-8",
     "catalog": "messing-draadfittingen",
+    "source_pdf": "messing-draadfittingen.pdf",
     "brand": "Various",
     "category": "MF34112",
     "variants": [
       {
         "sku": "MF34134",
         "label": "MF34118 1/8\"",
+        "page": 14,
         "page_in_pdf": 14,
         "properties": {
           "type": "mf34118_1_8"
@@ -3128,7 +3262,6 @@
       }
     ],
     "images": [
-      "images/messing-draadfittingen/2x-binnendraad__mf34038__img3.webp",
       "images/messing-draadfittingen/messing-draadfittingen__p14__2x-binnendraad__MF34038__v3.webp"
     ],
     "variant_count": 1,
@@ -3136,21 +3269,23 @@
     "media": [
       {
         "role": "main",
-        "url": "images/messing-draadfittingen/2x-binnendraad__mf34038__img3.webp"
+        "url": "images/messing-draadfittingen/messing-draadfittingen__p14__2x-binnendraad__MF34038__v3.webp"
       }
     ]
   },
   {
-    "group_id": "messing-draadfittingen-mf34138-3-8",
+    "group_id": "messing-draadfittingen-messing-draadfittingen-mf34138-3-8",
     "name": "MF34138 3/8\"",
-    "family": "mf34138-3-8",
+    "family": "messing-draadfittingen__mf34138-3-8",
     "catalog": "messing-draadfittingen",
+    "source_pdf": "messing-draadfittingen.pdf",
     "brand": "Various",
     "category": "MF3411 1\"",
     "variants": [
       {
         "sku": "MF34154",
         "label": "MF34138 3/8\"",
+        "page": 14,
         "page_in_pdf": 14,
         "properties": {
           "type": "mf34138_3_8"
@@ -3161,7 +3296,6 @@
       }
     ],
     "images": [
-      "images/messing-draadfittingen/2x-binnendraad__mf34038__img3.webp",
       "images/messing-draadfittingen/messing-draadfittingen__p14__2x-binnendraad__MF34038__v3.webp"
     ],
     "variant_count": 1,
@@ -3169,21 +3303,23 @@
     "media": [
       {
         "role": "main",
-        "url": "images/messing-draadfittingen/2x-binnendraad__mf34038__img3.webp"
+        "url": "images/messing-draadfittingen/messing-draadfittingen__p14__2x-binnendraad__MF34038__v3.webp"
       }
     ]
   },
   {
-    "group_id": "messing-draadfittingen-mf53134-3-4",
+    "group_id": "messing-draadfittingen-messing-draadfittingen-mf53134-3-4",
     "name": "MF53134 3/4\"",
-    "family": "mf53134-3-4",
+    "family": "messing-draadfittingen__mf53134-3-4",
     "catalog": "messing-draadfittingen",
+    "source_pdf": "messing-draadfittingen.pdf",
     "brand": "Various",
     "category": "MF53164 6/4\"",
     "variants": [
       {
         "sku": "MF5312",
         "label": "MF53134 3/4\"",
+        "page": 15,
         "page_in_pdf": 15,
         "properties": {
           "type": "mf53134_3_4"
@@ -3194,7 +3330,6 @@
       }
     ],
     "images": [
-      "images/messing-draadfittingen/binnendraad__mf47112__img3.webp",
       "images/messing-draadfittingen/messing-draadfittingen__p15__binnendraad__MF47112__v3.webp"
     ],
     "variant_count": 1,
@@ -3202,21 +3337,23 @@
     "media": [
       {
         "role": "main",
-        "url": "images/messing-draadfittingen/binnendraad__mf47112__img3.webp"
+        "url": "images/messing-draadfittingen/messing-draadfittingen__p15__binnendraad__MF47112__v3.webp"
       }
     ]
   },
   {
-    "group_id": "messing-draadfittingen-mf53114-1-4",
+    "group_id": "messing-draadfittingen-messing-draadfittingen-mf53114-1-4",
     "name": "MF53114 1/4\"",
-    "family": "mf53114-1-4",
+    "family": "messing-draadfittingen__mf53114-1-4",
     "catalog": "messing-draadfittingen",
+    "source_pdf": "messing-draadfittingen.pdf",
     "brand": "Various",
     "category": "MF5311 1\"",
     "variants": [
       {
         "sku": "MF53154",
         "label": "MF53114 1/4\"",
+        "page": 15,
         "page_in_pdf": 15,
         "properties": {
           "type": "mf53114_1_4"
@@ -3227,7 +3364,6 @@
       }
     ],
     "images": [
-      "images/messing-draadfittingen/binnendraad__mf47112__img3.webp",
       "images/messing-draadfittingen/messing-draadfittingen__p15__binnendraad__MF47112__v3.webp"
     ],
     "variant_count": 1,
@@ -3235,21 +3371,23 @@
     "media": [
       {
         "role": "main",
-        "url": "images/messing-draadfittingen/binnendraad__mf47112__img3.webp"
+        "url": "images/messing-draadfittingen/messing-draadfittingen__p15__binnendraad__MF47112__v3.webp"
       }
     ]
   },
   {
-    "group_id": "messing-draadfittingen-mf961-1",
+    "group_id": "messing-draadfittingen-messing-draadfittingen-mf961-1",
     "name": "MF961 1\"",
-    "family": "mf961-1",
+    "family": "messing-draadfittingen__mf961-1",
     "catalog": "messing-draadfittingen",
+    "source_pdf": "messing-draadfittingen.pdf",
     "brand": "Various",
     "category": "MF9664 6/4\"",
     "variants": [
       {
         "sku": "MF962",
         "label": "MF961 1\"",
+        "page": 5,
         "page_in_pdf": 5,
         "properties": {
           "type": "mf961_1"
@@ -3260,7 +3398,6 @@
       }
     ],
     "images": [
-      "images/messing-draadfittingen/bestelnr-maat__mf961.webp",
       "images/messing-draadfittingen/messing-draadfittingen__p5__bestelnr-maat__MF961-MF9834__v1.webp"
     ],
     "variant_count": 1,
@@ -3268,21 +3405,23 @@
     "media": [
       {
         "role": "main",
-        "url": "images/messing-draadfittingen/bestelnr-maat__mf961.webp"
+        "url": "images/messing-draadfittingen/messing-draadfittingen__p5__bestelnr-maat__MF961-MF9834__v1.webp"
       }
     ]
   },
   {
-    "group_id": "messing-draadfittingen-mf9612-1-2",
+    "group_id": "messing-draadfittingen-messing-draadfittingen-mf9612-1-2",
     "name": "MF9612 1/2\"",
-    "family": "mf9612-1-2",
+    "family": "messing-draadfittingen__mf9612-1-2",
     "catalog": "messing-draadfittingen",
+    "source_pdf": "messing-draadfittingen.pdf",
     "brand": "Various",
     "category": "MF9638 3/8\"",
     "variants": [
       {
         "sku": "MF9654",
         "label": "MF9612 1/2\"",
+        "page": 5,
         "page_in_pdf": 5,
         "properties": {
           "type": "mf9612_1_2"
@@ -3293,7 +3432,6 @@
       }
     ],
     "images": [
-      "images/messing-draadfittingen/bestelnr-maat__mf961.webp",
       "images/messing-draadfittingen/messing-draadfittingen__p5__bestelnr-maat__MF961-MF9834__v1.webp"
     ],
     "variant_count": 1,
@@ -3301,21 +3439,23 @@
     "media": [
       {
         "role": "main",
-        "url": "images/messing-draadfittingen/bestelnr-maat__mf961.webp"
+        "url": "images/messing-draadfittingen/messing-draadfittingen__p5__bestelnr-maat__MF961-MF9834__v1.webp"
       }
     ]
   },
   {
-    "group_id": "messing-draadfittingen-mf9834-3-4",
+    "group_id": "messing-draadfittingen-messing-draadfittingen-mf9834-3-4",
     "name": "MF9834 3/4\"",
-    "family": "mf9834-3-4",
+    "family": "messing-draadfittingen__mf9834-3-4",
     "catalog": "messing-draadfittingen",
+    "source_pdf": "messing-draadfittingen.pdf",
     "brand": "Various",
     "category": "MF9864 6/4\"",
     "variants": [
       {
         "sku": "MF982",
         "label": "MF9834 3/4\"",
+        "page": 5,
         "page_in_pdf": 5,
         "properties": {
           "type": "mf9834_3_4"
@@ -3326,7 +3466,6 @@
       }
     ],
     "images": [
-      "images/messing-draadfittingen/bestelnr-maat__mf961.webp",
       "images/messing-draadfittingen/messing-draadfittingen__p5__bestelnr-maat__MF961-MF9834__v1.webp"
     ],
     "variant_count": 1,
@@ -3334,21 +3473,23 @@
     "media": [
       {
         "role": "main",
-        "url": "images/messing-draadfittingen/bestelnr-maat__mf961.webp"
+        "url": "images/messing-draadfittingen/messing-draadfittingen__p5__bestelnr-maat__MF961-MF9834__v1.webp"
       }
     ]
   },
   {
-    "group_id": "messing-draadfittingen-mf9838-3-8",
+    "group_id": "messing-draadfittingen-messing-draadfittingen-mf9838-3-8",
     "name": "MF9838 3/8\"",
-    "family": "mf9838-3-8",
+    "family": "messing-draadfittingen__mf9838-3-8",
     "catalog": "messing-draadfittingen",
+    "source_pdf": "messing-draadfittingen.pdf",
     "brand": "Various",
     "category": "MF981 1\"",
     "variants": [
       {
         "sku": "MF9854",
         "label": "MF9838 3/8\"",
+        "page": 5,
         "page_in_pdf": 5,
         "properties": {
           "type": "mf9838_3_8"
@@ -3359,7 +3500,6 @@
       }
     ],
     "images": [
-      "images/messing-draadfittingen/bestelnr-maat__mf961.webp",
       "images/messing-draadfittingen/messing-draadfittingen__p5__bestelnr-maat__MF961-MF9834__v1.webp"
     ],
     "variant_count": 1,
@@ -3367,21 +3507,23 @@
     "media": [
       {
         "role": "main",
-        "url": "images/messing-draadfittingen/bestelnr-maat__mf961.webp"
+        "url": "images/messing-draadfittingen/messing-draadfittingen__p5__bestelnr-maat__MF961-MF9834__v1.webp"
       }
     ]
   },
   {
-    "group_id": "messing-draadfittingen-nr-23-messing-pijpnippel",
+    "group_id": "messing-draadfittingen-messing-draadfittingen-nr-23-messing-pijpnippel",
     "name": "NR 23 - MESSING PIJPNIPPEL",
-    "family": "nr-23-messing-pijpnippel",
+    "family": "messing-draadfittingen__nr-23-messing-pijpnippel",
     "catalog": "messing-draadfittingen",
+    "source_pdf": "messing-draadfittingen.pdf",
     "brand": "Various",
     "category": "BUITENDRAAD",
     "variants": [
       {
         "sku": "MFBUL1060",
         "label": "NR 23 - MESSING PIJPNIPPEL",
+        "page": 16,
         "page_in_pdf": 16,
         "properties": {
           "type": "nr_23_messing_pijpnippel"
@@ -3393,6 +3535,7 @@
       {
         "sku": "MFBUL1080",
         "label": "NR 23 - MESSING PIJPNIPPEL",
+        "page": 16,
         "page_in_pdf": 16,
         "properties": {
           "type": "nr_23_messing_pijpnippel"
@@ -3404,6 +3547,7 @@
       {
         "sku": "MFBUL1100",
         "label": "NR 23 - MESSING PIJPNIPPEL",
+        "page": 16,
         "page_in_pdf": 16,
         "properties": {
           "type": "nr_23_messing_pijpnippel"
@@ -3415,6 +3559,7 @@
       {
         "sku": "MFBUL1120",
         "label": "NR 23 - MESSING PIJPNIPPEL",
+        "page": 16,
         "page_in_pdf": 16,
         "properties": {
           "type": "nr_23_messing_pijpnippel"
@@ -3426,6 +3571,7 @@
       {
         "sku": "MFBUL1150",
         "label": "NR 23 - MESSING PIJPNIPPEL",
+        "page": 16,
         "page_in_pdf": 16,
         "properties": {
           "type": "nr_23_messing_pijpnippel"
@@ -3437,6 +3583,7 @@
       {
         "sku": "MFBUL1200",
         "label": "NR 23 - MESSING PIJPNIPPEL",
+        "page": 16,
         "page_in_pdf": 16,
         "properties": {
           "type": "nr_23_messing_pijpnippel"
@@ -3448,6 +3595,7 @@
       {
         "sku": "MFBUL12040",
         "label": "NR 23 - MESSING PIJPNIPPEL",
+        "page": 16,
         "page_in_pdf": 16,
         "properties": {
           "type": "nr_23_messing_pijpnippel"
@@ -3459,6 +3607,7 @@
       {
         "sku": "MFBUL12060",
         "label": "NR 23 - MESSING PIJPNIPPEL",
+        "page": 16,
         "page_in_pdf": 16,
         "properties": {
           "type": "nr_23_messing_pijpnippel"
@@ -3470,6 +3619,7 @@
       {
         "sku": "MFBUL12080",
         "label": "NR 23 - MESSING PIJPNIPPEL",
+        "page": 16,
         "page_in_pdf": 16,
         "properties": {
           "type": "nr_23_messing_pijpnippel"
@@ -3481,6 +3631,7 @@
       {
         "sku": "MFBUL12100",
         "label": "NR 23 - MESSING PIJPNIPPEL",
+        "page": 16,
         "page_in_pdf": 16,
         "properties": {
           "type": "nr_23_messing_pijpnippel"
@@ -3492,6 +3643,7 @@
       {
         "sku": "MFBUL12120",
         "label": "NR 23 - MESSING PIJPNIPPEL",
+        "page": 16,
         "page_in_pdf": 16,
         "properties": {
           "type": "nr_23_messing_pijpnippel"
@@ -3503,6 +3655,7 @@
       {
         "sku": "MFBUL12150",
         "label": "NR 23 - MESSING PIJPNIPPEL",
+        "page": 16,
         "page_in_pdf": 16,
         "properties": {
           "type": "nr_23_messing_pijpnippel"
@@ -3514,6 +3667,7 @@
       {
         "sku": "MFBUL12180",
         "label": "NR 23 - MESSING PIJPNIPPEL",
+        "page": 16,
         "page_in_pdf": 16,
         "properties": {
           "type": "nr_23_messing_pijpnippel"
@@ -3525,6 +3679,7 @@
       {
         "sku": "MFBUL12200",
         "label": "NR 23 - MESSING PIJPNIPPEL",
+        "page": 16,
         "page_in_pdf": 16,
         "properties": {
           "type": "nr_23_messing_pijpnippel"
@@ -3536,6 +3691,7 @@
       {
         "sku": "MFBUL1300",
         "label": "NR 23 - MESSING PIJPNIPPEL",
+        "page": 16,
         "page_in_pdf": 16,
         "properties": {
           "type": "nr_23_messing_pijpnippel"
@@ -3547,6 +3703,7 @@
       {
         "sku": "MFBUL14040",
         "label": "NR 23 - MESSING PIJPNIPPEL",
+        "page": 16,
         "page_in_pdf": 16,
         "properties": {
           "type": "nr_23_messing_pijpnippel"
@@ -3558,6 +3715,7 @@
       {
         "sku": "MFBUL14060",
         "label": "NR 23 - MESSING PIJPNIPPEL",
+        "page": 16,
         "page_in_pdf": 16,
         "properties": {
           "type": "nr_23_messing_pijpnippel"
@@ -3569,6 +3727,7 @@
       {
         "sku": "MFBUL14080",
         "label": "NR 23 - MESSING PIJPNIPPEL",
+        "page": 16,
         "page_in_pdf": 16,
         "properties": {
           "type": "nr_23_messing_pijpnippel"
@@ -3580,6 +3739,7 @@
       {
         "sku": "MFBUL14100",
         "label": "NR 23 - MESSING PIJPNIPPEL",
+        "page": 16,
         "page_in_pdf": 16,
         "properties": {
           "type": "nr_23_messing_pijpnippel"
@@ -3591,6 +3751,7 @@
       {
         "sku": "MFBUL2060",
         "label": "NR 23 - MESSING PIJPNIPPEL",
+        "page": 17,
         "page_in_pdf": 17,
         "properties": {
           "type": "nr_23_messing_pijpnippel"
@@ -3602,6 +3763,7 @@
       {
         "sku": "MFBUL2080",
         "label": "NR 23 - MESSING PIJPNIPPEL",
+        "page": 17,
         "page_in_pdf": 17,
         "properties": {
           "type": "nr_23_messing_pijpnippel"
@@ -3613,6 +3775,7 @@
       {
         "sku": "MFBUL2120",
         "label": "NR 23 - MESSING PIJPNIPPEL",
+        "page": 17,
         "page_in_pdf": 17,
         "properties": {
           "type": "nr_23_messing_pijpnippel"
@@ -3624,6 +3787,7 @@
       {
         "sku": "MFBUL2180",
         "label": "NR 23 - MESSING PIJPNIPPEL",
+        "page": 17,
         "page_in_pdf": 17,
         "properties": {
           "type": "nr_23_messing_pijpnippel"
@@ -3635,6 +3799,7 @@
       {
         "sku": "MFBUL2200",
         "label": "NR 23 - MESSING PIJPNIPPEL",
+        "page": 17,
         "page_in_pdf": 17,
         "properties": {
           "type": "nr_23_messing_pijpnippel"
@@ -3646,6 +3811,7 @@
       {
         "sku": "MFBUL2200",
         "label": "NR 23 - MESSING PIJPNIPPEL",
+        "page": 17,
         "page_in_pdf": 17,
         "properties": {
           "type": "nr_23_messing_pijpnippel"
@@ -3657,6 +3823,7 @@
       {
         "sku": "MFBUL2300",
         "label": "NR 23 - MESSING PIJPNIPPEL",
+        "page": 17,
         "page_in_pdf": 17,
         "properties": {
           "type": "nr_23_messing_pijpnippel"
@@ -3668,6 +3835,7 @@
       {
         "sku": "MFBUL2300",
         "label": "NR 23 - MESSING PIJPNIPPEL",
+        "page": 17,
         "page_in_pdf": 17,
         "properties": {
           "type": "nr_23_messing_pijpnippel"
@@ -3679,6 +3847,7 @@
       {
         "sku": "MFBUL34040",
         "label": "NR 23 - MESSING PIJPNIPPEL",
+        "page": 16,
         "page_in_pdf": 16,
         "properties": {
           "type": "nr_23_messing_pijpnippel"
@@ -3690,6 +3859,7 @@
       {
         "sku": "MFBUL34060",
         "label": "NR 23 - MESSING PIJPNIPPEL",
+        "page": 16,
         "page_in_pdf": 16,
         "properties": {
           "type": "nr_23_messing_pijpnippel"
@@ -3701,6 +3871,7 @@
       {
         "sku": "MFBUL34080",
         "label": "NR 23 - MESSING PIJPNIPPEL",
+        "page": 16,
         "page_in_pdf": 16,
         "properties": {
           "type": "nr_23_messing_pijpnippel"
@@ -3712,6 +3883,7 @@
       {
         "sku": "MFBUL34100",
         "label": "NR 23 - MESSING PIJPNIPPEL",
+        "page": 16,
         "page_in_pdf": 16,
         "properties": {
           "type": "nr_23_messing_pijpnippel"
@@ -3723,6 +3895,7 @@
       {
         "sku": "MFBUL34120",
         "label": "NR 23 - MESSING PIJPNIPPEL",
+        "page": 16,
         "page_in_pdf": 16,
         "properties": {
           "type": "nr_23_messing_pijpnippel"
@@ -3734,6 +3907,7 @@
       {
         "sku": "MFBUL34150",
         "label": "NR 23 - MESSING PIJPNIPPEL",
+        "page": 16,
         "page_in_pdf": 16,
         "properties": {
           "type": "nr_23_messing_pijpnippel"
@@ -3745,6 +3919,7 @@
       {
         "sku": "MFBUL34200",
         "label": "NR 23 - MESSING PIJPNIPPEL",
+        "page": 16,
         "page_in_pdf": 16,
         "properties": {
           "type": "nr_23_messing_pijpnippel"
@@ -3756,6 +3931,7 @@
       {
         "sku": "MFBUL38040",
         "label": "NR 23 - MESSING PIJPNIPPEL",
+        "page": 16,
         "page_in_pdf": 16,
         "properties": {
           "type": "nr_23_messing_pijpnippel"
@@ -3767,6 +3943,7 @@
       {
         "sku": "MFBUL38060",
         "label": "NR 23 - MESSING PIJPNIPPEL",
+        "page": 16,
         "page_in_pdf": 16,
         "properties": {
           "type": "nr_23_messing_pijpnippel"
@@ -3778,6 +3955,7 @@
       {
         "sku": "MFBUL54060",
         "label": "NR 23 - MESSING PIJPNIPPEL",
+        "page": 17,
         "page_in_pdf": 17,
         "properties": {
           "type": "nr_23_messing_pijpnippel"
@@ -3789,6 +3967,7 @@
       {
         "sku": "MFBUL54100",
         "label": "NR 23 - MESSING PIJPNIPPEL",
+        "page": 17,
         "page_in_pdf": 17,
         "properties": {
           "type": "nr_23_messing_pijpnippel"
@@ -3800,6 +3979,7 @@
       {
         "sku": "MFBUL54150",
         "label": "NR 23 - MESSING PIJPNIPPEL",
+        "page": 17,
         "page_in_pdf": 17,
         "properties": {
           "type": "nr_23_messing_pijpnippel"
@@ -3811,6 +3991,7 @@
       {
         "sku": "MFBUL54200",
         "label": "NR 23 - MESSING PIJPNIPPEL",
+        "page": 17,
         "page_in_pdf": 17,
         "properties": {
           "type": "nr_23_messing_pijpnippel"
@@ -3822,6 +4003,7 @@
       {
         "sku": "MFBUL64060",
         "label": "NR 23 - MESSING PIJPNIPPEL",
+        "page": 17,
         "page_in_pdf": 17,
         "properties": {
           "type": "nr_23_messing_pijpnippel"
@@ -3833,6 +4015,7 @@
       {
         "sku": "MFBUL64080",
         "label": "NR 23 - MESSING PIJPNIPPEL",
+        "page": 17,
         "page_in_pdf": 17,
         "properties": {
           "type": "nr_23_messing_pijpnippel"
@@ -3844,6 +4027,7 @@
       {
         "sku": "MFBUL64100",
         "label": "NR 23 - MESSING PIJPNIPPEL",
+        "page": 17,
         "page_in_pdf": 17,
         "properties": {
           "type": "nr_23_messing_pijpnippel"
@@ -3855,6 +4039,7 @@
       {
         "sku": "MFBUL64120",
         "label": "NR 23 - MESSING PIJPNIPPEL",
+        "page": 17,
         "page_in_pdf": 17,
         "properties": {
           "type": "nr_23_messing_pijpnippel"
@@ -3866,6 +4051,7 @@
       {
         "sku": "MFBUL64150",
         "label": "NR 23 - MESSING PIJPNIPPEL",
+        "page": 17,
         "page_in_pdf": 17,
         "properties": {
           "type": "nr_23_messing_pijpnippel"
@@ -3877,6 +4063,7 @@
       {
         "sku": "MFBUL64200",
         "label": "NR 23 - MESSING PIJPNIPPEL",
+        "page": 17,
         "page_in_pdf": 17,
         "properties": {
           "type": "nr_23_messing_pijpnippel"
@@ -3888,6 +4075,7 @@
       {
         "sku": "MFBUL64300",
         "label": "NR 23 - MESSING PIJPNIPPEL",
+        "page": 17,
         "page_in_pdf": 17,
         "properties": {
           "type": "nr_23_messing_pijpnippel"
@@ -3898,8 +4086,6 @@
       }
     ],
     "images": [
-      "images/messing-draadfittingen/messing-draadeind__mf112012065.webp",
-      "images/messing-draadfittingen/messing-draadfittingen__p16__nr-23-messing-pijpnippel__mfbul__mfbul1080-mfbul1120-mfbul1200.webp",
       "images/messing-draadfittingen/messing-draadfittingen__p16__1-4__MF11211__v3.webp",
       "images/messing-draadfittingen/messing-draadfittingen__p17__messing-draadeind__MF112012065-MF112012080-MF112012100__v1.webp"
     ],
@@ -3908,7 +4094,7 @@
     "media": [
       {
         "role": "main",
-        "url": "images/messing-draadfittingen/messing-draadeind__mf112012065.webp"
+        "url": "images/messing-draadfittingen/messing-draadfittingen__p16__1-4__MF11211__v3.webp"
       }
     ]
   }

@@ -1,0 +1,300 @@
+{
+  "total_products": 14395,
+  "categories": {
+    "compressors": 263,
+    "other": 3870,
+    "hoses": 2552,
+    "fittings": 1223,
+    "power_tools": 96,
+    "accessories": 24,
+    "pumps": 2363,
+    "garden_tools": 5,
+    "pipes": 3257,
+    "pressure_washers": 742
+  },
+  "materials": {
+    "ABS": 263,
+    "GALVANIZED": 10,
+    "PE": 7293,
+    "PP": 86,
+    "PVC": 10,
+    "PU": 162,
+    "RUBBER": 65,
+    "MESSING": 163,
+    "RVS": 503,
+    "VERZINKT": 345,
+    "ZWART": 396
+  },
+  "examples": {
+    "compressors": [
+      {
+        "sku": "ABSB02090",
+        "type": "compressed_air_pipe",
+        "source": "abs-persluchtbuizen.json"
+      },
+      {
+        "sku": "ABSB02590",
+        "type": "compressed_air_pipe",
+        "source": "abs-persluchtbuizen.json"
+      },
+      {
+        "sku": "ABSB03290",
+        "type": "compressed_air_pipe",
+        "source": "abs-persluchtbuizen.json"
+      },
+      {
+        "sku": "ABSB04090",
+        "type": "compressed_air_pipe",
+        "source": "abs-persluchtbuizen.json"
+      },
+      {
+        "sku": "ABSB05090",
+        "type": "compressed_air_pipe",
+        "source": "abs-persluchtbuizen.json"
+      }
+    ],
+    "other": [
+      {
+        "sku": "05003-OFM",
+        "type": "filtration_sets_ofm_series",
+        "source": "airpress-catalogus-eng.json"
+      },
+      {
+        "sku": "10006-OFM",
+        "type": "filtration_sets_ofm_series",
+        "source": "airpress-catalogus-eng.json"
+      },
+      {
+        "sku": "12002-OFAG2",
+        "type": "filtration_sets_ofm_series",
+        "source": "airpress-catalogus-eng.json"
+      },
+      {
+        "sku": "12494",
+        "type": "b5900b_b6000_b7000",
+        "source": "airpress-catalogus-eng.json"
+      },
+      {
+        "sku": "13002",
+        "type": "b5900b_b6000_b7000",
+        "source": "airpress-catalogus-eng.json"
+      }
+    ],
+    "hoses": [
+      {
+        "sku": "37500",
+        "type": "fittings_for_spiral_hoses",
+        "source": "airpress-catalogus-eng.json"
+      },
+      {
+        "sku": "37501",
+        "type": "fittings_for_spiral_hoses",
+        "source": "airpress-catalogus-eng.json"
+      },
+      {
+        "sku": "37502",
+        "type": "fittings_for_spiral_hoses",
+        "source": "airpress-catalogus-eng.json"
+      },
+      {
+        "sku": "37503",
+        "type": "fittings_for_spiral_hoses",
+        "source": "airpress-catalogus-eng.json"
+      },
+      {
+        "sku": "37510",
+        "type": "fittings_for_spiral_hoses",
+        "source": "airpress-catalogus-eng.json"
+      }
+    ],
+    "fittings": [
+      {
+        "sku": "4303051",
+        "type": "mal_protection",
+        "source": "airpress-catalogus-eng.json"
+      },
+      {
+        "sku": "4337611",
+        "type": "mal_protection",
+        "source": "airpress-catalogus-eng.json"
+      },
+      {
+        "sku": "75257",
+        "type": "set_steek_en_knik_ring_ratelsleutels",
+        "source": "airpress-catalogus-nl-fr.json"
+      },
+      {
+        "sku": "Adapter 1",
+        "type": "pressure_washer",
+        "source": "kranzle-catalogus-2021-nl-1.json"
+      },
+      {
+        "sku": "Adapter 1",
+        "type": "pressure_washer",
+        "source": "kranzle-catalogus-2021-nl-1.json"
+      }
+    ],
+    "power_tools": [
+      {
+        "sku": "45402-P",
+        "type": "interchangeable_needles_45445",
+        "source": "airpress-catalogus-eng.json"
+      },
+      {
+        "sku": "45404-P",
+        "type": "interchangeable_needles_45445",
+        "source": "airpress-catalogus-eng.json"
+      },
+      {
+        "sku": "45406",
+        "type": "45411_45422",
+        "source": "airpress-catalogus-eng.json"
+      },
+      {
+        "sku": "45411",
+        "type": "45411_45422",
+        "source": "airpress-catalogus-eng.json"
+      },
+      {
+        "sku": "45422",
+        "type": "45411_45422",
+        "source": "airpress-catalogus-eng.json"
+      }
+    ],
+    "accessories": [
+      {
+        "sku": "75245",
+        "type": "75246",
+        "source": "airpress-catalogus-eng.json"
+      },
+      {
+        "sku": "75246",
+        "type": "75246",
+        "source": "airpress-catalogus-eng.json"
+      },
+      {
+        "sku": "75255",
+        "type": "75246",
+        "source": "airpress-catalogus-eng.json"
+      },
+      {
+        "sku": "18 V",
+        "type": "accu_haakse_slijpers_125_mm",
+        "source": "makita-catalogus-2022-nl.json"
+      },
+      {
+        "sku": "18 V",
+        "type": "accu_haakse_slijpers_125_mm",
+        "source": "makita-catalogus-2022-nl.json"
+      }
+    ],
+    "pumps": [
+      {
+        "sku": "36233-EMD",
+        "type": "36337_36233_emd_36233_ied_36053",
+        "source": "airpress-catalogus-nl-fr.json"
+      },
+      {
+        "sku": "36233-IED",
+        "type": "36337_36233_emd_36233_ied_36053",
+        "source": "airpress-catalogus-nl-fr.json"
+      },
+      {
+        "sku": "47501",
+        "type": "42078_42048_42069_42064_42073_42070",
+        "source": "airpress-catalogus-nl-fr.json"
+      },
+      {
+        "sku": "47502",
+        "type": "42078_42048_42069_42064_42073_42070",
+        "source": "airpress-catalogus-nl-fr.json"
+      },
+      {
+        "sku": "47601",
+        "type": "42078_42048_42069_42064_42073_42070",
+        "source": "airpress-catalogus-nl-fr.json"
+      }
+    ],
+    "garden_tools": [
+      {
+        "sku": "MATINOX101",
+        "type": "GARDEN JET 100 1 pK",
+        "source": "centrifugaalpompen.json"
+      },
+      {
+        "sku": "X9120207",
+        "type": "GARDEN-INOX 82 M",
+        "source": "centrifugaalpompen.json"
+      },
+      {
+        "sku": "X9120378",
+        "type": "GARDEN-INOX 132 M",
+        "source": "centrifugaalpompen.json"
+      },
+      {
+        "sku": "X9120524",
+        "type": "GARDEN-COM 102 M",
+        "source": "centrifugaalpompen.json"
+      },
+      {
+        "sku": "X9120615",
+        "type": "GARDENJET 102 M",
+        "source": "centrifugaalpompen.json"
+      }
+    ],
+    "pipes": [
+      {
+        "sku": "BKL012",
+        "type": "plastic_pipe",
+        "source": "drukbuizen.json"
+      },
+      {
+        "sku": "BKL020",
+        "type": "plastic_pipe",
+        "source": "drukbuizen.json"
+      },
+      {
+        "sku": "BKL032",
+        "type": "plastic_pipe",
+        "source": "drukbuizen.json"
+      },
+      {
+        "sku": "BKL050",
+        "type": "plastic_pipe",
+        "source": "drukbuizen.json"
+      },
+      {
+        "sku": "BKL075",
+        "type": "plastic_pipe",
+        "source": "drukbuizen.json"
+      }
+    ],
+    "pressure_washers": [
+      {
+        "sku": "10 (DN 6) | 43416 15 (DN 6) | 48015",
+        "type": "pressure_washer",
+        "source": "kranzle-catalogus-2021-nl-1.json"
+      },
+      {
+        "sku": "10 (DN 6) | 43416 15 (DN 6) | 48015",
+        "type": "pressure_washer",
+        "source": "kranzle-catalogus-2021-nl-1.json"
+      },
+      {
+        "sku": "10 (DN 6) | 43416 15 (DN 6) | 48015",
+        "type": "pressure_washer",
+        "source": "kranzle-catalogus-2021-nl-1.json"
+      },
+      {
+        "sku": "10 (DN 6) | 43416 15 (DN 6) | 48015",
+        "type": "pressure_washer",
+        "source": "kranzle-catalogus-2021-nl-1.json"
+      },
+      {
+        "sku": "10 (DN6) | 43416 M2000 | 12481",
+        "type": "pressure_washer",
+        "source": "kranzle-catalogus-2021-nl-1.json"
+      }
+    ]
+  }
+}

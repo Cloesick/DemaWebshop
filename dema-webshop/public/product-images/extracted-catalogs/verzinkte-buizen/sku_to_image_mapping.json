@@ -1,19 +1,12 @@
 {
   "catalog": "verzinkte-buizen",
-  "generated": "2025-11-30T20:06:00.669128",
+  "generated": "2025-12-06T22:32:32.403137",
   "total_skus": 46,
-  "total_images": 54,
+  "total_images": 56,
   "mapping": {
-    "NR 41": [
+    "NR 40": [
       {
-        "filename": "NR 41_p006_i00.webp",
-        "page": 6,
-        "all_skus": [
-          "NR 41"
-        ]
-      },
-      {
-        "filename": "NR 40+NR 41_p006_i01.webp",
+        "filename": "NR 40+NR 41_p006_i00.webp",
         "page": 6,
         "all_skus": [
           "NR 40",
@@ -21,19 +14,26 @@
         ]
       }
     ],
-    "NR 40": [
+    "NR 41": [
       {
-        "filename": "NR 40+NR 41_p006_i01.webp",
+        "filename": "NR 40+NR 41_p006_i00.webp",
         "page": 6,
         "all_skus": [
           "NR 40",
+          "NR 41"
+        ]
+      },
+      {
+        "filename": "NR 41_p006_i01.webp",
+        "page": 6,
+        "all_skus": [
           "NR 41"
         ]
       }
     ],
     "NR 90": [
       {
-        "filename": "NR 90_p007_i01.webp",
+        "filename": "NR 90_p007_i00.webp",
         "page": 7,
         "all_skus": [
           "NR 90"
@@ -42,28 +42,28 @@
     ],
     "NR 94": [
       {
-        "filename": "NR 94_p008_i00.webp",
-        "page": 8,
-        "all_skus": [
-          "NR 94"
-        ]
-      },
-      {
-        "filename": "NR 92+NR 94_p008_i02.webp",
+        "filename": "NR 92+NR 94_p008_i00.webp",
         "page": 8,
         "all_skus": [
           "NR 92",
           "NR 94"
         ]
-      }
-    ],
-    "ZF924": [
+      },
       {
-        "filename": "ZF923+ZF924_p008_i01.webp",
+        "filename": "NR 94_p008_i02.webp",
         "page": 8,
         "all_skus": [
-          "ZF923",
-          "ZF924"
+          "NR 94"
+        ]
+      }
+    ],
+    "NR 92": [
+      {
+        "filename": "NR 92+NR 94_p008_i00.webp",
+        "page": 8,
+        "all_skus": [
+          "NR 92",
+          "NR 94"
         ]
       }
     ],
@@ -77,63 +77,63 @@
         ]
       }
     ],
-    "NR 92": [
+    "ZF924": [
       {
-        "filename": "NR 92+NR 94_p008_i02.webp",
+        "filename": "ZF923+ZF924_p008_i01.webp",
         "page": 8,
         "all_skus": [
-          "NR 92",
-          "NR 94"
-        ]
-      }
-    ],
-    "NR 98": [
-      {
-        "filename": "NR 98_p009_i00.webp",
-        "page": 9,
-        "all_skus": [
-          "NR 98"
-        ]
-      },
-      {
-        "filename": "NR 96+NR 98_p009_i01.webp",
-        "page": 9,
-        "all_skus": [
-          "NR 96",
-          "NR 98"
+          "ZF923",
+          "ZF924"
         ]
       }
     ],
     "NR 96": [
       {
-        "filename": "NR 96+NR 98_p009_i01.webp",
+        "filename": "NR 96+NR 98_p009_i00.webp",
         "page": 9,
         "all_skus": [
           "NR 96",
+          "NR 98"
+        ]
+      }
+    ],
+    "NR 98": [
+      {
+        "filename": "NR 96+NR 98_p009_i00.webp",
+        "page": 9,
+        "all_skus": [
+          "NR 96",
+          "NR 98"
+        ]
+      },
+      {
+        "filename": "NR 98_p009_i01.webp",
+        "page": 9,
+        "all_skus": [
           "NR 98"
         ]
       }
     ],
     "NR 121": [
       {
-        "filename": "NR 121_p010_i00.webp",
+        "filename": "NR 120+NR 121_p010_i00.webp",
         "page": 10,
         "all_skus": [
+          "NR 120",
           "NR 121"
         ]
       },
       {
-        "filename": "NR 120+NR 121_p010_i01.webp",
+        "filename": "NR 121_p010_i01.webp",
         "page": 10,
         "all_skus": [
-          "NR 120",
           "NR 121"
         ]
       }
     ],
     "NR 120": [
       {
-        "filename": "NR 120+NR 121_p010_i01.webp",
+        "filename": "NR 120+NR 121_p010_i00.webp",
         "page": 10,
         "all_skus": [
           "NR 120",
@@ -143,7 +143,7 @@
     ],
     "NR 130": [
       {
-        "filename": "NR 130_p011_i01.webp",
+        "filename": "NR 130_p011_i00.webp",
         "page": 11,
         "all_skus": [
           "NR 130"
@@ -159,14 +159,24 @@
     ],
     "NR 133": [
       {
-        "filename": "NR 133_p013_i00.webp",
+        "filename": "NR 131+NR 133_p013_i00.webp",
         "page": 13,
         "all_skus": [
+          "NR 131",
           "NR 133"
         ]
       },
       {
-        "filename": "NR 131+NR 133_p013_i03.webp",
+        "filename": "NR 133_p013_i03.webp",
+        "page": 13,
+        "all_skus": [
+          "NR 133"
+        ]
+      }
+    ],
+    "NR 131": [
+      {
+        "filename": "NR 131+NR 133_p013_i00.webp",
         "page": 13,
         "all_skus": [
           "NR 131",
@@ -176,14 +186,26 @@
     ],
     "NR 134": [
       {
-        "filename": "NR 134_p013_i01.webp",
+        "filename": "NR 132+NR 134+ZF1313+ZF1314_p013_i01.webp",
+        "page": 13,
+        "all_skus": [
+          "NR 132",
+          "NR 134",
+          "ZF1313",
+          "ZF1314"
+        ]
+      },
+      {
+        "filename": "NR 134_p013_i02.webp",
         "page": 13,
         "all_skus": [
           "NR 134"
         ]
-      },
+      }
+    ],
+    "ZF1314": [
       {
-        "filename": "NR 132+NR 134+ZF1313+ZF1314_p013_i02.webp",
+        "filename": "NR 132+NR 134+ZF1313+ZF1314_p013_i01.webp",
         "page": 13,
         "all_skus": [
           "NR 132",
@@ -195,19 +217,7 @@
     ],
     "NR 132": [
       {
-        "filename": "NR 132+NR 134+ZF1313+ZF1314_p013_i02.webp",
-        "page": 13,
-        "all_skus": [
-          "NR 132",
-          "NR 134",
-          "ZF1313",
-          "ZF1314"
-        ]
-      }
-    ],
-    "ZF1314": [
-      {
-        "filename": "NR 132+NR 134+ZF1313+ZF1314_p013_i02.webp",
+        "filename": "NR 132+NR 134+ZF1313+ZF1314_p013_i01.webp",
         "page": 13,
         "all_skus": [
           "NR 132",
@@ -219,7 +229,7 @@
     ],
     "ZF1313": [
       {
-        "filename": "NR 132+NR 134+ZF1313+ZF1314_p013_i02.webp",
+        "filename": "NR 132+NR 134+ZF1313+ZF1314_p013_i01.webp",
         "page": 13,
         "all_skus": [
           "NR 132",
@@ -229,31 +239,44 @@
         ]
       }
     ],
-    "NR 131": [
+    "NR 135": [
       {
-        "filename": "NR 131+NR 133_p013_i03.webp",
-        "page": 13,
+        "filename": "NR 135+NR 180_p014_i00.webp",
+        "page": 14,
         "all_skus": [
-          "NR 131",
-          "NR 133"
+          "NR 135",
+          "NR 180"
         ]
       }
     ],
-    "ZF1803": [
+    "NR 180": [
       {
-        "filename": "NR 220+ZF18025+ZF1803+ZF1804_p014_i00.webp",
+        "filename": "NR 135+NR 180_p014_i00.webp",
         "page": 14,
         "all_skus": [
-          "NR 220",
-          "ZF18025",
-          "ZF1803",
-          "ZF1804"
+          "NR 135",
+          "NR 180"
+        ]
+      },
+      {
+        "filename": "NR 180_p014_i02.webp",
+        "page": 14,
+        "all_skus": [
+          "NR 180"
         ]
       }
     ],
     "NR 220": [
       {
-        "filename": "NR 220+ZF18025+ZF1803+ZF1804_p014_i00.webp",
+        "filename": "NR 165+NR 220_p014_i01.webp",
+        "page": 14,
+        "all_skus": [
+          "NR 165",
+          "NR 220"
+        ]
+      },
+      {
+        "filename": "NR 220+ZF18025+ZF1803+ZF1804_p014_i03.webp",
         "page": 14,
         "all_skus": [
           "NR 220",
@@ -261,9 +284,11 @@
           "ZF1803",
           "ZF1804"
         ]
-      },
+      }
+    ],
+    "NR 165": [
       {
-        "filename": "NR 165+NR 220_p014_i02.webp",
+        "filename": "NR 165+NR 220_p014_i01.webp",
         "page": 14,
         "all_skus": [
           "NR 165",
@@ -271,9 +296,9 @@
         ]
       }
     ],
-    "ZF1804": [
+    "ZF1803": [
       {
-        "filename": "NR 220+ZF18025+ZF1803+ZF1804_p014_i00.webp",
+        "filename": "NR 220+ZF18025+ZF1803+ZF1804_p014_i03.webp",
         "page": 14,
         "all_skus": [
           "NR 220",
@@ -285,7 +310,7 @@
     ],
     "ZF18025": [
       {
-        "filename": "NR 220+ZF18025+ZF1803+ZF1804_p014_i00.webp",
+        "filename": "NR 220+ZF18025+ZF1803+ZF1804_p014_i03.webp",
         "page": 14,
         "all_skus": [
           "NR 220",
@@ -295,63 +320,38 @@
         ]
       }
     ],
-    "NR 180": [
+    "ZF1804": [
       {
-        "filename": "NR 180_p014_i01.webp",
+        "filename": "NR 220+ZF18025+ZF1803+ZF1804_p014_i03.webp",
         "page": 14,
         "all_skus": [
-          "NR 180"
-        ]
-      },
-      {
-        "filename": "NR 135+NR 180_p014_i03.webp",
-        "page": 14,
-        "all_skus": [
-          "NR 135",
-          "NR 180"
-        ]
-      }
-    ],
-    "NR 165": [
-      {
-        "filename": "NR 165+NR 220_p014_i02.webp",
-        "page": 14,
-        "all_skus": [
-          "NR 165",
-          "NR 220"
-        ]
-      }
-    ],
-    "NR 135": [
-      {
-        "filename": "NR 135+NR 180_p014_i03.webp",
-        "page": 14,
-        "all_skus": [
-          "NR 135",
-          "NR 180"
+          "NR 220",
+          "ZF18025",
+          "ZF1803",
+          "ZF1804"
         ]
       }
     ],
     "NR 223": [
       {
-        "filename": "NR 223_p015_i00.webp",
+        "filename": "NR 221+NR 223_p015_i00.webp",
         "page": 15,
         "all_skus": [
+          "NR 221",
           "NR 223"
         ]
       },
       {
-        "filename": "NR 221+NR 223_p015_i01.webp",
+        "filename": "NR 223_p015_i01.webp",
         "page": 15,
         "all_skus": [
-          "NR 221",
           "NR 223"
         ]
       }
     ],
     "NR 221": [
       {
-        "filename": "NR 221+NR 223_p015_i01.webp",
+        "filename": "NR 221+NR 223_p015_i00.webp",
         "page": 15,
         "all_skus": [
           "NR 221",
@@ -361,14 +361,7 @@
     ],
     "NR 241": [
       {
-        "filename": "NR 241_p016_i00.webp",
-        "page": 16,
-        "all_skus": [
-          "NR 241"
-        ]
-      },
-      {
-        "filename": "NR 240+NR 241_p016_i01.webp",
+        "filename": "NR 240+NR 241_p016_i00.webp",
         "page": 16,
         "all_skus": [
           "NR 240",
@@ -376,7 +369,14 @@
         ]
       },
       {
-        "filename": "NR 241+NR 245_p017_i01.webp",
+        "filename": "NR 241_p016_i01.webp",
+        "page": 16,
+        "all_skus": [
+          "NR 241"
+        ]
+      },
+      {
+        "filename": "NR 241+NR 245_p017_i00.webp",
         "page": 17,
         "all_skus": [
           "NR 241",
@@ -386,7 +386,7 @@
     ],
     "NR 240": [
       {
-        "filename": "NR 240+NR 241_p016_i01.webp",
+        "filename": "NR 240+NR 241_p016_i00.webp",
         "page": 16,
         "all_skus": [
           "NR 240",
@@ -396,41 +396,41 @@
     ],
     "NR 245": [
       {
-        "filename": "NR 245_p017_i00.webp",
+        "filename": "NR 241+NR 245_p017_i00.webp",
         "page": 17,
         "all_skus": [
+          "NR 241",
           "NR 245"
         ]
       },
       {
-        "filename": "NR 241+NR 245_p017_i01.webp",
+        "filename": "NR 245_p017_i01.webp",
         "page": 17,
         "all_skus": [
-          "NR 241",
           "NR 245"
         ]
       }
     ],
     "NR 270": [
       {
-        "filename": "NR 270_p018_i00.webp",
+        "filename": "NR 246+NR 270_p018_i00.webp",
         "page": 18,
         "all_skus": [
+          "NR 246",
           "NR 270"
         ]
       },
       {
-        "filename": "NR 246+NR 270_p018_i01.webp",
+        "filename": "NR 270_p018_i01.webp",
         "page": 18,
         "all_skus": [
-          "NR 246",
           "NR 270"
         ]
       }
     ],
     "NR 246": [
       {
-        "filename": "NR 246+NR 270_p018_i01.webp",
+        "filename": "NR 246+NR 270_p018_i00.webp",
         "page": 18,
         "all_skus": [
           "NR 246",
@@ -467,24 +467,24 @@
     ],
     "NR 300": [
       {
-        "filename": "NR 290+NR 300_p020_i00.webp",
+        "filename": "NR 300_p020_i00.webp",
         "page": 20,
         "all_skus": [
-          "NR 290",
           "NR 300"
         ]
       },
       {
-        "filename": "NR 300_p020_i01.webp",
+        "filename": "NR 290+NR 300_p020_i01.webp",
         "page": 20,
         "all_skus": [
+          "NR 290",
           "NR 300"
         ]
       }
     ],
     "NR 290": [
       {
-        "filename": "NR 290+NR 300_p020_i00.webp",
+        "filename": "NR 290+NR 300_p020_i01.webp",
         "page": 20,
         "all_skus": [
           "NR 290",
@@ -492,62 +492,45 @@
         ]
       }
     ],
-    "NR 326": [
+    "NR 312": [
       {
-        "filename": "NR 326_p021_i00.webp",
+        "filename": "NR 312+NR 321_p021_i00.webp",
         "page": 21,
         "all_skus": [
-          "NR 326"
+          "NR 312",
+          "NR 321"
         ]
       }
     ],
     "NR 321": [
+      {
+        "filename": "NR 312+NR 321_p021_i00.webp",
+        "page": 21,
+        "all_skus": [
+          "NR 312",
+          "NR 321"
+        ]
+      },
       {
         "filename": "NR 321_p021_i01.webp",
         "page": 21,
         "all_skus": [
           "NR 321"
         ]
-      },
-      {
-        "filename": "NR 312+NR 321_p021_i02.webp",
-        "page": 21,
-        "all_skus": [
-          "NR 312",
-          "NR 321"
-        ]
       }
     ],
-    "NR 312": [
+    "NR 326": [
       {
-        "filename": "NR 312+NR 321_p021_i02.webp",
+        "filename": "NR 326_p021_i02.webp",
         "page": 21,
         "all_skus": [
-          "NR 312",
-          "NR 321"
-        ]
-      }
-    ],
-    "NR 341": [
-      {
-        "filename": "NR 341_p022_i00.webp",
-        "page": 22,
-        "all_skus": [
-          "NR 341"
-        ]
-      },
-      {
-        "filename": "NR 340+NR 341_p022_i01.webp",
-        "page": 22,
-        "all_skus": [
-          "NR 340",
-          "NR 341"
+          "NR 326"
         ]
       }
     ],
     "NR 340": [
       {
-        "filename": "NR 340+NR 341_p022_i01.webp",
+        "filename": "NR 340+NR 341_p022_i00.webp",
         "page": 22,
         "all_skus": [
           "NR 340",
@@ -555,16 +538,26 @@
         ]
       }
     ],
-    "NR 471": [
+    "NR 341": [
       {
-        "filename": "NR 471_p023_i00.webp",
-        "page": 23,
+        "filename": "NR 340+NR 341_p022_i00.webp",
+        "page": 22,
         "all_skus": [
-          "NR 471"
+          "NR 340",
+          "NR 341"
         ]
       },
       {
-        "filename": "NR 344+NR 471_p023_i01.webp",
+        "filename": "NR 341_p022_i01.webp",
+        "page": 22,
+        "all_skus": [
+          "NR 341"
+        ]
+      }
+    ],
+    "NR 344": [
+      {
+        "filename": "NR 344+NR 471_p023_i00.webp",
         "page": 23,
         "all_skus": [
           "NR 344",
@@ -572,19 +565,26 @@
         ]
       }
     ],
-    "NR 344": [
+    "NR 471": [
       {
-        "filename": "NR 344+NR 471_p023_i01.webp",
+        "filename": "NR 344+NR 471_p023_i00.webp",
         "page": 23,
         "all_skus": [
           "NR 344",
+          "NR 471"
+        ]
+      },
+      {
+        "filename": "NR 471_p023_i01.webp",
+        "page": 23,
+        "all_skus": [
           "NR 471"
         ]
       }
     ],
     "NR 529": [
       {
-        "filename": "NR 526+NR 529_p024_i01.webp",
+        "filename": "NR 526+NR 529_p024_i00.webp",
         "page": 24,
         "all_skus": [
           "NR 526",
@@ -594,7 +594,7 @@
     ],
     "NR 526": [
       {
-        "filename": "NR 526+NR 529_p024_i01.webp",
+        "filename": "NR 526+NR 529_p024_i00.webp",
         "page": 24,
         "all_skus": [
           "NR 526",
@@ -611,7 +611,21 @@
         ]
       },
       {
+        "filename": "NR 23_p025_i01.webp",
+        "page": 25,
+        "all_skus": [
+          "NR 23"
+        ]
+      },
+      {
         "filename": "NR 23_p026_i00.webp",
+        "page": 26,
+        "all_skus": [
+          "NR 23"
+        ]
+      },
+      {
+        "filename": "NR 23_p026_i01.webp",
         "page": 26,
         "all_skus": [
           "NR 23"

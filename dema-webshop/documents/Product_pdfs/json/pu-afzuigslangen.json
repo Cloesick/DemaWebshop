@@ -1,7 +1,7 @@
 [
   {
     "sku": "ZGPUH025",
-    "series_id": "granulaten",
+    "series_id": "pu-afzuigslangen__granulaten",
     "series_name": "granulaten,",
     "source_pdf": "pu-afzuigslangen.pdf",
     "page": 5,
@@ -24,13 +24,11 @@
       "material": null,
       "family_id": null,
       "sku_series": "zgpuh"
-    },
-    "series_image": "images/pu-afzuigslangen/granulaten__zgpuh025.webp",
-    "image": "images/pu-afzuigslangen/pu-afzuigslangen__p5__granulaten__ZGPUH025-ZGPUH025-ZGPUH038.webp"
+    }
   },
   {
     "sku": "ZGPUH025",
-    "series_id": "granulaten",
+    "series_id": "pu-afzuigslangen__granulaten",
     "series_name": "granulaten,",
     "source_pdf": "pu-afzuigslangen.pdf",
     "page": 5,
@@ -53,13 +51,11 @@
       "material": null,
       "family_id": null,
       "sku_series": "zgpuh"
-    },
-    "series_image": "images/pu-afzuigslangen/granulaten__zgpuh025.webp",
-    "image": "images/pu-afzuigslangen/pu-afzuigslangen__p5__granulaten__ZGPUH025-ZGPUH025-ZGPUH038.webp"
+    }
   },
   {
     "sku": "ZGPUH038",
-    "series_id": "granulaten",
+    "series_id": "pu-afzuigslangen__granulaten",
     "series_name": "granulaten,",
     "source_pdf": "pu-afzuigslangen.pdf",
     "page": 5,
@@ -82,13 +78,11 @@
       "material": null,
       "family_id": null,
       "sku_series": "zgpuh"
-    },
-    "series_image": "images/pu-afzuigslangen/granulaten__zgpuh025.webp",
-    "image": "images/pu-afzuigslangen/pu-afzuigslangen__p5__granulaten__ZGPUH025-ZGPUH025-ZGPUH038.webp"
+    }
   },
   {
     "sku": "ZGPUH038",
-    "series_id": "granulaten",
+    "series_id": "pu-afzuigslangen__granulaten",
     "series_name": "granulaten,",
     "source_pdf": "pu-afzuigslangen.pdf",
     "page": 5,
@@ -111,13 +105,11 @@
       "material": null,
       "family_id": null,
       "sku_series": "zgpuh"
-    },
-    "series_image": "images/pu-afzuigslangen/granulaten__zgpuh025.webp",
-    "image": "images/pu-afzuigslangen/pu-afzuigslangen__p5__granulaten__ZGPUH025-ZGPUH025-ZGPUH038.webp"
+    }
   },
   {
     "sku": "ZGPUH045",
-    "series_id": "granulaten",
+    "series_id": "pu-afzuigslangen__granulaten",
     "series_name": "granulaten,",
     "source_pdf": "pu-afzuigslangen.pdf",
     "page": 5,
@@ -140,13 +132,11 @@
       "material": null,
       "family_id": null,
       "sku_series": "zgpuh"
-    },
-    "series_image": "images/pu-afzuigslangen/granulaten__zgpuh025.webp",
-    "image": "images/pu-afzuigslangen/pu-afzuigslangen__p5__granulaten__ZGPUH025-ZGPUH025-ZGPUH038.webp"
+    }
   },
   {
     "sku": "ZGPUH045",
-    "series_id": "granulaten",
+    "series_id": "pu-afzuigslangen__granulaten",
     "series_name": "granulaten,",
     "source_pdf": "pu-afzuigslangen.pdf",
     "page": 5,
@@ -169,13 +159,11 @@
       "material": null,
       "family_id": null,
       "sku_series": "zgpuh"
-    },
-    "series_image": "images/pu-afzuigslangen/granulaten__zgpuh025.webp",
-    "image": "images/pu-afzuigslangen/pu-afzuigslangen__p5__granulaten__ZGPUH025-ZGPUH025-ZGPUH038.webp"
+    }
   },
   {
     "sku": "ZGPUH055",
-    "series_id": "granulaten",
+    "series_id": "pu-afzuigslangen__granulaten",
     "series_name": "granulaten,",
     "source_pdf": "pu-afzuigslangen.pdf",
     "page": 5,
@@ -198,13 +186,11 @@
       "material": null,
       "family_id": null,
       "sku_series": "zgpuh"
-    },
-    "series_image": "images/pu-afzuigslangen/granulaten__zgpuh025.webp",
-    "image": "images/pu-afzuigslangen/pu-afzuigslangen__p5__granulaten__ZGPUH025-ZGPUH025-ZGPUH038.webp"
+    }
   },
   {
     "sku": "ZGPUH055",
-    "series_id": "granulaten",
+    "series_id": "pu-afzuigslangen__granulaten",
     "series_name": "granulaten,",
     "source_pdf": "pu-afzuigslangen.pdf",
     "page": 5,
@@ -227,13 +213,11 @@
       "material": null,
       "family_id": null,
       "sku_series": "zgpuh"
-    },
-    "series_image": "images/pu-afzuigslangen/granulaten__zgpuh025.webp",
-    "image": "images/pu-afzuigslangen/pu-afzuigslangen__p5__granulaten__ZGPUH025-ZGPUH025-ZGPUH038.webp"
+    }
   },
   {
     "sku": "ZGPUH065",
-    "series_id": "granulaten",
+    "series_id": "pu-afzuigslangen__granulaten",
     "series_name": "granulaten,",
     "source_pdf": "pu-afzuigslangen.pdf",
     "page": 5,
@@ -256,13 +240,11 @@
       "material": null,
       "family_id": null,
       "sku_series": "zgpuh"
-    },
-    "series_image": "images/pu-afzuigslangen/granulaten__zgpuh025.webp",
-    "image": "images/pu-afzuigslangen/pu-afzuigslangen__p5__granulaten__ZGPUH025-ZGPUH025-ZGPUH038.webp"
+    }
   },
   {
     "sku": "ZGPUH070",
-    "series_id": "granulaten",
+    "series_id": "pu-afzuigslangen__granulaten",
     "series_name": "granulaten,",
     "source_pdf": "pu-afzuigslangen.pdf",
     "page": 5,
@@ -285,13 +267,11 @@
       "material": null,
       "family_id": null,
       "sku_series": "zgpuh"
-    },
-    "series_image": "images/pu-afzuigslangen/granulaten__zgpuh025.webp",
-    "image": "images/pu-afzuigslangen/pu-afzuigslangen__p5__granulaten__ZGPUH025-ZGPUH025-ZGPUH038.webp"
+    }
   },
   {
     "sku": "ZGPUH075",
-    "series_id": "granulaten",
+    "series_id": "pu-afzuigslangen__granulaten",
     "series_name": "granulaten,",
     "source_pdf": "pu-afzuigslangen.pdf",
     "page": 5,
@@ -314,13 +294,11 @@
       "material": null,
       "family_id": null,
       "sku_series": "zgpuh"
-    },
-    "series_image": "images/pu-afzuigslangen/granulaten__zgpuh025.webp",
-    "image": "images/pu-afzuigslangen/pu-afzuigslangen__p5__granulaten__ZGPUH025-ZGPUH025-ZGPUH038.webp"
+    }
   },
   {
     "sku": "ZGPUH080",
-    "series_id": "granulaten",
+    "series_id": "pu-afzuigslangen__granulaten",
     "series_name": "granulaten,",
     "source_pdf": "pu-afzuigslangen.pdf",
     "page": 5,
@@ -343,13 +321,11 @@
       "material": null,
       "family_id": null,
       "sku_series": "zgpuh"
-    },
-    "series_image": "images/pu-afzuigslangen/granulaten__zgpuh025.webp",
-    "image": "images/pu-afzuigslangen/pu-afzuigslangen__p5__granulaten__ZGPUH025-ZGPUH025-ZGPUH038.webp"
+    }
   },
   {
     "sku": "ZGPUH090",
-    "series_id": "granulaten",
+    "series_id": "pu-afzuigslangen__granulaten",
     "series_name": "granulaten,",
     "source_pdf": "pu-afzuigslangen.pdf",
     "page": 5,
@@ -372,13 +348,11 @@
       "material": null,
       "family_id": null,
       "sku_series": "zgpuh"
-    },
-    "series_image": "images/pu-afzuigslangen/granulaten__zgpuh025.webp",
-    "image": "images/pu-afzuigslangen/pu-afzuigslangen__p5__granulaten__ZGPUH025-ZGPUH025-ZGPUH038.webp"
+    }
   },
   {
     "sku": "ZGPUH110",
-    "series_id": "granulaten",
+    "series_id": "pu-afzuigslangen__granulaten",
     "series_name": "granulaten,",
     "source_pdf": "pu-afzuigslangen.pdf",
     "page": 5,
@@ -401,13 +375,11 @@
       "material": null,
       "family_id": null,
       "sku_series": "zgpuh"
-    },
-    "series_image": "images/pu-afzuigslangen/granulaten__zgpuh025.webp",
-    "image": "images/pu-afzuigslangen/pu-afzuigslangen__p5__granulaten__ZGPUH025-ZGPUH025-ZGPUH038.webp"
+    }
   },
   {
     "sku": "ZGPUH115",
-    "series_id": "granulaten",
+    "series_id": "pu-afzuigslangen__granulaten",
     "series_name": "granulaten,",
     "source_pdf": "pu-afzuigslangen.pdf",
     "page": 5,
@@ -430,13 +402,11 @@
       "material": null,
       "family_id": null,
       "sku_series": "zgpuh"
-    },
-    "series_image": "images/pu-afzuigslangen/granulaten__zgpuh025.webp",
-    "image": "images/pu-afzuigslangen/pu-afzuigslangen__p5__granulaten__ZGPUH025-ZGPUH025-ZGPUH038.webp"
+    }
   },
   {
     "sku": "ZGPUH120",
-    "series_id": "granulaten",
+    "series_id": "pu-afzuigslangen__granulaten",
     "series_name": "granulaten,",
     "source_pdf": "pu-afzuigslangen.pdf",
     "page": 5,
@@ -459,13 +429,11 @@
       "material": null,
       "family_id": null,
       "sku_series": "zgpuh"
-    },
-    "series_image": "images/pu-afzuigslangen/granulaten__zgpuh025.webp",
-    "image": "images/pu-afzuigslangen/pu-afzuigslangen__p5__granulaten__ZGPUH025-ZGPUH025-ZGPUH038.webp"
+    }
   },
   {
     "sku": "ZGPUH125",
-    "series_id": "granulaten",
+    "series_id": "pu-afzuigslangen__granulaten",
     "series_name": "granulaten,",
     "source_pdf": "pu-afzuigslangen.pdf",
     "page": 5,
@@ -488,13 +456,11 @@
       "material": null,
       "family_id": null,
       "sku_series": "zgpuh"
-    },
-    "series_image": "images/pu-afzuigslangen/granulaten__zgpuh025.webp",
-    "image": "images/pu-afzuigslangen/pu-afzuigslangen__p5__granulaten__ZGPUH025-ZGPUH025-ZGPUH038.webp"
+    }
   },
   {
     "sku": "ZGPUH150",
-    "series_id": "granulaten",
+    "series_id": "pu-afzuigslangen__granulaten",
     "series_name": "granulaten,",
     "source_pdf": "pu-afzuigslangen.pdf",
     "page": 5,
@@ -517,13 +483,11 @@
       "material": null,
       "family_id": null,
       "sku_series": "zgpuh"
-    },
-    "series_image": "images/pu-afzuigslangen/granulaten__zgpuh025.webp",
-    "image": "images/pu-afzuigslangen/pu-afzuigslangen__p5__granulaten__ZGPUH025-ZGPUH025-ZGPUH038.webp"
+    }
   },
   {
     "sku": "ZGPUH160",
-    "series_id": "granulaten",
+    "series_id": "pu-afzuigslangen__granulaten",
     "series_name": "granulaten,",
     "source_pdf": "pu-afzuigslangen.pdf",
     "page": 5,
@@ -546,13 +510,11 @@
       "material": null,
       "family_id": null,
       "sku_series": "zgpuh"
-    },
-    "series_image": "images/pu-afzuigslangen/granulaten__zgpuh025.webp",
-    "image": "images/pu-afzuigslangen/pu-afzuigslangen__p5__granulaten__ZGPUH025-ZGPUH025-ZGPUH038.webp"
+    }
   },
   {
     "sku": "ZGPUH170",
-    "series_id": "granulaten",
+    "series_id": "pu-afzuigslangen__granulaten",
     "series_name": "granulaten,",
     "source_pdf": "pu-afzuigslangen.pdf",
     "page": 5,
@@ -575,13 +537,11 @@
       "material": null,
       "family_id": null,
       "sku_series": "zgpuh"
-    },
-    "series_image": "images/pu-afzuigslangen/granulaten__zgpuh025.webp",
-    "image": "images/pu-afzuigslangen/pu-afzuigslangen__p5__granulaten__ZGPUH025-ZGPUH025-ZGPUH038.webp"
+    }
   },
   {
     "sku": "ZGPUH200",
-    "series_id": "granulaten",
+    "series_id": "pu-afzuigslangen__granulaten",
     "series_name": "granulaten,",
     "source_pdf": "pu-afzuigslangen.pdf",
     "page": 5,
@@ -604,13 +564,11 @@
       "material": null,
       "family_id": null,
       "sku_series": "zgpuh"
-    },
-    "series_image": "images/pu-afzuigslangen/granulaten__zgpuh025.webp",
-    "image": "images/pu-afzuigslangen/pu-afzuigslangen__p5__granulaten__ZGPUH025-ZGPUH025-ZGPUH038.webp"
+    }
   },
   {
     "sku": "ZGPUH250",
-    "series_id": "granulaten",
+    "series_id": "pu-afzuigslangen__granulaten",
     "series_name": "granulaten,",
     "source_pdf": "pu-afzuigslangen.pdf",
     "page": 5,
@@ -633,13 +591,11 @@
       "material": null,
       "family_id": null,
       "sku_series": "zgpuh"
-    },
-    "series_image": "images/pu-afzuigslangen/granulaten__zgpuh025.webp",
-    "image": "images/pu-afzuigslangen/pu-afzuigslangen__p5__granulaten__ZGPUH025-ZGPUH025-ZGPUH038.webp"
+    }
   },
   {
     "sku": "ZGPUL013",
-    "series_id": "afzuigen-van-droge",
+    "series_id": "pu-afzuigslangen__afzuigen-van-droge",
     "series_name": "• Afzuigen van droge",
     "source_pdf": "pu-afzuigslangen.pdf",
     "page": 2,
@@ -662,13 +618,11 @@
       "material": null,
       "family_id": null,
       "sku_series": "zgpul"
-    },
-    "series_image": "images/pu-afzuigslangen/afzuigen-van-droge__zgpul013.webp",
-    "image": "images/pu-afzuigslangen/pu-afzuigslangen__p2__afzuigen-van-droge__ZGPUL013-ZGPUL013-ZGPUL019.webp"
+    }
   },
   {
     "sku": "ZGPUL013",
-    "series_id": "afzuigen-van-droge",
+    "series_id": "pu-afzuigslangen__afzuigen-van-droge",
     "series_name": "• Afzuigen van droge",
     "source_pdf": "pu-afzuigslangen.pdf",
     "page": 2,
@@ -691,13 +645,11 @@
       "material": null,
       "family_id": null,
       "sku_series": "zgpul"
-    },
-    "series_image": "images/pu-afzuigslangen/afzuigen-van-droge__zgpul013.webp",
-    "image": "images/pu-afzuigslangen/pu-afzuigslangen__p2__afzuigen-van-droge__ZGPUL013-ZGPUL013-ZGPUL019.webp"
+    }
   },
   {
     "sku": "ZGPUL019",
-    "series_id": "afzuigen-van-droge",
+    "series_id": "pu-afzuigslangen__afzuigen-van-droge",
     "series_name": "• Afzuigen van droge",
     "source_pdf": "pu-afzuigslangen.pdf",
     "page": 2,
@@ -720,13 +672,11 @@
       "material": null,
       "family_id": null,
       "sku_series": "zgpul"
-    },
-    "series_image": "images/pu-afzuigslangen/afzuigen-van-droge__zgpul013.webp",
-    "image": "images/pu-afzuigslangen/pu-afzuigslangen__p2__afzuigen-van-droge__ZGPUL013-ZGPUL013-ZGPUL019.webp"
+    }
   },
   {
     "sku": "ZGPUL019",
-    "series_id": "afzuigen-van-droge",
+    "series_id": "pu-afzuigslangen__afzuigen-van-droge",
     "series_name": "• Afzuigen van droge",
     "source_pdf": "pu-afzuigslangen.pdf",
     "page": 2,
@@ -749,13 +699,11 @@
       "material": null,
       "family_id": null,
       "sku_series": "zgpul"
-    },
-    "series_image": "images/pu-afzuigslangen/afzuigen-van-droge__zgpul013.webp",
-    "image": "images/pu-afzuigslangen/pu-afzuigslangen__p2__afzuigen-van-droge__ZGPUL013-ZGPUL013-ZGPUL019.webp"
+    }
   },
   {
     "sku": "ZGPUL032",
-    "series_id": "afzuigen-van-droge",
+    "series_id": "pu-afzuigslangen__afzuigen-van-droge",
     "series_name": "• Afzuigen van droge",
     "source_pdf": "pu-afzuigslangen.pdf",
     "page": 2,
@@ -778,13 +726,11 @@
       "material": null,
       "family_id": null,
       "sku_series": "zgpul"
-    },
-    "series_image": "images/pu-afzuigslangen/afzuigen-van-droge__zgpul013.webp",
-    "image": "images/pu-afzuigslangen/pu-afzuigslangen__p2__afzuigen-van-droge__ZGPUL013-ZGPUL013-ZGPUL019.webp"
+    }
   },
   {
     "sku": "ZGPUL032",
-    "series_id": "afzuigen-van-droge",
+    "series_id": "pu-afzuigslangen__afzuigen-van-droge",
     "series_name": "• Afzuigen van droge",
     "source_pdf": "pu-afzuigslangen.pdf",
     "page": 2,
@@ -807,13 +753,11 @@
       "material": null,
       "family_id": null,
       "sku_series": "zgpul"
-    },
-    "series_image": "images/pu-afzuigslangen/afzuigen-van-droge__zgpul013.webp",
-    "image": "images/pu-afzuigslangen/pu-afzuigslangen__p2__afzuigen-van-droge__ZGPUL013-ZGPUL013-ZGPUL019.webp"
+    }
   },
   {
     "sku": "ZGPUL038",
-    "series_id": "afzuigen-van-droge",
+    "series_id": "pu-afzuigslangen__afzuigen-van-droge",
     "series_name": "• Afzuigen van droge",
     "source_pdf": "pu-afzuigslangen.pdf",
     "page": 2,
@@ -836,13 +780,11 @@
       "material": null,
       "family_id": null,
       "sku_series": "zgpul"
-    },
-    "series_image": "images/pu-afzuigslangen/afzuigen-van-droge__zgpul013.webp",
-    "image": "images/pu-afzuigslangen/pu-afzuigslangen__p2__afzuigen-van-droge__ZGPUL013-ZGPUL013-ZGPUL019.webp"
+    }
   },
   {
     "sku": "ZGPUL038",
-    "series_id": "afzuigen-van-droge",
+    "series_id": "pu-afzuigslangen__afzuigen-van-droge",
     "series_name": "• Afzuigen van droge",
     "source_pdf": "pu-afzuigslangen.pdf",
     "page": 2,
@@ -865,13 +807,11 @@
       "material": null,
       "family_id": null,
       "sku_series": "zgpul"
-    },
-    "series_image": "images/pu-afzuigslangen/afzuigen-van-droge__zgpul013.webp",
-    "image": "images/pu-afzuigslangen/pu-afzuigslangen__p2__afzuigen-van-droge__ZGPUL013-ZGPUL013-ZGPUL019.webp"
+    }
   },
   {
     "sku": "ZGPUL045",
-    "series_id": "afzuigen-van-droge",
+    "series_id": "pu-afzuigslangen__afzuigen-van-droge",
     "series_name": "• Afzuigen van droge",
     "source_pdf": "pu-afzuigslangen.pdf",
     "page": 2,
@@ -894,13 +834,11 @@
       "material": null,
       "family_id": null,
       "sku_series": "zgpul"
-    },
-    "series_image": "images/pu-afzuigslangen/afzuigen-van-droge__zgpul013.webp",
-    "image": "images/pu-afzuigslangen/pu-afzuigslangen__p2__afzuigen-van-droge__ZGPUL013-ZGPUL013-ZGPUL019.webp"
+    }
   },
   {
     "sku": "ZGPUL045",
-    "series_id": "afzuigen-van-droge",
+    "series_id": "pu-afzuigslangen__afzuigen-van-droge",
     "series_name": "• Afzuigen van droge",
     "source_pdf": "pu-afzuigslangen.pdf",
     "page": 2,
@@ -923,13 +861,11 @@
       "material": null,
       "family_id": null,
       "sku_series": "zgpul"
-    },
-    "series_image": "images/pu-afzuigslangen/afzuigen-van-droge__zgpul013.webp",
-    "image": "images/pu-afzuigslangen/pu-afzuigslangen__p2__afzuigen-van-droge__ZGPUL013-ZGPUL013-ZGPUL019.webp"
+    }
   },
   {
     "sku": "ZGPUL055",
-    "series_id": "afzuigen-van-droge",
+    "series_id": "pu-afzuigslangen__afzuigen-van-droge",
     "series_name": "• Afzuigen van droge",
     "source_pdf": "pu-afzuigslangen.pdf",
     "page": 2,
@@ -952,13 +888,11 @@
       "material": null,
       "family_id": null,
       "sku_series": "zgpul"
-    },
-    "series_image": "images/pu-afzuigslangen/afzuigen-van-droge__zgpul013.webp",
-    "image": "images/pu-afzuigslangen/pu-afzuigslangen__p2__afzuigen-van-droge__ZGPUL013-ZGPUL013-ZGPUL019.webp"
+    }
   },
   {
     "sku": "ZGPUL060",
-    "series_id": "afzuigen-van-droge",
+    "series_id": "pu-afzuigslangen__afzuigen-van-droge",
     "series_name": "• Afzuigen van droge",
     "source_pdf": "pu-afzuigslangen.pdf",
     "page": 2,
@@ -981,13 +915,11 @@
       "material": null,
       "family_id": null,
       "sku_series": "zgpul"
-    },
-    "series_image": "images/pu-afzuigslangen/afzuigen-van-droge__zgpul013.webp",
-    "image": "images/pu-afzuigslangen/pu-afzuigslangen__p2__afzuigen-van-droge__ZGPUL013-ZGPUL013-ZGPUL019.webp"
+    }
   },
   {
     "sku": "ZGPUL065",
-    "series_id": "afzuigen-van-droge",
+    "series_id": "pu-afzuigslangen__afzuigen-van-droge",
     "series_name": "• Afzuigen van droge",
     "source_pdf": "pu-afzuigslangen.pdf",
     "page": 2,
@@ -1010,13 +942,11 @@
       "material": null,
       "family_id": null,
       "sku_series": "zgpul"
-    },
-    "series_image": "images/pu-afzuigslangen/afzuigen-van-droge__zgpul013.webp",
-    "image": "images/pu-afzuigslangen/pu-afzuigslangen__p2__afzuigen-van-droge__ZGPUL013-ZGPUL013-ZGPUL019.webp"
+    }
   },
   {
     "sku": "ZGPUL070",
-    "series_id": "afzuigen-van-droge",
+    "series_id": "pu-afzuigslangen__afzuigen-van-droge",
     "series_name": "• Afzuigen van droge",
     "source_pdf": "pu-afzuigslangen.pdf",
     "page": 2,
@@ -1039,13 +969,11 @@
       "material": null,
       "family_id": null,
       "sku_series": "zgpul"
-    },
-    "series_image": "images/pu-afzuigslangen/afzuigen-van-droge__zgpul013.webp",
-    "image": "images/pu-afzuigslangen/pu-afzuigslangen__p2__afzuigen-van-droge__ZGPUL013-ZGPUL013-ZGPUL019.webp"
+    }
   },
   {
     "sku": "ZGPUL075",
-    "series_id": "afzuigen-van-droge",
+    "series_id": "pu-afzuigslangen__afzuigen-van-droge",
     "series_name": "• Afzuigen van droge",
     "source_pdf": "pu-afzuigslangen.pdf",
     "page": 2,
@@ -1068,13 +996,11 @@
       "material": null,
       "family_id": null,
       "sku_series": "zgpul"
-    },
-    "series_image": "images/pu-afzuigslangen/afzuigen-van-droge__zgpul013.webp",
-    "image": "images/pu-afzuigslangen/pu-afzuigslangen__p2__afzuigen-van-droge__ZGPUL013-ZGPUL013-ZGPUL019.webp"
+    }
   },
   {
     "sku": "ZGPUL090",
-    "series_id": "afzuigen-van-droge",
+    "series_id": "pu-afzuigslangen__afzuigen-van-droge",
     "series_name": "• Afzuigen van droge",
     "source_pdf": "pu-afzuigslangen.pdf",
     "page": 2,
@@ -1097,13 +1023,11 @@
       "material": null,
       "family_id": null,
       "sku_series": "zgpul"
-    },
-    "series_image": "images/pu-afzuigslangen/afzuigen-van-droge__zgpul013.webp",
-    "image": "images/pu-afzuigslangen/pu-afzuigslangen__p2__afzuigen-van-droge__ZGPUL013-ZGPUL013-ZGPUL019.webp"
+    }
   },
   {
     "sku": "ZGPUL110",
-    "series_id": "afzuigen-van-droge",
+    "series_id": "pu-afzuigslangen__afzuigen-van-droge",
     "series_name": "• Afzuigen van droge",
     "source_pdf": "pu-afzuigslangen.pdf",
     "page": 2,
@@ -1126,13 +1050,11 @@
       "material": null,
       "family_id": null,
       "sku_series": "zgpul"
-    },
-    "series_image": "images/pu-afzuigslangen/afzuigen-van-droge__zgpul013.webp",
-    "image": "images/pu-afzuigslangen/pu-afzuigslangen__p2__afzuigen-van-droge__ZGPUL013-ZGPUL013-ZGPUL019.webp"
+    }
   },
   {
     "sku": "ZGPUL120",
-    "series_id": "afzuigen-van-droge",
+    "series_id": "pu-afzuigslangen__afzuigen-van-droge",
     "series_name": "• Afzuigen van droge",
     "source_pdf": "pu-afzuigslangen.pdf",
     "page": 2,
@@ -1155,13 +1077,11 @@
       "material": null,
       "family_id": null,
       "sku_series": "zgpul"
-    },
-    "series_image": "images/pu-afzuigslangen/afzuigen-van-droge__zgpul013.webp",
-    "image": "images/pu-afzuigslangen/pu-afzuigslangen__p2__afzuigen-van-droge__ZGPUL013-ZGPUL013-ZGPUL019.webp"
+    }
   },
   {
     "sku": "ZGPUL125",
-    "series_id": "afzuigen-van-droge",
+    "series_id": "pu-afzuigslangen__afzuigen-van-droge",
     "series_name": "• Afzuigen van droge",
     "source_pdf": "pu-afzuigslangen.pdf",
     "page": 2,
@@ -1184,13 +1104,11 @@
       "material": null,
       "family_id": null,
       "sku_series": "zgpul"
-    },
-    "series_image": "images/pu-afzuigslangen/afzuigen-van-droge__zgpul013.webp",
-    "image": "images/pu-afzuigslangen/pu-afzuigslangen__p2__afzuigen-van-droge__ZGPUL013-ZGPUL013-ZGPUL019.webp"
+    }
   },
   {
     "sku": "ZGPUL130",
-    "series_id": "afzuigen-van-droge",
+    "series_id": "pu-afzuigslangen__afzuigen-van-droge",
     "series_name": "• Afzuigen van droge",
     "source_pdf": "pu-afzuigslangen.pdf",
     "page": 2,
@@ -1213,13 +1131,11 @@
       "material": null,
       "family_id": null,
       "sku_series": "zgpul"
-    },
-    "series_image": "images/pu-afzuigslangen/afzuigen-van-droge__zgpul013.webp",
-    "image": "images/pu-afzuigslangen/pu-afzuigslangen__p2__afzuigen-van-droge__ZGPUL013-ZGPUL013-ZGPUL019.webp"
+    }
   },
   {
     "sku": "ZGPUL140",
-    "series_id": "afzuigen-van-droge",
+    "series_id": "pu-afzuigslangen__afzuigen-van-droge",
     "series_name": "• Afzuigen van droge",
     "source_pdf": "pu-afzuigslangen.pdf",
     "page": 2,
@@ -1242,13 +1158,11 @@
       "material": null,
       "family_id": null,
       "sku_series": "zgpul"
-    },
-    "series_image": "images/pu-afzuigslangen/afzuigen-van-droge__zgpul013.webp",
-    "image": "images/pu-afzuigslangen/pu-afzuigslangen__p2__afzuigen-van-droge__ZGPUL013-ZGPUL013-ZGPUL019.webp"
+    }
   },
   {
     "sku": "ZGPUL150",
-    "series_id": "afzuigen-van-droge",
+    "series_id": "pu-afzuigslangen__afzuigen-van-droge",
     "series_name": "• Afzuigen van droge",
     "source_pdf": "pu-afzuigslangen.pdf",
     "page": 2,
@@ -1271,13 +1185,11 @@
       "material": null,
       "family_id": null,
       "sku_series": "zgpul"
-    },
-    "series_image": "images/pu-afzuigslangen/afzuigen-van-droge__zgpul013.webp",
-    "image": "images/pu-afzuigslangen/pu-afzuigslangen__p2__afzuigen-van-droge__ZGPUL013-ZGPUL013-ZGPUL019.webp"
+    }
   },
   {
     "sku": "ZGPUL160",
-    "series_id": "afzuigen-van-droge",
+    "series_id": "pu-afzuigslangen__afzuigen-van-droge",
     "series_name": "• Afzuigen van droge",
     "source_pdf": "pu-afzuigslangen.pdf",
     "page": 2,
@@ -1300,13 +1212,11 @@
       "material": null,
       "family_id": null,
       "sku_series": "zgpul"
-    },
-    "series_image": "images/pu-afzuigslangen/afzuigen-van-droge__zgpul013.webp",
-    "image": "images/pu-afzuigslangen/pu-afzuigslangen__p2__afzuigen-van-droge__ZGPUL013-ZGPUL013-ZGPUL019.webp"
+    }
   },
   {
     "sku": "ZGPUL170",
-    "series_id": "afzuigen-van-droge",
+    "series_id": "pu-afzuigslangen__afzuigen-van-droge",
     "series_name": "• Afzuigen van droge",
     "source_pdf": "pu-afzuigslangen.pdf",
     "page": 2,
@@ -1329,13 +1239,11 @@
       "material": null,
       "family_id": null,
       "sku_series": "zgpul"
-    },
-    "series_image": "images/pu-afzuigslangen/afzuigen-van-droge__zgpul013.webp",
-    "image": "images/pu-afzuigslangen/pu-afzuigslangen__p2__afzuigen-van-droge__ZGPUL013-ZGPUL013-ZGPUL019.webp"
+    }
   },
   {
     "sku": "ZGPUL180",
-    "series_id": "afzuigen-van-droge",
+    "series_id": "pu-afzuigslangen__afzuigen-van-droge",
     "series_name": "• Afzuigen van droge",
     "source_pdf": "pu-afzuigslangen.pdf",
     "page": 2,
@@ -1358,13 +1266,11 @@
       "material": null,
       "family_id": null,
       "sku_series": "zgpul"
-    },
-    "series_image": "images/pu-afzuigslangen/afzuigen-van-droge__zgpul013.webp",
-    "image": "images/pu-afzuigslangen/pu-afzuigslangen__p2__afzuigen-van-droge__ZGPUL013-ZGPUL013-ZGPUL019.webp"
+    }
   },
   {
     "sku": "ZGPUL200",
-    "series_id": "afzuigen-van-droge",
+    "series_id": "pu-afzuigslangen__afzuigen-van-droge",
     "series_name": "• Afzuigen van droge",
     "source_pdf": "pu-afzuigslangen.pdf",
     "page": 2,
@@ -1387,13 +1293,11 @@
       "material": null,
       "family_id": null,
       "sku_series": "zgpul"
-    },
-    "series_image": "images/pu-afzuigslangen/afzuigen-van-droge__zgpul013.webp",
-    "image": "images/pu-afzuigslangen/pu-afzuigslangen__p2__afzuigen-van-droge__ZGPUL013-ZGPUL013-ZGPUL019.webp"
+    }
   },
   {
     "sku": "ZGPUL225",
-    "series_id": "afzuigen-van-droge",
+    "series_id": "pu-afzuigslangen__afzuigen-van-droge",
     "series_name": "• Afzuigen van droge",
     "source_pdf": "pu-afzuigslangen.pdf",
     "page": 2,
@@ -1416,13 +1320,11 @@
       "material": null,
       "family_id": null,
       "sku_series": "zgpul"
-    },
-    "series_image": "images/pu-afzuigslangen/afzuigen-van-droge__zgpul013.webp",
-    "image": "images/pu-afzuigslangen/pu-afzuigslangen__p2__afzuigen-van-droge__ZGPUL013-ZGPUL013-ZGPUL019.webp"
+    }
   },
   {
     "sku": "ZGPUL250",
-    "series_id": "industri-le-slangen",
+    "series_id": "pu-afzuigslangen__industriele-slangen",
     "series_name": "INDUSTRIËLE SLANGEN",
     "source_pdf": "pu-afzuigslangen.pdf",
     "page": 3,
@@ -1447,7 +1349,7 @@
   },
   {
     "sku": "ZGPUL250",
-    "series_id": "industri-le-slangen",
+    "series_id": "pu-afzuigslangen__industriele-slangen",
     "series_name": "INDUSTRIËLE SLANGEN",
     "source_pdf": "pu-afzuigslangen.pdf",
     "page": 3,
@@ -1472,7 +1374,7 @@
   },
   {
     "sku": "ZGPUL300",
-    "series_id": "industri-le-slangen",
+    "series_id": "pu-afzuigslangen__industriele-slangen",
     "series_name": "INDUSTRIËLE SLANGEN",
     "source_pdf": "pu-afzuigslangen.pdf",
     "page": 3,
@@ -1497,7 +1399,7 @@
   },
   {
     "sku": "ZGPUL320",
-    "series_id": "industri-le-slangen",
+    "series_id": "pu-afzuigslangen__industriele-slangen",
     "series_name": "INDUSTRIËLE SLANGEN",
     "source_pdf": "pu-afzuigslangen.pdf",
     "page": 3,
@@ -1522,7 +1424,7 @@
   },
   {
     "sku": "ZGPUL350",
-    "series_id": "industri-le-slangen",
+    "series_id": "pu-afzuigslangen__industriele-slangen",
     "series_name": "INDUSTRIËLE SLANGEN",
     "source_pdf": "pu-afzuigslangen.pdf",
     "page": 3,
@@ -1547,7 +1449,7 @@
   },
   {
     "sku": "ZGPUL400",
-    "series_id": "industri-le-slangen",
+    "series_id": "pu-afzuigslangen__industriele-slangen",
     "series_name": "INDUSTRIËLE SLANGEN",
     "source_pdf": "pu-afzuigslangen.pdf",
     "page": 3,
@@ -1572,7 +1474,7 @@
   },
   {
     "sku": "ZGPUL450",
-    "series_id": "industri-le-slangen",
+    "series_id": "pu-afzuigslangen__industriele-slangen",
     "series_name": "INDUSTRIËLE SLANGEN",
     "source_pdf": "pu-afzuigslangen.pdf",
     "page": 3,
@@ -1597,7 +1499,7 @@
   },
   {
     "sku": "ZGPUL500",
-    "series_id": "industri-le-slangen",
+    "series_id": "pu-afzuigslangen__industriele-slangen",
     "series_name": "INDUSTRIËLE SLANGEN",
     "source_pdf": "pu-afzuigslangen.pdf",
     "page": 3,
@@ -1622,7 +1524,7 @@
   },
   {
     "sku": "ZGPUS020",
-    "series_id": "transportslang-in-explosie-stof-en-luchtafzuiging",
+    "series_id": "pu-afzuigslangen__transportslang-in-explosie-stof-en-luchtafzuiging",
     "series_name": "• Transportslang in explosie- • Stof- en luchtafzuiging",
     "source_pdf": "pu-afzuigslangen.pdf",
     "page": 4,
@@ -1646,13 +1548,11 @@
       "material": null,
       "family_id": null,
       "sku_series": "zgpus"
-    },
-    "series_image": "images/pu-afzuigslangen/afzuigen-van-droge__zgpul013.webp",
-    "image": "images/pu-afzuigslangen/pu-afzuigslangen__p2__afzuigen-van-droge__ZGPUL013-ZGPUL013-ZGPUL019.webp"
+    }
   },
   {
     "sku": "ZGPUS020",
-    "series_id": "transportslang-in-explosie-stof-en-luchtafzuiging",
+    "series_id": "pu-afzuigslangen__transportslang-in-explosie-stof-en-luchtafzuiging",
     "series_name": "• Transportslang in explosie- • Stof- en luchtafzuiging",
     "source_pdf": "pu-afzuigslangen.pdf",
     "page": 4,
@@ -1676,13 +1576,11 @@
       "material": null,
       "family_id": null,
       "sku_series": "zgpus"
-    },
-    "series_image": "images/pu-afzuigslangen/afzuigen-van-droge__zgpul013.webp",
-    "image": "images/pu-afzuigslangen/pu-afzuigslangen__p2__afzuigen-van-droge__ZGPUL013-ZGPUL013-ZGPUL019.webp"
+    }
   },
   {
     "sku": "ZGPUS030",
-    "series_id": "transportslang-in-explosie-stof-en-luchtafzuiging",
+    "series_id": "pu-afzuigslangen__transportslang-in-explosie-stof-en-luchtafzuiging",
     "series_name": "• Transportslang in explosie- • Stof- en luchtafzuiging",
     "source_pdf": "pu-afzuigslangen.pdf",
     "page": 4,
@@ -1706,13 +1604,11 @@
       "material": null,
       "family_id": null,
       "sku_series": "zgpus"
-    },
-    "series_image": "images/pu-afzuigslangen/afzuigen-van-droge__zgpul013.webp",
-    "image": "images/pu-afzuigslangen/pu-afzuigslangen__p2__afzuigen-van-droge__ZGPUL013-ZGPUL013-ZGPUL019.webp"
+    }
   },
   {
     "sku": "ZGPUS030",
-    "series_id": "transportslang-in-explosie-stof-en-luchtafzuiging",
+    "series_id": "pu-afzuigslangen__transportslang-in-explosie-stof-en-luchtafzuiging",
     "series_name": "• Transportslang in explosie- • Stof- en luchtafzuiging",
     "source_pdf": "pu-afzuigslangen.pdf",
     "page": 4,
@@ -1736,13 +1632,11 @@
       "material": null,
       "family_id": null,
       "sku_series": "zgpus"
-    },
-    "series_image": "images/pu-afzuigslangen/afzuigen-van-droge__zgpul013.webp",
-    "image": "images/pu-afzuigslangen/pu-afzuigslangen__p2__afzuigen-van-droge__ZGPUL013-ZGPUL013-ZGPUL019.webp"
+    }
   },
   {
     "sku": "ZGPUS035",
-    "series_id": "transportslang-in-explosie-stof-en-luchtafzuiging",
+    "series_id": "pu-afzuigslangen__transportslang-in-explosie-stof-en-luchtafzuiging",
     "series_name": "• Transportslang in explosie- • Stof- en luchtafzuiging",
     "source_pdf": "pu-afzuigslangen.pdf",
     "page": 4,
@@ -1766,13 +1660,11 @@
       "material": null,
       "family_id": null,
       "sku_series": "zgpus"
-    },
-    "series_image": "images/pu-afzuigslangen/afzuigen-van-droge__zgpul013.webp",
-    "image": "images/pu-afzuigslangen/pu-afzuigslangen__p2__afzuigen-van-droge__ZGPUL013-ZGPUL013-ZGPUL019.webp"
+    }
   },
   {
     "sku": "ZGPUS035",
-    "series_id": "transportslang-in-explosie-stof-en-luchtafzuiging",
+    "series_id": "pu-afzuigslangen__transportslang-in-explosie-stof-en-luchtafzuiging",
     "series_name": "• Transportslang in explosie- • Stof- en luchtafzuiging",
     "source_pdf": "pu-afzuigslangen.pdf",
     "page": 4,
@@ -1796,13 +1688,11 @@
       "material": null,
       "family_id": null,
       "sku_series": "zgpus"
-    },
-    "series_image": "images/pu-afzuigslangen/afzuigen-van-droge__zgpul013.webp",
-    "image": "images/pu-afzuigslangen/pu-afzuigslangen__p2__afzuigen-van-droge__ZGPUL013-ZGPUL013-ZGPUL019.webp"
+    }
   },
   {
     "sku": "ZGPUS040",
-    "series_id": "transportslang-in-explosie-stof-en-luchtafzuiging",
+    "series_id": "pu-afzuigslangen__transportslang-in-explosie-stof-en-luchtafzuiging",
     "series_name": "• Transportslang in explosie- • Stof- en luchtafzuiging",
     "source_pdf": "pu-afzuigslangen.pdf",
     "page": 4,
@@ -1826,13 +1716,11 @@
       "material": null,
       "family_id": null,
       "sku_series": "zgpus"
-    },
-    "series_image": "images/pu-afzuigslangen/afzuigen-van-droge__zgpul013.webp",
-    "image": "images/pu-afzuigslangen/pu-afzuigslangen__p2__afzuigen-van-droge__ZGPUL013-ZGPUL013-ZGPUL019.webp"
+    }
   },
   {
     "sku": "ZGPUS045",
-    "series_id": "transportslang-in-explosie-stof-en-luchtafzuiging",
+    "series_id": "pu-afzuigslangen__transportslang-in-explosie-stof-en-luchtafzuiging",
     "series_name": "• Transportslang in explosie- • Stof- en luchtafzuiging",
     "source_pdf": "pu-afzuigslangen.pdf",
     "page": 4,
@@ -1856,13 +1744,11 @@
       "material": null,
       "family_id": null,
       "sku_series": "zgpus"
-    },
-    "series_image": "images/pu-afzuigslangen/afzuigen-van-droge__zgpul013.webp",
-    "image": "images/pu-afzuigslangen/pu-afzuigslangen__p2__afzuigen-van-droge__ZGPUL013-ZGPUL013-ZGPUL019.webp"
+    }
   },
   {
     "sku": "ZGPUS050",
-    "series_id": "transportslang-in-explosie-stof-en-luchtafzuiging",
+    "series_id": "pu-afzuigslangen__transportslang-in-explosie-stof-en-luchtafzuiging",
     "series_name": "• Transportslang in explosie- • Stof- en luchtafzuiging",
     "source_pdf": "pu-afzuigslangen.pdf",
     "page": 4,
@@ -1886,13 +1772,11 @@
       "material": null,
       "family_id": null,
       "sku_series": "zgpus"
-    },
-    "series_image": "images/pu-afzuigslangen/afzuigen-van-droge__zgpul013.webp",
-    "image": "images/pu-afzuigslangen/pu-afzuigslangen__p2__afzuigen-van-droge__ZGPUL013-ZGPUL013-ZGPUL019.webp"
+    }
   },
   {
     "sku": "ZGPUS060",
-    "series_id": "transportslang-in-explosie-stof-en-luchtafzuiging",
+    "series_id": "pu-afzuigslangen__transportslang-in-explosie-stof-en-luchtafzuiging",
     "series_name": "• Transportslang in explosie- • Stof- en luchtafzuiging",
     "source_pdf": "pu-afzuigslangen.pdf",
     "page": 4,
@@ -1916,13 +1800,11 @@
       "material": null,
       "family_id": null,
       "sku_series": "zgpus"
-    },
-    "series_image": "images/pu-afzuigslangen/afzuigen-van-droge__zgpul013.webp",
-    "image": "images/pu-afzuigslangen/pu-afzuigslangen__p2__afzuigen-van-droge__ZGPUL013-ZGPUL013-ZGPUL019.webp"
+    }
   },
   {
     "sku": "ZGPUS063",
-    "series_id": "transportslang-in-explosie-stof-en-luchtafzuiging",
+    "series_id": "pu-afzuigslangen__transportslang-in-explosie-stof-en-luchtafzuiging",
     "series_name": "• Transportslang in explosie- • Stof- en luchtafzuiging",
     "source_pdf": "pu-afzuigslangen.pdf",
     "page": 4,
@@ -1946,13 +1828,11 @@
       "material": null,
       "family_id": null,
       "sku_series": "zgpus"
-    },
-    "series_image": "images/pu-afzuigslangen/afzuigen-van-droge__zgpul013.webp",
-    "image": "images/pu-afzuigslangen/pu-afzuigslangen__p2__afzuigen-van-droge__ZGPUL013-ZGPUL013-ZGPUL019.webp"
+    }
   },
   {
     "sku": "ZGPUS075",
-    "series_id": "transportslang-in-explosie-stof-en-luchtafzuiging",
+    "series_id": "pu-afzuigslangen__transportslang-in-explosie-stof-en-luchtafzuiging",
     "series_name": "• Transportslang in explosie- • Stof- en luchtafzuiging",
     "source_pdf": "pu-afzuigslangen.pdf",
     "page": 4,
@@ -1976,13 +1856,11 @@
       "material": null,
       "family_id": null,
       "sku_series": "zgpus"
-    },
-    "series_image": "images/pu-afzuigslangen/afzuigen-van-droge__zgpul013.webp",
-    "image": "images/pu-afzuigslangen/pu-afzuigslangen__p2__afzuigen-van-droge__ZGPUL013-ZGPUL013-ZGPUL019.webp"
+    }
   },
   {
     "sku": "ZGPUS080",
-    "series_id": "transportslang-in-explosie-stof-en-luchtafzuiging",
+    "series_id": "pu-afzuigslangen__transportslang-in-explosie-stof-en-luchtafzuiging",
     "series_name": "• Transportslang in explosie- • Stof- en luchtafzuiging",
     "source_pdf": "pu-afzuigslangen.pdf",
     "page": 4,
@@ -2006,13 +1884,11 @@
       "material": null,
       "family_id": null,
       "sku_series": "zgpus"
-    },
-    "series_image": "images/pu-afzuigslangen/afzuigen-van-droge__zgpul013.webp",
-    "image": "images/pu-afzuigslangen/pu-afzuigslangen__p2__afzuigen-van-droge__ZGPUL013-ZGPUL013-ZGPUL019.webp"
+    }
   },
   {
     "sku": "ZGPUS090",
-    "series_id": "transportslang-in-explosie-stof-en-luchtafzuiging",
+    "series_id": "pu-afzuigslangen__transportslang-in-explosie-stof-en-luchtafzuiging",
     "series_name": "• Transportslang in explosie- • Stof- en luchtafzuiging",
     "source_pdf": "pu-afzuigslangen.pdf",
     "page": 4,
@@ -2036,13 +1912,11 @@
       "material": null,
       "family_id": null,
       "sku_series": "zgpus"
-    },
-    "series_image": "images/pu-afzuigslangen/afzuigen-van-droge__zgpul013.webp",
-    "image": "images/pu-afzuigslangen/pu-afzuigslangen__p2__afzuigen-van-droge__ZGPUL013-ZGPUL013-ZGPUL019.webp"
+    }
   },
   {
     "sku": "ZGPUS100",
-    "series_id": "transportslang-in-explosie-stof-en-luchtafzuiging",
+    "series_id": "pu-afzuigslangen__transportslang-in-explosie-stof-en-luchtafzuiging",
     "series_name": "• Transportslang in explosie- • Stof- en luchtafzuiging",
     "source_pdf": "pu-afzuigslangen.pdf",
     "page": 4,
@@ -2066,13 +1940,11 @@
       "material": null,
       "family_id": null,
       "sku_series": "zgpus"
-    },
-    "series_image": "images/pu-afzuigslangen/afzuigen-van-droge__zgpul013.webp",
-    "image": "images/pu-afzuigslangen/pu-afzuigslangen__p2__afzuigen-van-droge__ZGPUL013-ZGPUL013-ZGPUL019.webp"
+    }
   },
   {
     "sku": "ZGPUS125",
-    "series_id": "transportslang-in-explosie-stof-en-luchtafzuiging",
+    "series_id": "pu-afzuigslangen__transportslang-in-explosie-stof-en-luchtafzuiging",
     "series_name": "• Transportslang in explosie- • Stof- en luchtafzuiging",
     "source_pdf": "pu-afzuigslangen.pdf",
     "page": 4,
@@ -2096,13 +1968,11 @@
       "material": null,
       "family_id": null,
       "sku_series": "zgpus"
-    },
-    "series_image": "images/pu-afzuigslangen/afzuigen-van-droge__zgpul013.webp",
-    "image": "images/pu-afzuigslangen/pu-afzuigslangen__p2__afzuigen-van-droge__ZGPUL013-ZGPUL013-ZGPUL019.webp"
+    }
   },
   {
     "sku": "ZGPUS150",
-    "series_id": "transportslang-in-explosie-stof-en-luchtafzuiging",
+    "series_id": "pu-afzuigslangen__transportslang-in-explosie-stof-en-luchtafzuiging",
     "series_name": "• Transportslang in explosie- • Stof- en luchtafzuiging",
     "source_pdf": "pu-afzuigslangen.pdf",
     "page": 4,
@@ -2126,13 +1996,11 @@
       "material": null,
       "family_id": null,
       "sku_series": "zgpus"
-    },
-    "series_image": "images/pu-afzuigslangen/afzuigen-van-droge__zgpul013.webp",
-    "image": "images/pu-afzuigslangen/pu-afzuigslangen__p2__afzuigen-van-droge__ZGPUL013-ZGPUL013-ZGPUL019.webp"
+    }
   },
   {
     "sku": "ZGPUS180",
-    "series_id": "transportslang-in-explosie-stof-en-luchtafzuiging",
+    "series_id": "pu-afzuigslangen__transportslang-in-explosie-stof-en-luchtafzuiging",
     "series_name": "• Transportslang in explosie- • Stof- en luchtafzuiging",
     "source_pdf": "pu-afzuigslangen.pdf",
     "page": 4,
@@ -2156,13 +2024,11 @@
       "material": null,
       "family_id": null,
       "sku_series": "zgpus"
-    },
-    "series_image": "images/pu-afzuigslangen/afzuigen-van-droge__zgpul013.webp",
-    "image": "images/pu-afzuigslangen/pu-afzuigslangen__p2__afzuigen-van-droge__ZGPUL013-ZGPUL013-ZGPUL019.webp"
+    }
   },
   {
     "sku": "ZGPUXL013",
-    "series_id": "granulaat-en-poeder-straatvegers-vacu-m-pompen",
+    "series_id": "pu-afzuigslangen__granulaat-en-poeder-straatvegers-vacuum-pompen",
     "series_name": "• Granulaat en poeder • Straatvegers • Vacuüm pompen",
     "source_pdf": "pu-afzuigslangen.pdf",
     "page": 6,
@@ -2186,13 +2052,11 @@
       "material": null,
       "family_id": "pump-granulaat-en-poeder-straatvegers-vacu-m-pompen-zgpuxl013-3096e7",
       "sku_series": "zgpuxl"
-    },
-    "series_image": "images/pu-afzuigslangen/granulaat-en-poeder-straatvegers-vacu-m-pompen__zgpuxl013.webp",
-    "image": "images/pu-afzuigslangen/pu-afzuigslangen__p6__granulaat-en-poeder-straatvegers-vacu-m-__ZGPUXL013-ZGPUXL013-ZGPUXL018.webp"
+    }
   },
   {
     "sku": "ZGPUXL013",
-    "series_id": "granulaat-en-poeder-straatvegers-vacu-m-pompen",
+    "series_id": "pu-afzuigslangen__granulaat-en-poeder-straatvegers-vacuum-pompen",
     "series_name": "• Granulaat en poeder • Straatvegers • Vacuüm pompen",
     "source_pdf": "pu-afzuigslangen.pdf",
     "page": 6,
@@ -2216,13 +2080,11 @@
       "material": null,
       "family_id": "pump-granulaat-en-poeder-straatvegers-vacu-m-pompen-zgpuxl013-3096e7",
       "sku_series": "zgpuxl"
-    },
-    "series_image": "images/pu-afzuigslangen/granulaat-en-poeder-straatvegers-vacu-m-pompen__zgpuxl013.webp",
-    "image": "images/pu-afzuigslangen/pu-afzuigslangen__p6__granulaat-en-poeder-straatvegers-vacu-m-__ZGPUXL013-ZGPUXL013-ZGPUXL018.webp"
+    }
   },
   {
     "sku": "ZGPUXL018",
-    "series_id": "granulaat-en-poeder-straatvegers-vacu-m-pompen",
+    "series_id": "pu-afzuigslangen__granulaat-en-poeder-straatvegers-vacuum-pompen",
     "series_name": "• Granulaat en poeder • Straatvegers • Vacuüm pompen",
     "source_pdf": "pu-afzuigslangen.pdf",
     "page": 6,
@@ -2246,13 +2108,11 @@
       "material": null,
       "family_id": "pump-granulaat-en-poeder-straatvegers-vacu-m-pompen-zgpuxl018-3cb90a",
       "sku_series": "zgpuxl"
-    },
-    "series_image": "images/pu-afzuigslangen/granulaat-en-poeder-straatvegers-vacu-m-pompen__zgpuxl013.webp",
-    "image": "images/pu-afzuigslangen/pu-afzuigslangen__p6__granulaat-en-poeder-straatvegers-vacu-m-__ZGPUXL013-ZGPUXL013-ZGPUXL018.webp"
+    }
   },
   {
     "sku": "ZGPUXL018",
-    "series_id": "granulaat-en-poeder-straatvegers-vacu-m-pompen",
+    "series_id": "pu-afzuigslangen__granulaat-en-poeder-straatvegers-vacuum-pompen",
     "series_name": "• Granulaat en poeder • Straatvegers • Vacuüm pompen",
     "source_pdf": "pu-afzuigslangen.pdf",
     "page": 6,
@@ -2276,13 +2136,11 @@
       "material": null,
       "family_id": "pump-granulaat-en-poeder-straatvegers-vacu-m-pompen-zgpuxl018-3cb90a",
       "sku_series": "zgpuxl"
-    },
-    "series_image": "images/pu-afzuigslangen/granulaat-en-poeder-straatvegers-vacu-m-pompen__zgpuxl013.webp",
-    "image": "images/pu-afzuigslangen/pu-afzuigslangen__p6__granulaat-en-poeder-straatvegers-vacu-m-__ZGPUXL013-ZGPUXL013-ZGPUXL018.webp"
+    }
   },
   {
     "sku": "ZGPUXL022",
-    "series_id": "granulaat-en-poeder-straatvegers-vacu-m-pompen",
+    "series_id": "pu-afzuigslangen__granulaat-en-poeder-straatvegers-vacuum-pompen",
     "series_name": "• Granulaat en poeder • Straatvegers • Vacuüm pompen",
     "source_pdf": "pu-afzuigslangen.pdf",
     "page": 6,
@@ -2306,13 +2164,11 @@
       "material": null,
       "family_id": "pump-granulaat-en-poeder-straatvegers-vacu-m-pompen-zgpuxl022-e75697",
       "sku_series": "zgpuxl"
-    },
-    "series_image": "images/pu-afzuigslangen/granulaat-en-poeder-straatvegers-vacu-m-pompen__zgpuxl013.webp",
-    "image": "images/pu-afzuigslangen/pu-afzuigslangen__p6__granulaat-en-poeder-straatvegers-vacu-m-__ZGPUXL013-ZGPUXL013-ZGPUXL018.webp"
+    }
   },
   {
     "sku": "ZGPUXL022",
-    "series_id": "granulaat-en-poeder-straatvegers-vacu-m-pompen",
+    "series_id": "pu-afzuigslangen__granulaat-en-poeder-straatvegers-vacuum-pompen",
     "series_name": "• Granulaat en poeder • Straatvegers • Vacuüm pompen",
     "source_pdf": "pu-afzuigslangen.pdf",
     "page": 6,
@@ -2336,13 +2192,11 @@
       "material": null,
       "family_id": "pump-granulaat-en-poeder-straatvegers-vacu-m-pompen-zgpuxl022-e75697",
       "sku_series": "zgpuxl"
-    },
-    "series_image": "images/pu-afzuigslangen/granulaat-en-poeder-straatvegers-vacu-m-pompen__zgpuxl013.webp",
-    "image": "images/pu-afzuigslangen/pu-afzuigslangen__p6__granulaat-en-poeder-straatvegers-vacu-m-__ZGPUXL013-ZGPUXL013-ZGPUXL018.webp"
+    }
   },
   {
     "sku": "ZGPUXL030",
-    "series_id": "granulaat-en-poeder-straatvegers-vacu-m-pompen",
+    "series_id": "pu-afzuigslangen__granulaat-en-poeder-straatvegers-vacuum-pompen",
     "series_name": "• Granulaat en poeder • Straatvegers • Vacuüm pompen",
     "source_pdf": "pu-afzuigslangen.pdf",
     "page": 6,
@@ -2366,13 +2220,11 @@
       "material": null,
       "family_id": "pump-granulaat-en-poeder-straatvegers-vacu-m-pompen-zgpuxl030-50a616",
       "sku_series": "zgpuxl"
-    },
-    "series_image": "images/pu-afzuigslangen/granulaat-en-poeder-straatvegers-vacu-m-pompen__zgpuxl013.webp",
-    "image": "images/pu-afzuigslangen/pu-afzuigslangen__p6__granulaat-en-poeder-straatvegers-vacu-m-__ZGPUXL013-ZGPUXL013-ZGPUXL018.webp"
+    }
   },
   {
     "sku": "ZGPUXL030",
-    "series_id": "granulaat-en-poeder-straatvegers-vacu-m-pompen",
+    "series_id": "pu-afzuigslangen__granulaat-en-poeder-straatvegers-vacuum-pompen",
     "series_name": "• Granulaat en poeder • Straatvegers • Vacuüm pompen",
     "source_pdf": "pu-afzuigslangen.pdf",
     "page": 6,
@@ -2396,13 +2248,11 @@
       "material": null,
       "family_id": "pump-granulaat-en-poeder-straatvegers-vacu-m-pompen-zgpuxl030-50a616",
       "sku_series": "zgpuxl"
-    },
-    "series_image": "images/pu-afzuigslangen/granulaat-en-poeder-straatvegers-vacu-m-pompen__zgpuxl013.webp",
-    "image": "images/pu-afzuigslangen/pu-afzuigslangen__p6__granulaat-en-poeder-straatvegers-vacu-m-__ZGPUXL013-ZGPUXL013-ZGPUXL018.webp"
+    }
   },
   {
     "sku": "ZGPUXL035",
-    "series_id": "granulaat-en-poeder-straatvegers-vacu-m-pompen",
+    "series_id": "pu-afzuigslangen__granulaat-en-poeder-straatvegers-vacuum-pompen",
     "series_name": "• Granulaat en poeder • Straatvegers • Vacuüm pompen",
     "source_pdf": "pu-afzuigslangen.pdf",
     "page": 6,
@@ -2426,13 +2276,11 @@
       "material": null,
       "family_id": "pump-granulaat-en-poeder-straatvegers-vacu-m-pompen-zgpuxl035-71a9d0",
       "sku_series": "zgpuxl"
-    },
-    "series_image": "images/pu-afzuigslangen/granulaat-en-poeder-straatvegers-vacu-m-pompen__zgpuxl013.webp",
-    "image": "images/pu-afzuigslangen/pu-afzuigslangen__p6__granulaat-en-poeder-straatvegers-vacu-m-__ZGPUXL013-ZGPUXL013-ZGPUXL018.webp"
+    }
   },
   {
     "sku": "ZGPUXL038",
-    "series_id": "granulaat-en-poeder-straatvegers-vacu-m-pompen",
+    "series_id": "pu-afzuigslangen__granulaat-en-poeder-straatvegers-vacuum-pompen",
     "series_name": "• Granulaat en poeder • Straatvegers • Vacuüm pompen",
     "source_pdf": "pu-afzuigslangen.pdf",
     "page": 6,
@@ -2456,13 +2304,11 @@
       "material": null,
       "family_id": "pump-granulaat-en-poeder-straatvegers-vacu-m-pompen-zgpuxl038-9f0868",
       "sku_series": "zgpuxl"
-    },
-    "series_image": "images/pu-afzuigslangen/granulaat-en-poeder-straatvegers-vacu-m-pompen__zgpuxl013.webp",
-    "image": "images/pu-afzuigslangen/pu-afzuigslangen__p6__granulaat-en-poeder-straatvegers-vacu-m-__ZGPUXL013-ZGPUXL013-ZGPUXL018.webp"
+    }
   },
   {
     "sku": "ZGPUXL040",
-    "series_id": "granulaat-en-poeder-straatvegers-vacu-m-pompen",
+    "series_id": "pu-afzuigslangen__granulaat-en-poeder-straatvegers-vacuum-pompen",
     "series_name": "• Granulaat en poeder • Straatvegers • Vacuüm pompen",
     "source_pdf": "pu-afzuigslangen.pdf",
     "page": 6,
@@ -2486,13 +2332,11 @@
       "material": null,
       "family_id": "pump-granulaat-en-poeder-straatvegers-vacu-m-pompen-zgpuxl040-059cc9",
       "sku_series": "zgpuxl"
-    },
-    "series_image": "images/pu-afzuigslangen/granulaat-en-poeder-straatvegers-vacu-m-pompen__zgpuxl013.webp",
-    "image": "images/pu-afzuigslangen/pu-afzuigslangen__p6__granulaat-en-poeder-straatvegers-vacu-m-__ZGPUXL013-ZGPUXL013-ZGPUXL018.webp"
+    }
   },
   {
     "sku": "ZGPUXL042",
-    "series_id": "granulaat-en-poeder-straatvegers-vacu-m-pompen",
+    "series_id": "pu-afzuigslangen__granulaat-en-poeder-straatvegers-vacuum-pompen",
     "series_name": "• Granulaat en poeder • Straatvegers • Vacuüm pompen",
     "source_pdf": "pu-afzuigslangen.pdf",
     "page": 6,
@@ -2516,13 +2360,11 @@
       "material": null,
       "family_id": "pump-granulaat-en-poeder-straatvegers-vacu-m-pompen-zgpuxl042-ee1690",
       "sku_series": "zgpuxl"
-    },
-    "series_image": "images/pu-afzuigslangen/granulaat-en-poeder-straatvegers-vacu-m-pompen__zgpuxl013.webp",
-    "image": "images/pu-afzuigslangen/pu-afzuigslangen__p6__granulaat-en-poeder-straatvegers-vacu-m-__ZGPUXL013-ZGPUXL013-ZGPUXL018.webp"
+    }
   },
   {
     "sku": "ZGPUXL045",
-    "series_id": "granulaat-en-poeder-straatvegers-vacu-m-pompen",
+    "series_id": "pu-afzuigslangen__granulaat-en-poeder-straatvegers-vacuum-pompen",
     "series_name": "• Granulaat en poeder • Straatvegers • Vacuüm pompen",
     "source_pdf": "pu-afzuigslangen.pdf",
     "page": 6,
@@ -2546,13 +2388,11 @@
       "material": null,
       "family_id": "pump-granulaat-en-poeder-straatvegers-vacu-m-pompen-zgpuxl045-c483f9",
       "sku_series": "zgpuxl"
-    },
-    "series_image": "images/pu-afzuigslangen/granulaat-en-poeder-straatvegers-vacu-m-pompen__zgpuxl013.webp",
-    "image": "images/pu-afzuigslangen/pu-afzuigslangen__p6__granulaat-en-poeder-straatvegers-vacu-m-__ZGPUXL013-ZGPUXL013-ZGPUXL018.webp"
+    }
   },
   {
     "sku": "ZGPUXL050",
-    "series_id": "granulaat-en-poeder-straatvegers-vacu-m-pompen",
+    "series_id": "pu-afzuigslangen__granulaat-en-poeder-straatvegers-vacuum-pompen",
     "series_name": "• Granulaat en poeder • Straatvegers • Vacuüm pompen",
     "source_pdf": "pu-afzuigslangen.pdf",
     "page": 6,
@@ -2576,13 +2416,11 @@
       "material": null,
       "family_id": "pump-granulaat-en-poeder-straatvegers-vacu-m-pompen-zgpuxl050-0f32cd",
       "sku_series": "zgpuxl"
-    },
-    "series_image": "images/pu-afzuigslangen/granulaat-en-poeder-straatvegers-vacu-m-pompen__zgpuxl013.webp",
-    "image": "images/pu-afzuigslangen/pu-afzuigslangen__p6__granulaat-en-poeder-straatvegers-vacu-m-__ZGPUXL013-ZGPUXL013-ZGPUXL018.webp"
+    }
   },
   {
     "sku": "ZGPUXL055",
-    "series_id": "granulaat-en-poeder-straatvegers-vacu-m-pompen",
+    "series_id": "pu-afzuigslangen__granulaat-en-poeder-straatvegers-vacuum-pompen",
     "series_name": "• Granulaat en poeder • Straatvegers • Vacuüm pompen",
     "source_pdf": "pu-afzuigslangen.pdf",
     "page": 6,
@@ -2606,13 +2444,11 @@
       "material": null,
       "family_id": "pump-granulaat-en-poeder-straatvegers-vacu-m-pompen-zgpuxl055-ebac03",
       "sku_series": "zgpuxl"
-    },
-    "series_image": "images/pu-afzuigslangen/granulaat-en-poeder-straatvegers-vacu-m-pompen__zgpuxl013.webp",
-    "image": "images/pu-afzuigslangen/pu-afzuigslangen__p6__granulaat-en-poeder-straatvegers-vacu-m-__ZGPUXL013-ZGPUXL013-ZGPUXL018.webp"
+    }
   },
   {
     "sku": "ZGPUXL060",
-    "series_id": "granulaat-en-poeder-straatvegers-vacu-m-pompen",
+    "series_id": "pu-afzuigslangen__granulaat-en-poeder-straatvegers-vacuum-pompen",
     "series_name": "• Granulaat en poeder • Straatvegers • Vacuüm pompen",
     "source_pdf": "pu-afzuigslangen.pdf",
     "page": 6,
@@ -2636,13 +2472,11 @@
       "material": null,
       "family_id": "pump-granulaat-en-poeder-straatvegers-vacu-m-pompen-zgpuxl060-a7bbb1",
       "sku_series": "zgpuxl"
-    },
-    "series_image": "images/pu-afzuigslangen/granulaat-en-poeder-straatvegers-vacu-m-pompen__zgpuxl013.webp",
-    "image": "images/pu-afzuigslangen/pu-afzuigslangen__p6__granulaat-en-poeder-straatvegers-vacu-m-__ZGPUXL013-ZGPUXL013-ZGPUXL018.webp"
+    }
   },
   {
     "sku": "ZGPUXL065",
-    "series_id": "granulaat-en-poeder-straatvegers-vacu-m-pompen",
+    "series_id": "pu-afzuigslangen__granulaat-en-poeder-straatvegers-vacuum-pompen",
     "series_name": "• Granulaat en poeder • Straatvegers • Vacuüm pompen",
     "source_pdf": "pu-afzuigslangen.pdf",
     "page": 6,
@@ -2666,13 +2500,11 @@
       "material": null,
       "family_id": "pump-granulaat-en-poeder-straatvegers-vacu-m-pompen-zgpuxl065-6b184e",
       "sku_series": "zgpuxl"
-    },
-    "series_image": "images/pu-afzuigslangen/granulaat-en-poeder-straatvegers-vacu-m-pompen__zgpuxl013.webp",
-    "image": "images/pu-afzuigslangen/pu-afzuigslangen__p6__granulaat-en-poeder-straatvegers-vacu-m-__ZGPUXL013-ZGPUXL013-ZGPUXL018.webp"
+    }
   },
   {
     "sku": "ZGPUXL070",
-    "series_id": "granulaat-en-poeder-straatvegers-vacu-m-pompen",
+    "series_id": "pu-afzuigslangen__granulaat-en-poeder-straatvegers-vacuum-pompen",
     "series_name": "• Granulaat en poeder • Straatvegers • Vacuüm pompen",
     "source_pdf": "pu-afzuigslangen.pdf",
     "page": 6,
@@ -2696,13 +2528,11 @@
       "material": null,
       "family_id": "pump-granulaat-en-poeder-straatvegers-vacu-m-pompen-zgpuxl070-c415f1",
       "sku_series": "zgpuxl"
-    },
-    "series_image": "images/pu-afzuigslangen/granulaat-en-poeder-straatvegers-vacu-m-pompen__zgpuxl013.webp",
-    "image": "images/pu-afzuigslangen/pu-afzuigslangen__p6__granulaat-en-poeder-straatvegers-vacu-m-__ZGPUXL013-ZGPUXL013-ZGPUXL018.webp"
+    }
   },
   {
     "sku": "ZGPUXL075",
-    "series_id": "granulaat-en-poeder-straatvegers-vacu-m-pompen",
+    "series_id": "pu-afzuigslangen__granulaat-en-poeder-straatvegers-vacuum-pompen",
     "series_name": "• Granulaat en poeder • Straatvegers • Vacuüm pompen",
     "source_pdf": "pu-afzuigslangen.pdf",
     "page": 6,
@@ -2726,13 +2556,11 @@
       "material": null,
       "family_id": "pump-granulaat-en-poeder-straatvegers-vacu-m-pompen-zgpuxl075-41587d",
       "sku_series": "zgpuxl"
-    },
-    "series_image": "images/pu-afzuigslangen/granulaat-en-poeder-straatvegers-vacu-m-pompen__zgpuxl013.webp",
-    "image": "images/pu-afzuigslangen/pu-afzuigslangen__p6__granulaat-en-poeder-straatvegers-vacu-m-__ZGPUXL013-ZGPUXL013-ZGPUXL018.webp"
+    }
   },
   {
     "sku": "ZGPUXL080",
-    "series_id": "granulaat-en-poeder-straatvegers-vacu-m-pompen",
+    "series_id": "pu-afzuigslangen__granulaat-en-poeder-straatvegers-vacuum-pompen",
     "series_name": "• Granulaat en poeder • Straatvegers • Vacuüm pompen",
     "source_pdf": "pu-afzuigslangen.pdf",
     "page": 6,
@@ -2756,13 +2584,11 @@
       "material": null,
       "family_id": "pump-granulaat-en-poeder-straatvegers-vacu-m-pompen-zgpuxl080-cf1714",
       "sku_series": "zgpuxl"
-    },
-    "series_image": "images/pu-afzuigslangen/granulaat-en-poeder-straatvegers-vacu-m-pompen__zgpuxl013.webp",
-    "image": "images/pu-afzuigslangen/pu-afzuigslangen__p6__granulaat-en-poeder-straatvegers-vacu-m-__ZGPUXL013-ZGPUXL013-ZGPUXL018.webp"
+    }
   },
   {
     "sku": "ZGPUXL090",
-    "series_id": "granulaat-en-poeder-straatvegers-vacu-m-pompen",
+    "series_id": "pu-afzuigslangen__granulaat-en-poeder-straatvegers-vacuum-pompen",
     "series_name": "• Granulaat en poeder • Straatvegers • Vacuüm pompen",
     "source_pdf": "pu-afzuigslangen.pdf",
     "page": 6,
@@ -2786,13 +2612,11 @@
       "material": null,
       "family_id": "pump-granulaat-en-poeder-straatvegers-vacu-m-pompen-zgpuxl090-c1cdd1",
       "sku_series": "zgpuxl"
-    },
-    "series_image": "images/pu-afzuigslangen/granulaat-en-poeder-straatvegers-vacu-m-pompen__zgpuxl013.webp",
-    "image": "images/pu-afzuigslangen/pu-afzuigslangen__p6__granulaat-en-poeder-straatvegers-vacu-m-__ZGPUXL013-ZGPUXL013-ZGPUXL018.webp"
+    }
   },
   {
     "sku": "ZGPUXL100",
-    "series_id": "granulaat-en-poeder-straatvegers-vacu-m-pompen",
+    "series_id": "pu-afzuigslangen__granulaat-en-poeder-straatvegers-vacuum-pompen",
     "series_name": "• Granulaat en poeder • Straatvegers • Vacuüm pompen",
     "source_pdf": "pu-afzuigslangen.pdf",
     "page": 6,
@@ -2816,13 +2640,11 @@
       "material": null,
       "family_id": "pump-granulaat-en-poeder-straatvegers-vacu-m-pompen-zgpuxl100-6fe2a7",
       "sku_series": "zgpuxl"
-    },
-    "series_image": "images/pu-afzuigslangen/granulaat-en-poeder-straatvegers-vacu-m-pompen__zgpuxl013.webp",
-    "image": "images/pu-afzuigslangen/pu-afzuigslangen__p6__granulaat-en-poeder-straatvegers-vacu-m-__ZGPUXL013-ZGPUXL013-ZGPUXL018.webp"
+    }
   },
   {
     "sku": "ZGPUXL110",
-    "series_id": "granulaat-en-poeder-straatvegers-vacu-m-pompen",
+    "series_id": "pu-afzuigslangen__granulaat-en-poeder-straatvegers-vacuum-pompen",
     "series_name": "• Granulaat en poeder • Straatvegers • Vacuüm pompen",
     "source_pdf": "pu-afzuigslangen.pdf",
     "page": 6,
@@ -2846,13 +2668,11 @@
       "material": null,
       "family_id": "pump-granulaat-en-poeder-straatvegers-vacu-m-pompen-zgpuxl110-e753ef",
       "sku_series": "zgpuxl"
-    },
-    "series_image": "images/pu-afzuigslangen/granulaat-en-poeder-straatvegers-vacu-m-pompen__zgpuxl013.webp",
-    "image": "images/pu-afzuigslangen/pu-afzuigslangen__p6__granulaat-en-poeder-straatvegers-vacu-m-__ZGPUXL013-ZGPUXL013-ZGPUXL018.webp"
+    }
   },
   {
     "sku": "ZGPUXL115",
-    "series_id": "granulaat-en-poeder-straatvegers-vacu-m-pompen",
+    "series_id": "pu-afzuigslangen__granulaat-en-poeder-straatvegers-vacuum-pompen",
     "series_name": "• Granulaat en poeder • Straatvegers • Vacuüm pompen",
     "source_pdf": "pu-afzuigslangen.pdf",
     "page": 6,
@@ -2876,13 +2696,11 @@
       "material": null,
       "family_id": "pump-granulaat-en-poeder-straatvegers-vacu-m-pompen-zgpuxl115-c95a54",
       "sku_series": "zgpuxl"
-    },
-    "series_image": "images/pu-afzuigslangen/granulaat-en-poeder-straatvegers-vacu-m-pompen__zgpuxl013.webp",
-    "image": "images/pu-afzuigslangen/pu-afzuigslangen__p6__granulaat-en-poeder-straatvegers-vacu-m-__ZGPUXL013-ZGPUXL013-ZGPUXL018.webp"
+    }
   },
   {
     "sku": "ZGPUXL120",
-    "series_id": "granulaat-en-poeder-straatvegers-vacu-m-pompen",
+    "series_id": "pu-afzuigslangen__granulaat-en-poeder-straatvegers-vacuum-pompen",
     "series_name": "• Granulaat en poeder • Straatvegers • Vacuüm pompen",
     "source_pdf": "pu-afzuigslangen.pdf",
     "page": 6,
@@ -2906,13 +2724,11 @@
       "material": null,
       "family_id": "pump-granulaat-en-poeder-straatvegers-vacu-m-pompen-zgpuxl120-867f01",
       "sku_series": "zgpuxl"
-    },
-    "series_image": "images/pu-afzuigslangen/granulaat-en-poeder-straatvegers-vacu-m-pompen__zgpuxl013.webp",
-    "image": "images/pu-afzuigslangen/pu-afzuigslangen__p6__granulaat-en-poeder-straatvegers-vacu-m-__ZGPUXL013-ZGPUXL013-ZGPUXL018.webp"
+    }
   },
   {
     "sku": "ZGPUXL125",
-    "series_id": "industri-le-slangen",
+    "series_id": "pu-afzuigslangen__industriele-slangen",
     "series_name": "INDUSTRIËLE SLANGEN",
     "source_pdf": "pu-afzuigslangen.pdf",
     "page": 7,
@@ -2938,7 +2754,7 @@
   },
   {
     "sku": "ZGPUXL125",
-    "series_id": "industri-le-slangen",
+    "series_id": "pu-afzuigslangen__industriele-slangen",
     "series_name": "INDUSTRIËLE SLANGEN",
     "source_pdf": "pu-afzuigslangen.pdf",
     "page": 7,
@@ -2964,7 +2780,7 @@
   },
   {
     "sku": "ZGPUXL140",
-    "series_id": "industri-le-slangen",
+    "series_id": "pu-afzuigslangen__industriele-slangen",
     "series_name": "INDUSTRIËLE SLANGEN",
     "source_pdf": "pu-afzuigslangen.pdf",
     "page": 7,
@@ -2990,7 +2806,7 @@
   },
   {
     "sku": "ZGPUXL140",
-    "series_id": "industri-le-slangen",
+    "series_id": "pu-afzuigslangen__industriele-slangen",
     "series_name": "INDUSTRIËLE SLANGEN",
     "source_pdf": "pu-afzuigslangen.pdf",
     "page": 7,
@@ -3016,7 +2832,7 @@
   },
   {
     "sku": "ZGPUXL160",
-    "series_id": "industri-le-slangen",
+    "series_id": "pu-afzuigslangen__industriele-slangen",
     "series_name": "INDUSTRIËLE SLANGEN",
     "source_pdf": "pu-afzuigslangen.pdf",
     "page": 7,
@@ -3042,7 +2858,7 @@
   },
   {
     "sku": "ZGPUXL160",
-    "series_id": "industri-le-slangen",
+    "series_id": "pu-afzuigslangen__industriele-slangen",
     "series_name": "INDUSTRIËLE SLANGEN",
     "source_pdf": "pu-afzuigslangen.pdf",
     "page": 7,
@@ -3068,7 +2884,7 @@
   },
   {
     "sku": "ZGPUXL175",
-    "series_id": "industri-le-slangen",
+    "series_id": "pu-afzuigslangen__industriele-slangen",
     "series_name": "INDUSTRIËLE SLANGEN",
     "source_pdf": "pu-afzuigslangen.pdf",
     "page": 7,
@@ -3094,7 +2910,7 @@
   },
   {
     "sku": "ZGPUXL175",
-    "series_id": "industri-le-slangen",
+    "series_id": "pu-afzuigslangen__industriele-slangen",
     "series_name": "INDUSTRIËLE SLANGEN",
     "source_pdf": "pu-afzuigslangen.pdf",
     "page": 7,
@@ -3120,7 +2936,7 @@
   },
   {
     "sku": "ZGPUXL200",
-    "series_id": "industri-le-slangen",
+    "series_id": "pu-afzuigslangen__industriele-slangen",
     "series_name": "INDUSTRIËLE SLANGEN",
     "source_pdf": "pu-afzuigslangen.pdf",
     "page": 7,
@@ -3146,7 +2962,7 @@
   },
   {
     "sku": "ZGPUXL225",
-    "series_id": "industri-le-slangen",
+    "series_id": "pu-afzuigslangen__industriele-slangen",
     "series_name": "INDUSTRIËLE SLANGEN",
     "source_pdf": "pu-afzuigslangen.pdf",
     "page": 7,
@@ -3172,7 +2988,7 @@
   },
   {
     "sku": "ZGPUXL250",
-    "series_id": "industri-le-slangen",
+    "series_id": "pu-afzuigslangen__industriele-slangen",
     "series_name": "INDUSTRIËLE SLANGEN",
     "source_pdf": "pu-afzuigslangen.pdf",
     "page": 7,
@@ -3198,7 +3014,7 @@
   },
   {
     "sku": "ZGPUXL255",
-    "series_id": "industri-le-slangen",
+    "series_id": "pu-afzuigslangen__industriele-slangen",
     "series_name": "INDUSTRIËLE SLANGEN",
     "source_pdf": "pu-afzuigslangen.pdf",
     "page": 7,
@@ -3224,7 +3040,7 @@
   },
   {
     "sku": "ZGPUXL275",
-    "series_id": "industri-le-slangen",
+    "series_id": "pu-afzuigslangen__industriele-slangen",
     "series_name": "INDUSTRIËLE SLANGEN",
     "source_pdf": "pu-afzuigslangen.pdf",
     "page": 7,
@@ -3250,7 +3066,7 @@
   },
   {
     "sku": "ZGPUXL280",
-    "series_id": "industri-le-slangen",
+    "series_id": "pu-afzuigslangen__industriele-slangen",
     "series_name": "INDUSTRIËLE SLANGEN",
     "source_pdf": "pu-afzuigslangen.pdf",
     "page": 7,
@@ -3276,7 +3092,7 @@
   },
   {
     "sku": "ZGPUXL300",
-    "series_id": "industri-le-slangen",
+    "series_id": "pu-afzuigslangen__industriele-slangen",
     "series_name": "INDUSTRIËLE SLANGEN",
     "source_pdf": "pu-afzuigslangen.pdf",
     "page": 7,
@@ -3302,7 +3118,7 @@
   },
   {
     "sku": "ZGPUXL305",
-    "series_id": "industri-le-slangen",
+    "series_id": "pu-afzuigslangen__industriele-slangen",
     "series_name": "INDUSTRIËLE SLANGEN",
     "source_pdf": "pu-afzuigslangen.pdf",
     "page": 7,
@@ -3328,7 +3144,7 @@
   },
   {
     "sku": "ZGPUXL315",
-    "series_id": "industri-le-slangen",
+    "series_id": "pu-afzuigslangen__industriele-slangen",
     "series_name": "INDUSTRIËLE SLANGEN",
     "source_pdf": "pu-afzuigslangen.pdf",
     "page": 7,
@@ -3354,7 +3170,7 @@
   },
   {
     "sku": "ZGPUXL325",
-    "series_id": "industri-le-slangen",
+    "series_id": "pu-afzuigslangen__industriele-slangen",
     "series_name": "INDUSTRIËLE SLANGEN",
     "source_pdf": "pu-afzuigslangen.pdf",
     "page": 7,
@@ -3380,7 +3196,7 @@
   },
   {
     "sku": "ZGPUXL330",
-    "series_id": "industri-le-slangen",
+    "series_id": "pu-afzuigslangen__industriele-slangen",
     "series_name": "INDUSTRIËLE SLANGEN",
     "source_pdf": "pu-afzuigslangen.pdf",
     "page": 7,
@@ -3406,7 +3222,7 @@
   },
   {
     "sku": "ZGPUXL350",
-    "series_id": "industri-le-slangen",
+    "series_id": "pu-afzuigslangen__industriele-slangen",
     "series_name": "INDUSTRIËLE SLANGEN",
     "source_pdf": "pu-afzuigslangen.pdf",
     "page": 7,
@@ -3432,7 +3248,7 @@
   },
   {
     "sku": "ZGPUXL400",
-    "series_id": "industri-le-slangen",
+    "series_id": "pu-afzuigslangen__industriele-slangen",
     "series_name": "INDUSTRIËLE SLANGEN",
     "source_pdf": "pu-afzuigslangen.pdf",
     "page": 7,
@@ -3458,7 +3274,7 @@
   },
   {
     "sku": "ZGPUXL450",
-    "series_id": "industri-le-slangen",
+    "series_id": "pu-afzuigslangen__industriele-slangen",
     "series_name": "INDUSTRIËLE SLANGEN",
     "source_pdf": "pu-afzuigslangen.pdf",
     "page": 7,
@@ -3484,7 +3300,7 @@
   },
   {
     "sku": "ZGPUXL500",
-    "series_id": "industri-le-slangen",
+    "series_id": "pu-afzuigslangen__industriele-slangen",
     "series_name": "INDUSTRIËLE SLANGEN",
     "source_pdf": "pu-afzuigslangen.pdf",
     "page": 7,
@@ -3510,7 +3326,7 @@
   },
   {
     "sku": null,
-    "series_id": "afzuigen-van-droge",
+    "series_id": "pu-afzuigslangen__afzuigen-van-droge",
     "series_name": "• Afzuigen van droge",
     "source_pdf": "pu-afzuigslangen.pdf",
     "page": 2,
@@ -3533,13 +3349,11 @@
       "material": null,
       "family_id": null,
       "sku_series": null
-    },
-    "series_image": "images/pu-afzuigslangen/afzuigen-van-droge__zgpul013.webp",
-    "image": "images/pu-afzuigslangen/pu-afzuigslangen__p2__afzuigen-van-droge__ZGPUL013-ZGPUL013-ZGPUL019.webp"
+    }
   },
   {
     "sku": null,
-    "series_id": "afzuigen-van-droge",
+    "series_id": "pu-afzuigslangen__afzuigen-van-droge",
     "series_name": "• Afzuigen van droge",
     "source_pdf": "pu-afzuigslangen.pdf",
     "page": 2,
@@ -3562,13 +3376,11 @@
       "material": null,
       "family_id": null,
       "sku_series": null
-    },
-    "series_image": "images/pu-afzuigslangen/afzuigen-van-droge__zgpul013.webp",
-    "image": "images/pu-afzuigslangen/pu-afzuigslangen__p2__afzuigen-van-droge__ZGPUL013-ZGPUL013-ZGPUL019.webp"
+    }
   },
   {
     "sku": null,
-    "series_id": "granulaten",
+    "series_id": "pu-afzuigslangen__granulaten",
     "series_name": "granulaten,",
     "source_pdf": "pu-afzuigslangen.pdf",
     "page": 5,
@@ -3591,8 +3403,6 @@
       "material": null,
       "family_id": null,
       "sku_series": null
-    },
-    "series_image": "images/pu-afzuigslangen/granulaten__zgpuh025.webp",
-    "image": "images/pu-afzuigslangen/pu-afzuigslangen__p5__granulaten__ZGPUH025-ZGPUH025-ZGPUH038.webp"
+    }
   }
 ]

@@ -1,15 +1,17 @@
 [
   {
-    "group_id": "dompelpompen-afvalwater-huishoudelijk-industrieel",
+    "group_id": "dompelpompen-dompelpompen-afvalwater-huishoudelijk-industrieel",
     "name": "afvalwater, huishoudelijk, industrieel,",
-    "family": "afvalwater-huishoudelijk-industrieel",
+    "family": "dompelpompen__afvalwater-huishoudelijk-industrieel",
     "catalog": "dompelpompen",
+    "source_pdf": "dompelpompen.pdf",
     "brand": "Various",
     "category": "VARIATIES",
     "variants": [
       {
         "sku": "03730002",
         "label": "afvalwater, huishoudelijk, industrieel,",
+        "page": 17,
         "page_in_pdf": 17,
         "properties": {
           "type": "VORTEX 100",
@@ -29,6 +31,7 @@
       {
         "sku": "03730141",
         "label": "afvalwater, huishoudelijk, industrieel,",
+        "page": 25,
         "page_in_pdf": 25,
         "properties": {
           "type": "VORTEX 100 SS 304",
@@ -48,6 +51,7 @@
       {
         "sku": "03730167",
         "label": "afvalwater, huishoudelijk, industrieel,",
+        "page": 17,
         "page_in_pdf": 17,
         "properties": {
           "type": "VORTEX 50",
@@ -67,6 +71,7 @@
       {
         "sku": "03730168",
         "label": "afvalwater, huishoudelijk, industrieel,",
+        "page": 17,
         "page_in_pdf": 17,
         "properties": {
           "type": "VORTEX 75",
@@ -86,6 +91,7 @@
       {
         "sku": "03730195",
         "label": "afvalwater, huishoudelijk, industrieel,",
+        "page": 25,
         "page_in_pdf": 25,
         "properties": {
           "type": "submersible_pump",
@@ -103,6 +109,7 @@
       {
         "sku": "03730206",
         "label": "afvalwater, huishoudelijk, industrieel,",
+        "page": 17,
         "page_in_pdf": 17,
         "properties": {
           "type": "VORTEX 140",
@@ -122,6 +129,7 @@
       {
         "sku": "03730310",
         "label": "afvalwater, huishoudelijk, industrieel,",
+        "page": 25,
         "page_in_pdf": 25,
         "properties": {
           "type": "submersible_pump",
@@ -140,6 +148,7 @@
       {
         "sku": "03730311",
         "label": "afvalwater, huishoudelijk, industrieel,",
+        "page": 25,
         "page_in_pdf": 25,
         "properties": {
           "type": "submersible_pump",
@@ -157,6 +166,7 @@
       {
         "sku": "03730312",
         "label": "afvalwater, huishoudelijk, industrieel,",
+        "page": 25,
         "page_in_pdf": 25,
         "properties": {
           "type": "submersible_pump",
@@ -174,30 +184,30 @@
       }
     ],
     "images": [
-      "images/dompelpompen/dompelpompen__p25__afvalwater-huishoudelijk-industrieel.webp",
-      "images/dompelpompen/landbouw__03730004.webp",
-      "images/dompelpompen/dompelpompen__p15__huishoudelijk__X0352004__v28.webp"
+      "images/dompelpompen/dompelpompen__p25__afvalwater-huishoudelijk-industrieel__03730141-03730195-03730310__v6.webp"
     ],
     "variant_count": 9,
     "default_variant_sku": "03730002",
     "media": [
       {
         "role": "main",
-        "url": "images/dompelpompen/dompelpompen__p25__afvalwater-huishoudelijk-industrieel.webp"
+        "url": "images/dompelpompen/dompelpompen__p25__afvalwater-huishoudelijk-industrieel__03730141-03730195-03730310__v6.webp"
       }
     ]
   },
   {
-    "group_id": "dompelpompen-landbouw",
+    "group_id": "dompelpompen-dompelpompen-landbouw",
     "name": "landbouw",
-    "family": "landbouw",
+    "family": "dompelpompen__landbouw",
     "catalog": "dompelpompen",
+    "source_pdf": "dompelpompen.pdf",
     "brand": "Various",
     "category": "VARIATIES",
     "variants": [
       {
         "sku": "03730004",
         "label": "landbouw",
+        "page": 19,
         "page_in_pdf": 19,
         "properties": {
           "type": "submersible_pump",
@@ -217,6 +227,7 @@
       {
         "sku": "03730005",
         "label": "landbouw",
+        "page": 19,
         "page_in_pdf": 19,
         "properties": {
           "type": "submersible_pump",
@@ -236,6 +247,7 @@
       {
         "sku": "03730035",
         "label": "landbouw",
+        "page": 19,
         "page_in_pdf": 19,
         "properties": {
           "type": "submersible_pump",
@@ -255,6 +267,7 @@
       {
         "sku": "03730048",
         "label": "landbouw",
+        "page": 19,
         "page_in_pdf": 19,
         "properties": {
           "type": "submersible_pump",
@@ -274,6 +287,7 @@
       {
         "sku": "03730049",
         "label": "landbouw",
+        "page": 19,
         "page_in_pdf": 19,
         "properties": {
           "type": "submersible_pump",
@@ -293,6 +307,7 @@
       {
         "sku": "03730300",
         "label": "landbouw",
+        "page": 19,
         "page_in_pdf": 19,
         "properties": {
           "type": "submersible_pump",
@@ -311,29 +326,30 @@
       }
     ],
     "images": [
-      "images/dompelpompen/landbouw__03730004.webp",
-      "images/dompelpompen/dompelpompen__p15__huishoudelijk__X0352004__v28.webp"
+      "images/dompelpompen/dompelpompen__p19__landbouw__03730004-03730005-03730035__v3.webp"
     ],
     "variant_count": 6,
     "default_variant_sku": "03730004",
     "media": [
       {
         "role": "main",
-        "url": "images/dompelpompen/landbouw__03730004.webp"
+        "url": "images/dompelpompen/dompelpompen__p19__landbouw__03730004-03730005-03730035__v3.webp"
       }
     ]
   },
   {
-    "group_id": "dompelpompen-influent-afvalwater-industrieel-landbouw",
+    "group_id": "dompelpompen-dompelpompen-influent-afvalwater-industrieel-landbouw",
     "name": "influent, afvalwater, industrieel, landbouw",
-    "family": "influent-afvalwater-industrieel-landbouw",
+    "family": "dompelpompen__influent-afvalwater-industrieel-landbouw",
     "catalog": "dompelpompen",
+    "source_pdf": "dompelpompen.pdf",
     "brand": "Various",
     "category": "VARIATIES",
     "variants": [
       {
         "sku": "03730007",
         "label": "influent, afvalwater, industrieel, landbouw",
+        "page": 26,
         "page_in_pdf": 26,
         "properties": {
           "type": "VORTEX 550",
@@ -353,6 +369,7 @@
       {
         "sku": "03730050",
         "label": "influent, afvalwater, industrieel, landbouw",
+        "page": 20,
         "page_in_pdf": 20,
         "properties": {
           "type": "submersible_pump",
@@ -372,6 +389,7 @@
       {
         "sku": "03730051",
         "label": "influent, afvalwater, industrieel, landbouw",
+        "page": 20,
         "page_in_pdf": 20,
         "properties": {
           "type": "submersible_pump",
@@ -391,6 +409,7 @@
       {
         "sku": "03730301",
         "label": "influent, afvalwater, industrieel, landbouw",
+        "page": 26,
         "page_in_pdf": 26,
         "properties": {
           "type": "VORTEX 1000",
@@ -410,6 +429,7 @@
       {
         "sku": "03730303",
         "label": "influent, afvalwater, industrieel, landbouw",
+        "page": 26,
         "page_in_pdf": 26,
         "properties": {
           "type": "VORTEX 2000",
@@ -429,6 +449,7 @@
       {
         "sku": "03730305",
         "label": "influent, afvalwater, industrieel, landbouw",
+        "page": 26,
         "page_in_pdf": 26,
         "properties": {
           "type": "VORTEX 3400",
@@ -447,29 +468,30 @@
       }
     ],
     "images": [
-      "images/dompelpompen/landbouw__03730004.webp",
-      "images/dompelpompen/dompelpompen__p15__huishoudelijk__X0352004__v28.webp"
+      "images/dompelpompen/dompelpompen__p26__influent-afvalwater-industrieel-landbouw__03730007-03730301-03730303__v4.webp"
     ],
     "variant_count": 6,
     "default_variant_sku": "03730007",
     "media": [
       {
         "role": "main",
-        "url": "images/dompelpompen/landbouw__03730004.webp"
+        "url": "images/dompelpompen/dompelpompen__p26__influent-afvalwater-industrieel-landbouw__03730007-03730301-03730303__v4.webp"
       }
     ]
   },
   {
-    "group_id": "dompelpompen-huishoudelijk-semi-industrieel-drainage",
+    "group_id": "dompelpompen-dompelpompen-huishoudelijk-semi-industrieel-drainage",
     "name": "huishoudelijk, semi-industrieel, drainage",
-    "family": "huishoudelijk-semi-industrieel-drainage",
+    "family": "dompelpompen__huishoudelijk-semi-industrieel-drainage",
     "catalog": "dompelpompen",
+    "source_pdf": "dompelpompen.pdf",
     "brand": "Various",
     "category": "VARIATIES",
     "variants": [
       {
         "sku": "03730009",
         "label": "huishoudelijk, semi-industrieel, drainage",
+        "page": 15,
         "page_in_pdf": 15,
         "properties": {
           "type": "DRAIN 100 SS 304",
@@ -488,6 +510,7 @@
       {
         "sku": "03730299",
         "label": "huishoudelijk, semi-industrieel, drainage",
+        "page": 15,
         "page_in_pdf": 15,
         "properties": {
           "type": "DRAIN 150 SS 304",
@@ -505,7 +528,6 @@
       }
     ],
     "images": [
-      "images/dompelpompen/huishoudelijk-semi-industrieel-drainage__03730009.webp",
       "images/dompelpompen/dompelpompen__p15__huishoudelijk-semi-industrieel-drainage__03730009-03730299.webp"
     ],
     "variant_count": 2,
@@ -513,21 +535,23 @@
     "media": [
       {
         "role": "main",
-        "url": "images/dompelpompen/huishoudelijk-semi-industrieel-drainage__03730009.webp"
+        "url": "images/dompelpompen/dompelpompen__p15__huishoudelijk-semi-industrieel-drainage__03730009-03730299.webp"
       }
     ]
   },
   {
-    "group_id": "dompelpompen-bouwwerven-industrieel-drainage",
+    "group_id": "dompelpompen-dompelpompen-bouwwerven-industrieel-drainage",
     "name": "bouwwerven, industrieel, drainage,",
-    "family": "bouwwerven-industrieel-drainage",
+    "family": "dompelpompen__bouwwerven-industrieel-drainage",
     "catalog": "dompelpompen",
+    "source_pdf": "dompelpompen.pdf",
     "brand": "Various",
     "category": "VARIATIES",
     "variants": [
       {
         "sku": "03730010",
         "label": "bouwwerven, industrieel, drainage,",
+        "page": 32,
         "page_in_pdf": 32,
         "properties": {
           "type": "submersible_pump",
@@ -547,6 +571,7 @@
       {
         "sku": "03730011",
         "label": "bouwwerven, industrieel, drainage,",
+        "page": 32,
         "page_in_pdf": 32,
         "properties": {
           "type": "submersible_pump",
@@ -566,6 +591,7 @@
       {
         "sku": "03730012",
         "label": "bouwwerven, industrieel, drainage,",
+        "page": 32,
         "page_in_pdf": 32,
         "properties": {
           "type": "submersible_pump",
@@ -585,6 +611,7 @@
       {
         "sku": "03730013",
         "label": "bouwwerven, industrieel, drainage,",
+        "page": 32,
         "page_in_pdf": 32,
         "properties": {
           "type": "submersible_pump",
@@ -604,6 +631,7 @@
       {
         "sku": "03730014",
         "label": "bouwwerven, industrieel, drainage,",
+        "page": 32,
         "page_in_pdf": 32,
         "properties": {
           "type": "submersible_pump",
@@ -623,6 +651,7 @@
       {
         "sku": "03730015",
         "label": "bouwwerven, industrieel, drainage,",
+        "page": 32,
         "page_in_pdf": 32,
         "properties": {
           "type": "submersible_pump",
@@ -642,6 +671,7 @@
       {
         "sku": "03730016",
         "label": "bouwwerven, industrieel, drainage,",
+        "page": 33,
         "page_in_pdf": 33,
         "properties": {
           "type": "submersible_pump",
@@ -660,6 +690,7 @@
       {
         "sku": "03730017",
         "label": "bouwwerven, industrieel, drainage,",
+        "page": 33,
         "page_in_pdf": 33,
         "properties": {
           "type": "submersible_pump",
@@ -677,6 +708,7 @@
       {
         "sku": "03730018",
         "label": "bouwwerven, industrieel, drainage,",
+        "page": 33,
         "page_in_pdf": 33,
         "properties": {
           "type": "submersible_pump",
@@ -695,6 +727,7 @@
       {
         "sku": "03730036",
         "label": "bouwwerven, industrieel, drainage,",
+        "page": 32,
         "page_in_pdf": 32,
         "properties": {
           "type": "submersible_pump",
@@ -713,6 +746,7 @@
       {
         "sku": "03730037",
         "label": "bouwwerven, industrieel, drainage,",
+        "page": 33,
         "page_in_pdf": 33,
         "properties": {
           "type": "submersible_pump",
@@ -730,6 +764,7 @@
       {
         "sku": "03730059",
         "label": "bouwwerven, industrieel, drainage,",
+        "page": 32,
         "page_in_pdf": 32,
         "properties": {
           "type": "submersible_pump",
@@ -749,6 +784,7 @@
       {
         "sku": "03730142",
         "label": "bouwwerven, industrieel, drainage,",
+        "page": 33,
         "page_in_pdf": 33,
         "properties": {
           "type": "submersible_pump",
@@ -766,6 +802,7 @@
       {
         "sku": "03730149",
         "label": "bouwwerven, industrieel, drainage,",
+        "page": 32,
         "page_in_pdf": 32,
         "properties": {
           "type": "submersible_pump",
@@ -785,6 +822,7 @@
       {
         "sku": "03730170",
         "label": "bouwwerven, industrieel, drainage,",
+        "page": 32,
         "page_in_pdf": 32,
         "properties": {
           "type": "submersible_pump",
@@ -803,6 +841,7 @@
       {
         "sku": "03730171",
         "label": "bouwwerven, industrieel, drainage,",
+        "page": 32,
         "page_in_pdf": 32,
         "properties": {
           "type": "submersible_pump",
@@ -822,6 +861,7 @@
       {
         "sku": "03730276",
         "label": "bouwwerven, industrieel, drainage,",
+        "page": 33,
         "page_in_pdf": 33,
         "properties": {
           "type": "submersible_pump",
@@ -839,29 +879,30 @@
       }
     ],
     "images": [
-      "images/dompelpompen/landbouw__03730004.webp",
-      "images/dompelpompen/dompelpompen__p15__huishoudelijk__X0352004__v28.webp"
+      "images/dompelpompen/dompelpompen__p33__bouwwerven-industrieel-drainage__03730016-03730017-03730018__v8.webp"
     ],
     "variant_count": 17,
     "default_variant_sku": "03730010",
     "media": [
       {
         "role": "main",
-        "url": "images/dompelpompen/landbouw__03730004.webp"
+        "url": "images/dompelpompen/dompelpompen__p33__bouwwerven-industrieel-drainage__03730016-03730017-03730018__v8.webp"
       }
     ]
   },
   {
-    "group_id": "dompelpompen-van-vaste-delen",
+    "group_id": "dompelpompen-dompelpompen-van-vaste-delen",
     "name": "van vaste delen",
-    "family": "van-vaste-delen",
+    "family": "dompelpompen__van-vaste-delen",
     "catalog": "dompelpompen",
+    "source_pdf": "dompelpompen.pdf",
     "brand": "Various",
     "category": "VARIATIES",
     "variants": [
       {
         "sku": "03730150",
         "label": "van vaste delen",
+        "page": 29,
         "page_in_pdf": 29,
         "properties": {
           "type": "submersible_pump",
@@ -882,6 +923,7 @@
       {
         "sku": "03730151",
         "label": "van vaste delen",
+        "page": 29,
         "page_in_pdf": 29,
         "properties": {
           "type": "submersible_pump",
@@ -902,6 +944,7 @@
       {
         "sku": "03730152",
         "label": "van vaste delen",
+        "page": 29,
         "page_in_pdf": 29,
         "properties": {
           "type": "submersible_pump",
@@ -922,6 +965,7 @@
       {
         "sku": "03730153",
         "label": "van vaste delen",
+        "page": 29,
         "page_in_pdf": 29,
         "properties": {
           "type": "submersible_pump",
@@ -942,6 +986,7 @@
       {
         "sku": "03730275",
         "label": "van vaste delen",
+        "page": 29,
         "page_in_pdf": 29,
         "properties": {
           "type": "submersible_pump",
@@ -961,29 +1006,30 @@
       }
     ],
     "images": [
-      "images/dompelpompen/landbouw__03730004.webp",
-      "images/dompelpompen/dompelpompen__p15__huishoudelijk__X0352004__v28.webp"
+      "images/dompelpompen/dompelpompen__p29__van-vaste-delen__03730150-03730151-03730152__v3.webp"
     ],
     "variant_count": 5,
     "default_variant_sku": "03730150",
     "media": [
       {
         "role": "main",
-        "url": "images/dompelpompen/landbouw__03730004.webp"
+        "url": "images/dompelpompen/dompelpompen__p29__van-vaste-delen__03730150-03730151-03730152__v3.webp"
       }
     ]
   },
   {
-    "group_id": "dompelpompen-huishoudelijk-drainage",
+    "group_id": "dompelpompen-dompelpompen-huishoudelijk-drainage",
     "name": "huishoudelijk, drainage",
-    "family": "huishoudelijk-drainage",
+    "family": "dompelpompen__huishoudelijk-drainage",
     "catalog": "dompelpompen",
+    "source_pdf": "dompelpompen.pdf",
     "brand": "Various",
     "category": "VARIATIES",
     "variants": [
       {
         "sku": "03730173",
         "label": "huishoudelijk, drainage",
+        "page": 16,
         "page_in_pdf": 16,
         "properties": {
           "type": "submersible_pump",
@@ -1003,6 +1049,7 @@
       {
         "sku": "03730290",
         "label": "huishoudelijk, drainage",
+        "page": 16,
         "page_in_pdf": 16,
         "properties": {
           "type": "submersible_pump",
@@ -1020,29 +1067,30 @@
       }
     ],
     "images": [
-      "images/dompelpompen/landbouw__03730004.webp",
-      "images/dompelpompen/dompelpompen__p15__huishoudelijk__X0352004__v28.webp"
+      "images/dompelpompen/dompelpompen__p16__huishoudelijk-drainage__03730173-03730290__v3.webp"
     ],
     "variant_count": 2,
     "default_variant_sku": "03730173",
     "media": [
       {
         "role": "main",
-        "url": "images/dompelpompen/landbouw__03730004.webp"
+        "url": "images/dompelpompen/dompelpompen__p16__huishoudelijk-drainage__03730173-03730290__v3.webp"
       }
     ]
   },
   {
-    "group_id": "dompelpompen-bouw-semi-industrieel",
+    "group_id": "dompelpompen-dompelpompen-bouw-semi-industrieel",
     "name": "bouw, semi-industrieel",
-    "family": "bouw-semi-industrieel",
+    "family": "dompelpompen__bouw-semi-industrieel",
     "catalog": "dompelpompen",
+    "source_pdf": "dompelpompen.pdf",
     "brand": "Various",
     "category": "VARIATIES",
     "variants": [
       {
         "sku": "06280005",
         "label": "bouw, semi-industrieel",
+        "page": 31,
         "page_in_pdf": 31,
         "properties": {
           "type": "submersible_pump",
@@ -1061,6 +1109,7 @@
       {
         "sku": "06280006",
         "label": "bouw, semi-industrieel",
+        "page": 31,
         "page_in_pdf": 31,
         "properties": {
           "type": "submersible_pump",
@@ -1079,6 +1128,7 @@
       {
         "sku": "06280007",
         "label": "bouw, semi-industrieel",
+        "page": 31,
         "page_in_pdf": 31,
         "properties": {
           "type": "submersible_pump",
@@ -1097,6 +1147,7 @@
       {
         "sku": "06280008",
         "label": "bouw, semi-industrieel",
+        "page": 31,
         "page_in_pdf": 31,
         "properties": {
           "type": "submersible_pump",
@@ -1115,6 +1166,7 @@
       {
         "sku": "06280059",
         "label": "bouw, semi-industrieel",
+        "page": 31,
         "page_in_pdf": 31,
         "properties": {
           "type": "submersible_pump",
@@ -1133,6 +1185,7 @@
       {
         "sku": "06280060",
         "label": "bouw, semi-industrieel",
+        "page": 31,
         "page_in_pdf": 31,
         "properties": {
           "type": "submersible_pump",
@@ -1151,6 +1204,7 @@
       {
         "sku": "06280066",
         "label": "bouw, semi-industrieel",
+        "page": 31,
         "page_in_pdf": 31,
         "properties": {
           "type": "submersible_pump",
@@ -1168,29 +1222,30 @@
       }
     ],
     "images": [
-      "images/dompelpompen/bouw-semi-industrieel__06280005.webp",
-      "images/dompelpompen/dompelpompen__p31__bouw-semi-industrieel__06280005-06280006-06280007__v1.webp"
+      "images/dompelpompen/dompelpompen__p31__bouw-semi-industrieel__06280005-06280006-06280007__v5.webp"
     ],
     "variant_count": 7,
     "default_variant_sku": "06280005",
     "media": [
       {
         "role": "main",
-        "url": "images/dompelpompen/bouw-semi-industrieel__06280005.webp"
+        "url": "images/dompelpompen/dompelpompen__p31__bouw-semi-industrieel__06280005-06280006-06280007__v5.webp"
       }
     ]
   },
   {
-    "group_id": "dompelpompen-stedelijk-bouw-industrieel",
+    "group_id": "dompelpompen-dompelpompen-stedelijk-bouw-industrieel",
     "name": "stedelijk, bouw, industrieel",
-    "family": "stedelijk-bouw-industrieel",
+    "family": "dompelpompen__stedelijk-bouw-industrieel",
     "catalog": "dompelpompen",
+    "source_pdf": "dompelpompen.pdf",
     "brand": "Various",
     "category": "VARIATIES",
     "variants": [
       {
         "sku": "06280015",
         "label": "stedelijk, bouw, industrieel",
+        "page": 34,
         "page_in_pdf": 34,
         "properties": {
           "type": "submersible_pump",
@@ -1209,6 +1264,7 @@
       {
         "sku": "06280028",
         "label": "stedelijk, bouw, industrieel",
+        "page": 34,
         "page_in_pdf": 34,
         "properties": {
           "type": "submersible_pump",
@@ -1227,6 +1283,7 @@
       {
         "sku": "06280030",
         "label": "stedelijk, bouw, industrieel",
+        "page": 34,
         "page_in_pdf": 34,
         "properties": {
           "type": "submersible_pump",
@@ -1245,6 +1302,7 @@
       {
         "sku": "06280042",
         "label": "stedelijk, bouw, industrieel",
+        "page": 34,
         "page_in_pdf": 34,
         "properties": {
           "type": "submersible_pump",
@@ -1263,6 +1321,7 @@
       {
         "sku": "06280043",
         "label": "stedelijk, bouw, industrieel",
+        "page": 34,
         "page_in_pdf": 34,
         "properties": {
           "type": "submersible_pump",
@@ -1281,6 +1340,7 @@
       {
         "sku": "06280044",
         "label": "stedelijk, bouw, industrieel",
+        "page": 34,
         "page_in_pdf": 34,
         "properties": {
           "type": "submersible_pump",
@@ -1299,6 +1359,7 @@
       {
         "sku": "06280045",
         "label": "stedelijk, bouw, industrieel",
+        "page": 34,
         "page_in_pdf": 34,
         "properties": {
           "type": "submersible_pump",
@@ -1317,6 +1378,7 @@
       {
         "sku": "06280046",
         "label": "stedelijk, bouw, industrieel",
+        "page": 34,
         "page_in_pdf": 34,
         "properties": {
           "type": "submersible_pump",
@@ -1335,6 +1397,7 @@
       {
         "sku": "06280047",
         "label": "stedelijk, bouw, industrieel",
+        "page": 34,
         "page_in_pdf": 34,
         "properties": {
           "type": "submersible_pump",
@@ -1353,6 +1416,7 @@
       {
         "sku": "06280048",
         "label": "stedelijk, bouw, industrieel",
+        "page": 34,
         "page_in_pdf": 34,
         "properties": {
           "type": "submersible_pump",
@@ -1371,6 +1435,7 @@
       {
         "sku": "06280049",
         "label": "stedelijk, bouw, industrieel",
+        "page": 34,
         "page_in_pdf": 34,
         "properties": {
           "type": "submersible_pump",
@@ -1389,6 +1454,7 @@
       {
         "sku": "06280050",
         "label": "stedelijk, bouw, industrieel",
+        "page": 34,
         "page_in_pdf": 34,
         "properties": {
           "type": "submersible_pump",
@@ -1407,6 +1473,7 @@
       {
         "sku": "06280051",
         "label": "stedelijk, bouw, industrieel",
+        "page": 34,
         "page_in_pdf": 34,
         "properties": {
           "type": "submersible_pump",
@@ -1425,6 +1492,7 @@
       {
         "sku": "06280052",
         "label": "stedelijk, bouw, industrieel",
+        "page": 34,
         "page_in_pdf": 34,
         "properties": {
           "type": "submersible_pump",
@@ -1443,6 +1511,7 @@
       {
         "sku": "06280053",
         "label": "stedelijk, bouw, industrieel",
+        "page": 34,
         "page_in_pdf": 34,
         "properties": {
           "type": "submersible_pump",
@@ -1461,6 +1530,7 @@
       {
         "sku": "06280054",
         "label": "stedelijk, bouw, industrieel",
+        "page": 34,
         "page_in_pdf": 34,
         "properties": {
           "type": "submersible_pump",
@@ -1478,6 +1548,7 @@
       {
         "sku": "06280061",
         "label": "stedelijk, bouw, industrieel",
+        "page": 34,
         "page_in_pdf": 34,
         "properties": {
           "type": "submersible_pump",
@@ -1495,29 +1566,30 @@
       }
     ],
     "images": [
-      "images/dompelpompen/bouw-semi-industrieel__06280005.webp",
-      "images/dompelpompen/dompelpompen__p31__bouw-semi-industrieel__06280005-06280006-06280007__v1.webp"
+      "images/dompelpompen/dompelpompen__p34__stedelijk-bouw-industrieel__06280015-06280028-06280030__v7.webp"
     ],
     "variant_count": 17,
     "default_variant_sku": "06280015",
     "media": [
       {
         "role": "main",
-        "url": "images/dompelpompen/bouw-semi-industrieel__06280005.webp"
+        "url": "images/dompelpompen/dompelpompen__p34__stedelijk-bouw-industrieel__06280015-06280028-06280030__v7.webp"
       }
     ]
   },
   {
-    "group_id": "dompelpompen-mijnbouw-bouw-industrieel",
+    "group_id": "dompelpompen-dompelpompen-mijnbouw-bouw-industrieel",
     "name": "mijnbouw, bouw, industrieel",
-    "family": "mijnbouw-bouw-industrieel",
+    "family": "dompelpompen__mijnbouw-bouw-industrieel",
     "catalog": "dompelpompen",
+    "source_pdf": "dompelpompen.pdf",
     "brand": "Various",
     "category": "VARIATIES",
     "variants": [
       {
         "sku": "06280035",
         "label": "mijnbouw, bouw, industrieel",
+        "page": 35,
         "page_in_pdf": 35,
         "properties": {
           "type": "submersible_pump",
@@ -1536,6 +1608,7 @@
       {
         "sku": "06280055",
         "label": "mijnbouw, bouw, industrieel",
+        "page": 35,
         "page_in_pdf": 35,
         "properties": {
           "type": "submersible_pump",
@@ -1554,6 +1627,7 @@
       {
         "sku": "06280056",
         "label": "mijnbouw, bouw, industrieel",
+        "page": 35,
         "page_in_pdf": 35,
         "properties": {
           "type": "submersible_pump",
@@ -1571,6 +1645,7 @@
       {
         "sku": "06280057",
         "label": "mijnbouw, bouw, industrieel",
+        "page": 35,
         "page_in_pdf": 35,
         "properties": {
           "type": "submersible_pump",
@@ -1589,6 +1664,7 @@
       {
         "sku": "06280058",
         "label": "mijnbouw, bouw, industrieel",
+        "page": 35,
         "page_in_pdf": 35,
         "properties": {
           "type": "submersible_pump",
@@ -1606,29 +1682,30 @@
       }
     ],
     "images": [
-      "images/dompelpompen/bouw-semi-industrieel__06280005.webp",
-      "images/dompelpompen/dompelpompen__p31__bouw-semi-industrieel__06280005-06280006-06280007__v1.webp"
+      "images/dompelpompen/dompelpompen__p35__mijnbouw-bouw-industrieel__06280035-06280055-06280056__v4.webp"
     ],
     "variant_count": 5,
     "default_variant_sku": "06280035",
     "media": [
       {
         "role": "main",
-        "url": "images/dompelpompen/bouw-semi-industrieel__06280005.webp"
+        "url": "images/dompelpompen/dompelpompen__p35__mijnbouw-bouw-industrieel__06280035-06280055-06280056__v4.webp"
       }
     ]
   },
   {
-    "group_id": "dompelpompen-huishoudelijk-semi-industrieel-landbouw",
+    "group_id": "dompelpompen-dompelpompen-huishoudelijk-semi-industrieel-landbouw",
     "name": "huishoudelijk, semi-industrieel, landbouw",
-    "family": "huishoudelijk-semi-industrieel-landbouw",
+    "family": "dompelpompen__huishoudelijk-semi-industrieel-landbouw",
     "catalog": "dompelpompen",
+    "source_pdf": "dompelpompen.pdf",
     "brand": "Various",
     "category": "VARIATIES",
     "variants": [
       {
         "sku": "07060191",
         "label": "huishoudelijk, semi-industrieel, landbouw",
+        "page": 14,
         "page_in_pdf": 14,
         "properties": {
           "type": "KP250-A-1",
@@ -1648,6 +1725,7 @@
       {
         "sku": "07060195",
         "label": "huishoudelijk, semi-industrieel, landbouw",
+        "page": 14,
         "page_in_pdf": 14,
         "properties": {
           "type": "KP250-M-1",
@@ -1667,6 +1745,7 @@
       {
         "sku": "07060201",
         "label": "huishoudelijk, semi-industrieel, landbouw",
+        "page": 14,
         "page_in_pdf": 14,
         "properties": {
           "type": "KP150-A-1",
@@ -1686,6 +1765,7 @@
       {
         "sku": "07060533",
         "label": "huishoudelijk, semi-industrieel, landbouw",
+        "page": 14,
         "page_in_pdf": 14,
         "properties": {
           "type": "KP350-A-1",
@@ -1705,6 +1785,7 @@
       {
         "sku": "07061033",
         "label": "huishoudelijk, semi-industrieel, landbouw",
+        "page": 14,
         "page_in_pdf": 14,
         "properties": {
           "type": "KP150-AV-1",
@@ -1724,6 +1805,7 @@
       {
         "sku": "07061067",
         "label": "huishoudelijk, semi-industrieel, landbouw",
+        "page": 14,
         "page_in_pdf": 14,
         "properties": {
           "type": "KP350-AV-1",
@@ -1743,6 +1825,7 @@
       {
         "sku": "07061574",
         "label": "huishoudelijk, semi-industrieel, landbouw",
+        "page": 14,
         "page_in_pdf": 14,
         "properties": {
           "type": "KP250-AV-1",
@@ -1761,29 +1844,30 @@
       }
     ],
     "images": [
-      "images/bronpompen/industri-le-toepassingen-grondwater__07060922.webp",
-      "images/bronpompen/bronpompen__p8__industri-le-toepassingen-grondwater__07060922-07060975-07061185__v1.webp"
+      "images/dompelpompen/dompelpompen__p14__huishoudelijk-semi-industrieel-landbouw__07060191-07060195-07060201.webp"
     ],
     "variant_count": 7,
     "default_variant_sku": "07060191",
     "media": [
       {
         "role": "main",
-        "url": "images/bronpompen/industri-le-toepassingen-grondwater__07060922.webp"
+        "url": "images/dompelpompen/dompelpompen__p14__huishoudelijk-semi-industrieel-landbouw__07060191-07060195-07060201.webp"
       }
     ]
   },
   {
-    "group_id": "dompelpompen-huishoudelijk-landbouw-fecali-n",
+    "group_id": "dompelpompen-dompelpompen-huishoudelijk-landbouw-fecalien",
     "name": "huishoudelijk, landbouw, fecaliën",
-    "family": "huishoudelijk-landbouw-fecali-n",
+    "family": "dompelpompen__huishoudelijk-landbouw-fecalien",
     "catalog": "dompelpompen",
+    "source_pdf": "dompelpompen.pdf",
     "brand": "Various",
     "category": "VARIATIES",
     "variants": [
       {
         "sku": "22250066",
         "label": "huishoudelijk, landbouw, fecaliën",
+        "page": 18,
         "page_in_pdf": 18,
         "properties": {
           "type": "JS-250SVMA",
@@ -1804,6 +1888,7 @@
       {
         "sku": "22250078",
         "label": "huishoudelijk, landbouw, fecaliën",
+        "page": 18,
         "page_in_pdf": 18,
         "properties": {
           "type": "JS-150SVA",
@@ -1824,6 +1909,7 @@
       {
         "sku": "22250079",
         "label": "huishoudelijk, landbouw, fecaliën",
+        "page": 18,
         "page_in_pdf": 18,
         "properties": {
           "type": "JS-250SV",
@@ -1844,6 +1930,7 @@
       {
         "sku": "22250224",
         "label": "huishoudelijk, landbouw, fecaliën",
+        "page": 18,
         "page_in_pdf": 18,
         "properties": {
           "type": "JS-400SVA",
@@ -1864,6 +1951,7 @@
       {
         "sku": "22250227",
         "label": "huishoudelijk, landbouw, fecaliën",
+        "page": 18,
         "page_in_pdf": 18,
         "properties": {
           "type": "JS-750SVA",
@@ -1883,29 +1971,30 @@
       }
     ],
     "images": [
-      "images/dompelpompen/dompelpompen__p30__bouwwerven.webp",
-      "images/dompelpompen/dompelpompen__p4__variaties__X9120282__v3.webp"
+      "images/dompelpompen/dompelpompen__p18__huishoudelijk-landbouw-fecali-n__22250066-22250078-22250079.webp"
     ],
     "variant_count": 5,
     "default_variant_sku": "22250066",
     "media": [
       {
         "role": "main",
-        "url": "images/dompelpompen/dompelpompen__p30__bouwwerven.webp"
+        "url": "images/dompelpompen/dompelpompen__p18__huishoudelijk-landbouw-fecali-n__22250066-22250078-22250079.webp"
       }
     ]
   },
   {
-    "group_id": "dompelpompen-huishoudelijk-bouwputten-zwembaden",
+    "group_id": "dompelpompen-dompelpompen-huishoudelijk-bouwputten-zwembaden",
     "name": "huishoudelijk, bouwputten, zwembaden",
-    "family": "huishoudelijk-bouwputten-zwembaden",
+    "family": "dompelpompen__huishoudelijk-bouwputten-zwembaden",
     "catalog": "dompelpompen",
+    "source_pdf": "dompelpompen.pdf",
     "brand": "Various",
     "category": "VARIATIES",
     "variants": [
       {
         "sku": "22250071",
         "label": "huishoudelijk, bouwputten, zwembaden",
+        "page": 12,
         "page_in_pdf": 12,
         "properties": {
           "type": "JS-100A",
@@ -1924,6 +2013,7 @@
       {
         "sku": "22250072",
         "label": "huishoudelijk, bouwputten, zwembaden",
+        "page": 12,
         "page_in_pdf": 12,
         "properties": {
           "type": "JS-150MAN",
@@ -1942,6 +2032,7 @@
       {
         "sku": "22250074",
         "label": "huishoudelijk, bouwputten, zwembaden",
+        "page": 12,
         "page_in_pdf": 12,
         "properties": {
           "type": "JS-150MA",
@@ -1960,6 +2051,7 @@
       {
         "sku": "22250076",
         "label": "huishoudelijk, bouwputten, zwembaden",
+        "page": 12,
         "page_in_pdf": 12,
         "properties": {
           "type": "JS-250A",
@@ -1978,6 +2070,7 @@
       {
         "sku": "22250081",
         "label": "huishoudelijk, bouwputten, zwembaden",
+        "page": 12,
         "page_in_pdf": 12,
         "properties": {
           "type": "JS-400MAN",
@@ -1996,6 +2089,7 @@
       {
         "sku": "22250167",
         "label": "huishoudelijk, bouwputten, zwembaden",
+        "page": 12,
         "page_in_pdf": 12,
         "properties": {
           "type": "JS-750A",
@@ -2014,6 +2108,7 @@
       {
         "sku": "22250219",
         "label": "huishoudelijk, bouwputten, zwembaden",
+        "page": 12,
         "page_in_pdf": 12,
         "properties": {
           "type": "JS-400MA",
@@ -2032,6 +2127,7 @@
       {
         "sku": "22250222",
         "label": "huishoudelijk, bouwputten, zwembaden",
+        "page": 12,
         "page_in_pdf": 12,
         "properties": {
           "type": "JS-1500H",
@@ -2049,29 +2145,30 @@
       }
     ],
     "images": [
-      "images/dompelpompen/dompelpompen__p30__bouwwerven.webp",
-      "images/dompelpompen/dompelpompen__p4__variaties__X9120282__v3.webp"
+      "images/dompelpompen/dompelpompen__p12__huishoudelijk-bouwputten-zwembaden__22250071-22250072-22250074.webp"
     ],
     "variant_count": 8,
     "default_variant_sku": "22250071",
     "media": [
       {
         "role": "main",
-        "url": "images/dompelpompen/dompelpompen__p30__bouwwerven.webp"
+        "url": "images/dompelpompen/dompelpompen__p12__huishoudelijk-bouwputten-zwembaden__22250071-22250072-22250074.webp"
       }
     ]
   },
   {
-    "group_id": "dompelpompen-huishoudelijk-semi-industrieel-bouwputten",
+    "group_id": "dompelpompen-dompelpompen-huishoudelijk-semi-industrieel-bouwputten",
     "name": "huishoudelijk, semi-industrieel, bouwputten",
-    "family": "huishoudelijk-semi-industrieel-bouwputten",
+    "family": "dompelpompen__huishoudelijk-semi-industrieel-bouwputten",
     "catalog": "dompelpompen",
+    "source_pdf": "dompelpompen.pdf",
     "brand": "Various",
     "category": "VARIATIES",
     "variants": [
       {
         "sku": "22250110",
         "label": "huishoudelijk, semi-industrieel, bouwputten",
+        "page": 30,
         "page_in_pdf": 30,
         "properties": {
           "type": "SP 04 A",
@@ -2090,6 +2187,7 @@
       {
         "sku": "22250111",
         "label": "huishoudelijk, semi-industrieel, bouwputten",
+        "page": 30,
         "page_in_pdf": 30,
         "properties": {
           "type": "SP 08 A",
@@ -2107,29 +2205,30 @@
       }
     ],
     "images": [
-      "images/dompelpompen/dompelpompen__p30__bouwwerven.webp",
-      "images/dompelpompen/dompelpompen__p4__variaties__X9120282__v3.webp"
+      "images/dompelpompen/dompelpompen__p30__huishoudelijk-semi-industrieel-bouwputte__22250110-22250111.webp"
     ],
     "variant_count": 2,
     "default_variant_sku": "22250110",
     "media": [
       {
         "role": "main",
-        "url": "images/dompelpompen/dompelpompen__p30__bouwwerven.webp"
+        "url": "images/dompelpompen/dompelpompen__p30__huishoudelijk-semi-industrieel-bouwputte__22250110-22250111.webp"
       }
     ]
   },
   {
-    "group_id": "dompelpompen-huishoudelijk-landbouw-beregening",
+    "group_id": "dompelpompen-dompelpompen-huishoudelijk-landbouw-beregening",
     "name": "huishoudelijk, landbouw, beregening",
-    "family": "huishoudelijk-landbouw-beregening",
+    "family": "dompelpompen__huishoudelijk-landbouw-beregening",
     "catalog": "dompelpompen",
+    "source_pdf": "dompelpompen.pdf",
     "brand": "Various",
     "category": "VARIATIES",
     "variants": [
       {
         "sku": "MATSMA040",
         "label": "huishoudelijk, landbouw, beregening",
+        "page": 39,
         "page_in_pdf": 39,
         "properties": {
           "type": "SMA040 0,8 pK",
@@ -2150,6 +2249,7 @@
       {
         "sku": "MATSMA040G",
         "label": "huishoudelijk, landbouw, beregening",
+        "page": 39,
         "page_in_pdf": 39,
         "properties": {
           "type": "SMA040G 0,8 pK",
@@ -2170,6 +2270,7 @@
       {
         "sku": "MATSMA060",
         "label": "huishoudelijk, landbouw, beregening",
+        "page": 39,
         "page_in_pdf": 39,
         "properties": {
           "type": "SMA060 1,2 pK",
@@ -2190,6 +2291,7 @@
       {
         "sku": "MATSMA060T",
         "label": "huishoudelijk, landbouw, beregening",
+        "page": 39,
         "page_in_pdf": 39,
         "properties": {
           "type": "SMA060T 1,2 pK",
@@ -2210,6 +2312,7 @@
       {
         "sku": "MATSMA080",
         "label": "huishoudelijk, landbouw, beregening",
+        "page": 39,
         "page_in_pdf": 39,
         "properties": {
           "type": "SMA080 1,6 pK",
@@ -2230,6 +2333,7 @@
       {
         "sku": "MATSMA080G",
         "label": "huishoudelijk, landbouw, beregening",
+        "page": 39,
         "page_in_pdf": 39,
         "properties": {
           "type": "SMA080G 1,6 pK",
@@ -2250,6 +2354,7 @@
       {
         "sku": "MATSMC4",
         "label": "huishoudelijk, landbouw, beregening",
+        "page": 39,
         "page_in_pdf": 39,
         "properties": {
           "type": "SM C4 1,5 pK",
@@ -2270,6 +2375,7 @@
       {
         "sku": "MATSMC4T",
         "label": "huishoudelijk, landbouw, beregening",
+        "page": 39,
         "page_in_pdf": 39,
         "properties": {
           "type": "SM C4T 1,5 pK",
@@ -2290,6 +2396,7 @@
       {
         "sku": "MATSMC5",
         "label": "huishoudelijk, landbouw, beregening",
+        "page": 39,
         "page_in_pdf": 39,
         "properties": {
           "type": "SM C5 2,0 pK",
@@ -2310,6 +2417,7 @@
       {
         "sku": "MATSMC5G",
         "label": "huishoudelijk, landbouw, beregening",
+        "page": 39,
         "page_in_pdf": 39,
         "properties": {
           "type": "SM C5G 2,0 pK",
@@ -2330,6 +2438,7 @@
       {
         "sku": "MATSMC6",
         "label": "huishoudelijk, landbouw, beregening",
+        "page": 39,
         "page_in_pdf": 39,
         "properties": {
           "type": "SM C6 3,0 pK",
@@ -2349,29 +2458,30 @@
       }
     ],
     "images": [
-      "images/centrifugaalpompen/variaties__matmb150.webp",
-      "images/bronpompen/bronpompen__p7__4-bronpompen__MATST5507-MATST5510-MATST5514.webp"
+      "images/dompelpompen/dompelpompen__p39__huishoudelijk-landbouw-beregening__MATSMA040-MATSMA040G-MATSMA060.webp"
     ],
     "variant_count": 11,
     "default_variant_sku": "MATSMA040",
     "media": [
       {
         "role": "main",
-        "url": "images/centrifugaalpompen/variaties__matmb150.webp"
+        "url": "images/dompelpompen/dompelpompen__p39__huishoudelijk-landbouw-beregening__MATSMA040-MATSMA040G-MATSMA060.webp"
       }
     ]
   },
   {
-    "group_id": "dompelpompen-huishoudelijk",
+    "group_id": "dompelpompen-dompelpompen-huishoudelijk",
     "name": "huishoudelijk",
-    "family": "huishoudelijk",
+    "family": "dompelpompen__huishoudelijk",
     "catalog": "dompelpompen",
+    "source_pdf": "dompelpompen.pdf",
     "brand": "Various",
     "category": "VARIATIES",
     "variants": [
       {
         "sku": "X0352002",
         "label": "huishoudelijk",
+        "page": 5,
         "page_in_pdf": 5,
         "properties": {
           "type": "COMPAC 200",
@@ -2391,6 +2501,7 @@
       {
         "sku": "X0352004",
         "label": "huishoudelijk",
+        "page": 15,
         "page_in_pdf": 15,
         "properties": {
           "type": "OMNIA 160/7",
@@ -2410,6 +2521,7 @@
       {
         "sku": "X0352007",
         "label": "huishoudelijk",
+        "page": 24,
         "page_in_pdf": 24,
         "properties": {
           "type": "BIOX 300/10",
@@ -2429,6 +2541,7 @@
       {
         "sku": "X0352029",
         "label": "huishoudelijk",
+        "page": 11,
         "page_in_pdf": 11,
         "properties": {
           "type": "submersible_pump",
@@ -2447,6 +2560,7 @@
       {
         "sku": "X0352030",
         "label": "huishoudelijk",
+        "page": 11,
         "page_in_pdf": 11,
         "properties": {
           "type": "submersible_pump",
@@ -2464,6 +2578,7 @@
       {
         "sku": "X0352032",
         "label": "huishoudelijk",
+        "page": 5,
         "page_in_pdf": 5,
         "properties": {
           "type": "SPEED MOP AUT",
@@ -2482,6 +2597,7 @@
       {
         "sku": "X0352033",
         "label": "huishoudelijk",
+        "page": 11,
         "page_in_pdf": 11,
         "properties": {
           "type": "submersible_pump",
@@ -2499,6 +2615,7 @@
       {
         "sku": "X9120072",
         "label": "huishoudelijk",
+        "page": 7,
         "page_in_pdf": 7,
         "properties": {
           "type": "NOVA 180 M-NA - SV",
@@ -2517,6 +2634,7 @@
       {
         "sku": "X9120074",
         "label": "huishoudelijk",
+        "page": 7,
         "page_in_pdf": 7,
         "properties": {
           "type": "NOVA 300 M-A - SV",
@@ -2535,6 +2653,7 @@
       {
         "sku": "X9120076",
         "label": "huishoudelijk",
+        "page": 7,
         "page_in_pdf": 7,
         "properties": {
           "type": "NOVA 600 M-NA - SV",
@@ -2553,6 +2672,7 @@
       {
         "sku": "X9120086",
         "label": "huishoudelijk",
+        "page": 9,
         "page_in_pdf": 9,
         "properties": {
           "type": "FEKA 600 M-A - SV",
@@ -2571,6 +2691,7 @@
       {
         "sku": "X9120119",
         "label": "huishoudelijk",
+        "page": 9,
         "page_in_pdf": 9,
         "properties": {
           "type": "FEKA 600 T-NA - SV",
@@ -2589,6 +2710,7 @@
       {
         "sku": "X91201341",
         "label": "huishoudelijk",
+        "page": 8,
         "page_in_pdf": 8,
         "properties": {
           "type": "submersible_pump",
@@ -2607,6 +2729,7 @@
       {
         "sku": "X9120220",
         "label": "huishoudelijk",
+        "page": 13,
         "page_in_pdf": 13,
         "properties": {
           "type": "submersible_pump",
@@ -2625,6 +2748,7 @@
       {
         "sku": "X9120234",
         "label": "huishoudelijk",
+        "page": 13,
         "page_in_pdf": 13,
         "properties": {
           "type": "submersible_pump",
@@ -2643,6 +2767,7 @@
       {
         "sku": "X9120246",
         "label": "huishoudelijk",
+        "page": 36,
         "page_in_pdf": 36,
         "properties": {
           "type": "submersible_pump",
@@ -2662,6 +2787,7 @@
       {
         "sku": "X9120258",
         "label": "huishoudelijk",
+        "page": 13,
         "page_in_pdf": 13,
         "properties": {
           "type": "submersible_pump",
@@ -2680,6 +2806,7 @@
       {
         "sku": "X9120277",
         "label": "huishoudelijk",
+        "page": 38,
         "page_in_pdf": 38,
         "properties": {
           "type": "PULSAR 40/50 M-A",
@@ -2699,6 +2826,7 @@
       {
         "sku": "X9120283",
         "label": "huishoudelijk",
+        "page": 10,
         "page_in_pdf": 10,
         "properties": {
           "type": "submersible_pump",
@@ -2718,6 +2846,7 @@
       {
         "sku": "X9120306",
         "label": "huishoudelijk",
+        "page": 10,
         "page_in_pdf": 10,
         "properties": {
           "type": "submersible_pump",
@@ -2736,6 +2865,7 @@
       {
         "sku": "X9120330",
         "label": "huishoudelijk",
+        "page": 36,
         "page_in_pdf": 36,
         "properties": {
           "type": "submersible_pump",
@@ -2755,6 +2885,7 @@
       {
         "sku": "X9120338",
         "label": "huishoudelijk",
+        "page": 8,
         "page_in_pdf": 8,
         "properties": {
           "type": "submersible_pump",
@@ -2773,6 +2904,7 @@
       {
         "sku": "X9120339",
         "label": "huishoudelijk",
+        "page": 8,
         "page_in_pdf": 8,
         "properties": {
           "type": "submersible_pump",
@@ -2791,6 +2923,7 @@
       {
         "sku": "X9120340",
         "label": "huishoudelijk",
+        "page": 8,
         "page_in_pdf": 8,
         "properties": {
           "type": "submersible_pump",
@@ -2809,6 +2942,7 @@
       {
         "sku": "X9120429",
         "label": "huishoudelijk",
+        "page": 8,
         "page_in_pdf": 8,
         "properties": {
           "type": "submersible_pump",
@@ -2827,6 +2961,7 @@
       {
         "sku": "X9120430",
         "label": "huishoudelijk",
+        "page": 8,
         "page_in_pdf": 8,
         "properties": {
           "type": "submersible_pump",
@@ -2845,6 +2980,7 @@
       {
         "sku": "X9120431",
         "label": "huishoudelijk",
+        "page": 8,
         "page_in_pdf": 8,
         "properties": {
           "type": "submersible_pump",
@@ -2862,6 +2998,7 @@
       {
         "sku": "X9120432",
         "label": "huishoudelijk",
+        "page": 8,
         "page_in_pdf": 8,
         "properties": {
           "type": "submersible_pump",
@@ -2880,6 +3017,7 @@
       {
         "sku": "X9120435",
         "label": "huishoudelijk",
+        "page": 13,
         "page_in_pdf": 13,
         "properties": {
           "type": "submersible_pump",
@@ -2898,6 +3036,7 @@
       {
         "sku": "X9120436",
         "label": "huishoudelijk",
+        "page": 13,
         "page_in_pdf": 13,
         "properties": {
           "type": "submersible_pump",
@@ -2916,6 +3055,7 @@
       {
         "sku": "X9120437",
         "label": "huishoudelijk",
+        "page": 13,
         "page_in_pdf": 13,
         "properties": {
           "type": "submersible_pump",
@@ -2934,6 +3074,7 @@
       {
         "sku": "X9120438",
         "label": "huishoudelijk",
+        "page": 13,
         "page_in_pdf": 13,
         "properties": {
           "type": "submersible_pump",
@@ -2952,6 +3093,7 @@
       {
         "sku": "X9120552",
         "label": "huishoudelijk",
+        "page": 38,
         "page_in_pdf": 38,
         "properties": {
           "type": "PULSAR 30/50 M-NA",
@@ -2971,6 +3113,7 @@
       {
         "sku": "X9120555",
         "label": "huishoudelijk",
+        "page": 38,
         "page_in_pdf": 38,
         "properties": {
           "type": "PULSAR 40/50 T-NA",
@@ -2990,6 +3133,7 @@
       {
         "sku": "X9120557",
         "label": "huishoudelijk",
+        "page": 38,
         "page_in_pdf": 38,
         "properties": {
           "type": "PULSAR 50/50 M-NA",
@@ -3009,6 +3153,7 @@
       {
         "sku": "X9120559",
         "label": "huishoudelijk",
+        "page": 38,
         "page_in_pdf": 38,
         "properties": {
           "type": "PULSAR 65/50 M-A",
@@ -3028,6 +3173,7 @@
       {
         "sku": "X9120561",
         "label": "huishoudelijk",
+        "page": 38,
         "page_in_pdf": 38,
         "properties": {
           "type": "PULSAR 65/50 T-NA",
@@ -3047,6 +3193,7 @@
       {
         "sku": "X9120563",
         "label": "huishoudelijk",
+        "page": 38,
         "page_in_pdf": 38,
         "properties": {
           "type": "PULSAR 30/80 M-NA",
@@ -3066,6 +3213,7 @@
       {
         "sku": "X9120565",
         "label": "huishoudelijk",
+        "page": 38,
         "page_in_pdf": 38,
         "properties": {
           "type": "PULSAR 40/80 M-A",
@@ -3085,6 +3233,7 @@
       {
         "sku": "X9120566",
         "label": "huishoudelijk",
+        "page": 38,
         "page_in_pdf": 38,
         "properties": {
           "type": "PULSAR 40/80 T-NA",
@@ -3104,6 +3253,7 @@
       {
         "sku": "X9120567",
         "label": "huishoudelijk",
+        "page": 38,
         "page_in_pdf": 38,
         "properties": {
           "type": "PULSAR 50/80 M-NA",
@@ -3123,6 +3273,7 @@
       {
         "sku": "X9120571",
         "label": "huishoudelijk",
+        "page": 36,
         "page_in_pdf": 36,
         "properties": {
           "type": "submersible_pump",
@@ -3142,6 +3293,7 @@
       {
         "sku": "X9120572",
         "label": "huishoudelijk",
+        "page": 36,
         "page_in_pdf": 36,
         "properties": {
           "type": "submersible_pump",
@@ -3161,6 +3313,7 @@
       {
         "sku": "X9120584",
         "label": "huishoudelijk",
+        "page": 37,
         "page_in_pdf": 37,
         "properties": {
           "type": "PULSAR DRY 40/80 T-NA",
@@ -3180,6 +3333,7 @@
       {
         "sku": "X9120593",
         "label": "huishoudelijk",
+        "page": 37,
         "page_in_pdf": 37,
         "properties": {
           "type": "PULSAR DRY 30/50 T-NA",
@@ -3199,6 +3353,7 @@
       {
         "sku": "X9120595",
         "label": "huishoudelijk",
+        "page": 37,
         "page_in_pdf": 37,
         "properties": {
           "type": "PULSAR DRY 40/50 T-NA",
@@ -3218,6 +3373,7 @@
       {
         "sku": "X9120597",
         "label": "huishoudelijk",
+        "page": 37,
         "page_in_pdf": 37,
         "properties": {
           "type": "PULSAR DRY 50/50 T-NA",
@@ -3237,6 +3393,7 @@
       {
         "sku": "X9120599",
         "label": "huishoudelijk",
+        "page": 37,
         "page_in_pdf": 37,
         "properties": {
           "type": "PULSAR DRY 65/50 T-NA",
@@ -3256,6 +3413,7 @@
       {
         "sku": "X9120601",
         "label": "huishoudelijk",
+        "page": 37,
         "page_in_pdf": 37,
         "properties": {
           "type": "PULSAR DRY 30/80 T-NA",
@@ -3275,6 +3433,7 @@
       {
         "sku": "X9120603",
         "label": "huishoudelijk",
+        "page": 37,
         "page_in_pdf": 37,
         "properties": {
           "type": "PULSAR DRY 50/80 T-NA",
@@ -3294,6 +3453,7 @@
       {
         "sku": "X9120614",
         "label": "huishoudelijk",
+        "page": 8,
         "page_in_pdf": 8,
         "properties": {
           "type": "submersible_pump",
@@ -3310,31 +3470,30 @@
       }
     ],
     "images": [
-      "images/dompelpompen/variaties__x9120282.webp",
-      "images/dompelpompen/dompelpompen__p11__huishoudelijk__x03520__x0352029-x0352030-x0352033.webp",
-      "images/dompelpompen/huishoudelijk__x0352002.webp",
-      "images/dompelpompen/dompelpompen__p15__huishoudelijk__X0352004__v26.webp"
+      "images/dompelpompen/dompelpompen__p38__huishoudelijk__X9120277-X9120552-X9120555__v25.webp"
     ],
     "variant_count": 51,
     "default_variant_sku": "X0352002",
     "media": [
       {
         "role": "main",
-        "url": "images/dompelpompen/variaties__x9120282.webp"
+        "url": "images/dompelpompen/dompelpompen__p38__huishoudelijk__X9120277-X9120552-X9120555__v25.webp"
       }
     ]
   },
   {
-    "group_id": "dompelpompen-variaties",
+    "group_id": "dompelpompen-dompelpompen-variaties",
     "name": "VARIATIES",
-    "family": "variaties",
+    "family": "dompelpompen__variaties",
     "catalog": "dompelpompen",
+    "source_pdf": "dompelpompen.pdf",
     "brand": "Various",
     "category": "VARIATIES",
     "variants": [
       {
         "sku": "X9120189",
         "label": "VARIATIES",
+        "page": 23,
         "page_in_pdf": 23,
         "properties": {
           "type": "FEKA VS 750 M-A",
@@ -3354,6 +3513,7 @@
       {
         "sku": "X9120192",
         "label": "VARIATIES",
+        "page": 23,
         "page_in_pdf": 23,
         "properties": {
           "type": "FEKA VS 1000 M-NA",
@@ -3373,6 +3533,7 @@
       {
         "sku": "X9120193",
         "label": "VARIATIES",
+        "page": 23,
         "page_in_pdf": 23,
         "properties": {
           "type": "FEKA VS 1200 M-A",
@@ -3392,6 +3553,7 @@
       {
         "sku": "X9120202",
         "label": "VARIATIES",
+        "page": 23,
         "page_in_pdf": 23,
         "properties": {
           "type": "FEKA VS 550 M-NA",
@@ -3411,6 +3573,7 @@
       {
         "sku": "X9120282",
         "label": "VARIATIES",
+        "page": 4,
         "page_in_pdf": 4,
         "properties": {
           "type": "VERTYNOVA 400 M",
@@ -3430,6 +3593,7 @@
       {
         "sku": "X9120439",
         "label": "VARIATIES",
+        "page": 28,
         "page_in_pdf": 28,
         "properties": {
           "type": "GRINDER 1000 M-NA",
@@ -3449,6 +3613,7 @@
       {
         "sku": "X9120441",
         "label": "VARIATIES",
+        "page": 28,
         "page_in_pdf": 28,
         "properties": {
           "type": "GRINDER 1200 M-A",
@@ -3468,6 +3633,7 @@
       {
         "sku": "X9120443",
         "label": "VARIATIES",
+        "page": 28,
         "page_in_pdf": 28,
         "properties": {
           "type": "GRINDER 1200 T",
@@ -3487,6 +3653,7 @@
       {
         "sku": "X9120445",
         "label": "VARIATIES",
+        "page": 28,
         "page_in_pdf": 28,
         "properties": {
           "type": "GRINDER 1600 M-NA",
@@ -3506,6 +3673,7 @@
       {
         "sku": "X9120451",
         "label": "VARIATIES",
+        "page": 23,
         "page_in_pdf": 23,
         "properties": {
           "type": "FEKA VS 750 T-NA",
@@ -3525,6 +3693,7 @@
       {
         "sku": "X9120453",
         "label": "VARIATIES",
+        "page": 23,
         "page_in_pdf": 23,
         "properties": {
           "type": "FEKA VS 1200 T-NA",
@@ -3543,30 +3712,30 @@
       }
     ],
     "images": [
-      "images/dompelpompen/dompelpompen__p28__professioneel.webp",
-      "images/dompelpompen/variaties__x9120282.webp",
-      "images/dompelpompen/dompelpompen__p4__variaties__X9120282__v1.webp"
+      "images/dompelpompen/dompelpompen__p28__variaties__X9120439-X9120441-X9120443__v4.webp"
     ],
     "variant_count": 11,
     "default_variant_sku": "X9120189",
     "media": [
       {
         "role": "main",
-        "url": "images/dompelpompen/dompelpompen__p28__professioneel.webp"
+        "url": "images/dompelpompen/dompelpompen__p28__variaties__X9120439-X9120441-X9120443__v4.webp"
       }
     ]
   },
   {
-    "group_id": "dompelpompen-bouwwerven",
+    "group_id": "dompelpompen-dompelpompen-bouwwerven",
     "name": "bouwwerven",
-    "family": "bouwwerven",
+    "family": "dompelpompen__bouwwerven",
     "catalog": "dompelpompen",
+    "source_pdf": "dompelpompen.pdf",
     "brand": "Various",
     "category": "VARIATIES",
     "variants": [
       {
         "sku": "X9120396",
         "label": "bouwwerven",
+        "page": 30,
         "page_in_pdf": 30,
         "properties": {
           "type": "DRENAG 1800 T",
@@ -3584,7 +3753,6 @@
       }
     ],
     "images": [
-      "images/dompelpompen/bouwwerven__x9120396.webp",
       "images/dompelpompen/dompelpompen__p30__bouwwerven__X9120396.webp"
     ],
     "variant_count": 1,
@@ -3592,21 +3760,23 @@
     "media": [
       {
         "role": "main",
-        "url": "images/dompelpompen/bouwwerven__x9120396.webp"
+        "url": "images/dompelpompen/dompelpompen__p30__bouwwerven__X9120396.webp"
       }
     ]
   },
   {
-    "group_id": "dompelpompen-professioneel",
+    "group_id": "dompelpompen-dompelpompen-professioneel",
     "name": "professioneel",
-    "family": "professioneel",
+    "family": "dompelpompen__professioneel",
     "catalog": "dompelpompen",
+    "source_pdf": "dompelpompen.pdf",
     "brand": "Various",
     "category": "VARIATIES",
     "variants": [
       {
         "sku": "X9120397",
         "label": "professioneel",
+        "page": 28,
         "page_in_pdf": 28,
         "properties": {
           "type": "GRINDER 1800 T",
@@ -3626,6 +3796,7 @@
       {
         "sku": "X9120455",
         "label": "professioneel",
+        "page": 21,
         "page_in_pdf": 21,
         "properties": {
           "type": "FEKA 2015.2 MNA",
@@ -3644,6 +3815,7 @@
       {
         "sku": "X9120457",
         "label": "professioneel",
+        "page": 21,
         "page_in_pdf": 21,
         "properties": {
           "type": "FEKA 2025.2 TNA",
@@ -3662,6 +3834,7 @@
       {
         "sku": "X9120460",
         "label": "professioneel",
+        "page": 21,
         "page_in_pdf": 21,
         "properties": {
           "type": "FEKA 2508.4T",
@@ -3680,6 +3853,7 @@
       {
         "sku": "X9120462",
         "label": "professioneel",
+        "page": 21,
         "page_in_pdf": 21,
         "properties": {
           "type": "FEKA 2500.4T",
@@ -3698,6 +3872,7 @@
       {
         "sku": "X9120464",
         "label": "professioneel",
+        "page": 21,
         "page_in_pdf": 21,
         "properties": {
           "type": "FEKA 2500.2T",
@@ -3716,6 +3891,7 @@
       {
         "sku": "X9120467",
         "label": "professioneel",
+        "page": 27,
         "page_in_pdf": 27,
         "properties": {
           "type": "FKV.65.22.2 T5 400D",
@@ -3734,6 +3910,7 @@
       {
         "sku": "X9120469",
         "label": "professioneel",
+        "page": 27,
         "page_in_pdf": 27,
         "properties": {
           "type": "FKV.65.40.2 T5 400D",
@@ -3752,6 +3929,7 @@
       {
         "sku": "X9120472",
         "label": "professioneel",
+        "page": 27,
         "page_in_pdf": 27,
         "properties": {
           "type": "FKV 80 11.4 T5 400D",
@@ -3770,6 +3948,7 @@
       {
         "sku": "X9120474",
         "label": "professioneel",
+        "page": 27,
         "page_in_pdf": 27,
         "properties": {
           "type": "FKV 80 22.4 T5 400D",
@@ -3788,6 +3967,7 @@
       {
         "sku": "X9120476",
         "label": "professioneel",
+        "page": 27,
         "page_in_pdf": 27,
         "properties": {
           "type": "FKV 80 40.4 T5 400D S",
@@ -3806,6 +3986,7 @@
       {
         "sku": "X9120478",
         "label": "professioneel",
+        "page": 27,
         "page_in_pdf": 27,
         "properties": {
           "type": "FKV 80 40.2 T5 400D S",
@@ -3824,6 +4005,7 @@
       {
         "sku": "X9120480",
         "label": "professioneel",
+        "page": 27,
         "page_in_pdf": 27,
         "properties": {
           "type": "FKV 80 60.2 T5 400Y/D S",
@@ -3842,6 +4024,7 @@
       {
         "sku": "X9120482",
         "label": "professioneel",
+        "page": 27,
         "page_in_pdf": 27,
         "properties": {
           "type": "FKV 80 75.2 T5 400Y/D S",
@@ -3860,6 +4043,7 @@
       {
         "sku": "X9120484",
         "label": "professioneel",
+        "page": 27,
         "page_in_pdf": 27,
         "properties": {
           "type": "FKV 80 92.2 T5 400Y/D S",
@@ -3878,6 +4062,7 @@
       {
         "sku": "X9120486",
         "label": "professioneel",
+        "page": 27,
         "page_in_pdf": 27,
         "properties": {
           "type": "FKV 80 110.2 T5 400D S",
@@ -3896,6 +4081,7 @@
       {
         "sku": "X9120488",
         "label": "professioneel",
+        "page": 27,
         "page_in_pdf": 27,
         "properties": {
           "type": "FKV 100 30.4 T5 400D S",
@@ -3914,6 +4100,7 @@
       {
         "sku": "X9120490",
         "label": "professioneel",
+        "page": 27,
         "page_in_pdf": 27,
         "properties": {
           "type": "FKV 100 40.4 T5 400D S",
@@ -3932,6 +4119,7 @@
       {
         "sku": "X9120492",
         "label": "professioneel",
+        "page": 27,
         "page_in_pdf": 27,
         "properties": {
           "type": "FKV 100 55.4 T5 400Y/D S",
@@ -3950,6 +4138,7 @@
       {
         "sku": "X9120494",
         "label": "professioneel",
+        "page": 27,
         "page_in_pdf": 27,
         "properties": {
           "type": "FKV 100 75.4 T5 400Y/D S",
@@ -3968,6 +4157,7 @@
       {
         "sku": "X9120496",
         "label": "professioneel",
+        "page": 22,
         "page_in_pdf": 22,
         "properties": {
           "type": "FEKA 6100.6T",
@@ -3986,6 +4176,7 @@
       {
         "sku": "X9120498",
         "label": "professioneel",
+        "page": 22,
         "page_in_pdf": 22,
         "properties": {
           "type": "FEKA 6150.4T",
@@ -4004,6 +4195,7 @@
       {
         "sku": "X9120500",
         "label": "professioneel",
+        "page": 22,
         "page_in_pdf": 22,
         "properties": {
           "type": "FEKA 6250.4T",
@@ -4022,6 +4214,7 @@
       {
         "sku": "X9120502",
         "label": "professioneel",
+        "page": 22,
         "page_in_pdf": 22,
         "properties": {
           "type": "FEKA 8150.6T",
@@ -4040,6 +4233,7 @@
       {
         "sku": "X9120504",
         "label": "professioneel",
+        "page": 22,
         "page_in_pdf": 22,
         "properties": {
           "type": "FEKA 8250.6T",
@@ -4057,16 +4251,14 @@
       }
     ],
     "images": [
-      "images/dompelpompen/variaties__x9120282.webp",
-      "images/dompelpompen/professioneel__x9120397__img9.webp",
-      "images/dompelpompen/dompelpompen__p4__variaties__X9120282__v1.webp"
+      "images/dompelpompen/dompelpompen__p28__professioneel__X9120397__v5.webp"
     ],
     "variant_count": 25,
     "default_variant_sku": "X9120397",
     "media": [
       {
         "role": "main",
-        "url": "images/dompelpompen/variaties__x9120282.webp"
+        "url": "images/dompelpompen/dompelpompen__p28__professioneel__X9120397__v5.webp"
       }
     ]
   }

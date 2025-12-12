@@ -1,8 +1,8 @@
 {
   "catalog": "kunststof-afvoerleidingen",
-  "generated": "2025-11-30T20:02:54.694618",
+  "generated": "2025-12-06T22:30:04.499066",
   "total_skus": 40,
-  "total_images": 105,
+  "total_images": 103,
   "mapping": {
     "RAL7037": [
       {
@@ -13,24 +13,21 @@
         ]
       },
       {
-        "filename": "EB080451+EB090451+EB100451+RAL7037_p005_i00.webp",
-        "page": 5,
+        "filename": "RAL7037_p004_i01.webp",
+        "page": 4,
         "all_skus": [
-          "EB080451",
-          "EB090451",
-          "EB100451",
           "RAL7037"
         ]
       },
       {
-        "filename": "RAL7037_p005_i01.webp",
+        "filename": "RAL7037_p005_i00.webp",
         "page": 5,
         "all_skus": [
           "RAL7037"
         ]
       },
       {
-        "filename": "EB090301+RAL7037_p005_i02.webp",
+        "filename": "EB090301+RAL7037_p005_i01.webp",
         "page": 5,
         "all_skus": [
           "EB090301",
@@ -38,9 +35,19 @@
         ]
       },
       {
-        "filename": "RAL7037_p005_i03.webp",
+        "filename": "RAL7037_p005_i02.webp",
         "page": 5,
         "all_skus": [
+          "RAL7037"
+        ]
+      },
+      {
+        "filename": "EB080451+EB090451+EB100451+RAL7037_p005_i03.webp",
+        "page": 5,
+        "all_skus": [
+          "EB080451",
+          "EB090451",
+          "EB100451",
           "RAL7037"
         ]
       },
@@ -52,14 +59,7 @@
         ]
       },
       {
-        "filename": "RAL7037_p006_i01.webp",
-        "page": 6,
-        "all_skus": [
-          "RAL7037"
-        ]
-      },
-      {
-        "filename": "EB080901+EB090901+EB100901+RAL7037_p006_i02.webp",
+        "filename": "EB080901+EB090901+EB100901+RAL7037_p006_i01.webp",
         "page": 6,
         "all_skus": [
           "EB080901",
@@ -69,8 +69,22 @@
         ]
       },
       {
+        "filename": "RAL7037_p006_i02.webp",
+        "page": 6,
+        "all_skus": [
+          "RAL7037"
+        ]
+      },
+      {
         "filename": "RAL7037_p006_i03.webp",
         "page": 6,
+        "all_skus": [
+          "RAL7037"
+        ]
+      },
+      {
+        "filename": "RAL7037_p007_i00.webp",
+        "page": 7,
         "all_skus": [
           "RAL7037"
         ]
@@ -84,13 +98,6 @@
       },
       {
         "filename": "RAL7037_p007_i02.webp",
-        "page": 7,
-        "all_skus": [
-          "RAL7037"
-        ]
-      },
-      {
-        "filename": "RAL7037_p007_i03.webp",
         "page": 7,
         "all_skus": [
           "RAL7037"
@@ -118,7 +125,7 @@
         ]
       },
       {
-        "filename": "RAL7037_p009_i01.webp",
+        "filename": "RAL7037_p009_i02.webp",
         "page": 9,
         "all_skus": [
           "RAL7037"
@@ -139,7 +146,36 @@
         ]
       },
       {
-        "filename": "EB400+EB400151+RAL7037_p011_i00.webp",
+        "filename": "RAL7037_p010_i01.webp",
+        "page": 10,
+        "all_skus": [
+          "RAL7037"
+        ]
+      },
+      {
+        "filename": "RAL7037_p011_i00.webp",
+        "page": 11,
+        "all_skus": [
+          "RAL7037"
+        ]
+      },
+      {
+        "filename": "EB400301+RAL7037_p011_i01.webp",
+        "page": 11,
+        "all_skus": [
+          "EB400301",
+          "RAL7037"
+        ]
+      },
+      {
+        "filename": "RAL7037_p011_i02.webp",
+        "page": 11,
+        "all_skus": [
+          "RAL7037"
+        ]
+      },
+      {
+        "filename": "EB400+EB400151+RAL7037_p011_i03.webp",
         "page": 11,
         "all_skus": [
           "EB400",
@@ -148,44 +184,14 @@
         ]
       },
       {
-        "filename": "RAL7037_p011_i01.webp",
-        "page": 11,
-        "all_skus": [
-          "RAL7037"
-        ]
-      },
-      {
-        "filename": "EB400301+RAL7037_p011_i02.webp",
-        "page": 11,
-        "all_skus": [
-          "EB400301",
-          "RAL7037"
-        ]
-      },
-      {
-        "filename": "RAL7037_p011_i03.webp",
-        "page": 11,
-        "all_skus": [
-          "RAL7037"
-        ]
-      },
-      {
-        "filename": "EB400901+RAL7037_p012_i00.webp",
-        "page": 12,
-        "all_skus": [
-          "EB400901",
-          "RAL7037"
-        ]
-      },
-      {
-        "filename": "RAL7037_p012_i01.webp",
+        "filename": "RAL7037_p012_i00.webp",
         "page": 12,
         "all_skus": [
           "RAL7037"
         ]
       },
       {
-        "filename": "EB400+EB400451+EB500451+RAL7037_p012_i02.webp",
+        "filename": "EB400+EB400451+EB500451+RAL7037_p012_i01.webp",
         "page": 12,
         "all_skus": [
           "EB400",
@@ -195,20 +201,25 @@
         ]
       },
       {
-        "filename": "RAL7037_p012_i03.webp",
+        "filename": "RAL7037_p012_i02.webp",
         "page": 12,
         "all_skus": [
           "RAL7037"
         ]
       },
       {
-        "filename": "RAL7037+T3159+T4009+T5009_p013_i00.webp",
+        "filename": "EB400901+RAL7037_p012_i03.webp",
+        "page": 12,
+        "all_skus": [
+          "EB400901",
+          "RAL7037"
+        ]
+      },
+      {
+        "filename": "RAL7037_p013_i00.webp",
         "page": 13,
         "all_skus": [
-          "RAL7037",
-          "T3159",
-          "T4009",
-          "T5009"
+          "RAL7037"
         ]
       },
       {
@@ -226,10 +237,13 @@
         ]
       },
       {
-        "filename": "RAL7037_p013_i03.webp",
+        "filename": "RAL7037+T3159+T4009+T5009_p013_i03.webp",
         "page": 13,
         "all_skus": [
-          "RAL7037"
+          "RAL7037",
+          "T3159",
+          "T4009",
+          "T5009"
         ]
       },
       {
@@ -241,13 +255,6 @@
       },
       {
         "filename": "RAL7037_p014_i01.webp",
-        "page": 14,
-        "all_skus": [
-          "RAL7037"
-        ]
-      },
-      {
-        "filename": "RAL7037_p014_i02.webp",
         "page": 14,
         "all_skus": [
           "RAL7037"
@@ -268,14 +275,21 @@
         ]
       },
       {
-        "filename": "RAL7037_p015_i02.webp",
-        "page": 15,
+        "filename": "RAL7037_p016_i00.webp",
+        "page": 16,
         "all_skus": [
           "RAL7037"
         ]
       },
       {
-        "filename": "M400+M500+R2501+R2502+R3152+R4003+R5004+RAL7037_p016_i00.webp",
+        "filename": "RAL7037_p016_i01.webp",
+        "page": 16,
+        "all_skus": [
+          "RAL7037"
+        ]
+      },
+      {
+        "filename": "M400+M500+R2501+R2502+R3152+R4003+R5004+RAL7037_p016_i02.webp",
         "page": 16,
         "all_skus": [
           "M400",
@@ -289,25 +303,9 @@
         ]
       },
       {
-        "filename": "RAL7037_p016_i01.webp",
-        "page": 16,
-        "all_skus": [
-          "RAL7037"
-        ]
-      },
-      {
-        "filename": "RAL7037_p016_i02.webp",
-        "page": 16,
-        "all_skus": [
-          "RAL7037"
-        ]
-      },
-      {
-        "filename": "EK400+EK500+RAL7037_p017_i00.webp",
+        "filename": "RAL7037_p017_i00.webp",
         "page": 17,
         "all_skus": [
-          "EK400",
-          "EK500",
           "RAL7037"
         ]
       },
@@ -319,21 +317,23 @@
         ]
       },
       {
-        "filename": "RAL7037_p017_i02.webp",
+        "filename": "EK400+EK500+RAL7037_p017_i02.webp",
         "page": 17,
         "all_skus": [
+          "EK400",
+          "EK500",
           "RAL7037"
         ]
       },
       {
-        "filename": "RAL7037_p018_i01.webp",
+        "filename": "RAL7037_p018_i00.webp",
         "page": 18,
         "all_skus": [
           "RAL7037"
         ]
       },
       {
-        "filename": "RAL7037_p018_i02.webp",
+        "filename": "RAL7037_p018_i01.webp",
         "page": 18,
         "all_skus": [
           "RAL7037"
@@ -347,14 +347,14 @@
         ]
       },
       {
-        "filename": "RAL7037_p019_i03.webp",
+        "filename": "RAL7037_p019_i02.webp",
         "page": 19,
         "all_skus": [
           "RAL7037"
         ]
       },
       {
-        "filename": "1451+EN 1451+RAL7037_p020_i02.webp",
+        "filename": "1451+EN 1451+RAL7037_p020_i00.webp",
         "page": 20,
         "all_skus": [
           "1451",
@@ -419,21 +419,19 @@
         ]
       }
     ],
-    "EB090451": [
+    "EB090301": [
       {
-        "filename": "EB080451+EB090451+EB100451+RAL7037_p005_i00.webp",
+        "filename": "EB090301+RAL7037_p005_i01.webp",
         "page": 5,
         "all_skus": [
-          "EB080451",
-          "EB090451",
-          "EB100451",
+          "EB090301",
           "RAL7037"
         ]
       }
     ],
     "EB080451": [
       {
-        "filename": "EB080451+EB090451+EB100451+RAL7037_p005_i00.webp",
+        "filename": "EB080451+EB090451+EB100451+RAL7037_p005_i03.webp",
         "page": 5,
         "all_skus": [
           "EB080451",
@@ -445,7 +443,7 @@
     ],
     "EB100451": [
       {
-        "filename": "EB080451+EB090451+EB100451+RAL7037_p005_i00.webp",
+        "filename": "EB080451+EB090451+EB100451+RAL7037_p005_i03.webp",
         "page": 5,
         "all_skus": [
           "EB080451",
@@ -455,31 +453,21 @@
         ]
       }
     ],
-    "EB090301": [
+    "EB090451": [
       {
-        "filename": "EB090301+RAL7037_p005_i02.webp",
+        "filename": "EB080451+EB090451+EB100451+RAL7037_p005_i03.webp",
         "page": 5,
         "all_skus": [
-          "EB090301",
+          "EB080451",
+          "EB090451",
+          "EB100451",
           "RAL7037"
         ]
       }
     ],
     "EB080901": [
       {
-        "filename": "EB080901+EB090901+EB100901+RAL7037_p006_i02.webp",
-        "page": 6,
-        "all_skus": [
-          "EB080901",
-          "EB090901",
-          "EB100901",
-          "RAL7037"
-        ]
-      }
-    ],
-    "EB090901": [
-      {
-        "filename": "EB080901+EB090901+EB100901+RAL7037_p006_i02.webp",
+        "filename": "EB080901+EB090901+EB100901+RAL7037_p006_i01.webp",
         "page": 6,
         "all_skus": [
           "EB080901",
@@ -491,7 +479,7 @@
     ],
     "EB100901": [
       {
-        "filename": "EB080901+EB090901+EB100901+RAL7037_p006_i02.webp",
+        "filename": "EB080901+EB090901+EB100901+RAL7037_p006_i01.webp",
         "page": 6,
         "all_skus": [
           "EB080901",
@@ -501,9 +489,21 @@
         ]
       }
     ],
-    "M080": [
+    "EB090901": [
       {
-        "filename": "M080+M090+M100_p007_i00.webp",
+        "filename": "EB080901+EB090901+EB100901+RAL7037_p006_i01.webp",
+        "page": 6,
+        "all_skus": [
+          "EB080901",
+          "EB090901",
+          "EB100901",
+          "RAL7037"
+        ]
+      }
+    ],
+    "M100": [
+      {
+        "filename": "M080+M090+M100_p007_i03.webp",
         "page": 7,
         "all_skus": [
           "M080",
@@ -512,9 +512,9 @@
         ]
       }
     ],
-    "M100": [
+    "M080": [
       {
-        "filename": "M080+M090+M100_p007_i00.webp",
+        "filename": "M080+M090+M100_p007_i03.webp",
         "page": 7,
         "all_skus": [
           "M080",
@@ -525,7 +525,7 @@
     ],
     "M090": [
       {
-        "filename": "M080+M090+M100_p007_i00.webp",
+        "filename": "M080+M090+M100_p007_i03.webp",
         "page": 7,
         "all_skus": [
           "M080",
@@ -534,9 +534,19 @@
         ]
       }
     ],
+    "EB400301": [
+      {
+        "filename": "EB400301+RAL7037_p011_i01.webp",
+        "page": 11,
+        "all_skus": [
+          "EB400301",
+          "RAL7037"
+        ]
+      }
+    ],
     "EB400": [
       {
-        "filename": "EB400+EB400151+RAL7037_p011_i00.webp",
+        "filename": "EB400+EB400151+RAL7037_p011_i03.webp",
         "page": 11,
         "all_skus": [
           "EB400",
@@ -545,7 +555,7 @@
         ]
       },
       {
-        "filename": "EB400+EB400451+EB500451+RAL7037_p012_i02.webp",
+        "filename": "EB400+EB400451+EB500451+RAL7037_p012_i01.webp",
         "page": 12,
         "all_skus": [
           "EB400",
@@ -557,7 +567,7 @@
     ],
     "EB400151": [
       {
-        "filename": "EB400+EB400151+RAL7037_p011_i00.webp",
+        "filename": "EB400+EB400151+RAL7037_p011_i03.webp",
         "page": 11,
         "all_skus": [
           "EB400",
@@ -566,19 +576,33 @@
         ]
       }
     ],
-    "EB400301": [
+    "EB400451": [
       {
-        "filename": "EB400301+RAL7037_p011_i02.webp",
-        "page": 11,
+        "filename": "EB400+EB400451+EB500451+RAL7037_p012_i01.webp",
+        "page": 12,
         "all_skus": [
-          "EB400301",
+          "EB400",
+          "EB400451",
+          "EB500451",
+          "RAL7037"
+        ]
+      }
+    ],
+    "EB500451": [
+      {
+        "filename": "EB400+EB400451+EB500451+RAL7037_p012_i01.webp",
+        "page": 12,
+        "all_skus": [
+          "EB400",
+          "EB400451",
+          "EB500451",
           "RAL7037"
         ]
       }
     ],
     "EB400901": [
       {
-        "filename": "EB400901+RAL7037_p012_i00.webp",
+        "filename": "EB400901+RAL7037_p012_i03.webp",
         "page": 12,
         "all_skus": [
           "EB400901",
@@ -586,33 +610,21 @@
         ]
       }
     ],
-    "EB500451": [
+    "T4009": [
       {
-        "filename": "EB400+EB400451+EB500451+RAL7037_p012_i02.webp",
-        "page": 12,
+        "filename": "RAL7037+T3159+T4009+T5009_p013_i03.webp",
+        "page": 13,
         "all_skus": [
-          "EB400",
-          "EB400451",
-          "EB500451",
-          "RAL7037"
-        ]
-      }
-    ],
-    "EB400451": [
-      {
-        "filename": "EB400+EB400451+EB500451+RAL7037_p012_i02.webp",
-        "page": 12,
-        "all_skus": [
-          "EB400",
-          "EB400451",
-          "EB500451",
-          "RAL7037"
+          "RAL7037",
+          "T3159",
+          "T4009",
+          "T5009"
         ]
       }
     ],
     "T5009": [
       {
-        "filename": "RAL7037+T3159+T4009+T5009_p013_i00.webp",
+        "filename": "RAL7037+T3159+T4009+T5009_p013_i03.webp",
         "page": 13,
         "all_skus": [
           "RAL7037",
@@ -624,79 +636,19 @@
     ],
     "T3159": [
       {
-        "filename": "RAL7037+T3159+T4009+T5009_p013_i00.webp",
+        "filename": "RAL7037+T3159+T4009+T5009_p013_i03.webp",
         "page": 13,
         "all_skus": [
           "RAL7037",
           "T3159",
           "T4009",
           "T5009"
-        ]
-      }
-    ],
-    "T4009": [
-      {
-        "filename": "RAL7037+T3159+T4009+T5009_p013_i00.webp",
-        "page": 13,
-        "all_skus": [
-          "RAL7037",
-          "T3159",
-          "T4009",
-          "T5009"
-        ]
-      }
-    ],
-    "R3152": [
-      {
-        "filename": "M400+M500+R2501+R2502+R3152+R4003+R5004+RAL7037_p016_i00.webp",
-        "page": 16,
-        "all_skus": [
-          "M400",
-          "M500",
-          "R2501",
-          "R2502",
-          "R3152",
-          "R4003",
-          "R5004",
-          "RAL7037"
-        ]
-      }
-    ],
-    "R2502": [
-      {
-        "filename": "M400+M500+R2501+R2502+R3152+R4003+R5004+RAL7037_p016_i00.webp",
-        "page": 16,
-        "all_skus": [
-          "M400",
-          "M500",
-          "R2501",
-          "R2502",
-          "R3152",
-          "R4003",
-          "R5004",
-          "RAL7037"
-        ]
-      }
-    ],
-    "M500": [
-      {
-        "filename": "M400+M500+R2501+R2502+R3152+R4003+R5004+RAL7037_p016_i00.webp",
-        "page": 16,
-        "all_skus": [
-          "M400",
-          "M500",
-          "R2501",
-          "R2502",
-          "R3152",
-          "R4003",
-          "R5004",
-          "RAL7037"
         ]
       }
     ],
     "R2501": [
       {
-        "filename": "M400+M500+R2501+R2502+R3152+R4003+R5004+RAL7037_p016_i00.webp",
+        "filename": "M400+M500+R2501+R2502+R3152+R4003+R5004+RAL7037_p016_i02.webp",
         "page": 16,
         "all_skus": [
           "M400",
@@ -710,25 +662,9 @@
         ]
       }
     ],
-    "R4003": [
+    "R3152": [
       {
-        "filename": "M400+M500+R2501+R2502+R3152+R4003+R5004+RAL7037_p016_i00.webp",
-        "page": 16,
-        "all_skus": [
-          "M400",
-          "M500",
-          "R2501",
-          "R2502",
-          "R3152",
-          "R4003",
-          "R5004",
-          "RAL7037"
-        ]
-      }
-    ],
-    "R5004": [
-      {
-        "filename": "M400+M500+R2501+R2502+R3152+R4003+R5004+RAL7037_p016_i00.webp",
+        "filename": "M400+M500+R2501+R2502+R3152+R4003+R5004+RAL7037_p016_i02.webp",
         "page": 16,
         "all_skus": [
           "M400",
@@ -744,7 +680,71 @@
     ],
     "M400": [
       {
-        "filename": "M400+M500+R2501+R2502+R3152+R4003+R5004+RAL7037_p016_i00.webp",
+        "filename": "M400+M500+R2501+R2502+R3152+R4003+R5004+RAL7037_p016_i02.webp",
+        "page": 16,
+        "all_skus": [
+          "M400",
+          "M500",
+          "R2501",
+          "R2502",
+          "R3152",
+          "R4003",
+          "R5004",
+          "RAL7037"
+        ]
+      }
+    ],
+    "M500": [
+      {
+        "filename": "M400+M500+R2501+R2502+R3152+R4003+R5004+RAL7037_p016_i02.webp",
+        "page": 16,
+        "all_skus": [
+          "M400",
+          "M500",
+          "R2501",
+          "R2502",
+          "R3152",
+          "R4003",
+          "R5004",
+          "RAL7037"
+        ]
+      }
+    ],
+    "R4003": [
+      {
+        "filename": "M400+M500+R2501+R2502+R3152+R4003+R5004+RAL7037_p016_i02.webp",
+        "page": 16,
+        "all_skus": [
+          "M400",
+          "M500",
+          "R2501",
+          "R2502",
+          "R3152",
+          "R4003",
+          "R5004",
+          "RAL7037"
+        ]
+      }
+    ],
+    "R2502": [
+      {
+        "filename": "M400+M500+R2501+R2502+R3152+R4003+R5004+RAL7037_p016_i02.webp",
+        "page": 16,
+        "all_skus": [
+          "M400",
+          "M500",
+          "R2501",
+          "R2502",
+          "R3152",
+          "R4003",
+          "R5004",
+          "RAL7037"
+        ]
+      }
+    ],
+    "R5004": [
+      {
+        "filename": "M400+M500+R2501+R2502+R3152+R4003+R5004+RAL7037_p016_i02.webp",
         "page": 16,
         "all_skus": [
           "M400",
@@ -760,7 +760,7 @@
     ],
     "EK400": [
       {
-        "filename": "EK400+EK500+RAL7037_p017_i00.webp",
+        "filename": "EK400+EK500+RAL7037_p017_i02.webp",
         "page": 17,
         "all_skus": [
           "EK400",
@@ -771,7 +771,7 @@
     ],
     "EK500": [
       {
-        "filename": "EK400+EK500+RAL7037_p017_i00.webp",
+        "filename": "EK400+EK500+RAL7037_p017_i02.webp",
         "page": 17,
         "all_skus": [
           "EK400",
@@ -782,27 +782,16 @@
     ],
     "AFST315": [
       {
-        "filename": "AFST315_p018_i00.webp",
+        "filename": "AFST315_p018_i02.webp",
         "page": 18,
         "all_skus": [
           "AFST315"
         ]
       }
     ],
-    "1451": [
-      {
-        "filename": "1451+EN 1451+RAL7037_p020_i02.webp",
-        "page": 20,
-        "all_skus": [
-          "1451",
-          "EN 1451",
-          "RAL7037"
-        ]
-      }
-    ],
     "EN 1451": [
       {
-        "filename": "1451+EN 1451+RAL7037_p020_i02.webp",
+        "filename": "1451+EN 1451+RAL7037_p020_i00.webp",
         "page": 20,
         "all_skus": [
           "1451",
@@ -811,19 +800,20 @@
         ]
       }
     ],
-    "YXA0035200": [
+    "1451": [
       {
-        "filename": "YXA0035200+YXA0035600_p028_i00.webp",
-        "page": 28,
+        "filename": "1451+EN 1451+RAL7037_p020_i00.webp",
+        "page": 20,
         "all_skus": [
-          "YXA0035200",
-          "YXA0035600"
+          "1451",
+          "EN 1451",
+          "RAL7037"
         ]
       }
     ],
     "YXA0035600": [
       {
-        "filename": "YXA0035200+YXA0035600_p028_i00.webp",
+        "filename": "YXA0035200+YXA0035600_p028_i03.webp",
         "page": 28,
         "all_skus": [
           "YXA0035200",
@@ -831,9 +821,30 @@
         ]
       }
     ],
+    "YXA0035200": [
+      {
+        "filename": "YXA0035200+YXA0035600_p028_i03.webp",
+        "page": 28,
+        "all_skus": [
+          "YXA0035200",
+          "YXA0035600"
+        ]
+      }
+    ],
+    "DDPPM200": [
+      {
+        "filename": "DDPPM125+DDPPM160+DDPPM200_p034_i02.webp",
+        "page": 34,
+        "all_skus": [
+          "DDPPM125",
+          "DDPPM160",
+          "DDPPM200"
+        ]
+      }
+    ],
     "DDPPM160": [
       {
-        "filename": "DDPPM125+DDPPM160+DDPPM200_p034_i00.webp",
+        "filename": "DDPPM125+DDPPM160+DDPPM200_p034_i02.webp",
         "page": 34,
         "all_skus": [
           "DDPPM125",
@@ -844,7 +855,7 @@
     ],
     "DDPPM125": [
       {
-        "filename": "DDPPM125+DDPPM160+DDPPM200_p034_i00.webp",
+        "filename": "DDPPM125+DDPPM160+DDPPM200_p034_i02.webp",
         "page": 34,
         "all_skus": [
           "DDPPM125",
@@ -853,14 +864,14 @@
         ]
       }
     ],
-    "DDPPM200": [
+    "DDPPT125": [
       {
-        "filename": "DDPPM125+DDPPM160+DDPPM200_p034_i00.webp",
-        "page": 34,
+        "filename": "DDPPT125+DDPPT160+DDPPT200_p035_i01.webp",
+        "page": 35,
         "all_skus": [
-          "DDPPM125",
-          "DDPPM160",
-          "DDPPM200"
+          "DDPPT125",
+          "DDPPT160",
+          "DDPPT200"
         ]
       }
     ],
@@ -876,17 +887,6 @@
       }
     ],
     "DDPPT160": [
-      {
-        "filename": "DDPPT125+DDPPT160+DDPPT200_p035_i01.webp",
-        "page": 35,
-        "all_skus": [
-          "DDPPT125",
-          "DDPPT160",
-          "DDPPT200"
-        ]
-      }
-    ],
-    "DDPPT125": [
       {
         "filename": "DDPPT125+DDPPT160+DDPPT200_p035_i01.webp",
         "page": 35,

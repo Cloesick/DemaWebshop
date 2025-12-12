@@ -1,15 +1,17 @@
 [
   {
-    "group_id": "rubber-slangen-2-oor-slangklem-p191-euro-koppeling-p168-klauwkoppeling-p163",
+    "group_id": "rubber-slangen-rubber-slangen-2-oor-slangklem-p191-euro-koppeling-p168-klauwkoppeling-p163",
     "name": "2-OOR SLANGKLEM P191 EURO KOPPELING P168 KLAUWKOPPELING P163",
-    "family": "2-oor-slangklem-p191-euro-koppeling-p168-klauwkoppeling-p163",
+    "family": "rubber-slangen__2-oor-slangklem-p191-euro-koppeling-p168-klauwkoppeling-p163",
     "catalog": "rubber-slangen",
+    "source_pdf": "rubber-slangen.pdf",
     "brand": "Various",
     "category": "2-OOR SLANGKLEM P191 EURO KOPPELING P168 KLAUWKOPPELING P163",
     "variants": [
       {
         "sku": null,
         "label": "2-OOR SLANGKLEM P191 EURO KOPPELING P168 KLAUWKOPPELING P163",
+        "page": 9,
         "page_in_pdf": 9,
         "properties": {
           "type": "2_oor_slangklem_p191_euro_koppeling_p168_klauwkoppeling_p163"
@@ -22,6 +24,7 @@
       {
         "sku": null,
         "label": "2-OOR SLANGKLEM P191 EURO KOPPELING P168 KLAUWKOPPELING P163",
+        "page": 9,
         "page_in_pdf": 9,
         "properties": {
           "type": "2_oor_slangklem_p191_euro_koppeling_p168_klauwkoppeling_p163"
@@ -34,6 +37,7 @@
       {
         "sku": null,
         "label": "2-OOR SLANGKLEM P191 EURO KOPPELING P168 KLAUWKOPPELING P163",
+        "page": 9,
         "page_in_pdf": 9,
         "properties": {
           "type": "2_oor_slangklem_p191_euro_koppeling_p168_klauwkoppeling_p163"
@@ -46,6 +50,7 @@
       {
         "sku": null,
         "label": "2-OOR SLANGKLEM P191 EURO KOPPELING P168 KLAUWKOPPELING P163",
+        "page": 9,
         "page_in_pdf": 9,
         "properties": {
           "type": "2_oor_slangklem_p191_euro_koppeling_p168_klauwkoppeling_p163"
@@ -58,6 +63,7 @@
       {
         "sku": "RPA006",
         "label": "2-OOR SLANGKLEM P191 EURO KOPPELING P168 KLAUWKOPPELING P163",
+        "page": 9,
         "page_in_pdf": 9,
         "properties": {
           "type": "2_oor_slangklem_p191_euro_koppeling_p168_klauwkoppeling_p163"
@@ -70,6 +76,7 @@
       {
         "sku": "RPA010",
         "label": "2-OOR SLANGKLEM P191 EURO KOPPELING P168 KLAUWKOPPELING P163",
+        "page": 9,
         "page_in_pdf": 9,
         "properties": {
           "type": "2_oor_slangklem_p191_euro_koppeling_p168_klauwkoppeling_p163"
@@ -82,6 +89,7 @@
       {
         "sku": "RPA016",
         "label": "2-OOR SLANGKLEM P191 EURO KOPPELING P168 KLAUWKOPPELING P163",
+        "page": 9,
         "page_in_pdf": 9,
         "properties": {
           "type": "2_oor_slangklem_p191_euro_koppeling_p168_klauwkoppeling_p163"
@@ -94,6 +102,7 @@
       {
         "sku": "RPA020",
         "label": "2-OOR SLANGKLEM P191 EURO KOPPELING P168 KLAUWKOPPELING P163",
+        "page": 9,
         "page_in_pdf": 9,
         "properties": {
           "type": "2_oor_slangklem_p191_euro_koppeling_p168_klauwkoppeling_p163"
@@ -106,6 +115,7 @@
       {
         "sku": "RPA032",
         "label": "2-OOR SLANGKLEM P191 EURO KOPPELING P168 KLAUWKOPPELING P163",
+        "page": 9,
         "page_in_pdf": 9,
         "properties": {
           "type": "2_oor_slangklem_p191_euro_koppeling_p168_klauwkoppeling_p163"
@@ -116,30 +126,24 @@
         }
       }
     ],
-    "images": [
-      "images/rubber-slangen/2-oor-slangklem-p191-euro-koppeling-p168-klauwkoppeling-p163__rpa006.webp",
-      "images/rubber-slangen/rubber-slangen__p9__2-oor-slangklem-p191-euro-koppeling-p168__RPA006-RPA010-RPA016__v1.webp"
-    ],
+    "images": [],
     "variant_count": 9,
     "default_variant_sku": null,
-    "media": [
-      {
-        "role": "main",
-        "url": "images/rubber-slangen/2-oor-slangklem-p191-euro-koppeling-p168-klauwkoppeling-p163__rpa006.webp"
-      }
-    ]
+    "media": []
   },
   {
-    "group_id": "rubber-slangen-supraklem-w2-p192-storz-koppeling-p126-perrot-koppeling-p109-bauer-koppeling-p92",
+    "group_id": "rubber-slangen-rubber-slangen-supraklem-w2-p192-storz-koppeling-p126-perrot-koppeling-p109-bauer-koppeling-p92",
     "name": "SUPRAKLEM W2 P192 STORZ KOPPELING P126 PERROT KOPPELING P109 BAUER KOPPELING P92",
-    "family": "supraklem-w2-p192-storz-koppeling-p126-perrot-koppeling-p109-bauer-koppeling-p92",
+    "family": "rubber-slangen__supraklem-w2-p192-storz-koppeling-p126-perrot-koppeling-p109-bauer-koppeling-p92",
     "catalog": "rubber-slangen",
+    "source_pdf": "rubber-slangen.pdf",
     "brand": "Various",
     "category": "SUPRAKLEM W2 P192 STORZ KOPPELING P126 PERROT KOPPELING P109 BAUER KOPPELING P92",
     "variants": [
       {
         "sku": "RP025",
         "label": "SUPRAKLEM W2 P192 STORZ KOPPELING P126 PERROT KOPPELING P109 BAUER KOPPELING P92",
+        "page": 7,
         "page_in_pdf": 7,
         "properties": {
           "type": "supraklem_w2_p192_storz_koppeling_p126_perrot_koppeling_p109_bauer_koppeling_p92"
@@ -152,6 +156,7 @@
       {
         "sku": "RP030",
         "label": "SUPRAKLEM W2 P192 STORZ KOPPELING P126 PERROT KOPPELING P109 BAUER KOPPELING P92",
+        "page": 7,
         "page_in_pdf": 7,
         "properties": {
           "type": "supraklem_w2_p192_storz_koppeling_p126_perrot_koppeling_p109_bauer_koppeling_p92"
@@ -164,6 +169,7 @@
       {
         "sku": "RP032",
         "label": "SUPRAKLEM W2 P192 STORZ KOPPELING P126 PERROT KOPPELING P109 BAUER KOPPELING P92",
+        "page": 7,
         "page_in_pdf": 7,
         "properties": {
           "type": "supraklem_w2_p192_storz_koppeling_p126_perrot_koppeling_p109_bauer_koppeling_p92"
@@ -176,6 +182,7 @@
       {
         "sku": "RP038",
         "label": "SUPRAKLEM W2 P192 STORZ KOPPELING P126 PERROT KOPPELING P109 BAUER KOPPELING P92",
+        "page": 7,
         "page_in_pdf": 7,
         "properties": {
           "type": "supraklem_w2_p192_storz_koppeling_p126_perrot_koppeling_p109_bauer_koppeling_p92"
@@ -188,6 +195,7 @@
       {
         "sku": "RP04020",
         "label": "SUPRAKLEM W2 P192 STORZ KOPPELING P126 PERROT KOPPELING P109 BAUER KOPPELING P92",
+        "page": 7,
         "page_in_pdf": 7,
         "properties": {
           "type": "supraklem_w2_p192_storz_koppeling_p126_perrot_koppeling_p109_bauer_koppeling_p92"
@@ -200,6 +208,7 @@
       {
         "sku": "RP048",
         "label": "SUPRAKLEM W2 P192 STORZ KOPPELING P126 PERROT KOPPELING P109 BAUER KOPPELING P92",
+        "page": 7,
         "page_in_pdf": 7,
         "properties": {
           "type": "supraklem_w2_p192_storz_koppeling_p126_perrot_koppeling_p109_bauer_koppeling_p92"
@@ -212,6 +221,7 @@
       {
         "sku": "RP055",
         "label": "SUPRAKLEM W2 P192 STORZ KOPPELING P126 PERROT KOPPELING P109 BAUER KOPPELING P92",
+        "page": 7,
         "page_in_pdf": 7,
         "properties": {
           "type": "supraklem_w2_p192_storz_koppeling_p126_perrot_koppeling_p109_bauer_koppeling_p92"
@@ -224,6 +234,7 @@
       {
         "sku": "RP063",
         "label": "SUPRAKLEM W2 P192 STORZ KOPPELING P126 PERROT KOPPELING P109 BAUER KOPPELING P92",
+        "page": 7,
         "page_in_pdf": 7,
         "properties": {
           "type": "supraklem_w2_p192_storz_koppeling_p126_perrot_koppeling_p109_bauer_koppeling_p92"
@@ -236,6 +247,7 @@
       {
         "sku": "RP075",
         "label": "SUPRAKLEM W2 P192 STORZ KOPPELING P126 PERROT KOPPELING P109 BAUER KOPPELING P92",
+        "page": 7,
         "page_in_pdf": 7,
         "properties": {
           "type": "supraklem_w2_p192_storz_koppeling_p126_perrot_koppeling_p109_bauer_koppeling_p92"
@@ -248,6 +260,7 @@
       {
         "sku": "RP090",
         "label": "SUPRAKLEM W2 P192 STORZ KOPPELING P126 PERROT KOPPELING P109 BAUER KOPPELING P92",
+        "page": 7,
         "page_in_pdf": 7,
         "properties": {
           "type": "supraklem_w2_p192_storz_koppeling_p126_perrot_koppeling_p109_bauer_koppeling_p92"
@@ -260,6 +273,7 @@
       {
         "sku": "RP110",
         "label": "SUPRAKLEM W2 P192 STORZ KOPPELING P126 PERROT KOPPELING P109 BAUER KOPPELING P92",
+        "page": 7,
         "page_in_pdf": 7,
         "properties": {
           "type": "supraklem_w2_p192_storz_koppeling_p126_perrot_koppeling_p109_bauer_koppeling_p92"
@@ -272,6 +286,7 @@
       {
         "sku": "RP125",
         "label": "SUPRAKLEM W2 P192 STORZ KOPPELING P126 PERROT KOPPELING P109 BAUER KOPPELING P92",
+        "page": 7,
         "page_in_pdf": 7,
         "properties": {
           "type": "supraklem_w2_p192_storz_koppeling_p126_perrot_koppeling_p109_bauer_koppeling_p92"
@@ -284,6 +299,7 @@
       {
         "sku": null,
         "label": "SUPRAKLEM W2 P192 STORZ KOPPELING P126 PERROT KOPPELING P109 BAUER KOPPELING P92",
+        "page": 7,
         "page_in_pdf": 7,
         "properties": {
           "type": "supraklem_w2_p192_storz_koppeling_p126_perrot_koppeling_p109_bauer_koppeling_p92"
@@ -296,6 +312,7 @@
       {
         "sku": null,
         "label": "SUPRAKLEM W2 P192 STORZ KOPPELING P126 PERROT KOPPELING P109 BAUER KOPPELING P92",
+        "page": 7,
         "page_in_pdf": 7,
         "properties": {
           "type": "supraklem_w2_p192_storz_koppeling_p126_perrot_koppeling_p109_bauer_koppeling_p92"
@@ -308,6 +325,7 @@
       {
         "sku": null,
         "label": "SUPRAKLEM W2 P192 STORZ KOPPELING P126 PERROT KOPPELING P109 BAUER KOPPELING P92",
+        "page": 7,
         "page_in_pdf": 7,
         "properties": {
           "type": "supraklem_w2_p192_storz_koppeling_p126_perrot_koppeling_p109_bauer_koppeling_p92"
@@ -320,6 +338,7 @@
       {
         "sku": null,
         "label": "SUPRAKLEM W2 P192 STORZ KOPPELING P126 PERROT KOPPELING P109 BAUER KOPPELING P92",
+        "page": 7,
         "page_in_pdf": 7,
         "properties": {
           "type": "supraklem_w2_p192_storz_koppeling_p126_perrot_koppeling_p109_bauer_koppeling_p92"
@@ -332,6 +351,7 @@
       {
         "sku": null,
         "label": "SUPRAKLEM W2 P192 STORZ KOPPELING P126 PERROT KOPPELING P109 BAUER KOPPELING P92",
+        "page": 7,
         "page_in_pdf": 7,
         "properties": {
           "type": "supraklem_w2_p192_storz_koppeling_p126_perrot_koppeling_p109_bauer_koppeling_p92"
@@ -344,6 +364,7 @@
       {
         "sku": null,
         "label": "SUPRAKLEM W2 P192 STORZ KOPPELING P126 PERROT KOPPELING P109 BAUER KOPPELING P92",
+        "page": 7,
         "page_in_pdf": 7,
         "properties": {
           "type": "supraklem_w2_p192_storz_koppeling_p126_perrot_koppeling_p109_bauer_koppeling_p92"
@@ -356,6 +377,7 @@
       {
         "sku": null,
         "label": "SUPRAKLEM W2 P192 STORZ KOPPELING P126 PERROT KOPPELING P109 BAUER KOPPELING P92",
+        "page": 7,
         "page_in_pdf": 7,
         "properties": {
           "type": "supraklem_w2_p192_storz_koppeling_p126_perrot_koppeling_p109_bauer_koppeling_p92"
@@ -368,6 +390,7 @@
       {
         "sku": null,
         "label": "SUPRAKLEM W2 P192 STORZ KOPPELING P126 PERROT KOPPELING P109 BAUER KOPPELING P92",
+        "page": 7,
         "page_in_pdf": 7,
         "properties": {
           "type": "supraklem_w2_p192_storz_koppeling_p126_perrot_koppeling_p109_bauer_koppeling_p92"
@@ -380,6 +403,7 @@
       {
         "sku": null,
         "label": "SUPRAKLEM W2 P192 STORZ KOPPELING P126 PERROT KOPPELING P109 BAUER KOPPELING P92",
+        "page": 7,
         "page_in_pdf": 7,
         "properties": {
           "type": "supraklem_w2_p192_storz_koppeling_p126_perrot_koppeling_p109_bauer_koppeling_p92"
@@ -392,6 +416,7 @@
       {
         "sku": null,
         "label": "SUPRAKLEM W2 P192 STORZ KOPPELING P126 PERROT KOPPELING P109 BAUER KOPPELING P92",
+        "page": 7,
         "page_in_pdf": 7,
         "properties": {
           "type": "supraklem_w2_p192_storz_koppeling_p126_perrot_koppeling_p109_bauer_koppeling_p92"
@@ -404,6 +429,7 @@
       {
         "sku": null,
         "label": "SUPRAKLEM W2 P192 STORZ KOPPELING P126 PERROT KOPPELING P109 BAUER KOPPELING P92",
+        "page": 7,
         "page_in_pdf": 7,
         "properties": {
           "type": "supraklem_w2_p192_storz_koppeling_p126_perrot_koppeling_p109_bauer_koppeling_p92"
@@ -416,6 +442,7 @@
       {
         "sku": null,
         "label": "SUPRAKLEM W2 P192 STORZ KOPPELING P126 PERROT KOPPELING P109 BAUER KOPPELING P92",
+        "page": 7,
         "page_in_pdf": 7,
         "properties": {
           "type": "supraklem_w2_p192_storz_koppeling_p126_perrot_koppeling_p109_bauer_koppeling_p92"
@@ -426,30 +453,24 @@
         }
       }
     ],
-    "images": [
-      "images/rubber-slangen/supraklem-w2-p192-storz-koppeling-p126-perrot-koppeling-p109__rp025.webp",
-      "images/rubber-slangen/rubber-slangen__p7__supraklem-w2-p192-storz-koppeling-p126-p__RP025-RP030-RP032__v1.webp"
-    ],
+    "images": [],
     "variant_count": 24,
     "default_variant_sku": "RP025",
-    "media": [
-      {
-        "role": "main",
-        "url": "images/rubber-slangen/supraklem-w2-p192-storz-koppeling-p126-perrot-koppeling-p109__rp025.webp"
-      }
-    ]
+    "media": []
   },
   {
-    "group_id": "rubber-slangen-supraklem-w2-p192-alu-guillemin-p131-klemschaal-tule-p155",
+    "group_id": "rubber-slangen-rubber-slangen-supraklem-w2-p192-alu-guillemin-p131-klemschaal-tule-p155",
     "name": "SUPRAKLEM W2 P192 ALU GUILLEMIN P131 KLEMSCHAAL TULE P155",
-    "family": "supraklem-w2-p192-alu-guillemin-p131-klemschaal-tule-p155",
+    "family": "rubber-slangen__supraklem-w2-p192-alu-guillemin-p131-klemschaal-tule-p155",
     "catalog": "rubber-slangen",
+    "source_pdf": "rubber-slangen.pdf",
     "brand": "Various",
     "category": "SUPRAKLEM W2 P192 ALU GUILLEMIN P131 KLEMSCHAAL TULE P155",
     "variants": [
       {
         "sku": "RPBV100",
         "label": "SUPRAKLEM W2 P192 ALU GUILLEMIN P131 KLEMSCHAAL TULE P155",
+        "page": 8,
         "page_in_pdf": 8,
         "properties": {
           "type": "supraklem_w2_p192_alu_guillemin_p131_klemschaal_tule_p155"
@@ -460,30 +481,24 @@
         }
       }
     ],
-    "images": [
-      "images/rubber-slangen/supraklem-w2-p192-alu-guillemin-p131-klemschaal-tule-p155__rpbv100.webp",
-      "images/rubber-slangen/rubber-slangen__p8__supraklem-w2-p192-alu-guillemin-p131-kle__RPBV100__v1.webp"
-    ],
+    "images": [],
     "variant_count": 1,
     "default_variant_sku": "RPBV100",
-    "media": [
-      {
-        "role": "main",
-        "url": "images/rubber-slangen/supraklem-w2-p192-alu-guillemin-p131-klemschaal-tule-p155__rpbv100.webp"
-      }
-    ]
+    "media": []
   },
   {
-    "group_id": "rubber-slangen-rvs-klemschaal-p189-klemschaal-tule-p152-tw-type-mk-p153",
+    "group_id": "rubber-slangen-rubber-slangen-rvs-klemschaal-p189-klemschaal-tule-p152-tw-type-mk-p153",
     "name": "RVS KLEMSCHAAL P189 KLEMSCHAAL TULE P152 TW TYPE MK P153",
-    "family": "rvs-klemschaal-p189-klemschaal-tule-p152-tw-type-mk-p153",
+    "family": "rubber-slangen__rvs-klemschaal-p189-klemschaal-tule-p152-tw-type-mk-p153",
     "catalog": "rubber-slangen",
+    "source_pdf": "rubber-slangen.pdf",
     "brand": "Various",
     "category": "RVS KLEMSCHAAL P189 KLEMSCHAAL TULE P152 TW TYPE MK P153",
     "variants": [
       {
         "sku": "RPOB004",
         "label": "RVS KLEMSCHAAL P189 KLEMSCHAAL TULE P152 TW TYPE MK P153",
+        "page": 13,
         "page_in_pdf": 13,
         "properties": {
           "type": "rvs_klemschaal_p189_klemschaal_tule_p152_tw_type_mk_p153"
@@ -496,6 +511,7 @@
       {
         "sku": "RPOB004",
         "label": "RVS KLEMSCHAAL P189 KLEMSCHAAL TULE P152 TW TYPE MK P153",
+        "page": 13,
         "page_in_pdf": 13,
         "properties": {
           "type": "rvs_klemschaal_p189_klemschaal_tule_p152_tw_type_mk_p153"
@@ -508,6 +524,7 @@
       {
         "sku": "RPOB006",
         "label": "RVS KLEMSCHAAL P189 KLEMSCHAAL TULE P152 TW TYPE MK P153",
+        "page": 13,
         "page_in_pdf": 13,
         "properties": {
           "type": "rvs_klemschaal_p189_klemschaal_tule_p152_tw_type_mk_p153"
@@ -520,6 +537,7 @@
       {
         "sku": "RPOB006",
         "label": "RVS KLEMSCHAAL P189 KLEMSCHAAL TULE P152 TW TYPE MK P153",
+        "page": 13,
         "page_in_pdf": 13,
         "properties": {
           "type": "rvs_klemschaal_p189_klemschaal_tule_p152_tw_type_mk_p153"
@@ -532,6 +550,7 @@
       {
         "sku": "RPOB008",
         "label": "RVS KLEMSCHAAL P189 KLEMSCHAAL TULE P152 TW TYPE MK P153",
+        "page": 13,
         "page_in_pdf": 13,
         "properties": {
           "type": "rvs_klemschaal_p189_klemschaal_tule_p152_tw_type_mk_p153"
@@ -544,6 +563,7 @@
       {
         "sku": "RPOB010",
         "label": "RVS KLEMSCHAAL P189 KLEMSCHAAL TULE P152 TW TYPE MK P153",
+        "page": 13,
         "page_in_pdf": 13,
         "properties": {
           "type": "rvs_klemschaal_p189_klemschaal_tule_p152_tw_type_mk_p153"
@@ -556,6 +576,7 @@
       {
         "sku": "RPOM019",
         "label": "RVS KLEMSCHAAL P189 KLEMSCHAAL TULE P152 TW TYPE MK P153",
+        "page": 13,
         "page_in_pdf": 13,
         "properties": {
           "type": "rvs_klemschaal_p189_klemschaal_tule_p152_tw_type_mk_p153"
@@ -568,6 +589,7 @@
       {
         "sku": "RPOM032",
         "label": "RVS KLEMSCHAAL P189 KLEMSCHAAL TULE P152 TW TYPE MK P153",
+        "page": 13,
         "page_in_pdf": 13,
         "properties": {
           "type": "rvs_klemschaal_p189_klemschaal_tule_p152_tw_type_mk_p153"
@@ -580,6 +602,7 @@
       {
         "sku": "RPOM038",
         "label": "RVS KLEMSCHAAL P189 KLEMSCHAAL TULE P152 TW TYPE MK P153",
+        "page": 13,
         "page_in_pdf": 13,
         "properties": {
           "type": "rvs_klemschaal_p189_klemschaal_tule_p152_tw_type_mk_p153"
@@ -592,6 +615,7 @@
       {
         "sku": "RPOM045",
         "label": "RVS KLEMSCHAAL P189 KLEMSCHAAL TULE P152 TW TYPE MK P153",
+        "page": 13,
         "page_in_pdf": 13,
         "properties": {
           "type": "rvs_klemschaal_p189_klemschaal_tule_p152_tw_type_mk_p153"
@@ -604,6 +628,7 @@
       {
         "sku": "RPOM050",
         "label": "RVS KLEMSCHAAL P189 KLEMSCHAAL TULE P152 TW TYPE MK P153",
+        "page": 13,
         "page_in_pdf": 13,
         "properties": {
           "type": "rvs_klemschaal_p189_klemschaal_tule_p152_tw_type_mk_p153"
@@ -616,6 +641,7 @@
       {
         "sku": "RPOM063",
         "label": "RVS KLEMSCHAAL P189 KLEMSCHAAL TULE P152 TW TYPE MK P153",
+        "page": 13,
         "page_in_pdf": 13,
         "properties": {
           "type": "rvs_klemschaal_p189_klemschaal_tule_p152_tw_type_mk_p153"
@@ -628,6 +654,7 @@
       {
         "sku": "RPOM075",
         "label": "RVS KLEMSCHAAL P189 KLEMSCHAAL TULE P152 TW TYPE MK P153",
+        "page": 13,
         "page_in_pdf": 13,
         "properties": {
           "type": "rvs_klemschaal_p189_klemschaal_tule_p152_tw_type_mk_p153"
@@ -640,6 +667,7 @@
       {
         "sku": "RPOM100",
         "label": "RVS KLEMSCHAAL P189 KLEMSCHAAL TULE P152 TW TYPE MK P153",
+        "page": 13,
         "page_in_pdf": 13,
         "properties": {
           "type": "rvs_klemschaal_p189_klemschaal_tule_p152_tw_type_mk_p153"
@@ -652,6 +680,7 @@
       {
         "sku": null,
         "label": "RVS KLEMSCHAAL P189 KLEMSCHAAL TULE P152 TW TYPE MK P153",
+        "page": 13,
         "page_in_pdf": 13,
         "properties": {
           "type": "rvs_klemschaal_p189_klemschaal_tule_p152_tw_type_mk_p153"
@@ -662,30 +691,24 @@
         }
       }
     ],
-    "images": [
-      "images/rubber-slangen/rvs-klemschaal-p189-klemschaal-tule-p152-tw-type-mk-p153__rpob004.webp",
-      "images/rubber-slangen/rubber-slangen__p13__rvs-klemschaal-p189-klemschaal-tule-p152__RPOB004-RPOB004-RPOB006__v1.webp"
-    ],
+    "images": [],
     "variant_count": 15,
     "default_variant_sku": "RPOB004",
-    "media": [
-      {
-        "role": "main",
-        "url": "images/rubber-slangen/rvs-klemschaal-p189-klemschaal-tule-p152-tw-type-mk-p153__rpob004.webp"
-      }
-    ]
+    "media": []
   },
   {
-    "group_id": "rubber-slangen-rvs-slangklem-p193-messing-vaareind-p184-pp-camlock-p139-geka-koppeling-p158",
+    "group_id": "rubber-slangen-rubber-slangen-rvs-slangklem-p193-messing-vaareind-p184-pp-camlock-p139-geka-koppeling-p158",
     "name": "RVS SLANGKLEM P193 MESSING VAAREIND P184 PP CAMLOCK P139 GEKA KOPPELING P158",
-    "family": "rvs-slangklem-p193-messing-vaareind-p184-pp-camlock-p139-geka-koppeling-p158",
+    "family": "rubber-slangen__rvs-slangklem-p193-messing-vaareind-p184-pp-camlock-p139-geka-koppeling-p158",
     "catalog": "rubber-slangen",
+    "source_pdf": "rubber-slangen.pdf",
     "brand": "Various",
     "category": "RVS SLANGKLEM P193 MESSING VAAREIND P184 PP CAMLOCK P139 GEKA KOPPELING P158",
     "variants": [
       {
         "sku": "RPPY010",
         "label": "RVS SLANGKLEM P193 MESSING VAAREIND P184 PP CAMLOCK P139 GEKA KOPPELING P158",
+        "page": 6,
         "page_in_pdf": 6,
         "properties": {
           "type": "rvs_slangklem_p193_messing_vaareind_p184_pp_camlock_p139_geka_koppeling_p158"
@@ -698,6 +721,7 @@
       {
         "sku": "RPPY010",
         "label": "RVS SLANGKLEM P193 MESSING VAAREIND P184 PP CAMLOCK P139 GEKA KOPPELING P158",
+        "page": 6,
         "page_in_pdf": 6,
         "properties": {
           "type": "rvs_slangklem_p193_messing_vaareind_p184_pp_camlock_p139_geka_koppeling_p158"
@@ -710,6 +734,7 @@
       {
         "sku": "RPPY015",
         "label": "RVS SLANGKLEM P193 MESSING VAAREIND P184 PP CAMLOCK P139 GEKA KOPPELING P158",
+        "page": 6,
         "page_in_pdf": 6,
         "properties": {
           "type": "rvs_slangklem_p193_messing_vaareind_p184_pp_camlock_p139_geka_koppeling_p158"
@@ -722,6 +747,7 @@
       {
         "sku": "RPPY019",
         "label": "RVS SLANGKLEM P193 MESSING VAAREIND P184 PP CAMLOCK P139 GEKA KOPPELING P158",
+        "page": 6,
         "page_in_pdf": 6,
         "properties": {
           "type": "rvs_slangklem_p193_messing_vaareind_p184_pp_camlock_p139_geka_koppeling_p158"
@@ -734,6 +760,7 @@
       {
         "sku": "RPPY025",
         "label": "RVS SLANGKLEM P193 MESSING VAAREIND P184 PP CAMLOCK P139 GEKA KOPPELING P158",
+        "page": 6,
         "page_in_pdf": 6,
         "properties": {
           "type": "rvs_slangklem_p193_messing_vaareind_p184_pp_camlock_p139_geka_koppeling_p158"
@@ -746,6 +773,7 @@
       {
         "sku": "RPPY032",
         "label": "RVS SLANGKLEM P193 MESSING VAAREIND P184 PP CAMLOCK P139 GEKA KOPPELING P158",
+        "page": 6,
         "page_in_pdf": 6,
         "properties": {
           "type": "rvs_slangklem_p193_messing_vaareind_p184_pp_camlock_p139_geka_koppeling_p158"
@@ -758,6 +786,7 @@
       {
         "sku": "RPPY038",
         "label": "RVS SLANGKLEM P193 MESSING VAAREIND P184 PP CAMLOCK P139 GEKA KOPPELING P158",
+        "page": 6,
         "page_in_pdf": 6,
         "properties": {
           "type": "rvs_slangklem_p193_messing_vaareind_p184_pp_camlock_p139_geka_koppeling_p158"
@@ -770,6 +799,7 @@
       {
         "sku": "RPPY042",
         "label": "RVS SLANGKLEM P193 MESSING VAAREIND P184 PP CAMLOCK P139 GEKA KOPPELING P158",
+        "page": 6,
         "page_in_pdf": 6,
         "properties": {
           "type": "rvs_slangklem_p193_messing_vaareind_p184_pp_camlock_p139_geka_koppeling_p158"
@@ -782,6 +812,7 @@
       {
         "sku": "RPPY050",
         "label": "RVS SLANGKLEM P193 MESSING VAAREIND P184 PP CAMLOCK P139 GEKA KOPPELING P158",
+        "page": 6,
         "page_in_pdf": 6,
         "properties": {
           "type": "rvs_slangklem_p193_messing_vaareind_p184_pp_camlock_p139_geka_koppeling_p158"
@@ -792,30 +823,24 @@
         }
       }
     ],
-    "images": [
-      "images/rubber-slangen/rvs-slangklem-p193-messing-vaareind-p184-pp-camlock-p139-gek__rppy010.webp",
-      "images/rubber-slangen/rubber-slangen__p6__rvs-slangklem-p193-messing-vaareind-p184__RPPY010-RPPY010-RPPY015__v1.webp"
-    ],
+    "images": [],
     "variant_count": 9,
     "default_variant_sku": "RPPY010",
-    "media": [
-      {
-        "role": "main",
-        "url": "images/rubber-slangen/rvs-slangklem-p193-messing-vaareind-p184-pp-camlock-p139-gek__rppy010.webp"
-      }
-    ]
+    "media": []
   },
   {
-    "group_id": "rubber-slangen-water-glycol-mengelingen",
+    "group_id": "rubber-slangen-rubber-slangen-water-glycol-mengelingen",
     "name": "• Water/glycol mengelingen",
-    "family": "water-glycol-mengelingen",
+    "family": "rubber-slangen__water-glycol-mengelingen",
     "catalog": "rubber-slangen",
+    "source_pdf": "rubber-slangen.pdf",
     "brand": "Various",
     "category": "• Radiator",
     "variants": [
       {
         "sku": "RPRA013",
         "label": "• Water/glycol mengelingen",
+        "page": 10,
         "page_in_pdf": 10,
         "properties": {
           "type": "water_glycol_mengelingen"
@@ -830,6 +855,7 @@
       {
         "sku": "RPRA013",
         "label": "• Water/glycol mengelingen",
+        "page": 10,
         "page_in_pdf": 10,
         "properties": {
           "type": "water_glycol_mengelingen"
@@ -844,6 +870,7 @@
       {
         "sku": "RPRA019",
         "label": "• Water/glycol mengelingen",
+        "page": 10,
         "page_in_pdf": 10,
         "properties": {
           "type": "water_glycol_mengelingen"
@@ -858,6 +885,7 @@
       {
         "sku": "RPRA019",
         "label": "• Water/glycol mengelingen",
+        "page": 10,
         "page_in_pdf": 10,
         "properties": {
           "type": "water_glycol_mengelingen"
@@ -872,6 +900,7 @@
       {
         "sku": "RPRA025",
         "label": "• Water/glycol mengelingen",
+        "page": 10,
         "page_in_pdf": 10,
         "properties": {
           "type": "water_glycol_mengelingen"
@@ -886,6 +915,7 @@
       {
         "sku": "RPRA025",
         "label": "• Water/glycol mengelingen",
+        "page": 10,
         "page_in_pdf": 10,
         "properties": {
           "type": "water_glycol_mengelingen"
@@ -900,6 +930,7 @@
       {
         "sku": "RPRA030",
         "label": "• Water/glycol mengelingen",
+        "page": 10,
         "page_in_pdf": 10,
         "properties": {
           "type": "water_glycol_mengelingen"
@@ -914,6 +945,7 @@
       {
         "sku": "RPRA030",
         "label": "• Water/glycol mengelingen",
+        "page": 10,
         "page_in_pdf": 10,
         "properties": {
           "type": "water_glycol_mengelingen"
@@ -928,6 +960,7 @@
       {
         "sku": "RPRA035",
         "label": "• Water/glycol mengelingen",
+        "page": 10,
         "page_in_pdf": 10,
         "properties": {
           "type": "water_glycol_mengelingen"
@@ -942,6 +975,7 @@
       {
         "sku": "RPRA038",
         "label": "• Water/glycol mengelingen",
+        "page": 10,
         "page_in_pdf": 10,
         "properties": {
           "type": "water_glycol_mengelingen"
@@ -956,6 +990,7 @@
       {
         "sku": "RPRA040",
         "label": "• Water/glycol mengelingen",
+        "page": 10,
         "page_in_pdf": 10,
         "properties": {
           "type": "water_glycol_mengelingen"
@@ -970,6 +1005,7 @@
       {
         "sku": "RPRA042",
         "label": "• Water/glycol mengelingen",
+        "page": 10,
         "page_in_pdf": 10,
         "properties": {
           "type": "water_glycol_mengelingen"
@@ -984,6 +1020,7 @@
       {
         "sku": "RPRA045",
         "label": "• Water/glycol mengelingen",
+        "page": 10,
         "page_in_pdf": 10,
         "properties": {
           "type": "water_glycol_mengelingen"
@@ -998,6 +1035,7 @@
       {
         "sku": "RPRA048",
         "label": "• Water/glycol mengelingen",
+        "page": 10,
         "page_in_pdf": 10,
         "properties": {
           "type": "water_glycol_mengelingen"
@@ -1012,6 +1050,7 @@
       {
         "sku": "RPRA050",
         "label": "• Water/glycol mengelingen",
+        "page": 10,
         "page_in_pdf": 10,
         "properties": {
           "type": "water_glycol_mengelingen"
@@ -1026,6 +1065,7 @@
       {
         "sku": "RPRA055",
         "label": "• Water/glycol mengelingen",
+        "page": 10,
         "page_in_pdf": 10,
         "properties": {
           "type": "water_glycol_mengelingen"
@@ -1040,6 +1080,7 @@
       {
         "sku": "RPRA060",
         "label": "• Water/glycol mengelingen",
+        "page": 10,
         "page_in_pdf": 10,
         "properties": {
           "type": "water_glycol_mengelingen"
@@ -1054,6 +1095,7 @@
       {
         "sku": "RPRA063",
         "label": "• Water/glycol mengelingen",
+        "page": 10,
         "page_in_pdf": 10,
         "properties": {
           "type": "water_glycol_mengelingen"
@@ -1068,6 +1110,7 @@
       {
         "sku": "RPRA065",
         "label": "• Water/glycol mengelingen",
+        "page": 10,
         "page_in_pdf": 10,
         "properties": {
           "type": "water_glycol_mengelingen"
@@ -1082,6 +1125,7 @@
       {
         "sku": "RPRA070",
         "label": "• Water/glycol mengelingen",
+        "page": 10,
         "page_in_pdf": 10,
         "properties": {
           "type": "water_glycol_mengelingen"
@@ -1096,6 +1140,7 @@
       {
         "sku": "RPRA075",
         "label": "• Water/glycol mengelingen",
+        "page": 10,
         "page_in_pdf": 10,
         "properties": {
           "type": "water_glycol_mengelingen"
@@ -1110,6 +1155,7 @@
       {
         "sku": "RPRA080",
         "label": "• Water/glycol mengelingen",
+        "page": 10,
         "page_in_pdf": 10,
         "properties": {
           "type": "water_glycol_mengelingen"
@@ -1124,6 +1170,7 @@
       {
         "sku": "RPRA090",
         "label": "• Water/glycol mengelingen",
+        "page": 10,
         "page_in_pdf": 10,
         "properties": {
           "type": "water_glycol_mengelingen"
@@ -1138,6 +1185,7 @@
       {
         "sku": "RPRA1020",
         "label": "• Water/glycol mengelingen",
+        "page": 10,
         "page_in_pdf": 10,
         "properties": {
           "type": "water_glycol_mengelingen"
@@ -1152,6 +1200,7 @@
       {
         "sku": "RPRA110",
         "label": "• Water/glycol mengelingen",
+        "page": 10,
         "page_in_pdf": 10,
         "properties": {
           "type": "water_glycol_mengelingen"
@@ -1166,6 +1215,7 @@
       {
         "sku": "RPRA115",
         "label": "• Water/glycol mengelingen",
+        "page": 10,
         "page_in_pdf": 10,
         "properties": {
           "type": "water_glycol_mengelingen"
@@ -1180,6 +1230,7 @@
       {
         "sku": "RPRA125",
         "label": "• Water/glycol mengelingen",
+        "page": 10,
         "page_in_pdf": 10,
         "properties": {
           "type": "water_glycol_mengelingen"
@@ -1194,6 +1245,7 @@
       {
         "sku": "RPRA140",
         "label": "• Water/glycol mengelingen",
+        "page": 10,
         "page_in_pdf": 10,
         "properties": {
           "type": "water_glycol_mengelingen"
@@ -1208,6 +1260,7 @@
       {
         "sku": "RPRA150",
         "label": "• Water/glycol mengelingen",
+        "page": 10,
         "page_in_pdf": 10,
         "properties": {
           "type": "water_glycol_mengelingen"
@@ -1220,30 +1273,24 @@
         }
       }
     ],
-    "images": [
-      "images/rubber-slangen/water-glycol-mengelingen__rpra013.webp",
-      "images/rubber-slangen/rubber-slangen__p10__water-glycol-mengelingen__RPRA013-RPRA013-RPRA019.webp"
-    ],
+    "images": [],
     "variant_count": 29,
     "default_variant_sku": "RPRA013",
-    "media": [
-      {
-        "role": "main",
-        "url": "images/rubber-slangen/water-glycol-mengelingen__rpra013.webp"
-      }
-    ]
+    "media": []
   },
   {
-    "group_id": "rubber-slangen-rvs-slangklem-p192-geka-koppeling-p158-messing-vaareind-p184",
+    "group_id": "rubber-slangen-rubber-slangen-rvs-slangklem-p192-geka-koppeling-p158-messing-vaareind-p184",
     "name": "RVS SLANGKLEM P192 GEKA KOPPELING P158 MESSING VAAREIND P184",
-    "family": "rvs-slangklem-p192-geka-koppeling-p158-messing-vaareind-p184",
+    "family": "rubber-slangen__rvs-slangklem-p192-geka-koppeling-p158-messing-vaareind-p184",
     "catalog": "rubber-slangen",
+    "source_pdf": "rubber-slangen.pdf",
     "brand": "Various",
     "category": "RVS SLANGKLEM P192 GEKA KOPPELING P158 MESSING VAAREIND P184",
     "variants": [
       {
         "sku": "RPTA013",
         "label": "RVS SLANGKLEM P192 GEKA KOPPELING P158 MESSING VAAREIND P184",
+        "page": 2,
         "page_in_pdf": 2,
         "properties": {
           "type": "rvs_slangklem_p192_geka_koppeling_p158_messing_vaareind_p184"
@@ -1256,6 +1303,7 @@
       {
         "sku": "RPTA016",
         "label": "RVS SLANGKLEM P192 GEKA KOPPELING P158 MESSING VAAREIND P184",
+        "page": 2,
         "page_in_pdf": 2,
         "properties": {
           "type": "rvs_slangklem_p192_geka_koppeling_p158_messing_vaareind_p184"
@@ -1268,6 +1316,7 @@
       {
         "sku": "RPTA019",
         "label": "RVS SLANGKLEM P192 GEKA KOPPELING P158 MESSING VAAREIND P184",
+        "page": 2,
         "page_in_pdf": 2,
         "properties": {
           "type": "rvs_slangklem_p192_geka_koppeling_p158_messing_vaareind_p184"
@@ -1280,6 +1329,7 @@
       {
         "sku": "RPTA025",
         "label": "RVS SLANGKLEM P192 GEKA KOPPELING P158 MESSING VAAREIND P184",
+        "page": 2,
         "page_in_pdf": 2,
         "properties": {
           "type": "rvs_slangklem_p192_geka_koppeling_p158_messing_vaareind_p184"
@@ -1290,30 +1340,24 @@
         }
       }
     ],
-    "images": [
-      "images/rubber-slangen/rvs-slangklem-p192-geka-koppeling-p158-messing-vaareind-p184__rpta013.webp",
-      "images/rubber-slangen/rubber-slangen__p2__rvs-slangklem-p192-geka-koppeling-p158-m__RPTA013-RPTA016-RPTA019__v1.webp"
-    ],
+    "images": [],
     "variant_count": 4,
     "default_variant_sku": "RPTA013",
-    "media": [
-      {
-        "role": "main",
-        "url": "images/rubber-slangen/rvs-slangklem-p192-geka-koppeling-p158-messing-vaareind-p184__rpta013.webp"
-      }
-    ]
+    "media": []
   },
   {
-    "group_id": "rubber-slangen-rvs-slangklem-p192-messing-vaareind-p184-geka-hd-koppeling-p159",
+    "group_id": "rubber-slangen-rubber-slangen-rvs-slangklem-p192-messing-vaareind-p184-geka-hd-koppeling-p159",
     "name": "RVS SLANGKLEM P192 MESSING VAAREIND P184 GEKA HD KOPPELING P159",
-    "family": "rvs-slangklem-p192-messing-vaareind-p184-geka-hd-koppeling-p159",
+    "family": "rubber-slangen__rvs-slangklem-p192-messing-vaareind-p184-geka-hd-koppeling-p159",
     "catalog": "rubber-slangen",
+    "source_pdf": "rubber-slangen.pdf",
     "brand": "Various",
     "category": "RVS SLANGKLEM P192 MESSING VAAREIND P184 GEKA HD KOPPELING P159",
     "variants": [
       {
         "sku": "RPTH01350",
         "label": "RVS SLANGKLEM P192 MESSING VAAREIND P184 GEKA HD KOPPELING P159",
+        "page": 3,
         "page_in_pdf": 3,
         "properties": {
           "type": "rvs_slangklem_p192_messing_vaareind_p184_geka_hd_koppeling_p159"
@@ -1326,6 +1370,7 @@
       {
         "sku": "RPTH01550",
         "label": "RVS SLANGKLEM P192 MESSING VAAREIND P184 GEKA HD KOPPELING P159",
+        "page": 3,
         "page_in_pdf": 3,
         "properties": {
           "type": "rvs_slangklem_p192_messing_vaareind_p184_geka_hd_koppeling_p159"
@@ -1338,6 +1383,7 @@
       {
         "sku": "RPTH01950",
         "label": "RVS SLANGKLEM P192 MESSING VAAREIND P184 GEKA HD KOPPELING P159",
+        "page": 3,
         "page_in_pdf": 3,
         "properties": {
           "type": "rvs_slangklem_p192_messing_vaareind_p184_geka_hd_koppeling_p159"
@@ -1350,6 +1396,7 @@
       {
         "sku": "RPTH02550",
         "label": "RVS SLANGKLEM P192 MESSING VAAREIND P184 GEKA HD KOPPELING P159",
+        "page": 3,
         "page_in_pdf": 3,
         "properties": {
           "type": "rvs_slangklem_p192_messing_vaareind_p184_geka_hd_koppeling_p159"
@@ -1362,6 +1409,7 @@
       {
         "sku": "RPTH03040",
         "label": "RVS SLANGKLEM P192 MESSING VAAREIND P184 GEKA HD KOPPELING P159",
+        "page": 3,
         "page_in_pdf": 3,
         "properties": {
           "type": "rvs_slangklem_p192_messing_vaareind_p184_geka_hd_koppeling_p159"
@@ -1372,30 +1420,24 @@
         }
       }
     ],
-    "images": [
-      "images/rubber-slangen/rvs-slangklem-p192-messing-vaareind-p184-geka-hd-koppeling-p__rpth01350.webp",
-      "images/rubber-slangen/rubber-slangen__p3__rvs-slangklem-p192-messing-vaareind-p184__RPTH01350-RPTH01550-RPTH01950__v1.webp"
-    ],
+    "images": [],
     "variant_count": 5,
     "default_variant_sku": "RPTH01350",
-    "media": [
-      {
-        "role": "main",
-        "url": "images/rubber-slangen/rvs-slangklem-p192-messing-vaareind-p184-geka-hd-koppeling-p__rpth01350.webp"
-      }
-    ]
+    "media": []
   },
   {
-    "group_id": "rubber-slangen-rvs-slangklem-p192-messing-vaareind-p184-rvs-camlock-p143-geka-koppeling-p158",
+    "group_id": "rubber-slangen-rubber-slangen-rvs-slangklem-p192-messing-vaareind-p184-rvs-camlock-p143-geka-koppeling-p158",
     "name": "RVS SLANGKLEM P192 MESSING VAAREIND P184 RVS CAMLOCK P143 GEKA KOPPELING P158",
-    "family": "rvs-slangklem-p192-messing-vaareind-p184-rvs-camlock-p143-geka-koppeling-p158",
+    "family": "rubber-slangen__rvs-slangklem-p192-messing-vaareind-p184-rvs-camlock-p143-geka-koppeling-p158",
     "catalog": "rubber-slangen",
+    "source_pdf": "rubber-slangen.pdf",
     "brand": "Various",
     "category": "RVS SLANGKLEM P192 MESSING VAAREIND P184 RVS CAMLOCK P143 GEKA KOPPELING P158",
     "variants": [
       {
         "sku": "RPTR013040",
         "label": "RVS SLANGKLEM P192 MESSING VAAREIND P184 RVS CAMLOCK P143 GEKA KOPPELING P158",
+        "page": 4,
         "page_in_pdf": 4,
         "properties": {
           "type": "rvs_slangklem_p192_messing_vaareind_p184_rvs_camlock_p143_geka_koppeling_p158"
@@ -1408,6 +1450,7 @@
       {
         "sku": "RPTR013040",
         "label": "RVS SLANGKLEM P192 MESSING VAAREIND P184 RVS CAMLOCK P143 GEKA KOPPELING P158",
+        "page": 4,
         "page_in_pdf": 4,
         "properties": {
           "type": "rvs_slangklem_p192_messing_vaareind_p184_rvs_camlock_p143_geka_koppeling_p158"
@@ -1420,6 +1463,7 @@
       {
         "sku": "RPTR019040",
         "label": "RVS SLANGKLEM P192 MESSING VAAREIND P184 RVS CAMLOCK P143 GEKA KOPPELING P158",
+        "page": 4,
         "page_in_pdf": 4,
         "properties": {
           "type": "rvs_slangklem_p192_messing_vaareind_p184_rvs_camlock_p143_geka_koppeling_p158"
@@ -1432,6 +1476,7 @@
       {
         "sku": "RPTR019040",
         "label": "RVS SLANGKLEM P192 MESSING VAAREIND P184 RVS CAMLOCK P143 GEKA KOPPELING P158",
+        "page": 4,
         "page_in_pdf": 4,
         "properties": {
           "type": "rvs_slangklem_p192_messing_vaareind_p184_rvs_camlock_p143_geka_koppeling_p158"
@@ -1444,6 +1489,7 @@
       {
         "sku": "RPTR025040",
         "label": "RVS SLANGKLEM P192 MESSING VAAREIND P184 RVS CAMLOCK P143 GEKA KOPPELING P158",
+        "page": 4,
         "page_in_pdf": 4,
         "properties": {
           "type": "rvs_slangklem_p192_messing_vaareind_p184_rvs_camlock_p143_geka_koppeling_p158"
@@ -1456,6 +1502,7 @@
       {
         "sku": "RPTR028040",
         "label": "RVS SLANGKLEM P192 MESSING VAAREIND P184 RVS CAMLOCK P143 GEKA KOPPELING P158",
+        "page": 4,
         "page_in_pdf": 4,
         "properties": {
           "type": "rvs_slangklem_p192_messing_vaareind_p184_rvs_camlock_p143_geka_koppeling_p158"
@@ -1468,6 +1515,7 @@
       {
         "sku": "RPTR030040",
         "label": "RVS SLANGKLEM P192 MESSING VAAREIND P184 RVS CAMLOCK P143 GEKA KOPPELING P158",
+        "page": 4,
         "page_in_pdf": 4,
         "properties": {
           "type": "rvs_slangklem_p192_messing_vaareind_p184_rvs_camlock_p143_geka_koppeling_p158"
@@ -1480,6 +1528,7 @@
       {
         "sku": "RPTR032040",
         "label": "RVS SLANGKLEM P192 MESSING VAAREIND P184 RVS CAMLOCK P143 GEKA KOPPELING P158",
+        "page": 4,
         "page_in_pdf": 4,
         "properties": {
           "type": "rvs_slangklem_p192_messing_vaareind_p184_rvs_camlock_p143_geka_koppeling_p158"
@@ -1492,6 +1541,7 @@
       {
         "sku": "RPTR035040",
         "label": "RVS SLANGKLEM P192 MESSING VAAREIND P184 RVS CAMLOCK P143 GEKA KOPPELING P158",
+        "page": 4,
         "page_in_pdf": 4,
         "properties": {
           "type": "rvs_slangklem_p192_messing_vaareind_p184_rvs_camlock_p143_geka_koppeling_p158"
@@ -1504,6 +1554,7 @@
       {
         "sku": "RPTR038040",
         "label": "RVS SLANGKLEM P192 MESSING VAAREIND P184 RVS CAMLOCK P143 GEKA KOPPELING P158",
+        "page": 4,
         "page_in_pdf": 4,
         "properties": {
           "type": "rvs_slangklem_p192_messing_vaareind_p184_rvs_camlock_p143_geka_koppeling_p158"
@@ -1516,6 +1567,7 @@
       {
         "sku": "RPTR042040",
         "label": "RVS SLANGKLEM P192 MESSING VAAREIND P184 RVS CAMLOCK P143 GEKA KOPPELING P158",
+        "page": 4,
         "page_in_pdf": 4,
         "properties": {
           "type": "rvs_slangklem_p192_messing_vaareind_p184_rvs_camlock_p143_geka_koppeling_p158"
@@ -1528,6 +1580,7 @@
       {
         "sku": "RPTR050040",
         "label": "RVS SLANGKLEM P192 MESSING VAAREIND P184 RVS CAMLOCK P143 GEKA KOPPELING P158",
+        "page": 4,
         "page_in_pdf": 4,
         "properties": {
           "type": "rvs_slangklem_p192_messing_vaareind_p184_rvs_camlock_p143_geka_koppeling_p158"
@@ -1540,6 +1593,7 @@
       {
         "sku": "RPTU013",
         "label": "RVS SLANGKLEM P192 MESSING VAAREIND P184 RVS CAMLOCK P143 GEKA KOPPELING P158",
+        "page": 5,
         "page_in_pdf": 5,
         "properties": {
           "type": "rvs_slangklem_p192_messing_vaareind_p184_rvs_camlock_p143_geka_koppeling_p158"
@@ -1552,6 +1606,7 @@
       {
         "sku": "RPTU019",
         "label": "RVS SLANGKLEM P192 MESSING VAAREIND P184 RVS CAMLOCK P143 GEKA KOPPELING P158",
+        "page": 5,
         "page_in_pdf": 5,
         "properties": {
           "type": "rvs_slangklem_p192_messing_vaareind_p184_rvs_camlock_p143_geka_koppeling_p158"
@@ -1564,6 +1619,7 @@
       {
         "sku": "RPTU025",
         "label": "RVS SLANGKLEM P192 MESSING VAAREIND P184 RVS CAMLOCK P143 GEKA KOPPELING P158",
+        "page": 5,
         "page_in_pdf": 5,
         "properties": {
           "type": "rvs_slangklem_p192_messing_vaareind_p184_rvs_camlock_p143_geka_koppeling_p158"
@@ -1574,31 +1630,24 @@
         }
       }
     ],
-    "images": [
-      "images/rubber-slangen/rubber-slangen__p5__rvs-slangklem-p192-messing-vaareind-p184__rptu0__rptu013-rptu025.webp",
-      "images/rubber-slangen/rvs-slangklem-p192-messing-vaareind-p184-rvs-camlock-p143-ge__rptr013040.webp",
-      "images/rubber-slangen/rubber-slangen__p4__rvs-slangklem-p192-messing-vaareind-p184__RPTR013040-RPTR013040-RPTR019040__v1.webp"
-    ],
+    "images": [],
     "variant_count": 15,
     "default_variant_sku": "RPTR013040",
-    "media": [
-      {
-        "role": "main",
-        "url": "images/rubber-slangen/rubber-slangen__p5__rvs-slangklem-p192-messing-vaareind-p184__rptu0__rptu013-rptu025.webp"
-      }
-    ]
+    "media": []
   },
   {
-    "group_id": "rubber-slangen-alu-klemschaal-p189-klemschaal-tule-p152-tw-type-mk-p153",
+    "group_id": "rubber-slangen-rubber-slangen-alu-klemschaal-p189-klemschaal-tule-p152-tw-type-mk-p153",
     "name": "ALU KLEMSCHAAL P189 KLEMSCHAAL TULE P152 TW TYPE MK P153",
-    "family": "alu-klemschaal-p189-klemschaal-tule-p152-tw-type-mk-p153",
+    "family": "rubber-slangen__alu-klemschaal-p189-klemschaal-tule-p152-tw-type-mk-p153",
     "catalog": "rubber-slangen",
+    "source_pdf": "rubber-slangen.pdf",
     "brand": "Various",
     "category": "ALU KLEMSCHAAL P189 KLEMSCHAAL TULE P152 TW TYPE MK P153",
     "variants": [
       {
         "sku": "RPZ250",
         "label": "ALU KLEMSCHAAL P189 KLEMSCHAAL TULE P152 TW TYPE MK P153",
+        "page": 16,
         "page_in_pdf": 16,
         "properties": {
           "type": "alu_klemschaal_p189_klemschaal_tule_p152_tw_type_mk_p153"
@@ -1611,6 +1660,7 @@
       {
         "sku": "RZP025",
         "label": "ALU KLEMSCHAAL P189 KLEMSCHAAL TULE P152 TW TYPE MK P153",
+        "page": 16,
         "page_in_pdf": 16,
         "properties": {
           "type": "alu_klemschaal_p189_klemschaal_tule_p152_tw_type_mk_p153"
@@ -1623,6 +1673,7 @@
       {
         "sku": "RZP038",
         "label": "ALU KLEMSCHAAL P189 KLEMSCHAAL TULE P152 TW TYPE MK P153",
+        "page": 16,
         "page_in_pdf": 16,
         "properties": {
           "type": "alu_klemschaal_p189_klemschaal_tule_p152_tw_type_mk_p153"
@@ -1635,6 +1686,7 @@
       {
         "sku": "RZP042",
         "label": "ALU KLEMSCHAAL P189 KLEMSCHAAL TULE P152 TW TYPE MK P153",
+        "page": 16,
         "page_in_pdf": 16,
         "properties": {
           "type": "alu_klemschaal_p189_klemschaal_tule_p152_tw_type_mk_p153"
@@ -1647,6 +1699,7 @@
       {
         "sku": "RZP050",
         "label": "ALU KLEMSCHAAL P189 KLEMSCHAAL TULE P152 TW TYPE MK P153",
+        "page": 16,
         "page_in_pdf": 16,
         "properties": {
           "type": "alu_klemschaal_p189_klemschaal_tule_p152_tw_type_mk_p153"
@@ -1659,6 +1712,7 @@
       {
         "sku": "RZP063",
         "label": "ALU KLEMSCHAAL P189 KLEMSCHAAL TULE P152 TW TYPE MK P153",
+        "page": 16,
         "page_in_pdf": 16,
         "properties": {
           "type": "alu_klemschaal_p189_klemschaal_tule_p152_tw_type_mk_p153"
@@ -1671,6 +1725,7 @@
       {
         "sku": "RZP075",
         "label": "ALU KLEMSCHAAL P189 KLEMSCHAAL TULE P152 TW TYPE MK P153",
+        "page": 16,
         "page_in_pdf": 16,
         "properties": {
           "type": "alu_klemschaal_p189_klemschaal_tule_p152_tw_type_mk_p153"
@@ -1683,6 +1738,7 @@
       {
         "sku": "RZP090",
         "label": "ALU KLEMSCHAAL P189 KLEMSCHAAL TULE P152 TW TYPE MK P153",
+        "page": 16,
         "page_in_pdf": 16,
         "properties": {
           "type": "alu_klemschaal_p189_klemschaal_tule_p152_tw_type_mk_p153"
@@ -1695,6 +1751,7 @@
       {
         "sku": "RZP110",
         "label": "ALU KLEMSCHAAL P189 KLEMSCHAAL TULE P152 TW TYPE MK P153",
+        "page": 16,
         "page_in_pdf": 16,
         "properties": {
           "type": "alu_klemschaal_p189_klemschaal_tule_p152_tw_type_mk_p153"
@@ -1707,6 +1764,7 @@
       {
         "sku": "RZP150",
         "label": "ALU KLEMSCHAAL P189 KLEMSCHAAL TULE P152 TW TYPE MK P153",
+        "page": 16,
         "page_in_pdf": 16,
         "properties": {
           "type": "alu_klemschaal_p189_klemschaal_tule_p152_tw_type_mk_p153"
@@ -1719,6 +1777,7 @@
       {
         "sku": "RZPO0100",
         "label": "ALU KLEMSCHAAL P189 KLEMSCHAAL TULE P152 TW TYPE MK P153",
+        "page": 24,
         "page_in_pdf": 24,
         "properties": {
           "type": "alu_klemschaal_p189_klemschaal_tule_p152_tw_type_mk_p153"
@@ -1731,6 +1790,7 @@
       {
         "sku": "RZPO0102",
         "label": "ALU KLEMSCHAAL P189 KLEMSCHAAL TULE P152 TW TYPE MK P153",
+        "page": 24,
         "page_in_pdf": 24,
         "properties": {
           "type": "alu_klemschaal_p189_klemschaal_tule_p152_tw_type_mk_p153"
@@ -1743,6 +1803,7 @@
       {
         "sku": "RZPO0110",
         "label": "ALU KLEMSCHAAL P189 KLEMSCHAAL TULE P152 TW TYPE MK P153",
+        "page": 24,
         "page_in_pdf": 24,
         "properties": {
           "type": "alu_klemschaal_p189_klemschaal_tule_p152_tw_type_mk_p153"
@@ -1755,6 +1816,7 @@
       {
         "sku": "RZPO0127",
         "label": "ALU KLEMSCHAAL P189 KLEMSCHAAL TULE P152 TW TYPE MK P153",
+        "page": 24,
         "page_in_pdf": 24,
         "properties": {
           "type": "alu_klemschaal_p189_klemschaal_tule_p152_tw_type_mk_p153"
@@ -1767,6 +1829,7 @@
       {
         "sku": "RZPO0152",
         "label": "ALU KLEMSCHAAL P189 KLEMSCHAAL TULE P152 TW TYPE MK P153",
+        "page": 24,
         "page_in_pdf": 24,
         "properties": {
           "type": "alu_klemschaal_p189_klemschaal_tule_p152_tw_type_mk_p153"
@@ -1779,6 +1842,7 @@
       {
         "sku": "RZPO019",
         "label": "ALU KLEMSCHAAL P189 KLEMSCHAAL TULE P152 TW TYPE MK P153",
+        "page": 24,
         "page_in_pdf": 24,
         "properties": {
           "type": "alu_klemschaal_p189_klemschaal_tule_p152_tw_type_mk_p153"
@@ -1791,6 +1855,7 @@
       {
         "sku": "RZPO019",
         "label": "ALU KLEMSCHAAL P189 KLEMSCHAAL TULE P152 TW TYPE MK P153",
+        "page": 24,
         "page_in_pdf": 24,
         "properties": {
           "type": "alu_klemschaal_p189_klemschaal_tule_p152_tw_type_mk_p153"
@@ -1803,6 +1868,7 @@
       {
         "sku": "RZPO032",
         "label": "ALU KLEMSCHAAL P189 KLEMSCHAAL TULE P152 TW TYPE MK P153",
+        "page": 24,
         "page_in_pdf": 24,
         "properties": {
           "type": "alu_klemschaal_p189_klemschaal_tule_p152_tw_type_mk_p153"
@@ -1815,6 +1881,7 @@
       {
         "sku": "RZPO032",
         "label": "ALU KLEMSCHAAL P189 KLEMSCHAAL TULE P152 TW TYPE MK P153",
+        "page": 24,
         "page_in_pdf": 24,
         "properties": {
           "type": "alu_klemschaal_p189_klemschaal_tule_p152_tw_type_mk_p153"
@@ -1827,6 +1894,7 @@
       {
         "sku": "RZPO038",
         "label": "ALU KLEMSCHAAL P189 KLEMSCHAAL TULE P152 TW TYPE MK P153",
+        "page": 24,
         "page_in_pdf": 24,
         "properties": {
           "type": "alu_klemschaal_p189_klemschaal_tule_p152_tw_type_mk_p153"
@@ -1839,6 +1907,7 @@
       {
         "sku": "RZPO038",
         "label": "ALU KLEMSCHAAL P189 KLEMSCHAAL TULE P152 TW TYPE MK P153",
+        "page": 24,
         "page_in_pdf": 24,
         "properties": {
           "type": "alu_klemschaal_p189_klemschaal_tule_p152_tw_type_mk_p153"
@@ -1851,6 +1920,7 @@
       {
         "sku": "RZPO042",
         "label": "ALU KLEMSCHAAL P189 KLEMSCHAAL TULE P152 TW TYPE MK P153",
+        "page": 24,
         "page_in_pdf": 24,
         "properties": {
           "type": "alu_klemschaal_p189_klemschaal_tule_p152_tw_type_mk_p153"
@@ -1863,6 +1933,7 @@
       {
         "sku": "RZPO045",
         "label": "ALU KLEMSCHAAL P189 KLEMSCHAAL TULE P152 TW TYPE MK P153",
+        "page": 24,
         "page_in_pdf": 24,
         "properties": {
           "type": "alu_klemschaal_p189_klemschaal_tule_p152_tw_type_mk_p153"
@@ -1875,6 +1946,7 @@
       {
         "sku": "RZPO050",
         "label": "ALU KLEMSCHAAL P189 KLEMSCHAAL TULE P152 TW TYPE MK P153",
+        "page": 24,
         "page_in_pdf": 24,
         "properties": {
           "type": "alu_klemschaal_p189_klemschaal_tule_p152_tw_type_mk_p153"
@@ -1887,6 +1959,7 @@
       {
         "sku": "RZPO051",
         "label": "ALU KLEMSCHAAL P189 KLEMSCHAAL TULE P152 TW TYPE MK P153",
+        "page": 24,
         "page_in_pdf": 24,
         "properties": {
           "type": "alu_klemschaal_p189_klemschaal_tule_p152_tw_type_mk_p153"
@@ -1899,6 +1972,7 @@
       {
         "sku": "RZPO060",
         "label": "ALU KLEMSCHAAL P189 KLEMSCHAAL TULE P152 TW TYPE MK P153",
+        "page": 24,
         "page_in_pdf": 24,
         "properties": {
           "type": "alu_klemschaal_p189_klemschaal_tule_p152_tw_type_mk_p153"
@@ -1911,6 +1985,7 @@
       {
         "sku": "RZPO063",
         "label": "ALU KLEMSCHAAL P189 KLEMSCHAAL TULE P152 TW TYPE MK P153",
+        "page": 24,
         "page_in_pdf": 24,
         "properties": {
           "type": "alu_klemschaal_p189_klemschaal_tule_p152_tw_type_mk_p153"
@@ -1923,6 +1998,7 @@
       {
         "sku": "RZPO070",
         "label": "ALU KLEMSCHAAL P189 KLEMSCHAAL TULE P152 TW TYPE MK P153",
+        "page": 24,
         "page_in_pdf": 24,
         "properties": {
           "type": "alu_klemschaal_p189_klemschaal_tule_p152_tw_type_mk_p153"
@@ -1935,6 +2011,7 @@
       {
         "sku": "RZPO075",
         "label": "ALU KLEMSCHAAL P189 KLEMSCHAAL TULE P152 TW TYPE MK P153",
+        "page": 24,
         "page_in_pdf": 24,
         "properties": {
           "type": "alu_klemschaal_p189_klemschaal_tule_p152_tw_type_mk_p153"
@@ -1947,6 +2024,7 @@
       {
         "sku": "RZPO076",
         "label": "ALU KLEMSCHAAL P189 KLEMSCHAAL TULE P152 TW TYPE MK P153",
+        "page": 24,
         "page_in_pdf": 24,
         "properties": {
           "type": "alu_klemschaal_p189_klemschaal_tule_p152_tw_type_mk_p153"
@@ -1959,6 +2037,7 @@
       {
         "sku": "RZPO080",
         "label": "ALU KLEMSCHAAL P189 KLEMSCHAAL TULE P152 TW TYPE MK P153",
+        "page": 24,
         "page_in_pdf": 24,
         "properties": {
           "type": "alu_klemschaal_p189_klemschaal_tule_p152_tw_type_mk_p153"
@@ -1971,6 +2050,7 @@
       {
         "sku": "RZPO090",
         "label": "ALU KLEMSCHAAL P189 KLEMSCHAAL TULE P152 TW TYPE MK P153",
+        "page": 24,
         "page_in_pdf": 24,
         "properties": {
           "type": "alu_klemschaal_p189_klemschaal_tule_p152_tw_type_mk_p153"
@@ -1983,6 +2063,7 @@
       {
         "sku": null,
         "label": "ALU KLEMSCHAAL P189 KLEMSCHAAL TULE P152 TW TYPE MK P153",
+        "page": 16,
         "page_in_pdf": 16,
         "properties": {
           "type": "alu_klemschaal_p189_klemschaal_tule_p152_tw_type_mk_p153"
@@ -1995,6 +2076,7 @@
       {
         "sku": null,
         "label": "ALU KLEMSCHAAL P189 KLEMSCHAAL TULE P152 TW TYPE MK P153",
+        "page": 16,
         "page_in_pdf": 16,
         "properties": {
           "type": "alu_klemschaal_p189_klemschaal_tule_p152_tw_type_mk_p153"
@@ -2007,6 +2089,7 @@
       {
         "sku": null,
         "label": "ALU KLEMSCHAAL P189 KLEMSCHAAL TULE P152 TW TYPE MK P153",
+        "page": 16,
         "page_in_pdf": 16,
         "properties": {
           "type": "alu_klemschaal_p189_klemschaal_tule_p152_tw_type_mk_p153"
@@ -2019,6 +2102,7 @@
       {
         "sku": null,
         "label": "ALU KLEMSCHAAL P189 KLEMSCHAAL TULE P152 TW TYPE MK P153",
+        "page": 16,
         "page_in_pdf": 16,
         "properties": {
           "type": "alu_klemschaal_p189_klemschaal_tule_p152_tw_type_mk_p153"
@@ -2031,6 +2115,7 @@
       {
         "sku": null,
         "label": "ALU KLEMSCHAAL P189 KLEMSCHAAL TULE P152 TW TYPE MK P153",
+        "page": 16,
         "page_in_pdf": 16,
         "properties": {
           "type": "alu_klemschaal_p189_klemschaal_tule_p152_tw_type_mk_p153"
@@ -2043,6 +2128,7 @@
       {
         "sku": null,
         "label": "ALU KLEMSCHAAL P189 KLEMSCHAAL TULE P152 TW TYPE MK P153",
+        "page": 16,
         "page_in_pdf": 16,
         "properties": {
           "type": "alu_klemschaal_p189_klemschaal_tule_p152_tw_type_mk_p153"
@@ -2055,6 +2141,7 @@
       {
         "sku": null,
         "label": "ALU KLEMSCHAAL P189 KLEMSCHAAL TULE P152 TW TYPE MK P153",
+        "page": 16,
         "page_in_pdf": 16,
         "properties": {
           "type": "alu_klemschaal_p189_klemschaal_tule_p152_tw_type_mk_p153"
@@ -2067,6 +2154,7 @@
       {
         "sku": null,
         "label": "ALU KLEMSCHAAL P189 KLEMSCHAAL TULE P152 TW TYPE MK P153",
+        "page": 16,
         "page_in_pdf": 16,
         "properties": {
           "type": "alu_klemschaal_p189_klemschaal_tule_p152_tw_type_mk_p153"
@@ -2079,6 +2167,7 @@
       {
         "sku": null,
         "label": "ALU KLEMSCHAAL P189 KLEMSCHAAL TULE P152 TW TYPE MK P153",
+        "page": 16,
         "page_in_pdf": 16,
         "properties": {
           "type": "alu_klemschaal_p189_klemschaal_tule_p152_tw_type_mk_p153"
@@ -2091,6 +2180,7 @@
       {
         "sku": null,
         "label": "ALU KLEMSCHAAL P189 KLEMSCHAAL TULE P152 TW TYPE MK P153",
+        "page": 16,
         "page_in_pdf": 16,
         "properties": {
           "type": "alu_klemschaal_p189_klemschaal_tule_p152_tw_type_mk_p153"
@@ -2101,31 +2191,24 @@
         }
       }
     ],
-    "images": [
-      "images/rubber-slangen/alu-klemschaal-p189-klemschaal-tule-p152-tw-type-mk-p153__rzpo0100__img5.webp",
-      "images/rubber-slangen/alu-klemschaal-p189-klemschaal-tule-p152-tw-type-mk-p153__rpz250.webp",
-      "images/rubber-slangen/rubber-slangen__p16__alu-klemschaal-p189-klemschaal-tule-p152__RPZ250-RZP025-RZP038__v1.webp"
-    ],
+    "images": [],
     "variant_count": 42,
     "default_variant_sku": "RPZ250",
-    "media": [
-      {
-        "role": "main",
-        "url": "images/rubber-slangen/alu-klemschaal-p189-klemschaal-tule-p152-tw-type-mk-p153__rzpo0100__img5.webp"
-      }
-    ]
+    "media": []
   },
   {
-    "group_id": "rubber-slangen-supraklem-w2-p192-storz-koppeling-p126",
+    "group_id": "rubber-slangen-rubber-slangen-supraklem-w2-p192-storz-koppeling-p126",
     "name": "SUPRAKLEM W2 P192 STORZ KOPPELING P126",
-    "family": "supraklem-w2-p192-storz-koppeling-p126",
+    "family": "rubber-slangen__supraklem-w2-p192-storz-koppeling-p126",
     "catalog": "rubber-slangen",
+    "source_pdf": "rubber-slangen.pdf",
     "brand": "Various",
     "category": "SUPRAKLEM W2 P192 STORZ KOPPELING P126",
     "variants": [
       {
         "sku": "RZPBB050",
         "label": "SUPRAKLEM W2 P192 STORZ KOPPELING P126",
+        "page": 20,
         "page_in_pdf": 20,
         "properties": {
           "type": "supraklem_w2_p192_storz_koppeling_p126"
@@ -2138,6 +2221,7 @@
       {
         "sku": "RZPBB050",
         "label": "SUPRAKLEM W2 P192 STORZ KOPPELING P126",
+        "page": 20,
         "page_in_pdf": 20,
         "properties": {
           "type": "supraklem_w2_p192_storz_koppeling_p126"
@@ -2150,6 +2234,7 @@
       {
         "sku": "RZPBB075",
         "label": "SUPRAKLEM W2 P192 STORZ KOPPELING P126",
+        "page": 20,
         "page_in_pdf": 20,
         "properties": {
           "type": "supraklem_w2_p192_storz_koppeling_p126"
@@ -2162,6 +2247,7 @@
       {
         "sku": "RZPBB080",
         "label": "SUPRAKLEM W2 P192 STORZ KOPPELING P126",
+        "page": 20,
         "page_in_pdf": 20,
         "properties": {
           "type": "supraklem_w2_p192_storz_koppeling_p126"
@@ -2174,6 +2260,7 @@
       {
         "sku": "RZPBB090",
         "label": "SUPRAKLEM W2 P192 STORZ KOPPELING P126",
+        "page": 20,
         "page_in_pdf": 20,
         "properties": {
           "type": "supraklem_w2_p192_storz_koppeling_p126"
@@ -2186,6 +2273,7 @@
       {
         "sku": "RZPBB100",
         "label": "SUPRAKLEM W2 P192 STORZ KOPPELING P126",
+        "page": 20,
         "page_in_pdf": 20,
         "properties": {
           "type": "supraklem_w2_p192_storz_koppeling_p126"
@@ -2198,6 +2286,7 @@
       {
         "sku": "RZPBB110",
         "label": "SUPRAKLEM W2 P192 STORZ KOPPELING P126",
+        "page": 20,
         "page_in_pdf": 20,
         "properties": {
           "type": "supraklem_w2_p192_storz_koppeling_p126"
@@ -2210,6 +2299,7 @@
       {
         "sku": "RZPBB125",
         "label": "SUPRAKLEM W2 P192 STORZ KOPPELING P126",
+        "page": 20,
         "page_in_pdf": 20,
         "properties": {
           "type": "supraklem_w2_p192_storz_koppeling_p126"
@@ -2222,6 +2312,7 @@
       {
         "sku": "RZPBB150",
         "label": "SUPRAKLEM W2 P192 STORZ KOPPELING P126",
+        "page": 20,
         "page_in_pdf": 20,
         "properties": {
           "type": "supraklem_w2_p192_storz_koppeling_p126"
@@ -2234,6 +2325,7 @@
       {
         "sku": "RZPBB200",
         "label": "SUPRAKLEM W2 P192 STORZ KOPPELING P126",
+        "page": 20,
         "page_in_pdf": 20,
         "properties": {
           "type": "supraklem_w2_p192_storz_koppeling_p126"
@@ -2244,30 +2336,24 @@
         }
       }
     ],
-    "images": [
-      "images/rubber-slangen/supraklem-w2-p192-storz-koppeling-p126__rzpbb050.webp",
-      "images/rubber-slangen/rubber-slangen__p20__supraklem-w2-p192-storz-koppeling-p126__RZPBB050-RZPBB050-RZPBB075__v1.webp"
-    ],
+    "images": [],
     "variant_count": 10,
     "default_variant_sku": "RZPBB050",
-    "media": [
-      {
-        "role": "main",
-        "url": "images/rubber-slangen/supraklem-w2-p192-storz-koppeling-p126__rzpbb050.webp"
-      }
-    ]
+    "media": []
   },
   {
-    "group_id": "rubber-slangen-rvs-klemschaal-p189-klemschaal-tule-p155-tw-type-mk-p156",
+    "group_id": "rubber-slangen-rubber-slangen-rvs-klemschaal-p189-klemschaal-tule-p155-tw-type-mk-p156",
     "name": "RVS KLEMSCHAAL P189 KLEMSCHAAL TULE P155 TW TYPE MK P156",
-    "family": "rvs-klemschaal-p189-klemschaal-tule-p155-tw-type-mk-p156",
+    "family": "rubber-slangen__rvs-klemschaal-p189-klemschaal-tule-p155-tw-type-mk-p156",
     "catalog": "rubber-slangen",
+    "source_pdf": "rubber-slangen.pdf",
     "brand": "Various",
     "category": "RVS KLEMSCHAAL P189 KLEMSCHAAL TULE P155 TW TYPE MK P156",
     "variants": [
       {
         "sku": "RZPCHE019",
         "label": "RVS KLEMSCHAAL P189 KLEMSCHAAL TULE P155 TW TYPE MK P156",
+        "page": 22,
         "page_in_pdf": 22,
         "properties": {
           "type": "rvs_klemschaal_p189_klemschaal_tule_p155_tw_type_mk_p156"
@@ -2280,6 +2366,7 @@
       {
         "sku": "RZPCHE019",
         "label": "RVS KLEMSCHAAL P189 KLEMSCHAAL TULE P155 TW TYPE MK P156",
+        "page": 22,
         "page_in_pdf": 22,
         "properties": {
           "type": "rvs_klemschaal_p189_klemschaal_tule_p155_tw_type_mk_p156"
@@ -2292,6 +2379,7 @@
       {
         "sku": "RZPCHE032",
         "label": "RVS KLEMSCHAAL P189 KLEMSCHAAL TULE P155 TW TYPE MK P156",
+        "page": 22,
         "page_in_pdf": 22,
         "properties": {
           "type": "rvs_klemschaal_p189_klemschaal_tule_p155_tw_type_mk_p156"
@@ -2304,6 +2392,7 @@
       {
         "sku": "RZPCHE038",
         "label": "RVS KLEMSCHAAL P189 KLEMSCHAAL TULE P155 TW TYPE MK P156",
+        "page": 22,
         "page_in_pdf": 22,
         "properties": {
           "type": "rvs_klemschaal_p189_klemschaal_tule_p155_tw_type_mk_p156"
@@ -2316,6 +2405,7 @@
       {
         "sku": "RZPCHE050",
         "label": "RVS KLEMSCHAAL P189 KLEMSCHAAL TULE P155 TW TYPE MK P156",
+        "page": 22,
         "page_in_pdf": 22,
         "properties": {
           "type": "rvs_klemschaal_p189_klemschaal_tule_p155_tw_type_mk_p156"
@@ -2328,6 +2418,7 @@
       {
         "sku": "RZPCHE075",
         "label": "RVS KLEMSCHAAL P189 KLEMSCHAAL TULE P155 TW TYPE MK P156",
+        "page": 22,
         "page_in_pdf": 22,
         "properties": {
           "type": "rvs_klemschaal_p189_klemschaal_tule_p155_tw_type_mk_p156"
@@ -2340,6 +2431,7 @@
       {
         "sku": "RZPCHE100",
         "label": "RVS KLEMSCHAAL P189 KLEMSCHAAL TULE P155 TW TYPE MK P156",
+        "page": 22,
         "page_in_pdf": 22,
         "properties": {
           "type": "rvs_klemschaal_p189_klemschaal_tule_p155_tw_type_mk_p156"
@@ -2352,6 +2444,7 @@
       {
         "sku": "RZPCHU019",
         "label": "RVS KLEMSCHAAL P189 KLEMSCHAAL TULE P155 TW TYPE MK P156",
+        "page": 23,
         "page_in_pdf": 23,
         "properties": {
           "type": "rvs_klemschaal_p189_klemschaal_tule_p155_tw_type_mk_p156"
@@ -2364,6 +2457,7 @@
       {
         "sku": "RZPCHU019",
         "label": "RVS KLEMSCHAAL P189 KLEMSCHAAL TULE P155 TW TYPE MK P156",
+        "page": 23,
         "page_in_pdf": 23,
         "properties": {
           "type": "rvs_klemschaal_p189_klemschaal_tule_p155_tw_type_mk_p156"
@@ -2376,6 +2470,7 @@
       {
         "sku": "RZPCHU032",
         "label": "RVS KLEMSCHAAL P189 KLEMSCHAAL TULE P155 TW TYPE MK P156",
+        "page": 23,
         "page_in_pdf": 23,
         "properties": {
           "type": "rvs_klemschaal_p189_klemschaal_tule_p155_tw_type_mk_p156"
@@ -2388,6 +2483,7 @@
       {
         "sku": "RZPCHU038",
         "label": "RVS KLEMSCHAAL P189 KLEMSCHAAL TULE P155 TW TYPE MK P156",
+        "page": 23,
         "page_in_pdf": 23,
         "properties": {
           "type": "rvs_klemschaal_p189_klemschaal_tule_p155_tw_type_mk_p156"
@@ -2400,6 +2496,7 @@
       {
         "sku": "RZPCHU050",
         "label": "RVS KLEMSCHAAL P189 KLEMSCHAAL TULE P155 TW TYPE MK P156",
+        "page": 23,
         "page_in_pdf": 23,
         "properties": {
           "type": "rvs_klemschaal_p189_klemschaal_tule_p155_tw_type_mk_p156"
@@ -2412,6 +2509,7 @@
       {
         "sku": "RZPCHU063",
         "label": "RVS KLEMSCHAAL P189 KLEMSCHAAL TULE P155 TW TYPE MK P156",
+        "page": 23,
         "page_in_pdf": 23,
         "properties": {
           "type": "rvs_klemschaal_p189_klemschaal_tule_p155_tw_type_mk_p156"
@@ -2424,6 +2522,7 @@
       {
         "sku": "RZPCHU075",
         "label": "RVS KLEMSCHAAL P189 KLEMSCHAAL TULE P155 TW TYPE MK P156",
+        "page": 23,
         "page_in_pdf": 23,
         "properties": {
           "type": "rvs_klemschaal_p189_klemschaal_tule_p155_tw_type_mk_p156"
@@ -2436,6 +2535,7 @@
       {
         "sku": "RZPCHU100",
         "label": "RVS KLEMSCHAAL P189 KLEMSCHAAL TULE P155 TW TYPE MK P156",
+        "page": 23,
         "page_in_pdf": 23,
         "properties": {
           "type": "rvs_klemschaal_p189_klemschaal_tule_p155_tw_type_mk_p156"
@@ -2446,30 +2546,24 @@
         }
       }
     ],
-    "images": [
-      "images/rubber-slangen/rvs-klemschaal-p189-klemschaal-tule-p155-tw-type-mk-p156__rzpche019.webp",
-      "images/rubber-slangen/rubber-slangen__p22__rvs-klemschaal-p189-klemschaal-tule-p155__RZPCHE019-RZPCHE019-RZPCHE032__v1.webp"
-    ],
+    "images": [],
     "variant_count": 15,
     "default_variant_sku": "RZPCHE019",
-    "media": [
-      {
-        "role": "main",
-        "url": "images/rubber-slangen/rvs-klemschaal-p189-klemschaal-tule-p155-tw-type-mk-p156__rzpche019.webp"
-      }
-    ]
+    "media": []
   },
   {
-    "group_id": "rubber-slangen-supraklem-w2-p192-bauer-koppeling-p92-perrot-koppeling-p109",
+    "group_id": "rubber-slangen-rubber-slangen-supraklem-w2-p192-bauer-koppeling-p92-perrot-koppeling-p109",
     "name": "SUPRAKLEM W2 P192 BAUER KOPPELING P92 PERROT KOPPELING P109",
-    "family": "supraklem-w2-p192-bauer-koppeling-p92-perrot-koppeling-p109",
+    "family": "rubber-slangen__supraklem-w2-p192-bauer-koppeling-p92-perrot-koppeling-p109",
     "catalog": "rubber-slangen",
+    "source_pdf": "rubber-slangen.pdf",
     "brand": "Various",
     "category": "SUPRAKLEM W2 P192 BAUER KOPPELING P92 PERROT KOPPELING P109",
     "variants": [
       {
         "sku": "RZPSF100",
         "label": "SUPRAKLEM W2 P192 BAUER KOPPELING P92 PERROT KOPPELING P109",
+        "page": 19,
         "page_in_pdf": 19,
         "properties": {
           "type": "supraklem_w2_p192_bauer_koppeling_p92_perrot_koppeling_p109"
@@ -2482,6 +2576,7 @@
       {
         "sku": "RZPSF125",
         "label": "SUPRAKLEM W2 P192 BAUER KOPPELING P92 PERROT KOPPELING P109",
+        "page": 19,
         "page_in_pdf": 19,
         "properties": {
           "type": "supraklem_w2_p192_bauer_koppeling_p92_perrot_koppeling_p109"
@@ -2494,6 +2589,7 @@
       {
         "sku": "RZPSF150",
         "label": "SUPRAKLEM W2 P192 BAUER KOPPELING P92 PERROT KOPPELING P109",
+        "page": 19,
         "page_in_pdf": 19,
         "properties": {
           "type": "supraklem_w2_p192_bauer_koppeling_p92_perrot_koppeling_p109"
@@ -2506,6 +2602,7 @@
       {
         "sku": "RZPSF200",
         "label": "SUPRAKLEM W2 P192 BAUER KOPPELING P92 PERROT KOPPELING P109",
+        "page": 19,
         "page_in_pdf": 19,
         "properties": {
           "type": "supraklem_w2_p192_bauer_koppeling_p92_perrot_koppeling_p109"
@@ -2517,29 +2614,30 @@
       }
     ],
     "images": [
-      "images/rubber-slangen/supraklem-w2-p192-bauer-koppeling-p92-perrot-koppeling-p109__rzpsf100.webp",
-      "images/rubber-slangen/rubber-slangen__p19__supraklem-w2-p192-bauer-koppeling-p92-pe__RZPSF100-RZPSF125-RZPSF150__v1.webp"
+      "images/rubber-slangen/rubber-slangen__p19__supraklem-w2-p192-bauer-koppeling-p92-pe__RZPSF100-RZPSF125-RZPSF150.webp"
     ],
     "variant_count": 4,
     "default_variant_sku": "RZPSF100",
     "media": [
       {
         "role": "main",
-        "url": "images/rubber-slangen/supraklem-w2-p192-bauer-koppeling-p92-perrot-koppeling-p109__rzpsf100.webp"
+        "url": "images/rubber-slangen/rubber-slangen__p19__supraklem-w2-p192-bauer-koppeling-p92-pe__RZPSF100-RZPSF125-RZPSF150.webp"
       }
     ]
   },
   {
-    "group_id": "rubber-slangen-rvs-klemschaal-p189-klemschaal-tule-p155-din-11851-tule-p149",
+    "group_id": "rubber-slangen-rubber-slangen-rvs-klemschaal-p189-klemschaal-tule-p155-din-11851-tule-p149",
     "name": "RVS KLEMSCHAAL P189 KLEMSCHAAL TULE P155 DIN 11851 TULE P149",
-    "family": "rvs-klemschaal-p189-klemschaal-tule-p155-din-11851-tule-p149",
+    "family": "rubber-slangen__rvs-klemschaal-p189-klemschaal-tule-p155-din-11851-tule-p149",
     "catalog": "rubber-slangen",
+    "source_pdf": "rubber-slangen.pdf",
     "brand": "Various",
     "category": "RVS KLEMSCHAAL P189 KLEMSCHAAL TULE P155 DIN 11851 TULE P149",
     "variants": [
       {
         "sku": "RZPV013",
         "label": "RVS KLEMSCHAAL P189 KLEMSCHAAL TULE P155 DIN 11851 TULE P149",
+        "page": 21,
         "page_in_pdf": 21,
         "properties": {
           "type": "rvs_klemschaal_p189_klemschaal_tule_p155_din_11851_tule_p149"
@@ -2552,6 +2650,7 @@
       {
         "sku": "RZPV013",
         "label": "RVS KLEMSCHAAL P189 KLEMSCHAAL TULE P155 DIN 11851 TULE P149",
+        "page": 21,
         "page_in_pdf": 21,
         "properties": {
           "type": "rvs_klemschaal_p189_klemschaal_tule_p155_din_11851_tule_p149"
@@ -2564,6 +2663,7 @@
       {
         "sku": "RZPV025",
         "label": "RVS KLEMSCHAAL P189 KLEMSCHAAL TULE P155 DIN 11851 TULE P149",
+        "page": 21,
         "page_in_pdf": 21,
         "properties": {
           "type": "rvs_klemschaal_p189_klemschaal_tule_p155_din_11851_tule_p149"
@@ -2576,6 +2676,7 @@
       {
         "sku": "RZPV032",
         "label": "RVS KLEMSCHAAL P189 KLEMSCHAAL TULE P155 DIN 11851 TULE P149",
+        "page": 21,
         "page_in_pdf": 21,
         "properties": {
           "type": "rvs_klemschaal_p189_klemschaal_tule_p155_din_11851_tule_p149"
@@ -2588,6 +2689,7 @@
       {
         "sku": "RZPV038",
         "label": "RVS KLEMSCHAAL P189 KLEMSCHAAL TULE P155 DIN 11851 TULE P149",
+        "page": 21,
         "page_in_pdf": 21,
         "properties": {
           "type": "rvs_klemschaal_p189_klemschaal_tule_p155_din_11851_tule_p149"
@@ -2600,6 +2702,7 @@
       {
         "sku": "RZPV063",
         "label": "RVS KLEMSCHAAL P189 KLEMSCHAAL TULE P155 DIN 11851 TULE P149",
+        "page": 21,
         "page_in_pdf": 21,
         "properties": {
           "type": "rvs_klemschaal_p189_klemschaal_tule_p155_din_11851_tule_p149"
@@ -2612,6 +2715,7 @@
       {
         "sku": "RZPV075",
         "label": "RVS KLEMSCHAAL P189 KLEMSCHAAL TULE P155 DIN 11851 TULE P149",
+        "page": 21,
         "page_in_pdf": 21,
         "properties": {
           "type": "rvs_klemschaal_p189_klemschaal_tule_p155_din_11851_tule_p149"
@@ -2624,6 +2728,7 @@
       {
         "sku": "RZPV090",
         "label": "RVS KLEMSCHAAL P189 KLEMSCHAAL TULE P155 DIN 11851 TULE P149",
+        "page": 21,
         "page_in_pdf": 21,
         "properties": {
           "type": "rvs_klemschaal_p189_klemschaal_tule_p155_din_11851_tule_p149"
@@ -2636,6 +2741,7 @@
       {
         "sku": "RZPV100",
         "label": "RVS KLEMSCHAAL P189 KLEMSCHAAL TULE P155 DIN 11851 TULE P149",
+        "page": 21,
         "page_in_pdf": 21,
         "properties": {
           "type": "rvs_klemschaal_p189_klemschaal_tule_p155_din_11851_tule_p149"
@@ -2648,6 +2754,7 @@
       {
         "sku": null,
         "label": "RVS KLEMSCHAAL P189 KLEMSCHAAL TULE P155 DIN 11851 TULE P149",
+        "page": 21,
         "page_in_pdf": 21,
         "properties": {
           "type": "rvs_klemschaal_p189_klemschaal_tule_p155_din_11851_tule_p149"
@@ -2658,30 +2765,24 @@
         }
       }
     ],
-    "images": [
-      "images/rubber-slangen/rvs-klemschaal-p189-klemschaal-tule-p155-din-11851-tule-p149__rzpv013.webp",
-      "images/rubber-slangen/rubber-slangen__p21__rvs-klemschaal-p189-klemschaal-tule-p155__RZPV013-RZPV013-RZPV025__v1.webp"
-    ],
+    "images": [],
     "variant_count": 10,
     "default_variant_sku": "RZPV013",
-    "media": [
-      {
-        "role": "main",
-        "url": "images/rubber-slangen/rvs-klemschaal-p189-klemschaal-tule-p155-din-11851-tule-p149__rzpv013.webp"
-      }
-    ]
+    "media": []
   },
   {
-    "group_id": "rubber-slangen-supraklem-w2-p192-bauer-koppeling-p98-perrot-koppeling-p109",
+    "group_id": "rubber-slangen-rubber-slangen-supraklem-w2-p192-bauer-koppeling-p98-perrot-koppeling-p109",
     "name": "SUPRAKLEM W2 P192 BAUER KOPPELING P98 PERROT KOPPELING P109",
-    "family": "supraklem-w2-p192-bauer-koppeling-p98-perrot-koppeling-p109",
+    "family": "rubber-slangen__supraklem-w2-p192-bauer-koppeling-p98-perrot-koppeling-p109",
     "catalog": "rubber-slangen",
+    "source_pdf": "rubber-slangen.pdf",
     "brand": "Various",
     "category": "SUPRAKLEM W2 P192 BAUER KOPPELING P98 PERROT KOPPELING P109",
     "variants": [
       {
         "sku": "RZPZU050",
         "label": "SUPRAKLEM W2 P192 BAUER KOPPELING P98 PERROT KOPPELING P109",
+        "page": 18,
         "page_in_pdf": 18,
         "properties": {
           "type": "supraklem_w2_p192_bauer_koppeling_p98_perrot_koppeling_p109"
@@ -2694,6 +2795,7 @@
       {
         "sku": "RZPZU050",
         "label": "SUPRAKLEM W2 P192 BAUER KOPPELING P98 PERROT KOPPELING P109",
+        "page": 18,
         "page_in_pdf": 18,
         "properties": {
           "type": "supraklem_w2_p192_bauer_koppeling_p98_perrot_koppeling_p109"
@@ -2706,6 +2808,7 @@
       {
         "sku": "RZPZU063",
         "label": "SUPRAKLEM W2 P192 BAUER KOPPELING P98 PERROT KOPPELING P109",
+        "page": 18,
         "page_in_pdf": 18,
         "properties": {
           "type": "supraklem_w2_p192_bauer_koppeling_p98_perrot_koppeling_p109"
@@ -2718,6 +2821,7 @@
       {
         "sku": "RZPZU063",
         "label": "SUPRAKLEM W2 P192 BAUER KOPPELING P98 PERROT KOPPELING P109",
+        "page": 18,
         "page_in_pdf": 18,
         "properties": {
           "type": "supraklem_w2_p192_bauer_koppeling_p98_perrot_koppeling_p109"
@@ -2730,6 +2834,7 @@
       {
         "sku": "RZPZU080",
         "label": "SUPRAKLEM W2 P192 BAUER KOPPELING P98 PERROT KOPPELING P109",
+        "page": 18,
         "page_in_pdf": 18,
         "properties": {
           "type": "supraklem_w2_p192_bauer_koppeling_p98_perrot_koppeling_p109"
@@ -2742,6 +2847,7 @@
       {
         "sku": "RZPZU090",
         "label": "SUPRAKLEM W2 P192 BAUER KOPPELING P98 PERROT KOPPELING P109",
+        "page": 18,
         "page_in_pdf": 18,
         "properties": {
           "type": "supraklem_w2_p192_bauer_koppeling_p98_perrot_koppeling_p109"
@@ -2754,6 +2860,7 @@
       {
         "sku": "RZPZU100",
         "label": "SUPRAKLEM W2 P192 BAUER KOPPELING P98 PERROT KOPPELING P109",
+        "page": 18,
         "page_in_pdf": 18,
         "properties": {
           "type": "supraklem_w2_p192_bauer_koppeling_p98_perrot_koppeling_p109"
@@ -2766,6 +2873,7 @@
       {
         "sku": "RZPZU115",
         "label": "SUPRAKLEM W2 P192 BAUER KOPPELING P98 PERROT KOPPELING P109",
+        "page": 18,
         "page_in_pdf": 18,
         "properties": {
           "type": "supraklem_w2_p192_bauer_koppeling_p98_perrot_koppeling_p109"
@@ -2778,6 +2886,7 @@
       {
         "sku": "RZPZU125",
         "label": "SUPRAKLEM W2 P192 BAUER KOPPELING P98 PERROT KOPPELING P109",
+        "page": 18,
         "page_in_pdf": 18,
         "properties": {
           "type": "supraklem_w2_p192_bauer_koppeling_p98_perrot_koppeling_p109"
@@ -2790,6 +2899,7 @@
       {
         "sku": "RZPZU150",
         "label": "SUPRAKLEM W2 P192 BAUER KOPPELING P98 PERROT KOPPELING P109",
+        "page": 18,
         "page_in_pdf": 18,
         "properties": {
           "type": "supraklem_w2_p192_bauer_koppeling_p98_perrot_koppeling_p109"
@@ -2802,6 +2912,7 @@
       {
         "sku": "RZPZU200",
         "label": "SUPRAKLEM W2 P192 BAUER KOPPELING P98 PERROT KOPPELING P109",
+        "page": 18,
         "page_in_pdf": 18,
         "properties": {
           "type": "supraklem_w2_p192_bauer_koppeling_p98_perrot_koppeling_p109"
@@ -2814,6 +2925,7 @@
       {
         "sku": "RZPZU250",
         "label": "SUPRAKLEM W2 P192 BAUER KOPPELING P98 PERROT KOPPELING P109",
+        "page": 18,
         "page_in_pdf": 18,
         "properties": {
           "type": "supraklem_w2_p192_bauer_koppeling_p98_perrot_koppeling_p109"
@@ -2826,6 +2938,7 @@
       {
         "sku": "RZPZU300",
         "label": "SUPRAKLEM W2 P192 BAUER KOPPELING P98 PERROT KOPPELING P109",
+        "page": 18,
         "page_in_pdf": 18,
         "properties": {
           "type": "supraklem_w2_p192_bauer_koppeling_p98_perrot_koppeling_p109"
@@ -2836,30 +2949,24 @@
         }
       }
     ],
-    "images": [
-      "images/rubber-slangen/supraklem-w2-p192-bauer-koppeling-p98-perrot-koppeling-p109__rzpzu050.webp",
-      "images/rubber-slangen/rubber-slangen__p18__supraklem-w2-p192-bauer-koppeling-p98-pe__RZPZU050-RZPZU050-RZPZU063__v1.webp"
-    ],
+    "images": [],
     "variant_count": 13,
     "default_variant_sku": "RZPZU050",
-    "media": [
-      {
-        "role": "main",
-        "url": "images/rubber-slangen/supraklem-w2-p192-bauer-koppeling-p98-perrot-koppeling-p109__rzpzu050.webp"
-      }
-    ]
+    "media": []
   },
   {
-    "group_id": "rubber-slangen-oorklem-p190-mini-clip-p190-messing-vaareind-p184",
+    "group_id": "rubber-slangen-rubber-slangen-oorklem-p190-mini-clip-p190-messing-vaareind-p184",
     "name": "OORKLEM P190 MINI-CLIP P190 MESSING VAAREIND P184",
-    "family": "oorklem-p190-mini-clip-p190-messing-vaareind-p184",
+    "family": "rubber-slangen__oorklem-p190-mini-clip-p190-messing-vaareind-p184",
     "catalog": "rubber-slangen",
+    "source_pdf": "rubber-slangen.pdf",
     "brand": "Various",
     "category": "OORKLEM P190 MINI-CLIP P190 MESSING VAAREIND P184",
     "variants": [
       {
         "sku": "SLGA04",
         "label": "OORKLEM P190 MINI-CLIP P190 MESSING VAAREIND P184",
+        "page": 11,
         "page_in_pdf": 11,
         "properties": {
           "type": "oorklem_p190_mini_clip_p190_messing_vaareind_p184"
@@ -2872,6 +2979,7 @@
       {
         "sku": "SLGA06",
         "label": "OORKLEM P190 MINI-CLIP P190 MESSING VAAREIND P184",
+        "page": 11,
         "page_in_pdf": 11,
         "properties": {
           "type": "oorklem_p190_mini_clip_p190_messing_vaareind_p184"
@@ -2884,6 +2992,7 @@
       {
         "sku": "SLGA09",
         "label": "OORKLEM P190 MINI-CLIP P190 MESSING VAAREIND P184",
+        "page": 11,
         "page_in_pdf": 11,
         "properties": {
           "type": "oorklem_p190_mini_clip_p190_messing_vaareind_p184"
@@ -2896,6 +3005,7 @@
       {
         "sku": "SLGA13",
         "label": "OORKLEM P190 MINI-CLIP P190 MESSING VAAREIND P184",
+        "page": 11,
         "page_in_pdf": 11,
         "properties": {
           "type": "oorklem_p190_mini_clip_p190_messing_vaareind_p184"
@@ -2908,6 +3018,7 @@
       {
         "sku": "SLGA19",
         "label": "OORKLEM P190 MINI-CLIP P190 MESSING VAAREIND P184",
+        "page": 11,
         "page_in_pdf": 11,
         "properties": {
           "type": "oorklem_p190_mini_clip_p190_messing_vaareind_p184"
@@ -2920,6 +3031,7 @@
       {
         "sku": "SLGT05",
         "label": "OORKLEM P190 MINI-CLIP P190 MESSING VAAREIND P184",
+        "page": 12,
         "page_in_pdf": 12,
         "properties": {
           "type": "oorklem_p190_mini_clip_p190_messing_vaareind_p184"
@@ -2932,6 +3044,7 @@
       {
         "sku": "SLGT08",
         "label": "OORKLEM P190 MINI-CLIP P190 MESSING VAAREIND P184",
+        "page": 12,
         "page_in_pdf": 12,
         "properties": {
           "type": "oorklem_p190_mini_clip_p190_messing_vaareind_p184"
@@ -2944,6 +3057,7 @@
       {
         "sku": null,
         "label": "OORKLEM P190 MINI-CLIP P190 MESSING VAAREIND P184",
+        "page": 11,
         "page_in_pdf": 11,
         "properties": {
           "type": "oorklem_p190_mini_clip_p190_messing_vaareind_p184"
@@ -2956,6 +3070,7 @@
       {
         "sku": null,
         "label": "OORKLEM P190 MINI-CLIP P190 MESSING VAAREIND P184",
+        "page": 11,
         "page_in_pdf": 11,
         "properties": {
           "type": "oorklem_p190_mini_clip_p190_messing_vaareind_p184"
@@ -2968,6 +3083,7 @@
       {
         "sku": null,
         "label": "OORKLEM P190 MINI-CLIP P190 MESSING VAAREIND P184",
+        "page": 11,
         "page_in_pdf": 11,
         "properties": {
           "type": "oorklem_p190_mini_clip_p190_messing_vaareind_p184"
@@ -2980,6 +3096,7 @@
       {
         "sku": null,
         "label": "OORKLEM P190 MINI-CLIP P190 MESSING VAAREIND P184",
+        "page": 11,
         "page_in_pdf": 11,
         "properties": {
           "type": "oorklem_p190_mini_clip_p190_messing_vaareind_p184"
@@ -2992,6 +3109,7 @@
       {
         "sku": null,
         "label": "OORKLEM P190 MINI-CLIP P190 MESSING VAAREIND P184",
+        "page": 11,
         "page_in_pdf": 11,
         "properties": {
           "type": "oorklem_p190_mini_clip_p190_messing_vaareind_p184"
@@ -3004,6 +3122,7 @@
       {
         "sku": null,
         "label": "OORKLEM P190 MINI-CLIP P190 MESSING VAAREIND P184",
+        "page": 12,
         "page_in_pdf": 12,
         "properties": {
           "type": "oorklem_p190_mini_clip_p190_messing_vaareind_p184"
@@ -3016,6 +3135,7 @@
       {
         "sku": null,
         "label": "OORKLEM P190 MINI-CLIP P190 MESSING VAAREIND P184",
+        "page": 12,
         "page_in_pdf": 12,
         "properties": {
           "type": "oorklem_p190_mini_clip_p190_messing_vaareind_p184"
@@ -3027,30 +3147,30 @@
       }
     ],
     "images": [
-      "images/rubber-slangen/rubber-slangen__p12__oorklem-p190-mini-clip-p190-messing-vaar__slgt0__slgt05-slgt08.webp",
-      "images/rubber-slangen/oorklem-p190-mini-clip-p190-messing-vaareind-p184__slga04.webp",
-      "images/rubber-slangen/rubber-slangen__p11__oorklem-p190-mini-clip-p190-messing-vaar__SLGA04-SLGA06-SLGA09__v1.webp"
+      "images/rubber-slangen/rubber-slangen__p12__oorklem-p190-mini-clip-p190-messing-vaar__SLGT05-SLGT08.webp"
     ],
     "variant_count": 14,
     "default_variant_sku": "SLGA04",
     "media": [
       {
         "role": "main",
-        "url": "images/rubber-slangen/rubber-slangen__p12__oorklem-p190-mini-clip-p190-messing-vaar__slgt0__slgt05-slgt08.webp"
+        "url": "images/rubber-slangen/rubber-slangen__p12__oorklem-p190-mini-clip-p190-messing-vaar__SLGT05-SLGT08.webp"
       }
     ]
   },
   {
-    "group_id": "rubber-slangen-bandklem-p195-slangklemband-p195-bauer-koppeling-p92-perrot-koppeling-p102",
+    "group_id": "rubber-slangen-rubber-slangen-bandklem-p195-slangklemband-p195-bauer-koppeling-p92-perrot-koppeling-p102",
     "name": "BANDKLEM P195 SLANGKLEMBAND P195 BAUER KOPPELING P92 PERROT KOPPELING P102",
-    "family": "bandklem-p195-slangklemband-p195-bauer-koppeling-p92-perrot-koppeling-p102",
+    "family": "rubber-slangen__bandklem-p195-slangklemband-p195-bauer-koppeling-p92-perrot-koppeling-p102",
     "catalog": "rubber-slangen",
+    "source_pdf": "rubber-slangen.pdf",
     "brand": "Various",
     "category": "BANDKLEM P195 SLANGKLEMBAND P195 BAUER KOPPELING P92 PERROT KOPPELING P102",
     "variants": [
       {
         "sku": "ZGA075",
         "label": "BANDKLEM P195 SLANGKLEMBAND P195 BAUER KOPPELING P92 PERROT KOPPELING P102",
+        "page": 17,
         "page_in_pdf": 17,
         "properties": {
           "type": "bandklem_p195_slangklemband_p195_bauer_koppeling_p92_perrot_koppeling_p102"
@@ -3063,6 +3183,7 @@
       {
         "sku": "ZGA100",
         "label": "BANDKLEM P195 SLANGKLEMBAND P195 BAUER KOPPELING P92 PERROT KOPPELING P102",
+        "page": 17,
         "page_in_pdf": 17,
         "properties": {
           "type": "bandklem_p195_slangklemband_p195_bauer_koppeling_p92_perrot_koppeling_p102"
@@ -3075,6 +3196,7 @@
       {
         "sku": "ZGA150",
         "label": "BANDKLEM P195 SLANGKLEMBAND P195 BAUER KOPPELING P92 PERROT KOPPELING P102",
+        "page": 17,
         "page_in_pdf": 17,
         "properties": {
           "type": "bandklem_p195_slangklemband_p195_bauer_koppeling_p92_perrot_koppeling_p102"
@@ -3087,6 +3209,7 @@
       {
         "sku": null,
         "label": "BANDKLEM P195 SLANGKLEMBAND P195 BAUER KOPPELING P92 PERROT KOPPELING P102",
+        "page": 17,
         "page_in_pdf": 17,
         "properties": {
           "type": "bandklem_p195_slangklemband_p195_bauer_koppeling_p92_perrot_koppeling_p102"
@@ -3099,6 +3222,7 @@
       {
         "sku": null,
         "label": "BANDKLEM P195 SLANGKLEMBAND P195 BAUER KOPPELING P92 PERROT KOPPELING P102",
+        "page": 17,
         "page_in_pdf": 17,
         "properties": {
           "type": "bandklem_p195_slangklemband_p195_bauer_koppeling_p92_perrot_koppeling_p102"
@@ -3109,30 +3233,24 @@
         }
       }
     ],
-    "images": [
-      "images/rubber-slangen/bandklem-p195-slangklemband-p195-bauer-koppeling-p92-perrot-__zga075.webp",
-      "images/rubber-slangen/rubber-slangen__p17__bandklem-p195-slangklemband-p195-bauer-k__ZGA075-ZGA100-ZGA150__v1.webp"
-    ],
+    "images": [],
     "variant_count": 5,
     "default_variant_sku": "ZGA075",
-    "media": [
-      {
-        "role": "main",
-        "url": "images/rubber-slangen/bandklem-p195-slangklemband-p195-bauer-koppeling-p92-perrot-__zga075.webp"
-      }
-    ]
+    "media": []
   },
   {
-    "group_id": "rubber-slangen-zga150-152-166-3-0-9-200-4200-8-10-20-40",
+    "group_id": "rubber-slangen-rubber-slangen-zga150-152-166-3-0-9-200-4200-8-10-20-40",
     "name": "ZGA150 152 166 3 0,9 200 4200 8/10/20/40",
-    "family": "zga150-152-166-3-0-9-200-4200-8-10-20-40",
+    "family": "rubber-slangen__zga150-152-166-3-0-9-200-4200-8-10-20-40",
     "catalog": "rubber-slangen",
+    "source_pdf": "rubber-slangen.pdf",
     "brand": "Various",
     "category": "RECHTE LENGTES",
     "variants": [
       {
         "sku": "ZGA07506",
         "label": "ZGA150 152 166 3 0,9 200 4200 8/10/20/40",
+        "page": 17,
         "page_in_pdf": 17,
         "properties": {
           "type": "zga150_152_166_3_0_9_200_4200_8_10_20_40"
@@ -3145,6 +3263,7 @@
       {
         "sku": "ZGA07506",
         "label": "ZGA150 152 166 3 0,9 200 4200 8/10/20/40",
+        "page": 17,
         "page_in_pdf": 17,
         "properties": {
           "type": "zga150_152_166_3_0_9_200_4200_8_10_20_40"
@@ -3157,6 +3276,7 @@
       {
         "sku": "ZGA10004",
         "label": "ZGA150 152 166 3 0,9 200 4200 8/10/20/40",
+        "page": 17,
         "page_in_pdf": 17,
         "properties": {
           "type": "zga150_152_166_3_0_9_200_4200_8_10_20_40"
@@ -3169,6 +3289,7 @@
       {
         "sku": "ZGA10004",
         "label": "ZGA150 152 166 3 0,9 200 4200 8/10/20/40",
+        "page": 17,
         "page_in_pdf": 17,
         "properties": {
           "type": "zga150_152_166_3_0_9_200_4200_8_10_20_40"
@@ -3181,6 +3302,7 @@
       {
         "sku": "ZGA10006",
         "label": "ZGA150 152 166 3 0,9 200 4200 8/10/20/40",
+        "page": 17,
         "page_in_pdf": 17,
         "properties": {
           "type": "zga150_152_166_3_0_9_200_4200_8_10_20_40"
@@ -3193,6 +3315,7 @@
       {
         "sku": "ZGA12505",
         "label": "ZGA150 152 166 3 0,9 200 4200 8/10/20/40",
+        "page": 17,
         "page_in_pdf": 17,
         "properties": {
           "type": "zga150_152_166_3_0_9_200_4200_8_10_20_40"
@@ -3205,6 +3328,7 @@
       {
         "sku": "ZGA15003",
         "label": "ZGA150 152 166 3 0,9 200 4200 8/10/20/40",
+        "page": 17,
         "page_in_pdf": 17,
         "properties": {
           "type": "zga150_152_166_3_0_9_200_4200_8_10_20_40"
@@ -3217,6 +3341,7 @@
       {
         "sku": "ZGA15004",
         "label": "ZGA150 152 166 3 0,9 200 4200 8/10/20/40",
+        "page": 17,
         "page_in_pdf": 17,
         "properties": {
           "type": "zga150_152_166_3_0_9_200_4200_8_10_20_40"
@@ -3229,6 +3354,7 @@
       {
         "sku": "ZGA15005",
         "label": "ZGA150 152 166 3 0,9 200 4200 8/10/20/40",
+        "page": 17,
         "page_in_pdf": 17,
         "properties": {
           "type": "zga150_152_166_3_0_9_200_4200_8_10_20_40"
@@ -3241,6 +3367,7 @@
       {
         "sku": "ZGA15006",
         "label": "ZGA150 152 166 3 0,9 200 4200 8/10/20/40",
+        "page": 17,
         "page_in_pdf": 17,
         "properties": {
           "type": "zga150_152_166_3_0_9_200_4200_8_10_20_40"
@@ -3251,17 +3378,9 @@
         }
       }
     ],
-    "images": [
-      "images/rubber-slangen/bandklem-p195-slangklemband-p195-bauer-koppeling-p92-perrot-__zga075.webp",
-      "images/rubber-slangen/rubber-slangen__p17__bandklem-p195-slangklemband-p195-bauer-k__ZGA075-ZGA100-ZGA150__v1.webp"
-    ],
+    "images": [],
     "variant_count": 10,
     "default_variant_sku": "ZGA07506",
-    "media": [
-      {
-        "role": "main",
-        "url": "images/rubber-slangen/bandklem-p195-slangklemband-p195-bauer-koppeling-p92-perrot-__zga075.webp"
-      }
-    ]
+    "media": []
   }
 ]
