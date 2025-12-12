@@ -1,44 +1,45 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
-
-# dependencies
-/node_modules
+# Dependencies
+node_modules/
 /.pnp
 .pnp.js
-.yarn/install-state.gz
 
-# testing
+# Testing
 /coverage
 
-# next.js
+# Next.js
 /.next/
 /out/
 
-# production
+# Production
 /build
 
-# misc
+# Misc
 .DS_Store
 *.pem
 
-# debug
+# Debug
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# local env files
+# Local env files
 .env*.local
+.env
 
-# vercel
+# Vercel
 .vercel
 
-# typescript
+# TypeScript
 *.tsbuildinfo
 next-env.d.ts
 
-# Large files that should not be deployed
-public/data/input_pdfs_analysis_v5.json
-src/data/catalog_products_enriched.json
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
 
-# Optional: Exclude PDF documents if not using PDF viewer (339 MB)
-# Uncomment the line below if you want to exclude PDFs:
-# public/documents/
+# OS
+Thumbs.db
+.DS_Store
