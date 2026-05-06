@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "test:learn": "cypress run --reporter ./cypress/plugins/windsurf-reporter.js",
+    "test:analyze": "node scripts/analyze-test-results.cjs"
   },
   "dependencies": {
     "@types/node": "^20.11.19",
