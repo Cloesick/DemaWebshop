@@ -3,7 +3,7 @@ generator client {
 }
 
 datasource db {
-  provider = "postgresql"
+  provider = "sqlite"
   url      = env("DATABASE_URL")
 }
 
@@ -15,12 +15,12 @@ model Account {
   type              String
   provider          String
   providerAccountId String
-  refresh_token     String? @db.Text
-  access_token      String? @db.Text
+  refresh_token     String?
+  access_token      String?
   expires_at        Int?
   token_type        String?
   scope             String?
-  id_token          String? @db.Text
+  id_token          String?
   session_state     String?
 
   user User @relation(fields: [userId], references: [id], onDelete: Cascade)
@@ -53,7 +53,7 @@ model User {
   emailVerified DateTime?
   image         String?
   phone         String?
-  role          Role      @default(CUSTOMER)
+  role          String    @default("CUSTOMER")
   createdAt     DateTime  @default(now())
   updatedAt     DateTime  @updatedAt
 
@@ -66,10 +66,7 @@ model User {
   cart      Cart?
 }
 
-enum Role {
-  CUSTOMER
-  ADMIN
-}
+// Role: "CUSTOMER" | "ADMIN"
 
 model Address {
   id         String  @id @default(cuid())
@@ -85,6 +82,90 @@ model Address {
 
   user   User    @relation(fields: [userId], references: [id], onDelete: Cascade)
   orders Order[]
+}
+
+// ─── PIM (Product Information Management) ─────────────────────────
+
+model Catalog {
+  id          String   @id @default(cuid())
+  name        String   // e.g. "Electronics", "Fashion", "Food & Beverage"
+  slug        String   @unique
+  description String?
+  sector      String   // "ELECTRONICS" | "FASHION" | "FOOD" | "INDUSTRIAL" | "HOME" | "BEAUTY" | "AUTOMOTIVE"
+  isActive    Boolean  @default(true)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  productTypes ProductType[]
+  products     Product[]
+}
+
+model ProductType {
+  id          String   @id @default(cuid())
+  catalogId   String
+  name        String   // e.g. "Laptop", "T-Shirt", "Wine", "Drill"
+  slug        String   @unique
+  description String?
+  icon        String?  // icon identifier
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  catalog    Catalog              @relation(fields: [catalogId], references: [id], onDelete: Cascade)
+  attributes AttributeDefinition[]
+  products   Product[]
+
+  @@index([catalogId])
+}
+
+model AttributeGroup {
+  id          String   @id @default(cuid())
+  name        String   // e.g. "Dimensions", "Technical Specs", "Nutritional Info"
+  slug        String   @unique
+  sortOrder   Int      @default(0)
+  createdAt   DateTime @default(now())
+
+  attributes AttributeDefinition[]
+}
+
+model AttributeDefinition {
+  id            String   @id @default(cuid())
+  productTypeId String
+  groupId       String?
+  name          String   // e.g. "Screen Size", "Color", "Weight"
+  slug          String
+  type          String   // "TEXT" | "NUMBER" | "BOOLEAN" | "SELECT" | "MULTISELECT" | "DATE" | "RICH_TEXT" | "URL" | "COLOR"
+  unit          String?  // e.g. "cm", "kg", "mAh", "GB", "%"
+  isRequired    Boolean  @default(false)
+  isFilterable  Boolean  @default(false)
+  isSearchable  Boolean  @default(false)
+  showOnCard    Boolean  @default(false) // show in product card listing
+  showOnDetail  Boolean  @default(true)  // show on product detail page
+  options       String?  // JSON array of options for SELECT/MULTISELECT types
+  validation    String?  // JSON validation rules: { min, max, pattern, etc. }
+  sortOrder     Int      @default(0)
+  createdAt     DateTime @default(now())
+
+  productType ProductType      @relation(fields: [productTypeId], references: [id], onDelete: Cascade)
+  group       AttributeGroup?  @relation(fields: [groupId], references: [id])
+  values      ProductAttribute[]
+
+  @@unique([productTypeId, slug])
+  @@index([productTypeId])
+  @@index([groupId])
+}
+
+model ProductAttribute {
+  id                    String @id @default(cuid())
+  productId             String
+  attributeDefinitionId String
+  value                 String // stored as string, parsed by type
+
+  product    Product             @relation(fields: [productId], references: [id], onDelete: Cascade)
+  definition AttributeDefinition @relation(fields: [attributeDefinitionId], references: [id], onDelete: Cascade)
+
+  @@unique([productId, attributeDefinitionId])
+  @@index([productId])
+  @@index([attributeDefinitionId])
 }
 
 // ─── Products ───────────────────────────────────────────────────
@@ -104,20 +185,26 @@ model Category {
 }
 
 model Product {
-  id          String   @id @default(cuid())
-  name        String
-  slug        String   @unique
-  description String?  @db.Text
-  price       Int      // stored in cents
-  compareAt   Int?     // original price in cents (for sale display)
-  categoryId  String?
-  images      String[] // array of image URLs
-  featured    Boolean  @default(false)
-  archived    Boolean  @default(false)
-  createdAt   DateTime @default(now())
-  updatedAt   DateTime @updatedAt
+  id            String   @id @default(cuid())
+  name          String
+  slug          String   @unique
+  description   String?
+  price         Int      // stored in cents
+  compareAt     Int?     // original price in cents (for sale display)
+  categoryId    String?
+  catalogId     String?
+  productTypeId String?
+  images        String   @default("[]") // JSON array of image URLs
+  featured      Boolean  @default(false)
+  archived      Boolean  @default(false)
+  productKind   String   @default("PHYSICAL") // "PHYSICAL" | "DIGITAL" | "SERVICE" | "GIFT_CARD"
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
 
-  category      Category?       @relation(fields: [categoryId], references: [id])
+  category      Category?          @relation(fields: [categoryId], references: [id])
+  catalog       Catalog?           @relation(fields: [catalogId], references: [id])
+  productType   ProductType?       @relation(fields: [productTypeId], references: [id])
+  attributes    ProductAttribute[]
   variants      ProductVariant[]
   reviews       Review[]
   wishlistItems WishlistItem[]
@@ -126,6 +213,8 @@ model Product {
 
   @@index([slug])
   @@index([categoryId])
+  @@index([catalogId])
+  @@index([productTypeId])
 }
 
 model ProductVariant {
@@ -177,7 +266,7 @@ model Order {
   id              String      @id @default(cuid())
   userId          String?
   addressId       String?
-  status          OrderStatus @default(PENDING)
+  status          String      @default("PENDING")
   subtotal        Int         // cents
   shipping        Int         @default(0)
   tax             Int         @default(0)
@@ -194,14 +283,7 @@ model Order {
   @@index([userId])
 }
 
-enum OrderStatus {
-  PENDING
-  PROCESSING
-  SHIPPED
-  DELIVERED
-  CANCELLED
-  REFUNDED
-}
+// OrderStatus: "PENDING" | "PROCESSING" | "SHIPPED" | "DELIVERED" | "CANCELLED" | "REFUNDED"
 
 model OrderItem {
   id        String  @id @default(cuid())
@@ -217,6 +299,69 @@ model OrderItem {
   variant ProductVariant? @relation(fields: [variantId], references: [id])
 }
 
+// ─── Discounts & Coupons ──────────────────────────────────────────
+
+model Discount {
+  id              String   @id @default(cuid())
+  code            String   @unique // coupon code, e.g. "SUMMER20"
+  description     String?
+  type            String   // "PERCENTAGE" | "FIXED_AMOUNT" | "FREE_SHIPPING" | "BUY_X_GET_Y"
+  value           Int      // percentage (0-100) or fixed amount in cents
+  minPurchase     Int?     // minimum order amount in cents
+  maxUses         Int?     // total times this discount can be used (null = unlimited)
+  maxUsesPerUser  Int?     // max uses per customer (null = unlimited)
+  usedCount       Int      @default(0)
+  appliesToAll    Boolean  @default(true) // applies to all products
+  productIds      String?  // JSON array of product IDs (if not appliesToAll)
+  categoryIds     String?  // JSON array of category IDs (if not appliesToAll)
+  startsAt        DateTime @default(now())
+  expiresAt       DateTime?
+  isActive        Boolean  @default(true)
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+
+  redemptions DiscountRedemption[]
+
+  @@index([code])
+}
+
+model DiscountRedemption {
+  id         String   @id @default(cuid())
+  discountId String
+  orderId    String?
+  userId     String?
+  amount     Int      // actual discount amount applied in cents
+  createdAt  DateTime @default(now())
+
+  discount Discount @relation(fields: [discountId], references: [id], onDelete: Cascade)
+
+  @@index([discountId])
+  @@index([userId])
+}
+
+// ─── Abandoned Cart Recovery ──────────────────────────────────────
+
+model AbandonedCheckout {
+  id            String    @id @default(cuid())
+  cartId        String?
+  userId        String?
+  email         String?   // guest email captured at checkout start
+  items         String    // JSON snapshot of cart items
+  subtotal      Int       // cart value in cents
+  recoveryToken String    @unique @default(cuid())
+  status        String    @default("ABANDONED") // "ABANDONED" | "REMINDED" | "RECOVERED" | "EXPIRED"
+  remindedAt    DateTime? // when first reminder was sent
+  reminderCount Int       @default(0)
+  recoveredAt   DateTime? // when customer completed purchase
+  expiresAt     DateTime  // when this record stops being actionable
+  createdAt     DateTime  @default(now())
+  updatedAt     DateTime  @updatedAt
+
+  @@index([email])
+  @@index([status])
+  @@index([createdAt])
+}
+
 // ─── Reviews ────────────────────────────────────────────────────
 
 model Review {
@@ -225,7 +370,7 @@ model Review {
   productId String
   rating    Int      // 1-5
   title     String?
-  body      String?  @db.Text
+  body      String?
   createdAt DateTime @default(now())
 
   user    User    @relation(fields: [userId], references: [id], onDelete: Cascade)
@@ -246,4 +391,22 @@ model WishlistItem {
   product Product @relation(fields: [productId], references: [id], onDelete: Cascade)
 
   @@unique([userId, productId])
+}
+
+// ─── Page Builder ─────────────────────────────────────────────────
+
+model Page {
+  id          String   @id @default(cuid())
+  title       String
+  slug        String   @unique
+  description String?
+  gjsData     String   @default("{}") // GrapeJS project JSON (components, styles, assets)
+  gjsHtml     String   @default("")   // Rendered HTML output
+  gjsCss      String   @default("")   // Rendered CSS output
+  isPublished Boolean  @default(false)
+  isHomepage  Boolean  @default(false)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  @@index([slug])
 }

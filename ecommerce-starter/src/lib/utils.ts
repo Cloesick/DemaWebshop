@@ -31,6 +31,15 @@ export function truncate(text: string, maxLength: number): string {
   return text.slice(0, maxLength) + "...";
 }
 
+export function parseImages(images: string | string[]): string[] {
+  if (Array.isArray(images)) return images;
+  try {
+    return JSON.parse(images);
+  } catch {
+    return [];
+  }
+}
+
 export function getBaseUrl(): string {
   if (typeof window !== "undefined") return "";
   if (process.env.NEXT_PUBLIC_SITE_URL) return process.env.NEXT_PUBLIC_SITE_URL;
