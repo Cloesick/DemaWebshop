@@ -1,7 +1,7 @@
-# DemaWebshop - Industrial Equipment E-commerce Platform
+# Next.js E-commerce Starter - Industrial Equipment E-commerce Platform
 
 <div align="center">
-  <img src="public/logo.svg" alt="DemaWebshop Logo" width="200">
+  <img src="public/logo.webp" alt="E-commerce Starter Logo" width="200">
   <h2>Your One-Stop Shop for Industrial Equipment</h2>
   <p>
     <a href="#key-features">Features</a> • 
@@ -23,17 +23,17 @@
   [![Prisma](https://img.shields.io/badge/Prisma-5.0.0-2D3748?style=for-the-badge&logo=prisma)](https://www.prisma.io/)
   [![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://vercel.com)
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
-  [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=for-the-badge)](https://github.com/yourusername/dema-webshop/pulls)
+  [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=for-the-badge)](https://github.com/yourusername/ecommerce-starter/pulls)
   
-  [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https%3A%2F%2Fgithub.com%2Fyourusername%2Fdema-webshop)
+  [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https%3A%2F%2Fgithub.com%2Fyourusername%2Fecommerce-starter)
   [![Deploy with Docker](https://img.shields.io/badge/Deploy%20with-Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://www.docker.com/)
 
   A high-performance, accessible, and scalable e-commerce platform built with Next.js 14, TypeScript, and Tailwind CSS. Designed specifically for industrial equipment sales with advanced product discovery, real-time search, and a seamless shopping experience.
 </div>
 
-## 🌟 Why DemaWebshop?
+## 🌟 Why This Starter?
 
-DemaWebshop is more than just an e-commerce platform - it's a comprehensive solution designed specifically for the industrial equipment sector. With a focus on performance, accessibility, and user experience, we've built a platform that makes it easy for businesses to showcase their products and for customers to find exactly what they need.
+This starter is more than just an e-commerce template - it's a comprehensive solution designed specifically for the industrial equipment sector. With a focus on performance, accessibility, and user experience, it makes it easy for businesses to showcase their products and for customers to find exactly what they need.
 
 ### Key Benefits
 
@@ -265,51 +265,19 @@ Create a `.env.local` file in the root directory and configure the following var
 # ================
 NODE_ENV=development
 NEXT_PUBLIC_SITE_URL=http://localhost:3000
-NEXT_PUBLIC_APP_NAME="DemaWebshop"
+NEXT_PUBLIC_APP_NAME="My E-commerce Store"
 
 # ================
 #  Database
 # ================
-## 🚀 Getting Started
+DATABASE_URL="postgresql://user:password@localhost:5432/ecommerce?schema=public"
 
-### Prerequisites
+# For development with SQLite
+# DATABASE_URL="file:./dev.db"
 
-Before you begin, ensure you have the following installed:
-
-- Node.js 18.0.0 or later
-- npm 9.0.0 or later (comes with Node.js)
-- PostgreSQL 14+ (or MySQL 8.0+/SQLite)
-- Git
-- Docker (optional, for containerized development)
-
-### Environment Setup
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/yourusername/dema-webshop.git
-   cd dema-webshop
-   ```
-
-2. **Install dependencies**
-   ```bash
-   npm install
-   ```
-
-3. **Set up environment variables**
-   Create a `.env` file in the root directory and add the following variables:
-
-   ```env
-   # ================
-   #  Database
-   # ================
-   DATABASE_URL="postgresql://user:password@localhost:5432/demashop?schema=public"
-
-   # For development with SQLite
-   # DATABASE_URL="file:./dev.db"
-
-   # ================
-   #  Authentication
-   # ================
+# ================
+#  Authentication
+# ================
 NEXTAUTH_SECRET=generate-with: openssl rand -base64 32
 NEXTAUTH_URL=http://localhost:3000
 
@@ -332,7 +300,7 @@ SMTP_HOST=smtp.example.com
 SMTP_PORT=587
 SMTP_USER=your-email@example.com
 SMTP_PASSWORD=your-email-password
-SMTP_FROM=noreply@demashop.be
+SMTP_FROM=noreply@your-domain.com
 
 # ================
 #  Analytics
@@ -352,8 +320,8 @@ NEXT_PUBLIC_ENABLE_ANALYTICS=false
 
 1. Clone the repository and navigate to the project directory:
    ```bash
-   git clone https://github.com/yourusername/dema-webshop.git
-   cd dema-webshop
+   git clone https://github.com/yourusername/ecommerce-starter.git
+   cd ecommerce-starter
    ```
 
 2. Install dependencies using npm or yarn:
@@ -409,7 +377,7 @@ NEXT_PUBLIC_ENABLE_ANALYTICS=false
 ## 🏗️ Project Architecture
 
 ```
-dema-webshop/
+ecommerce-starter/
 ├── .github/                    # GitHub workflows and templates
 │   ├── workflows/              # CI/CD pipelines
 │   └── ISSUE_TEMPLATE/         # Issue templates
@@ -519,7 +487,6 @@ dema-webshop/
 └── package.json               # Project dependencies
 ```
 ```
-
 ## 🛠️ Available Scripts
 
 ### 🔧 Development
@@ -648,7 +615,7 @@ npm update
 
 1. **Build the Docker Image**
    ```bash
-   docker build -t dema-webshop .
+   docker build -t ecommerce-starter .
    ```
 
 2. **Run the Container**
@@ -656,7 +623,7 @@ npm update
    docker run -p 3000:3000 \
      -e DATABASE_URL=your-db-url \
      -e NEXTAUTH_SECRET=your-secret \
-     dema-webshop
+     ecommerce-starter
    ```
 
 3. **Docker Compose (Recommended for Production)**
@@ -671,7 +638,7 @@ npm update
          - "3000:3000"
        environment:
          - NODE_ENV=production
-         - DATABASE_URL=postgresql://user:pass@db:5432/demashop
+         - DATABASE_URL=postgresql://user:pass@db:5432/ecommerce
          - NEXTAUTH_SECRET=your-secret
          - NEXTAUTH_URL=http://localhost:3000
        depends_on:
@@ -682,7 +649,7 @@ npm update
        environment:
          - POSTGRES_USER=user
          - POSTGRES_PASSWORD=pass
-         - POSTGRES_DB=demashop
+         - POSTGRES_DB=ecommerce
        volumes:
          - postgres_data:/var/lib/postgresql/data
    
@@ -714,7 +681,7 @@ npm update
    npm install -g pm2
    
    # Start application with PM2
-   pm2 start npm --name "dema-webshop" -- start
+   pm2 start npm --name "ecommerce-starter" -- start
    
    # Save PM2 process list
    pm2 save
@@ -822,19 +789,19 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ---
 
 <div align="center">
-  Made with ❤️ by DemaShop Team
+  Made with ❤️ by Your Team
 </div>
 
 Build the Docker image:
 
 ```bash
-docker build -t dema-webshop .
+docker build -t ecommerce-starter .
 ```
 
 Run the container:
 
 ```bash
-docker run -p 3000:3000 dema-webshop
+docker run -p 3000:3000 ecommerce-starter
 ```
 
 ## Environment Variables
@@ -854,7 +821,7 @@ docker run -p 3000:3000 dema-webshop
 ## 🏗️ Project Structure
 
 ```
-dema-webshop/
+ecommerce-starter/
 ├── .github/                   # GitHub workflows and templates
 │   ├── workflows/            # CI/CD workflows
 │   └── ISSUE_TEMPLATE/       # Issue templates
