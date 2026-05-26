@@ -1,0 +1,22 @@
+{
+  "product_category": "Ezychange Gatzagen (Hole Saws)",
+  "groups": [
+    {
+      "type": "Ezychange T.C.T. gatzagen",
+      "features": [
+        "Ezychange snelwisselsysteem: één adapter voor alle diameters!",
+        "Drie zijdelingse gaten zorgen voor een efficiënte verwijdering van zaagafval.",
+        "Wolfraamcarbide tanden (T.C.T.): extreem hard, lange levensduur, hoge snijsnelheid!"
+      ],
+      "products": [
+        {
+          "article_number": "E-14261",
+          "diameters_mm": [22, 25, 32, 44, 51, 68],
+          "working_length_mm": 60,
+          "price_excl_vat": 184.0,
+          "price_incl_vat": 222.6
+        }
+      ]
+    }
+  ]
+}

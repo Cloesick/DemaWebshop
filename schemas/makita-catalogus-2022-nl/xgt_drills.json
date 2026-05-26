@@ -1,0 +1,22 @@
+{
+  "product_category": "Cordless Drills and Hammer Drills (XGT 40Vmax)",
+  "special_offer": {
+    "description": "Gratis 37-delige schroefbitset B-28606",
+    "applicable_models": ["DF001GZ01", "HP001GZ01"]
+  },
+  "products": [
+    {
+      "model": "DF002GZ01",
+      "type": "Drill Driver",
+      "voltage": "36 V (40Vmax)",
+      "max_torque_soft_hard_nm": "30 / 64",
+      "chuck_capacity_mm": "1.5 - 13",
+      "hammer_function": false,
+      "batteries_included": 0,
+      "charger_included": null,
+      "weight_kg": 2.5,
+      "price_excl_vat": 175.0,
+      "price_incl_vat": 211.75
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "category": "SLANGKOPPELINGEN",
+  "product_groups": [
+    {
+      "product_series": {
+        "name": "TYPE 77 BAUER VERZINKT",
+        "specifications": {
+          "connection_type": "klauwkoppeling",
+          "material": "verzinkt staal"
+        },
+        "variations": [
+          {
+            "order_number": "77-050",
+            "nominal_size_mm": 50,
+            "seal_material": "NBR"
+          }
+        ]
+      }
+    },
+    {
+      "product_series": {
+        "name": "TYPE 78 BAUER VERZINKT",
+        "specifications": {
+          "connection_type": "mof",
+          "material": "verzinkt staal"
+        },
+        "variations": [
+          {
+            "order_number": "78-080",
+            "nominal_size_mm": 80,
+            "seal_material": "NBR"
+          }
+        ]
+      }
+    }
+  ]
+}

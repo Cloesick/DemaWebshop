@@ -1,7 +1,7 @@
-# Next.js E-commerce Starter - Industrial Equipment E-commerce Platform
+# DemaWebshop - Industrial Equipment E-commerce Platform
 
 <div align="center">
-  <img src="public/logo.webp" alt="E-commerce Starter Logo" width="200">
+  <img src="public/logo.svg" alt="DemaWebshop Logo" width="200">
   <h2>Your One-Stop Shop for Industrial Equipment</h2>
   <p>
     <a href="#key-features">Features</a> • 
@@ -23,17 +23,17 @@
   [![Prisma](https://img.shields.io/badge/Prisma-5.0.0-2D3748?style=for-the-badge&logo=prisma)](https://www.prisma.io/)
   [![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://vercel.com)
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
-  [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=for-the-badge)](https://github.com/yourusername/ecommerce-starter/pulls)
+  [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=for-the-badge)](https://github.com/yourusername/dema-webshop/pulls)
   
-  [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https%3A%2F%2Fgithub.com%2Fyourusername%2Fecommerce-starter)
+  [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https%3A%2F%2Fgithub.com%2Fyourusername%2Fdema-webshop)
   [![Deploy with Docker](https://img.shields.io/badge/Deploy%20with-Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://www.docker.com/)
 
   A high-performance, accessible, and scalable e-commerce platform built with Next.js 14, TypeScript, and Tailwind CSS. Designed specifically for industrial equipment sales with advanced product discovery, real-time search, and a seamless shopping experience.
 </div>
 
-## 🌟 Why This Starter?
+## 🌟 Why DemaWebshop?
 
-This starter is more than just an e-commerce template - it's a comprehensive solution designed specifically for the industrial equipment sector. With a focus on performance, accessibility, and user experience, it makes it easy for businesses to showcase their products and for customers to find exactly what they need.
+DemaWebshop is more than just an e-commerce platform - it's a comprehensive solution designed specifically for the industrial equipment sector. With a focus on performance, accessibility, and user experience, we've built a platform that makes it easy for businesses to showcase their products and for customers to find exactly what they need.
 
 ### Key Benefits
 
@@ -265,19 +265,51 @@ Create a `.env.local` file in the root directory and configure the following var
 # ================
 NODE_ENV=development
 NEXT_PUBLIC_SITE_URL=http://localhost:3000
-NEXT_PUBLIC_APP_NAME="My E-commerce Store"
+NEXT_PUBLIC_APP_NAME="DemaWebshop"
 
 # ================
 #  Database
 # ================
-DATABASE_URL="postgresql://user:password@localhost:5432/ecommerce?schema=public"
+## 🚀 Getting Started
 
-# For development with SQLite
-# DATABASE_URL="file:./dev.db"
+### Prerequisites
 
-# ================
-#  Authentication
-# ================
+Before you begin, ensure you have the following installed:
+
+- Node.js 18.0.0 or later
+- npm 9.0.0 or later (comes with Node.js)
+- PostgreSQL 14+ (or MySQL 8.0+/SQLite)
+- Git
+- Docker (optional, for containerized development)
+
+### Environment Setup
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/yourusername/dema-webshop.git
+   cd dema-webshop
+   ```
+
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
+
+3. **Set up environment variables**
+   Create a `.env` file in the root directory and add the following variables:
+
+   ```env
+   # ================
+   #  Database
+   # ================
+   DATABASE_URL="postgresql://user:password@localhost:5432/demashop?schema=public"
+
+   # For development with SQLite
+   # DATABASE_URL="file:./dev.db"
+
+   # ================
+   #  Authentication
+   # ================
 NEXTAUTH_SECRET=generate-with: openssl rand -base64 32
 NEXTAUTH_URL=http://localhost:3000
 
@@ -300,7 +332,7 @@ SMTP_HOST=smtp.example.com
 SMTP_PORT=587
 SMTP_USER=your-email@example.com
 SMTP_PASSWORD=your-email-password
-SMTP_FROM=noreply@your-domain.com
+SMTP_FROM=noreply@demashop.be
 
 # ================
 #  Analytics
@@ -320,8 +352,8 @@ NEXT_PUBLIC_ENABLE_ANALYTICS=false
 
 1. Clone the repository and navigate to the project directory:
    ```bash
-   git clone https://github.com/yourusername/ecommerce-starter.git
-   cd ecommerce-starter
+   git clone https://github.com/yourusername/dema-webshop.git
+   cd dema-webshop
    ```
 
 2. Install dependencies using npm or yarn:
@@ -377,7 +409,7 @@ NEXT_PUBLIC_ENABLE_ANALYTICS=false
 ## 🏗️ Project Architecture
 
 ```
-ecommerce-starter/
+dema-webshop/
 ├── .github/                    # GitHub workflows and templates
 │   ├── workflows/              # CI/CD pipelines
 │   └── ISSUE_TEMPLATE/         # Issue templates
@@ -487,6 +519,7 @@ ecommerce-starter/
 └── package.json               # Project dependencies
 ```
 ```
+
 ## 🛠️ Available Scripts
 
 ### 🔧 Development
@@ -615,7 +648,7 @@ npm update
 
 1. **Build the Docker Image**
    ```bash
-   docker build -t ecommerce-starter .
+   docker build -t dema-webshop .
    ```
 
 2. **Run the Container**
@@ -623,7 +656,7 @@ npm update
    docker run -p 3000:3000 \
      -e DATABASE_URL=your-db-url \
      -e NEXTAUTH_SECRET=your-secret \
-     ecommerce-starter
+     dema-webshop
    ```
 
 3. **Docker Compose (Recommended for Production)**
@@ -638,7 +671,7 @@ npm update
          - "3000:3000"
        environment:
          - NODE_ENV=production
-         - DATABASE_URL=postgresql://user:pass@db:5432/ecommerce
+         - DATABASE_URL=postgresql://user:pass@db:5432/demashop
          - NEXTAUTH_SECRET=your-secret
          - NEXTAUTH_URL=http://localhost:3000
        depends_on:
@@ -649,7 +682,7 @@ npm update
        environment:
          - POSTGRES_USER=user
          - POSTGRES_PASSWORD=pass
-         - POSTGRES_DB=ecommerce
+         - POSTGRES_DB=demashop
        volumes:
          - postgres_data:/var/lib/postgresql/data
    
@@ -681,7 +714,7 @@ npm update
    npm install -g pm2
    
    # Start application with PM2
-   pm2 start npm --name "ecommerce-starter" -- start
+   pm2 start npm --name "dema-webshop" -- start
    
    # Save PM2 process list
    pm2 save
@@ -788,20 +821,151 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
+## 📄 PDF Product Catalog Extraction
+
+The project includes a powerful PDF extraction tool (`old_analyze_product_pdfs.py`) that automatically extracts product data from supplier PDF catalogs and converts them to structured JSON for the webshop.
+
+### Features
+
+- **Multi-PDF Support**: Processes 26+ different PDF catalog formats
+- **Smart Table Extraction**: Uses `pdfplumber` with custom repair logic for alternating row colors
+- **SKU Detection**: Extracts product codes from various column formats
+- **Property Extraction**: Captures dimensions, pressure ratings, materials, angles, and more
+- **Context Inheritance**: Products inherit specs from section headers and above-table text
+- **Angle Detection**: Automatically extracts pipe angles (15°, 22°, 30°, 45°, 90°) from series names
+
+### Extraction Statistics
+
+| Metric | Value |
+|--------|-------|
+| Total Records | ~14,400 |
+| Records with SKU | ~13,300 |
+| Unique SKUs | ~10,400 |
+| Extraction Rate | 97.5% |
+| Products with Angle | 945 |
+
+### Usage
+
+```bash
+# Extract all PDFs
+python old_analyze_product_pdfs.py --pdf-dir "dema-webshop/public/documents/Product_pdfs"
+
+# Output JSON files are written to:
+# dema-webshop/public/documents/Product_pdfs/json/
+```
+
+### Supported PDF Catalogs
+
+- **Pipes & Fittings**: abs-persluchtbuizen, drukbuizen, pe-buizen, kunststof-afvoerleidingen
+- **Pumps**: bronpompen, centrifugaalpompen, dompelpompen, zuigerpompen
+- **Compressors**: airpress-catalogus-eng, airpress-catalogus-nl-fr
+- **Fittings**: messing-draadfittingen, rvs-draadfittingen, zwarte-draad-en-lasfittingen
+- **Hoses & Couplings**: rubber-slangen, slangkoppelingen, slangklemmen
+- **Power Tools**: makita-catalogus, kranzle-catalogus
+- **And more...**
+
+### Output Format
+
+Each product record includes:
+- `sku`: Canonical product code
+- `series_id`: PDF-scoped unique identifier (e.g., `abs-persluchtbuizen__abs-knie-90`)
+- `series_name`: Full table header (e.g., "ABS KNIE 90°")
+- `maat`: Size/dimensions
+- `werkdruk`: Working pressure (for pipes)
+- `angle`: Pipe angle (15°, 22°, 30°, 45°, 90°)
+- `lengte`: Length
+- `type`: Product type classification
+- `source_pdf`: Source catalog reference
+- `image`: Primary product image path
+- `images`: Array of all available image versions
+
+## 🖼️ Product Image Extraction
+
+The `extract_product_images.py` tool extracts product images from PDF catalogs and links them to SKUs.
+
+### Features
+
+- **Automatic Image Extraction**: Extracts product images from PDF pages
+- **Series Matching**: Links images to product series using vertical proximity (images appear above tables)
+- **WebP Conversion**: Converts images to optimized WebP format
+- **PDF-Scoped Series ID**: Prevents cross-PDF collisions (e.g., "2X BINNENDRAAD" in different catalogs)
+- **Complete SKU Mapping**: Generates `image-sku-mapping.json` with all SKUs per image
+
+### Image Statistics
+
+| Metric | Value |
+|--------|-------|
+| Total Images | 2,367 |
+| Total SKUs Covered | 28,988 |
+| Cross-PDF Collisions | 0 |
+
+### Usage
+
+```bash
+# Extract images from all PDFs
+python extract_product_images.py --update-json
+
+# Generate SKU mapping from existing images (no extraction)
+python extract_product_images.py --generate-mapping
+
+# Extract from specific PDF
+python extract_product_images.py --pdf abs-persluchtbuizen.pdf --update-json
+```
+
+### Image Naming Convention
+
+```
+{pdf}__p{page}__{series_id}__{sample_skus}__v{version}.webp
+
+Example:
+abs-persluchtbuizen__p5__abs-bocht-90__ABSB02090-ABSB02590-ABSB03290__v2.webp
+```
+
+### Image-SKU Mapping
+
+The `image-sku-mapping.json` file provides complete SKU coverage per image:
+
+```json
+{
+  "images/abs-persluchtbuizen/abs-persluchtbuizen__p5__abs-bocht-90__...v2.webp": {
+    "series_id": "abs-persluchtbuizen__abs-bocht-90",
+    "series_name": "ABS BOCHT 90°",
+    "pdf": "abs-persluchtbuizen.pdf",
+    "page": 5,
+    "skus": ["ABSB02090", "ABSB02590", "ABSB03290", "ABSB04090", ...],
+    "sku_count": 25
+  }
+}
+```
+
+### Cross-PDF Collision Prevention
+
+Products with the same table name in different PDFs now have unique `series_id`:
+
+| PDF | Table Header | series_id |
+|-----|--------------|-----------|
+| messing-draadfittingen.pdf | 2X BINNENDRAAD | `messing-draadfittingen__2x-binnendraad` |
+| verzinkte-buizen.pdf | 2X BINNENDRAAD | `verzinkte-buizen__2x-binnendraad` |
+| zwarte-draad-en-lasfittingen.pdf | 2X BINNENDRAAD | `zwarte-draad-en-lasfittingen__2x-binnendraad` |
+
+This ensures each PDF's products get their correct material-specific images.
+
+---
+
 <div align="center">
-  Made with ❤️ by Your Team
+  Made with ❤️ by DemaShop Team
 </div>
 
 Build the Docker image:
 
 ```bash
-docker build -t ecommerce-starter .
+docker build -t dema-webshop .
 ```
 
 Run the container:
 
 ```bash
-docker run -p 3000:3000 ecommerce-starter
+docker run -p 3000:3000 dema-webshop
 ```
 
 ## Environment Variables
@@ -821,7 +985,7 @@ docker run -p 3000:3000 ecommerce-starter
 ## 🏗️ Project Structure
 
 ```
-ecommerce-starter/
+dema-webshop/
 ├── .github/                   # GitHub workflows and templates
 │   ├── workflows/            # CI/CD workflows
 │   └── ISSUE_TEMPLATE/       # Issue templates

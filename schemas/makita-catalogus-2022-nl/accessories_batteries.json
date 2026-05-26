@@ -1,0 +1,31 @@
+{
+  "product_category": "Accessories (Batteries & Chargers)",
+  "groups": {
+    "individual_batteries": [
+      {
+        "article_number": "191L29-0",
+        "description": "Li-ion accu BL4020",
+        "specs": "40Vmax • 2,0 Ah • 0,69 kg • 22 min charge",
+        "price_excl_vat": 125.0,
+        "price_incl_vat": 151.25
+      }
+    ],
+    "powerpacks": [
+      {
+        "article_number": "191V07-0",
+        "description": "XGT Powerpack 2,0 Ah",
+        "price_excl_vat": 355.0,
+        "price_incl_vat": 429.55
+      }
+    ],
+    "chargers_adapters": [
+      {
+        "article_number": "191E07-8",
+        "description": "Oplader DC40RA",
+        "sub_text": "Snellader voor XGT 40Vmax accu's",
+        "price_excl_vat": 125.0,
+        "price_incl_vat": 151.25
+      }
+    ]
+  }
+}

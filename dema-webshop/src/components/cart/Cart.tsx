@@ -5,7 +5,6 @@ import { XMarkIcon } from '@heroicons/react/24/outline';
 import { useCartStore } from '@/store/cartStore';
 import Image from 'next/image';
 import Link from 'next/link';
-import { useLocale } from '@/contexts/LocaleContext';
 
 export default function Cart() {
   const { 
@@ -18,7 +17,6 @@ export default function Cart() {
     totalPrice 
   } = useCartStore();
   const [isMounted, setIsMounted] = useState(false);
-  const { t } = useLocale();
 
   useEffect(() => {
     setIsMounted(true);
@@ -39,14 +37,14 @@ export default function Cart() {
             <div className="h-full flex flex-col bg-white shadow-xl overflow-y-scroll">
               <div className="flex-1 py-6 overflow-y-auto px-4 sm:px-6">
                 <div className="flex items-start justify-between">
-                  <h2 className="text-lg font-medium text-gray-900">{t('cart.drawer.title')}</h2>
+                  <h2 className="text-lg font-medium text-gray-900">Shopping cart</h2>
                   <div className="ml-3 h-7 flex items-center">
                     <button
                       type="button"
                       className="-m-2 p-2 text-gray-400 hover:text-gray-500"
                       onClick={toggleCart}
                     >
-                      <span className="sr-only">{t('cart.drawer.close')}</span>
+                      <span className="sr-only">Close panel</span>
                       <XMarkIcon className="h-6 w-6" aria-hidden="true" />
                     </button>
                   </div>
@@ -69,15 +67,15 @@ export default function Cart() {
                           d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"
                         />
                       </svg>
-                      <h3 className="mt-2 text-sm font-medium text-gray-900">{t('cart.empty.title')}</h3>
-                      <p className="mt-1 text-sm text-gray-500">{t('cart.empty.subtitle')}</p>
+                      <h3 className="mt-2 text-sm font-medium text-gray-900">Your cart is empty</h3>
+                      <p className="mt-1 text-sm text-gray-500">Start adding some items to your cart</p>
                       <div className="mt-6">
                         <button
                           type="button"
                           onClick={toggleCart}
                           className="inline-flex items-center px-4 py-2 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
                         >
-                          {t('cart.actions.continue_shopping')}
+                          Continue Shopping
                         </button>
                       </div>
                     </div>
@@ -107,7 +105,7 @@ export default function Cart() {
                               <div className="flex-1 flex items-end justify-between text-sm">
                                 <div className="flex items-center">
                                   <label htmlFor={`quantity-${item.sku}`} className="mr-2 text-gray-700">
-                                    {t('cart.qty')}
+                                    Qty
                                   </label>
                                   <select
                                     id={`quantity-${item.sku}`}
@@ -130,7 +128,7 @@ export default function Cart() {
                                     onClick={() => removeFromCart(item.sku)}
                                     className="font-medium text-blue-600 hover:text-blue-500"
                                   >
-                                    {t('cart.remove')}
+                                    Remove
                                   </button>
                                 </div>
                               </div>
@@ -146,11 +144,11 @@ export default function Cart() {
               {items.length > 0 && (
                 <div className="border-t border-gray-200 py-6 px-4 sm:px-6">
                   <div className="flex justify-between text-base font-medium text-gray-900">
-                    <p>{t('cart.subtotal')}</p>
+                    <p>Subtotal</p>
                     <p>€{totalPrice().toFixed(2)}</p>
                   </div>
                   <p className="mt-0.5 text-sm text-gray-500">
-                    {t('cart.shipping_taxes_note')}
+                    Shipping and taxes calculated at checkout.
                   </p>
                   <div className="mt-6">
                     <Link
@@ -158,18 +156,18 @@ export default function Cart() {
                       className="flex justify-center items-center px-6 py-3 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-blue-600 hover:bg-blue-700"
                       onClick={toggleCart}
                     >
-                      {t('cart.actions.checkout')}
+                      Checkout
                     </Link>
                   </div>
                   <div className="mt-6 flex justify-center text-sm text-center text-gray-500">
                     <p>
-                      {t('cart.or')}{' '}
+                      or{' '}
                       <button
                         type="button"
                         className="text-blue-600 font-medium hover:text-blue-500"
                         onClick={toggleCart}
                       >
-                        {t('cart.actions.continue_shopping')}<span aria-hidden="true"> &rarr;</span>
+                        Continue Shopping<span aria-hidden="true"> &rarr;</span>
                       </button>
                     </p>
                   </div>

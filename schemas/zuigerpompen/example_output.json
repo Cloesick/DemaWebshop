@@ -1,0 +1,19 @@
+{
+  "product_series": {
+    "name": "Bronpompen 3\"",
+    "specifications": {
+      "application": "grondwater",
+      "max_sand_content_g_m3": 50
+    },
+    "variations": [
+      {
+        "type": "3\" bronpomp 0,75 kW",
+        "nominal_diameter_inch": "3",
+        "power_kw": 0.75,
+        "flow_rate_m3h": 3.5,
+        "head_m": 60,
+        "connection_inch": "1 1/4\""
+      }
+    ]
+  }
+}

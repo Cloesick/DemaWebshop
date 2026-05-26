@@ -1,7 +1,6 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { useLocale } from '@/contexts/LocaleContext';
 import Link from 'next/link';
 
 const COOKIE_CONSENT_KEY = 'cookie-consent';
@@ -23,7 +22,6 @@ type CookieConsentProps = {
 };
 
 export default function CookieConsent({ onAccept, initialConsent, alwaysOpen }: CookieConsentProps) {
-  const { t } = useLocale();
   const [showBanner, setShowBanner] = useState(false);
   const [showSettings, setShowSettings] = useState(false);
   const [consent, setConsent] = useState({
@@ -123,17 +121,20 @@ export default function CookieConsent({ onAccept, initialConsent, alwaysOpen }: 
         aria-labelledby="cookie-consent-title"
       >
         <div className="p-6">
-          <h2 id="cookie-consent-title" className="text-2xl font-bold text-gray-900 mb-4">{t('cookies.title')}</h2>
+          <h2 id="cookie-consent-title" className="text-2xl font-bold text-gray-900 mb-4">Cookie Preferences</h2>
           
-          <p className="text-gray-600 mb-6">{t('cookies.intro')}</p>
+          <p className="text-gray-600 mb-6">
+            We use cookies to enhance your experience on our website. Some cookies are necessary for the website to function properly, while others help us improve the site and understand how you interact with it. Please review your preferences below.
+          </p>
 
           {showSettings ? (
             <div className="space-y-6">
               <div className="space-y-4">
+                {/* Necessary Cookies - Always on */}
                 <div className="flex items-center justify-between p-4 bg-gray-50 rounded-lg">
                   <div>
-                    <h3 className="font-medium text-gray-900">{t('cookies.necessary.title')}</h3>
-                    <p className="text-sm text-gray-500">{t('cookies.necessary.desc')}</p>
+                    <h3 className="font-medium text-gray-900">Necessary Cookies</h3>
+                    <p className="text-sm text-gray-500">Essential for the website to function properly.</p>
                   </div>
                   <div className="relative inline-block w-10 mr-2 align-middle select-none">
                     <input 
@@ -154,8 +155,8 @@ export default function CookieConsent({ onAccept, initialConsent, alwaysOpen }: 
                 {/* Analytics Cookies */}
                 <div className="flex items-center justify-between p-4 bg-gray-50 rounded-lg">
                   <div>
-                    <h3 className="font-medium text-gray-900">{t('cookies.analytics.title')}</h3>
-                    <p className="text-sm text-gray-500">{t('cookies.analytics.desc')}</p>
+                    <h3 className="font-medium text-gray-900">Analytics Cookies</h3>
+                    <p className="text-sm text-gray-500">Help us understand how visitors interact with our website.</p>
                   </div>
                   <div className="relative inline-block w-10 mr-2 align-middle select-none">
                     <input 
@@ -176,8 +177,8 @@ export default function CookieConsent({ onAccept, initialConsent, alwaysOpen }: 
                 {/* Marketing Cookies */}
                 <div className="flex items-center justify-between p-4 bg-gray-50 rounded-lg">
                   <div>
-                    <h3 className="font-medium text-gray-900">{t('cookies.marketing.title')}</h3>
-                    <p className="text-sm text-gray-500">{t('cookies.marketing.desc')}</p>
+                    <h3 className="font-medium text-gray-900">Marketing Cookies</h3>
+                    <p className="text-sm text-gray-500">Used to track visitors across websites for advertising purposes.</p>
                   </div>
                   <div className="relative inline-block w-10 mr-2 align-middle select-none">
                     <input 
@@ -198,8 +199,8 @@ export default function CookieConsent({ onAccept, initialConsent, alwaysOpen }: 
                 {/* Preferences Cookies */}
                 <div className="flex items-center justify-between p-4 bg-gray-50 rounded-lg">
                   <div>
-                    <h3 className="font-medium text-gray-900">{t('cookies.preferences.title')}</h3>
-                    <p className="text-sm text-gray-500">{t('cookies.preferences.desc')}</p>
+                    <h3 className="font-medium text-gray-900">Preference Cookies</h3>
+                    <p className="text-sm text-gray-500">Allow the website to remember choices you make.</p>
                   </div>
                   <div className="relative inline-block w-10 mr-2 align-middle select-none">
                     <input 
@@ -223,13 +224,13 @@ export default function CookieConsent({ onAccept, initialConsent, alwaysOpen }: 
                   onClick={handleSavePreferences}
                   className="px-6 py-2 bg-primary text-white rounded-md hover:bg-primary-dark transition-colors"
                 >
-                  {t('cookies.save')}
+                  Save Preferences
                 </button>
                 <button
                   onClick={() => { setShowSettings(false); setShowBanner(false); }}
                   className="px-6 py-2 border border-gray-300 rounded-md hover:bg-gray-50 transition-colors"
                 >
-                  {t('cookies.close')}
+                  Close
                 </button>
               </div>
             </div>
@@ -240,13 +241,13 @@ export default function CookieConsent({ onAccept, initialConsent, alwaysOpen }: 
                   onClick={handleAcceptAll}
                   className="w-full px-4 py-3 bg-primary text-white font-medium rounded-md hover:bg-primary-dark transition-colors whitespace-nowrap"
                 >
-                  {t('cookies.accept_all')}
+                  Accept All
                 </button>
                 <button
                   onClick={handleRejectAll}
                   className="w-full px-4 py-3 bg-white border border-gray-300 font-medium rounded-md hover:bg-gray-50 transition-colors whitespace-nowrap"
                 >
-                  {t('cookies.reject_all')}
+                  Reject All
                 </button>
               </div>
               <div className="pt-2">
@@ -254,12 +255,12 @@ export default function CookieConsent({ onAccept, initialConsent, alwaysOpen }: 
                   onClick={() => setShowSettings(true)}
                   className="w-full px-4 py-2 text-sm text-gray-700 hover:text-gray-900 font-medium hover:bg-gray-50 rounded-md transition-colors"
                 >
-                  {t('cookies.customize')}
+                  Customize Preferences
                 </button>
               </div>
               <p className="text-xs text-gray-500">
-                {t('cookies.notice')}{' '}
-                <Link href="/privacy" className="text-primary hover:underline">{t('cookies.privacy_link')}</Link>.
+                By clicking "Accept All Cookies", you agree to the storing of cookies on your device to enhance site navigation, analyze site usage, and assist in our marketing efforts. For more information, please read our{' '}
+                <Link href="/privacy" className="text-primary hover:underline">Privacy Policy</Link>.
               </p>
             </div>
           )}

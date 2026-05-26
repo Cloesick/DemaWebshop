@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import { useRouter } from 'next/navigation';
 import Link from 'next/link';
 import { Product } from '@/types/product';
@@ -21,7 +21,6 @@ import { Button } from '@/components/ui/button';
 import { useCartStore } from '@/store/cartStore';
 import { useLocale } from '@/contexts/LocaleContext';
 import { formatProductForCard } from '@/lib/formatProductForCard';
-import { getSkuImagePath } from '@/lib/skuImageMap';
 
 interface ProductCardProps {
   product: Product;
@@ -43,36 +42,6 @@ const formatPropertyName = (key: string): string => {
     .trim();
 };
 
-// Translate known spec labels to i18n keys
-const translateSpecLabel = (label: string, t: (k: string, vars?: any) => string): string => {
-  switch (label) {
-    case 'Pressure':
-      return t('product.pressure_range');
-    case 'Overpressure':
-      return t('product.overpressure');
-    case 'Flow':
-      return t('product.flow');
-    case 'Power In/Out':
-      return t('product.power_in_out');
-    case 'Power':
-      return t('product.power');
-    case 'Electrical':
-      return t('product.electrical');
-    case 'RPM':
-      return t('product.rpm');
-    case 'Cable':
-      return t('product.cable');
-    case 'Dimensions':
-      return t('product.dimensions_mm');
-    case 'Weight':
-      return t('product.weight');
-    case 'Sizes':
-      return t('product.available_sizes');
-    default:
-      return label;
-  }
-};
-
 export default function ProductCard({ product, className = '', viewMode = 'grid' }: ProductCardProps) {
   const router = useRouter();
   const addToCart = useCartStore(s => s.addToCart);
@@ -84,42 +53,15 @@ export default function ProductCard({ product, className = '', viewMode = 'grid'
   const [selectedDimensions, setSelectedDimensions] = useState<number | null>(
     product.dimensions_mm_list?.[0] || null
   );
-  const [skuImage, setSkuImage] = useState<string | null>(null);
-  useEffect(() => {
-    let mounted = true;
-    (async () => {
-      try {
-        const p = await getSkuImagePath(product.sku);
-        if (mounted) setSkuImage(p);
-      } catch {
-        if (mounted) setSkuImage(null);
-      }
-    })();
-    return () => { mounted = false; };
-  }, [product.sku]);
   
   const productName = vm.title;
   const description = vm.subtitle;
-  const imageUrl = skuImage || vm.image;
+  const imageUrl = vm.image;
   
   // Format price based on selected dimensions or other logic
-  const price = vm.priceLabel === 'Price on request' ? t('product.request_quote') : vm.priceLabel;
-  // Derive PDF file name from URL
-  const pdfName = product.pdf_source ? (() => {
-    try {
-      const u = new URL(product.pdf_source);
-      const name = decodeURIComponent(u.pathname.split('/').pop() || 'PDF');
-      return name || 'PDF';
-    } catch {
-      const path = product.pdf_source.split('?')[0];
-      const name = decodeURIComponent((path.split('/').pop() || 'PDF'));
-      return name || 'PDF';
-    }
-  })() : null;
+  const price = vm.priceLabel;
   
   const hasDimensions = product.dimensions_mm_list && product.dimensions_mm_list.length > 0;
-  // Use unique dimensions to avoid duplicate keys/options
-  const uniqueDimensions = Array.from(new Set(product.dimensions_mm_list || []));
 
   const navigateToDetail = () => {
     router.push(`/products/${product.sku}`);
@@ -158,52 +100,19 @@ export default function ProductCard({ product, className = '', viewMode = 'grid'
                 {productName}
               </Link>
             </h3>
-            {/* Description removed by request */}
-            <p className="text-xs text-gray-500">{t('product.sku')}: {product.sku}</p>
+            {description && (
+              <p className="mt-1 text-sm text-gray-700 line-clamp-2">{description}</p>
+            )}
+            <p className="text-xs text-gray-500">SKU: {product.sku}</p>
             {vm.badges?.[0] && (
               <span className="inline-block mt-2 px-2.5 py-0.5 rounded-full text-xs font-medium bg-primary/10 text-primary">
-                {vm.badges[0] === 'In Stock' ? t('product.in_stock') : vm.badges[0]}
+                {vm.badges[0]}
               </span>
             )}
             {product.dimensions_mm_list?.[0] && (
               <p className="mt-2 text-sm text-gray-900">
-                <span className="font-medium text-gray-900">{t('product.available_sizes')}:</span> <span className="text-gray-900">{product.dimensions_mm_list[0]}mm</span>
+                <span className="font-medium text-gray-900">Size:</span> <span className="text-gray-900">{product.dimensions_mm_list[0]}mm</span>
               </p>
-            )}
-            {/* PDF link and source pages (list view) */}
-            {(product.pdf_source || (product.source_pages && product.source_pages.length > 0)) && (
-              <div className="mt-3 space-y-1">
-                {product.pdf_source && (
-                  <a
-                    href={`${product.pdf_source}`}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    onClick={(e) => e.stopPropagation()}
-                    className="inline-flex items-center gap-1.5 text-sm text-blue-600 hover:underline"
-                  >
-                    <span>{pdfName}</span>
-                    <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
-                    </svg>
-                  </a>
-                )}
-                {product.pdf_source && product.source_pages && product.source_pages.length > 0 && (
-                  <div className="flex flex-wrap gap-1.5">
-                    {product.source_pages.map((p) => (
-                      <a
-                        key={`list-page-${p}`}
-                        href={`${product.pdf_source}#page=${p}`}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        onClick={(e) => e.stopPropagation()}
-                        className="px-2.5 py-1 bg-gray-100 rounded-md text-xs font-medium text-gray-700 hover:underline"
-                      >
-                        {t('product.page')} {p}
-                      </a>
-                    ))}
-                  </div>
-                )}
-              </div>
             )}
           </div>
           <div className="mt-4 flex items-center justify-between gap-2">
@@ -223,7 +132,7 @@ export default function ProductCard({ product, className = '', viewMode = 'grid'
                 }
               }}
             >
-              {t('product.add_to_cart')}
+              Add to Cart
             </Button>
           </div>
         </div>
@@ -257,12 +166,14 @@ export default function ProductCard({ product, className = '', viewMode = 'grid'
                 {productName}
               </Link>
             </h3>
-            {/* Description removed by request */}
-            <p className="text-xs text-gray-500 mb-2">{t('product.sku')}: {product.sku}</p>
+            {description && (
+              <p className="text-sm text-gray-600 mb-1 line-clamp-2 h-10">{description}</p>
+            )}
+            <p className="text-xs text-gray-500 mb-2">SKU: {product.sku}</p>
             {vm.badges?.length ? (
               <div className="mb-2 flex flex-wrap gap-1">
                 {vm.badges.slice(0,2).map((b) => (
-                  <span key={b} className="inline-block px-2.5 py-0.5 rounded-full text-xs font-medium bg-primary/10 text-primary">{b === 'In Stock' ? t('product.in_stock') : b}</span>
+                  <span key={b} className="inline-block px-2.5 py-0.5 rounded-full text-xs font-medium bg-primary/10 text-primary">{b}</span>
                 ))}
               </div>
             ) : null}
@@ -275,11 +186,11 @@ export default function ProductCard({ product, className = '', viewMode = 'grid'
                   onValueChange={(value) => setSelectedDimensions(Number(value))}
                 >
                   <SelectTrigger className="w-full">
-                    <SelectValue placeholder={t('product.select_size')} />
+                    <SelectValue placeholder="Select size" />
                   </SelectTrigger>
                   <SelectContent>
-                    {uniqueDimensions.map((dimension, index) => (
-                      <SelectItem key={`${product.sku}-${dimension}-${index}`} value={`${dimension}`}>
+                    {product.dimensions_mm_list?.map((dimension) => (
+                      <SelectItem key={dimension} value={dimension.toString()}>
                         {dimension}mm
                       </SelectItem>
                     ))}
@@ -292,7 +203,7 @@ export default function ProductCard({ product, className = '', viewMode = 'grid'
             <div className="mt-2 space-y-1">
               {vm.specs.slice(0,3).map(spec => (
                 <div key={spec.label} className="flex justify-between text-sm">
-                  <span className="text-gray-600">{translateSpecLabel(spec.label, t)}:</span>
+                  <span className="text-gray-600">{spec.label}:</span>
                   <span className="font-medium text-gray-900">{spec.value}</span>
                 </div>
               ))}
@@ -312,50 +223,22 @@ export default function ProductCard({ product, className = '', viewMode = 'grid'
         <div className="mt-4 grid grid-cols-2 gap-2 text-sm">
           {vm.specs.map(s => (
             <div key={s.label} className="flex items-center justify-between">
-              <span className="text-gray-500 mr-1">{translateSpecLabel(s.label, t)}:</span>
+              <span className="text-gray-500 mr-1">{s.label}:</span>
               <span>{s.value}</span>
             </div>
           ))}
           {Array.isArray(product.dimensions_mm_list) && product.dimensions_mm_list.length > 0 && (
             <div className="flex items-center">
-              <span className="text-gray-900 mr-1">{t('product.available_sizes')}:</span>
+              <span className="text-gray-900 mr-1">Sizes:</span>
               <span className="text-gray-900">
                 {product.dimensions_mm_list.slice(0, 3).join('mm, ')}mm
                 {product.dimensions_mm_list.length > 3 ? '...' : ''}
               </span>
             </div>
           )}
-          {/* PDF link and source pages (grid view) */}
-          {(product.pdf_source && product.source_pages && product.source_pages.length > 0) && (
-            <div className="col-span-2 mt-2 flex flex-col gap-1">
-              <a
-                href={`${product.pdf_source}`}
-                target="_blank"
-                rel="noopener noreferrer"
-                onClick={(e) => e.stopPropagation()}
-                className="inline-flex items-center gap-1.5 text-xs text-blue-600 hover:underline"
-              >
-                <span>{pdfName}</span>
-                <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
-                </svg>
-              </a>
-              {product.source_pages && product.source_pages.length > 0 && (
-                <div className="flex flex-wrap gap-1.5">
-                  {product.source_pages.map((p) => (
-                    <a
-                      key={`grid-page-${p}`}
-                      href={`${product.pdf_source}#page=${p}`}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      onClick={(e) => e.stopPropagation()}
-                      className="px-2.5 py-1 bg-gray-100 rounded-md text-xs font-medium text-gray-700 hover:underline"
-                    >
-                      {t('product.page')} {p}
-                    </a>
-                  ))}
-                </div>
-              )}
+          {product.source_pages?.length > 0 && (
+            <div className="col-span-2 text-xs text-gray-400 mt-2">
+              Source: Page {product.source_pages.join(', ')}
             </div>
           )}
         </div>
@@ -382,7 +265,7 @@ export default function ProductCard({ product, className = '', viewMode = 'grid'
               }
             }}
           >
-            {t('product.add_to_cart')}
+            Add to Cart
           </button>
         </div>
       </div>

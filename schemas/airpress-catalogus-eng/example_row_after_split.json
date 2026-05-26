@@ -1,0 +1,28 @@
+[
+  {
+    "model": "HL 150-24",
+    "sku": "36744-E",
+    "intake_l_min": 150,
+    "effective_l_min": 120,
+    "tank_l": 24,
+    "power_hp_kw": "1,5 hp / 1,1 kW",
+    "pressure_bar": "6 - 8",
+    "rpm": 2800,
+    "noise_db_a": 93,
+    "dimensions_mm": "580 x 255 x 580",
+    "weight_kg": 25
+  },
+  {
+    "model": "HL 155-50",
+    "sku": "36830",
+    "intake_l_min": 155,
+    "effective_l_min": 124,
+    "tank_l": 50,
+    "power_hp_kw": "1,5 hp / 1,1 kW",
+    "pressure_bar": "6 - 8",
+    "rpm": 2850,
+    "noise_db_a": 93,
+    "dimensions_mm": "720 x 420 x 690",
+    "weight_kg": 31
+  }
+]

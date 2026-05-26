@@ -1,0 +1,22 @@
+{
+  "category": "HOGEDRUKREINIGERS",
+  "brand": "Kränzle",
+  "product_groups": [
+    {
+      "series_name": "Quattro-serie",
+      "common_specifications": {
+        "application": "professioneel gebruik",
+        "water_temp_max_c": 60
+      },
+      "variations": [
+        {
+          "model": "Quattro 11/140 TS T",
+          "order_number": "12345",
+          "pressure_bar": 140,
+          "flow_l_h": 660,
+          "power_kw": 3.2
+        }
+      ]
+    }
+  ]
+}

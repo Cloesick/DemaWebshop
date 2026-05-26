@@ -1,7 +1,7 @@
 # DemaWebshop - Industrial Equipment E-commerce Platform
 
 <div align="center">
-  <img src="public/logo.webp" alt="DemaWebshop Logo" width="200">
+  <img src="public/logo.svg" alt="DemaWebshop Logo" width="200">
   <h2>Your One-Stop Shop for Industrial Equipment</h2>
   <p>
     <a href="#key-features">Features</a> • 
@@ -30,95 +30,6 @@
 
   A high-performance, accessible, and scalable e-commerce platform built with Next.js 14, TypeScript, and Tailwind CSS. Designed specifically for industrial equipment sales with advanced product discovery, real-time search, and a seamless shopping experience.
 </div>
-
-## 📌 Project Status (Nov 2025)
-
-- **Framework/runtime**: Next.js 16 (App Router), React 19, TypeScript, Tailwind CSS
-- **Images**: Next Image set to `unoptimized: true` (no server-side image optimization)
-- **API routes**: Contact endpoint at `src/app/api/contact/route.ts` using `resend`
-- **Database**: `@prisma/client` present but no `schema.prisma` in repo; DB not wired-in yet
-- **Auth/Payments**: `next-auth` and Stripe deps present, not hooked up in code paths
-
-## 🌐 Hosting Guidance
-
-- **Vercel (recommended)**: First-class Next.js support. Add env vars and deploy.
-- **Netlify**: Supported via Next.js Runtime. Add `@netlify/plugin-nextjs` and a minimal `netlify.toml`.
-  - Node 18+, build with `npm run build`
-  - Set env vars (see below)
-  - Current app is mostly static UI + lightweight API → UX should not suffer
-
-### ⏱️ Netlify performance notes
-
-- Netlify Functions can have cold starts. Keep API handlers light and fast; avoid heavy Node deps.
-- Default function timeouts are relatively short. Keep work under a few seconds; offload long tasks.
-- Prefer static/ISR pages and (if needed) Edge runtime for latency-critical endpoints.
-
-## 🔧 Required Environment Variables
-
-- `RESEND_API_KEY` — required for contact form emails
-- `NEXTAUTH_URL`, `NEXTAUTH_SECRET` — only if enabling NextAuth
-- `STRIPE_SECRET_KEY`, `NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY` — only if enabling Stripe
-
-### Bank transfer (for checkout)
-
-Add these public env vars to display bank details at checkout confirmation and payment steps. Only these are required to enable end-to-end checkout with bank transfer.
-
-```
-NEXT_PUBLIC_BANK_NAME="Your Bank Name"
-NEXT_PUBLIC_BANK_ACCOUNT_NAME="Your Account Name"
-NEXT_PUBLIC_BANK_IBAN="BE00 0000 0000 0000"
-NEXT_PUBLIC_BANK_BIC="ABCDEFGH"
-```
-
-Behavior:
-- Checkout flow is two steps (Information → Payment), payment method is bank transfer.
-- Visitors see cart → checkout → payment method (bank transfer only) → confirmation with bank instructions and order reference.
-- Logged-in users can confirm use of account details; otherwise toggle to enter different billing details.
-
-## ▶️ Next Steps
-
-- Decide host: Vercel (zero-config) or Netlify (add plugin + `netlify.toml`).
-- If keeping Netlify, add:
-  - `@netlify/plugin-nextjs`
-  - `netlify.toml` with Node 18 and `command = "npm run build"`
-- If enabling DB/Auth/Stripe, add schema/config and env vars accordingly.
-
-## 🌍 Netlify setup (demashop.be)
-
-1. **Connect repository**
-   - In Netlify: Add new site → Import from Git → Select this repo
-   - Netlify reads `netlify.toml` in the repo root which points `base = "dema-webshop"`
-   - Build command: `npm run build`
-   - Publish directory: `.next`
-
-2. **Environment variables** (Site settings → Environment variables)
-   - `RESEND_API_KEY` (required for contact form)
-   - Optional (only if enabling features):
-     - `NEXTAUTH_URL`, `NEXTAUTH_SECRET`
-     - `STRIPE_SECRET_KEY`, `NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY`
-   - Redeploy after adding/updating variables
-
-3. **Plugin/runtime**
-   - `@netlify/plugin-nextjs` is enabled via `netlify.toml` (no extra install needed)
-   - Node runtime set to 18 in `netlify.toml`
-
-4. **Domain configuration** (Site settings → Domain management)
-   - Add custom domain: `demashop.be` and `www.demashop.be`
-   - If using Netlify DNS: change your domain registrar’s nameservers to Netlify’s and let Netlify manage A/AAAA/CNAME records
-   - If keeping external DNS: create records per Netlify’s instructions in the UI
-     - `www` → CNAME to your `*.netlify.app` domain
-     - Apex `demashop.be` → ALIAS/ANAME to `*.netlify.app` (or the A/AAAA records provided by Netlify if ALIAS is not supported)
-   - Enable HTTPS and auto‑renewing certificates (Let’s Encrypt) for both apex and www
-   - Canonicalization: we prefer apex → www redirects handled via `netlify.toml`
-
-5. **Caching and headers**
-   - Static assets under `/_next/static/*` and `/images/*` are cached aggressively (immutable) via `netlify.toml`
-
-6. **Post‑deploy checks**
-   - Home page renders and navigation works
-   - `POST /api/contact` succeeds (valid `RESEND_API_KEY`)
-   - `www.demashop.be` → redirects to `demashop.be`
-   - HTTPS enforced
 
 ## 🌟 Why DemaWebshop?
 
@@ -830,17 +741,20 @@ npm update
   - Marketing
 
 - **Where consent logic lives**
-  - `src/contexts/CookieConsentContext.tsx` — Holds consent state and persistence under the `cookie-consent` key (localStorage)
+  - `src/contexts/CookieConsentContext.tsx` — Holds consent state and per-session persistence under the `cookie-consent` key (sessionStorage)
   - `src/components/layout/CookieConsentWrapper.tsx` — Mounts the consent modal on every page via `app/layout.tsx`
 
 - **Client behavior**
+  - Blocking modal: user cannot interact until confirming cookies on the first page of a new session
+  - “Manage Cookies” button in the Header is always available and opens the modal with current preferences
   - No recommendations fetch unless `analytics` or `marketing` consent is granted
-  - `preferredCategory` in localStorage is read and used only if `preferences` consent is granted
+  - `preferredCategory` is only used if `preferences` consent is granted
+  - After “Accept All” / “Reject All”, the modal shows the Settings view with toggles reflecting the chosen state (Necessary is always ON and disabled)
 
 - **Reset consent**
-  - Clear the `cookie-consent` key from localStorage (e.g., in DevTools console):
+  - Clear the `cookie-consent` key from sessionStorage (e.g., in DevTools console):
     ```js
-    localStorage.removeItem('cookie-consent')
+    sessionStorage.removeItem('cookie-consent')
     ```
   - Reload the page to see the consent modal again
 
@@ -851,7 +765,7 @@ npm update
 3. Click “Reject All” — verify no request to `/api/recommendations` is made and highlights show non-personalized content.
 4. Click “Customize” → enable “Preferences” only — set a category on `/products?category=...`, go back home — highlights reorder but still no server fetch.
 5. Enable “Analytics” or “Marketing” — reload home — verify a request is made to `/api/recommendations` and highlights may show “For you”.
-6. Clear consent with `localStorage.removeItem('cookie-consent')` and reload to repeat.
+6. Clear consent with `sessionStorage.removeItem('cookie-consent')` and reload to repeat.
 
 ## 📈 Monitoring & Analytics
 
@@ -860,39 +774,6 @@ npm update
 - **Logging**: Structured logging with Pino
 - **Uptime Monitoring**: UptimeRobot or similar service
 - **Analytics**: Google Analytics 4 or Plausible
-
-## 🌍 Internationalization (i18n) Coverage
-
-- Localized (en/nl/fr):
-  - Home page (`src/app/page.tsx`): hero, features, highlights, CTA
-  - Contact page (`src/app/contact/page.tsx`): all labels/placeholders, validation, phone auth messages, info cards
-  - Products listing (`src/app/products/page.tsx`): title, search legend, empty state, sorting labels/options, grid/list toggle, count text
-  - Product filters (`src/components/products/ProductFilters.tsx`): filter titles, generic labels
-  - Navbar (`src/components/layout/Navbar.tsx`): nav items, cart/account sr-only labels
-  - Cart drawer (`src/components/cart/Cart.tsx`): empty state, buttons, subtotal, notes
-  - Cookie consent (`src/components/layout/CookieConsent.tsx`): modal titles, categories, buttons, notice
-
-- Locale files updated:
-  - `src/locales/en.json`, `src/locales/nl.json`, `src/locales/fr.json`
-
-- Remaining candidates to localize (hardcoded strings still present):
-  - Product detail UI labels in `src/components/products/ProductDetailsCard.tsx`
-    - Headers like "Product Details", "Technical Specifications", sections like "Pressure Range", "Power", "Electrical", "Flow", "Dimensions (mm)", etc.
-    - Buttons "Request Quote", "Add to Cart"
-    - Empty-state: "No technical specifications available for this product."
-    - PDF link texts: "View Product PDF", "Page"
-  - Product detail page `src/app/products/[sku]/page.tsx`
-    - Error states: "Error", "Product not found", "Failed to load product"
-    - Stock label: "In Stock"
-    - Section headers: "Description", "Specifications", spec labels like "Category", "Pressure", "Overpressure"
-    - Buttons in edit mode: "Saving…", "Save Crop", "Auto Detect", "Reset"
-  - Layout and utility components minor strings (e.g., mobile menu sr-only in Navbar already mostly covered)
-  - Other routes (about, checkout, account) contain varying amounts of placeholder or demo text; audit recommended.
-
-- Next steps:
-  - Add translation keys for ProductDetailsCard and products/[sku] page labels and replace hardcoded strings
-  - Audit about/checkout/account pages and localize remaining text
-  - Centralize any repeated labels under `common.*`
 
 ## 🔄 CI/CD
 
@@ -950,85 +831,6 @@ jobs:
 - **Architecture Decision Records (ADRs)**: In `/docs/adr/`
 - **Changelog**: `CHANGELOG.md`
 - **Contributing Guidelines**: `CONTRIBUTING.md`
-
-## 🧭 Configuration TODOs (keep this updated)
-
-- [x] Bank transfer checkout flow (Information → Payment → Confirmation)
-  - How to set up
-    - Add env:
-      - `NEXT_PUBLIC_BANK_NAME`
-      - `NEXT_PUBLIC_BANK_ACCOUNT_NAME`
-      - `NEXT_PUBLIC_BANK_IBAN`
-      - `NEXT_PUBLIC_BANK_BIC`
-    - Restart dev server after changes
-  - How to test
-    - Add products to cart → go to `/checkout`
-    - Complete Information → Payment shows bank transfer details and order reference
-    - Submit to see Confirmation with same bank details
-
-- [x] Order confirmation emails via Resend on checkout
-  - How to set up
-    - Env: `RESEND_API_KEY`
-    - Optional: `ORDER_NOTIFY_EMAILS` (comma-separated; defaults to `sales@demashop.com,nicolas.cloet@gmail.com`)
-    - API: `POST /api/orders/confirm` (used by checkout submit)
-  - How to test
-    - Fill checkout and submit → email sent to customer and BCC to notify list
-    - Or send manual request:
-      ```http
-      POST /api/orders/confirm
-      Content-Type: application/json
-
-      {
-        "orderRef":"DEMA-TEST-1234",
-        "items":[{"sku":"SKU1","name":"Item","quantity":1,"price":10}],
-        "totals":{"subtotal":10,"shipping":0,"tax":2.1,"total":12.1},
-        "customer":{"email":"you@example.com"},
-        "bank":{"accountName":"...","bankName":"...","iban":"...","bic":"..."}
-      }
-      ```
-
-- [ ] NextAuth session-driven checkout auto-fill
-  - How to set up
-    - Integrate NextAuth, expose session user profile fields (email, name, address, phone)
-    - In `checkout/page.tsx`, read from session and prefill form
-  - How to test
-    - Sign in → open checkout → fields are prefilled; toggle billing details if ordering for someone else
-
-- [ ] Localized order confirmation emails (per locale template)
-  - How to set up
-    - Create per-locale HTML/text templates and select by `locale` in `/api/orders/confirm`
-  - How to test
-    - Switch site language and place an order → email language matches selection
-
-- [ ] Product image override API auth
-  - How to set up
-    - Protect `POST /api/product-image-overrides` behind admin/auth guard
-  - How to test
-    - Attempt override as non-admin → denied
-    - As admin → can save override
-
-- [ ] Full i18n sweep of About/Account pages
-  - How to test
-    - Switch languages and verify all visible strings are translated
-
-- [ ] API error messages i18n for orders/contact
-  - How to set up
-    - Return localized error messages in API responses based on request locale
-  - How to test
-    - Trigger known errors (missing fields, invalid inputs) and verify localized responses
-
-- [ ] Optional Stripe enablement (future card payments)
-  - How to set up
-    - Env: `STRIPE_SECRET_KEY`, `NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY`
-    - Add Stripe PaymentIntent flow and UI toggle between Bank Transfer / Card
-  - How to test
-    - Use Stripe test keys and cards; ensure orders and emails reflect card payments
-
-When any configuration is added or changed, update this section with:
-- What was added
-- Required env vars
-- How to test locally
-- Any caveats
 
 ## 🤝 Contributing
 
