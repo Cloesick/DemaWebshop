@@ -1,7 +1,7 @@
 # DemaWebshop - Industrial Equipment E-commerce Platform
 
 <div align="center">
-  <img src="public/logo.svg" alt="DemaWebshop Logo" width="200">
+  <img src="public/logo.webp" alt="DemaWebshop Logo" width="200">
   <h2>Your One-Stop Shop for Industrial Equipment</h2>
   <p>
     <a href="#key-features">Features</a> • 
