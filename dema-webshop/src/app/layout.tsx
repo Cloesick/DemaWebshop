@@ -49,9 +49,6 @@ export default async function RootLayout({
       <head>
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        {/* Additional meta tags */}
-        <meta name="google-site-verification" content="" />
-        <meta name="google-site-verification" content="" />
       </head>
       <body className={`${inter.variable} font-sans bg-white text-gray-900 flex flex-col min-h-screen`}>
         <Providers>
