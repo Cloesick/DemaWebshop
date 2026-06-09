@@ -1,0 +1,89 @@
+// DemaShop data model — single source of truth for products.
+// Provider is Postgres (Neon / Vercel Postgres / Supabase all work unchanged).
+// After editing: `npx prisma migrate dev --name <change>` then `npx prisma generate`.
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+enum PriceMode {
+  request_quote // quote-only (default for the commodity / long-tail catalog)
+  fixed // transactional: has a real price
+  call_for_price
+}
+
+enum StockStatus {
+  in_stock
+  out_of_stock
+  unknown
+}
+
+/// A source catalog (originally a supplier PDF). One per brand/range.
+model Catalog {
+  id           String    @id @default(cuid())
+  slug         String    @unique // e.g. "makita-catalogus-2022-nl"
+  title        String // display name, e.g. "Makita 2022"
+  brand        String? // set when the whole catalog is one brand (Makita, Airpress, Kränzle…)
+  pdfSource    String? // "<name>.pdf"
+  productCount Int       @default(0)
+  products     Product[]
+  createdAt    DateTime  @default(now())
+  updatedAt    DateTime  @updatedAt
+}
+
+/// One sellable/quotable product. Hybrid: price is optional (quote-only) until set.
+model Product {
+  id          String  @id @default(cuid())
+  sku         String  @unique
+  slug        String  @unique
+  name        String
+  description String?
+  brand       String?
+  brandSource String? // how brand was set: "catalog" | "icecat" | "manual"
+
+  catalog     Catalog? @relation(fields: [catalogId], references: [id])
+  catalogId   String?
+  catalogSlug String // denormalized for fast filtering without a join
+
+  // Commerce (hybrid model)
+  price       Decimal?    @db.Decimal(10, 2)
+  currency    String      @default("EUR")
+  priceMode   PriceMode   @default(request_quote)
+  stockStatus StockStatus @default(unknown)
+  stockQty    Int?
+
+  // Identifiers used to match against ICEcat / manufacturer data (Step 3 enrichment)
+  ean String? // GTIN/EAN barcode
+  mpn String? // manufacturer part number
+
+  // Media (ordered; URLs under /product-images or a CDN)
+  images       String[]
+  primaryImage String?
+
+  // Flexible technical data. `specs` = normalized parsed values
+  // (pressure_max_bar, length_m, diameter_mm, …); `attributes` = raw source bag.
+  specs      Json?
+  attributes Json?
+
+  // Provenance + enrichment bookkeeping
+  pdfSource        String?
+  sourcePages      Int[]
+  enrichedAt       DateTime?
+  enrichmentSource String? // "icecat" | "manufacturer" | null
+
+  // Data-quality flags raised during import (e.g. "artifact_suspect",
+  // "dirty_sku", "placeholder_content") so the UI/enrichment can triage.
+  qaFlags String[] @default([])
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([catalogSlug])
+  @@index([brand])
+  @@index([priceMode])
+}
