@@ -66,11 +66,11 @@ MIN_IMAGE_HEIGHT = 100
 
 # Minimum area (width * height) for product images
 # Filters out small logos, icons, and brand marks
-MIN_IMAGE_AREA = 15000  # e.g., 150x100 or 120x125
+MIN_IMAGE_AREA = 10000  # e.g., 100x100 or 114x103 (rubber-slangen accessory images)
 
 # Maximum aspect ratio deviation from square (filters out banners/strips)
 # Ratio > 3.0 means very wide or very tall (likely a banner or logo strip)
-MAX_ASPECT_RATIO = 3.0
+MAX_ASPECT_RATIO = 4.0  # Allow slightly wider images (rubber-slangen hose images are ~3.05)
 
 # Maximum distance (in PDF points) between image bottom and table top
 # for them to be considered related
@@ -990,6 +990,8 @@ def update_image_sku_mapping(
     Returns:
         Number of images added/updated in the mapping
     """
+    from collections import defaultdict
+    
     # Load all SKUs from the JSON grouped by series_id
     try:
         with open(json_path, "r", encoding="utf-8") as f:
