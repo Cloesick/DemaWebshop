@@ -139,7 +139,7 @@ const getImageUrl = (product?: Product | null): string => {
   }
   
   // If the product has an image URL, use it
-  if ('image' in product && product.image) {
+  if ('image' in product && typeof product.image === 'string' && product.image) {
     return product.image;
   }
   

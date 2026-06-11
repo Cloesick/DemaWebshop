@@ -15,10 +15,10 @@ interface Product {
 
 export async function GET(
   request: Request,
-  { params }: { params: { sku: string } }
+  { params }: { params: Promise<{ sku: string }> }
 ) {
   try {
-    const { sku } = params;
+    const { sku } = await params;
     
     // Read the JSON file
     const jsonDirectory = path.join(process.cwd(), 'public', 'data');

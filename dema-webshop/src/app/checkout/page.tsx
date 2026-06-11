@@ -65,7 +65,7 @@ export default function CheckoutPage() {
     { id: '1', name: 'Sample Product', price: 99.99, quantity: 1 },
   ];
   const subtotal = cartItems.reduce((sum, item) => sum + item.price * item.quantity, 0);
-  const shipping = 0;
+  const shipping: number = 0;
   const tax = subtotal * 0.21;
   const total = subtotal + shipping + tax;
 
