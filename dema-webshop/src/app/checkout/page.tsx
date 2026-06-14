@@ -17,11 +17,7 @@ type FormData = {
   country: string;
   phone: string;
   saveInfo: boolean;
-  paymentMethod: 'credit-card' | 'bank-transfer' | 'on-delivery';
-  cardNumber: string;
-  cardExpiry: string;
-  cardCvc: string;
-  cardName: string;
+  paymentMethod: 'bank-transfer' | 'on-delivery';
   terms: boolean;
 };
 
@@ -40,10 +36,6 @@ export default function CheckoutPage() {
     phone: '',
     saveInfo: true,
     paymentMethod: 'bank-transfer',
-    cardNumber: '',
-    cardExpiry: '',
-    cardCvc: '',
-    cardName: '',
     terms: false,
   });
 
@@ -396,87 +388,10 @@ export default function CheckoutPage() {
                 <h2 className="text-lg font-medium text-gray-900 mb-6">{t('checkout.payment_method')}</h2>
                 
                 <div className="space-y-4">
-                  <div className="flex items-center">
-                    <input
-                      id="credit-card"
-                      name="paymentMethod"
-                      type="radio"
-                      value="credit-card"
-                      checked={formData.paymentMethod === 'credit-card'}
-                      onChange={handleChange}
-                      className="h-4 w-4 text-primary focus:ring-primary border-gray-300"
-                    />
-                    <label htmlFor="credit-card" className="ml-3 block text-sm font-medium text-gray-700">
-                      {t('checkout.payment.credit_card')}
-                    </label>
-                  </div>
+                  {/* Raw card collection removed — never PCI-handle card data in
+                      app state. Stripe Elements will be wired for the
+                      transactional subset; bank transfer / cash on delivery below. */}
 
-                  {formData.paymentMethod === 'credit-card' && (
-                    <div className="mt-4 space-y-4 pl-6">
-                      <div>
-                            <label htmlFor="cardNumber" className="block text-sm font-medium text-gray-700">
-                              {t('checkout.card.number')}
-                            </label>
-                            <input
-                              type="text"
-                              id="cardNumber"
-                              name="cardNumber"
-                              required
-                              value={formData.cardNumber}
-                              onChange={handleChange}
-                              placeholder="1234 1234 1234 1234"
-                              className="mt-1 block w-full border border-gray-300 rounded-md shadow-sm py-2 px-3 focus:outline-none focus:ring-primary focus:border-primary sm:text-sm"
-                            />
-                          </div>
-                          <div className="grid grid-cols-2 gap-4">
-                            <div>
-                              <label htmlFor="cardExpiry" className="block text-sm font-medium text-gray-700">
-                                {t('checkout.card.expiry')}
-                              </label>
-                              <input
-                                type="text"
-                                id="cardExpiry"
-                                name="cardExpiry"
-                                required
-                                value={formData.cardExpiry}
-                                onChange={handleChange}
-                                placeholder="MM/YY"
-                                className="mt-1 block w-full border border-gray-300 rounded-md shadow-sm py-2 px-3 focus:outline-none focus:ring-primary focus:border-primary sm:text-sm"
-                              />
-                            </div>
-                            <div>
-                              <label htmlFor="cardCvc" className="block text-sm font-medium text-gray-700">
-                                {t('checkout.card.cvc')}
-                              </label>
-                              <input
-                                type="text"
-                                id="cardCvc"
-                                name="cardCvc"
-                                required
-                                value={formData.cardCvc}
-                                onChange={handleChange}
-                                placeholder="CVC"
-                                className="mt-1 block w-full border border-gray-300 rounded-md shadow-sm py-2 px-3 focus:outline-none focus:ring-primary focus:border-primary sm:text-sm"
-                              />
-                            </div>
-                          </div>
-                          <div>
-                            <label htmlFor="cardName" className="block text-sm font-medium text-gray-700">
-                              {t('checkout.card.name')}
-                            </label>
-                            <input
-                              type="text"
-                              id="cardName"
-                              name="cardName"
-                              required
-                              value={formData.cardName}
-                              onChange={handleChange}
-                              className="mt-1 block w-full border border-gray-300 rounded-md shadow-sm py-2 px-3 focus:outline-none focus:ring-primary focus:border-primary sm:text-sm"
-                            />
-                          </div>
-                        </div>
-                      )}
-                      
                       <div className="flex items-center">
                         <input
                           id="bank-transfer"
