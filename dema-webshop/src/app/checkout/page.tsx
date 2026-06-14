@@ -94,7 +94,7 @@ export default function CheckoutPage() {
         sku: it.sku,
         name: it.description?.split(' ').slice(0, 3).join(' ') || it.sku,
         quantity: it.quantity,
-        price: Number((it.sku?.length || 1) * 10)
+        price: Number(it.price ?? 0)
       }));
       const subtotalCalc = items.reduce((s, it) => s + it.price * it.quantity, 0);
       const shippingCalc = 0;
@@ -133,7 +133,7 @@ export default function CheckoutPage() {
 
   // Cart data from store
   const cartItems = useCartStore(s => s.items);
-  const subtotal: number = cartItems.reduce((sum: number, item: any) => sum + ((item.sku?.length || 1) * 10) * item.quantity, 0);
+  const subtotal: number = cartItems.reduce((sum: number, item: any) => sum + (Number(item.price) || 0) * item.quantity, 0);
   const shipping: number = 0;
   const tax: number = subtotal * 0.21;
   const total: number = subtotal + shipping + tax;
@@ -353,7 +353,7 @@ export default function CheckoutPage() {
                             <p className="mt-1 text-sm text-gray-500">{t('checkout.qty')} {item.quantity}</p>
                           </div>
                           <p className="mt-2 text-sm font-medium text-gray-900">
-                            €{(((item?.sku?.length || 1) * 10) * item.quantity).toFixed(2)}
+                            {item.price ? `€${((Number(item.price) || 0) * item.quantity).toFixed(2)}` : t('product.request_quote')}
                           </p>
                         </div>
                       </li>
@@ -479,7 +479,7 @@ export default function CheckoutPage() {
                                 <p className="mt-1 text-sm text-gray-500">{t('checkout.qty')} {item.quantity}</p>
                               </div>
                               <p className="mt-2 text-sm font-medium text-gray-900">
-                                €{(((item?.sku?.length || 1) * 10) * item.quantity).toFixed(2)}
+                                {item.price ? `€${((Number(item.price) || 0) * item.quantity).toFixed(2)}` : t('product.request_quote')}
                               </p>
                             </div>
                           </li>

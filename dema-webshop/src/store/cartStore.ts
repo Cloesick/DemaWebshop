@@ -58,9 +58,10 @@ export const useCartStore = create<CartStore>((set, get) => ({
   
   itemCount: () => get().items.reduce((total, item) => total + item.quantity, 0),
   
+  // Sums real prices only; quote-only items (no price) contribute 0.
   totalPrice: () =>
     get().items.reduce(
-      (total, item) => total + (item.sku.length * 10) * item.quantity,
+      (total, item) => total + (Number(item.price) || 0) * item.quantity,
       0
     ),
 }));

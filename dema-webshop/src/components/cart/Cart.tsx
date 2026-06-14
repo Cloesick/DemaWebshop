@@ -100,7 +100,7 @@ export default function Cart() {
                               <div>
                                 <div className="flex justify-between text-base font-medium text-gray-900">
                                   <h3>{item.description?.split(' ').slice(0, 3).join(' ') || item.sku}</h3>
-                                  <p className="ml-4">€{(item.sku.length * 10 * item.quantity).toFixed(2)}</p>
+                                  <p className="ml-4">{item.price ? `€${((Number(item.price) || 0) * item.quantity).toFixed(2)}` : t('product.request_quote')}</p>
                                 </div>
                                 <p className="mt-1 text-sm text-gray-500">{item.sku}</p>
                               </div>
