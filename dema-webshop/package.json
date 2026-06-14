@@ -12,7 +12,8 @@
     "db:migrate": "prisma migrate dev",
     "db:push": "prisma db push",
     "db:seed": "node prisma/seed.mjs",
-    "db:studio": "prisma studio"
+    "db:studio": "prisma studio",
+    "enrich": "node scripts/enrich-products.mjs"
   },
   "prisma": {
     "seed": "node prisma/seed.mjs"
