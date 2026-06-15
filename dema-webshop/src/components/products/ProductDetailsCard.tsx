@@ -203,7 +203,7 @@ export default function ProductDetailsCard({ product, className = '' }: ProductD
                     )}
                     
                     {/* Connection Types */}
-                    {product.connection_types?.length > 0 && (
+                    {product.connection_types && product.connection_types.length > 0 && (
                       <div>
                         <h4 className="text-sm font-medium text-gray-500 mb-1">Connection Types</h4>
                         <div className="mt-1">
@@ -240,7 +240,7 @@ export default function ProductDetailsCard({ product, className = '' }: ProductD
                     )}
                     
                     {/* Available Sizes */}
-                    {product.dimensions_mm_list?.length > 0 && (
+                    {product.dimensions_mm_list && product.dimensions_mm_list.length > 0 && (
                       <div>
                         <h4 className="text-sm font-medium text-gray-500 mb-1">Available Sizes</h4>
                         <div className="mt-1">
