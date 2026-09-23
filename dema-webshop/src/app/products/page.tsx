@@ -6,26 +6,26 @@ import ProductGroupCard from '@/components/ProductGroupCard';
 import SimpleProductFilters from '@/components/products/SimpleProductFilters';
 import { Grid, List, Search } from 'lucide-react';
 
-// Map old catalog names to new grouped pages
+// Map catalog identifiers to the consolidated dynamic listing route.
 const GROUPED_CATALOG_MAP: Record<string, string> = {
-  'abs-persluchtbuizen': '/catalog/abs-grouped',
-  'slangkoppelingen': '/catalog/slangkoppelingen-grouped',
-  'slangklemmen': '/catalog/slangklemmen-grouped',
-  'pu-afzuigslangen': '/catalog/pu-afzuigslangen-grouped',
-  'rubber-slangen': '/catalog/rubber-slangen-grouped',
-  'drukbuizen': '/catalog/drukbuizen-grouped',
-  'pe-buizen': '/catalog/pe-buizen-grouped',
-  'verzinkte-buizen': '/catalog/verzinkte-buizen-grouped',
-  'kunststof-afvoerleidingen': '/catalog/kunststof-afvoerleidingen-grouped',
-  'messing-draadfittingen': '/catalog/messing-draadfittingen-grouped',
-  'rvs-draadfittingen': '/catalog/rvs-draadfittingen-grouped',
-  'zwarte-draad-en-lasfittingen': '/catalog/zwarte-draad-en-lasfittingen-grouped',
-  'pomp-specials': '/catalog/pomp-specials-grouped',
-  'centrifugaalpompen': '/catalog/centrifugaalpompen-grouped',
-  'dompelpompen': '/catalog/dompelpompen-grouped',
-  'bronpompen': '/catalog/bronpompen-grouped',
-  'pompentoebehoren': '/catalog/pompentoebehoren-grouped',
-  'aandrijftechniek': '/catalog/aandrijftechniek-grouped'
+  'abs-persluchtbuizen': '/catalog/group/abs-persluchtbuizen',
+  'slangkoppelingen': '/catalog/group/slangkoppelingen',
+  'slangklemmen': '/catalog/group/slangklemmen',
+  'pu-afzuigslangen': '/catalog/group/pu-afzuigslangen',
+  'rubber-slangen': '/catalog/group/rubber-slangen',
+  'drukbuizen': '/catalog/group/drukbuizen',
+  'pe-buizen': '/catalog/group/pe-buizen',
+  'verzinkte-buizen': '/catalog/group/verzinkte-buizen',
+  'kunststof-afvoerleidingen': '/catalog/group/kunststof-afvoerleidingen',
+  'messing-draadfittingen': '/catalog/group/messing-draadfittingen',
+  'rvs-draadfittingen': '/catalog/group/rvs-draadfittingen',
+  'zwarte-draad-en-lasfittingen': '/catalog/group/zwarte-draad-en-lasfittingen',
+  'pomp-specials': '/catalog/group/pomp-specials',
+  'centrifugaalpompen': '/catalog/group/centrifugaalpompen',
+  'dompelpompen': '/catalog/group/dompelpompen',
+  'bronpompen': '/catalog/group/bronpompen',
+  'pompentoebehoren': '/catalog/group/digitale-versie-pompentoebehoren-compressed',
+  'aandrijftechniek': '/catalog/group/catalogus-aandrijftechniek-150922'
 };
 
 export default function ProductsPage() {

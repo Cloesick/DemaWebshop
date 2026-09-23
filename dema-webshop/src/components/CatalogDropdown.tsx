@@ -5,22 +5,22 @@ import Link from 'next/link';
 import { ChevronDown, FileText } from 'lucide-react';
 
 const ALL_CATALOGS = [
-  { name: 'Bronpompen', url: '/catalog/bronpompen-grouped', icon: '🚰' },
-  { name: 'Aandrijftechniek', url: '/catalog/aandrijftechniek-grouped', icon: '⚙️' },
-  { name: 'Centrifugaalpompen', url: '/catalog/centrifugaalpompen-grouped', icon: '💧' },
-  { name: 'Pompentoebehoren', url: '/catalog/pompentoebehoren-grouped', icon: '🔧' },
-  { name: 'Dompelpompen', url: '/catalog/dompelpompen-grouped', icon: '⬇️' },
-  { name: 'Drukbuizen', url: '/catalog/drukbuizen-grouped', icon: '🌀' },
-  { name: 'Kunststof Afvoerleidingen', url: '/catalog/kunststof-afvoerleidingen-grouped', icon: '🚿' },
-  { name: 'Messing Draadfittingen', url: '/catalog/messing-draadfittingen-grouped', icon: '🔩' },
-  { name: 'PE Buizen', url: '/catalog/pe-buizen-grouped', icon: '📦' },
-  { name: 'PU Afzuigslangen', url: '/catalog/pu-afzuigslangen-grouped', icon: '🌊' },
-  { name: 'RVS Draadfittingen', url: '/catalog/rvs-draadfittingen-grouped', icon: '✨' },
-  { name: 'Rubber Slangen', url: '/catalog/rubber-slangen-grouped', icon: '🔌' },
-  { name: 'Slangklemmen', url: '/catalog/slangklemmen-grouped', icon: '🗜️' },
-  { name: 'Slangkoppelingen', url: '/catalog/slangkoppelingen-grouped', icon: '🔗' },
-  { name: 'Verzinkte Buizen', url: '/catalog/verzinkte-buizen-grouped', icon: '🏗️' },
-  { name: 'Zwarte Draad/Lasfittingen', url: '/catalog/zwarte-draad-en-lasfittingen-grouped', icon: '⚫' },
+  { name: 'Bronpompen', url: '/catalog/group/bronpompen', icon: '🚰' },
+  { name: 'Aandrijftechniek', url: '/catalog/group/catalogus-aandrijftechniek-150922', icon: '⚙️' },
+  { name: 'Centrifugaalpompen', url: '/catalog/group/centrifugaalpompen', icon: '💧' },
+  { name: 'Pompentoebehoren', url: '/catalog/group/digitale-versie-pompentoebehoren-compressed', icon: '🔧' },
+  { name: 'Dompelpompen', url: '/catalog/group/dompelpompen', icon: '⬇️' },
+  { name: 'Drukbuizen', url: '/catalog/group/drukbuizen', icon: '🌀' },
+  { name: 'Kunststof Afvoerleidingen', url: '/catalog/group/kunststof-afvoerleidingen', icon: '🚿' },
+  { name: 'Messing Draadfittingen', url: '/catalog/group/messing-draadfittingen', icon: '🔩' },
+  { name: 'PE Buizen', url: '/catalog/group/pe-buizen', icon: '📦' },
+  { name: 'PU Afzuigslangen', url: '/catalog/group/pu-afzuigslangen', icon: '🌊' },
+  { name: 'RVS Draadfittingen', url: '/catalog/group/rvs-draadfittingen', icon: '✨' },
+  { name: 'Rubber Slangen', url: '/catalog/group/rubber-slangen', icon: '🔌' },
+  { name: 'Slangklemmen', url: '/catalog/group/slangklemmen', icon: '🗜️' },
+  { name: 'Slangkoppelingen', url: '/catalog/group/slangkoppelingen', icon: '🔗' },
+  { name: 'Verzinkte Buizen', url: '/catalog/group/verzinkte-buizen', icon: '🏗️' },
+  { name: 'Zwarte Draad/Lasfittingen', url: '/catalog/group/zwarte-draad-en-lasfittingen', icon: '⚫' },
 ];
 
 interface CatalogDropdownProps {

@@ -446,7 +446,7 @@ export default function CatalogHighlightsPage() {
               {featuredCatalogs.map(catalog => (
                 <Link
                   key={catalog.id}
-                  href={`/catalog/${catalog.name}-grouped`}
+                  href={`/catalog/group/${catalog.name}`}
                   className="group bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border-4 border-yellow-400"
                 >
                   <div className={`bg-gradient-to-r ${catalog.color} p-6 text-white relative overflow-hidden`}>
@@ -497,7 +497,7 @@ export default function CatalogHighlightsPage() {
             {filteredCatalogs.map(catalog => (
               <Link
                 key={catalog.id}
-                href={`/catalog/${catalog.name}-grouped`}
+                href={`/catalog/group/${catalog.name}`}
                 className="group bg-white rounded-xl shadow-md overflow-hidden hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1"
               >
                 <div className={`bg-gradient-to-r ${catalog.color} p-6 text-white relative`}>

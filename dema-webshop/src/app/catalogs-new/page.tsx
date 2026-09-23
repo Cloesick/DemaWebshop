@@ -140,7 +140,7 @@ export default function CatalogsOverviewPage() {
           {catalogs.map((catalog) => (
             <Link
               key={catalog.name}
-              href={catalog.hasData ? `/catalog/${catalog.name}-grouped` : '#'}
+              href={catalog.hasData ? `/catalog/group/${catalog.name}` : '#'}
               className={`group ${
                 catalog.hasData 
                   ? 'cursor-pointer hover:scale-105' 
