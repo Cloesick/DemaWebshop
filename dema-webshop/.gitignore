@@ -43,3 +43,10 @@ next-env.d.ts
 # OS
 Thumbs.db
 .DS_Store
+
+# --- secrets (claude 2026-10-03) ---
+.env.*
+!.env.example
+*.pem
+*.key
+service-account*.json
